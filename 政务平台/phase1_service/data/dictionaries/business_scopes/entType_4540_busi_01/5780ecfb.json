@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "H6233",
+        "saveHyCode": "6233",
+        "hyPecul": "酒吧服务",
+        "hyTypeName": "酒吧服务",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列酒吧服务：",
+        "includes": "各类酒吧服务。",
+        "unIncludes": "不包括：演艺吧（以演艺、歌舞及蹦迪、交谊舞等为主，辅有饮料、食品的场所），列入9011（歌舞厅娱乐活动）。",
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "酒吧服务",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

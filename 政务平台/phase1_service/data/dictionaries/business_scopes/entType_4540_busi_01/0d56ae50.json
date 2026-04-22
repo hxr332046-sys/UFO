@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C1713",
+        "saveHyCode": "1713",
+        "hyPecul": "棉印染精加工",
+        "hyTypeName": "棉印染精加工",
+        "enHyTypeName": null,
+        "explains": "指对非自产的棉和化学纤维织物进行漂白、染色、印花、轧光、起绒、缩水等工序的加工。",
+        "includesTitle": "包括对下列棉印染的精加工活动：",
+        "includes": "漂白布：漂白棉布、漂白棉混纺布、漂白化学纤维布；染色布：染色棉布、染色棉混纺布、染色化学纤维布；印花布：印花棉布、印花棉混纺布、印花化学纤维布。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "棉印染精",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

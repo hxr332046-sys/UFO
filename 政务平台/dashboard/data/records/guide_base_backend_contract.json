@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-04-14 22:44:00",
+  "topic": "guide/base request trigger contract (minimum observable set)",
+  "contracts": [
+    {
+      "id": "C1_side_effect_contract",
+      "description": "guide/base valid next-step action must produce at least one side effect",
+      "assertion": "hash changed OR /icpsp-api/ request count increased",
+      "status": "failed_in_02_4_and_07"
+    },
+    {
+      "id": "C2_vm_call_contract",
+      "description": "calling flowSave/fzjgFlowSave alone is not sufficient to trigger backend transition",
+      "assertion": "method call exists but request count remains unchanged",
+      "status": "failed_in_02_4_and_07"
+    },
+    {
+      "id": "C3_payload_context_contract",
+      "description": "backend operation endpoints need non-null business context fields",
+      "fields": [
+        "flowData",
+        "linkData.token",
+        "linkData.compUrl",
+        "linkData.busiCompUrlPaths",
+        "itemId"
+      ],
+      "evidence": "member-post records show null linkData leading to A0002"
+    }
+  ],
+  "evidence_files": [
+    "guide_base_strategy_engine_run.json",
+    "guide_base_state_machine_trace.json",
+    "retry_member_save_with_resp_capture_02_4.json",
+    "force_memberpost_flowsave_with_cb_02_4.json"
+  ],
+  "inference": {
+    "frontend_blocking": "guide/base gate prevents contract entry, so backend requests are never emitted",
+    "backend_requirement": "when request is emitted without complete context, server returns A0002"
+  }
+}
+

@@ -1,0 +1,108 @@
+{
+  "started_at": "2026-04-15 11:25:34",
+  "steps": [
+    {
+      "step": "call_validateNameAndSerialNum",
+      "data": {
+        "ok": true,
+        "cases": [
+          {
+            "ok": false,
+            "arg": {
+              "name": "广西智信数据科技有限公司",
+              "number": "GX2024001"
+            },
+            "err": "[object Object]",
+            "err_json": "{\"code\":\"C0400\",\"data\":null,\"msg\":\"参数[entName]不能为空\",\"page\":null}"
+          },
+          {
+            "ok": false,
+            "arg": {
+              "entName": "广西智信数据科技有限公司",
+              "number": "GX2024001"
+            },
+            "err": "[object Object]",
+            "err_json": "{\"code\":\"C0400\",\"data\":null,\"msg\":\"参数[serialNum]不能为空\",\"page\":null}"
+          },
+          {
+            "ok": true,
+            "arg": {
+              "entName": "广西智信数据科技有限公司",
+              "serialNum": "GX2024001"
+            },
+            "r": {
+              "code": "00000",
+              "data": {
+                "resultType": "0",
+                "msg": "",
+                "busiData": {
+                  "busiId": null,
+                  "entType": null,
+                  "name": null,
+                  "nameId": null,
+                  "entityTypeName": null,
+                  "saveperfrom": null,
+                  "saveperTo": null,
+                  "expireDay": "0",
+                  "orgName": null,
+                  "domDistrict": null
+                }
+              },
+              "msg": "操作成功",
+              "page": null
+            }
+          },
+          {
+            "ok": false,
+            "arg": {
+              "entName": "广西智信数据科技有限公司",
+              "reserveNo": "GX2024001"
+            },
+            "err": "[object Object]",
+            "err_json": "{\"code\":\"C0400\",\"data\":null,\"msg\":\"参数[serialNum]不能为空\",\"page\":null}"
+          },
+          {
+            "ok": false,
+            "arg": {
+              "entName": "广西智信数据科技有限公司",
+              "nameCode": "1",
+              "number": "GX2024001"
+            },
+            "err": "[object Object]",
+            "err_json": "{\"code\":\"C0400\",\"data\":null,\"msg\":\"参数[serialNum]不能为空\",\"page\":null}"
+          },
+          {
+            "ok": true,
+            "arg": {
+              "entName": "广西智信数据科技有限公司（个人独资）",
+              "serialNum": "GX2024001",
+              "entType": "4540"
+            },
+            "r": {
+              "code": "00000",
+              "data": {
+                "resultType": "0",
+                "msg": "",
+                "busiData": {
+                  "busiId": null,
+                  "entType": null,
+                  "name": null,
+                  "nameId": null,
+                  "entityTypeName": null,
+                  "saveperfrom": null,
+                  "saveperTo": null,
+                  "expireDay": "0",
+                  "orgName": null,
+                  "domDistrict": null
+                }
+              },
+              "msg": "操作成功",
+              "page": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "ended_at": "2026-04-15 11:25:34"
+}

@@ -1,0 +1,46 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C2042",
+        "saveHyCode": "2042",
+        "hyPecul": "藤制品",
+        "hyTypeName": "藤制品制造",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列藤制品的制造活动：",
+        "includes": "藤制席；藤枕头；藤垫子；藤包；藤篮；藤帽；其他藤制品。",
+        "unIncludes": "不包括：竹藤家具，列入2120（竹、藤家具制造）；竹藤棕草工艺品，分别列入2431（雕塑工艺品制造）和2435（天然植物纤维编织工艺品制造）。",
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "C2042",
+        "saveHyCode": "2042",
+        "hyPecul": "藤制品制造",
+        "hyTypeName": "藤制品制造",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列藤制品的制造活动：",
+        "includes": "藤制席；藤枕头；藤垫子；藤包；藤篮；藤帽；其他藤制品。",
+        "unIncludes": "不包括：竹藤家具，列入2120（竹、藤家具制造）；竹藤棕草工艺品，分别列入2431（雕塑工艺品制造）和2435（天然植物纤维编织工艺品制造）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "藤制品",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

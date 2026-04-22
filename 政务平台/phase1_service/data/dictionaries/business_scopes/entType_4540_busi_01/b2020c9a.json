@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "L7124",
+        "saveHyCode": "7124",
+        "hyPecul": "图书出租",
+        "hyTypeName": "图书出租",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列图书出租服务：",
+        "includes": "各种图书出租服务。",
+        "unIncludes": "不包括：图书馆的租书业务，列入8831（图书馆）。",
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "图书出租",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

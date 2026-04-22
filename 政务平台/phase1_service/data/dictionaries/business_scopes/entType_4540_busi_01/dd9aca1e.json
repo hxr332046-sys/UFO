@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "O8052",
+        "saveHyCode": "8052",
+        "hyPecul": "足浴服务",
+        "hyTypeName": "足浴服务",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列足浴服务活动：",
+        "includes": "洗脚服务；足底按摩；中医足疗保健。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "足浴服务",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

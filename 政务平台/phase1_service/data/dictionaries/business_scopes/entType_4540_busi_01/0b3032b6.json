@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "F5295",
+        "saveHyCode": "5295",
+        "hyPecul": "旧货零售",
+        "hyTypeName": "旧货零售",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列旧货的零售活动：",
+        "includes": "旧货零售服务。",
+        "unIncludes": "不包括：信托服务，分别列入6911（信托公司）、6919（其他金融信托与管理服务）；寄卖行服务，列入5189（其他贸易经纪与代理）；典当行的活动，列入6633（典当）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "旧货零售",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

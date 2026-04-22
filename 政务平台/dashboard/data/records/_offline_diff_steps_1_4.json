@@ -1,0 +1,222 @@
+{
+  "schema": "offline_diff_steps_1_4.v1",
+  "steps": {
+    "/icpsp-api/v4/pc/register/guide/establishname/checkEstablishName": {
+      "api": "/icpsp-api/v4/pc/register/guide/establishname/checkEstablishName",
+      "driver_body": {
+        "entType": "4540",
+        "nameCode": "0",
+        "distCode": "450921",
+        "streetCode": null,
+        "streetName": null,
+        "address": "广西壮族自治区玉林市容县",
+        "rcMoneyKindCode": "",
+        "distCodeArr": [
+          "450000",
+          "450900",
+          "450921"
+        ],
+        "fzSign": "N",
+        "parentEntRegno": "",
+        "parentEntName": "",
+        "regCapitalUSD": ""
+      },
+      "sample_count": 6,
+      "sample_line_hint": [
+        182,
+        332,
+        430,
+        453,
+        494
+      ],
+      "sample_body_first": {
+        "entType": "4540",
+        "nameCode": "0",
+        "distCode": "450921",
+        "streetCode": null,
+        "streetName": null,
+        "address": "广西壮族自治区玉林市容县",
+        "rcMoneyKindCode": "",
+        "distCodeArr": [
+          "450000",
+          "450900",
+          "450921"
+        ],
+        "fzSign": "N",
+        "parentEntRegno": "",
+        "parentEntName": "",
+        "regCapitalUSD": ""
+      },
+      "diff_vs_first_sample": {
+        "only_in_driver": [],
+        "only_in_sample": [],
+        "value_diff": {}
+      }
+    },
+    "/icpsp-api/v4/pc/register/name/loadCurrentLocationInfo": {
+      "api": "/icpsp-api/v4/pc/register/name/loadCurrentLocationInfo",
+      "driver_body": {
+        "flowData": {
+          "busiId": "",
+          "busiType": "01_4",
+          "entType": "4540"
+        },
+        "linkData": {
+          "token": ""
+        }
+      },
+      "sample_count": 15,
+      "sample_line_hint": [
+        183,
+        190,
+        300,
+        333,
+        337
+      ],
+      "sample_body_first": {
+        "flowData": {
+          "busiId": "",
+          "busiType": "01_4",
+          "entType": "4540"
+        },
+        "linkData": {
+          "token": ""
+        }
+      },
+      "diff_vs_first_sample": {
+        "only_in_driver": [],
+        "only_in_sample": [],
+        "value_diff": {}
+      }
+    },
+    "/icpsp-api/v4/pc/register/name/component/NameCheckInfo/loadBusinessDataInfo": {
+      "api": "/icpsp-api/v4/pc/register/name/component/NameCheckInfo/loadBusinessDataInfo",
+      "driver_body": {
+        "flowData": {
+          "busiId": null,
+          "entType": "4540",
+          "busiType": "01",
+          "ywlbSign": "4",
+          "busiMode": null,
+          "nameId": null,
+          "marPrId": null,
+          "secondId": null,
+          "vipChannel": "null",
+          "currCompUrl": "NameCheckInfo",
+          "status": "10",
+          "matterCode": null,
+          "interruptControl": null
+        },
+        "linkData": {
+          "compUrl": "NameCheckInfo",
+          "compUrlPaths": [
+            "NameCheckInfo"
+          ],
+          "token": ""
+        },
+        "extraDto": {
+          "entType": "4540",
+          "nameCode": "0",
+          "distCode": "450921",
+          "streetCode": null,
+          "streetName": null,
+          "address": "广西壮族自治区玉林市容县",
+          "rcMoneyKindCode": "",
+          "distCodeArr": [
+            "450000",
+            "450900",
+            "450921"
+          ],
+          "fzSign": "N",
+          "parentEntRegno": "",
+          "parentEntName": "",
+          "regCapitalUSD": ""
+        },
+        "itemId": ""
+      },
+      "sample_count": 9,
+      "sample_line_hint": [
+        280,
+        301,
+        340,
+        361,
+        438
+      ],
+      "sample_body_first": {
+        "flowData": {
+          "busiId": null,
+          "entType": "4540",
+          "busiType": "01",
+          "ywlbSign": "4",
+          "busiMode": null,
+          "nameId": null,
+          "marPrId": null,
+          "secondId": null,
+          "vipChannel": "null",
+          "currCompUrl": "NameCheckInfo",
+          "status": "10",
+          "matterCode": null,
+          "interruptControl": null
+        },
+        "linkData": {
+          "compUrl": "NameCheckInfo",
+          "compUrlPaths": [
+            "NameCheckInfo"
+          ],
+          "token": ""
+        },
+        "extraDto": {
+          "entType": "4540",
+          "nameCode": "0",
+          "distCode": "450921",
+          "streetCode": null,
+          "streetName": null,
+          "address": "广西壮族自治区玉林市容县",
+          "rcMoneyKindCode": "",
+          "distCodeArr": [
+            "450000",
+            "450900",
+            "450921"
+          ],
+          "fzSign": "N",
+          "parentEntRegno": "",
+          "parentEntName": "",
+          "regCapitalUSD": ""
+        },
+        "itemId": ""
+      },
+      "diff_vs_first_sample": {
+        "only_in_driver": [],
+        "only_in_sample": [],
+        "value_diff": {}
+      }
+    },
+    "/icpsp-api/v4/pc/register/verifidata/bannedLexiconCalibration": {
+      "api": "/icpsp-api/v4/pc/register/verifidata/bannedLexiconCalibration",
+      "driver_body": {
+        "nameMark": "李陈梦"
+      },
+      "sample_count": 10,
+      "sample_line_hint": [
+        288,
+        289,
+        290,
+        348,
+        349
+      ],
+      "sample_body_first": {
+        "nameMark": "陕西省"
+      },
+      "diff_vs_first_sample": {
+        "only_in_driver": [],
+        "only_in_sample": [],
+        "value_diff": {
+          "nameMark": {
+            "driver": "李陈梦",
+            "sample": "陕西省"
+          }
+        }
+      }
+    }
+  }
+}

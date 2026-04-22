@@ -1,0 +1,408 @@
+{
+  "started_at": "2026-04-19 00:53:57",
+  "finished_at": "2026-04-19 04:07:35",
+  "run_args": {
+    "entType": "1100",
+    "distLimit": 6,
+    "organizeLimit": 3,
+    "industryLimit": 60,
+    "indspecModes": [
+      "industry",
+      "软件",
+      "种植",
+      "科技",
+      "商贸"
+    ],
+    "namePre": "广西",
+    "nameCore": "禾泽诺企研",
+    "nameMarkList": [
+      "禾泽诺",
+      "启诺瑞",
+      "远川衡",
+      "有米米",
+      "驰科蓝",
+      "科技",
+      "鑫鸿泰",
+      "盛云达"
+    ],
+    "sleepMs": 40
+  },
+  "grid_result": {
+    "entType": "1100",
+    "namePre": "广西",
+    "nameCore": "禾泽诺企研",
+    "nameMarkList": [
+      "禾泽诺",
+      "启诺瑞",
+      "远川衡",
+      "有米米",
+      "驰科蓝",
+      "科技",
+      "鑫鸿泰",
+      "盛云达"
+    ],
+    "regions": [
+      "450000",
+      "450100",
+      "450200",
+      "450300",
+      "450400",
+      "450500"
+    ],
+    "organizes": [
+      "有限公司",
+      "有限责任公司"
+    ],
+    "industry_count": 60,
+    "indspec_modes": [
+      "industry",
+      "软件",
+      "种植",
+      "科技",
+      "商贸"
+    ],
+    "total": 28800,
+    "ok": 21586,
+    "stop": 7214,
+    "samples": [
+      {
+        "overall": {
+          "ok": true,
+          "stop": false
+        },
+        "banned_tip": null,
+        "repeat_top_remark": "名称字号相似，来自名称库",
+        "repeat_hit_count": 11,
+        "input": {
+          "name": "广西禾泽诺企研有限公司",
+          "distCode": "450000",
+          "entType": "1100",
+          "organize": "有限公司",
+          "industry": "2140",
+          "industry_name": "塑料家具制造",
+          "indSpec": "塑料家具制造",
+          "namePre": "广西",
+          "nameMark": "禾泽诺"
+        },
+        "survey_meta": {
+          "kind": "grid",
+          "entType": "1100",
+          "distCode": "450000",
+          "organize": "有限公司",
+          "industry": "2140",
+          "indspec_mode": "industry",
+          "nameMark": "禾泽诺"
+        }
+      },
+      {
+        "overall": {
+          "ok": true,
+          "stop": false
+        },
+        "banned_tip": null,
+        "repeat_top_remark": "名称字号相似，来自名称库",
+        "repeat_hit_count": 2,
+        "input": {
+          "name": "广西禾泽诺企研有限公司",
+          "distCode": "450000",
+          "entType": "1100",
+          "organize": "有限公司",
+          "industry": "2140",
+          "industry_name": "塑料家具制造",
+          "indSpec": "塑料家具制造",
+          "namePre": "广西",
+          "nameMark": "启诺瑞"
+        },
+        "survey_meta": {
+          "kind": "grid",
+          "entType": "1100",
+          "distCode": "450000",
+          "organize": "有限公司",
+          "industry": "2140",
+          "indspec_mode": "industry",
+          "nameMark": "启诺瑞"
+        }
+      },
+      {
+        "overall": {
+          "ok": false,
+          "stop": true
+        },
+        "banned_tip": "所申请的企业名称含有限制使用的内容、文字或同音字（<font color=#ffa500>川</font>）。0",
+        "repeat_top_remark": "名称字号相似，来自名称库",
+        "repeat_hit_count": 1,
+        "input": {
+          "name": "广西禾泽诺企研有限公司",
+          "distCode": "450000",
+          "entType": "1100",
+          "organize": "有限公司",
+          "industry": "2140",
+          "industry_name": "塑料家具制造",
+          "indSpec": "塑料家具制造",
+          "namePre": "广西",
+          "nameMark": "远川衡"
+        },
+        "survey_meta": {
+          "kind": "grid",
+          "entType": "1100",
+          "distCode": "450000",
+          "organize": "有限公司",
+          "industry": "2140",
+          "indspec_mode": "industry",
+          "nameMark": "远川衡"
+        }
+      },
+      {
+        "overall": {
+          "ok": true,
+          "stop": false
+        },
+        "banned_tip": null,
+        "repeat_top_remark": "名称字号相似，来自名称库",
+        "repeat_hit_count": 8,
+        "input": {
+          "name": "广西禾泽诺企研有限公司",
+          "distCode": "450000",
+          "entType": "1100",
+          "organize": "有限公司",
+          "industry": "2140",
+          "industry_name": "塑料家具制造",
+          "indSpec": "塑料家具制造",
+          "namePre": "广西",
+          "nameMark": "有米米"
+        },
+        "survey_meta": {
+          "kind": "grid",
+          "entType": "1100",
+          "distCode": "450000",
+          "organize": "有限公司",
+          "industry": "2140",
+          "indspec_mode": "industry",
+          "nameMark": "有米米"
+        }
+      },
+      {
+        "overall": {
+          "ok": true,
+          "stop": false
+        },
+        "banned_tip": null,
+        "repeat_top_remark": "名称字号相似，来自名称库",
+        "repeat_hit_count": 6,
+        "input": {
+          "name": "广西禾泽诺企研有限公司",
+          "distCode": "450000",
+          "entType": "1100",
+          "organize": "有限公司",
+          "industry": "2140",
+          "industry_name": "塑料家具制造",
+          "indSpec": "塑料家具制造",
+          "namePre": "广西",
+          "nameMark": "驰科蓝"
+        },
+        "survey_meta": {
+          "kind": "grid",
+          "entType": "1100",
+          "distCode": "450000",
+          "organize": "有限公司",
+          "industry": "2140",
+          "indspec_mode": "industry",
+          "nameMark": "驰科蓝"
+        }
+      },
+      {
+        "overall": {
+          "ok": false,
+          "stop": true
+        },
+        "banned_tip": "所申请的企业名称，含有禁止使用的内容、文字或其同音字。（<font color=#ffa500>科技</font>）依据《企业名称禁限用规则》相关规定禁止使用！",
+        "repeat_top_remark": "名称字号相同，来自名称库",
+        "repeat_hit_count": 3,
+        "input": {
+          "name": "广西禾泽诺企研有限公司",
+          "distCode": "450000",
+          "entType": "1100",
+          "organize": "有限公司",
+          "industry": "2140",
+          "industry_name": "塑料家具制造",
+          "indSpec": "塑料家具制造",
+          "namePre": "广西",
+          "nameMark": "科技"
+        },
+        "survey_meta": {
+          "kind": "grid",
+          "entType": "1100",
+          "distCode": "450000",
+          "organize": "有限公司",
+          "industry": "2140",
+          "indspec_mode": "industry",
+          "nameMark": "科技"
+        }
+      },
+      {
+        "overall": {
+          "ok": true,
+          "stop": false
+        },
+        "banned_tip": null,
+        "repeat_top_remark": "名称字号相似，来自名称库",
+        "repeat_hit_count": 50,
+        "input": {
+          "name": "广西禾泽诺企研有限公司",
+          "distCode": "450000",
+          "entType": "1100",
+          "organize": "有限公司",
+          "industry": "2140",
+          "industry_name": "塑料家具制造",
+          "indSpec": "塑料家具制造",
+          "namePre": "广西",
+          "nameMark": "鑫鸿泰"
+        },
+        "survey_meta": {
+          "kind": "grid",
+          "entType": "1100",
+          "distCode": "450000",
+          "organize": "有限公司",
+          "industry": "2140",
+          "indspec_mode": "industry",
+          "nameMark": "鑫鸿泰"
+        }
+      },
+      {
+        "overall": {
+          "ok": true,
+          "stop": false
+        },
+        "banned_tip": null,
+        "repeat_top_remark": "名称字号相似，来自名称库",
+        "repeat_hit_count": 13,
+        "input": {
+          "name": "广西禾泽诺企研有限公司",
+          "distCode": "450000",
+          "entType": "1100",
+          "organize": "有限公司",
+          "industry": "2140",
+          "industry_name": "塑料家具制造",
+          "indSpec": "塑料家具制造",
+          "namePre": "广西",
+          "nameMark": "盛云达"
+        },
+        "survey_meta": {
+          "kind": "grid",
+          "entType": "1100",
+          "distCode": "450000",
+          "organize": "有限公司",
+          "industry": "2140",
+          "indspec_mode": "industry",
+          "nameMark": "盛云达"
+        }
+      },
+      {
+        "overall": {
+          "ok": true,
+          "stop": false
+        },
+        "banned_tip": null,
+        "repeat_top_remark": "名称字号相似，来自名称库",
+        "repeat_hit_count": 11,
+        "input": {
+          "name": "广西禾泽诺企研有限公司",
+          "distCode": "450000",
+          "entType": "1100",
+          "organize": "有限公司",
+          "industry": "2140",
+          "industry_name": "塑料家具制造",
+          "indSpec": "软件",
+          "namePre": "广西",
+          "nameMark": "禾泽诺"
+        },
+        "survey_meta": {
+          "kind": "grid",
+          "entType": "1100",
+          "distCode": "450000",
+          "organize": "有限公司",
+          "industry": "2140",
+          "indspec_mode": "软件",
+          "nameMark": "禾泽诺"
+        }
+      },
+      {
+        "overall": {
+          "ok": true,
+          "stop": false
+        },
+        "banned_tip": null,
+        "repeat_top_remark": "名称字号相似，来自名称库",
+        "repeat_hit_count": 2,
+        "input": {
+          "name": "广西禾泽诺企研有限公司",
+          "distCode": "450000",
+          "entType": "1100",
+          "organize": "有限公司",
+          "industry": "2140",
+          "industry_name": "塑料家具制造",
+          "indSpec": "软件",
+          "namePre": "广西",
+          "nameMark": "启诺瑞"
+        },
+        "survey_meta": {
+          "kind": "grid",
+          "entType": "1100",
+          "distCode": "450000",
+          "organize": "有限公司",
+          "industry": "2140",
+          "indspec_mode": "软件",
+          "nameMark": "启诺瑞"
+        }
+      }
+    ]
+  },
+  "knowledge_snapshot": {
+    "stats": {
+      "dict_items_total": 4034,
+      "api_specs_total": 6,
+      "operation_methods_total": 4,
+      "query_cases_total": 39225
+    },
+    "sample_window": 1200,
+    "official_signals": {
+      "top_banned_tips": [
+        {
+          "tip": "所申请的企业名称，含有禁止使用的内容、文字或其同音字。（<font color=#ffa500>科技</font>）依据《企业名称禁限用规则》相关规定禁止使用！",
+          "count": 150
+        },
+        {
+          "tip": "所申请的企业名称含有限制使用的内容、文字或同音字（<font color=#ffa500>川</font>）。0",
+          "count": 150
+        }
+      ],
+      "top_repeat_remarks": [
+        {
+          "remark": "名称字号相似，来自名称库",
+          "count": 1200
+        }
+      ],
+      "stop_cases": 300,
+      "ok_cases": 900,
+      "entType_distribution": [
+        {
+          "entType": "1100",
+          "count": 1200
+        }
+      ]
+    },
+    "protocol_fields": {
+      "nameCheckRepeat_reserved_or_placeholder_fields": [
+        "busiId",
+        "hasParent",
+        "jtParentEntName"
+      ],
+      "note": "reserved/placeholder 指 request_template 中默认空值字段，用于协议重放时按需填充。"
+    }
+  },
+  "artifacts": {
+    "reverse_framework_latest_json": "G:\\UFO\\政务平台\\dashboard\\data\\records\\reverse_framework_latest.json",
+    "auto_survey_report_json": "G:\\UFO\\政务平台\\dashboard\\data\\records\\auto_survey_report_latest.json",
+    "auto_survey_report_md": "G:\\UFO\\政务平台\\dashboard\\data\\records\\auto_survey_report_latest.md"
+  }
+}

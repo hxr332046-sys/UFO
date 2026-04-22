@@ -1,0 +1,134 @@
+{
+  "schema": "ufo.session_bootstrap.v1",
+  "started_at": "2026-04-22 13:39:58",
+  "cdp_port": 9225,
+  "ent_type": "4540",
+  "busi_type": "02_4",
+  "steps": [
+    {
+      "step": "pick_page",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page"
+    },
+    {
+      "step": "navigate_guide_base",
+      "target": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId="
+    },
+    {
+      "step": "probe_after_navigate",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "host": "zhjg.scjdglj.gxzf.gov.cn:9087",
+        "authLen": 32,
+        "hasAuth32": true,
+        "hasTopToken": true,
+        "cookieLen": 0,
+        "cookieHasSession": false,
+        "ping": {
+          "status": 200,
+          "body": {
+            "code": "00000",
+            "data": {
+              "resultType": "0",
+              "msg": "",
+              "busiData": {
+                "id": "824032604",
+                "username": "450921198812051251@123",
+                "elename": "黄永裕",
+                "desensitizeElename": "**裕",
+                "elepaper": "10",
+                "elepapername": "中华人民共和国居民身份证",
+                "elepapernumber": "450921198812051251",
+                "encryptedElepapernumber": "450921198812051251",
+                "tel": "18977514335",
+                "encryptedTel": "18977514335",
+                "email": null,
+                "authflag": "1",
+                "mailFlag": "0",
+                "pwdFlag": "1",
+                "telFlag": "1",
+                "faceFlag": null,
+                "elderType": "0",
+                "languageType": null,
+                "usertype": "6",
+                "uniScID": null,
+                "marPrId": null,
+                "source": "ICPSP",
+                "isEntUser": false,
+                "officeCount": "8"
+              }
+            },
+            "msg": "操作成功",
+            "page": null
+          }
+        }
+      }
+    },
+    {
+      "step": "probe_after_settle",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "host": "zhjg.scjdglj.gxzf.gov.cn:9087",
+        "authLen": 32,
+        "hasAuth32": true,
+        "hasTopToken": true,
+        "cookieLen": 0,
+        "cookieHasSession": false,
+        "ping": {
+          "status": 200,
+          "body": {
+            "code": "00000",
+            "data": {
+              "resultType": "0",
+              "msg": "",
+              "busiData": {
+                "id": "824032604",
+                "username": "450921198812051251@123",
+                "elename": "黄永裕",
+                "desensitizeElename": "**裕",
+                "elepaper": "10",
+                "elepapername": "中华人民共和国居民身份证",
+                "elepapernumber": "450921198812051251",
+                "encryptedElepapernumber": "450921198812051251",
+                "tel": "18977514335",
+                "encryptedTel": "18977514335",
+                "email": null,
+                "authflag": "1",
+                "mailFlag": "0",
+                "pwdFlag": "1",
+                "telFlag": "1",
+                "faceFlag": null,
+                "elderType": "0",
+                "languageType": null,
+                "usertype": "6",
+                "uniScID": null,
+                "marPrId": null,
+                "source": "ICPSP",
+                "isEntUser": false,
+                "officeCount": "8"
+              }
+            },
+            "msg": "操作成功",
+            "page": null
+          }
+        }
+      }
+    },
+    {
+      "step": "sync_runtime_auth",
+      "data": {
+        "ok": true,
+        "auth_last8": "716153e4",
+        "cookie_has_session": false,
+        "cookie_names": [],
+        "referer_used": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html"
+      }
+    }
+  ],
+  "final": {
+    "ok": false,
+    "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+    "authorization_synced": true,
+    "cookie_has_session": false
+  },
+  "ended_at": "2026-04-22 13:40:05"
+}

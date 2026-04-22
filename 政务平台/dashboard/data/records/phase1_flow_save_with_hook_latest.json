@@ -1,0 +1,120 @@
+{
+  "started_at": "2026-04-20 20:33:01",
+  "picked_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+  "steps": [
+    {
+      "step": "ui_before",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "errors": [],
+        "messageBox": [],
+        "buttons": [
+          {
+            "text": "下一步",
+            "disabled": false,
+            "cls": "el-button sub-btn el-button--primary"
+          }
+        ],
+        "body": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案"
+      }
+    },
+    {
+      "step": "install_hook",
+      "data": {
+        "ok": true
+      }
+    },
+    {
+      "step": "flow_save",
+      "data": {
+        "ok": true,
+        "patched": [
+          "refs_proxy",
+          "tniDataPicker",
+          "form",
+          "vm.getFormData"
+        ],
+        "refs": [
+          "tniDataPicker",
+          "form"
+        ],
+        "form": {
+          "nameCode": "0",
+          "havaAdress": "1",
+          "distCode": "450921",
+          "streetCode": "450921",
+          "streetName": "容县",
+          "detAddress": "容州镇车站西路富盛广场1幢3203号房",
+          "address": "容县",
+          "rcMoneyKindCode": null,
+          "isnameType": "0",
+          "choiceName": "0"
+        },
+        "pickerRef": true,
+        "totalAddress": null,
+        "choiceName": "内资有限公司",
+        "flowRet": "undefined",
+        "validates": {
+          "validateEntType": "err:TypeError: a is not a function",
+          "validateDetailAddress": "err:TypeError: a is not a function",
+          "formValidate": true
+        }
+      }
+    },
+    {
+      "step": "click_next",
+      "data": {
+        "ok": true,
+        "clicked": "下一步"
+      }
+    },
+    {
+      "step": "ui_after",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "errors": [],
+        "messageBox": [],
+        "buttons": [
+          {
+            "text": "下一步",
+            "disabled": false,
+            "cls": "el-button sub-btn el-button--primary"
+          },
+          {
+            "text": "确定",
+            "disabled": false,
+            "cls": "el-button el-button--default el-button--small el-button--pri"
+          }
+        ],
+        "body": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请 已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备"
+      }
+    },
+    {
+      "step": "hook_tail",
+      "data": {
+        "count": 2,
+        "items": [
+          {
+            "t": "xhr",
+            "m": "GET",
+            "u": "/icpsp-api/v4/pc/common/synchrdata/queryRegcodeAndStreet?t=1776688383141&fromPage=qykbdb",
+            "body": "",
+            "ts": 1776688383151
+          },
+          {
+            "t": "xhr_end",
+            "u": "/icpsp-api/v4/pc/common/synchrdata/queryRegcodeAndStreet?t=1776688383141&fromPage=qykbdb",
+            "status": 200,
+            "resp": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"allName\":\"广西壮族自治区\",\"children\":[{\"allName\":\"南宁市\",\"children\":[{\"allName\":\"南宁市兴宁区\",\"children\":[],\"name\":\"兴宁区\",\"id\":\"450102\",\"parentId\":\"450100\",\"uniqueId\":\"450102\",\"isStreet\":\"N\"},{\"allName\":\"南宁市青秀区\",\"children\":[],\"name\":\"青秀区\",\"id\":\"450103\",\"parentId\":\"450100\",\"uniqueId\":\"450103\",\"isStreet\":\"N\"},{\"allName\":\"南宁市江南区\",\"children\":[],\"name\":\"江南区\",\"id\":\"450105\",\"parentId\":\"450100\",\"uniqueId\":\"450105\",\"isStreet\":\"N\"},{\"allName\":\"南宁市西乡塘区\",\"children\":[],\"name\":\"西乡塘区\",\"id\":\"450107\",\"parentId\":\"450100\",\"uniqueId\":\"450107\",\"isStreet\":\"N\"},{\"allName\":\"南宁市良庆区\",\"children\":[],\"name\":\"良庆区\",\"id\":\"450108\",\"parentId\":\"450100\",\"uniqueId\":\"450108\",\"isStreet\":\"N\"},{\"allName\":\"南宁市邕宁区\",\"children\":[],\"name\":\"邕宁区\",\"id\":\"450109\",\"parentId\":\"450100\",\"uniqueI",
+            "ts": 1776688383223
+          }
+        ]
+      }
+    }
+  ],
+  "ended_at": "2026-04-20 20:33:10"
+}

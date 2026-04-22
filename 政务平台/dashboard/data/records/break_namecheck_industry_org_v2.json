@@ -1,0 +1,80 @@
+{
+  "started_at": "2026-04-16 00:56:29",
+  "steps": [
+    {
+      "step": "before",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info",
+        "hash": "#/flow/base/name-check-info",
+        "errors": []
+      }
+    },
+    {
+      "step": "fill_try",
+      "data": {
+        "ok": true,
+        "trace": [
+          "org_picked:802",
+          "industry_kw:零售 len=0",
+          "industry_kw:百货 len=0",
+          "industry_kw:商贸 len=0",
+          "industry_kw:贸易 len=0",
+          "industry_fallback_5299",
+          "agree_click",
+          "force_update",
+          "click_save_next"
+        ],
+        "industryListLen": 0,
+        "groupListLen": 59,
+        "formInfo": {
+          "areaCode": "",
+          "namePre": "广西南宁",
+          "nameMark": "智信五金",
+          "allIndKeyWord": "贸易",
+          "showKeyWord": "贸易",
+          "noShowKeyWord": "实业,发展,实业发展,发展实业",
+          "industrySpecial": "批发",
+          "industry": "5299",
+          "industryName": "其他未列明零售业",
+          "multiIndustry": "5299",
+          "multiIndustryName": "其他未列明零售业",
+          "organize": "802",
+          "parentEntName": "",
+          "dyElement": "",
+          "isCheckGroupName": "0",
+          "jtEntName": "",
+          "jtUniscId": "",
+          "jtShForm": "",
+          "spellType": "10",
+          "name": "广西南宁智信五金批发802（个人独资）",
+          "noIndSign": "N",
+          "declarationMode": "Y",
+          "fisDistCode": "",
+          "distCode": "450102",
+          "streetCode": "450102",
+          "entType": "4540",
+          "fzSign": "N",
+          "isCheckBox": "Y",
+          "checkState": 1,
+          "parentEntRegno": "",
+          "bannedInfos": null,
+          "hasParent": null,
+          "needAudit": false,
+          "tipKeyWords": null,
+          "industryId": "5299",
+          "organizeName": "802（个人独资）"
+        }
+      }
+    },
+    {
+      "step": "after",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info",
+        "hash": "#/flow/base/name-check-info",
+        "errors": [],
+        "hasYunbangban": false
+      }
+    }
+  ],
+  "ended_at": "2026-04-16 00:56:35"
+}

@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "G5421",
+        "saveHyCode": "5421",
+        "hyPecul": "长途客运",
+        "hyTypeName": "长途客运",
+        "enHyTypeName": null,
+        "explains": "指由始发站至终点站定线、定站、定班运行和停靠的旅客运输。",
+        "includesTitle": "包括下列长途客运活动：",
+        "includes": "省际间长途客运；省内、市内长途客运；其他长途客运。",
+        "unIncludes": "不包括：长途汽车终点站的经营管理活动，列入5441（客运汽车站）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "长途客运",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

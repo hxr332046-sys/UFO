@@ -1,0 +1,23 @@
+{
+  "schema": "phase1_service.census.payload.v1",
+  "meta": {
+    "job_id": "seeded_from_dict_cache",
+    "path": "/seeded",
+    "params": {
+      "job_id": "seeded_from_dict_cache",
+      "entType": "1100"
+    },
+    "dur_ms": 0,
+    "ts": 1776841959
+  },
+  "data": {
+    "code": "00000",
+    "data": {
+      "resultType": "0",
+      "msg": "",
+      "busiData": "10,20,30"
+    },
+    "msg": "操作成功",
+    "page": null
+  }
+}

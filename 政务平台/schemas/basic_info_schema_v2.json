@@ -1,0 +1,367 @@
+{
+  "_meta": {
+    "name": "设立登记-基本信息",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/basic-info",
+    "version": "2.0",
+    "updated": "2026-04-14",
+    "note": "全盘字段框架，按填写顺序排列，含原生交互方式"
+  },
+  "fillOrder": [
+    "residence",
+    "business",
+    "basic",
+    "other"
+  ],
+  "fields": [
+    {
+      "id": "f01",
+      "section": "residence",
+      "label": "企业住所",
+      "compType": "tne-data-picker",
+      "formModel": "residenceForm",
+      "formKeys": ["distCode", "distCodeName", "provinceCode", "provinceName", "cityCode", "cityName", "isSelectDistCode", "fisDistCode"],
+      "required": true,
+      "fillMethod": "native_click_cascader",
+      "fillSteps": [
+        "1. 点击input打开picker",
+        "2. 在.popover中点击.sample-item='广西壮族自治区'",
+        "3. 点击.sample-item='南宁市'",
+        "4. 点击.sample-item='青秀区'"
+      ],
+      "sampleValue": "广西壮族自治区/南宁市/青秀区",
+      "sampleCodes": ["450000", "450100", "450103"],
+      "sampleNames": ["广西壮族自治区", "南宁市", "青秀区"],
+      "validation": "请选择企业住所",
+      "dependsOn": []
+    },
+    {
+      "id": "f02",
+      "section": "residence",
+      "label": "详细地址",
+      "compType": "el-input",
+      "formModel": "residenceForm",
+      "formKeys": ["detAddress"],
+      "required": true,
+      "fillMethod": "input_value",
+      "sampleValue": "民大道100号",
+      "validation": "请输入详细地址",
+      "dependsOn": ["f01"]
+    },
+    {
+      "id": "f03",
+      "section": "residence",
+      "label": "生产经营地址",
+      "compType": "tne-data-picker",
+      "formModel": "residenceForm",
+      "formKeys": ["fisDistCode", "detBusinessAddress"],
+      "riExtra": "productionDistList",
+      "required": true,
+      "fillMethod": "native_click_cascader",
+      "fillSteps": [
+        "1. 点击input打开picker",
+        "2. 在.popover中点击.sample-item逐级选择"
+      ],
+      "sampleValue": "广西壮族自治区/南宁市/青秀区",
+      "sampleCodes": ["450000", "450100", "450103"],
+      "sampleNames": ["广西壮族自治区", "南宁市", "青秀区"],
+      "validation": "请选择生产经营地址",
+      "dependsOn": ["f01"]
+    },
+    {
+      "id": "f04",
+      "section": "residence",
+      "label": "生产经营地详细地址",
+      "compType": "el-input",
+      "formModel": "residenceForm",
+      "formKeys": ["detBusinessAddress"],
+      "required": true,
+      "fillMethod": "input_value",
+      "sampleValue": "民大道100号",
+      "validation": "请输入生产经营地详细地址",
+      "dependsOn": ["f03"]
+    },
+    {
+      "id": "f05",
+      "section": "residence",
+      "label": "是否自贸区",
+      "compType": "el-radio-group",
+      "formModel": "residenceForm",
+      "formKeys": ["zmqFlag"],
+      "required": false,
+      "fillMethod": "radio_click",
+      "options": [{"value": "1", "label": "是"}, {"value": "0", "label": "否"}],
+      "defaultValue": "0",
+      "dependsOn": []
+    },
+    {
+      "id": "f06",
+      "section": "business",
+      "label": "企业类型",
+      "compType": "tne-select-tree",
+      "formModel": "businessDataInfo",
+      "formKeys": ["entType", "entTypeName"],
+      "required": true,
+      "fillMethod": "native_click_tree",
+      "fillSteps": [
+        "1. 点击input打开下拉",
+        "2. 在.el-tree中点击.el-tree-node__content包含目标文本",
+        "3. onlyLeaf=true，必须选叶子节点"
+      ],
+      "sampleValue": "有限责任公司",
+      "sampleCode": "1100",
+      "treeNodes": [
+        {"code": "1100", "name": "有限责任公司", "isLeaf": true},
+        {"code": "1110", "name": "有限责任公司（国有独资）", "isLeaf": true},
+        {"code": "1130", "name": "有限责任公司（自然人投资或控股）", "isLeaf": true},
+        {"code": "1151", "name": "有限责任公司（自然人独资）", "isLeaf": true}
+      ],
+      "validation": "请选择企业类型",
+      "dependsOn": []
+    },
+    {
+      "id": "f07",
+      "section": "business",
+      "label": "行业类型",
+      "compType": "tne-select-tree",
+      "formModel": "busineseForm",
+      "formKeys": ["itemIndustryTypeCode", "industryTypeName"],
+      "required": true,
+      "fillMethod": "native_click_tree",
+      "fillSteps": [
+        "1. 点击input打开下拉",
+        "2. 展开[I]信息传输节点（点击展开箭头）",
+        "3. 展开[65]软件和信息技术服务业",
+        "4. 点击叶子节点"
+      ],
+      "sampleValue": "软件和信息技术服务业",
+      "sampleCode": "I65",
+      "validation": "请选择行业类型",
+      "dependsOn": ["f01"]
+    },
+    {
+      "id": "f08",
+      "section": "business",
+      "label": "经营范围",
+      "compType": "tni-business-range",
+      "formModel": "busineseForm",
+      "formKeys": ["busiAreaData", "genBusiArea", "busiAreaCode", "busiAreaName", "areaCategory"],
+      "required": true,
+      "fillMethod": "confirm_dialog",
+      "fillSteps": [
+        "1. 点击'添加规范经营用语'按钮打开dialog",
+        "2. 在dialog中搜索并选择经营范围项",
+        "3. 调用businese-info.confirm(data)确认",
+        "4. confirm后手动$set busineseForm字段确保同步"
+      ],
+      "sampleValue": "软件开发;信息技术咨询服务",
+      "sampleData": {
+        "busiAreaData": [
+          {"id": "I3006", "stateCo": "3", "name": "软件开发", "pid": "65", "minIndusTypeCode": "6511;6512;6513", "midIndusTypeCode": "651;651;651", "isMainIndustry": "1", "category": "I", "indusTypeCode": "6511;6512;6513", "indusTypeName": "软件开发"},
+          {"id": "I3010", "stateCo": "1", "name": "信息技术咨询服务", "pid": "65", "minIndusTypeCode": "6560", "midIndusTypeCode": "656", "isMainIndustry": "0", "category": "I", "indusTypeCode": "6560", "indusTypeName": "信息技术咨询服务"}
+        ],
+        "genBusiArea": "软件开发;信息技术咨询服务",
+        "busiAreaCode": "I65",
+        "busiAreaName": "软件开发,信息技术咨询服务"
+      },
+      "validation": "请填写经营范围",
+      "dependsOn": ["f07"],
+      "criticalNote": "busiAreaData在save()时被encodeURIComponent编码为URL字符串，导致A0002。需要在XHR.send中拦截修复"
+    },
+    {
+      "id": "f09",
+      "section": "basic",
+      "label": "企业名称",
+      "compType": "el-input",
+      "formModel": "businessDataInfo",
+      "formKeys": ["name", "entName"],
+      "required": true,
+      "fillMethod": "input_value",
+      "sampleValue": "广西智信数据科技有限公司",
+      "validation": "请输入企业名称",
+      "dependsOn": ["f06"]
+    },
+    {
+      "id": "f10",
+      "section": "basic",
+      "label": "注册资本",
+      "compType": "el-input",
+      "formModel": "businessDataInfo",
+      "formKeys": ["registerCapital", "subCapital"],
+      "required": true,
+      "fillMethod": "input_value",
+      "sampleValue": "100",
+      "validation": "请输入注册资本",
+      "dependsOn": []
+    },
+    {
+      "id": "f11",
+      "section": "basic",
+      "label": "设立方式",
+      "compType": "el-radio-group",
+      "formModel": "businessDataInfo",
+      "formKeys": ["setWay"],
+      "required": false,
+      "fillMethod": "radio_click",
+      "options": [{"value": "01", "label": "一般新设"}, {"value": "02", "label": "分立新设"}, {"value": "03", "label": "合并新设"}],
+      "defaultValue": "01",
+      "dependsOn": []
+    },
+    {
+      "id": "f12",
+      "section": "basic",
+      "label": "从业人数",
+      "compType": "el-input",
+      "formModel": "businessDataInfo",
+      "formKeys": ["operatorNum"],
+      "required": false,
+      "fillMethod": "input_value",
+      "sampleValue": "5",
+      "dependsOn": []
+    },
+    {
+      "id": "f13",
+      "section": "basic",
+      "label": "核算方式",
+      "compType": "el-radio-group",
+      "formModel": "businessDataInfo",
+      "formKeys": ["accountType"],
+      "required": false,
+      "fillMethod": "radio_click",
+      "options": [{"value": "1", "label": "独立核算"}, {"value": "2", "label": "非独立核算"}],
+      "defaultValue": "1",
+      "dependsOn": []
+    },
+    {
+      "id": "f14",
+      "section": "basic",
+      "label": "经营期限",
+      "compType": "el-radio-group",
+      "formModel": "busineseForm",
+      "formKeys": ["busiPeriod"],
+      "required": false,
+      "fillMethod": "radio_click",
+      "options": [{"value": "01", "label": "长期"}, {"value": "02", "label": "按年限"}],
+      "defaultValue": "01",
+      "dependsOn": []
+    },
+    {
+      "id": "f15",
+      "section": "basic",
+      "label": "是否需要纸质营业执照",
+      "compType": "el-radio-group",
+      "formModel": "businessDataInfo",
+      "formKeys": ["licenseRadio"],
+      "required": false,
+      "fillMethod": "radio_click",
+      "options": [{"value": "0", "label": "是"}, {"value": "1", "label": "否"}],
+      "defaultValue": "0",
+      "dependsOn": []
+    },
+    {
+      "id": "f16",
+      "section": "basic",
+      "label": "申请执照副本数量",
+      "compType": "el-input",
+      "formModel": "businessDataInfo",
+      "formKeys": ["copyCerNum"],
+      "required": false,
+      "fillMethod": "input_value",
+      "sampleValue": "1",
+      "defaultValue": "1",
+      "dependsOn": []
+    },
+    {
+      "id": "f17",
+      "section": "basic",
+      "label": "联系电话",
+      "compType": "el-input",
+      "formModel": "businessDataInfo",
+      "formKeys": ["entPhone"],
+      "required": true,
+      "fillMethod": "input_value",
+      "sampleValue": "13800138000",
+      "criticalNote": "save()时自动RSA加密，设明文即可",
+      "dependsOn": []
+    },
+    {
+      "id": "f18",
+      "section": "basic",
+      "label": "邮政编码",
+      "compType": "el-input",
+      "formModel": "businessDataInfo",
+      "formKeys": ["postcode"],
+      "required": false,
+      "fillMethod": "input_value",
+      "sampleValue": "530022",
+      "dependsOn": []
+    },
+    {
+      "id": "f19",
+      "section": "other",
+      "label": "其他经营地址",
+      "compType": "button",
+      "formModel": null,
+      "required": false,
+      "fillMethod": "skip",
+      "dependsOn": []
+    },
+    {
+      "id": "f20",
+      "section": "other",
+      "label": "多证合一",
+      "compType": "button",
+      "formModel": null,
+      "required": false,
+      "fillMethod": "skip",
+      "dependsOn": []
+    },
+    {
+      "id": "f21",
+      "section": "other",
+      "label": "登记机关/市场监管所",
+      "compType": "el-select",
+      "formModel": "businessDataInfo",
+      "formKeys": ["regOrg", "regOrgName"],
+      "required": false,
+      "fillMethod": "select_click",
+      "dependsOn": ["f01"]
+    }
+  ],
+  "saveMechanism": {
+    "method": "flow-control.save(null, null, 'working')",
+    "flow": [
+      "1. save() → eventBus.$emit('flow-save-basic-info')",
+      "2. 子组件回调返回各自form数据",
+      "3. operationBusinessDataInfo('tempSave','BasicInfo', mergedData) 组装请求",
+      "4. 敏感字段RSA加密 → XHR POST JSON"
+    ],
+    "knownIssues": {
+      "A0002_busiAreaData_encoding": {
+        "cause": "busiAreaData被encodeURIComponent(JSON.stringify(...))编码为URL字符串",
+        "fix": "拦截XHR.send，将busiAreaData从URL编码字符串解析回JSON对象",
+        "alsoFix": "genBusiArea为空时从busiAreaData.param提取name拼接"
+      },
+      "busineseForm_sync": {
+        "cause": "confirm()后busineseForm字段(itemIndustryTypeCode,industryTypeName,genBusiArea)可能未同步",
+        "fix": "confirm后手动comp.$set(bf, key, value)"
+      }
+    }
+  },
+  "componentMethods": {
+    "tne-data-picker": {
+      "nativeInteraction": "点击input → 点击.sample-item逐级选择",
+      "internalSync": "点击后自动同步selected/inputValue/residenceForm",
+      "NOT_RECOMMENDED": "直接设置picker.selected + updateBindData → modelValue不同步 → 验证失败"
+    },
+    "tne-select-tree": {
+      "nativeInteraction": "点击input → 点击.el-tree-node__content选择节点",
+      "internalSync": "handleNodeClick自动设置valueId/valueTitle",
+      "EXTRA_NEEDED": "需手动$set busineseForm.itemIndustryTypeCode/industryTypeName"
+    },
+    "tni-business-range": {
+      "method": "businese-info.confirm(data)",
+      "dataFormat": "必须用searchList原始格式(含id,stateCo,pid,minIndusTypeCode等完整字段)",
+      "NOT_RECOMMENDED": "手动构造简化格式 → A0002"
+    }
+  }
+}

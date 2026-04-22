@@ -1,0 +1,68 @@
+{
+  "steps": [
+    {
+      "step": "S1_hook",
+      "data": {
+        "ok": true
+      }
+    },
+    {
+      "step": "S2_call_with_arg",
+      "data": {}
+    },
+    {
+      "step": "S3_after",
+      "data": {
+        "flowData": {
+          "busiId": null,
+          "entType": "1100",
+          "busiType": "02",
+          "ywlbSign": null,
+          "busiMode": null,
+          "nameId": null,
+          "marPrId": null,
+          "secondId": null,
+          "vipChannel": null,
+          "currCompUrl": "BasicInfo",
+          "status": "10",
+          "matterCode": null,
+          "interruptControl": null
+        },
+        "busiCompUrlPaths": [
+          {
+            "compUrl": "BasicInfo",
+            "id": ""
+          }
+        ],
+        "probe": {
+          "reqs": [
+            {
+              "m": "POST",
+              "u": "/icpsp-api/v4/pc/register/establish/component/BasicInfo/loadBusinessDataInfo?t=1776165581950",
+              "len": 325,
+              "body": "{\"flowData\":{\"busiId\":null,\"entType\":\"1100\",\"busiType\":\"02\",\"ywlbSign\":null,\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"secondId\":null,\"vipChannel\":null,\"currCompUrl\":\"BasicInfo\",\"status\":\"10\",\"matterCode\":null,\"interruptControl\":null},\"linkData\":{\"compUrl\":"
+            },
+            {
+              "m": "POST",
+              "u": "/icpsp-api/v4/pc/register/establish/component/BasicInfo/loadBusinessInfoList?t=1776165582044",
+              "len": 325,
+              "body": "{\"flowData\":{\"busiId\":null,\"entType\":\"1100\",\"busiType\":\"02\",\"ywlbSign\":null,\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"secondId\":null,\"vipChannel\":null,\"currCompUrl\":\"BasicInfo\",\"status\":\"10\",\"matterCode\":null,\"interruptControl\":null},\"linkData\":{\"compUrl\":"
+            }
+          ],
+          "resps": [
+            {
+              "u": "/icpsp-api/v4/pc/register/establish/component/BasicInfo/loadBusinessDataInfo?t=1776165581950",
+              "status": 200,
+              "text": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"flowData\":{\"busiId\":null,\"entType\":\"1100\",\"busiType\":\"02\",\"ywlbSign\":null,\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"secondId\":null,\"vipChannel\":null,\"currCompUrl\":\"BasicInfo\",\"status\":\"10\",\"mat"
+            },
+            {
+              "u": "/icpsp-api/v4/pc/register/establish/component/BasicInfo/loadBusinessInfoList?t=1776165582044",
+              "status": 200,
+              "text": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"flowData\":{\"busiId\":null,\"entType\":\"1100\",\"busiType\":\"02\",\"ywlbSign\":null,\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"secondId\":null,\"vipChannel\":null,\"currCompUrl\":\"BasicInfo\",\"status\":\"10\",\"mat"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

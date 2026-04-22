@@ -1,0 +1,92 @@
+{
+  "started_at": "2026-04-15 14:49:11",
+  "steps": [
+    {
+      "step": "state0",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId="
+      }
+    },
+    {
+      "step": "call_saveGuideData_raw_fetch",
+      "data": {
+        "ok": false,
+        "status": 404,
+        "text": "{\"timestamp\":1776235746634,\"status\":404,\"error\":\"Not Found\",\"path\":\"/icpsp-api/v4/pc/register/guide/saveGuideData\"}",
+        "payload": {
+          "busiType": "02_4",
+          "entType": "4540",
+          "extra": "guideData",
+          "guideData": {
+            "entType": "4540",
+            "nameCode": "0",
+            "havaAdress": "0",
+            "distCode": "450102",
+            "streetCode": "450102",
+            "streetName": "兴宁区",
+            "detAddress": "容州大道88号",
+            "address": "兴宁区",
+            "distList": [
+              "450000",
+              "450100",
+              "450102",
+              "450102"
+            ]
+          },
+          "extraDto": "{\"extraDto\":{\"entType\":\"4540\",\"nameCode\":\"0\",\"havaAdress\":\"0\",\"distCode\":\"450102\",\"streetCode\":\"450102\",\"streetName\":\"兴宁区\",\"detAddress\":\"容州大道88号\",\"address\":\"兴宁区\",\"distList\":[\"450000\",\"450100\",\"450102\",\"450102\"]}}"
+        }
+      }
+    },
+    {
+      "step": "call_saveGuideData_vmapi_if_exists",
+      "data": {
+        "ok": false,
+        "err": "no_save_guide_method",
+        "apiKeys": [
+          "bindName",
+          "checkEstablishName",
+          "validateNameAndSerialNum",
+          "nameGuide",
+          "getQueryNameEntType",
+          "queryCodeKV",
+          "streetCodeByParentCode",
+          "queryParentCompanyInfo",
+          "currencyList",
+          "queryOneCode",
+          "queryEntTypeBySubEntType",
+          "queryRegcodeAndStreet",
+          "deleteBusiInfoData",
+          "queryExtraDto",
+          "queryEntTypeGuide",
+          "getQueryCodeRegcodeByParent",
+          "matchMainBusiness",
+          "getEntTypeConfig",
+          "generateCompanyName",
+          "getGenerateCompanyNameRedis",
+          "preCheckCompanyName",
+          "checkCompanyName",
+          "preProcessDeclare",
+          "generateCompanyNameMoral",
+          "getGenerateCompanyNameMoralRedis",
+          "getRegcodeNoSteetByCode",
+          "startGenerateCompanyName",
+          "getGenerateCompanyInfoRedis",
+          "matchAddressAndEntType",
+          "checkNameMarkBanned",
+          "getNameMarkChoose",
+          "findNameCollectQmb",
+          "icancelNameCollectQmb",
+          "insertNameCollectQmb",
+          "queryTopNameByIndustryQmb",
+          "findNameCollectBatchQmb",
+          "queryNameEntTypeCfgByEntTypeQmb",
+          "checkNamePrefixList",
+          "getDialogueHistoryList",
+          "submitDialogue"
+        ]
+      }
+    }
+  ],
+  "ended_at": "2026-04-15 14:49:11"
+}

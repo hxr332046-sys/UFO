@@ -1,0 +1,25 @@
+{
+  "started_at": "2026-04-15 19:26:34",
+  "items": [
+    {
+      "stage": "basic-info",
+      "error": [
+        "请选择行政区划",
+        "请输入字号",
+        "请选择行业/经营特点",
+        "请选择组织形式"
+      ],
+      "fix": "rerun targeted fills and save"
+    },
+    {
+      "stage": "member-post",
+      "error": [
+        "请选择行政区划",
+        "请输入字号",
+        "请选择行业/经营特点",
+        "请选择组织形式"
+      ],
+      "fix": "keep default values + retry skipped"
+    }
+  ]
+}

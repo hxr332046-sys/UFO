@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "J6813",
+        "saveHyCode": "6813",
+        "hyPecul": "健康保险",
+        "hyTypeName": "健康保险",
+        "enHyTypeName": null,
+        "explains": "指以因健康原因或医疗行为的发生为给付保险金条件的人身保险，包括疾病保险、医疗保险、失能收入损失保险、护理保险和医疗意外保险。",
+        "includesTitle": "包括下列健康保险活动：",
+        "includes": "疾病保险服务；医疗保险服务；护理保险服务；失能收入损失保险服务；医疗意外保险服务。",
+        "unIncludes": "不包括：意外保险，列入6814（意外伤害保险）。",
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "健康保险",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

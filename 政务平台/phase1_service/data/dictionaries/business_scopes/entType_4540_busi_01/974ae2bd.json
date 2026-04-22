@@ -1,0 +1,61 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C1312",
+        "saveHyCode": "1312",
+        "hyPecul": "小麦加工",
+        "hyTypeName": "小麦加工",
+        "enHyTypeName": null,
+        "explains": "指将小麦碾磨成小麦粉的生产活动。",
+        "includesTitle": "包括下列小麦加工活动：",
+        "includes": "小麦粉：高筋小麦粉、中筋小麦粉、低筋小麦粉；小麦专用粉：面包用小麦粉、面条用小麦粉、糕点用小麦粉、饼干用小麦粉、饺子用小麦粉、馒头用小麦粉、小麦自发粉、其他小麦专用粉；小麦粗磨：小麦粗粒、小麦粗粉、小麦团粒。",
+        "unIncludes": "不包括：面条、挂面等未经烹制的面制品，列入1431（米、面制品制造）。",
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "A0112",
+        "saveHyCode": "0112",
+        "hyPecul": "小麦种植",
+        "hyTypeName": "小麦种植",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列小麦的种植活动：",
+        "includes": "硬质小麦：种用硬质小麦、其他硬质小麦；软质小麦：种用软质小麦、其他软质小麦；混合小麦：种用混合小麦、其他混合小麦；其他小麦：麦秸及其他未列明小麦。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "M7330",
+        "saveHyCode": "7330",
+        "hyPecul": "杂交小麦种子",
+        "hyTypeName": "农业科学研究和试验发展",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列农业科学研究和试验发展活动：",
+        "includes": "农学研究服务；林学研究服务；畜牧、兽医研究服务；水产学研究服务；其他农业科学研究与试验发展服务。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "小麦",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

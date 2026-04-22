@@ -1,0 +1,183 @@
+{
+  "started_at": "2026-04-20 22:16:58",
+  "steps": [
+    {
+      "step": "probe_before",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/basic-info",
+        "hash": "#/flow/base/basic-info",
+        "errors": [],
+        "buttons": [
+          {
+            "text": "更多",
+            "disabled": false
+          },
+          {
+            "text": "添加",
+            "disabled": false
+          },
+          {
+            "text": "添加规范经营用语",
+            "disabled": false
+          },
+          {
+            "text": "保存并下一步",
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "step": "fill_and_save",
+      "data": {
+        "ok": true,
+        "log": [
+          [
+            "entName",
+            {
+              "ok": true,
+              "label": "企业名称：",
+              "value": "广西容县李陈梦软件开发有限公司"
+            }
+          ],
+          [
+            "capital",
+            {
+              "ok": true,
+              "label": "注册资本：",
+              "value": "5"
+            }
+          ],
+          [
+            "emp",
+            {
+              "ok": true,
+              "label": "从业人数：",
+              "value": "1"
+            }
+          ],
+          [
+            "phone",
+            {
+              "ok": true,
+              "label": "联系电话：",
+              "value": "18977514335"
+            }
+          ],
+          [
+            "postcode",
+            {
+              "ok": true,
+              "label": "邮政编码：",
+              "value": "537500"
+            }
+          ],
+          [
+            "detail",
+            {
+              "ok": true,
+              "label": "详细地址：",
+              "value": "容州镇车站西路富盛广场1幢3203号房"
+            }
+          ],
+          [
+            "biz_detail",
+            {
+              "ok": true,
+              "label": "生产经营地详细地址：",
+              "value": "容州镇车站西路富盛广场1幢3203号房"
+            }
+          ],
+          [
+            "scope",
+            {
+              "ok": false,
+              "label": "经营范围"
+            }
+          ],
+          [
+            "addr_main",
+            {
+              "ok": true,
+              "r1": {
+                "ok": true,
+                "text": "广西壮族自治区"
+              },
+              "r2": {
+                "ok": true,
+                "text": "玉林市"
+              },
+              "r3": {
+                "ok": true,
+                "text": "容县"
+              }
+            }
+          ],
+          [
+            "addr_biz",
+            {
+              "ok": true,
+              "r1": {
+                "ok": true,
+                "text": "广西壮族自治区"
+              },
+              "r2": {
+                "ok": true,
+                "text": "玉林市"
+              },
+              "r3": {
+                "ok": true,
+                "text": "容县"
+              }
+            }
+          ],
+          [
+            "industry",
+            {
+              "ok": false,
+              "hit": "软件"
+            }
+          ],
+          [
+            "click",
+            "保存并下一步"
+          ]
+        ],
+        "clicked": true
+      }
+    },
+    {
+      "step": "probe_after",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/basic-info",
+        "hash": "#/flow/base/basic-info",
+        "errors": [
+          "请输入详细地址",
+          "请输入生产经营地详细地址",
+          "请选择行业类型",
+          "请填写经营范围"
+        ],
+        "buttons": [
+          {
+            "text": "更多",
+            "disabled": false
+          },
+          {
+            "text": "添加",
+            "disabled": false
+          },
+          {
+            "text": "添加规范经营用语",
+            "disabled": false
+          },
+          {
+            "text": "保存并下一步",
+            "disabled": false
+          }
+        ]
+      }
+    }
+  ],
+  "start_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/basic-info",
+  "ended_at": "2026-04-20 22:17:11"
+}

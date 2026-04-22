@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C1461",
+        "saveHyCode": "1461",
+        "hyPecul": "味精制造",
+        "hyTypeName": "味精制造",
+        "enHyTypeName": null,
+        "explains": "指以淀粉或糖蜜为原料，经微生物发酵、提取、精制等工序制成的，谷氨酸钠含量在80％及以上的鲜味剂的生产活动。",
+        "includesTitle": "包括对下列味精的制造活动：",
+        "includes": "加盐味精；增鲜味精。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "味精",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

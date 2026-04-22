@@ -1,0 +1,61 @@
+{
+  "started_at": "2026-04-16 01:17:31",
+  "page": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info",
+  "steps": [
+    {
+      "step": "install_hooks",
+      "data": {
+        "ok": true,
+        "already": true,
+        "count": 0
+      }
+    },
+    {
+      "step": "state_before",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info",
+        "hash": "#/flow/base/name-check-info",
+        "hasMainIndustryEmpty": false,
+        "errs": []
+      }
+    },
+    {
+      "step": "click_ok_if_any",
+      "data": {
+        "clicked": false
+      }
+    },
+    {
+      "step": "click_save_next_once",
+      "data": {
+        "clicked": true,
+        "mode": "closest",
+        "tag": "DIV"
+      }
+    },
+    {
+      "step": "hook_captures",
+      "data": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "step": "network_pairs",
+      "data": {
+        "count": 0,
+        "pairs": []
+      }
+    },
+    {
+      "step": "state_after",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info",
+        "hash": "#/flow/base/name-check-info",
+        "hasMainIndustryEmpty": false,
+        "errs": []
+      }
+    }
+  ],
+  "ended_at": "2026-04-16 01:17:44"
+}

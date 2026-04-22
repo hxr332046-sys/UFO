@@ -1,0 +1,3603 @@
+{
+  "meta": {
+    "timestamp": "2026-04-12T23:10:23.853618",
+    "total_apps": 11,
+    "description": "Desktop control census - static info for quick reconnect. PID/HWND are reference-only (change on reboot). Use exe name + auto_id/static_name for runtime lookup."
+  },
+  "applications": {
+    "Taskmgr.exe": {
+      "error": "No windows for that process could be found",
+      "pid": 2384,
+      "exe": "Taskmgr.exe",
+      "title": "任务管理器",
+      "quick_index": {
+        "by_auto_id": {},
+        "by_static_name": {},
+        "by_class": {}
+      },
+      "pid_at_census": 2384
+    },
+    "Windsurf.exe": {
+      "title": "国产反代 - Windsurf - API_USAGE_GUIDE.md [管理员]",
+      "class_name": "Chrome_WidgetWin_1",
+      "automation_id": "",
+      "control_tree": {
+        "control_type": "Window",
+        "class_name": "Chrome_WidgetWin_1",
+        "automation_id": "",
+        "name": "国产反代 - Windsurf - API_USAGE_GUIDE.md [管理员]",
+        "name_pattern": "semi",
+        "rect": "",
+        "enabled": true,
+        "visible": true,
+        "children": [
+          {
+            "control_type": "Pane",
+            "class_name": "Intermediate D3D Window",
+            "automation_id": "",
+            "name": "",
+            "name_pattern": "semi",
+            "rect": "",
+            "enabled": false,
+            "visible": true,
+            "children": []
+          },
+          {
+            "control_type": "Pane",
+            "class_name": "RootView",
+            "automation_id": "",
+            "name": "国产反代 - Windsurf - API_USAGE_GUIDE.md [管理员]",
+            "name_pattern": "semi",
+            "rect": "",
+            "enabled": true,
+            "visible": true,
+            "children": [
+              {
+                "control_type": "Pane",
+                "class_name": "NonClientView",
+                "automation_id": "",
+                "name": "",
+                "name_pattern": "semi",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": [
+                  {
+                    "control_type": "Pane",
+                    "class_name": "WinFrameView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "WinCaptionButtonContainer",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WinCaptionButton",
+                    "automation_id": "",
+                    "name": "最小化",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WinCaptionButton",
+                    "automation_id": "",
+                    "name": "恢复",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WinCaptionButton",
+                    "automation_id": "",
+                    "name": "关闭",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "ClientView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "View",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "View",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "View",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Document",
+                    "class_name": "",
+                    "automation_id": "RootWebArea",
+                    "name": "国产反代 - Windsurf - API_USAGE_GUIDE.md [管理员]",
+                    "name_pattern": "dynamic",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "file-icons-enabled monaco-enable-motion monaco-workbench windows chromium nopanel maximized vs-dark enkia-tokyo-night-themes-tokyo-night-storm-color-theme-json",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "monaco-sash horizontal disabled",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "monaco-sash horizontal disabled",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "monaco-sash horizontal disabled",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "control_type": "Pane",
+                "class_name": "WinFrameView",
+                "automation_id": "",
+                "name": "",
+                "name_pattern": "semi",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": [
+                  {
+                    "control_type": "Pane",
+                    "class_name": "WinCaptionButtonContainer",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WinCaptionButton",
+                    "automation_id": "",
+                    "name": "最小化",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WinCaptionButton",
+                    "automation_id": "",
+                    "name": "恢复",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WinCaptionButton",
+                    "automation_id": "",
+                    "name": "关闭",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "ClientView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "View",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "View",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "View",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Document",
+                    "class_name": "",
+                    "automation_id": "RootWebArea",
+                    "name": "国产反代 - Windsurf - API_USAGE_GUIDE.md [管理员]",
+                    "name_pattern": "dynamic",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "file-icons-enabled monaco-enable-motion monaco-workbench windows chromium nopanel maximized vs-dark enkia-tokyo-night-themes-tokyo-night-storm-color-theme-json",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "monaco-sash horizontal disabled",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "monaco-sash horizontal disabled",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "monaco-sash horizontal disabled",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "MenuBar",
+                    "class_name": "menubar",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "control_type": "Pane",
+                "class_name": "WinCaptionButtonContainer",
+                "automation_id": "",
+                "name": "",
+                "name_pattern": "semi",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": [
+                  {
+                    "control_type": "Button",
+                    "class_name": "WinCaptionButton",
+                    "automation_id": "",
+                    "name": "最小化",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WinCaptionButton",
+                    "automation_id": "",
+                    "name": "恢复",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WinCaptionButton",
+                    "automation_id": "",
+                    "name": "关闭",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "control_type": "Button",
+                "class_name": "WinCaptionButton",
+                "automation_id": "",
+                "name": "最小化",
+                "name_pattern": "static",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": []
+              },
+              {
+                "control_type": "Button",
+                "class_name": "WinCaptionButton",
+                "automation_id": "",
+                "name": "恢复",
+                "name_pattern": "static",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": []
+              },
+              {
+                "control_type": "Button",
+                "class_name": "WinCaptionButton",
+                "automation_id": "",
+                "name": "关闭",
+                "name_pattern": "static",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": []
+              },
+              {
+                "control_type": "Pane",
+                "class_name": "ClientView",
+                "automation_id": "",
+                "name": "",
+                "name_pattern": "semi",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": [
+                  {
+                    "control_type": "Pane",
+                    "class_name": "View",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "View",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "View",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Document",
+                    "class_name": "",
+                    "automation_id": "RootWebArea",
+                    "name": "国产反代 - Windsurf - API_USAGE_GUIDE.md [管理员]",
+                    "name_pattern": "dynamic",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "file-icons-enabled monaco-enable-motion monaco-workbench windows chromium nopanel maximized vs-dark enkia-tokyo-night-themes-tokyo-night-storm-color-theme-json",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "monaco-sash horizontal disabled",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "monaco-sash horizontal disabled",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "monaco-sash horizontal disabled",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "MenuBar",
+                    "class_name": "menubar",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "MenuItem",
+                    "class_name": "menubar-menu-button",
+                    "automation_id": "",
+                    "name": "文件",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "MenuItem",
+                    "class_name": "menubar-menu-button",
+                    "automation_id": "",
+                    "name": "编辑",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "MenuItem",
+                    "class_name": "menubar-menu-button",
+                    "automation_id": "",
+                    "name": "选择",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "MenuItem",
+                    "class_name": "menubar-menu-button",
+                    "automation_id": "",
+                    "name": "查看",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "MenuItem",
+                    "class_name": "menubar-menu-button",
+                    "automation_id": "",
+                    "name": "转到",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "control_type": "Pane",
+                "class_name": "View",
+                "automation_id": "",
+                "name": "",
+                "name_pattern": "semi",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": [
+                  {
+                    "control_type": "Pane",
+                    "class_name": "View",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "View",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Document",
+                    "class_name": "",
+                    "automation_id": "RootWebArea",
+                    "name": "国产反代 - Windsurf - API_USAGE_GUIDE.md [管理员]",
+                    "name_pattern": "dynamic",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "file-icons-enabled monaco-enable-motion monaco-workbench windows chromium nopanel maximized vs-dark enkia-tokyo-night-themes-tokyo-night-storm-color-theme-json",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "monaco-sash horizontal disabled",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "monaco-sash horizontal disabled",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "monaco-sash horizontal disabled",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "MenuBar",
+                    "class_name": "menubar",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "MenuItem",
+                    "class_name": "menubar-menu-button",
+                    "automation_id": "",
+                    "name": "文件",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "MenuItem",
+                    "class_name": "menubar-menu-button",
+                    "automation_id": "",
+                    "name": "编辑",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "MenuItem",
+                    "class_name": "menubar-menu-button",
+                    "automation_id": "",
+                    "name": "选择",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "MenuItem",
+                    "class_name": "menubar-menu-button",
+                    "automation_id": "",
+                    "name": "查看",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "MenuItem",
+                    "class_name": "menubar-menu-button",
+                    "automation_id": "",
+                    "name": "转到",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "MenuItem",
+                    "class_name": "menubar-menu-button",
+                    "automation_id": "",
+                    "name": "更多",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "control_type": "Pane",
+                "class_name": "View",
+                "automation_id": "",
+                "name": "",
+                "name_pattern": "semi",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": [
+                  {
+                    "control_type": "Pane",
+                    "class_name": "View",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Document",
+                    "class_name": "",
+                    "automation_id": "RootWebArea",
+                    "name": "国产反代 - Windsurf - API_USAGE_GUIDE.md [管理员]",
+                    "name_pattern": "dynamic",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "file-icons-enabled monaco-enable-motion monaco-workbench windows chromium nopanel maximized vs-dark enkia-tokyo-night-themes-tokyo-night-storm-color-theme-json",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "monaco-sash horizontal disabled",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "monaco-sash horizontal disabled",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "monaco-sash horizontal disabled",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "MenuBar",
+                    "class_name": "menubar",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "MenuItem",
+                    "class_name": "menubar-menu-button",
+                    "automation_id": "",
+                    "name": "文件",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "MenuItem",
+                    "class_name": "menubar-menu-button",
+                    "automation_id": "",
+                    "name": "编辑",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "MenuItem",
+                    "class_name": "menubar-menu-button",
+                    "automation_id": "",
+                    "name": "选择",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "MenuItem",
+                    "class_name": "menubar-menu-button",
+                    "automation_id": "",
+                    "name": "查看",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "MenuItem",
+                    "class_name": "menubar-menu-button",
+                    "automation_id": "",
+                    "name": "转到",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "MenuItem",
+                    "class_name": "menubar-menu-button",
+                    "automation_id": "",
+                    "name": "更多",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "ToolBar",
+                    "class_name": "actions-container",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "control_type": "Pane",
+                "class_name": "View",
+                "automation_id": "",
+                "name": "",
+                "name_pattern": "semi",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": [
+                  {
+                    "control_type": "Document",
+                    "class_name": "",
+                    "automation_id": "RootWebArea",
+                    "name": "国产反代 - Windsurf - API_USAGE_GUIDE.md [管理员]",
+                    "name_pattern": "dynamic",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": [],
+                    "children_truncated": true
+                  }
+                ],
+                "children_truncated": true
+              }
+            ],
+            "children_truncated": true
+          }
+        ]
+      },
+      "stats": {
+        "Pane": 31,
+        "Group": 20,
+        "MenuItem": 17,
+        "Button": 12,
+        "Document": 6,
+        "MenuBar": 4,
+        "Window": 1,
+        "ToolBar": 1
+      },
+      "pid": 14768,
+      "exe": "Windsurf.exe",
+      "quick_index": {
+        "by_auto_id": {
+          "RootWebArea": {
+            "path": "/Window/Pane/Pane/Document[RootWebArea]",
+            "control_type": "Document",
+            "class_name": ""
+          }
+        },
+        "by_static_name": {
+          "Button:最小化": {
+            "path": "/Window/Pane/Button[最小化]",
+            "automation_id": "",
+            "class_name": "WinCaptionButton"
+          },
+          "Button:恢复": {
+            "path": "/Window/Pane/Button[恢复]",
+            "automation_id": "",
+            "class_name": "WinCaptionButton"
+          },
+          "Button:关闭": {
+            "path": "/Window/Pane/Button[关闭]",
+            "automation_id": "",
+            "class_name": "WinCaptionButton"
+          },
+          "MenuItem:文件": {
+            "path": "/Window/Pane/Pane/MenuItem[文件]",
+            "automation_id": "",
+            "class_name": "menubar-menu-button"
+          },
+          "MenuItem:编辑": {
+            "path": "/Window/Pane/Pane/MenuItem[编辑]",
+            "automation_id": "",
+            "class_name": "menubar-menu-button"
+          },
+          "MenuItem:选择": {
+            "path": "/Window/Pane/Pane/MenuItem[选择]",
+            "automation_id": "",
+            "class_name": "menubar-menu-button"
+          },
+          "MenuItem:查看": {
+            "path": "/Window/Pane/Pane/MenuItem[查看]",
+            "automation_id": "",
+            "class_name": "menubar-menu-button"
+          },
+          "MenuItem:转到": {
+            "path": "/Window/Pane/Pane/MenuItem[转到]",
+            "automation_id": "",
+            "class_name": "menubar-menu-button"
+          },
+          "MenuItem:更多": {
+            "path": "/Window/Pane/Pane/MenuItem[更多]",
+            "automation_id": "",
+            "class_name": "menubar-menu-button"
+          }
+        },
+        "by_class": {
+          "Window:Chrome_WidgetWin_1": {
+            "path": "/Window",
+            "automation_id": "",
+            "name": "国产反代 - Windsurf - API_USAGE_GUIDE.md [管理员]"
+          },
+          "Pane:Intermediate D3D Window": {
+            "path": "/Window/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Pane:RootView": {
+            "path": "/Window/Pane",
+            "automation_id": "",
+            "name": "国产反代 - Windsurf - API_USAGE_GUIDE.md [管理员]"
+          },
+          "Pane:NonClientView": {
+            "path": "/Window/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Pane:WinFrameView": {
+            "path": "/Window/Pane/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Pane:WinCaptionButtonContainer": {
+            "path": "/Window/Pane/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Button:WinCaptionButton": {
+            "path": "/Window/Pane/Pane/Button[最小化]",
+            "automation_id": "",
+            "name": "最小化"
+          },
+          "Pane:ClientView": {
+            "path": "/Window/Pane/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Pane:View": {
+            "path": "/Window/Pane/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Pane:file-icons-enabled monaco-enable-motion monaco-workbench windows chromium nopanel maximized vs-dark enkia-tokyo-night-themes-tokyo-night-storm-color-theme-json": {
+            "path": "/Window/Pane/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Group:monaco-sash horizontal disabled": {
+            "path": "/Window/Pane/Pane/Group",
+            "automation_id": "",
+            "name": ""
+          },
+          "MenuBar:menubar": {
+            "path": "/Window/Pane/Pane/MenuBar",
+            "automation_id": "",
+            "name": ""
+          },
+          "MenuItem:menubar-menu-button": {
+            "path": "/Window/Pane/Pane/MenuItem[文件]",
+            "automation_id": "",
+            "name": "文件"
+          },
+          "ToolBar:actions-container": {
+            "path": "/Window/Pane/Pane/ToolBar",
+            "automation_id": "",
+            "name": ""
+          }
+        }
+      },
+      "pid_at_census": 14768
+    },
+    "Windsurf.exe__UFO电脑自动化": {
+      "title": "UFO电脑自动化 - Windsurf [管理员]",
+      "class_name": "Chrome_WidgetWin_1",
+      "automation_id": "",
+      "control_tree": {
+        "control_type": "Window",
+        "class_name": "Chrome_WidgetWin_1",
+        "automation_id": "",
+        "name": "UFO电脑自动化 - Windsurf [管理员]",
+        "name_pattern": "semi",
+        "rect": "",
+        "enabled": true,
+        "visible": true,
+        "children": [
+          {
+            "control_type": "Pane",
+            "class_name": "Intermediate D3D Window",
+            "automation_id": "",
+            "name": "",
+            "name_pattern": "semi",
+            "rect": "",
+            "enabled": false,
+            "visible": true,
+            "children": []
+          },
+          {
+            "control_type": "Pane",
+            "class_name": "RootView",
+            "automation_id": "",
+            "name": "UFO电脑自动化 - Windsurf [管理员]",
+            "name_pattern": "semi",
+            "rect": "",
+            "enabled": true,
+            "visible": true,
+            "children": [
+              {
+                "control_type": "Pane",
+                "class_name": "NonClientView",
+                "automation_id": "",
+                "name": "",
+                "name_pattern": "semi",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": [
+                  {
+                    "control_type": "Pane",
+                    "class_name": "WinFrameView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "WinCaptionButtonContainer",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WinCaptionButton",
+                    "automation_id": "",
+                    "name": "最小化",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WinCaptionButton",
+                    "automation_id": "",
+                    "name": "恢复",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WinCaptionButton",
+                    "automation_id": "",
+                    "name": "关闭",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "ClientView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "View",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": [],
+                    "children_truncated": true
+                  }
+                ],
+                "children_truncated": true
+              }
+            ],
+            "children_truncated": true
+          }
+        ]
+      },
+      "stats": {
+        "Pane": 7,
+        "Button": 3,
+        "Window": 1
+      },
+      "pid": 40832,
+      "exe": "Windsurf.exe",
+      "quick_index": {
+        "by_auto_id": {},
+        "by_static_name": {
+          "Button:最小化": {
+            "path": "/Window/Pane/Pane/Button[最小化]",
+            "automation_id": "",
+            "class_name": "WinCaptionButton"
+          },
+          "Button:恢复": {
+            "path": "/Window/Pane/Pane/Button[恢复]",
+            "automation_id": "",
+            "class_name": "WinCaptionButton"
+          },
+          "Button:关闭": {
+            "path": "/Window/Pane/Pane/Button[关闭]",
+            "automation_id": "",
+            "class_name": "WinCaptionButton"
+          }
+        },
+        "by_class": {
+          "Window:Chrome_WidgetWin_1": {
+            "path": "/Window",
+            "automation_id": "",
+            "name": "UFO电脑自动化 - Windsurf [管理员]"
+          },
+          "Pane:Intermediate D3D Window": {
+            "path": "/Window/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Pane:RootView": {
+            "path": "/Window/Pane",
+            "automation_id": "",
+            "name": "UFO电脑自动化 - Windsurf [管理员]"
+          },
+          "Pane:NonClientView": {
+            "path": "/Window/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Pane:WinFrameView": {
+            "path": "/Window/Pane/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Pane:WinCaptionButtonContainer": {
+            "path": "/Window/Pane/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Button:WinCaptionButton": {
+            "path": "/Window/Pane/Pane/Button[最小化]",
+            "automation_id": "",
+            "name": "最小化"
+          },
+          "Pane:ClientView": {
+            "path": "/Window/Pane/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Pane:View": {
+            "path": "/Window/Pane/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          }
+        }
+      },
+      "pid_at_census": 40832
+    },
+    "Windsurf.exe__2046": {
+      "title": "2046 - Windsurf [管理员]",
+      "class_name": "Chrome_WidgetWin_1",
+      "automation_id": "",
+      "control_tree": {
+        "control_type": "Window",
+        "class_name": "Chrome_WidgetWin_1",
+        "automation_id": "",
+        "name": "2046 - Windsurf [管理员]",
+        "name_pattern": "semi",
+        "rect": "",
+        "enabled": true,
+        "visible": true,
+        "children": [
+          {
+            "control_type": "Pane",
+            "class_name": "Intermediate D3D Window",
+            "automation_id": "",
+            "name": "",
+            "name_pattern": "semi",
+            "rect": "",
+            "enabled": false,
+            "visible": true,
+            "children": []
+          },
+          {
+            "control_type": "Pane",
+            "class_name": "RootView",
+            "automation_id": "",
+            "name": "2046 - Windsurf [管理员]",
+            "name_pattern": "semi",
+            "rect": "",
+            "enabled": true,
+            "visible": true,
+            "children": [
+              {
+                "control_type": "Pane",
+                "class_name": "NonClientView",
+                "automation_id": "",
+                "name": "",
+                "name_pattern": "semi",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": [
+                  {
+                    "control_type": "Pane",
+                    "class_name": "WinFrameView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "WinCaptionButtonContainer",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WinCaptionButton",
+                    "automation_id": "",
+                    "name": "最小化",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WinCaptionButton",
+                    "automation_id": "",
+                    "name": "最大化",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WinCaptionButton",
+                    "automation_id": "",
+                    "name": "关闭",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "ClientView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": [],
+                    "children_truncated": true
+                  }
+                ],
+                "children_truncated": true
+              }
+            ],
+            "children_truncated": true
+          }
+        ]
+      },
+      "stats": {
+        "Pane": 6,
+        "Button": 3,
+        "Window": 1
+      },
+      "pid": 28464,
+      "exe": "Windsurf.exe",
+      "quick_index": {
+        "by_auto_id": {},
+        "by_static_name": {
+          "Button:最小化": {
+            "path": "/Window/Pane/Pane/Button[最小化]",
+            "automation_id": "",
+            "class_name": "WinCaptionButton"
+          },
+          "Button:最大化": {
+            "path": "/Window/Pane/Pane/Button[最大化]",
+            "automation_id": "",
+            "class_name": "WinCaptionButton"
+          },
+          "Button:关闭": {
+            "path": "/Window/Pane/Pane/Button[关闭]",
+            "automation_id": "",
+            "class_name": "WinCaptionButton"
+          }
+        },
+        "by_class": {
+          "Window:Chrome_WidgetWin_1": {
+            "path": "/Window",
+            "automation_id": "",
+            "name": "2046 - Windsurf [管理员]"
+          },
+          "Pane:Intermediate D3D Window": {
+            "path": "/Window/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Pane:RootView": {
+            "path": "/Window/Pane",
+            "automation_id": "",
+            "name": "2046 - Windsurf [管理员]"
+          },
+          "Pane:NonClientView": {
+            "path": "/Window/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Pane:WinFrameView": {
+            "path": "/Window/Pane/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Pane:WinCaptionButtonContainer": {
+            "path": "/Window/Pane/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Button:WinCaptionButton": {
+            "path": "/Window/Pane/Pane/Button[最小化]",
+            "automation_id": "",
+            "name": "最小化"
+          },
+          "Pane:ClientView": {
+            "path": "/Window/Pane/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          }
+        }
+      },
+      "pid_at_census": 28464
+    },
+    "哔哩哔哩.exe": {
+      "title": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
+      "class_name": "Chrome_WidgetWin_1",
+      "automation_id": "",
+      "control_tree": {
+        "control_type": "Pane",
+        "class_name": "Chrome_WidgetWin_1",
+        "automation_id": "",
+        "name": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
+        "name_pattern": "semi",
+        "rect": "",
+        "enabled": true,
+        "visible": true,
+        "children": [
+          {
+            "control_type": "Pane",
+            "class_name": "Intermediate D3D Window",
+            "automation_id": "",
+            "name": "",
+            "name_pattern": "semi",
+            "rect": "",
+            "enabled": false,
+            "visible": true,
+            "children": []
+          },
+          {
+            "control_type": "Pane",
+            "class_name": "",
+            "automation_id": "",
+            "name": "",
+            "name_pattern": "semi",
+            "rect": "",
+            "enabled": true,
+            "visible": true,
+            "children": [
+              {
+                "control_type": "Pane",
+                "class_name": "",
+                "automation_id": "",
+                "name": "",
+                "name_pattern": "semi",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": [
+                  {
+                    "control_type": "Pane",
+                    "class_name": "",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "control_type": "Pane",
+                "class_name": "",
+                "automation_id": "",
+                "name": "",
+                "name_pattern": "semi",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": [
+                  {
+                    "control_type": "Pane",
+                    "class_name": "",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "control_type": "Pane",
+                "class_name": "",
+                "automation_id": "",
+                "name": "",
+                "name_pattern": "semi",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": [
+                  {
+                    "control_type": "Pane",
+                    "class_name": "",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "control_type": "Pane",
+                "class_name": "",
+                "automation_id": "",
+                "name": "",
+                "name_pattern": "semi",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "stats": {
+        "Pane": 13
+      },
+      "pid": 26952,
+      "exe": "哔哩哔哩.exe",
+      "quick_index": {
+        "by_auto_id": {},
+        "by_static_name": {},
+        "by_class": {
+          "Pane:Chrome_WidgetWin_1": {
+            "path": "/Pane",
+            "automation_id": "",
+            "name": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili"
+          },
+          "Pane:Intermediate D3D Window": {
+            "path": "/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          }
+        }
+      },
+      "pid_at_census": 26952
+    },
+    "Windsurf.exe__AI-分镜生成服务": {
+      "title": "AI-分镜生成服务 - Windsurf - MODEL-TEST-RESULTS.md [管理员]",
+      "class_name": "Chrome_WidgetWin_1",
+      "automation_id": "",
+      "control_tree": {
+        "control_type": "Window",
+        "class_name": "Chrome_WidgetWin_1",
+        "automation_id": "",
+        "name": "AI-分镜生成服务 - Windsurf - MODEL-TEST-RESULTS.md [管理员]",
+        "name_pattern": "semi",
+        "rect": "",
+        "enabled": true,
+        "visible": true,
+        "children": [
+          {
+            "control_type": "Pane",
+            "class_name": "Intermediate D3D Window",
+            "automation_id": "",
+            "name": "",
+            "name_pattern": "semi",
+            "rect": "",
+            "enabled": false,
+            "visible": true,
+            "children": []
+          },
+          {
+            "control_type": "Pane",
+            "class_name": "RootView",
+            "automation_id": "",
+            "name": "AI-分镜生成服务 - Windsurf - MODEL-TEST-RESULTS.md [管理员]",
+            "name_pattern": "semi",
+            "rect": "",
+            "enabled": true,
+            "visible": true,
+            "children": [
+              {
+                "control_type": "Pane",
+                "class_name": "NonClientView",
+                "automation_id": "",
+                "name": "",
+                "name_pattern": "semi",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": [
+                  {
+                    "control_type": "Pane",
+                    "class_name": "WinFrameView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "WinCaptionButtonContainer",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WinCaptionButton",
+                    "automation_id": "",
+                    "name": "最小化",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WinCaptionButton",
+                    "automation_id": "",
+                    "name": "最大化",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WinCaptionButton",
+                    "automation_id": "",
+                    "name": "关闭",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "ClientView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": [],
+                    "children_truncated": true
+                  }
+                ],
+                "children_truncated": true
+              }
+            ],
+            "children_truncated": true
+          }
+        ]
+      },
+      "stats": {
+        "Pane": 6,
+        "Button": 3,
+        "Window": 1
+      },
+      "pid": 17788,
+      "exe": "Windsurf.exe",
+      "quick_index": {
+        "by_auto_id": {},
+        "by_static_name": {
+          "Button:最小化": {
+            "path": "/Window/Pane/Pane/Button[最小化]",
+            "automation_id": "",
+            "class_name": "WinCaptionButton"
+          },
+          "Button:最大化": {
+            "path": "/Window/Pane/Pane/Button[最大化]",
+            "automation_id": "",
+            "class_name": "WinCaptionButton"
+          },
+          "Button:关闭": {
+            "path": "/Window/Pane/Pane/Button[关闭]",
+            "automation_id": "",
+            "class_name": "WinCaptionButton"
+          }
+        },
+        "by_class": {
+          "Window:Chrome_WidgetWin_1": {
+            "path": "/Window",
+            "automation_id": "",
+            "name": "AI-分镜生成服务 - Windsurf - MODEL-TEST-RESULTS.md [管理员]"
+          },
+          "Pane:Intermediate D3D Window": {
+            "path": "/Window/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Pane:RootView": {
+            "path": "/Window/Pane",
+            "automation_id": "",
+            "name": "AI-分镜生成服务 - Windsurf - MODEL-TEST-RESULTS.md [管理员]"
+          },
+          "Pane:NonClientView": {
+            "path": "/Window/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Pane:WinFrameView": {
+            "path": "/Window/Pane/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Pane:WinCaptionButtonContainer": {
+            "path": "/Window/Pane/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Button:WinCaptionButton": {
+            "path": "/Window/Pane/Pane/Button[最小化]",
+            "automation_id": "",
+            "name": "最小化"
+          },
+          "Pane:ClientView": {
+            "path": "/Window/Pane/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          }
+        }
+      },
+      "pid_at_census": 17788
+    },
+    "ServerTask.exe": {
+      "error": "No windows for that process could be found",
+      "pid": 39308,
+      "exe": "ServerTask.exe",
+      "title": "ServerTask",
+      "quick_index": {
+        "by_auto_id": {},
+        "by_static_name": {},
+        "by_class": {}
+      },
+      "pid_at_census": 39308
+    },
+    "Weixin.exe": {
+      "title": "微信",
+      "class_name": "Qt51514QWindowIcon",
+      "automation_id": "",
+      "control_tree": {
+        "control_type": "Window",
+        "class_name": "Qt51514QWindowIcon",
+        "automation_id": "",
+        "name": "微信",
+        "name_pattern": "semi",
+        "rect": "",
+        "enabled": true,
+        "visible": true,
+        "children": [
+          {
+            "control_type": "TitleBar",
+            "class_name": "",
+            "automation_id": "",
+            "name": "",
+            "name_pattern": "static",
+            "rect": "",
+            "enabled": true,
+            "visible": false,
+            "children": []
+          }
+        ]
+      },
+      "stats": {
+        "Window": 1,
+        "TitleBar": 1
+      },
+      "pid": 17208,
+      "exe": "Weixin.exe",
+      "quick_index": {
+        "by_auto_id": {},
+        "by_static_name": {},
+        "by_class": {
+          "Window:Qt51514QWindowIcon": {
+            "path": "/Window",
+            "automation_id": "",
+            "name": "微信"
+          }
+        }
+      },
+      "pid_at_census": 17208
+    },
+    "chrome.exe": {
+      "title": "Neon Console - Google Chrome",
+      "class_name": "Chrome_WidgetWin_1",
+      "automation_id": "",
+      "control_tree": {
+        "control_type": "Window",
+        "class_name": "Chrome_WidgetWin_1",
+        "automation_id": "",
+        "name": "Neon Console - Google Chrome",
+        "name_pattern": "semi",
+        "rect": "",
+        "enabled": true,
+        "visible": true,
+        "children": [
+          {
+            "control_type": "Pane",
+            "class_name": "BrowserRootView",
+            "automation_id": "",
+            "name": "Neon Console - Google Chrome Canary",
+            "name_pattern": "semi",
+            "rect": "",
+            "enabled": true,
+            "visible": true,
+            "children": [
+              {
+                "control_type": "Pane",
+                "class_name": "NonClientView",
+                "automation_id": "",
+                "name": "",
+                "name_pattern": "semi",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": [
+                  {
+                    "control_type": "Pane",
+                    "class_name": "BrowserFrameViewWin",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "BrowserCaptionButtonContainer",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WindowsCaptionButton",
+                    "automation_id": "view_1",
+                    "name": "最小化",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WindowsCaptionButton",
+                    "automation_id": "view_2",
+                    "name": "最大化",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WindowsCaptionButton",
+                    "automation_id": "view_4",
+                    "name": "关闭",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "BrowserView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "TopContainerView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "ToolBar",
+                    "class_name": "ToolbarView",
+                    "automation_id": "view_1000",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "BackForwardButton",
+                    "automation_id": "view_1001",
+                    "name": "返回",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "BackForwardButton",
+                    "automation_id": "view_1002",
+                    "name": "前进",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": false,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "ReloadButton",
+                    "automation_id": "view_1003",
+                    "name": "重新加载",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "HomeButton",
+                    "automation_id": "view_1004",
+                    "name": "首页",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "LocationBarView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "LocationIconView",
+                    "automation_id": "view_1011",
+                    "name": "查看网站信息",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Edit",
+                    "class_name": "OmniboxViewViews",
+                    "automation_id": "view_1012",
+                    "name": "console.neon.tech/app/org-wandering-rice-48099913/billing",
+                    "name_pattern": "dynamic",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "control_type": "Pane",
+                "class_name": "BrowserFrameViewWin",
+                "automation_id": "",
+                "name": "",
+                "name_pattern": "semi",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": [
+                  {
+                    "control_type": "Pane",
+                    "class_name": "BrowserCaptionButtonContainer",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WindowsCaptionButton",
+                    "automation_id": "view_1",
+                    "name": "最小化",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WindowsCaptionButton",
+                    "automation_id": "view_2",
+                    "name": "最大化",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WindowsCaptionButton",
+                    "automation_id": "view_4",
+                    "name": "关闭",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "BrowserView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "TopContainerView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "ToolBar",
+                    "class_name": "ToolbarView",
+                    "automation_id": "view_1000",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "BackForwardButton",
+                    "automation_id": "view_1001",
+                    "name": "返回",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "BackForwardButton",
+                    "automation_id": "view_1002",
+                    "name": "前进",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": false,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "ReloadButton",
+                    "automation_id": "view_1003",
+                    "name": "重新加载",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "HomeButton",
+                    "automation_id": "view_1004",
+                    "name": "首页",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "LocationBarView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "LocationIconView",
+                    "automation_id": "view_1011",
+                    "name": "查看网站信息",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Edit",
+                    "class_name": "OmniboxViewViews",
+                    "automation_id": "view_1012",
+                    "name": "console.neon.tech/app/org-wandering-rice-48099913/billing",
+                    "name_pattern": "dynamic",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "PageActionContainerView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "control_type": "Pane",
+                "class_name": "BrowserCaptionButtonContainer",
+                "automation_id": "",
+                "name": "",
+                "name_pattern": "semi",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": [
+                  {
+                    "control_type": "Button",
+                    "class_name": "WindowsCaptionButton",
+                    "automation_id": "view_1",
+                    "name": "最小化",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WindowsCaptionButton",
+                    "automation_id": "view_2",
+                    "name": "最大化",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "WindowsCaptionButton",
+                    "automation_id": "view_4",
+                    "name": "关闭",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "control_type": "Button",
+                "class_name": "WindowsCaptionButton",
+                "automation_id": "view_1",
+                "name": "最小化",
+                "name_pattern": "static",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": []
+              },
+              {
+                "control_type": "Button",
+                "class_name": "WindowsCaptionButton",
+                "automation_id": "view_2",
+                "name": "最大化",
+                "name_pattern": "static",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": []
+              },
+              {
+                "control_type": "Button",
+                "class_name": "WindowsCaptionButton",
+                "automation_id": "view_4",
+                "name": "关闭",
+                "name_pattern": "static",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": []
+              },
+              {
+                "control_type": "Pane",
+                "class_name": "BrowserView",
+                "automation_id": "",
+                "name": "",
+                "name_pattern": "semi",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": [
+                  {
+                    "control_type": "Pane",
+                    "class_name": "TopContainerView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "ToolBar",
+                    "class_name": "ToolbarView",
+                    "automation_id": "view_1000",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "BackForwardButton",
+                    "automation_id": "view_1001",
+                    "name": "返回",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "BackForwardButton",
+                    "automation_id": "view_1002",
+                    "name": "前进",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": false,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "ReloadButton",
+                    "automation_id": "view_1003",
+                    "name": "重新加载",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "HomeButton",
+                    "automation_id": "view_1004",
+                    "name": "首页",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "LocationBarView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "LocationIconView",
+                    "automation_id": "view_1011",
+                    "name": "查看网站信息",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Edit",
+                    "class_name": "OmniboxViewViews",
+                    "automation_id": "view_1012",
+                    "name": "console.neon.tech/app/org-wandering-rice-48099913/billing",
+                    "name_pattern": "dynamic",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "PageActionContainerView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "PageActionView",
+                    "automation_id": "",
+                    "name": "翻译",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "PageActionView",
+                    "automation_id": "",
+                    "name": "管理您的密码",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "PageActionView",
+                    "automation_id": "",
+                    "name": "为此标签页添加书签",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "PageActionIconContainerView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "ExtensionsToolbarDesktop",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "control_type": "Pane",
+                "class_name": "TopContainerView",
+                "automation_id": "",
+                "name": "",
+                "name_pattern": "semi",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": [
+                  {
+                    "control_type": "ToolBar",
+                    "class_name": "ToolbarView",
+                    "automation_id": "view_1000",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "BackForwardButton",
+                    "automation_id": "view_1001",
+                    "name": "返回",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "BackForwardButton",
+                    "automation_id": "view_1002",
+                    "name": "前进",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": false,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "ReloadButton",
+                    "automation_id": "view_1003",
+                    "name": "重新加载",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "HomeButton",
+                    "automation_id": "view_1004",
+                    "name": "首页",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "LocationBarView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "LocationIconView",
+                    "automation_id": "view_1011",
+                    "name": "查看网站信息",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Edit",
+                    "class_name": "OmniboxViewViews",
+                    "automation_id": "view_1012",
+                    "name": "console.neon.tech/app/org-wandering-rice-48099913/billing",
+                    "name_pattern": "dynamic",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "PageActionContainerView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "PageActionView",
+                    "automation_id": "",
+                    "name": "翻译",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "PageActionView",
+                    "automation_id": "",
+                    "name": "管理您的密码",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "PageActionView",
+                    "automation_id": "",
+                    "name": "为此标签页添加书签",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "PageActionIconContainerView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "ExtensionsToolbarDesktop",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "ToolbarActionView",
+                    "automation_id": "view_1009",
+                    "name": "谷歌上网助手 开发",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "control_type": "ToolBar",
+                "class_name": "ToolbarView",
+                "automation_id": "view_1000",
+                "name": "",
+                "name_pattern": "static",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": [
+                  {
+                    "control_type": "Button",
+                    "class_name": "BackForwardButton",
+                    "automation_id": "view_1001",
+                    "name": "返回",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "BackForwardButton",
+                    "automation_id": "view_1002",
+                    "name": "前进",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": false,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "ReloadButton",
+                    "automation_id": "view_1003",
+                    "name": "重新加载",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "HomeButton",
+                    "automation_id": "view_1004",
+                    "name": "首页",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Group",
+                    "class_name": "LocationBarView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "LocationIconView",
+                    "automation_id": "view_1011",
+                    "name": "查看网站信息",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Edit",
+                    "class_name": "OmniboxViewViews",
+                    "automation_id": "view_1012",
+                    "name": "console.neon.tech/app/org-wandering-rice-48099913/billing",
+                    "name_pattern": "dynamic",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "PageActionContainerView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "PageActionView",
+                    "automation_id": "",
+                    "name": "翻译",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "PageActionView",
+                    "automation_id": "",
+                    "name": "管理您的密码",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "PageActionView",
+                    "automation_id": "",
+                    "name": "为此标签页添加书签",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "PageActionIconContainerView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "ExtensionsToolbarDesktop",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "ToolbarActionView",
+                    "automation_id": "view_1009",
+                    "name": "谷歌上网助手 开发",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "ExtensionsToolbarButton",
+                    "automation_id": "view_1006",
+                    "name": "已允许在此网站上使用扩展程序。选择即可打开菜单",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "control_type": "Button",
+                "class_name": "BackForwardButton",
+                "automation_id": "view_1001",
+                "name": "返回",
+                "name_pattern": "static",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": []
+              },
+              {
+                "control_type": "Button",
+                "class_name": "BackForwardButton",
+                "automation_id": "view_1002",
+                "name": "前进",
+                "name_pattern": "static",
+                "rect": "",
+                "enabled": false,
+                "visible": true,
+                "children": []
+              },
+              {
+                "control_type": "Button",
+                "class_name": "ReloadButton",
+                "automation_id": "view_1003",
+                "name": "重新加载",
+                "name_pattern": "static",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": []
+              },
+              {
+                "control_type": "Button",
+                "class_name": "HomeButton",
+                "automation_id": "view_1004",
+                "name": "首页",
+                "name_pattern": "static",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": []
+              },
+              {
+                "control_type": "Group",
+                "class_name": "LocationBarView",
+                "automation_id": "",
+                "name": "",
+                "name_pattern": "static",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": [
+                  {
+                    "control_type": "Button",
+                    "class_name": "LocationIconView",
+                    "automation_id": "view_1011",
+                    "name": "查看网站信息",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Edit",
+                    "class_name": "OmniboxViewViews",
+                    "automation_id": "view_1012",
+                    "name": "console.neon.tech/app/org-wandering-rice-48099913/billing",
+                    "name_pattern": "dynamic",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "PageActionContainerView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "PageActionView",
+                    "automation_id": "",
+                    "name": "翻译",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "PageActionView",
+                    "automation_id": "",
+                    "name": "管理您的密码",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Button",
+                    "class_name": "PageActionView",
+                    "automation_id": "",
+                    "name": "为此标签页添加书签",
+                    "name_pattern": "static",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  },
+                  {
+                    "control_type": "Pane",
+                    "class_name": "PageActionIconContainerView",
+                    "automation_id": "",
+                    "name": "",
+                    "name_pattern": "semi",
+                    "rect": "",
+                    "enabled": true,
+                    "visible": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "control_type": "Button",
+                "class_name": "LocationIconView",
+                "automation_id": "view_1011",
+                "name": "查看网站信息",
+                "name_pattern": "static",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "stats": {
+        "Button": 58,
+        "Pane": 26,
+        "Group": 6,
+        "Edit": 6,
+        "ToolBar": 5,
+        "Window": 1
+      },
+      "pid": 25148,
+      "exe": "chrome.exe",
+      "quick_index": {
+        "by_auto_id": {
+          "view_1": {
+            "path": "/Window/Pane/Button[view_1]",
+            "control_type": "Button",
+            "class_name": "WindowsCaptionButton"
+          },
+          "view_2": {
+            "path": "/Window/Pane/Button[view_2]",
+            "control_type": "Button",
+            "class_name": "WindowsCaptionButton"
+          },
+          "view_4": {
+            "path": "/Window/Pane/Button[view_4]",
+            "control_type": "Button",
+            "class_name": "WindowsCaptionButton"
+          },
+          "view_1000": {
+            "path": "/Window/Pane/ToolBar[view_1000]",
+            "control_type": "ToolBar",
+            "class_name": "ToolbarView"
+          },
+          "view_1001": {
+            "path": "/Window/Pane/Button[view_1001]",
+            "control_type": "Button",
+            "class_name": "BackForwardButton"
+          },
+          "view_1002": {
+            "path": "/Window/Pane/Button[view_1002]",
+            "control_type": "Button",
+            "class_name": "BackForwardButton"
+          },
+          "view_1003": {
+            "path": "/Window/Pane/Button[view_1003]",
+            "control_type": "Button",
+            "class_name": "ReloadButton"
+          },
+          "view_1004": {
+            "path": "/Window/Pane/Button[view_1004]",
+            "control_type": "Button",
+            "class_name": "HomeButton"
+          },
+          "view_1011": {
+            "path": "/Window/Pane/Button[view_1011]",
+            "control_type": "Button",
+            "class_name": "LocationIconView"
+          },
+          "view_1012": {
+            "path": "/Window/Pane/Group/Edit[view_1012]",
+            "control_type": "Edit",
+            "class_name": "OmniboxViewViews"
+          },
+          "view_1009": {
+            "path": "/Window/Pane/ToolBar[view_1000]/Button[view_1009]",
+            "control_type": "Button",
+            "class_name": "ToolbarActionView"
+          },
+          "view_1006": {
+            "path": "/Window/Pane/ToolBar[view_1000]/Button[view_1006]",
+            "control_type": "Button",
+            "class_name": "ExtensionsToolbarButton"
+          }
+        },
+        "by_static_name": {
+          "Button:最小化": {
+            "path": "/Window/Pane/Button[view_1]",
+            "automation_id": "view_1",
+            "class_name": "WindowsCaptionButton"
+          },
+          "Button:最大化": {
+            "path": "/Window/Pane/Button[view_2]",
+            "automation_id": "view_2",
+            "class_name": "WindowsCaptionButton"
+          },
+          "Button:关闭": {
+            "path": "/Window/Pane/Button[view_4]",
+            "automation_id": "view_4",
+            "class_name": "WindowsCaptionButton"
+          },
+          "Button:返回": {
+            "path": "/Window/Pane/Button[view_1001]",
+            "automation_id": "view_1001",
+            "class_name": "BackForwardButton"
+          },
+          "Button:前进": {
+            "path": "/Window/Pane/Button[view_1002]",
+            "automation_id": "view_1002",
+            "class_name": "BackForwardButton"
+          },
+          "Button:重新加载": {
+            "path": "/Window/Pane/Button[view_1003]",
+            "automation_id": "view_1003",
+            "class_name": "ReloadButton"
+          },
+          "Button:首页": {
+            "path": "/Window/Pane/Button[view_1004]",
+            "automation_id": "view_1004",
+            "class_name": "HomeButton"
+          },
+          "Button:查看网站信息": {
+            "path": "/Window/Pane/Button[view_1011]",
+            "automation_id": "view_1011",
+            "class_name": "LocationIconView"
+          },
+          "Button:翻译": {
+            "path": "/Window/Pane/Group/Button[翻译]",
+            "automation_id": "",
+            "class_name": "PageActionView"
+          },
+          "Button:管理您的密码": {
+            "path": "/Window/Pane/Group/Button[管理您的密码]",
+            "automation_id": "",
+            "class_name": "PageActionView"
+          },
+          "Button:为此标签页添加书签": {
+            "path": "/Window/Pane/Group/Button[为此标签页添加书签]",
+            "automation_id": "",
+            "class_name": "PageActionView"
+          },
+          "Button:谷歌上网助手 开发": {
+            "path": "/Window/Pane/ToolBar[view_1000]/Button[view_1009]",
+            "automation_id": "view_1009",
+            "class_name": "ToolbarActionView"
+          },
+          "Button:已允许在此网站上使用扩展程序。选择即可打开菜单": {
+            "path": "/Window/Pane/ToolBar[view_1000]/Button[view_1006]",
+            "automation_id": "view_1006",
+            "class_name": "ExtensionsToolbarButton"
+          }
+        },
+        "by_class": {
+          "Window:Chrome_WidgetWin_1": {
+            "path": "/Window",
+            "automation_id": "",
+            "name": "Neon Console - Google Chrome"
+          },
+          "Pane:BrowserRootView": {
+            "path": "/Window/Pane",
+            "automation_id": "",
+            "name": "Neon Console - Google Chrome Canary"
+          },
+          "Pane:NonClientView": {
+            "path": "/Window/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Pane:BrowserFrameViewWin": {
+            "path": "/Window/Pane/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Pane:BrowserCaptionButtonContainer": {
+            "path": "/Window/Pane/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Button:WindowsCaptionButton": {
+            "path": "/Window/Pane/Pane/Button[view_1]",
+            "automation_id": "view_1",
+            "name": "最小化"
+          },
+          "Pane:BrowserView": {
+            "path": "/Window/Pane/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Pane:TopContainerView": {
+            "path": "/Window/Pane/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "ToolBar:ToolbarView": {
+            "path": "/Window/Pane/Pane/ToolBar[view_1000]",
+            "automation_id": "view_1000",
+            "name": ""
+          },
+          "Button:BackForwardButton": {
+            "path": "/Window/Pane/Pane/Button[view_1001]",
+            "automation_id": "view_1001",
+            "name": "返回"
+          },
+          "Button:ReloadButton": {
+            "path": "/Window/Pane/Pane/Button[view_1003]",
+            "automation_id": "view_1003",
+            "name": "重新加载"
+          },
+          "Button:HomeButton": {
+            "path": "/Window/Pane/Pane/Button[view_1004]",
+            "automation_id": "view_1004",
+            "name": "首页"
+          },
+          "Group:LocationBarView": {
+            "path": "/Window/Pane/Pane/Group",
+            "automation_id": "",
+            "name": ""
+          },
+          "Button:LocationIconView": {
+            "path": "/Window/Pane/Pane/Button[view_1011]",
+            "automation_id": "view_1011",
+            "name": "查看网站信息"
+          },
+          "Edit:OmniboxViewViews": {
+            "path": "/Window/Pane/Pane/Edit[view_1012]",
+            "automation_id": "view_1012",
+            "name": "console.neon.tech/app/org-wandering-rice-48099913/billing"
+          },
+          "Pane:PageActionContainerView": {
+            "path": "/Window/Pane/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Button:PageActionView": {
+            "path": "/Window/Pane/Pane/Button[翻译]",
+            "automation_id": "",
+            "name": "翻译"
+          },
+          "Pane:PageActionIconContainerView": {
+            "path": "/Window/Pane/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Pane:ExtensionsToolbarDesktop": {
+            "path": "/Window/Pane/Pane/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Button:ToolbarActionView": {
+            "path": "/Window/Pane/Pane/Button[view_1009]",
+            "automation_id": "view_1009",
+            "name": "谷歌上网助手 开发"
+          },
+          "Button:ExtensionsToolbarButton": {
+            "path": "/Window/Pane/ToolBar[view_1000]/Button[view_1006]",
+            "automation_id": "view_1006",
+            "name": "已允许在此网站上使用扩展程序。选择即可打开菜单"
+          }
+        }
+      },
+      "pid_at_census": 25148
+    },
+    "TextInputHost.exe": {
+      "error": "No windows for that process could be found",
+      "pid": 10748,
+      "exe": "TextInputHost.exe",
+      "title": "Microsoft Text Input Application",
+      "quick_index": {
+        "by_auto_id": {},
+        "by_static_name": {},
+        "by_class": {}
+      },
+      "pid_at_census": 10748
+    },
+    "explorer.exe": {
+      "title": "Program Manager",
+      "class_name": "Shell_SecondaryTrayWnd",
+      "automation_id": "",
+      "control_tree": {
+        "control_type": "Pane",
+        "class_name": "Shell_SecondaryTrayWnd",
+        "automation_id": "",
+        "name": "",
+        "name_pattern": "semi",
+        "rect": "",
+        "enabled": true,
+        "visible": true,
+        "children": [
+          {
+            "control_type": "Button",
+            "class_name": "Start",
+            "automation_id": "",
+            "name": "开始",
+            "name_pattern": "static",
+            "rect": "",
+            "enabled": true,
+            "visible": true,
+            "children": []
+          },
+          {
+            "control_type": "ToolBar",
+            "class_name": "MSTaskListWClass",
+            "automation_id": "",
+            "name": "运行中的应用程序",
+            "name_pattern": "static",
+            "rect": "",
+            "enabled": true,
+            "visible": true,
+            "children": [
+              {
+                "control_type": "Button",
+                "class_name": "",
+                "automation_id": "Exafunction.Windsurf",
+                "name": "国产反代 - Windsurf - API_USAGE_GUIDE.md [管理员] - 2 个运行窗口",
+                "name_pattern": "static",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": []
+              },
+              {
+                "control_type": "Button",
+                "class_name": "",
+                "automation_id": "Exafunction.Windsurf",
+                "name": "2046 - Windsurf [管理员] - 2 个运行窗口",
+                "name_pattern": "static",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": []
+              },
+              {
+                "control_type": "Button",
+                "class_name": "",
+                "automation_id": "Microsoft.AutoGenerated.{5E8FC15D-96C5-8C7D-B1AF-2757B67E4C6D}",
+                "name": "任务管理器 - 1 个运行窗口",
+                "name_pattern": "static",
+                "rect": "",
+                "enabled": true,
+                "visible": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "control_type": "Button",
+            "class_name": "",
+            "automation_id": "Exafunction.Windsurf",
+            "name": "国产反代 - Windsurf - API_USAGE_GUIDE.md [管理员] - 2 个运行窗口",
+            "name_pattern": "static",
+            "rect": "",
+            "enabled": true,
+            "visible": true,
+            "children": []
+          },
+          {
+            "control_type": "Button",
+            "class_name": "",
+            "automation_id": "Exafunction.Windsurf",
+            "name": "2046 - Windsurf [管理员] - 2 个运行窗口",
+            "name_pattern": "static",
+            "rect": "",
+            "enabled": true,
+            "visible": true,
+            "children": []
+          },
+          {
+            "control_type": "Button",
+            "class_name": "",
+            "automation_id": "Microsoft.AutoGenerated.{5E8FC15D-96C5-8C7D-B1AF-2757B67E4C6D}",
+            "name": "任务管理器 - 1 个运行窗口",
+            "name_pattern": "static",
+            "rect": "",
+            "enabled": true,
+            "visible": true,
+            "children": []
+          },
+          {
+            "control_type": "Button",
+            "class_name": "ClockButton",
+            "automation_id": "",
+            "name": "系统时钟, 23:15, ‎2026/‎4/‎12",
+            "name_pattern": "static",
+            "rect": "",
+            "enabled": true,
+            "visible": true,
+            "children": []
+          }
+        ]
+      },
+      "stats": {
+        "Button": 8,
+        "Pane": 1,
+        "ToolBar": 1
+      },
+      "pid": 8368,
+      "exe": "explorer.exe",
+      "quick_index": {
+        "by_auto_id": {
+          "Exafunction.Windsurf": {
+            "path": "/Pane/Button[Exafunction.Windsurf]",
+            "control_type": "Button",
+            "class_name": ""
+          },
+          "Microsoft.AutoGenerated.{5E8FC15D-96C5-8C7D-B1AF-2757B67E4C6D}": {
+            "path": "/Pane/Button[Microsoft.AutoGenerated.{5E8FC15D-96C5-8C7D-B1AF-2757B67E4C6D}]",
+            "control_type": "Button",
+            "class_name": ""
+          }
+        },
+        "by_static_name": {
+          "Button:开始": {
+            "path": "/Pane/Button[开始]",
+            "automation_id": "",
+            "class_name": "Start"
+          },
+          "ToolBar:运行中的应用程序": {
+            "path": "/Pane/ToolBar[运行中的应用程序]",
+            "automation_id": "",
+            "class_name": "MSTaskListWClass"
+          },
+          "Button:国产反代 - Windsurf - API_USAGE_GUIDE.md [管理员] - 2 个运行窗口": {
+            "path": "/Pane/Button[Exafunction.Windsurf]",
+            "automation_id": "Exafunction.Windsurf",
+            "class_name": ""
+          },
+          "Button:2046 - Windsurf [管理员] - 2 个运行窗口": {
+            "path": "/Pane/Button[Exafunction.Windsurf]",
+            "automation_id": "Exafunction.Windsurf",
+            "class_name": ""
+          },
+          "Button:任务管理器 - 1 个运行窗口": {
+            "path": "/Pane/Button[Microsoft.AutoGenerated.{5E8FC15D-96C5-8C7D-B1AF-2757B67E4C6D}]",
+            "automation_id": "Microsoft.AutoGenerated.{5E8FC15D-96C5-8C7D-B1AF-2757B67E4C6D}",
+            "class_name": ""
+          },
+          "Button:系统时钟, 23:15, ‎2026/‎4/‎12": {
+            "path": "/Pane/Button[系统时钟, 23:15, ‎2026/‎4/‎12]",
+            "automation_id": "",
+            "class_name": "ClockButton"
+          }
+        },
+        "by_class": {
+          "Pane:Shell_SecondaryTrayWnd": {
+            "path": "/Pane",
+            "automation_id": "",
+            "name": ""
+          },
+          "Button:Start": {
+            "path": "/Pane/Button[开始]",
+            "automation_id": "",
+            "name": "开始"
+          },
+          "ToolBar:MSTaskListWClass": {
+            "path": "/Pane/ToolBar[运行中的应用程序]",
+            "automation_id": "",
+            "name": "运行中的应用程序"
+          },
+          "Button:ClockButton": {
+            "path": "/Pane/Button[系统时钟, 23:15, ‎2026/‎4/‎12]",
+            "automation_id": "",
+            "name": "系统时钟, 23:15, ‎2026/‎4/‎12"
+          }
+        }
+      },
+      "pid_at_census": 8368
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C1743",
+        "saveHyCode": "1743",
+        "hyPecul": "丝印染精加工",
+        "hyTypeName": "丝印染精加工",
+        "enHyTypeName": null,
+        "explains": "指对非自产的丝织物进行漂白、染色、印花、轧光、起绒、缩水等工序的加工。",
+        "includesTitle": "包括下列丝的印染精加工活动：",
+        "includes": "印染蚕丝及交织机织物：练白蚕丝及交织机织物、染色蚕丝及交织机织物、印花蚕丝及交织机织物。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "丝印染精",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-04-15 11:21:15",
+  "steps": [
+    {
+      "step": "probe",
+      "data": {
+        "error": "cdp_eval_timeout"
+      }
+    }
+  ],
+  "ended_at": "2026-04-15 11:23:36"
+}

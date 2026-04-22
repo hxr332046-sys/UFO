@@ -1,0 +1,170 @@
+{
+  "schema": "ufo.phase1_icpsp_recipe.v1",
+  "started_at": "2026-04-20 19:59:41",
+  "case_path": "G:\\UFO\\政务平台\\docs\\case_广西容县李陈梦.json",
+  "picked_tab_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+  "tab_pick_debug": [
+    {
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+      "hint": {
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="
+      }
+    }
+  ],
+  "ui_steps": [
+    {
+      "step": "enterprise_zone_nav"
+    },
+    {
+      "step": "enterprise_zone_establish_wizard",
+      "data": {
+        "ok": false,
+        "msg": "no_establish"
+      }
+    },
+    {
+      "step": "click_start_banli",
+      "data": true
+    },
+    {
+      "step": "declaration_nav"
+    },
+    {
+      "step": "declaration_agree"
+    },
+    {
+      "step": "guide_base_nav"
+    },
+    {
+      "step": "guide_base_click",
+      "data": "next"
+    },
+    {
+      "step": "namecheck_fill_attempt",
+      "data": {
+        "ok": false,
+        "msg": "no_index_namecheck",
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="
+      }
+    }
+  ],
+  "replay_notes": [
+    "顺序即浏览器内实际发出的 icpsp-api 请求（仅 Network.requestWillBeSent，含部分异步尾包）。",
+    "含 busiId / nameId 的保存类接口：重放时常需把上一响应里的 id 写回后续 body，见各接口返回 JSON。",
+    "Authorization 为会话态：与 mitm/runtime_auth_headers 同步刷新；纯后台不等于无 Cookie。"
+  ],
+  "icpsp_requests_chronological": [
+    {
+      "ts": 1776686387.5581312,
+      "method": "GET",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/usermanager/getUserInfo?t=1776686382367",
+      "postData_len": 0
+    },
+    {
+      "ts": 1776686387.5603876,
+      "method": "GET",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/tools/getCacheCreateTime?t=1776686382407",
+      "postData_len": 0
+    },
+    {
+      "ts": 1776686387.5666912,
+      "method": "GET",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/headertail/getTailConfigList?t=1776686382895",
+      "postData_len": 0
+    },
+    {
+      "ts": 1776686387.569137,
+      "method": "GET",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/guide/home/selectBusinessModules?t=1776686382916",
+      "postData_len": 0
+    },
+    {
+      "ts": 1776686387.5694652,
+      "method": "GET",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/businessguide/servicepeople/searchConsultPhonePageData?t=1776686382916",
+      "postData_len": 0
+    },
+    {
+      "ts": 1776686395.8832066,
+      "method": "GET",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/usermanager/getUserInfo?t=1776686394072",
+      "postData_len": 0
+    },
+    {
+      "ts": 1776686395.8849752,
+      "method": "GET",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/tools/getCacheCreateTime?t=1776686394102",
+      "postData_len": 0
+    },
+    {
+      "ts": 1776686395.8890893,
+      "method": "GET",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/businessguide/servicepeople/getServicePeopleInfo?t=1776686394378&code=apply_notice&useType=busi&busiType=establishNotice02_4&entType=1100",
+      "postData_len": 0
+    },
+    {
+      "ts": 1776686395.8893428,
+      "method": "GET",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/headertail/getTailConfigList?t=1776686394378",
+      "postData_len": 0
+    },
+    {
+      "ts": 1776686405.227994,
+      "method": "GET",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/guide/greenchannel/checkGreenChannel?t=1776686405226&busiType=02&entName=",
+      "postData_len": 0
+    },
+    {
+      "ts": 1776686406.9824307,
+      "method": "GET",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/usermanager/getUserInfo?t=1776686405257",
+      "postData_len": 0
+    },
+    {
+      "ts": 1776686406.984171,
+      "method": "GET",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/tools/getCacheCreateTime?t=1776686405300",
+      "postData_len": 0
+    },
+    {
+      "ts": 1776686406.9883986,
+      "method": "GET",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryNameEntType?type=1&t=1776686405391",
+      "postData_len": 0
+    },
+    {
+      "ts": 1776686406.9886467,
+      "method": "GET",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryRegcodeAndStreet?t=1776686405391&fromPage=qykbdb",
+      "postData_len": 0
+    },
+    {
+      "ts": 1776686406.9888926,
+      "method": "GET",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/codedata/special/common/queryCodeList?key=CODE_MOKINDCODE&t=1776686405391",
+      "postData_len": 0
+    },
+    {
+      "ts": 1776686406.9891353,
+      "method": "GET",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryNameEntType?type=2&t=1776686405391",
+      "postData_len": 0
+    },
+    {
+      "ts": 1776686408.6002555,
+      "method": "GET",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/usermanager/getUserInfo?t=1776686408597",
+      "postData_len": 0
+    },
+    {
+      "ts": 1776686413.8873565,
+      "method": "GET",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/tools/getCacheCreateTime?t=1776686408630",
+      "postData_len": 0
+    }
+  ],
+  "icpsp_post_count": 0,
+  "ended_at": "2026-04-20 20:00:35"
+}

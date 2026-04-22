@@ -1,0 +1,12 @@
+{
+  "ElCard": {
+    "businessArea": [
+      {
+        "required": true,
+        "message": "",
+        "trigger": "blur",
+        "type": ""
+      }
+    ]
+  }
+}

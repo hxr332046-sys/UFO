@@ -1,0 +1,37 @@
+{
+  "started_at": "2026-04-14 20:44:12",
+  "invoke": {
+    "ok": true,
+    "opRetType": "object",
+    "opErr": null,
+    "hash": "#/flow/base/member-post",
+    "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/member-post"
+  },
+  "after": {
+    "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/member-post",
+    "hash": "#/flow/base/member-post",
+    "errors": [],
+    "buttons": [
+      {
+        "text": "添加成员",
+        "disabled": false
+      },
+      {
+        "text": "编辑",
+        "disabled": false
+      },
+      {
+        "text": "删除",
+        "disabled": false
+      },
+      {
+        "text": "上一步",
+        "disabled": false
+      },
+      {
+        "text": "保存并下一步",
+        "disabled": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C2824",
+        "saveHyCode": "2824",
+        "hyPecul": "维纶纤维制造",
+        "hyTypeName": "维纶纤维制造",
+        "enHyTypeName": null,
+        "explains": "也称聚乙烯醇纤维，指以聚乙烯醇为主要原料生产合成纤维的活动。",
+        "includesTitle": "包括对下列维纶纤维的制造活动：",
+        "includes": "维纶纤维：维纶纤维短纤维、维纶纤维长丝、其他维纶纤维；维纶纤维加工丝：维纶牵切纱、维纶纤维长丝变形纱线、维纶纤维长丝单纱。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "维纶纤维",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

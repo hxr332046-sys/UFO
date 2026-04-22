@@ -1,0 +1,54 @@
+{
+  "started_at": "2026-04-14 23:46:55",
+  "steps": [
+    {
+      "step": "before_network",
+      "data": {
+        "reqs": [],
+        "resps": []
+      }
+    },
+    {
+      "step": "fill_required_runtime",
+      "data": {
+        "ok": true,
+        "distCode": "450102",
+        "address": "兴宁区",
+        "detAddress": "容州大道88号",
+        "form": {
+          "entType": "1100",
+          "nameCode": "0",
+          "havaAdress": "1",
+          "distCode": "450102",
+          "streetName": "兴宁区",
+          "detAddress": "容州大道88号",
+          "address": "兴宁区"
+        }
+      }
+    },
+    {
+      "step": "click_next",
+      "data": {
+        "ok": true,
+        "text": "下一步"
+      }
+    },
+    {
+      "step": "after_network",
+      "data": {
+        "reqs": [],
+        "resps": []
+      }
+    },
+    {
+      "step": "after_state",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasYunbangban": false,
+        "hasNamePrompt": false
+      }
+    }
+  ],
+  "ended_at": "2026-04-14 23:47:06"
+}

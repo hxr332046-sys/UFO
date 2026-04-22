@@ -1,0 +1,328 @@
+{
+  "started_at": "2026-04-16 01:49:49",
+  "page": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+  "steps": [
+    {
+      "step": "force_target_route",
+      "data": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId="
+    },
+    {
+      "step": "install_hook",
+      "data": {
+        "ok": true
+      }
+    },
+    {
+      "step": "api_replay_branches",
+      "data": {
+        "ok": true,
+        "routeQuery": {
+          "busiType": "02_4",
+          "entType": "4540",
+          "marPrId": "",
+          "marUniscId": ""
+        },
+        "branches": [
+          {
+            "branch": "A_nameCode0_with_qimingbao",
+            "payload": {
+              "basic": {
+                "busiType": "02_4",
+                "entType": "4540",
+                "extra": "guideData",
+                "vipChannel": null,
+                "ywlbSign": "",
+                "busiId": "",
+                "extraDto": "{\"extraDto\":{\"entType\":\"4540\",\"distCode\":\"450102\",\"streetCode\":\"450102\",\"nameCode\":\"0\",\"havaAdress\":\"0\",\"namePre\":\"广西\",\"nameMark\":\"星有\",\"industry\":\"5132\",\"industryName\":\"服装批发\",\"industrySpecial\":\"服装批发\",\"mainBusinessDesc\":\"服装批发\",\"organize\":\"分部（个人独资）\",\"address\":\"兴宁区\",\"detAddress\":\"容州大道88号\"}}"
+              },
+              "establish": {
+                "entType": "4540",
+                "distCode": "450102",
+                "streetCode": "450102",
+                "nameCode": "0",
+                "havaAdress": "0",
+                "namePre": "广西",
+                "nameMark": "星有",
+                "industry": "5132",
+                "industryName": "服装批发",
+                "industrySpecial": "服装批发",
+                "mainBusinessDesc": "服装批发",
+                "organize": "分部（个人独资）",
+                "address": "兴宁区",
+                "detAddress": "容州大道88号",
+                "gainError": "1",
+                "establishType": ""
+              }
+            },
+            "calls": [
+              {
+                "name": "checkEstablishName",
+                "ok": false,
+                "err": "[object Object]",
+                "code": "A0002",
+                "data": null,
+                "response": "undefined"
+              },
+              {
+                "name": "preProcessDeclare",
+                "ok": false,
+                "err": "[object Object]",
+                "code": "A0002",
+                "data": null,
+                "response": "undefined"
+              },
+              {
+                "name": "queryExtraDto",
+                "ok": false,
+                "err": "[object Object]",
+                "code": "A0002",
+                "data": null,
+                "response": "undefined"
+              }
+            ],
+            "okAny": false
+          },
+          {
+            "branch": "B_nameCode1_with_qimingbao",
+            "payload": {
+              "basic": {
+                "busiType": "02_4",
+                "entType": "4540",
+                "extra": "guideData",
+                "vipChannel": null,
+                "ywlbSign": "",
+                "busiId": "",
+                "extraDto": "{\"extraDto\":{\"entType\":\"4540\",\"distCode\":\"450102\",\"streetCode\":\"450102\",\"nameCode\":\"1\",\"havaAdress\":\"0\",\"namePre\":\"广西\",\"nameMark\":\"星有\",\"industry\":\"5132\",\"industryName\":\"服装批发\",\"industrySpecial\":\"服装批发\",\"mainBusinessDesc\":\"服装批发\",\"organize\":\"分部（个人独资）\",\"address\":\"兴宁区\",\"detAddress\":\"容州大道88号\"}}"
+              },
+              "establish": {
+                "entType": "4540",
+                "distCode": "450102",
+                "streetCode": "450102",
+                "nameCode": "1",
+                "havaAdress": "0",
+                "namePre": "广西",
+                "nameMark": "星有",
+                "industry": "5132",
+                "industryName": "服装批发",
+                "industrySpecial": "服装批发",
+                "mainBusinessDesc": "服装批发",
+                "organize": "分部（个人独资）",
+                "address": "兴宁区",
+                "detAddress": "容州大道88号",
+                "gainError": "1",
+                "establishType": ""
+              }
+            },
+            "calls": [
+              {
+                "name": "checkEstablishName",
+                "ok": false,
+                "err": "[object Object]",
+                "code": "A0002",
+                "data": null,
+                "response": "undefined"
+              },
+              {
+                "name": "preProcessDeclare",
+                "ok": false,
+                "err": "[object Object]",
+                "code": "A0002",
+                "data": null,
+                "response": "undefined"
+              },
+              {
+                "name": "queryExtraDto",
+                "ok": false,
+                "err": "[object Object]",
+                "code": "A0002",
+                "data": null,
+                "response": "undefined"
+              }
+            ],
+            "okAny": false
+          },
+          {
+            "branch": "C_nameCode0_no_qimingbao",
+            "payload": {
+              "basic": {
+                "busiType": "02_4",
+                "entType": "4540",
+                "extra": "guideData",
+                "vipChannel": null,
+                "ywlbSign": "",
+                "busiId": "",
+                "extraDto": "{\"extraDto\":{\"entType\":\"4540\",\"distCode\":\"450102\",\"streetCode\":\"450102\",\"nameCode\":\"0\",\"havaAdress\":\"0\",\"namePre\":\"广西\",\"nameMark\":\"星有\",\"industry\":\"5132\",\"industryName\":\"服装批发\",\"industrySpecial\":\"服装批发\",\"mainBusinessDesc\":\"服装批发\",\"organize\":\"分部（个人独资）\",\"address\":\"兴宁区\",\"detAddress\":\"容州大道88号\"}}"
+              },
+              "establish": {
+                "entType": "4540",
+                "distCode": "450102",
+                "streetCode": "450102",
+                "nameCode": "0",
+                "havaAdress": "0",
+                "namePre": "广西",
+                "nameMark": "星有",
+                "industry": "5132",
+                "industryName": "服装批发",
+                "industrySpecial": "服装批发",
+                "mainBusinessDesc": "服装批发",
+                "organize": "分部（个人独资）",
+                "address": "兴宁区",
+                "detAddress": "容州大道88号",
+                "gainError": "1",
+                "establishType": ""
+              }
+            },
+            "calls": [
+              {
+                "name": "checkEstablishName",
+                "ok": false,
+                "err": "[object Object]",
+                "code": "A0002",
+                "data": null,
+                "response": "undefined"
+              },
+              {
+                "name": "queryExtraDto",
+                "ok": false,
+                "err": "[object Object]",
+                "code": "A0002",
+                "data": null,
+                "response": "undefined"
+              }
+            ],
+            "okAny": false
+          }
+        ],
+        "any00000": false
+      }
+    },
+    {
+      "step": "captured_packets",
+      "data": {
+        "count": 16,
+        "items": [
+          {
+            "t": "xhr",
+            "m": "POST",
+            "u": "/icpsp-api/v4/pc/register/guide/establishname/checkEstablishName?t=1776275393834",
+            "body": "{\"entType\":\"4540\",\"distCode\":\"450102\",\"streetCode\":\"450102\",\"nameCode\":\"0\",\"havaAdress\":\"0\",\"namePre\":\"广西\",\"nameMark\":\"星有\",\"industry\":\"5132\",\"industryName\":\"服装批发\",\"industrySpecial\":\"服装批发\",\"mainBusinessDesc\":\"服装批发\",\"organize\":\"分部（个人独资）\",\"address\":\"兴宁区\",\"detAddress\":\"容州大道88号\",\"establishType\":\"\"}",
+            "ts": 1776275393834
+          },
+          {
+            "t": "xhr",
+            "m": "POST",
+            "u": "/icpsp-api/v4/pc/qimingbao/nameRecommend/preProcessDeclare?t=1776275393885",
+            "body": "{\"busiType\":\"02_4\",\"entType\":\"4540\",\"extra\":\"guideData\",\"vipChannel\":null,\"ywlbSign\":\"\",\"busiId\":\"\",\"extraDto\":\"{\\\"extraDto\\\":{\\\"entType\\\":\\\"4540\\\",\\\"distCode\\\":\\\"450102\\\",\\\"streetCode\\\":\\\"450102\\\",\\\"nameCode\\\":\\\"0\\\",\\\"havaAdress\\\":\\\"0\\\",\\\"namePre\\\":\\\"广西\\\",\\\"nameMark\\\":\\\"星有\\\",\\\"industry\\\":\\\"5132\\\",\\\"industryName\\\":\\\"服装批发\\\",\\\"industrySpecial\\\":\\\"服装批发\\\",\\\"mainBusinessDesc\\\":\\\"服装批发\\\",\\\"organize\\\":\\\"分部（个人独资）\\\",\\\"address\\\":\\\"兴宁区\\\",\\\"detAddress\\\":\\\"容州大道88号\\\"}}\"}",
+            "ts": 1776275393885
+          },
+          {
+            "t": "xhr_end",
+            "u": "/icpsp-api/v4/pc/register/guide/establishname/checkEstablishName?t=1776275393834",
+            "status": 200,
+            "resp": "{\"code\":\"A0002\",\"data\":null,\"msg\":\"服务端异常\",\"page\":null}",
+            "ts": 1776275393885
+          },
+          {
+            "t": "xhr",
+            "m": "POST",
+            "u": "/icpsp-api/v4/pc/register/guide/establishname/queryExtraDto?t=1776275393932",
+            "body": "{\"busiType\":\"02_4\",\"entType\":\"4540\",\"extra\":\"guideData\",\"vipChannel\":null,\"ywlbSign\":\"\",\"busiId\":\"\",\"extraDto\":\"{\\\"extraDto\\\":{\\\"entType\\\":\\\"4540\\\",\\\"distCode\\\":\\\"450102\\\",\\\"streetCode\\\":\\\"450102\\\",\\\"nameCode\\\":\\\"0\\\",\\\"havaAdress\\\":\\\"0\\\",\\\"namePre\\\":\\\"广西\\\",\\\"nameMark\\\":\\\"星有\\\",\\\"industry\\\":\\\"5132\\\",\\\"industryName\\\":\\\"服装批发\\\",\\\"industrySpecial\\\":\\\"服装批发\\\",\\\"mainBusinessDesc\\\":\\\"服装批发\\\",\\\"organize\\\":\\\"分部（个人独资）\\\",\\\"address\\\":\\\"兴宁区\\\",\\\"detAddress\\\":\\\"容州大道88号\\\"}}\"}",
+            "ts": 1776275393932
+          },
+          {
+            "t": "xhr_end",
+            "u": "/icpsp-api/v4/pc/qimingbao/nameRecommend/preProcessDeclare?t=1776275393885",
+            "status": 200,
+            "resp": "{\"code\":\"A0002\",\"data\":null,\"msg\":\"服务端异常\",\"page\":null}",
+            "ts": 1776275393932
+          },
+          {
+            "t": "xhr",
+            "m": "POST",
+            "u": "/icpsp-api/v4/pc/register/guide/establishname/checkEstablishName?t=1776275393981",
+            "body": "{\"entType\":\"4540\",\"distCode\":\"450102\",\"streetCode\":\"450102\",\"nameCode\":\"1\",\"havaAdress\":\"0\",\"namePre\":\"广西\",\"nameMark\":\"星有\",\"industry\":\"5132\",\"industryName\":\"服装批发\",\"industrySpecial\":\"服装批发\",\"mainBusinessDesc\":\"服装批发\",\"organize\":\"分部（个人独资）\",\"address\":\"兴宁区\",\"detAddress\":\"容州大道88号\",\"establishType\":\"\"}",
+            "ts": 1776275393982
+          },
+          {
+            "t": "xhr_end",
+            "u": "/icpsp-api/v4/pc/register/guide/establishname/queryExtraDto?t=1776275393932",
+            "status": 200,
+            "resp": "{\"code\":\"A0002\",\"data\":null,\"msg\":\"服务端异常\",\"page\":null}",
+            "ts": 1776275393982
+          },
+          {
+            "t": "xhr",
+            "m": "POST",
+            "u": "/icpsp-api/v4/pc/qimingbao/nameRecommend/preProcessDeclare?t=1776275394032",
+            "body": "{\"busiType\":\"02_4\",\"entType\":\"4540\",\"extra\":\"guideData\",\"vipChannel\":null,\"ywlbSign\":\"\",\"busiId\":\"\",\"extraDto\":\"{\\\"extraDto\\\":{\\\"entType\\\":\\\"4540\\\",\\\"distCode\\\":\\\"450102\\\",\\\"streetCode\\\":\\\"450102\\\",\\\"nameCode\\\":\\\"1\\\",\\\"havaAdress\\\":\\\"0\\\",\\\"namePre\\\":\\\"广西\\\",\\\"nameMark\\\":\\\"星有\\\",\\\"industry\\\":\\\"5132\\\",\\\"industryName\\\":\\\"服装批发\\\",\\\"industrySpecial\\\":\\\"服装批发\\\",\\\"mainBusinessDesc\\\":\\\"服装批发\\\",\\\"organize\\\":\\\"分部（个人独资）\\\",\\\"address\\\":\\\"兴宁区\\\",\\\"detAddress\\\":\\\"容州大道88号\\\"}}\"}",
+            "ts": 1776275394032
+          },
+          {
+            "t": "xhr_end",
+            "u": "/icpsp-api/v4/pc/register/guide/establishname/checkEstablishName?t=1776275393981",
+            "status": 200,
+            "resp": "{\"code\":\"A0002\",\"data\":null,\"msg\":\"服务端异常\",\"page\":null}",
+            "ts": 1776275394032
+          },
+          {
+            "t": "xhr",
+            "m": "POST",
+            "u": "/icpsp-api/v4/pc/register/guide/establishname/queryExtraDto?t=1776275394077",
+            "body": "{\"busiType\":\"02_4\",\"entType\":\"4540\",\"extra\":\"guideData\",\"vipChannel\":null,\"ywlbSign\":\"\",\"busiId\":\"\",\"extraDto\":\"{\\\"extraDto\\\":{\\\"entType\\\":\\\"4540\\\",\\\"distCode\\\":\\\"450102\\\",\\\"streetCode\\\":\\\"450102\\\",\\\"nameCode\\\":\\\"1\\\",\\\"havaAdress\\\":\\\"0\\\",\\\"namePre\\\":\\\"广西\\\",\\\"nameMark\\\":\\\"星有\\\",\\\"industry\\\":\\\"5132\\\",\\\"industryName\\\":\\\"服装批发\\\",\\\"industrySpecial\\\":\\\"服装批发\\\",\\\"mainBusinessDesc\\\":\\\"服装批发\\\",\\\"organize\\\":\\\"分部（个人独资）\\\",\\\"address\\\":\\\"兴宁区\\\",\\\"detAddress\\\":\\\"容州大道88号\\\"}}\"}",
+            "ts": 1776275394077
+          },
+          {
+            "t": "xhr_end",
+            "u": "/icpsp-api/v4/pc/qimingbao/nameRecommend/preProcessDeclare?t=1776275394032",
+            "status": 200,
+            "resp": "{\"code\":\"A0002\",\"data\":null,\"msg\":\"服务端异常\",\"page\":null}",
+            "ts": 1776275394077
+          },
+          {
+            "t": "xhr",
+            "m": "POST",
+            "u": "/icpsp-api/v4/pc/register/guide/establishname/checkEstablishName?t=1776275394124",
+            "body": "{\"entType\":\"4540\",\"distCode\":\"450102\",\"streetCode\":\"450102\",\"nameCode\":\"0\",\"havaAdress\":\"0\",\"namePre\":\"广西\",\"nameMark\":\"星有\",\"industry\":\"5132\",\"industryName\":\"服装批发\",\"industrySpecial\":\"服装批发\",\"mainBusinessDesc\":\"服装批发\",\"organize\":\"分部（个人独资）\",\"address\":\"兴宁区\",\"detAddress\":\"容州大道88号\",\"establishType\":\"\"}",
+            "ts": 1776275394124
+          },
+          {
+            "t": "xhr_end",
+            "u": "/icpsp-api/v4/pc/register/guide/establishname/queryExtraDto?t=1776275394077",
+            "status": 200,
+            "resp": "{\"code\":\"A0002\",\"data\":null,\"msg\":\"服务端异常\",\"page\":null}",
+            "ts": 1776275394124
+          },
+          {
+            "t": "xhr",
+            "m": "POST",
+            "u": "/icpsp-api/v4/pc/register/guide/establishname/queryExtraDto?t=1776275394172",
+            "body": "{\"busiType\":\"02_4\",\"entType\":\"4540\",\"extra\":\"guideData\",\"vipChannel\":null,\"ywlbSign\":\"\",\"busiId\":\"\",\"extraDto\":\"{\\\"extraDto\\\":{\\\"entType\\\":\\\"4540\\\",\\\"distCode\\\":\\\"450102\\\",\\\"streetCode\\\":\\\"450102\\\",\\\"nameCode\\\":\\\"0\\\",\\\"havaAdress\\\":\\\"0\\\",\\\"namePre\\\":\\\"广西\\\",\\\"nameMark\\\":\\\"星有\\\",\\\"industry\\\":\\\"5132\\\",\\\"industryName\\\":\\\"服装批发\\\",\\\"industrySpecial\\\":\\\"服装批发\\\",\\\"mainBusinessDesc\\\":\\\"服装批发\\\",\\\"organize\\\":\\\"分部（个人独资）\\\",\\\"address\\\":\\\"兴宁区\\\",\\\"detAddress\\\":\\\"容州大道88号\\\"}}\"}",
+            "ts": 1776275394172
+          },
+          {
+            "t": "xhr_end",
+            "u": "/icpsp-api/v4/pc/register/guide/establishname/checkEstablishName?t=1776275394124",
+            "status": 200,
+            "resp": "{\"code\":\"A0002\",\"data\":null,\"msg\":\"服务端异常\",\"page\":null}",
+            "ts": 1776275394172
+          },
+          {
+            "t": "xhr_end",
+            "u": "/icpsp-api/v4/pc/register/guide/establishname/queryExtraDto?t=1776275394172",
+            "status": 200,
+            "resp": "{\"code\":\"A0002\",\"data\":null,\"msg\":\"服务端异常\",\"page\":null}",
+            "ts": 1776275394221
+          }
+        ]
+      }
+    },
+    {
+      "step": "state_after",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId="
+      }
+    }
+  ],
+  "ended_at": "2026-04-16 01:49:56"
+}

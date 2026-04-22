@@ -1,0 +1,615 @@
+{
+  "schema": "phase1_service.census.payload.v1",
+  "meta": {
+    "job_id": "seeded_from_dict_cache",
+    "path": "/seeded",
+    "params": {
+      "job_id": "seeded_from_dict_cache",
+      "entType": "4540",
+      "busiType": "01"
+    },
+    "dur_ms": 0,
+    "ts": 1776841959
+  },
+  "data": {
+    "code": "00000",
+    "data": {
+      "resultType": "0",
+      "msg": "",
+      "busiData": [
+        {
+          "name": "院",
+          "enName": null,
+          "code": "802",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "所",
+          "enName": null,
+          "code": "805",
+          "entType": "4540",
+          "entPro": "00",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "楼",
+          "enName": null,
+          "code": "1005",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "家",
+          "enName": null,
+          "code": "1004",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "酒家",
+          "enName": null,
+          "code": "1003",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "诊所",
+          "enName": null,
+          "code": "941",
+          "entType": "4540",
+          "entPro": "00",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "园",
+          "enName": null,
+          "code": "1002",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "咖",
+          "enName": null,
+          "code": "990",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "市",
+          "enName": null,
+          "code": "998",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "分部",
+          "enName": null,
+          "code": "e7e93a7d05355590e0532003a8c0c99c",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "分厂",
+          "enName": null,
+          "code": "e7e93a7d05355590e0532103a8c0c99c",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "分店",
+          "enName": null,
+          "code": "e7e93a7d05355590e0532203a8c0c99c",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "店",
+          "enName": null,
+          "code": "19",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "铺",
+          "enName": null,
+          "code": "20",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "馆",
+          "enName": null,
+          "code": "21",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "坊",
+          "enName": null,
+          "code": "22",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "场",
+          "enName": null,
+          "code": "23",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "经营部",
+          "enName": null,
+          "code": "24",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "门市部",
+          "enName": null,
+          "code": "25",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "大药房",
+          "enName": null,
+          "code": "26",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "药房",
+          "enName": null,
+          "code": "27",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "药店",
+          "enName": null,
+          "code": "28",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "厅",
+          "enName": null,
+          "code": "29",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "行",
+          "enName": null,
+          "code": "30",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "房",
+          "enName": null,
+          "code": "31",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "社",
+          "enName": null,
+          "code": "32",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "亭",
+          "enName": null,
+          "code": "33",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "网咖",
+          "enName": null,
+          "code": "34",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "网吧",
+          "enName": null,
+          "code": "35",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "处",
+          "enName": null,
+          "code": "36",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "厂",
+          "enName": null,
+          "code": "37",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "咖啡厅",
+          "enName": null,
+          "code": "38",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "咖啡店",
+          "enName": null,
+          "code": "39",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "中心",
+          "enName": null,
+          "code": "40",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "饭店",
+          "enName": null,
+          "code": "41",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "饭堂",
+          "enName": null,
+          "code": "42",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "吧",
+          "enName": null,
+          "code": "44",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "商行",
+          "enName": null,
+          "code": "45",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "商店",
+          "enName": null,
+          "code": "46",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "商店馆",
+          "enName": null,
+          "code": "47",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "浴池",
+          "enName": null,
+          "code": "48",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "诊所",
+          "enName": null,
+          "code": "49",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "门诊部",
+          "enName": null,
+          "code": "50",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "俱乐部",
+          "enName": null,
+          "code": "51",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "酒吧",
+          "enName": null,
+          "code": "52",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "酒店",
+          "enName": null,
+          "code": "53",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "旅馆",
+          "enName": null,
+          "code": "54",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "农家院",
+          "enName": null,
+          "code": "55",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "农场",
+          "enName": null,
+          "code": "56",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "加油站",
+          "enName": null,
+          "code": "57",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "影楼",
+          "enName": null,
+          "code": "58",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "工作室",
+          "enName": null,
+          "code": "59",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "加盟店",
+          "enName": null,
+          "code": "60",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "队",
+          "enName": null,
+          "code": "61",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "超市",
+          "enName": null,
+          "code": "62",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "家庭农场",
+          "enName": null,
+          "code": "63",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "部",
+          "enName": null,
+          "code": "64",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "站",
+          "enName": null,
+          "code": "65",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "服务部",
+          "enName": null,
+          "code": "e7e93a7d05355590e0532003a8d0c99c",
+          "entType": "4540",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        }
+      ]
+    },
+    "msg": "操作成功",
+    "page": null
+  }
+}

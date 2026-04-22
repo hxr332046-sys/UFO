@@ -1,0 +1,14 @@
+{
+  "raw": {
+    "id": 1,
+    "result": {
+      "result": {
+        "type": "object",
+        "value": {
+          "ok": true,
+          "status": "resolved"
+        }
+      }
+    }
+  }
+}

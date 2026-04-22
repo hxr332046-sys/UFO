@@ -1,0 +1,1269 @@
+{
+  "generated_at": "2026-04-19 04:08:05",
+  "cases_scanned": 39225,
+  "by_entType": {
+    "1100": {
+      "total": 34500,
+      "ok": 24910,
+      "stop": 9590,
+      "banned_top_tips": [
+        [
+          "所申请的企业名称含有限制使用的内容、文字或同音字（川）。0",
+          4730
+        ],
+        [
+          "所申请的企业名称，含有禁止使用的内容、文字或其同音字。（科技）依据《企业名称禁限用规则》相关规定禁止使用！",
+          4693
+        ],
+        [
+          "所申请的企业名称含有限制使用的内容、文字或同音字（远）。0",
+          88
+        ],
+        [
+          "所申请的企业名称含有限制使用的内容、文字或同音字（景瑞）。0",
+          23
+        ],
+        [
+          "云测样本04中包含不规范的汉字【0、4】，请修改填写信息！",
+          20
+        ],
+        [
+          "所申请的企业名称含有限制使用的内容、文字或同音字（衡）。0",
+          19
+        ],
+        [
+          "???中包含不规范的汉字【?】，请修改填写信息！",
+          3
+        ]
+      ],
+      "banned_top_keywords": [
+        [
+          "远",
+          4795
+        ],
+        [
+          "衡",
+          4730
+        ],
+        [
+          "川",
+          4730
+        ],
+        [
+          "科技",
+          4693
+        ],
+        [
+          "景瑞",
+          23
+        ]
+      ],
+      "banned_rest_types": [],
+      "repeat_checkState": [
+        [
+          "4",
+          32686
+        ],
+        [
+          "2",
+          1536
+        ],
+        [
+          "16",
+          256
+        ],
+        [
+          "1",
+          19
+        ]
+      ],
+      "repeat_langStateCode": [
+        [
+          "register.msg.namecheck.state.similar",
+          32686
+        ],
+        [
+          "register.msg.namecheck.state.stop",
+          1536
+        ],
+        [
+          "register.msg.namecheck.state.zh.stop",
+          256
+        ],
+        [
+          "register.msg.namecheck.state.ok",
+          19
+        ]
+      ],
+      "repeat_top_remark": [
+        [
+          "名称字号相似，来自名称库",
+          32686
+        ],
+        [
+          "名称字号相同，来自名称库",
+          1792
+        ]
+      ],
+      "cohorts": {
+        "by_nameMark": [
+          {
+            "nameMark": "禾泽诺",
+            "total": 5488,
+            "stop": 0
+          },
+          {
+            "nameMark": "启诺瑞",
+            "total": 4688,
+            "stop": 0
+          },
+          {
+            "nameMark": "科技",
+            "total": 4688,
+            "stop": 4688,
+            "banned_stop": 4688,
+            "repeat_stop": 1778
+          },
+          {
+            "nameMark": "远川衡",
+            "total": 4688,
+            "stop": 4688,
+            "banned_stop": 4688
+          },
+          {
+            "nameMark": "有米米",
+            "total": 3729,
+            "stop": 0
+          },
+          {
+            "nameMark": "驰科蓝",
+            "total": 3729,
+            "stop": 0
+          },
+          {
+            "nameMark": "盛云达",
+            "total": 3600,
+            "stop": 0
+          },
+          {
+            "nameMark": "鑫鸿泰",
+            "total": 3600,
+            "stop": 14,
+            "repeat_stop": 14
+          },
+          {
+            "nameMark": "拓诺泽企研",
+            "total": 23,
+            "stop": 0
+          },
+          {
+            "nameMark": "拓辰远企研",
+            "total": 23,
+            "stop": 23,
+            "banned_stop": 23
+          },
+          {
+            "nameMark": "禾景瑞企研",
+            "total": 23,
+            "stop": 23,
+            "banned_stop": 23
+          },
+          {
+            "nameMark": "禾泽诺企研",
+            "total": 23,
+            "stop": 0
+          },
+          {
+            "nameMark": "辰川诚企研",
+            "total": 23,
+            "stop": 23,
+            "banned_stop": 23
+          },
+          {
+            "nameMark": "辰拓禾企研",
+            "total": 23,
+            "stop": 0
+          },
+          {
+            "nameMark": "远启衡企研",
+            "total": 23,
+            "stop": 23,
+            "banned_stop": 23
+          },
+          {
+            "nameMark": "远禾拓企研",
+            "total": 23,
+            "stop": 23,
+            "banned_stop": 23
+          },
+          {
+            "nameMark": "云测样本04",
+            "total": 20,
+            "stop": 20,
+            "banned_stop": 20
+          },
+          {
+            "nameMark": "拓瑞景企研",
+            "total": 19,
+            "stop": 0
+          },
+          {
+            "nameMark": "禾远辰企研",
+            "total": 19,
+            "stop": 19,
+            "banned_stop": 19
+          },
+          {
+            "nameMark": "辰衡启企研",
+            "total": 19,
+            "stop": 19,
+            "banned_stop": 19
+          },
+          {
+            "nameMark": "远诚川企研",
+            "total": 19,
+            "stop": 19,
+            "banned_stop": 19
+          },
+          {
+            "nameMark": "???",
+            "total": 3,
+            "stop": 3,
+            "banned_stop": 3
+          },
+          {
+            "nameMark": "星彤创科技",
+            "total": 3,
+            "stop": 3,
+            "banned_stop": 3
+          },
+          {
+            "nameMark": "万清",
+            "total": 2,
+            "stop": 0
+          },
+          {
+            "nameMark": "真飞天科技",
+            "total": 1,
+            "stop": 1,
+            "banned_stop": 1
+          },
+          {
+            "nameMark": "驰科蓝科技",
+            "total": 1,
+            "stop": 1,
+            "banned_stop": 1
+          }
+        ],
+        "by_indspec_mode": [
+          {
+            "indspec_mode": "industry",
+            "total": 7112,
+            "stop": 1986
+          },
+          {
+            "indspec_mode": "种植",
+            "total": 7112,
+            "stop": 1986
+          },
+          {
+            "indspec_mode": "科技",
+            "total": 7112,
+            "stop": 1990
+          },
+          {
+            "indspec_mode": "软件",
+            "total": 7112,
+            "stop": 1986
+          },
+          {
+            "indspec_mode": "商贸",
+            "total": 5760,
+            "stop": 1442
+          }
+        ],
+        "by_nameMark_indspec_mode": [
+          {
+            "key": "禾泽诺 | industry",
+            "total": 1192,
+            "stop": 0
+          },
+          {
+            "key": "禾泽诺 | 种植",
+            "total": 1192,
+            "stop": 0
+          },
+          {
+            "key": "禾泽诺 | 科技",
+            "total": 1192,
+            "stop": 0
+          },
+          {
+            "key": "禾泽诺 | 软件",
+            "total": 1192,
+            "stop": 0
+          },
+          {
+            "key": "启诺瑞 | industry",
+            "total": 992,
+            "stop": 0
+          },
+          {
+            "key": "启诺瑞 | 种植",
+            "total": 992,
+            "stop": 0
+          },
+          {
+            "key": "启诺瑞 | 科技",
+            "total": 992,
+            "stop": 0
+          },
+          {
+            "key": "启诺瑞 | 软件",
+            "total": 992,
+            "stop": 0
+          },
+          {
+            "key": "科技 | industry",
+            "total": 992,
+            "stop": 992
+          },
+          {
+            "key": "科技 | 种植",
+            "total": 992,
+            "stop": 992
+          },
+          {
+            "key": "科技 | 科技",
+            "total": 992,
+            "stop": 992
+          },
+          {
+            "key": "科技 | 软件",
+            "total": 992,
+            "stop": 992
+          },
+          {
+            "key": "远川衡 | industry",
+            "total": 992,
+            "stop": 992
+          },
+          {
+            "key": "远川衡 | 种植",
+            "total": 992,
+            "stop": 992
+          },
+          {
+            "key": "远川衡 | 科技",
+            "total": 992,
+            "stop": 992
+          },
+          {
+            "key": "远川衡 | 软件",
+            "total": 992,
+            "stop": 992
+          },
+          {
+            "key": "有米米 | industry",
+            "total": 752,
+            "stop": 0
+          },
+          {
+            "key": "有米米 | 种植",
+            "total": 752,
+            "stop": 0
+          },
+          {
+            "key": "有米米 | 科技",
+            "total": 752,
+            "stop": 0
+          },
+          {
+            "key": "有米米 | 软件",
+            "total": 752,
+            "stop": 0
+          },
+          {
+            "key": "驰科蓝 | industry",
+            "total": 752,
+            "stop": 0
+          },
+          {
+            "key": "驰科蓝 | 种植",
+            "total": 752,
+            "stop": 0
+          },
+          {
+            "key": "驰科蓝 | 科技",
+            "total": 752,
+            "stop": 0
+          },
+          {
+            "key": "驰科蓝 | 软件",
+            "total": 752,
+            "stop": 0
+          },
+          {
+            "key": "启诺瑞 | 商贸",
+            "total": 720,
+            "stop": 0
+          },
+          {
+            "key": "有米米 | 商贸",
+            "total": 720,
+            "stop": 0
+          },
+          {
+            "key": "盛云达 | industry",
+            "total": 720,
+            "stop": 0
+          },
+          {
+            "key": "盛云达 | 商贸",
+            "total": 720,
+            "stop": 0
+          },
+          {
+            "key": "盛云达 | 种植",
+            "total": 720,
+            "stop": 0
+          },
+          {
+            "key": "盛云达 | 科技",
+            "total": 720,
+            "stop": 0
+          },
+          {
+            "key": "盛云达 | 软件",
+            "total": 720,
+            "stop": 0
+          },
+          {
+            "key": "禾泽诺 | 商贸",
+            "total": 720,
+            "stop": 0
+          },
+          {
+            "key": "科技 | 商贸",
+            "total": 720,
+            "stop": 720
+          },
+          {
+            "key": "远川衡 | 商贸",
+            "total": 720,
+            "stop": 720
+          },
+          {
+            "key": "鑫鸿泰 | industry",
+            "total": 720,
+            "stop": 2
+          },
+          {
+            "key": "鑫鸿泰 | 商贸",
+            "total": 720,
+            "stop": 2
+          },
+          {
+            "key": "鑫鸿泰 | 种植",
+            "total": 720,
+            "stop": 2
+          },
+          {
+            "key": "鑫鸿泰 | 科技",
+            "total": 720,
+            "stop": 6
+          },
+          {
+            "key": "鑫鸿泰 | 软件",
+            "total": 720,
+            "stop": 2
+          },
+          {
+            "key": "驰科蓝 | 商贸",
+            "total": 720,
+            "stop": 0
+          }
+        ]
+      },
+      "examples_stop": [
+        {
+          "id": 39223,
+          "name": "广西禾泽诺企研有限责任公司",
+          "industry": "3522",
+          "indSpec": "商贸",
+          "organize": "有限责任公司",
+          "banned_tip": "所申请的企业名称，含有禁止使用的内容、文字或其同音字。（科技）依据《企业名称禁限用规则》相关规定禁止使用！",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 50,
+          "overall_ok": false,
+          "stop": true
+        },
+        {
+          "id": 39220,
+          "name": "广西禾泽诺企研有限责任公司",
+          "industry": "3522",
+          "indSpec": "商贸",
+          "organize": "有限责任公司",
+          "banned_tip": "所申请的企业名称含有限制使用的内容、文字或同音字（川）。0",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 4,
+          "overall_ok": false,
+          "stop": true
+        },
+        {
+          "id": 39215,
+          "name": "广西禾泽诺企研有限责任公司",
+          "industry": "3522",
+          "indSpec": "科技",
+          "organize": "有限责任公司",
+          "banned_tip": "所申请的企业名称，含有禁止使用的内容、文字或其同音字。（科技）依据《企业名称禁限用规则》相关规定禁止使用！",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 50,
+          "overall_ok": false,
+          "stop": true
+        },
+        {
+          "id": 39212,
+          "name": "广西禾泽诺企研有限责任公司",
+          "industry": "3522",
+          "indSpec": "科技",
+          "organize": "有限责任公司",
+          "banned_tip": "所申请的企业名称含有限制使用的内容、文字或同音字（川）。0",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 4,
+          "overall_ok": false,
+          "stop": true
+        },
+        {
+          "id": 39207,
+          "name": "广西禾泽诺企研有限责任公司",
+          "industry": "3522",
+          "indSpec": "种植",
+          "organize": "有限责任公司",
+          "banned_tip": "所申请的企业名称，含有禁止使用的内容、文字或其同音字。（科技）依据《企业名称禁限用规则》相关规定禁止使用！",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 50,
+          "overall_ok": false,
+          "stop": true
+        },
+        {
+          "id": 39204,
+          "name": "广西禾泽诺企研有限责任公司",
+          "industry": "3522",
+          "indSpec": "种植",
+          "organize": "有限责任公司",
+          "banned_tip": "所申请的企业名称含有限制使用的内容、文字或同音字（川）。0",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 4,
+          "overall_ok": false,
+          "stop": true
+        },
+        {
+          "id": 39199,
+          "name": "广西禾泽诺企研有限责任公司",
+          "industry": "3522",
+          "indSpec": "软件",
+          "organize": "有限责任公司",
+          "banned_tip": "所申请的企业名称，含有禁止使用的内容、文字或其同音字。（科技）依据《企业名称禁限用规则》相关规定禁止使用！",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 50,
+          "overall_ok": false,
+          "stop": true
+        },
+        {
+          "id": 39196,
+          "name": "广西禾泽诺企研有限责任公司",
+          "industry": "3522",
+          "indSpec": "软件",
+          "organize": "有限责任公司",
+          "banned_tip": "所申请的企业名称含有限制使用的内容、文字或同音字（川）。0",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 4,
+          "overall_ok": false,
+          "stop": true
+        }
+      ],
+      "examples_ok": [
+        {
+          "id": 39225,
+          "name": "广西禾泽诺企研有限责任公司",
+          "industry": "3522",
+          "indSpec": "商贸",
+          "organize": "有限责任公司",
+          "banned_tip": "",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 37,
+          "overall_ok": true,
+          "stop": false
+        },
+        {
+          "id": 39224,
+          "name": "广西禾泽诺企研有限责任公司",
+          "industry": "3522",
+          "indSpec": "商贸",
+          "organize": "有限责任公司",
+          "banned_tip": "",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 50,
+          "overall_ok": true,
+          "stop": false
+        },
+        {
+          "id": 39222,
+          "name": "广西禾泽诺企研有限责任公司",
+          "industry": "3522",
+          "indSpec": "商贸",
+          "organize": "有限责任公司",
+          "banned_tip": "",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 12,
+          "overall_ok": true,
+          "stop": false
+        },
+        {
+          "id": 39221,
+          "name": "广西禾泽诺企研有限责任公司",
+          "industry": "3522",
+          "indSpec": "商贸",
+          "organize": "有限责任公司",
+          "banned_tip": "",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 33,
+          "overall_ok": true,
+          "stop": false
+        },
+        {
+          "id": 39219,
+          "name": "广西禾泽诺企研有限责任公司",
+          "industry": "3522",
+          "indSpec": "商贸",
+          "organize": "有限责任公司",
+          "banned_tip": "",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 7,
+          "overall_ok": true,
+          "stop": false
+        },
+        {
+          "id": 39218,
+          "name": "广西禾泽诺企研有限责任公司",
+          "industry": "3522",
+          "indSpec": "商贸",
+          "organize": "有限责任公司",
+          "banned_tip": "",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 4,
+          "overall_ok": true,
+          "stop": false
+        },
+        {
+          "id": 39217,
+          "name": "广西禾泽诺企研有限责任公司",
+          "industry": "3522",
+          "indSpec": "科技",
+          "organize": "有限责任公司",
+          "banned_tip": "",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 37,
+          "overall_ok": true,
+          "stop": false
+        },
+        {
+          "id": 39216,
+          "name": "广西禾泽诺企研有限责任公司",
+          "industry": "3522",
+          "indSpec": "科技",
+          "organize": "有限责任公司",
+          "banned_tip": "",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 50,
+          "overall_ok": true,
+          "stop": false
+        }
+      ],
+      "heuristics": [
+        "Heuristic: prioritize replacing/avoiding high-frequency banned keywords in nameMark/name. Top keywords: 远(4795), 衡(4730), 川(4730), 科技(4693), 景瑞(23)",
+        "Heuristic: checkState distribution suggests where stop tends to happen; see counts below."
+      ]
+    },
+    "4540": {
+      "total": 4725,
+      "ok": 2751,
+      "stop": 1974,
+      "banned_top_tips": [
+        [
+          "所申请的企业名称含有限制使用的内容、文字或同音字（川）。0",
+          973
+        ],
+        [
+          "所申请的企业名称，含有禁止使用的内容、文字或其同音字。（科技）依据《企业名称禁限用规则》相关规定禁止使用！",
+          960
+        ],
+        [
+          "所申请的企业名称含有限制使用的内容、文字或同音字（远）。0",
+          27
+        ],
+        [
+          "所申请的企业名称含有限制使用的内容、文字或同音字（景瑞）。0",
+          7
+        ],
+        [
+          "所申请的企业名称含有限制使用的内容、文字或同音字（衡）。0",
+          6
+        ]
+      ],
+      "banned_top_keywords": [
+        [
+          "远",
+          993
+        ],
+        [
+          "衡",
+          973
+        ],
+        [
+          "川",
+          973
+        ],
+        [
+          "科技",
+          960
+        ],
+        [
+          "景瑞",
+          7
+        ]
+      ],
+      "banned_rest_types": [],
+      "repeat_checkState": [
+        [
+          "4",
+          4222
+        ],
+        [
+          "2",
+          377
+        ],
+        [
+          "16",
+          120
+        ],
+        [
+          "1",
+          6
+        ]
+      ],
+      "repeat_langStateCode": [
+        [
+          "register.msg.namecheck.state.similar",
+          4222
+        ],
+        [
+          "register.msg.namecheck.state.stop",
+          377
+        ],
+        [
+          "register.msg.namecheck.state.zh.stop",
+          120
+        ],
+        [
+          "register.msg.namecheck.state.ok",
+          6
+        ]
+      ],
+      "repeat_top_remark": [
+        [
+          "名称字号相似，来自名称库",
+          4222
+        ],
+        [
+          "名称字号相同，来自名称库",
+          497
+        ]
+      ],
+      "cohorts": {
+        "by_nameMark": [
+          {
+            "nameMark": "禾泽诺",
+            "total": 1760,
+            "stop": 0
+          },
+          {
+            "nameMark": "启诺瑞",
+            "total": 960,
+            "stop": 0
+          },
+          {
+            "nameMark": "科技",
+            "total": 960,
+            "stop": 960,
+            "banned_stop": 960,
+            "repeat_stop": 496
+          },
+          {
+            "nameMark": "远川衡",
+            "total": 960,
+            "stop": 960,
+            "banned_stop": 960
+          },
+          {
+            "nameMark": "拓诺泽企研",
+            "total": 7,
+            "stop": 0
+          },
+          {
+            "nameMark": "拓辰远企研",
+            "total": 7,
+            "stop": 7,
+            "banned_stop": 7
+          },
+          {
+            "nameMark": "禾景瑞企研",
+            "total": 7,
+            "stop": 7,
+            "banned_stop": 7
+          },
+          {
+            "nameMark": "禾泽诺企研",
+            "total": 7,
+            "stop": 0
+          },
+          {
+            "nameMark": "辰川诚企研",
+            "total": 7,
+            "stop": 7,
+            "banned_stop": 7
+          },
+          {
+            "nameMark": "辰拓禾企研",
+            "total": 7,
+            "stop": 0
+          },
+          {
+            "nameMark": "远启衡企研",
+            "total": 7,
+            "stop": 7,
+            "banned_stop": 7
+          },
+          {
+            "nameMark": "远禾拓企研",
+            "total": 7,
+            "stop": 7,
+            "banned_stop": 7
+          },
+          {
+            "nameMark": "拓瑞景企研",
+            "total": 6,
+            "stop": 0
+          },
+          {
+            "nameMark": "禾远辰企研",
+            "total": 6,
+            "stop": 6,
+            "banned_stop": 6
+          },
+          {
+            "nameMark": "辰衡启企研",
+            "total": 6,
+            "stop": 6,
+            "banned_stop": 6
+          },
+          {
+            "nameMark": "远诚川企研",
+            "total": 6,
+            "stop": 6,
+            "banned_stop": 6
+          },
+          {
+            "nameMark": "路飞美",
+            "total": 3,
+            "stop": 0
+          },
+          {
+            "nameMark": "路飞",
+            "total": 1,
+            "stop": 1,
+            "repeat_stop": 1
+          },
+          {
+            "nameMark": "陈朋友",
+            "total": 1,
+            "stop": 0
+          }
+        ],
+        "by_indspec_mode": [
+          {
+            "indspec_mode": "industry",
+            "total": 1160,
+            "stop": 480
+          },
+          {
+            "indspec_mode": "种植",
+            "total": 1160,
+            "stop": 480
+          },
+          {
+            "indspec_mode": "科技",
+            "total": 1160,
+            "stop": 480
+          },
+          {
+            "indspec_mode": "软件",
+            "total": 1160,
+            "stop": 480
+          }
+        ],
+        "by_nameMark_indspec_mode": [
+          {
+            "key": "禾泽诺 | industry",
+            "total": 440,
+            "stop": 0
+          },
+          {
+            "key": "禾泽诺 | 种植",
+            "total": 440,
+            "stop": 0
+          },
+          {
+            "key": "禾泽诺 | 科技",
+            "total": 440,
+            "stop": 0
+          },
+          {
+            "key": "禾泽诺 | 软件",
+            "total": 440,
+            "stop": 0
+          },
+          {
+            "key": "启诺瑞 | industry",
+            "total": 240,
+            "stop": 0
+          },
+          {
+            "key": "启诺瑞 | 种植",
+            "total": 240,
+            "stop": 0
+          },
+          {
+            "key": "启诺瑞 | 科技",
+            "total": 240,
+            "stop": 0
+          },
+          {
+            "key": "启诺瑞 | 软件",
+            "total": 240,
+            "stop": 0
+          },
+          {
+            "key": "科技 | industry",
+            "total": 240,
+            "stop": 240
+          },
+          {
+            "key": "科技 | 种植",
+            "total": 240,
+            "stop": 240
+          },
+          {
+            "key": "科技 | 科技",
+            "total": 240,
+            "stop": 240
+          },
+          {
+            "key": "科技 | 软件",
+            "total": 240,
+            "stop": 240
+          },
+          {
+            "key": "远川衡 | industry",
+            "total": 240,
+            "stop": 240
+          },
+          {
+            "key": "远川衡 | 种植",
+            "total": 240,
+            "stop": 240
+          },
+          {
+            "key": "远川衡 | 科技",
+            "total": 240,
+            "stop": 240
+          },
+          {
+            "key": "远川衡 | 软件",
+            "total": 240,
+            "stop": 240
+          }
+        ]
+      },
+      "examples_stop": [
+        {
+          "id": 9641,
+          "name": "广西禾泽诺企研亭",
+          "industry": "7261",
+          "indSpec": "科技",
+          "organize": "亭",
+          "banned_tip": "所申请的企业名称，含有禁止使用的内容、文字或其同音字。（科技）依据《企业名称禁限用规则》相关规定禁止使用！",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 50,
+          "overall_ok": false,
+          "stop": true
+        },
+        {
+          "id": 9639,
+          "name": "广西禾泽诺企研亭",
+          "industry": "7261",
+          "indSpec": "科技",
+          "organize": "亭",
+          "banned_tip": "所申请的企业名称含有限制使用的内容、文字或同音字（川）。0",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 4,
+          "overall_ok": false,
+          "stop": true
+        },
+        {
+          "id": 9633,
+          "name": "广西禾泽诺企研亭",
+          "industry": "7261",
+          "indSpec": "种植",
+          "organize": "亭",
+          "banned_tip": "所申请的企业名称，含有禁止使用的内容、文字或其同音字。（科技）依据《企业名称禁限用规则》相关规定禁止使用！",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 50,
+          "overall_ok": false,
+          "stop": true
+        },
+        {
+          "id": 9631,
+          "name": "广西禾泽诺企研亭",
+          "industry": "7261",
+          "indSpec": "种植",
+          "organize": "亭",
+          "banned_tip": "所申请的企业名称含有限制使用的内容、文字或同音字（川）。0",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 4,
+          "overall_ok": false,
+          "stop": true
+        },
+        {
+          "id": 9625,
+          "name": "广西禾泽诺企研亭",
+          "industry": "7261",
+          "indSpec": "软件",
+          "organize": "亭",
+          "banned_tip": "所申请的企业名称，含有禁止使用的内容、文字或其同音字。（科技）依据《企业名称禁限用规则》相关规定禁止使用！",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 50,
+          "overall_ok": false,
+          "stop": true
+        },
+        {
+          "id": 9623,
+          "name": "广西禾泽诺企研亭",
+          "industry": "7261",
+          "indSpec": "软件",
+          "organize": "亭",
+          "banned_tip": "所申请的企业名称含有限制使用的内容、文字或同音字（川）。0",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 4,
+          "overall_ok": false,
+          "stop": true
+        },
+        {
+          "id": 9617,
+          "name": "广西禾泽诺企研亭",
+          "industry": "7261",
+          "indSpec": "公共就业服务",
+          "organize": "亭",
+          "banned_tip": "所申请的企业名称，含有禁止使用的内容、文字或其同音字。（科技）依据《企业名称禁限用规则》相关规定禁止使用！",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 50,
+          "overall_ok": false,
+          "stop": true
+        },
+        {
+          "id": 9615,
+          "name": "广西禾泽诺企研亭",
+          "industry": "7261",
+          "indSpec": "公共就业服务",
+          "organize": "亭",
+          "banned_tip": "所申请的企业名称含有限制使用的内容、文字或同音字（川）。0",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 4,
+          "overall_ok": false,
+          "stop": true
+        }
+      ],
+      "examples_ok": [
+        {
+          "id": 9637,
+          "name": "广西禾泽诺企研亭",
+          "industry": "7261",
+          "indSpec": "科技",
+          "organize": "亭",
+          "banned_tip": "",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 7,
+          "overall_ok": true,
+          "stop": false
+        },
+        {
+          "id": 9635,
+          "name": "广西禾泽诺企研亭",
+          "industry": "7261",
+          "indSpec": "科技",
+          "organize": "亭",
+          "banned_tip": "",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 4,
+          "overall_ok": true,
+          "stop": false
+        },
+        {
+          "id": 9629,
+          "name": "广西禾泽诺企研亭",
+          "industry": "7261",
+          "indSpec": "种植",
+          "organize": "亭",
+          "banned_tip": "",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 7,
+          "overall_ok": true,
+          "stop": false
+        },
+        {
+          "id": 9627,
+          "name": "广西禾泽诺企研亭",
+          "industry": "7261",
+          "indSpec": "种植",
+          "organize": "亭",
+          "banned_tip": "",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 4,
+          "overall_ok": true,
+          "stop": false
+        },
+        {
+          "id": 9621,
+          "name": "广西禾泽诺企研亭",
+          "industry": "7261",
+          "indSpec": "软件",
+          "organize": "亭",
+          "banned_tip": "",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 7,
+          "overall_ok": true,
+          "stop": false
+        },
+        {
+          "id": 9619,
+          "name": "广西禾泽诺企研亭",
+          "industry": "7261",
+          "indSpec": "软件",
+          "organize": "亭",
+          "banned_tip": "",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 4,
+          "overall_ok": true,
+          "stop": false
+        },
+        {
+          "id": 9613,
+          "name": "广西禾泽诺企研亭",
+          "industry": "7261",
+          "indSpec": "公共就业服务",
+          "organize": "亭",
+          "banned_tip": "",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 7,
+          "overall_ok": true,
+          "stop": false
+        },
+        {
+          "id": 9611,
+          "name": "广西禾泽诺企研亭",
+          "industry": "7261",
+          "indSpec": "公共就业服务",
+          "organize": "亭",
+          "banned_tip": "",
+          "repeat_checkState": "4",
+          "repeat_langStateCode": "register.msg.namecheck.state.similar",
+          "repeat_top_remark": "名称字号相似，来自名称库",
+          "repeat_hit_count": 4,
+          "overall_ok": true,
+          "stop": false
+        }
+      ],
+      "heuristics": [
+        "Heuristic: prioritize replacing/avoiding high-frequency banned keywords in nameMark/name. Top keywords: 远(993), 衡(973), 川(973), 科技(960), 景瑞(7)",
+        "Heuristic: checkState distribution suggests where stop tends to happen; see counts below."
+      ]
+    }
+  },
+  "notes": [
+    "All 'official' reasons are from API responses (banned tipStr / repeat fields).",
+    "Any recommendation is labeled as heuristic, not an official block."
+  ]
+}

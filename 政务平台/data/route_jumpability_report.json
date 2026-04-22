@@ -1,0 +1,213 @@
+{
+  "start_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-supplement",
+  "started_at": "2026-04-14 18:48:56",
+  "results": [
+    {
+      "route": "/index/page?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+      "push_result": {
+        "ok": true,
+        "route": "/index/page?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+        "hash": "#/flow/base/name-supplement"
+      },
+      "after": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/404?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+        "hash": "#/404?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+        "title": "广西经营主体登记平台",
+        "forms": 0,
+        "compNames": [
+          "page404"
+        ],
+        "hasFlowControl": false,
+        "hasEstablish": false,
+        "hasWithoutName": false,
+        "errors": []
+      }
+    },
+    {
+      "route": "/index/enterprise/enterprise-zone",
+      "push_result": {
+        "ok": true,
+        "route": "/index/enterprise/enterprise-zone",
+        "hash": "#/404?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info"
+      },
+      "after": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/404",
+        "hash": "#/404",
+        "title": "广西经营主体登记平台",
+        "forms": 0,
+        "compNames": [
+          "page404"
+        ],
+        "hasFlowControl": false,
+        "hasEstablish": false,
+        "hasWithoutName": false,
+        "errors": []
+      }
+    },
+    {
+      "route": "/index/without-name?entType=1100",
+      "push_result": {
+        "ok": true,
+        "route": "/index/without-name?entType=1100",
+        "hash": "#/404"
+      },
+      "after": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/404?entType=1100",
+        "hash": "#/404?entType=1100",
+        "title": "广西经营主体登记平台",
+        "forms": 0,
+        "compNames": [
+          "page404"
+        ],
+        "hasFlowControl": false,
+        "hasEstablish": false,
+        "hasWithoutName": false,
+        "errors": []
+      }
+    },
+    {
+      "route": "/index/enterprise/establish?busiType=02&entType=1100",
+      "push_result": {
+        "ok": true,
+        "route": "/index/enterprise/establish?busiType=02&entType=1100",
+        "hash": "#/404?entType=1100"
+      },
+      "after": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/404?busiType=02&entType=1100",
+        "hash": "#/404?busiType=02&entType=1100",
+        "title": "广西经营主体登记平台",
+        "forms": 0,
+        "compNames": [
+          "page404"
+        ],
+        "hasFlowControl": false,
+        "hasEstablish": false,
+        "hasWithoutName": false,
+        "errors": []
+      }
+    },
+    {
+      "route": "/flow/base/basic-info",
+      "push_result": {
+        "ok": true,
+        "route": "/flow/base/basic-info",
+        "hash": "#/404?busiType=02&entType=1100"
+      },
+      "after": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-supplement",
+        "hash": "#/flow/base/name-supplement",
+        "title": "广西经营主体登记平台",
+        "forms": 18,
+        "compNames": [
+          "layout",
+          "header-comp",
+          "ElDropdown",
+          "ElDropdownMenu",
+          "ElDropdownItem",
+          "ElPopover",
+          "flow-control",
+          "tne-dialog",
+          "ElDialog",
+          "ElButton",
+          "ElImage",
+          "tni-dialog",
+          "agentTipsDialog",
+          "tni-steps",
+          "tni-step",
+          "ElTooltip",
+          "name-supplement",
+          "index",
+          "enterprise",
+          "ElCard",
+          "name-shareholder",
+          "stock",
+          "ElCheckbox",
+          "footer-comp"
+        ],
+        "hasFlowControl": true,
+        "hasEstablish": false,
+        "hasWithoutName": false,
+        "errors": []
+      }
+    },
+    {
+      "route": "/flow/base/name-check-info",
+      "push_result": {
+        "ok": true,
+        "route": "/flow/base/name-check-info",
+        "hash": "#/flow/base/name-supplement"
+      },
+      "after": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info",
+        "hash": "#/flow/base/name-check-info",
+        "title": "广西经营主体登记平台",
+        "forms": 10,
+        "compNames": [
+          "layout",
+          "header-comp",
+          "ElDropdown",
+          "ElDropdownMenu",
+          "ElDropdownItem",
+          "ElPopover",
+          "flow-control",
+          "tne-dialog",
+          "ElDialog",
+          "ElButton",
+          "ElImage",
+          "tni-dialog",
+          "agentTipsDialog",
+          "tni-steps",
+          "tni-step",
+          "ElTooltip",
+          "name-check-info",
+          "index",
+          "name-header",
+          "ElCard",
+          "declarationDialog",
+          "ElCheckbox",
+          "footer-comp"
+        ],
+        "hasFlowControl": true,
+        "hasEstablish": false,
+        "hasWithoutName": false,
+        "errors": []
+      }
+    }
+  ],
+  "baseline": {
+    "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-supplement",
+    "hash": "#/flow/base/name-supplement",
+    "title": "广西经营主体登记平台",
+    "forms": 18,
+    "compNames": [
+      "layout",
+      "header-comp",
+      "ElDropdown",
+      "ElDropdownMenu",
+      "ElDropdownItem",
+      "ElPopover",
+      "flow-control",
+      "tne-dialog",
+      "ElDialog",
+      "ElButton",
+      "ElImage",
+      "tni-dialog",
+      "agentTipsDialog",
+      "tni-steps",
+      "tni-step",
+      "ElTooltip",
+      "name-supplement",
+      "index",
+      "enterprise",
+      "ElCard",
+      "name-shareholder",
+      "stock",
+      "ElCheckbox",
+      "footer-comp"
+    ],
+    "hasFlowControl": true,
+    "hasEstablish": false,
+    "hasWithoutName": false,
+    "errors": []
+  }
+}

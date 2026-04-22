@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C2421",
+        "saveHyCode": "2421",
+        "hyPecul": "中乐器制造",
+        "hyTypeName": "中乐器制造",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列中乐器的制造活动：",
+        "includes": "中乐弦乐器：二胡、京胡、板胡、其他中乐弦乐器；中乐弹拨乐器：古筝、三弦琵琶、月琴、柳琴、其他中乐弹拨乐器；中乐吹管乐器：竹笛、箫、笙、唢呐、其他中乐吹管乐器；中乐打击乐器：扬琴、鼓（中乐）、锣、响板、响铜乐器、其他中乐打击乐器；其他中乐器。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "中乐器",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

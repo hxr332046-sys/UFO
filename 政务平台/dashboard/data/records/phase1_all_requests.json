@@ -1,0 +1,398 @@
+[
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/tools/getCacheCreateTime?_t=1776784593597",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"cacheTimeKey\":\"sysparamCacheTime\",\"cacheTimeValue\":\"1776770678013\"},{\"cacheTimeKey\":\"internationalcodeCacheTime\",\"cacheTimeValue\":\"17767"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/usermanager/getUserInfo?t=1776784913356",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"id\":\"824032604\",\"username\":\"450921198812051251@123\",\"elename\":\"黄永裕\",\"desensitizeElename\":\"**裕\",\"elepaper\":\"10\",\"elepapername\":\"中华人民共和国居民身"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/guide/home/selectBusinessModules?t=1776784913606",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"code\":\"9600\",\"name\":\"个体户\",\"childType\":null},{\"code\":\"1000\",\"name\":\"企业\",\"childType\":null},{\"code\":\"9100\",\"name\":\"农民合作社\",\"childType\":null}"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/headertail/getTailConfigList?t=1776784913599",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[[],[],[{\"internationalCode\":\"manager.system.tail.copyright\",\"url\":null,\"sort\":\"32\"},{\"internationalCode\":\"manager.system.tail.postCode\",\"u"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/businessguide/servicepeople/searchConsultPhonePageData?t=1776784913606",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"areaNameList\":null,\"consultPhoneGroupVos\":null}},\"msg\":\"操作成功\",\"page\":null}"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/businessguide/servicepeople/getServicePeopleInfo?t=1776784914854&code=apply_notice&useType=busi&busiType=establishNotice02_4&entType=1100",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"id\":\"647782805\",\"title\":\"申报须知\",\"sort\":\"0\",\"content\":\"<div style=\\\"line-height:2em;\\\"><p>\\n            欢迎进入企业开办全程网上办平台，在正式填报前，请阅读以下注意事项：\\n"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/guide/greenchannel/checkGreenChannel?t=1776784918587&busiType=02&entName=",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"0\",\"busiData\":\"0\"},\"msg\":\"操作成功\",\"page\":null}"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryNameEntType?type=1&t=1776784918781",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"pagetypes\":[{\"code\":\"1100\",\"name\":\"内资有限公司\",\"enName\":null,\"parcode\":\"2\",\"explain\":null,\"showType\":\"gs\",\"usetype\":null,\"child\":[{\"code\":\"11"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryRegcodeAndStreet?t=1776784918781&fromPage=qykbdb",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"allName\":\"广西壮族自治区\",\"children\":[{\"allName\":\"南宁市\",\"children\":[{\"allName\":\"南宁市兴宁区\",\"children\":[],\"name\":\"兴宁区\",\"id\":\"450102\",\"parentId\":\"450"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/codedata/special/common/queryCodeList?key=CODE_MOKINDCODE&t=1776784918781",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"code\":\"191\",\"name\":\"克罗地亚库纳\",\"enName\":null,\"shoName\":\"克罗地亚库纳\",\"commonSign\":\"N\",\"compare\":1,\"rmbRate\":\"1.0000\",\"dolRate\":\"1.0000\",\"choSign"
+  },
+  {
+    "method": "POST",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/guide/establishname/checkEstablishName?t=1776784926486",
+    "status": 200,
+    "has_req": true,
+    "has_resp": true,
+    "req_preview": "{\"entType\":\"4540\",\"nameCode\":\"0\",\"distCode\":\"450921\",\"streetCode\":null,\"streetName\":null,\"address\":\"广西壮族自治区玉林市容县\",\"rcMoneyKindCode\":\"\",\"distCodeArr\":[\"450000\",\"450900\",\"450921\"],\"fzSign\":\"N\",\"parentEn",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":\"0\"},\"msg\":\"操作成功\",\"page\":null}"
+  },
+  {
+    "method": "POST",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/name/loadCurrentLocationInfo?t=1776784926594",
+    "status": 200,
+    "has_req": true,
+    "has_resp": true,
+    "req_preview": "{\"flowData\":{\"busiId\":\"\",\"busiType\":\"01_4\",\"entType\":\"4540\"},\"linkData\":{\"token\":\"\"}}",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"flowData\":{\"busiId\":null,\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"secondId\":null,\"vi"
+  },
+  {
+    "method": "POST",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/name/component/NameCheckInfo/loadBusinessDataInfo?t=1776784927637",
+    "status": 200,
+    "has_req": true,
+    "has_resp": true,
+    "req_preview": "{\"flowData\":{\"busiId\":null,\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"secondId\":null,\"vipChannel\":\"null\",\"currCompUrl\":\"NameCheckInfo\",\"status\":\"10\",",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"flowData\":{\"busiId\":null,\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"secondId\":null,\"vi"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/configdata/getOrganizeTypeCodeByEntTypeCircle?t=1776784927882&entType=4540&busType=01",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"name\":\"院\",\"enName\":null,\"code\":\"802\",\"entType\":\"4540\",\"entPro\":\"01\",\"disOrder\":null,\"isCanIndCode\":null,\"entMatterCodes\":null},{\"name\":\""
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryNamePrefix?t=1776784927882&distCode=450921&streetCode=&entType=4540",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"distCode\":\"450921\",\"distName\":\"广西玉林市\",\"areaCode\":\"450900\",\"areaName\":\"广西玉林市\",\"enAreaName\":null,\"disOrder\":\"1\",\"xnum\":\"\",\"ynum\":\"\",\"entTy"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/configdata/sysConfig/getSysConfig?key=noIndSpeTips&t=1776784927882",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"code\":\"noIndSpeTips\",\"name\":\"无行业表述须知\",\"content\":\"<p>\\n   <strong>无行业企业名称申报须至少满足以下三个条件：</strong>\\n</p >\\n<p>\\n   （一）申报主体为已登记的跨5个以上国民经济行业门类"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryNameEntTypeCfgByEntType?t=1776784927882&entType=4540",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":\"10,20,30\"},\"msg\":\"操作成功\",\"page\":null}"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/configdata/getAllIndustryTypeCode?t=1776784927882&busiType=01&entType=4540&range=1",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"code\":\"3640\",\"name\":\"低速汽车制造\",\"enName\":null,\"parent\":\"364\",\"maxKindSign\":false,\"midKindSign\":false,\"minKindSign\":true,\"kindSign\":false,\"r"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/verifidata/bannedLexiconCalibration?t=1776784943007&nameMark=%E5%A4%A7%E5%A4%A7",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"success\":false,\"tipWay\":\"2\",\"tipStr\":\"所申请的企业名称，含有禁止使用的内容、文字或其同音字。（<font color=#ffa500>大大</font>）依据《企业名称禁限用规则》相关规定禁止使用！\",\"bannedInfos\":\"\","
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryIndustryFeatAndDes?busType=01&hyPecul=%E6%89%B9%E5%8F%91&entType=4540",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"hyCode\":\"F5151\",\"saveHyCode\":\"5151\",\"hyPecul\":\"批发\",\"hyTypeName\":\"西药批发\",\"enHyTypeName\":null,\"explains\":\"指人用化学药品和生物药品的批发与进出口活动。\",\"includes"
+  },
+  {
+    "method": "POST",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/name/component/NameCheckInfo/operationBusinessDataInfo?t=1776784972369",
+    "status": 200,
+    "has_req": true,
+    "has_resp": true,
+    "req_preview": "{\"areaCode\":\"450921\",\"namePre\":\"玉林市容县\",\"nameMark\":\"顺利得\",\"allIndKeyWord\":\"\",\"showKeyWord\":\"\",\"noShowKeyWord\":\"实业,发展,实业发展,发展实业\",\"industrySpecial\":\"五金批发\",\"industry\":\"5174\",\"industryName\":\"五金产品批发\",\"multiI",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"2\",\"msg\":\"\",\"busiData\":{\"flowData\":{\"busiId\":null,\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"secondId\":null,\"vi"
+  },
+  {
+    "method": "POST",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/name/component/NameCheckInfo/nameCheckRepeat?t=1776784972659",
+    "status": 200,
+    "has_req": true,
+    "has_resp": true,
+    "req_preview": "{\"condition\":\"1\",\"busiId\":null,\"busiType\":\"01\",\"entType\":\"4540\",\"name\":\"顺利得（玉林市容县）五金批发市（个人独资）\",\"namePre\":\"玉林市容县\",\"nameMark\":\"顺利得\",\"distCode\":\"450921\",\"areaCode\":\"450921\",\"organize\":\"市（个人独资）\",\"industry",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"checkResult\":[{\"entName\":\"北流市顺利饭店（个体工商户）\",\"regionCode\":\"450981\",\"areaCode\":\"450981\",\"regionName\":\"北流市\",\"nameMark\":\"顺利\",\"tradPiny\":\"shunli"
+  },
+  {
+    "method": "POST",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/name/component/NameSupplement/loadBusinessDataInfo?t=1776784977102",
+    "status": 200,
+    "has_req": true,
+    "has_resp": true,
+    "req_preview": "{\"flowData\":{\"busiId\":\"2046610535813873664\",\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"secondId\":null,\"vipChannel\":\"null\",\"currCompUrl\":\"NameSuppleme",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"flowData\":{\"busiId\":\"2046610535813873664\",\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"s"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/configdata/getSerialTypeCode?t=1776784993314",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"code\":\"1\",\"codeName\":\"不动产权证书\",\"choSign\":\"Y\"},{\"code\":\"3\",\"codeName\":\"商品房购买合同\",\"choSign\":\"Y\"},{\"code\":\"4\",\"codeName\":\"租赁合同\",\"choSign\":\"Y\""
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/configdata/getRentalHouseCode?t=1776784993314",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"code\":\"1\",\"codeName\":\"不动产权证书\",\"choSign\":\"Y\"},{\"code\":\"2\",\"codeName\":\"土地使用权证(含国有或者宅基地使用权)\",\"choSign\":\"Y\"},{\"code\":\"3\",\"codeName\":\"经房产部门备案"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/codedata/common/queryCodeKV?t=1776784993314&key=CODE_CERTYPECODE",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"55\":{\"code\":\"55\",\"name\":\"港澳居民来往大陆通行证\",\"parent\":null,\"enName\":null},\"56\":{\"code\":\"56\",\"name\":\"台湾居民身份证\",\"parent\":null,\"enName\":null},\"57\":{"
+  },
+  {
+    "method": "POST",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/establish/component/Residence/isFreeBusinessArea?t=1776784993315",
+    "status": 200,
+    "has_req": true,
+    "has_resp": true,
+    "req_preview": "{\"entName\":\"顺利得（玉林市容县）五金批发市（个人独资）\",\"address\":\"广西壮族自治区玉林市容县\",\"distCode\":\"450921\",\"orgId\":null}",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":false},\"msg\":\"操作成功\",\"page\":null}"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/configdata/listOrgan?t=1776784993314&busType=01&entType=4540&condition=&areaCode=450921&distCode=450921",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"chooseGtInOrgan\":null,\"orginGt\":false,\"list\":[{\"id\":\"145090000000000047\",\"name\":\"十里市监所\",\"code\":\"450921309\",\"shortName\":\"十里市监所\",\"address\":"
+  },
+  {
+    "method": "POST",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/name/component/NameShareholder/loadBusinessInfoList?t=1776784993439",
+    "status": 200,
+    "has_req": true,
+    "has_resp": true,
+    "req_preview": "{\"flowData\":{\"busiId\":\"2046610535813873664\",\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"secondId\":null,\"vipChannel\":\"null\",\"currCompUrl\":\"NameSharehol",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"flowData\":{\"busiId\":\"2046610535813873664\",\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"s"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/busiterm/getFirAndSecLevelBusitermList?t=1776785008568&busiType=01&entType=4540&range=1",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"id\":\"A\",\"name\":\"农、林、牧、渔业\",\"list\":[{\"id\":\"01\",\"name\":\"农业\",\"pid\":\"A\"},{\"id\":\"02\",\"name\":\"林业\",\"pid\":\"A\"},{\"id\":\"03\",\"name\":\"畜牧业\",\"pid\":\"A\"}"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/busiterm/getThemeModeRemdBusitermList?t=1776785008568&busiType=01&entType=4540&range=1",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"id\":\"2\",\"name\":\"电力设备\",\"list\":[{\"id\":\"12\",\"name\":\"发电机\",\"pid\":\"2\"},{\"id\":\"10\",\"name\":\"电力设备\",\"pid\":\"2\"},{\"id\":\"14\",\"name\":\"机电设备\",\"pid\":\"2\"}"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/busiterm/getRelevantIndusBusitermList?t=1776785008568&busiType=01&entType=4540&industryCode=5174&industrySpecial=%E4%BA%94%E9%87%91%E4%BA%A7%E5%93%81%E6%89%B9%E5%8F%91&range=1",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"flag\":\"2\",\"info\":[{\"id\":\"F2048\",\"stateCo\":\"1\",\"name\":\"五金产品零售\",\"pid\":\"52\",\"minIndusTypeCode\":\"5281\",\"midIndusTypeCode\":null,\"isMainIndust"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/busiterm/getThirdleveLBusitermList?t=1776785008728&busiType=01&entType=4540&range=1&heading=51&indusTypeCode=5174",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"id\":\"F1129\",\"stateCo\":\"1\",\"name\":\"五金产品批发\",\"pid\":\"51\",\"minIndusTypeCode\":\"5174\",\"midIndusTypeCode\":\"517\",\"isMainIndustry\":\"1\",\"category\":"
+  },
+  {
+    "method": "POST",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/busiterm/getBusitermItemTip?t=1776785012621",
+    "status": 200,
+    "has_req": true,
+    "has_resp": true,
+    "req_preview": "{\"enttype\":\"4540\",\"busitype\":\"01\",\"codes\":[\"F1129\"]}",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[]},\"msg\":\"操作成功\",\"page\":null}"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/configdata/getAppMattCodeByBusiCode?t=1776785040461&busiCode=F1129,M3056,CL006,F3249",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[]},\"msg\":\"操作成功\",\"page\":null}"
+  },
+  {
+    "method": "POST",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/name/component/NameShareholder/loadBusinessDataInfo?t=1776785052298",
+    "status": 200,
+    "has_req": true,
+    "has_resp": true,
+    "req_preview": "{\"flowData\":{\"busiId\":\"2046610535813873664\",\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"secondId\":null,\"vipChannel\":\"null\",\"currCompUrl\":\"NameSharehol",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"flowData\":{\"busiId\":\"2046610535813873664\",\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"s"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/configdata/getInvType?t=1776785052542&personType=01&entType=4540&nation=156",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"code\":\"10\",\"name\":\"法人股东\",\"showName\":\"法人股东\",\"enName\":null,\"enShowName\":null,\"canSelect\":\"0\",\"canCheck\":\"1\"},{\"code\":\"11\",\"name\":\"企业法人\",\"s"
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/configdata/getCerBolcType?t=1776785052590&nation=156&invType=20&entType=4540&personType=01",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"resultDefalult\":\"10\",\"bolcType\":\"1\",\"cerTypeCodes\":[{\"code\":\"10\",\"name\":\"中华人民共和国居民身份证\",\"parent\":null,\"enName\":null},{\"code\":\"40\",\"name\":\""
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/tools/personlist/showPersonList?t=1776785052542&busiId=2046610535813873664&condition=&marPrId=",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"450921198812051251\":{\"name\":\"黄永裕\",\"sex\":\"\",\"signDate\":\"\",\"effectiveFlagTim\":\"\",\"nationalityCode\":\"\",\"nationalityName\":\"\",\"nationCode\":\"\","
+  },
+  {
+    "method": "GET",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/tools/files/getImgUploadByCerno?t=1776785056873&busiId=2046610535813873664&cerNo=450921198812051251",
+    "status": 200,
+    "has_req": false,
+    "has_resp": true,
+    "req_preview": "",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"cerno\":\"450921198812051251\",\"contentZm\":\"/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdC\\nIFhZWiAH4AABAAEAAA"
+  },
+  {
+    "method": "POST",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/name/component/NameShareholder/operationBusinessDataInfo?t=1776785060779",
+    "status": 200,
+    "has_req": true,
+    "has_resp": true,
+    "req_preview": "{\"id\":null,\"name\":\"黄永裕\",\"type\":\"20\",\"certificateType\":\"10\",\"certificateNo\":\"Nzwt4k47DulOHusNfdeHu3UBVp3KTHZJUe8aWOFFSBfFBzC10X7TvDynQNw9cgUADkLbR9AXg//hB0+TmHAN0Rr8+q9dsHjnY/b56Fax5xVWVhPuv9ag9h+NV+aw",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"flowData\":{\"busiId\":\"2046610535813873664\",\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"s"
+  },
+  {
+    "method": "POST",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/name/component/NameSupplement/operationBusinessDataInfo?t=1776785099329",
+    "status": 200,
+    "has_req": true,
+    "has_resp": true,
+    "req_preview": "{\"industry\":\"5174\",\"industryName\":\"五金产品批发\",\"indChaEntFlag\":\"0\",\"indRegNo\":null,\"rcMoneyKindCode\":\"\",\"rcMoneyKindName\":\"人民币\",\"regCapUSDRate\":null,\"regCapRMBRate\":null,\"investMoney\":null,\"investAmountUS",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"flowData\":{\"busiId\":\"2046610535813873664\",\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"s"
+  },
+  {
+    "method": "POST",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/name/submit?t=1776785102370",
+    "status": 200,
+    "has_req": true,
+    "has_resp": true,
+    "req_preview": "{\"flowData\":{\"busiId\":\"2046610535813873664\",\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"secondId\":null,\"vipChannel\":\"null\",\"currCompUrl\":\"NameSharehol",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"flowData\":{\"busiId\":\"2046610535813873664\",\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"s"
+  },
+  {
+    "method": "POST",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/name/component/NameSuccess/loadBusinessDataInfo?t=1776785108152",
+    "status": 200,
+    "has_req": true,
+    "has_resp": true,
+    "req_preview": "{\"flowData\":{\"busiId\":\"2046610535813873664\",\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"secondId\":null,\"vipChannel\":\"null\",\"currCompUrl\":\"NameSuccess\"",
+    "resp_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"flowData\":{\"busiId\":\"2046610535813873664\",\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":\"2046611170651787265\","
+  }
+]

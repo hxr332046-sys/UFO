@@ -1,0 +1,5 @@
+{"type": "meta", "wall_time_start": "2026-04-18 13:50:41", "cdp_target_url": "https://tyrz.zwfw.gxzf.gov.cn/am/auth/login?service=initService&goto=aHR0cHM6Ly90eXJ6Lnp3ZncuZ3h6Zi5nb3YuY24vYW0vb2F1dGgyL2F1dGhvcml6ZT9zZXJ2aWNlPWluaXRTZXJ2aWNlJmNsaWVudF9pZD16cnl0aHh0JnJlZGlyZWN0X3VyaT1odHRwcyUzQSUyRiUyRnpoamcuc2NqZGdsai5neHpmLmdvdi5jbiUzQTYwODclMkZUb3BJUCUyRnNzbyUyRm9hdXRoMiUzRmF1dGhUeXBlJTNEendmd19ndWFuZ3hpJnJlc3BvbnNlX3R5cGU9Y29kZSZzY29wZT11aWQrY24rdXNlcmlkY29kZSt1c2VydHlwZSttYWlsK3RlbGVwaG9uZW51bWJlcitpZGNhcmRudW1iZXIraWRjYXJkdHlwZSt1bml0bmFtZStvcmdhbml6YXRpb24rbG9naW5pbmZvK3Rva2VuaWQrc3ViamVjdCt1cGRhdGVUaW1lJnN0YXRlPXU0REQ3aA==", "duration_sec": 70.0}
+{"type": "nav", "t": 1776491472.1270373, "url": "https://zhjg.scjdglj.gxzf.gov.cn:6087/TopIP/sso/oauth2?authType=zwfw_guangxi&code=4948eec1-8795-46f4-b3a9-87d0bc510c89"}
+{"type": "load", "t": 1776491472.1409273}
+{"type": "nav", "t": 1776491475.7562017, "url": "https://zhjg.scjdglj.gxzf.gov.cn:6087/TopIP/web/web-portal.html"}
+{"type": "load", "t": 1776491476.4936192}

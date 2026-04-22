@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "P8350",
+        "saveHyCode": "8350",
+        "hyPecul": "特殊教育学校",
+        "hyTypeName": "特殊教育",
+        "enHyTypeName": null,
+        "explains": "指为残障儿童、青少年提供的特殊教育活动。",
+        "includesTitle": "包括下列特殊教育活动：",
+        "includes": "为盲、聋、哑残障儿童、青少年提供的各种教育服务；为智力障碍及其他残障儿童、青少年提供的各种教育服务。",
+        "unIncludes": "不包括：为残障人员办的技能培训，列入8391（职业技能培训）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "特殊教育",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "started_at": "2026-04-15 01:15:59",
+  "steps": [
+    {
+      "step": "before",
+      "data": {
+        "hash": "#/flow/base/name-check-info",
+        "errors": [
+          "请选择组织形式"
+        ]
+      }
+    },
+    {
+      "step": "click_org_and_save",
+      "data": {
+        "ok": true,
+        "clicked": [
+          "组织形式",
+          "组织形式"
+        ]
+      }
+    },
+    {
+      "step": "after",
+      "data": {
+        "hash": "#/flow/base/name-check-info",
+        "errors": [
+          "请选择组织形式"
+        ],
+        "hasYunbangban": false
+      }
+    }
+  ],
+  "ended_at": "2026-04-15 01:16:05"
+}

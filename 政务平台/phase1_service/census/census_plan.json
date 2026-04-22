@@ -1,0 +1,173 @@
+{
+  "schema": "phase1_service.census_plan.v1",
+  "notes": "第一阶段全量字典普查计划。Tier 从 A 到 D 依次执行（D 依赖 B 的结果）。",
+  "pacing": {
+    "min_interval_ms": 2000,
+    "max_interval_ms": 3500,
+    "d0029_cooldown_sec": 600,
+    "d0029_retry_threshold": 2
+  },
+  "tier_a_no_param": [
+    {
+      "id": "entType_type1",
+      "path": "/icpsp-api/v4/pc/common/synchrdata/queryNameEntType",
+      "method": "GET",
+      "params": {"type": "1"},
+      "save_as": "dictionaries/ent_types_type1.json",
+      "desc": "全部企业类型（第一层）"
+    },
+    {
+      "id": "entType_type2",
+      "path": "/icpsp-api/v4/pc/common/synchrdata/queryNameEntType",
+      "method": "GET",
+      "params": {"type": "2"},
+      "save_as": "dictionaries/ent_types_type2.json",
+      "desc": "全部企业类型（第二层 / 细分）"
+    },
+    {
+      "id": "regcode_street_root",
+      "path": "/icpsp-api/v4/pc/common/synchrdata/queryRegcodeAndStreet",
+      "method": "GET",
+      "params": {"fromPage": "qykbdb"},
+      "save_as": "dictionaries/regions/root.json",
+      "desc": "行政区划总入口（顶层 = 省级）"
+    },
+    {
+      "id": "codeList_MOKINDCODE",
+      "path": "/icpsp-api/v4/pc/common/codedata/special/common/queryCodeList",
+      "method": "GET",
+      "params": {"key": "CODE_MOKINDCODE"},
+      "save_as": "dictionaries/code_lists/MOKINDCODE.json",
+      "desc": "行业大类 / 经营范围子类集合"
+    },
+    {
+      "id": "codeList_CERTYPECODE",
+      "path": "/icpsp-api/v4/pc/common/codedata/common/queryCodeKV",
+      "method": "GET",
+      "params": {"key": "CODE_CERTYPECODE"},
+      "save_as": "dictionaries/code_lists/CERTYPECODE.json",
+      "desc": "证件类型编码"
+    },
+    {
+      "id": "sysParam_all",
+      "path": "/icpsp-api/v4/pc/common/configdata/sysParam/getAllSysParam",
+      "method": "GET",
+      "params": {},
+      "save_as": "dictionaries/sys_params.json",
+      "desc": "全部系统参数（48KB）"
+    },
+    {
+      "id": "serialTypeCode",
+      "path": "/icpsp-api/v4/pc/common/configdata/getSerialTypeCode",
+      "method": "GET",
+      "params": {},
+      "save_as": "dictionaries/serial_type_code.json",
+      "desc": "连号类型"
+    },
+    {
+      "id": "rentalHouseCode",
+      "path": "/icpsp-api/v4/pc/common/configdata/getRentalHouseCode",
+      "method": "GET",
+      "params": {},
+      "save_as": "dictionaries/rental_house_code.json",
+      "desc": "租赁房屋类型"
+    },
+    {
+      "id": "businessModules",
+      "path": "/icpsp-api/v4/pc/register/guide/home/selectBusinessModules",
+      "method": "GET",
+      "params": {},
+      "save_as": "dictionaries/business_modules.json",
+      "desc": "登记业务模块"
+    },
+    {
+      "id": "sysConfig_noIndSpeTips",
+      "path": "/icpsp-api/v4/pc/common/configdata/sysConfig/getSysConfig",
+      "method": "GET",
+      "params": {"key": "noIndSpeTips"},
+      "save_as": "dictionaries/sys_configs/noIndSpeTips.json",
+      "desc": "无行业特征提示配置"
+    },
+    {
+      "id": "matter_types",
+      "path": "/icpsp-api/v4/pc/common/configdata/matter/types",
+      "method": "GET",
+      "params": {"useType": "0"},
+      "save_as": "dictionaries/matter_types.json",
+      "desc": "事项类型"
+    },
+    {
+      "id": "matter_states",
+      "path": "/icpsp-api/v4/pc/common/configdata/matter/states",
+      "method": "GET",
+      "params": {"useType": "0"},
+      "save_as": "dictionaries/matter_states.json",
+      "desc": "事项状态"
+    }
+  ],
+  "tier_b_per_ent_type": {
+    "ent_type_source": "tier_a:entType_type1",
+    "busi_types": ["01", "02"],
+    "templates": [
+      {
+        "id": "industry_code",
+        "path": "/icpsp-api/v4/pc/common/configdata/getAllIndustryTypeCode",
+        "method": "GET",
+        "params_template": {"busiType": "{busiType}", "entType": "{entType}", "range": "1"},
+        "save_as": "dictionaries/industries/entType_{entType}_busi_{busiType}.json",
+        "desc": "行业码全量（≈50KB/条）"
+      },
+      {
+        "id": "organize_code",
+        "path": "/icpsp-api/v4/pc/common/configdata/getOrganizeTypeCodeByEntTypeCircle",
+        "method": "GET",
+        "params_template": {"busType": "{busiType}", "entType": "{entType}"},
+        "save_as": "dictionaries/organizes/entType_{entType}_busi_{busiType}.json",
+        "desc": "组织形式全量"
+      },
+      {
+        "id": "entType_cfg",
+        "path": "/icpsp-api/v4/pc/common/synchrdata/queryNameEntTypeCfgByEntType",
+        "method": "GET",
+        "params_template": {"entType": "{entType}"},
+        "save_as": "dictionaries/ent_type_cfgs/entType_{entType}.json",
+        "desc": "企业类型配置"
+      }
+    ]
+  },
+  "tier_c_per_ent_region": {
+    "ent_type_source": "tier_a:entType_type1",
+    "dist_codes_source": "tier_a:regcode_street_root",
+    "dist_level_max": 3,
+    "templates": [
+      {
+        "id": "name_prefix",
+        "path": "/icpsp-api/v4/pc/common/synchrdata/queryNamePrefix",
+        "method": "GET",
+        "params_template": {"distCode": "{distCode}", "entType": "{entType}", "streetCode": ""},
+        "save_as": "dictionaries/name_prefixes/dist_{distCode}_entType_{entType}.json",
+        "desc": "名称前缀（各区县 × entType）"
+      }
+    ]
+  },
+  "tier_d_business_scope": {
+    "industry_source": "tier_b:industry_code",
+    "hyPecul_field": "industryCodeDet",
+    "path": "/icpsp-api/v4/pc/common/synchrdata/queryIndustryFeatAndDes",
+    "method": "GET",
+    "busi_types": ["01", "02"],
+    "params_template": {"busType": "{busiType}", "hyPecul": "{hyPecul}", "entType": "{entType}"},
+    "save_as": "dictionaries/business_scopes/entType_{entType}_busi_{busiType}_{hyPecul_hash}.json",
+    "dedup_by": ["entType", "busiType", "hyPecul"],
+    "desc": "★ 经营范围建议（按 hyPecul 关键词逐个查询）"
+  },
+  "_tier_e_session_sensitive_NOT_TO_CENSUS": [
+    "/v4/pc/register/guide/establishname/checkEstablishName",
+    "/v4/pc/register/name/loadCurrentLocationInfo",
+    "/v4/pc/register/name/component/NameCheckInfo/loadBusinessDataInfo",
+    "/v4/pc/register/verifidata/bannedLexiconCalibration",
+    "/v4/pc/register/name/component/NameCheckInfo/operationBusinessDataInfo",
+    "/v4/pc/register/name/component/NameCheckInfo/nameCheckRepeat",
+    "/v4/pc/register/guide/greenchannel/checkGreenChannel"
+  ]
+}

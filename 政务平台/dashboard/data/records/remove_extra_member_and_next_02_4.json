@@ -1,0 +1,71 @@
+{
+  "started_at": "2026-04-14 20:39:34",
+  "steps": [
+    {
+      "step": "S1_start",
+      "data": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/member-post"
+    },
+    {
+      "step": "S2_try_delete_extra",
+      "data": {
+        "clicked": true,
+        "text": "删除"
+      }
+    },
+    {
+      "step": "S3_confirm_delete_if_any",
+      "data": {
+        "clicked": true,
+        "text": "确 定"
+      }
+    },
+    {
+      "step": "S4_click_save_next",
+      "data": {
+        "clicked": false
+      }
+    },
+    {
+      "step": "S5_after",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/member-post",
+        "hash": "#/flow/base/member-post",
+        "buttons": [
+          {
+            "text": "添加成员",
+            "disabled": false
+          },
+          {
+            "text": "编辑",
+            "disabled": false
+          },
+          {
+            "text": "删除",
+            "disabled": false
+          },
+          {
+            "text": "上一步",
+            "disabled": false
+          },
+          {
+            "text": "保存并下一步",
+            "disabled": true
+          },
+          {
+            "text": "取 消",
+            "disabled": false
+          },
+          {
+            "text": "确 定",
+            "disabled": false
+          },
+          {
+            "text": "确 定",
+            "disabled": false
+          }
+        ],
+        "errors": []
+      }
+    }
+  ]
+}

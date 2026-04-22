@@ -1,0 +1,690 @@
+{
+  "started_at": "2026-04-14 22:39:04",
+  "runs": [
+    {
+      "case": {
+        "case_id": "case_02_4",
+        "busiType": "02_4",
+        "entType": "1100"
+      },
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+      "steps": [
+        {
+          "before": {
+            "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+            "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+            "hasNamePrompt": true,
+            "hasQualificationPrompt": true,
+            "dialogCount": 0,
+            "qDialogVisible": false,
+            "nDialogVisible": false,
+            "hasYunbangban": false,
+            "buttons": [
+              {
+                "text": "下一步",
+                "disabled": false
+              },
+              {
+                "text": "关 闭",
+                "disabled": false
+              },
+              {
+                "text": "确定",
+                "disabled": false
+              }
+            ],
+            "probeReqCount": 0
+          },
+          "action": "confirm_name_prompt",
+          "acted": false,
+          "after": {
+            "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+            "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+            "hasNamePrompt": true,
+            "hasQualificationPrompt": true,
+            "dialogCount": 0,
+            "qDialogVisible": false,
+            "nDialogVisible": false,
+            "hasYunbangban": false,
+            "buttons": [
+              {
+                "text": "下一步",
+                "disabled": false
+              },
+              {
+                "text": "关 闭",
+                "disabled": false
+              },
+              {
+                "text": "确定",
+                "disabled": false
+              }
+            ],
+            "probeReqCount": 0
+          },
+          "assertion_request_or_hash_changed": false
+        },
+        {
+          "before": {
+            "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+            "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+            "hasNamePrompt": true,
+            "hasQualificationPrompt": true,
+            "dialogCount": 0,
+            "qDialogVisible": false,
+            "nDialogVisible": false,
+            "hasYunbangban": false,
+            "buttons": [
+              {
+                "text": "下一步",
+                "disabled": false
+              },
+              {
+                "text": "关 闭",
+                "disabled": false
+              },
+              {
+                "text": "确定",
+                "disabled": false
+              }
+            ],
+            "probeReqCount": 0
+          },
+          "action": "confirm_name_prompt",
+          "acted": false,
+          "after": {
+            "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+            "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+            "hasNamePrompt": true,
+            "hasQualificationPrompt": true,
+            "dialogCount": 0,
+            "qDialogVisible": false,
+            "nDialogVisible": false,
+            "hasYunbangban": false,
+            "buttons": [
+              {
+                "text": "下一步",
+                "disabled": false
+              },
+              {
+                "text": "关 闭",
+                "disabled": false
+              },
+              {
+                "text": "确定",
+                "disabled": false
+              }
+            ],
+            "probeReqCount": 0
+          },
+          "assertion_request_or_hash_changed": false
+        },
+        {
+          "before": {
+            "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+            "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+            "hasNamePrompt": true,
+            "hasQualificationPrompt": true,
+            "dialogCount": 0,
+            "qDialogVisible": false,
+            "nDialogVisible": false,
+            "hasYunbangban": false,
+            "buttons": [
+              {
+                "text": "下一步",
+                "disabled": false
+              },
+              {
+                "text": "关 闭",
+                "disabled": false
+              },
+              {
+                "text": "确定",
+                "disabled": false
+              }
+            ],
+            "probeReqCount": 0
+          },
+          "action": "confirm_name_prompt",
+          "acted": false,
+          "after": {
+            "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+            "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+            "hasNamePrompt": true,
+            "hasQualificationPrompt": true,
+            "dialogCount": 0,
+            "qDialogVisible": false,
+            "nDialogVisible": false,
+            "hasYunbangban": false,
+            "buttons": [
+              {
+                "text": "下一步",
+                "disabled": false
+              },
+              {
+                "text": "关 闭",
+                "disabled": false
+              },
+              {
+                "text": "确定",
+                "disabled": false
+              }
+            ],
+            "probeReqCount": 0
+          },
+          "assertion_request_or_hash_changed": false
+        },
+        {
+          "before": {
+            "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+            "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+            "hasNamePrompt": true,
+            "hasQualificationPrompt": true,
+            "dialogCount": 0,
+            "qDialogVisible": false,
+            "nDialogVisible": false,
+            "hasYunbangban": false,
+            "buttons": [
+              {
+                "text": "下一步",
+                "disabled": false
+              },
+              {
+                "text": "关 闭",
+                "disabled": false
+              },
+              {
+                "text": "确定",
+                "disabled": false
+              }
+            ],
+            "probeReqCount": 0
+          },
+          "action": "confirm_name_prompt",
+          "acted": false,
+          "after": {
+            "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+            "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+            "hasNamePrompt": true,
+            "hasQualificationPrompt": true,
+            "dialogCount": 0,
+            "qDialogVisible": false,
+            "nDialogVisible": false,
+            "hasYunbangban": false,
+            "buttons": [
+              {
+                "text": "下一步",
+                "disabled": false
+              },
+              {
+                "text": "关 闭",
+                "disabled": false
+              },
+              {
+                "text": "确定",
+                "disabled": false
+              }
+            ],
+            "probeReqCount": 0
+          },
+          "assertion_request_or_hash_changed": false
+        },
+        {
+          "before": {
+            "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+            "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+            "hasNamePrompt": true,
+            "hasQualificationPrompt": true,
+            "dialogCount": 0,
+            "qDialogVisible": false,
+            "nDialogVisible": false,
+            "hasYunbangban": false,
+            "buttons": [
+              {
+                "text": "下一步",
+                "disabled": false
+              },
+              {
+                "text": "关 闭",
+                "disabled": false
+              },
+              {
+                "text": "确定",
+                "disabled": false
+              }
+            ],
+            "probeReqCount": 0
+          },
+          "action": "confirm_name_prompt",
+          "acted": false,
+          "after": {
+            "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+            "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+            "hasNamePrompt": true,
+            "hasQualificationPrompt": true,
+            "dialogCount": 0,
+            "qDialogVisible": false,
+            "nDialogVisible": false,
+            "hasYunbangban": false,
+            "buttons": [
+              {
+                "text": "下一步",
+                "disabled": false
+              },
+              {
+                "text": "关 闭",
+                "disabled": false
+              },
+              {
+                "text": "确定",
+                "disabled": false
+              }
+            ],
+            "probeReqCount": 0
+          },
+          "assertion_request_or_hash_changed": false
+        }
+      ],
+      "fallback": {
+        "before": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hasNamePrompt": true,
+          "hasQualificationPrompt": true,
+          "dialogCount": 0,
+          "qDialogVisible": false,
+          "nDialogVisible": false,
+          "hasYunbangban": false,
+          "buttons": [
+            {
+              "text": "下一步",
+              "disabled": false
+            },
+            {
+              "text": "关 闭",
+              "disabled": false
+            },
+            {
+              "text": "确定",
+              "disabled": false
+            }
+          ],
+          "probeReqCount": 0
+        },
+        "call_flow_save": {
+          "ok": true
+        },
+        "after": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hasNamePrompt": true,
+          "hasQualificationPrompt": true,
+          "dialogCount": 0,
+          "qDialogVisible": false,
+          "nDialogVisible": false,
+          "hasYunbangban": false,
+          "buttons": [
+            {
+              "text": "下一步",
+              "disabled": false
+            },
+            {
+              "text": "关 闭",
+              "disabled": false
+            },
+            {
+              "text": "确定",
+              "disabled": false
+            }
+          ],
+          "probeReqCount": 0
+        },
+        "assertion_request_or_hash_changed": false
+      },
+      "result": "blocked_no_side_effect"
+    },
+    {
+      "case": {
+        "case_id": "case_07",
+        "busiType": "07",
+        "entType": "1100"
+      },
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+      "steps": [
+        {
+          "before": {
+            "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+            "hash": "#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+            "hasNamePrompt": true,
+            "hasQualificationPrompt": true,
+            "dialogCount": 0,
+            "qDialogVisible": false,
+            "nDialogVisible": false,
+            "hasYunbangban": false,
+            "buttons": [
+              {
+                "text": "下一步",
+                "disabled": false
+              },
+              {
+                "text": "关 闭",
+                "disabled": false
+              },
+              {
+                "text": "确定",
+                "disabled": false
+              }
+            ],
+            "probeReqCount": 0
+          },
+          "action": "confirm_name_prompt",
+          "acted": false,
+          "after": {
+            "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+            "hash": "#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+            "hasNamePrompt": true,
+            "hasQualificationPrompt": true,
+            "dialogCount": 0,
+            "qDialogVisible": false,
+            "nDialogVisible": false,
+            "hasYunbangban": false,
+            "buttons": [
+              {
+                "text": "下一步",
+                "disabled": false
+              },
+              {
+                "text": "关 闭",
+                "disabled": false
+              },
+              {
+                "text": "确定",
+                "disabled": false
+              }
+            ],
+            "probeReqCount": 0
+          },
+          "assertion_request_or_hash_changed": false
+        },
+        {
+          "before": {
+            "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+            "hash": "#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+            "hasNamePrompt": true,
+            "hasQualificationPrompt": true,
+            "dialogCount": 0,
+            "qDialogVisible": false,
+            "nDialogVisible": false,
+            "hasYunbangban": false,
+            "buttons": [
+              {
+                "text": "下一步",
+                "disabled": false
+              },
+              {
+                "text": "关 闭",
+                "disabled": false
+              },
+              {
+                "text": "确定",
+                "disabled": false
+              }
+            ],
+            "probeReqCount": 0
+          },
+          "action": "confirm_name_prompt",
+          "acted": false,
+          "after": {
+            "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+            "hash": "#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+            "hasNamePrompt": true,
+            "hasQualificationPrompt": true,
+            "dialogCount": 0,
+            "qDialogVisible": false,
+            "nDialogVisible": false,
+            "hasYunbangban": false,
+            "buttons": [
+              {
+                "text": "下一步",
+                "disabled": false
+              },
+              {
+                "text": "关 闭",
+                "disabled": false
+              },
+              {
+                "text": "确定",
+                "disabled": false
+              }
+            ],
+            "probeReqCount": 0
+          },
+          "assertion_request_or_hash_changed": false
+        },
+        {
+          "before": {
+            "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+            "hash": "#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+            "hasNamePrompt": true,
+            "hasQualificationPrompt": true,
+            "dialogCount": 0,
+            "qDialogVisible": false,
+            "nDialogVisible": false,
+            "hasYunbangban": false,
+            "buttons": [
+              {
+                "text": "下一步",
+                "disabled": false
+              },
+              {
+                "text": "关 闭",
+                "disabled": false
+              },
+              {
+                "text": "确定",
+                "disabled": false
+              }
+            ],
+            "probeReqCount": 0
+          },
+          "action": "confirm_name_prompt",
+          "acted": false,
+          "after": {
+            "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+            "hash": "#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+            "hasNamePrompt": true,
+            "hasQualificationPrompt": true,
+            "dialogCount": 0,
+            "qDialogVisible": false,
+            "nDialogVisible": false,
+            "hasYunbangban": false,
+            "buttons": [
+              {
+                "text": "下一步",
+                "disabled": false
+              },
+              {
+                "text": "关 闭",
+                "disabled": false
+              },
+              {
+                "text": "确定",
+                "disabled": false
+              }
+            ],
+            "probeReqCount": 0
+          },
+          "assertion_request_or_hash_changed": false
+        },
+        {
+          "before": {
+            "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+            "hash": "#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+            "hasNamePrompt": true,
+            "hasQualificationPrompt": true,
+            "dialogCount": 0,
+            "qDialogVisible": false,
+            "nDialogVisible": false,
+            "hasYunbangban": false,
+            "buttons": [
+              {
+                "text": "下一步",
+                "disabled": false
+              },
+              {
+                "text": "关 闭",
+                "disabled": false
+              },
+              {
+                "text": "确定",
+                "disabled": false
+              }
+            ],
+            "probeReqCount": 0
+          },
+          "action": "confirm_name_prompt",
+          "acted": false,
+          "after": {
+            "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+            "hash": "#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+            "hasNamePrompt": true,
+            "hasQualificationPrompt": true,
+            "dialogCount": 0,
+            "qDialogVisible": false,
+            "nDialogVisible": false,
+            "hasYunbangban": false,
+            "buttons": [
+              {
+                "text": "下一步",
+                "disabled": false
+              },
+              {
+                "text": "关 闭",
+                "disabled": false
+              },
+              {
+                "text": "确定",
+                "disabled": false
+              }
+            ],
+            "probeReqCount": 0
+          },
+          "assertion_request_or_hash_changed": false
+        },
+        {
+          "before": {
+            "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+            "hash": "#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+            "hasNamePrompt": true,
+            "hasQualificationPrompt": true,
+            "dialogCount": 0,
+            "qDialogVisible": false,
+            "nDialogVisible": false,
+            "hasYunbangban": false,
+            "buttons": [
+              {
+                "text": "下一步",
+                "disabled": false
+              },
+              {
+                "text": "关 闭",
+                "disabled": false
+              },
+              {
+                "text": "确定",
+                "disabled": false
+              }
+            ],
+            "probeReqCount": 0
+          },
+          "action": "confirm_name_prompt",
+          "acted": false,
+          "after": {
+            "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+            "hash": "#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+            "hasNamePrompt": true,
+            "hasQualificationPrompt": true,
+            "dialogCount": 0,
+            "qDialogVisible": false,
+            "nDialogVisible": false,
+            "hasYunbangban": false,
+            "buttons": [
+              {
+                "text": "下一步",
+                "disabled": false
+              },
+              {
+                "text": "关 闭",
+                "disabled": false
+              },
+              {
+                "text": "确定",
+                "disabled": false
+              }
+            ],
+            "probeReqCount": 0
+          },
+          "assertion_request_or_hash_changed": false
+        }
+      ],
+      "fallback": {
+        "before": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+          "hasNamePrompt": true,
+          "hasQualificationPrompt": true,
+          "dialogCount": 0,
+          "qDialogVisible": false,
+          "nDialogVisible": false,
+          "hasYunbangban": false,
+          "buttons": [
+            {
+              "text": "下一步",
+              "disabled": false
+            },
+            {
+              "text": "关 闭",
+              "disabled": false
+            },
+            {
+              "text": "确定",
+              "disabled": false
+            }
+          ],
+          "probeReqCount": 0
+        },
+        "call_flow_save": {
+          "ok": true
+        },
+        "after": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=07&entType=1100&marPrId=&marUniscId=",
+          "hasNamePrompt": true,
+          "hasQualificationPrompt": true,
+          "dialogCount": 0,
+          "qDialogVisible": false,
+          "nDialogVisible": false,
+          "hasYunbangban": false,
+          "buttons": [
+            {
+              "text": "下一步",
+              "disabled": false
+            },
+            {
+              "text": "关 闭",
+              "disabled": false
+            },
+            {
+              "text": "确定",
+              "disabled": false
+            }
+          ],
+          "probeReqCount": 0
+        },
+        "assertion_request_or_hash_changed": false
+      },
+      "result": "blocked_no_side_effect"
+    }
+  ],
+  "ended_at": "2026-04-14 22:39:34"
+}

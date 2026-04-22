@@ -1,0 +1,46 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "Q8422",
+        "saveHyCode": "8422",
+        "hyPecul": "人民政协",
+        "hyTypeName": "街道卫生院",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列街道卫生院的活动：",
+        "includes": "街道卫生院服务。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "Q8421",
+        "saveHyCode": "8421",
+        "hyPecul": "人民政协、民主党派",
+        "hyTypeName": "社区卫生服务中心(站)",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列社区医疗与卫生院的活动：",
+        "includes": "社区卫生服务中心服务；社区卫生服务站服务。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "人民政协",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

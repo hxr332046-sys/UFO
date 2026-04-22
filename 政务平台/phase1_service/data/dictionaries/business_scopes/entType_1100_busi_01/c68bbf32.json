@@ -1,0 +1,46 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C2021",
+        "saveHyCode": "2021",
+        "hyPecul": "胶合板",
+        "hyTypeName": "胶合板制造",
+        "enHyTypeName": null,
+        "explains": "指具有一定规格的原木经旋（刨）切成单板，再经干燥、涂胶、组坯、热压而成的符合国家标准及供需双方协定标准的产品生产活动。",
+        "includesTitle": "包括对下列胶合板的制造活动：",
+        "includes": "木胶合板；胶合板表面装饰板：合成树脂浸渍纸贴面板、装饰单板贴面板、其他表面装饰板；其他胶合板。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "C2021",
+        "saveHyCode": "2021",
+        "hyPecul": "胶合板制造",
+        "hyTypeName": "胶合板制造",
+        "enHyTypeName": null,
+        "explains": "指具有一定规格的原木经旋（刨）切成单板，再经干燥、涂胶、组坯、热压而成的符合国家标准及供需双方协定标准的产品生产活动。",
+        "includesTitle": "包括对下列胶合板的制造活动：",
+        "includes": "木胶合板；胶合板表面装饰板：合成树脂浸渍纸贴面板、装饰单板贴面板、其他表面装饰板；其他胶合板。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "胶合板",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "started_at": "2026-04-20 13:23:03",
+  "steps": [
+    {
+      "step": "probe",
+      "data": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "p": "",
+        "validResult": true,
+        "goHistroy": false,
+        "totalAddress": "",
+        "realvalue": "",
+        "routeQuery": {
+          "busiType": "02_4",
+          "entType": "1100",
+          "marPrId": "",
+          "marUniscId": ""
+        },
+        "payload": {
+          "entType": "1100",
+          "nameCode": "0",
+          "havaAdress": "0",
+          "distCode": "450921",
+          "streetCode": "450921",
+          "streetName": "容县",
+          "detAddress": "容州镇车站西路富盛广场1幢3203号房",
+          "address": "",
+          "isnameType": "0",
+          "choiceName": "0",
+          "distList": [
+            "450000",
+            "450900",
+            "450921",
+            "450921"
+          ],
+          "fzSign": "N",
+          "parentEntRegno": "",
+          "parentEntName": "",
+          "gainError": "1"
+        },
+        "apiErr": "[object Object]",
+        "apiRes": {
+          "error": {
+            "code": "A0002",
+            "data": null,
+            "msg": "服务端异常",
+            "page": null
+          },
+          "data": null
+        },
+        "uiErrors": [
+          "您好，由于系统服务出现异常，请勿多次重复提交，耐心等待片刻再重新尝试，如果问题仍然存在，请联系登记机关寻求帮助。"
+        ]
+      }
+    }
+  ]
+}

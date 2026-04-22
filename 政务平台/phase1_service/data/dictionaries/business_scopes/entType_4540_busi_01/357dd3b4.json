@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C2623",
+        "saveHyCode": "2623",
+        "hyPecul": "钾肥制造",
+        "hyTypeName": "钾肥制造",
+        "enHyTypeName": null,
+        "explains": "指用天然钾盐矿经富集精制加工制成含有作物营养元素钾的化肥的生产活动。",
+        "includesTitle": "包括下列钾肥制造活动：",
+        "includes": "氯化钾、硫酸钾（钾肥）、钾钙肥、硫酸钾镁肥、钾钙肥、其他化学钾肥；其他钾肥。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "钾肥",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

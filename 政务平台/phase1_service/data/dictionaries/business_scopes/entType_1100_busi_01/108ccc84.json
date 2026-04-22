@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "A0232",
+        "saveHyCode": "0232",
+        "hyPecul": "森林改培",
+        "hyTypeName": "森林改培",
+        "enHyTypeName": null,
+        "explains": "指为调整林分结构和树种组成，形成密度合理、物种丰富、功能完备的优质、高产、高效林而采取林分抚育、补植、补播等人工措施的活动。。",
+        "includesTitle": "包括下列森林改培活动：",
+        "includes": "树种结构调整；补植补播；封山育林；林分抚育；嫁接复壮等营林措施；其他未列明的森林改培活动。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "森林改培",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

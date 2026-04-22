@@ -1,0 +1,275 @@
+{
+  "WindowEnum": [
+    {
+      "test": "TopLevelWindowCount",
+      "status": "PASS",
+      "detail": "12 windows detected"
+    },
+    {
+      "test": "TopLevelWindowFilter",
+      "status": "PASS",
+      "detail": "9 top-level windows"
+    },
+    {
+      "test": "WindowProperties_ERROR",
+      "status": "FAIL",
+      "detail": "(-2147024891, '拒绝访问。', (None, None, None, 0, None))"
+    },
+    {
+      "test": "WindowProperties_Shell_SecondaryTrayWnd",
+      "status": "PASS",
+      "detail": "Name=, Class=Shell_SecondaryTrayWnd, PID=8368, Type=PaneControl"
+    },
+    {
+      "test": "WindowProperties_Shell_TrayWnd",
+      "status": "PASS",
+      "detail": "Name=任务栏, Class=Shell_TrayWnd, PID=8368, Type=PaneControl"
+    },
+    {
+      "test": "WindowProperties_Chrome_WidgetWin_1",
+      "status": "PASS",
+      "detail": "Name=国产反代 - Windsurf - AI工具箱网站技术方案报告.md [管理员], Class=Chrome_WidgetWin_1, PID=14768, Type=WindowControl"
+    },
+    {
+      "test": "WindowProperties_Chrome_WidgetWin_1",
+      "status": "PASS",
+      "detail": "Name=UFO电脑自动化 - Windsurf [管理员], Class=Chrome_WidgetWin_1, PID=9864, Type=WindowControl"
+    },
+    {
+      "test": "Win32EnumWindows",
+      "status": "PASS",
+      "detail": "8 visible windows via Win32"
+    },
+    {
+      "test": "UFO_ScreenshotController",
+      "status": "FAIL",
+      "detail": "cannot import name 'ScreenshotController' from 'ufo.automator.ui_control.screenshot' (D:\\UFO\\ufo\\automator\\ui_control\\screenshot.py)"
+    }
+  ],
+  "ControlDetect": [
+    {
+      "test": "StandardControlTypes",
+      "status": "PASS",
+      "detail": "26/26 types available"
+    },
+    {
+      "test": "AvailableTypes",
+      "status": "PASS",
+      "detail": "ButtonControl, EditControl, TextControl, ListControl, TreeControl, TabControl, MenuItemControl, ComboBoxControl, CheckBoxControl, RadioButtonControl, SliderControl, SpinnerControl, HyperlinkControl, ScrollBarControl, DataItemControl"
+    },
+    {
+      "test": "UITreeDepth_Shell_TrayWnd",
+      "status": "PASS",
+      "detail": "Depth=1"
+    },
+    {
+      "test": "ControlPropertyAccess",
+      "status": "PASS",
+      "detail": "{\"BoundingRectangle\": \"(0,1030,1920,1080)[1920x50]\", \"ControlTypeName\": \"PaneControl\", \"AutomationId\": \"\", \"IsEnabled\": 1, \"IsOffscreen\": 0}"
+    }
+  ],
+  "Commands": [
+    {
+      "test": "AvailableCommands",
+      "status": "PASS",
+      "detail": "17/17"
+    },
+    {
+      "test": "CommandList",
+      "status": "PASS",
+      "detail": "ClickCommand, ClickInputCommand, ClickOnCoordinatesCommand, DoubleClickCommand, SetEditTextCommand, WheelMouseInputCommand, ScrollCommand, DragCommand, DragOnCoordinatesCommand, KeyPressCommand, MouseMoveCommand, AnnotationCommand, GetTextsCommand, SummaryCommand, NoActionCommand, WaitCommand, TypeCommand"
+    },
+    {
+      "test": "KeyboardInput",
+      "status": "PASS",
+      "detail": "Available"
+    },
+    {
+      "test": "ReceiverManager",
+      "status": "PASS",
+      "detail": "Available"
+    },
+    {
+      "test": "UIControlReceiverFactory",
+      "status": "PASS",
+      "detail": "Available"
+    }
+  ],
+  "Screenshot": [
+    {
+      "test": "ScreenshotModule",
+      "status": "PASS",
+      "detail": "Importable"
+    },
+    {
+      "test": "PIL_ImageGrab",
+      "status": "PASS",
+      "detail": "Screenshot size=(1920, 1080)"
+    },
+    {
+      "test": "PyAutoGUI_Screenshot",
+      "status": "PASS",
+      "detail": "Size=(1920, 1080)"
+    }
+  ],
+  "MCP": [
+    {
+      "test": "FastMCP_Import",
+      "status": "PASS",
+      "detail": "Version available"
+    },
+    {
+      "test": "MCP_ConfigExists",
+      "status": "PASS",
+      "detail": "Config file size=4051"
+    },
+    {
+      "test": "LocalMCPServers",
+      "status": "PASS",
+      "detail": "8 servers: ['cli_mcp_server.py', 'constellation_mcp_server.py', 'excel_wincom_mcp_server.py', 'pdf_reader_mcp_server.py', 'ppt_wincom_mcp_server.py', 'ui_mcp_server.py', 'word_wincom_mcp_server.py', '__init__.py']"
+    },
+    {
+      "test": "HTTPMCPServers",
+      "status": "PASS",
+      "detail": "3 servers: ['hardware_mcp_server.py', 'linux_mcp_server.py', 'mobile_mcp_server.py']"
+    }
+  ],
+  "RAG": [
+    {
+      "test": "FAISS_Import",
+      "status": "PASS",
+      "detail": "FAISS available"
+    },
+    {
+      "test": "HuggingFaceEmbeddings",
+      "status": "PASS",
+      "detail": "Importable"
+    },
+    {
+      "test": "LangChainFAISS",
+      "status": "PASS",
+      "detail": "Importable"
+    },
+    {
+      "test": "RAG_ConfigExists",
+      "status": "PASS",
+      "detail": "Config file present"
+    },
+    {
+      "test": "SentenceTransformers",
+      "status": "PASS",
+      "detail": "Importable"
+    }
+  ],
+  "MultiAction": [
+    {
+      "test": "Module_processors",
+      "status": "PASS",
+      "detail": "3 files: ['app_agent_processor.py', 'host_agent_processor.py', '__init__.py']"
+    },
+    {
+      "test": "Module_strategies",
+      "status": "PASS",
+      "detail": "8 files: ['app_agent_processing_strategy.py', 'customized_agent_processing_strategy.py', 'host_agent_processing_strategy.py', 'linux_agent_strategy.py', 'mobile_agent_strategy.py', 'processing_strategy.py', 'strategy_dependency.py', '__init__.py']"
+    },
+    {
+      "test": "Init",
+      "status": "FAIL",
+      "detail": "No module named 'ufo.config.config_loader'"
+    }
+  ],
+  "Safety": [
+    {
+      "test": "Init",
+      "status": "FAIL",
+      "detail": "No module named 'ufo.config.config_loader'"
+    }
+  ],
+  "Special": [
+    {
+      "test": "AllVisibleWindows",
+      "status": "PASS",
+      "detail": "18 windows with process info"
+    },
+    {
+      "test": "Init",
+      "status": "FAIL",
+      "detail": "name 'title' is not defined"
+    }
+  ],
+  "Office": [
+    {
+      "test": "xlwings",
+      "status": "FAIL",
+      "detail": "Not installed"
+    },
+    {
+      "test": "python-pptx",
+      "status": "FAIL",
+      "detail": "Not installed"
+    },
+    {
+      "test": "win32com",
+      "status": "PASS",
+      "detail": "Available for Outlook/Word COM automation"
+    },
+    {
+      "test": "OfficeAppPrompts",
+      "status": "FAIL",
+      "detail": "Prompt dir not found"
+    },
+    {
+      "test": "OfficeMCPServers",
+      "status": "PASS",
+      "detail": "MCP servers: ['cli_mcp_server.py', 'constellation_mcp_server.py', 'excel_wincom_mcp_server.py', 'pdf_reader_mcp_server.py', 'ppt_wincom_mcp_server.py', 'ui_mcp_server.py', 'word_wincom_mcp_server.py', '__init__.py']"
+    }
+  ],
+  "LLM": [
+    {
+      "test": "Init",
+      "status": "FAIL",
+      "detail": "No module named 'ufo.config.config_loader'"
+    }
+  ],
+  "Agent": [
+    {
+      "test": "AgentModules",
+      "status": "PASS",
+      "detail": "Sub-modules: ['agent', 'memory', 'presenters', 'processors', 'states', '__pycache__']"
+    },
+    {
+      "test": "Init",
+      "status": "FAIL",
+      "detail": "cannot import name 'BasicSession' from 'ufo.module.basic' (D:\\UFO\\ufo\\module\\basic.py)"
+    }
+  ],
+  "Logging": [
+    {
+      "test": "LoggingModule",
+      "status": "PASS",
+      "detail": "Files: ['setup.py', '__init__.py']"
+    },
+    {
+      "test": "EvaluationSession",
+      "status": "WARN",
+      "detail": "Could not read config"
+    }
+  ],
+  "PiP": [
+    {
+      "test": "Win32API",
+      "status": "PASS",
+      "detail": "Available for RDP loopback"
+    },
+    {
+      "test": "RDPAvailability",
+      "status": "PASS",
+      "detail": "mstsc.exe found"
+    },
+    {
+      "test": "PiPStatus",
+      "status": "WARN",
+      "detail": "PiP requires RDP loopback config - advanced setup needed"
+    }
+  ]
+}

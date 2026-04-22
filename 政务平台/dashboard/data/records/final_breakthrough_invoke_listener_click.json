@@ -1,0 +1,72 @@
+{
+  "started_at": "2026-04-15 00:38:54",
+  "steps": [
+    {
+      "step": "net_before",
+      "data": {
+        "reqs": [],
+        "resps": []
+      }
+    },
+    {
+      "step": "invoke_listener_click",
+      "data": {
+        "ok": true,
+        "trace": [
+          {
+            "t": 1776184736497,
+            "m": "listener_enter"
+          },
+          {
+            "t": 1776184736497,
+            "m": "listener_promise"
+          },
+          {
+            "t": 1776184736499,
+            "m": "listener_reject",
+            "err": "TypeError: Cannot read properties of undefined (reading 'getFormData')"
+          }
+        ],
+        "btn": {
+          "cls": "el-button sub-btn el-button--primary is-loading",
+          "disabled": true,
+          "text": "下一步"
+        }
+      }
+    },
+    {
+      "step": "net_after",
+      "data": {
+        "reqs": [],
+        "resps": []
+      }
+    },
+    {
+      "step": "trace_after",
+      "data": [
+        {
+          "t": 1776184736497,
+          "m": "listener_enter"
+        },
+        {
+          "t": 1776184736497,
+          "m": "listener_promise"
+        },
+        {
+          "t": 1776184736499,
+          "m": "listener_reject",
+          "err": "TypeError: Cannot read properties of undefined (reading 'getFormData')"
+        }
+      ]
+    },
+    {
+      "step": "state_after",
+      "data": {
+        "cls": "el-button sub-btn el-button--primary is-loading",
+        "disabled": true,
+        "text": "下一步"
+      }
+    }
+  ],
+  "ended_at": "2026-04-15 00:39:04"
+}

@@ -1,0 +1,54 @@
+{
+  "steps": [
+    {
+      "step": "S1_extract_and_inject_id",
+      "data": {
+        "id": "22561619020183",
+        "busiCompUrlPaths": [
+          {
+            "compUrl": "BasicInfo",
+            "id": ""
+          }
+        ],
+        "flowData": {
+          "busiId": null,
+          "entType": "1100",
+          "busiType": "02",
+          "ywlbSign": null,
+          "busiMode": null,
+          "nameId": null,
+          "marPrId": null,
+          "secondId": null,
+          "vipChannel": null,
+          "currCompUrl": "BasicInfo",
+          "status": "10",
+          "matterCode": null,
+          "interruptControl": null
+        },
+        "detail": {
+          "mcCompId": "22561619020183",
+          "opCompId": "22561619020183"
+        }
+      }
+    },
+    {
+      "step": "S2_hook_save",
+      "data": {
+        "ok": true
+      }
+    },
+    {
+      "step": "S3_trigger_save",
+      "data": {
+        "ok": true
+      }
+    },
+    {
+      "step": "S4_save_capture",
+      "data": {
+        "req": null,
+        "resp": null
+      }
+    }
+  ]
+}

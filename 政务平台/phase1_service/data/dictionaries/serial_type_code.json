@@ -1,0 +1,36 @@
+{
+  "schema": "phase1_service.census.payload.v1",
+  "meta": {
+    "job_id": "serialTypeCode",
+    "path": "/icpsp-api/v4/pc/common/configdata/getSerialTypeCode",
+    "params": {},
+    "dur_ms": 64,
+    "ts": 1776842501
+  },
+  "data": {
+    "code": "00000",
+    "data": {
+      "resultType": "0",
+      "msg": "",
+      "busiData": [
+        {
+          "code": "1",
+          "codeName": "不动产权证书",
+          "choSign": "Y"
+        },
+        {
+          "code": "3",
+          "codeName": "商品房购买合同",
+          "choSign": "Y"
+        },
+        {
+          "code": "4",
+          "codeName": "租赁合同",
+          "choSign": "Y"
+        }
+      ]
+    },
+    "msg": "操作成功",
+    "page": null
+  }
+}

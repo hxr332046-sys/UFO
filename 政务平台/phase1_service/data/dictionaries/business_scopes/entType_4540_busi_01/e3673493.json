@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "A0111",
+        "saveHyCode": "0111",
+        "hyPecul": "稻谷种植",
+        "hyTypeName": "稻谷种植",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列稻谷的种植活动：",
+        "includes": "早籼稻：种用早籼稻、其他早籼稻；晚籼稻：种用晚籼稻、其他晚籼稻；中籼稻：种用中籼稻、其他中籼稻；粳稻：种用粳稻、其他粳稻；糯稻：种用糯稻、其他糯稻；其他稻谷：稻谷壳、稻谷秸及其他未列明稻谷。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "稻谷种植",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

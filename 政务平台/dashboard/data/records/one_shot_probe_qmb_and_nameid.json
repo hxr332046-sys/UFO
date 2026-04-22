@@ -1,0 +1,125 @@
+{
+  "started_at": "2026-04-15 18:54:42",
+  "steps": [
+    {
+      "step": "pick",
+      "data": {
+        "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId="
+      }
+    },
+    {
+      "step": "nav_guide",
+      "data": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId="
+    },
+    {
+      "step": "probe",
+      "data": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "base": {
+          "entType": "4540",
+          "distCode": "450921",
+          "streetCode": "450921",
+          "namePre": "玉林市",
+          "nameMark": "智信五金",
+          "industry": "五金批发",
+          "mainBusinessDesc": "五金批发",
+          "organize": "市（个人独资）",
+          "nameCode": "0"
+        },
+        "calls": [
+          {
+            "name": "getOrganizeList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "GS52011001A0015",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "queryNameEntTypeCfgByEntTypeQmb",
+            "ok": true,
+            "r": {
+              "code": "00000",
+              "data": {
+                "resultType": "0",
+                "msg": "",
+                "busiData": "10,20,30"
+              },
+              "msg": "操作成功",
+              "page": null
+            }
+          },
+          {
+            "name": "checkNamePrefixList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "preCheckCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "generateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "startGenerateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyNameRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyInfoRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "saveNameMarkInfo",
+            "ok": false,
+            "err": "[object Object]",
+            "data": "undefined",
+            "resp": "undefined"
+          }
+        ],
+        "hits": [],
+        "picked": null
+      }
+    }
+  ],
+  "ended_at": "2026-04-15 18:54:48"
+}

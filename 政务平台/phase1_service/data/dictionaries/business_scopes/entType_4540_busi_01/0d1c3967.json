@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "F5248",
+        "saveHyCode": "5248",
+        "hyPecul": "照相器材零售",
+        "hyTypeName": "照相器材零售",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列照相器材的零售活动：",
+        "includes": "照相器材专门零售：数码相机、普通相机、照相辅助器材、胶卷、相纸、冲印药剂、家用冲印设备及其他照相器材专门零售。",
+        "unIncludes": "不包括：相片扩印服务，列入8060（摄影扩印服务）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "照相器材",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

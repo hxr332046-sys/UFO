@@ -1,0 +1,94 @@
+{
+  "steps": [
+    {
+      "step": "S0_pick",
+      "data": {
+        "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId="
+      }
+    },
+    {
+      "step": "S2_hash_before",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台"
+      }
+    },
+    {
+      "step": "S3_click_start",
+      "data": {
+        "ok": false,
+        "topBtns": []
+      }
+    },
+    {
+      "step": "S4_toSelectName",
+      "data": {
+        "called": false,
+        "hash": "#/404"
+      }
+    },
+    {
+      "step": "S5_hash_after_select",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/404",
+        "hash": "#/404"
+      }
+    },
+    {
+      "step": "S6_call_getData",
+      "data": {
+        "error": "no_select_prise"
+      }
+    },
+    {
+      "step": "S7_extract_nameId",
+      "data": {
+        "error": "no_select_prise",
+        "hash": "#/404"
+      }
+    },
+    {
+      "step": "S7b_fallback_nameId_from_round2",
+      "data": {
+        "nameId": "2044022870006435841"
+      }
+    },
+    {
+      "step": "S8_call_startSheli",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "S8_after_startSheli",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/404",
+        "hash": "#/404",
+        "title": "广西经营主体登记平台"
+      }
+    },
+    {
+      "step": "S9_call_getHandleBusiness",
+      "data": {
+        "ok": false,
+        "reason": "no_method"
+      }
+    },
+    {
+      "step": "S10_final_snapshot",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/404",
+        "hash": "#/404",
+        "title": "广西经营主体登记平台",
+        "hasFlowControl": false,
+        "flowData": null,
+        "itemId": "",
+        "tokenKeys": {
+          "topToken": true,
+          "auth": true
+        }
+      }
+    }
+  ]
+}

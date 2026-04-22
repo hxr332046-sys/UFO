@@ -1,0 +1,132 @@
+{
+  "started_at": "2026-04-14 20:11:25",
+  "steps": [
+    {
+      "step": "S0_start",
+      "data": {
+        "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="
+      }
+    },
+    {
+      "step": "S1_open_enterprise_zone",
+      "data": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/enterprise/enterprise-zone?fromProject=portal&fromPage=%2Findex%2Fpage&busiType=02_4&merge=Y"
+    },
+    {
+      "step": "S2_enterprise_snapshot",
+      "tag": "enterprise-zone",
+      "time": "20:11:32",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/enterprise/enterprise-zone?fromProject=portal&fromPage=%2Findex%2Fpage&busiType=02_4&merge=Y",
+        "hash": "#/index/enterprise/enterprise-zone?fromProject=portal&fromPage=%2Findex%2Fpage&busiType=02_4&merge=Y",
+        "title": "广西经营主体登记平台",
+        "errors": [],
+        "buttons": [
+          {
+            "text": "开始办理",
+            "disabled": false
+          },
+          {
+            "text": "开始办理",
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "step": "S3_click_start",
+      "data": {
+        "clicked": true,
+        "text": "开始办理"
+      }
+    },
+    {
+      "step": "S4_open_declaration",
+      "data": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/namenotice/declaration-instructions?fromProject=portal&fromPage=%2Findex%2Fenterprise%2Fenterprise-zone&entType=1100&busiType=02_4"
+    },
+    {
+      "step": "S5_declaration_snapshot",
+      "tag": "declaration-instructions",
+      "time": "20:11:43",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/namenotice/declaration-instructions?fromProject=portal&fromPage=%2Findex%2Fenterprise%2Fenterprise-zone&entType=1100&busiType=02_4",
+        "hash": "#/namenotice/declaration-instructions?fromProject=portal&fromPage=%2Findex%2Fenterprise%2Fenterprise-zone&entType=1100&busiType=02_4",
+        "title": "广西经营主体登记平台",
+        "errors": [],
+        "buttons": [
+          {
+            "text": "我不同意",
+            "disabled": false
+          },
+          {
+            "text": "我已阅读并同意",
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "step": "S6_click_agree",
+      "data": {
+        "clicked": true,
+        "text": "我已阅读并同意"
+      }
+    },
+    {
+      "step": "S7_open_guide_base",
+      "data": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="
+    },
+    {
+      "step": "S8_guide_snapshot",
+      "tag": "guide-base",
+      "time": "20:11:53",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "errors": [],
+        "buttons": [
+          {
+            "text": "下一步",
+            "disabled": false
+          },
+          {
+            "text": "关 闭",
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "step": "S9_click_next",
+      "data": {
+        "clicked": true,
+        "text": "下一步"
+      }
+    },
+    {
+      "step": "S10_final_snapshot",
+      "tag": "after-guide-next",
+      "time": "20:11:58",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "errors": [],
+        "buttons": [
+          {
+            "text": "下一步",
+            "disabled": false
+          },
+          {
+            "text": "关 闭",
+            "disabled": false
+          },
+          {
+            "text": "确定",
+            "disabled": false
+          }
+        ]
+      }
+    }
+  ]
+}

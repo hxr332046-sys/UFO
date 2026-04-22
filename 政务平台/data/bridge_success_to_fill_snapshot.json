@@ -1,0 +1,92 @@
+{
+  "steps": [
+    {
+      "step": "S1_start",
+      "data": {
+        "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/basic-info"
+      }
+    },
+    {
+      "step": "S2_success_page_snapshot",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/basic-info",
+        "hash": "#/flow/base/basic-info",
+        "title": "广西经营主体登记平台",
+        "buttons": [
+          "更多",
+          "添加",
+          "添加规范经营用语",
+          "上一步",
+          "保存并下一步"
+        ]
+      }
+    },
+    {
+      "step": "S3_click_continue",
+      "data": {
+        "clicked": false
+      }
+    },
+    {
+      "step": "S4_fill_page_snapshot",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/basic-info",
+        "hash": "#/flow/base/basic-info",
+        "formItems": 35,
+        "filledCount": 9,
+        "errors": [
+          "请输入联系电话",
+          "请输入详细地址",
+          "请输入生产经营地详细地址"
+        ],
+        "sampleFilled": [
+          {
+            "label": "企业名称：",
+            "value": "广西玉林天曼五金批发中心（个人独资）",
+            "hasInput": true
+          },
+          {
+            "label": "出资额：",
+            "value": "10.000000",
+            "hasInput": true
+          },
+          {
+            "label": "从业人数：",
+            "value": "1",
+            "hasInput": true
+          },
+          {
+            "label": "申请执照副本数量：",
+            "value": "1",
+            "hasInput": true
+          },
+          {
+            "label": "邮政编码：",
+            "value": "537500",
+            "hasInput": true
+          },
+          {
+            "label": "企业住所：",
+            "value": "广西壮族自治区/玉林市/容县",
+            "hasInput": true
+          },
+          {
+            "label": "生产经营地址：",
+            "value": "广西壮族自治区/玉林市/容县",
+            "hasInput": true
+          },
+          {
+            "label": "行业类型：",
+            "value": "[5174]五金产品批发",
+            "hasInput": true
+          },
+          {
+            "label": "登记机关/市场监管所：",
+            "value": "江北市监所",
+            "hasInput": true
+          }
+        ]
+      }
+    }
+  ]
+}

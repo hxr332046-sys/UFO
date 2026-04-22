@@ -1,0 +1,107 @@
+{
+  "started_at": "2026-04-20 13:17:44",
+  "steps": [
+    {
+      "step": "inject_trace",
+      "data": {
+        "ok": true,
+        "wrapped": [
+          "validateEntType",
+          "queryExtraDto",
+          "checkchange",
+          "changeEntType",
+          "flowSave",
+          "fzjgFlowSave",
+          "validateDetailAddress",
+          "init",
+          "getQueryNameEntTypeTwo",
+          "concatenateNameAndCode"
+        ],
+        "form": {
+          "entType": "1100",
+          "nameCode": "0",
+          "havaAdress": "0",
+          "distCode": "450921",
+          "streetCode": "450921",
+          "streetName": "容县",
+          "detAddress": "容州镇车站西路富盛广场1幢3203号房",
+          "address": "",
+          "isnameType": "0",
+          "choiceName": "0",
+          "distList": [
+            "450000",
+            "450900",
+            "450921",
+            "450921"
+          ]
+        },
+        "dataKeys": [
+          "distList",
+          "isnameType",
+          "companys",
+          "entTypeTree",
+          "localdataTree",
+          "defaultExpandedKeys",
+          "toDollars",
+          "currencyLists",
+          "deepForm",
+          "entTypeTreeTwo",
+          "capitalTips",
+          "entTypeCode",
+          "entTypeRealy",
+          "isShowName",
+          "isHideName",
+          "isHiddenRegMoney",
+          "dataInfo",
+          "isSearch",
+          "realvalue",
+          "totalAddress",
+          "dolRate",
+          "searchLoading",
+          "companyInfo",
+          "searchAlready",
+          "choiceName",
+          "subEntTypeData",
+          "form",
+          "rules",
+          "goHistroy",
+          "timer",
+          "timeout",
+          "fzSign",
+          "isShowNewFzcode"
+        ]
+      }
+    },
+    {
+      "step": "simulate_clicks",
+      "data": {
+        "click_not_apply": true,
+        "click_next": true,
+        "click_confirm": false,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "trace": []
+      }
+    },
+    {
+      "step": "manual_call",
+      "data": {
+        "flowSave": "called",
+        "fzjgFlowSave": "called",
+        "trace": [
+          {
+            "t": 1776662272311,
+            "method": "flowSave",
+            "args": []
+          },
+          {
+            "t": 1776662272312,
+            "method": "fzjgFlowSave",
+            "args": []
+          }
+        ],
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="
+      }
+    }
+  ]
+}

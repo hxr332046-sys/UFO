@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/alt-agent",
+  "hash": "#/flow/base/alt-agent",
+  "out": {
+    "operationBusinessDataInfo_err": {
+      "msg": "[object Object]",
+      "code": "GS52010400B0017",
+      "data": null,
+      "resp": "undefined"
+    }
+  },
+  "trace": [
+    [
+      "send",
+      {
+        "m": "POST",
+        "u": "/icpsp-api/v4/pc/register/name/component/NameCheckInfo/operationBusinessDataInfo?t=1776251598137",
+        "b": "{\"flowData\":{\"busiId\":null,\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":\"2044022870006435841\",\"currCompUrl\":\"NameCheckInfo\",\"status\":\"10\"},\"linkData\":{\"token\":\"\",\"continueFlag\":\"\",\"compUrl\":\"NameCheckInfo\",\"compUrlPaths\":[\"NameCheckInfo\"]},\"itemId\":\"\",\"compUrl\":\"NameCheckInfo\",\"opType\":\"tempSave\",\"busiData\":{\"namePre\":\"???\",\"nameMark\":\"????\",\"industrySpecial\":\"????\",\"allIndKeyWord\":\"??\",\"showKeyWord\":\"??\",\"industry\":\"F5174\",\"industryName\":\"??????\",\"organize\":\"998\",\"organizeName\":\"???????\",\"name\":\"??????????????????\",\"isCheckBox\":\"Y\",\"declarationMode\":\"Y\",\"distCode\":\"450921\",\"streetCode\":\"450921\",\"entType\":\"4540\",\"nameId\":\"2044022870006435841\"}}"
+      }
+    ],
+    [
+      "end",
+      {
+        "u": "/icpsp-api/v4/pc/register/name/component/NameCheckInfo/operationBusinessDataInfo?t=1776251598137",
+        "s": 200,
+        "r": "{\"code\":\"GS52010400B0017\",\"data\":null,\"msg\":\"系统校验名称保留期限超期\",\"page\":null}"
+      }
+    ]
+  ]
+}

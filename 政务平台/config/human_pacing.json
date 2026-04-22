@@ -1,0 +1,6 @@
+{
+  "multiplier": 1.55,
+  "jitter_ratio": 0.14,
+  "min_delay_sec": 1.0,
+  "_comment": "【固化规则】每次业务动作（点击、导航、eval、每槽上传等）间隔 ≥ min_delay_sec 秒（默认1.0），含乘子与抖动；代码内 sleep_human 强制不低于此值。轮询 wait_href、CDP 重连仍可用 time.sleep(短) 避免拖死。调试可用 --human-fast。勿把 min_delay_sec 调低于 1.0（会被 human_pacing.py 抬回 1.0）。"
+}

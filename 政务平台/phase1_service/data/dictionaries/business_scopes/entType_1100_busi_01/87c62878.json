@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C3735",
+        "saveHyCode": "3735",
+        "hyPecul": "船舶改装",
+        "hyTypeName": "船舶改装",
+        "enHyTypeName": null,
+        "explains": "指按规范要求对船舶船体、设备、系统、结构等改装。",
+        "includesTitle": "包括下列船舶改装活动：",
+        "includes": "船舶改装。",
+        "unIncludes": "不包括：对娱乐船和运动船的建造和修理，列入3733（娱乐船和运动船制造）或4342（船舶修理）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "船舶改装",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

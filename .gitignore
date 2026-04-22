@@ -48,6 +48,7 @@ _datas
 datasUFO
 
 .venv/*
+.venv-portal/
 
 # Ignore mkdocs build output
 documents/site/

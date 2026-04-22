@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C2621",
+        "saveHyCode": "2621",
+        "hyPecul": "氮肥制造",
+        "hyTypeName": "氮肥制造",
+        "enHyTypeName": null,
+        "explains": "指矿物氮肥及用化学方法制成含有作物营养元素氮的化肥的生产活动。",
+        "includesTitle": "包括下列氮肥制造活动：",
+        "includes": "氨及氨水：合成氨（无水氨）、氨水；氮肥：尿素、氯化铵、碳酸氢铵、硝酸铵、硫酸铵（氮肥）、硝酸钠、石灰氮、其他氮肥。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "氮肥",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

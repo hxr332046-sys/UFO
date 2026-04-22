@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "J6870",
+        "saveHyCode": "6870",
+        "hyPecul": "保险监管服务",
+        "hyTypeName": "保险监管服务",
+        "enHyTypeName": null,
+        "explains": "指根据国务院授权及相关法律、法规规定所履行的对保险市场的监督、管理活动。",
+        "includesTitle": "包括下列保险监管机构的服务：",
+        "includes": "中国保险监督管理委员会；中国保险监督管理委员会分支机构。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "保险监管",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

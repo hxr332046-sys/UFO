@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C2034",
+        "saveHyCode": "2034",
+        "hyPecul": "木地板制造",
+        "hyTypeName": "木地板制造",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列地板的制造活动：",
+        "includes": "实木木地板、复合木地板；强化木地板；格形拼花地板及地板条等；其他木地板。",
+        "unIncludes": "不包括：木家具制造，列入2110（木质家具制造）；软木百叶窗帘，列入2039（软木制品及其他木制品制造）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "木地板",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

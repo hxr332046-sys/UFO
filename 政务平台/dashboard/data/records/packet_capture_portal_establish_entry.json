@@ -1,0 +1,49 @@
+{
+  "started_at": "2026-04-16 07:38:24",
+  "page_before": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=portal&fromPage=%2Findex%2Fpage",
+  "portal_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions",
+  "steps": [
+    {
+      "step": "nav_portal_all_services",
+      "data": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions"
+    },
+    {
+      "step": "install_hook",
+      "data": {
+        "ok": true
+      }
+    },
+    {
+      "step": "state_before_click",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions",
+        "hash": "#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions",
+        "title": "广西经营主体登记平台"
+      }
+    },
+    {
+      "step": "click_establish_registration",
+      "data": {
+        "ok": true,
+        "strategy": "text_leaf_parent",
+        "tag": "DIV"
+      }
+    },
+    {
+      "step": "state_after_click",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions",
+        "hash": "#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions",
+        "title": "广西经营主体登记平台"
+      }
+    },
+    {
+      "step": "captured_packets",
+      "data": {
+        "count": 0,
+        "items": []
+      }
+    }
+  ],
+  "ended_at": "2026-04-16 07:38:34"
+}

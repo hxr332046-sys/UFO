@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ufo.material_pack.v1",
+  "title": "ufo.material_pack.v1",
+  "description": "与 CDP 附件注入、表单项标签匹配解耦的材料清单；不含自动云提交含义。",
+  "type": "object",
+  "required": ["schema", "items"],
+  "additionalProperties": false,
+  "properties": {
+    "schema": { "const": "ufo.material_pack.v1" },
+    "busi_type": { "type": "string", "description": "如 02_4" },
+    "ent_type": { "type": "string", "description": "如 1100" },
+    "flow_hint": { "type": "string", "description": "可选：设立 / 变更 等" },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["slot_id", "role"],
+        "additionalProperties": false,
+        "properties": {
+          "slot_id": {
+            "type": "string",
+            "description": "稳定逻辑键，如 id_card_front、mock_contract_pdf"
+          },
+          "role": {
+            "type": "string",
+            "enum": ["identity", "contract", "photo", "license", "venue", "other"]
+          },
+          "file_path": { "type": "string", "description": "本机绝对或相对政务平台根的路径" },
+          "label_keywords": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "与页面 label 模糊匹配用，如 国徽面、人像面"
+          },
+          "accept_mime": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "期望 input accept，如 image/jpeg、application/pdf"
+          },
+          "max_mb": { "type": "number" },
+          "sha256_expected": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+          "compliance_note": { "type": "string" },
+          "human_review_required": { "type": "boolean", "default": true }
+        }
+      }
+    },
+    "notes": { "type": "string" }
+  }
+}

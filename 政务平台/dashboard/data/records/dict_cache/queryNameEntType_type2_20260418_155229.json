@@ -1,0 +1,638 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": {
+      "pagetypes": [
+        {
+          "code": "1100",
+          "name": "内资有限公司",
+          "enName": null,
+          "parcode": "2",
+          "explain": null,
+          "showType": "gs",
+          "usetype": null,
+          "child": [
+            {
+              "code": "1110",
+              "name": "有限责任公司（国有独资）",
+              "enName": null,
+              "parcode": "1100",
+              "explain": null,
+              "showType": "gs",
+              "usetype": null,
+              "child": []
+            },
+            {
+              "code": "1120",
+              "name": "有限责任公司（外商投资企业投资）",
+              "enName": null,
+              "parcode": "1100",
+              "explain": null,
+              "showType": "gs",
+              "usetype": null,
+              "child": []
+            },
+            {
+              "code": "1130",
+              "name": "有限责任公司（自然人投资或控股）",
+              "enName": null,
+              "parcode": "1100",
+              "explain": null,
+              "showType": "gs",
+              "usetype": null,
+              "child": []
+            },
+            {
+              "code": "1140",
+              "name": "有限责任公司（国有控股）",
+              "enName": null,
+              "parcode": "1100",
+              "explain": null,
+              "showType": "gs",
+              "usetype": null,
+              "child": []
+            },
+            {
+              "code": "1150",
+              "name": "一人有限责任公司",
+              "enName": null,
+              "parcode": "1100",
+              "explain": null,
+              "showType": "gs",
+              "usetype": null,
+              "child": []
+            },
+            {
+              "code": "1190",
+              "name": "其他有限责任公司",
+              "enName": null,
+              "parcode": "1100",
+              "explain": null,
+              "showType": "gs",
+              "usetype": null,
+              "child": []
+            }
+          ]
+        },
+        {
+          "code": "9100",
+          "name": "农民专业合作社",
+          "enName": null,
+          "parcode": "2",
+          "explain": null,
+          "showType": "gs",
+          "usetype": null,
+          "child": []
+        },
+        {
+          "code": "4540",
+          "name": "个人独资企业",
+          "enName": null,
+          "parcode": "2",
+          "explain": null,
+          "showType": "gs",
+          "usetype": null,
+          "child": []
+        },
+        {
+          "code": "9600",
+          "name": "个体工商户",
+          "enName": null,
+          "parcode": "2",
+          "explain": null,
+          "showType": "gt",
+          "usetype": null,
+          "child": []
+        },
+        {
+          "code": "fzjg",
+          "name": "分支机构",
+          "enName": null,
+          "parcode": "2",
+          "explain": null,
+          "showType": "fzjg",
+          "usetype": null,
+          "child": []
+        }
+      ],
+      "enttypes": [
+        {
+          "code": "2000",
+          "name": "内资分支机构",
+          "enName": null,
+          "parcode": "1",
+          "explain": null,
+          "showType": "fz",
+          "usetype": null,
+          "child": [
+            {
+              "code": "2100",
+              "name": "有限责任公司分公司",
+              "enName": null,
+              "parcode": "2000",
+              "explain": null,
+              "showType": "fz",
+              "usetype": null,
+              "child": [
+                {
+                  "code": "2110",
+                  "name": "有限责任公司分公司（国有独资）",
+                  "enName": null,
+                  "parcode": "2100",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                },
+                {
+                  "code": "2120",
+                  "name": "有限责任公司分公司（外商投资企业投资）",
+                  "enName": null,
+                  "parcode": "2100",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                },
+                {
+                  "code": "2130",
+                  "name": "有限责任公司分公司（自然人投资或控股）",
+                  "enName": null,
+                  "parcode": "2100",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                },
+                {
+                  "code": "2140",
+                  "name": "有限责任公司分公司（国有控股）",
+                  "enName": null,
+                  "parcode": "2100",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                },
+                {
+                  "code": "2150",
+                  "name": "一人有限责任公司分公司",
+                  "enName": null,
+                  "parcode": "2100",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                },
+                {
+                  "code": "2190",
+                  "name": "其他有限责任公司分公司",
+                  "enName": null,
+                  "parcode": "2100",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                }
+              ]
+            },
+            {
+              "code": "2200",
+              "name": "股份有限公司分公司",
+              "enName": null,
+              "parcode": "2000",
+              "explain": null,
+              "showType": "fz",
+              "usetype": null,
+              "child": [
+                {
+                  "code": "2210",
+                  "name": "股份有限公司分公司（上市）",
+                  "enName": null,
+                  "parcode": "2200",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                },
+                {
+                  "code": "2220",
+                  "name": "股份有限公司分公司（非上市）",
+                  "enName": null,
+                  "parcode": "2200",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                }
+              ]
+            },
+            {
+              "code": "4100",
+              "name": "事业单位营业",
+              "enName": null,
+              "parcode": "2000",
+              "explain": null,
+              "showType": "fz",
+              "usetype": null,
+              "child": [
+                {
+                  "code": "4110",
+                  "name": "国有事业单位营业",
+                  "enName": null,
+                  "parcode": "4100",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                },
+                {
+                  "code": "4120",
+                  "name": "集体事业单位营业",
+                  "enName": null,
+                  "parcode": "4100",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                }
+              ]
+            },
+            {
+              "code": "4200",
+              "name": "社团法人营业",
+              "enName": null,
+              "parcode": "2000",
+              "explain": null,
+              "showType": "fz",
+              "usetype": null,
+              "child": [
+                {
+                  "code": "4210",
+                  "name": "国有社团法人营业",
+                  "enName": null,
+                  "parcode": "4200",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                },
+                {
+                  "code": "4220",
+                  "name": "集体社团法人营业",
+                  "enName": null,
+                  "parcode": "4200",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                }
+              ]
+            },
+            {
+              "code": "4300",
+              "name": "内资企业法人分支机构（非法人）",
+              "enName": null,
+              "parcode": "2000",
+              "explain": null,
+              "showType": "fz",
+              "usetype": null,
+              "child": [
+                {
+                  "code": "4310",
+                  "name": "全民所有制分支机构（非法人）",
+                  "enName": null,
+                  "parcode": "4300",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                },
+                {
+                  "code": "4320",
+                  "name": "集体分支机构（非法人）",
+                  "enName": null,
+                  "parcode": "4300",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                },
+                {
+                  "code": "4330",
+                  "name": "股份制分支机构",
+                  "enName": null,
+                  "parcode": "4300",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                },
+                {
+                  "code": "4340",
+                  "name": "股份合作制分支机构",
+                  "enName": null,
+                  "parcode": "4300",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                }
+              ]
+            },
+            {
+              "code": "4400",
+              "name": "经营单位（非法人）",
+              "enName": null,
+              "parcode": "2000",
+              "explain": null,
+              "showType": "fz",
+              "usetype": null,
+              "child": [
+                {
+                  "code": "4410",
+                  "name": "国有经营单位（非法人）",
+                  "enName": null,
+                  "parcode": "4400",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                },
+                {
+                  "code": "4420",
+                  "name": "集体经营单位（非法人）",
+                  "enName": null,
+                  "parcode": "4400",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                }
+              ]
+            },
+            {
+              "code": "4550",
+              "name": "合伙企业分支机构",
+              "enName": null,
+              "parcode": "2000",
+              "explain": null,
+              "showType": "fz",
+              "usetype": null,
+              "child": [
+                {
+                  "code": "4551",
+                  "name": "普通合伙企业分支机构",
+                  "enName": null,
+                  "parcode": "4550",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                },
+                {
+                  "code": "4552",
+                  "name": "特殊普通合伙企业分支机构",
+                  "enName": null,
+                  "parcode": "4550",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                },
+                {
+                  "code": "4553",
+                  "name": "有限合伙企业分支机构",
+                  "enName": null,
+                  "parcode": "4550",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                }
+              ]
+            },
+            {
+              "code": "4560",
+              "name": "个人独资企业分支机构",
+              "enName": null,
+              "parcode": "2000",
+              "explain": null,
+              "showType": "fz",
+              "usetype": null,
+              "child": []
+            },
+            {
+              "code": "4600",
+              "name": "联营",
+              "enName": null,
+              "parcode": "2000",
+              "explain": null,
+              "showType": "fz",
+              "usetype": null,
+              "child": []
+            },
+            {
+              "code": "4700",
+              "name": "股份制企业（非法人）",
+              "enName": null,
+              "parcode": "2000",
+              "explain": null,
+              "showType": "fz",
+              "usetype": null,
+              "child": []
+            }
+          ]
+        },
+        {
+          "code": "6800",
+          "name": "台、港、澳分支机构",
+          "enName": null,
+          "parcode": "1",
+          "explain": null,
+          "showType": "fz",
+          "usetype": null,
+          "child": [
+            {
+              "code": "6810",
+              "name": "分公司",
+              "enName": null,
+              "parcode": "6800",
+              "explain": null,
+              "showType": "fz",
+              "usetype": null,
+              "child": []
+            },
+            {
+              "code": "6820",
+              "name": "非公司台、港、澳投资企业分支机构",
+              "enName": null,
+              "parcode": "6800",
+              "explain": null,
+              "showType": "fz",
+              "usetype": null,
+              "child": []
+            },
+            {
+              "code": "6830",
+              "name": "办事处",
+              "enName": null,
+              "parcode": "6800",
+              "explain": null,
+              "showType": "fz",
+              "usetype": null,
+              "child": []
+            },
+            {
+              "code": "6890",
+              "name": "其他",
+              "enName": null,
+              "parcode": "6800",
+              "explain": null,
+              "showType": "fz",
+              "usetype": null,
+              "child": []
+            }
+          ]
+        },
+        {
+          "code": "7000",
+          "name": "外资分支机构",
+          "enName": null,
+          "parcode": "1",
+          "explain": null,
+          "showType": "fz",
+          "usetype": null,
+          "child": [
+            {
+              "code": "5800",
+              "name": "外商投资企业分支机构",
+              "enName": null,
+              "parcode": "7000",
+              "explain": null,
+              "showType": "fz",
+              "usetype": null,
+              "child": [
+                {
+                  "code": "5810",
+                  "name": "分公司",
+                  "enName": null,
+                  "parcode": "5800",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                },
+                {
+                  "code": "5820",
+                  "name": "非公司外商投资企业分支机构",
+                  "enName": null,
+                  "parcode": "5800",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                },
+                {
+                  "code": "5830",
+                  "name": "办事处",
+                  "enName": null,
+                  "parcode": "5800",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                },
+                {
+                  "code": "5840",
+                  "name": "外商投资合伙企业分支机构",
+                  "enName": null,
+                  "parcode": "5800",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                },
+                {
+                  "code": "5890",
+                  "name": "其他",
+                  "enName": null,
+                  "parcode": "5800",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                }
+              ]
+            },
+            {
+              "code": "7100",
+              "name": "外国（地区）公司分支机构",
+              "enName": null,
+              "parcode": "7000",
+              "explain": null,
+              "showType": "fz",
+              "usetype": null,
+              "child": [
+                {
+                  "code": "7110",
+                  "name": "外国（地区）无限责任公司分支机构",
+                  "enName": null,
+                  "parcode": "7100",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                },
+                {
+                  "code": "7120",
+                  "name": "外国（地区）有限责任公司分支机构",
+                  "enName": null,
+                  "parcode": "7100",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                },
+                {
+                  "code": "7130",
+                  "name": "外国（地区）股份有限责任公司分支机构",
+                  "enName": null,
+                  "parcode": "7100",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                },
+                {
+                  "code": "7190",
+                  "name": "外国（地区）其他形式公司分支机构",
+                  "enName": null,
+                  "parcode": "7100",
+                  "explain": null,
+                  "showType": "fz",
+                  "usetype": null,
+                  "child": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "9200",
+          "name": "农民专业合作社分支机构",
+          "enName": null,
+          "parcode": "1",
+          "explain": null,
+          "showType": "fz",
+          "usetype": null,
+          "child": []
+        }
+      ]
+    }
+  },
+  "msg": "操作成功",
+  "page": null
+}

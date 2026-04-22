@@ -1,0 +1,50 @@
+{
+  "started_at": "2026-04-15 10:48:57",
+  "steps": [
+    {
+      "step": "S0_start",
+      "note": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/basic-info"
+    },
+    {
+      "step": "S1_enterprise",
+      "note": "opened"
+    },
+    {
+      "step": "S2_declaration",
+      "note": "opened"
+    },
+    {
+      "step": "S3_guide",
+      "note": "opened"
+    },
+    {
+      "step": "S4_basic_info",
+      "note": "fill required only if empty"
+    },
+    {
+      "step": "S5_basic_save",
+      "note": "{\"phone\": {\"ok\": false, \"label\": \"联系电话\"}, \"emp\": {\"ok\": false, \"label\": \"从业人数\"}, \"addr\": {\"ok\": false, \"label\": \"详细地址\"}, \"bizaddr\": {\"ok\": false, \"label\": \"生产经营地详细地址\"}, \"capitalMode\": {\"clicked\": false}, \"save\": false}"
+    },
+    {
+      "step": "S6_after_basic",
+      "note": "{\"href\": \"https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=\", \"hash\": \"#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=\", \"flowData\": null, \"errors\": [], \"buttons\": [{\"text\": \"下一步\", \"disabled\": false}, {\"text\": \"关 闭\", \"disabled\": false}, {\"text\": \"确定\", \"disabled\": false}]}"
+    },
+    {
+      "step": "S7_member_post",
+      "note": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId="
+    },
+    {
+      "step": "S8_after_member",
+      "note": "{\"href\": \"https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=\", \"hash\": \"#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=\", \"flowData\": null, \"errors\": [], \"buttons\": [{\"text\": \"下一步\", \"disabled\": false}, {\"text\": \"关 闭\", \"disabled\": false}, {\"text\": \"确定\", \"disabled\": false}]}"
+    }
+  ],
+  "final_hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+  "busiId": null,
+  "nameId": null,
+  "network": {
+    "reqs": [],
+    "resps": []
+  },
+  "result": "inconclusive",
+  "ended_at": "2026-04-15 10:49:45"
+}

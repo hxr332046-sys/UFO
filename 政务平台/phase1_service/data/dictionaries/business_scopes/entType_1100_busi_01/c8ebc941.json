@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "R8832",
+        "saveHyCode": "8832",
+        "hyPecul": "档案馆",
+        "hyTypeName": "档案馆",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列档案馆活动：",
+        "includes": "综合档案管理服务；专门档案管理服务；部门档案管理服务；企业档案管理服务；事业单位档案管理服务；其他档案馆管理服务。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "档案馆",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

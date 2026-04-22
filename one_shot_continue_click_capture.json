@@ -1,0 +1,37 @@
+{
+  "result": {
+    "ok": true,
+    "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/company/my-space/space-index",
+    "hash": "#/company/my-space/space-index"
+  },
+  "events": [
+    {
+      "type": "req",
+      "id": "2044.1494",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/mattermanager/matters/operate?t=1776251494498",
+      "method": "POST",
+      "postData": "{\"busiId\":\"2040005074188632064\",\"btnCode\":\"101\",\"dealFlag\":\"before\"}"
+    },
+    {
+      "type": "resp",
+      "id": "2044.1494",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/mattermanager/matters/operate?t=1776251494498",
+      "status": 200,
+      "body": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"id\":null,\"nameId\":null,\"topicisId\":null,\"marPrId\":null,\"entName\":null,\"busiType\":null,\"busiChildType\":null,\"ywlbSign\":null,\"legalName\":null,\"marUniscId\":null,\"matterTypeCode\":null,\"matterTypeLangCode\":null,\"matterTypeName\":null,\"flowType\":null,\"matterStateCode\":null,\"matterStateLangCode\":null,\"matterStateName\":null,\"listMatterStateCode\":null,\"listMatterStateLangCode\":null,\"entType\":null,\"entTypeName\":null,\"regionCode\":null,\"regionName\":null,\"domDistrict\":null,\"domDistrictName\":null,\"areaCode\":null,\"areaCodeName\":null,\"createDate\":null,\"timestamp\":null,\"userId\":null,\"applyPerson\":null,\"regOrg\":null,\"regOrgName\":null,\"auditOrg\":null,\"auditOrgName\":null,\"toReason\":null,\"address\":null,\"deputyflag\":null,\"remark\":null,\"operBtns\":null,\"curStepNo\":null,\"route\":\"{\\\"project\\\":\\\"core\\\",\\\"path\\\":\\\"/flow/base\\\",\\\"params\\\":{\\\"busiId\\\":\\\"2040005074188632064\\\",\\\"busiType\\\":\\\"03\\\",\\\"entType\\\":\\\"1151\\\",\\\"marPrId\\\":\\\"145000117976375370\\\",\\\"marUniscId\\\":\\\"91450921MACLG2U87H\\\",\\\"nameId\\\":\\\"\\\"},\\\"target\\\":\\\"_blank\\\",\\\"source\\\":\\\"NEWICPSP\\\"}\",\"isNewData\":null,\"status\":null}},\"msg\":\"操作成功\",\"page\":null}"
+    },
+    {
+      "type": "resp",
+      "id": "2044.1495",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/mattermanager/matters/operate?t=1776251494565",
+      "status": 200,
+      "body": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"id\":null,\"nameId\":null,\"topicisId\":null,\"marPrId\":null,\"entName\":null,\"busiType\":null,\"busiChildType\":null,\"ywlbSign\":null,\"legalName\":null,\"marUniscId\":null,\"matterTypeCode\":null,\"matterTypeLangCode\":null,\"matterTypeName\":null,\"flowType\":null,\"matterStateCode\":null,\"matterStateLangCode\":null,\"matterStateName\":null,\"listMatterStateCode\":null,\"listMatterStateLangCode\":null,\"entType\":null,\"entTypeName\":null,\"regionCode\":null,\"regionName\":null,\"domDistrict\":null,\"domDistrictName\":null,\"areaCode\":null,\"areaCodeName\":null,\"createDate\":null,\"timestamp\":null,\"userId\":null,\"applyPerson\":null,\"regOrg\":null,\"regOrgName\":null,\"auditOrg\":null,\"auditOrgName\":null,\"toReason\":null,\"address\":null,\"deputyflag\":null,\"remark\":null,\"operBtns\":null,\"curStepNo\":null,\"route\":\"{\\\"project\\\":\\\"core\\\",\\\"path\\\":\\\"/flow/base\\\",\\\"params\\\":{\\\"busiId\\\":\\\"2040005074188632064\\\",\\\"busiType\\\":\\\"03\\\",\\\"entType\\\":\\\"1151\\\",\\\"marPrId\\\":\\\"145000117976375370\\\",\\\"marUniscId\\\":\\\"91450921MACLG2U87H\\\",\\\"nameId\\\":\\\"\\\"},\\\"target\\\":\\\"_blank\\\",\\\"source\\\":\\\"NEWICPSP\\\"}\",\"isNewData\":null,\"status\":null}},\"msg\":\"操作成功\",\"page\":null}"
+    },
+    {
+      "type": "resp",
+      "id": "2044.1496",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/alt/altregister/loadCurrentLocationInfo?t=1776251494624",
+      "status": 200,
+      "body": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"flowData\":{\"busiId\":\"2040005074188632064\",\"entType\":\"1151\",\"busiType\":\"03\",\"ywlbSign\":null,\"busiMode\":\"00\",\"nameId\":null,\"marPrId\":\"145000117976375370\",\"secondId\":null,\"vipChannel\":null,\"currCompUrl\":null,\"status\":\"10\",\"matterCode\":null,\"interruptControl\":null},\"linkData\":{\"token\":\"\",\"continueFlag\":null,\"compUrl\":null,\"compUrlPaths\":null,\"busiCompComb\":{\"id\":\"22561719676015\",\"platform\":\"pc\",\"busiType\":\"03\",\"busiName\":\"变更登记\",\"entType\":null,\"compComb\":\"AltQydjBaseInfo,AltEntTypeConfirm,AltItems,AltNameCheckInfo,AltBaseInfo,AltBasicInfo,AltInvestor,AltManager,AltLegalPersonNormal,AltExecutivePerson,AltFinancePerson,AltLiaisonMan,AltAttendMeetingPerson,AltDocAccepterList,AltAgent,AltMergeAndDiv,AltComplementInfo,AltChargeDepartment,AltNetChildCompany,AltAffiliatedEnterprise,AltWzInfoReport,AltRules,AltEngraving,AltSwkp,AltBankOpenInfo,AltSocialInsured,AltMedicalInsured,AltGjjHandle,AltUploadMaterial,YjsAltPrePackReg,YjsAltLicense,AltBusinessLicenceWay,AltYbbSelect,AltPreElectronicDoc,AltYsSuccess,AltElectronicDoc,AltSuccess,AltNotification,YjsAltReceipt,AltBusiLicense\",\"compCombName\":\"[AltQydjBaseInfo]迁移信息,[AltEntTypeConfirm]企业类型选择,[AltItems]变更（备案）事项,[AltNameCheckInfo]名称检查,[AltBaseInfo]变更（备案）信息,[AltBasicInfo]变更企业录入,[AltInvestor]股东股权,[AltManager]高管变更,[AltLegalPersonNormal]法定代表人,[AltExecutivePerson]执行事务合伙人,[AltFinancePerson]财务负责人,[AltLiaisonMan]联络员,[AltAttendMeetingPerson]与会董事人员,[AltDocAccepterList]文件送达授权委托人,[AltAgent]委托代理人,[AltMergeAndDiv]合并/分立,[AltRules]变更决议及章程,[AltChargeDepartment]主管部门,[AltNetChildCompany]分支公司备案,[A"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# Minimal deps for gov-portal CDP, api_gateway, mitm_capture_ufo (dedicated venv recommended).
+#   python -m venv .venv-portal
+#   .\.venv-portal\Scripts\Activate.ps1
+#   pip install -r requirements-portal.txt
+requests>=2.31.0,<3
+websocket-client>=1.6.0,<2
+mitmproxy>=10.3.0,<12

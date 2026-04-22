@@ -1,0 +1,46 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "L7295",
+        "saveHyCode": "7295",
+        "hyPecul": "信用服务",
+        "hyTypeName": "信用服务",
+        "enHyTypeName": null,
+        "explains": "指专门从事信用信息采集、整理和加工，并提供相关信用产品和信用服务的活动，包括信用评级、商账管理等活动。",
+        "includesTitle": "包括下列信用服务：",
+        "includes": "企业资质服务；征信机构服务；信用评级机构服务；企业信誉评估服务；个人信用、信誉、资讯及咨询服务。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "L7295",
+        "saveHyCode": "7295",
+        "hyPecul": "国际信用服务",
+        "hyTypeName": "信用服务",
+        "enHyTypeName": null,
+        "explains": "指专门从事信用信息采集、整理和加工，并提供相关信用产品和信用服务的活动，包括信用评级、商账管理等活动。",
+        "includesTitle": "包括下列信用服务：",
+        "includes": "企业资质服务；征信机构服务；信用评级机构服务；企业信誉评估服务；个人信用、信誉、资讯及咨询服务。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "信用服务",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

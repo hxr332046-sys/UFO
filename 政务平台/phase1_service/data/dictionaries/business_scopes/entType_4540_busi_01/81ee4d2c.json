@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "G5930",
+        "saveHyCode": "5930",
+        "hyPecul": "低温仓储",
+        "hyTypeName": "低温仓储",
+        "enHyTypeName": null,
+        "explains": "指对冷藏冷冻物品等低温货物的仓储活动。",
+        "includesTitle": "包括下列低温仓储活动：",
+        "includes": "普通冷库服务；超低温冷库服务。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "低温仓储",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

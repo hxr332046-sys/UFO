@@ -1,0 +1,1544 @@
+{
+  "started_at": "2026-04-16 00:43:41",
+  "steps": [
+    {
+      "step": "state_before",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "text": "广西数字政务一体化平台\n首页\n全部服务\n**裕 \n办件中心\n长辈模式\n1.请选择您要办理的市场主体类型 市场主体类型说明\n 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。\n内资有限公司农民专业合作社个人独资企业\n个体工商户分支机构全部企业类型\n2.是否已申请名称？\n未申请\n已办理企业名称预保留\n3.您要办理的公司在哪里？\n 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。\n请选择省、市、区、街道\n下一步\n\n版权所有：广西壮族自治区市场监督管理局\n\n邮政编码：530028\n\n备案：桂ICP备18012552号-1\n\n地址：南宁市怡宾路1号\n\n提示\n根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理登记代理事务的工作人员）； （3）经营主体的法定代表"
+      }
+    },
+    {
+      "step": "fill_and_click_listener",
+      "data": {
+        "ok": true,
+        "s1": "个人独资企业",
+        "s2": "未申请",
+        "call": "listener_click_resolved",
+        "btn": {
+          "cls": "el-button sub-btn el-button--primary is-loading",
+          "disabled": true
+        },
+        "form": {
+          "entType": "4540",
+          "nameCode": "0",
+          "havaAdress": "0",
+          "distCode": "450102",
+          "streetCode": "450102",
+          "streetName": "兴宁区",
+          "detAddress": "容州大道88号",
+          "address": "兴宁区"
+        }
+      }
+    },
+    {
+      "step": "net_after",
+      "data": {
+        "reqs": [
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/name/loadCurrentLocationInfo?t=1776271421328",
+            "method": "POST",
+            "postData": "{\"flowData\":{\"busiId\":\"\",\"busiType\":\"01_4\",\"entType\":\"4540\"},\"linkData\":{\"token\":\"\"}}"
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/vendor/vendor.dll.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/config/port.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/config/envConfig.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/config/theme.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/lang/core.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/lang/common.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/lib/jsencrypt.min.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://cache.amap.com/lbs/static/es5.min.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://webapi.amap.com/loader.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/lib/jquery.min.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/config/header.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/element-ui~793f9119.04cf9eb9.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/topnet/vue-business~76eadadb.c4e0e80e.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/topnet/vue-sign~bb0a325e.0cd7b556.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/topnet/vue-element~fa510715.c640f260.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/topnet/outer-style~021312b9.20f091df.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/core~002699c4.30f65d83.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/core~25b9f56b.cf44ffd0.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/core~67d7b2e2.e2de7a76.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/core~40cc254d.4d962a7e.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/core~0c65a408.c7719ab6.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/runtime.468161.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/element-ui~793f9119.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/npm.core-js~987e6011.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/topnet/vue-business~76eadadb.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/npm.babel~335b675d.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/npm.browserify-sign~41d44f25.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/elliptic~6216c3af.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/npm.asn1.js~b51e15da.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/topnet/vue-sign~bb0a325e.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/topnet/vue-element~fa510715.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/topnet/outer-style~021312b9.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/topnet/tools~6ad69f03.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/crypto-js~b5be2ecb.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/npm.lodash~77bf5e45.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/npm.sortablejs~f811d8fd.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/vendors~core~253ae210.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/core~002699c4.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/core~25b9f56b.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/core~67d7b2e2.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/core~40cc254d.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/core~0c65a408.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/config/footer.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "data:font/woff;base64,d09GRgABAAAAAG4oAAsAAAAA2pQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABHU1VCAAABCAAAADMAAABCsP6z7U9TLzIAAAE8AAAARAAAAFY9Fkm8Y21hcAAAAYAAAAdUAAARKjgK0qlnbHlmAAAI1AAAWZoAALGMK9tC4GhlYWQAAGJwAAAALwAAADYU7r8iaGhlYQAAYqAAAAAdAAAAJAfeBJpobXR4AABiwAAAABUAAA",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "data:font/woff2;base64,d09GMgABAAAAAB14AAsAAAAANswAAB0qAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHFQGYACIJgrXHMY5ATYCJAOBLAtYAAQgBYRnB4MtG0wtVQdycB6AKHU3M7L/Px1QOVxLarh7cFnRMNQ7i1Po7RTShnzyJG/gakuikRgURc5qfbXNHuFoK/UVyrydZNK6RVEUDix4cBTu4iInqQjnuZXG/NXaZGXemdAmI2H+6FBKe",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/usermanager/getUserInfo?t=1776271421779",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/tools/getCacheCreateTime?t=1776271421817",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/flow~702d3e84.a9e86c3a.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/flow~702d3e84.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/topnet/pdf-viewer~4dabd0e5.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/base~21833f8f.d86b8b5c.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/base~21833f8f.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/img/layout-bg.e616acd0.png",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/name/loadCurrentLocationInfo?t=1776271422299",
+            "method": "POST",
+            "postData": "{\"flowData\":{\"busiType\":\"01_4\",\"entType\":\"4540\",\"busiId\":\"\",\"vipChannel\":\"null\"},\"linkData\":{\"continueFlag\":\"continueFlag\",\"token\":\"\"},\"extraDto\":{\"entType\":\"4540\",\"nameCode\":\"0\",\"havaAdress\":\"0\",\"distCode\":\"450102\",\"streetCode\":\"450102\",\"streetName\":\"兴宁区\",\"detAddress\":\"容州大道88号\",\"address\":\"兴宁区\",\"fzSign\":\"N\",\"parentEntRegno\":\"\",\"parentEntName\":\"\",\"regCapitalUSD\":\"\"}}"
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/headertail/getTailConfigList?t=1776271422300",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABxCAYAAAA025a1AAAChElEQVR4nO3XaW7TUBhG4S9shDJ2ZkYqYhvAPopYVcs6GMtQJkGZYRtIQZYCehVRQYod+7TnSPnVxPfzfXRTZ7SxuTcuw3VMMmbCQRMOmnDQhIMmHDThoAkHTThowkETDppw0ISDJhw04aAJB004aMJBEw6acNCEgyYcNOGgCQdNOGjCQRMOmnDQhIMmHD",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABzCAYAAAB5Eze+AAAEhklEQVR4nO3Za49dYxjG8f9QSkOEEBKSjiozPdGi0iJEvJCIU6RaXojPUPGZHGZKiCAhIhEpPVDjbJRWCWkEcQgRZeSWe+TOMLr3zF57rWvm+icrTdN2Pc9ev65nPWvPyLbd01PA43kcwXW5NcD9wAMBN5MTjV/3A48Bk8BXJuxEFwM7E+y62QlVuNqfwK",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABpCAYAAADbXhZDAAADHUlEQVR4nO3ZXYtNURzH8e+cwemYJJGHcqGUaxcSNxISkWlwZi6UV0DyRuRtjMfx1ExkEiXlwj0XGpGiSZ5DHlr1v1jJNM7DPnv/zvl9at/NdNZZ31lr77VnaMfZp2eAS8ArTMFGoFkDzgMvgAfAKWC981XOBuB0NJoDzqUV9/uvUf4E7gMXYyW+HfRZK8",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAyCAYAAABLXmvvAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYm",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAyCAYAAABLXmvvAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYm",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABzCAYAAAB5Eze+AAAGTklEQVR4nO3Z+4vcVBTA8ZPJvJIMLVpFQbH1Wu27tmoriijSHwpFrUjdbf9Bq90qSlGhIkIR7UOt9W3tntZVFJEqrrOTnUcmcpZ7l9Nx287uzCRzds8X8ktZkjv5kJt7U296evoSALxOhzHmKmhjGyIaADgKAMcILl23bh3Mzc2lSZKcB4DjADBljPlNCf",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABpCAYAAADbXhZDAAAEU0lEQVR4nO3Y3WscVRjH8Wcm2dnMbEppFKXQC/MIXnshgl6UoiItiqJ9+zP8u6xaX6q0KBbpRRG88A+QPEFQFEVETTI7O8mMPOHMckjFkmTffsnvC3MXNmfPh+fs2U02NjbeE5EPVfVnYQufmV0QkesO16Zp2jRN81BE3g+Iv5JwcTKz8yJyTURupGn6ct",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAiCAYAAABfqvm9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYm",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAiCAYAAABfqvm9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bX",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/usermanager/getUserInfo?t=1776271422414",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/tools/getCacheCreateTime?t=1776271422462",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/npm.vue-pdf~0fc37c07.fe1b34c1.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/npm.vue-pdf~0fc37c07.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-8347eaa8.a8f88b08.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-8347eaa8.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-772f0dc7.9972dee5.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-772f0dc7.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-7acf9417.435aa8f3.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-7acf9417.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-60078a10.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-2d0c554b.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-69b8fc05.e95b88b9.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-69b8fc05.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-2046f970.f21037b3.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-2046f970.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-2ca3dbd0.f414f8ca.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-2ca3dbd0.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-7b4eb6c6.7c2bf867.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-7b4eb6c6.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-67386903.f68bf1dd.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-67386903.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-cf5dc97e.c052493a.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-cf5dc97e.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-1cbd9cef.db21b667.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-1cbd9cef.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-1463961e.39767e98.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-1463961e.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-8e3a6fba.769d8186.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-8e3a6fba.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-695a553f.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-4c1a90dd.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-0da2e074.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-2d726238.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-1b361a5a.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-465f806b.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-352dc5ba.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-0d6c6173.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-270ab89c.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-c030b214.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-684ab7fa.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-5de6bb06.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-61731738.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-5aa6e408.d627fd18.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-5aa6e408.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-4da5b262.885e0272.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-4da5b262.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-5bad1b60.bcec460e.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-5bad1b60.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-e33c04ba.d3a8788d.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-e33c04ba.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-510314a6.8aef2808.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-510314a6.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-5fe5e7bb.26c09b49.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-5fe5e7bb.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-4467357c.87a37ff0.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-4467357c.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-0825c4dd.5ee6d748.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-0825c4dd.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-1ce12d6e.e2dd7de8.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-1ce12d6e.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-65a19256.0d1f6588.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-65a19256.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-3b6aa0e6.691cd9e0.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-3b6aa0e6.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-181a864c.5cf1802a.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-181a864c.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-eb6b80a2.16f2f99d.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-eb6b80a2.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-5c517164.3d940f97.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-5c517164.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-64cf3c30.6a734210.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-64cf3c30.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-6edf9ea9.643df617.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-6edf9ea9.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-4f9a46f9.55c2a7db.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-4f9a46f9.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-064c86a2.93d6246a.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-064c86a2.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-894f007c.bcb704f8.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-894f007c.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-3b55d285.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-2c30b32c.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-29ef9ea8.fdd9229b.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-29ef9ea8.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-6ddca690.c11dacab.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-6ddca690.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-34d322f2.2781161e.css",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-34d322f2.js",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/businessguide/servicepeople/getServicePeopleInfo?t=1776271422903&code=apply_notice&busiType=entNameForbidRule&useType=busi",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/businessguide/servicepeople/getServicePeopleInfo?t=1776271422903&code=apply_notice&busiType=entNameSimilarRule&useType=busi",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/name/component/NameCheckInfo/loadBusinessDataInfo?t=1776271422904",
+            "method": "POST",
+            "postData": "{\"flowData\":{\"busiId\":null,\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"secondId\":null,\"vipChannel\":\"null\",\"currCompUrl\":\"NameCheckInfo\",\"status\":\"10\",\"matterCode\":null,\"interruptControl\":null},\"linkData\":{\"compUrl\":\"NameCheckInfo\",\"compUrlPaths\":[\"NameCheckInfo\"],\"token\":\"\"},\"extraDto\":{\"entType\":\"4540\",\"nameCode\":\"0\",\"havaAdress\":\"0\",\"distCode\":\"450102\",\"streetCode\":\"450102\",\"streetName\":\"兴宁区\",\"detAddress\":\"容州大道88号\",\"address\":\"兴宁区\",\"fzSign\":\"N\","
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAq1BMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAANCAYAAAB2HjRBAAAAAXNSR0IArs4c6QAAAihJREFUOE91ks1rE2EQxp95N9HVRvRSahGzaQWVipSeBQ8eKtrsKh6kiIpec/JS8NDubjYH0UpFC4o9GD+xWmNgN/4JIlSEYrFURM0mhyBtD5Vg0rh5R7YYsdoOzGWY3wzzzEPYIHafzOwRUqZ91zoLMMWNzBAxD4IgwfxRUdUUrc",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryNamePrefix?t=1776271423074&distCode=450102&streetCode=450102&entType=4540",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/configdata/getOrganizeTypeCodeByEntTypeCircle?t=1776271423074&entType=4540&busType=01",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/configdata/getAllIndustryTypeCode?t=1776271423074&busiType=01&entType=4540&range=1",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/configdata/sysConfig/getSysConfig?key=noIndSpeTips&t=1776271423074",
+            "method": "GET",
+            "postData": ""
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryNameEntTypeCfgByEntType?t=1776271423074&entType=4540",
+            "method": "GET",
+            "postData": ""
+          }
+        ],
+        "resps": [
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/guide/establishname/checkEstablishName?t=1776271421254",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/name/loadCurrentLocationInfo?t=1776271421328",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/vendor/vendor.dll.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/config/port.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/config/envConfig.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/config/theme.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/lang/common.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/lib/jsencrypt.min.js",
+            "status": 200
+          },
+          {
+            "url": "https://cache.amap.com/lbs/static/es5.min.js",
+            "status": 200
+          },
+          {
+            "url": "https://webapi.amap.com/loader.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/lib/jquery.min.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/config/header.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/topnet/vue-sign~bb0a325e.0cd7b556.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/element-ui~793f9119.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/topnet/vue-business~76eadadb.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/elliptic~6216c3af.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/topnet/vue-sign~bb0a325e.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/topnet/vue-element~fa510715.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/topnet/outer-style~021312b9.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/topnet/tools~6ad69f03.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/crypto-js~b5be2ecb.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/config/footer.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/lang/core.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/element-ui~793f9119.04cf9eb9.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/topnet/vue-business~76eadadb.c4e0e80e.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/topnet/vue-element~fa510715.c640f260.css",
+            "status": 200
+          },
+          {
+            "url": "data:font/woff;base64,d09GRgABAAAAAG4oAAsAAAAA2pQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABHU1VCAAABCAAAADMAAABCsP6z7U9TLzIAAAE8AAAARAAAAFY9Fkm8Y21hcAAAAYAAAAdUAAARKjgK0qlnbHlmAAAI1AAAWZoAALGMK9tC4GhlYWQAAGJwAAAALwAAADYU7r8iaGhlYQAAYqAAAAAdAAAAJAfeBJpobXR4AABiwAAAABUAAA",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/topnet/outer-style~021312b9.20f091df.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/core~002699c4.30f65d83.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/core~25b9f56b.cf44ffd0.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/core~67d7b2e2.e2de7a76.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/core~40cc254d.4d962a7e.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/core~0c65a408.c7719ab6.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/runtime.468161.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/npm.core-js~987e6011.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/npm.browserify-sign~41d44f25.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/npm.babel~335b675d.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/npm.asn1.js~b51e15da.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/npm.sortablejs~f811d8fd.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/npm.lodash~77bf5e45.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/core~25b9f56b.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/core~002699c4.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/vendors~core~253ae210.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/core~67d7b2e2.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/core~40cc254d.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/core~0c65a408.js",
+            "status": 200
+          },
+          {
+            "url": "data:font/woff2;base64,d09GMgABAAAAAB14AAsAAAAANswAAB0qAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHFQGYACIJgrXHMY5ATYCJAOBLAtYAAQgBYRnB4MtG0wtVQdycB6AKHU3M7L/Px1QOVxLarh7cFnRMNQ7i1Po7RTShnzyJG/gakuikRgURc5qfbXNHuFoK/UVyrydZNK6RVEUDix4cBTu4iInqQjnuZXG/NXaZGXemdAmI2H+6FBKe",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/usermanager/getUserInfo?t=1776271421779",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/tools/getCacheCreateTime?t=1776271421817",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/flow~702d3e84.a9e86c3a.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/flow~702d3e84.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/base~21833f8f.d86b8b5c.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/base~21833f8f.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/common/npm/topnet/pdf-viewer~4dabd0e5.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/img/layout-bg.e616acd0.png",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/headertail/getTailConfigList?t=1776271422300",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/name/loadCurrentLocationInfo?t=1776271422299",
+            "status": 200
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABxCAYAAAA025a1AAAChElEQVR4nO3XaW7TUBhG4S9shDJ2ZkYqYhvAPopYVcs6GMtQJkGZYRtIQZYCehVRQYod+7TnSPnVxPfzfXRTZ7SxuTcuw3VMMmbCQRMOmnDQhIMmHDThoAkHTThowkETDppw0ISDJhw04aAJB004aMJBEw6acNCEgyYcNOGgCQdNOGjCQRMOmnDQhIMmHD",
+            "status": 200
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABzCAYAAAB5Eze+AAAEhklEQVR4nO3Za49dYxjG8f9QSkOEEBKSjiozPdGi0iJEvJCIU6RaXojPUPGZHGZKiCAhIhEpPVDjbJRWCWkEcQgRZeSWe+TOMLr3zF57rWvm+icrTdN2Pc9ev65nPWvPyLbd01PA43kcwXW5NcD9wAMBN5MTjV/3A48Bk8BXJuxEFwM7E+y62QlVuNqfwK",
+            "status": 200
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABpCAYAAADbXhZDAAADHUlEQVR4nO3ZXYtNURzH8e+cwemYJJGHcqGUaxcSNxISkWlwZi6UV0DyRuRtjMfx1ExkEiXlwj0XGpGiSZ5DHlr1v1jJNM7DPnv/zvl9at/NdNZZ31lr77VnaMfZp2eAS8ArTMFGoFkDzgMvgAfAKWC981XOBuB0NJoDzqUV9/uvUf4E7gMXYyW+HfRZK8",
+            "status": 200
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAyCAYAAABLXmvvAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYm",
+            "status": 200
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAyCAYAAABLXmvvAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYm",
+            "status": 200
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABzCAYAAAB5Eze+AAAGTklEQVR4nO3Z+4vcVBTA8ZPJvJIMLVpFQbH1Wu27tmoriijSHwpFrUjdbf9Bq90qSlGhIkIR7UOt9W3tntZVFJEqrrOTnUcmcpZ7l9Nx287uzCRzds8X8ktZkjv5kJt7U296evoSALxOhzHmKmhjGyIaADgKAMcILl23bh3Mzc2lSZKcB4DjADBljPlNCf",
+            "status": 200
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABpCAYAAADbXhZDAAAEU0lEQVR4nO3Y3WscVRjH8Wcm2dnMbEppFKXQC/MIXnshgl6UoiItiqJ9+zP8u6xaX6q0KBbpRRG88A+QPEFQFEVETTI7O8mMPOHMckjFkmTffsnvC3MXNmfPh+fs2U02NjbeE5EPVfVnYQufmV0QkesO16Zp2jRN81BE3g+Iv5JwcTKz8yJyTURupGn6ct",
+            "status": 200
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAiCAYAAABfqvm9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYm",
+            "status": 200
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAiCAYAAABfqvm9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bX",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/usermanager/getUserInfo?t=1776271422414",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/tools/getCacheCreateTime?t=1776271422462",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/npm.vue-pdf~0fc37c07.fe1b34c1.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-8347eaa8.a8f88b08.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/npm.vue-pdf~0fc37c07.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-772f0dc7.9972dee5.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-7acf9417.435aa8f3.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-69b8fc05.e95b88b9.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-2046f970.f21037b3.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-2ca3dbd0.f414f8ca.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-7b4eb6c6.7c2bf867.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-67386903.f68bf1dd.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-cf5dc97e.c052493a.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-1cbd9cef.db21b667.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-1463961e.39767e98.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-8e3a6fba.769d8186.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-5aa6e408.d627fd18.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-4da5b262.885e0272.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-5bad1b60.bcec460e.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-e33c04ba.d3a8788d.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-510314a6.8aef2808.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-5fe5e7bb.26c09b49.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-4467357c.87a37ff0.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-0825c4dd.5ee6d748.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-1ce12d6e.e2dd7de8.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-65a19256.0d1f6588.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-3b6aa0e6.691cd9e0.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-181a864c.5cf1802a.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-eb6b80a2.16f2f99d.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-5c517164.3d940f97.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-64cf3c30.6a734210.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-6edf9ea9.643df617.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-4f9a46f9.55c2a7db.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-064c86a2.93d6246a.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-894f007c.bcb704f8.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-29ef9ea8.fdd9229b.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-6ddca690.c11dacab.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/css/chunk-34d322f2.2781161e.css",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-8347eaa8.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-772f0dc7.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-7acf9417.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-2d0c554b.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-60078a10.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-2046f970.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-7b4eb6c6.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-69b8fc05.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-2ca3dbd0.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-67386903.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-cf5dc97e.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-1463961e.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-1cbd9cef.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-8e3a6fba.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-695a553f.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-4c1a90dd.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-0da2e074.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-2d726238.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-352dc5ba.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-1b361a5a.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-465f806b.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-270ab89c.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-684ab7fa.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-0d6c6173.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-c030b214.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-61731738.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-5aa6e408.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-4da5b262.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-5bad1b60.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-e33c04ba.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-510314a6.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-5fe5e7bb.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-5de6bb06.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-0825c4dd.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-4467357c.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-1ce12d6e.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-3b6aa0e6.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-181a864c.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-5c517164.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-65a19256.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-eb6b80a2.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-6edf9ea9.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-4f9a46f9.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-64cf3c30.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-894f007c.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-064c86a2.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-29ef9ea8.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-3b55d285.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-2c30b32c.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-6ddca690.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core/js/chunk-34d322f2.js",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/name/component/NameCheckInfo/loadBusinessDataInfo?t=1776271422904",
+            "status": 200
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAq1BMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "status": 200
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAANCAYAAAB2HjRBAAAAAXNSR0IArs4c6QAAAihJREFUOE91ks1rE2EQxp95N9HVRvRSahGzaQWVipSeBQ8eKtrsKh6kiIpec/JS8NDubjYH0UpFC4o9GD+xWmNgN/4JIlSEYrFURM0mhyBtD5Vg0rh5R7YYsdoOzGWY3wzzzEPYIHafzOwRUqZ91zoLMMWNzBAxD4IgwfxRUdUUrc",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/businessguide/servicepeople/getServicePeopleInfo?t=1776271422903&code=apply_notice&busiType=entNameSimilarRule&useType=busi",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/businessguide/servicepeople/getServicePeopleInfo?t=1776271422903&code=apply_notice&busiType=entNameForbidRule&useType=busi",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/configdata/getOrganizeTypeCodeByEntTypeCircle?t=1776271423074&entType=4540&busType=01",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryNamePrefix?t=1776271423074&distCode=450102&streetCode=450102&entType=4540",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/configdata/sysConfig/getSysConfig?key=noIndSpeTips&t=1776271423074",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryNameEntTypeCfgByEntType?t=1776271423074&entType=4540",
+            "status": 200
+          },
+          {
+            "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/configdata/getAllIndustryTypeCode?t=1776271423074&busiType=01&entType=4540&range=1",
+            "status": 200
+          }
+        ]
+      }
+    },
+    {
+      "step": "state_after",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info",
+        "hash": "#/flow/base/name-check-info",
+        "hasYunbangban": false,
+        "errors": []
+      }
+    }
+  ],
+  "ended_at": "2026-04-16 00:43:49"
+}

@@ -1,0 +1,396 @@
+{
+  "started_at": "2026-04-14 22:58:58",
+  "steps": [
+    {
+      "step": "inject_frontend_probe",
+      "data": {
+        "ok": true,
+        "snapshot": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:6087/TopIP/web/web-portal.html#/index/page",
+          "hash": "#/index/page",
+          "localKeys": [
+            "_topnet_userInfo",
+            "Top-token",
+            "_topnet_accessToken",
+            "Authorization",
+            "_topnet_theme",
+            "top-token"
+          ],
+          "sessionKeys": [],
+          "storeKeys": [],
+          "vmCount": 75,
+          "vmSample": [
+            {
+              "name": "",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "",
+              "hasFlowSave": false,
+              "keys": [
+                "menu"
+              ]
+            },
+            {
+              "name": "",
+              "hasFlowSave": false,
+              "keys": [
+                "is_guanxi"
+              ]
+            },
+            {
+              "name": "",
+              "hasFlowSave": false,
+              "keys": [
+                "indexTitle",
+                "otherLinks",
+                "userInfo"
+              ]
+            },
+            {
+              "name": "ElDropdown",
+              "hasFlowSave": false,
+              "keys": [
+                "timeout",
+                "visible",
+                "triggerElm",
+                "menuItems",
+                "menuItemsArray",
+                "dropdownElm",
+                "focusing",
+                "listId"
+              ]
+            },
+            {
+              "name": "ElDropdownMenu",
+              "hasFlowSave": false,
+              "keys": [
+                "size",
+                "showPopper",
+                "currentPlacement"
+              ]
+            },
+            {
+              "name": "ElDropdownItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElLink",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElLink",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "nav-router",
+              "hasFlowSave": false,
+              "keys": [
+                "activeIndex",
+                "menuList",
+                "showLeftArrow",
+                "showRightArrow"
+              ]
+            },
+            {
+              "name": "ElMenu",
+              "hasFlowSave": false,
+              "keys": [
+                "activeIndex",
+                "openedMenus",
+                "items",
+                "submenus"
+              ]
+            },
+            {
+              "name": "ElSubmenu",
+              "hasFlowSave": false,
+              "keys": [
+                "popperJS",
+                "timeout",
+                "items",
+                "submenus",
+                "mouseInChild",
+                "showPopper",
+                "currentPlacement"
+              ]
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            }
+          ],
+          "bizVmForm": null
+        }
+      }
+    },
+    {
+      "step": "simulate_actions",
+      "data": {
+        "notApply": {
+          "ok": false,
+          "text": "未申请"
+        },
+        "next": {
+          "ok": false,
+          "text": "下一步"
+        },
+        "confirm": {
+          "ok": false,
+          "text": "确定"
+        },
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:6087/TopIP/web/web-portal.html#/index/page",
+        "hash": "#/index/page",
+        "events": [],
+        "vmCalls": [],
+        "lastSnapshot": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:6087/TopIP/web/web-portal.html#/index/page",
+          "hash": "#/index/page",
+          "localKeys": [
+            "_topnet_userInfo",
+            "Top-token",
+            "_topnet_accessToken",
+            "Authorization",
+            "_topnet_theme",
+            "top-token"
+          ],
+          "sessionKeys": [],
+          "storeKeys": [],
+          "vmCount": 75,
+          "vmSample": [
+            {
+              "name": "",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "",
+              "hasFlowSave": false,
+              "keys": [
+                "menu"
+              ]
+            },
+            {
+              "name": "",
+              "hasFlowSave": false,
+              "keys": [
+                "is_guanxi"
+              ]
+            },
+            {
+              "name": "",
+              "hasFlowSave": false,
+              "keys": [
+                "indexTitle",
+                "otherLinks",
+                "userInfo"
+              ]
+            },
+            {
+              "name": "ElDropdown",
+              "hasFlowSave": false,
+              "keys": [
+                "timeout",
+                "visible",
+                "triggerElm",
+                "menuItems",
+                "menuItemsArray",
+                "dropdownElm",
+                "focusing",
+                "listId"
+              ]
+            },
+            {
+              "name": "ElDropdownMenu",
+              "hasFlowSave": false,
+              "keys": [
+                "size",
+                "showPopper",
+                "currentPlacement"
+              ]
+            },
+            {
+              "name": "ElDropdownItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElLink",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElLink",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "nav-router",
+              "hasFlowSave": false,
+              "keys": [
+                "activeIndex",
+                "menuList",
+                "showLeftArrow",
+                "showRightArrow"
+              ]
+            },
+            {
+              "name": "ElMenu",
+              "hasFlowSave": false,
+              "keys": [
+                "activeIndex",
+                "openedMenus",
+                "items",
+                "submenus"
+              ]
+            },
+            {
+              "name": "ElSubmenu",
+              "hasFlowSave": false,
+              "keys": [
+                "popperJS",
+                "timeout",
+                "items",
+                "submenus",
+                "mouseInChild",
+                "showPopper",
+                "currentPlacement"
+              ]
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            },
+            {
+              "name": "ElMenuItem",
+              "hasFlowSave": false,
+              "keys": []
+            }
+          ],
+          "bizVmForm": null
+        }
+      }
+    }
+  ]
+}

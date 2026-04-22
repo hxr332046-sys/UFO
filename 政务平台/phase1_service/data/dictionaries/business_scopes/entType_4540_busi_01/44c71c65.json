@@ -1,0 +1,61 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "J6633",
+        "saveHyCode": "6633",
+        "hyPecul": "典当",
+        "hyTypeName": "典当",
+        "enHyTypeName": null,
+        "explains": "指以实物、财产权利质押或抵押的放款活动。",
+        "includesTitle": "包括下列典当服务：",
+        "includes": "动产典当服务；不动产典当服务；财产权利典当服务；其他典当服务。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "J6633",
+        "saveHyCode": "6633",
+        "hyPecul": "典当行",
+        "hyTypeName": "典当",
+        "enHyTypeName": null,
+        "explains": "指以实物、财产权利质押或抵押的放款活动。",
+        "includesTitle": "包括下列典当服务：",
+        "includes": "动产典当服务；不动产典当服务；财产权利典当服务；其他典当服务。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "J6633",
+        "saveHyCode": "6633",
+        "hyPecul": "典当服务",
+        "hyTypeName": "典当",
+        "enHyTypeName": null,
+        "explains": "指以实物、财产权利质押或抵押的放款活动。",
+        "includesTitle": "包括下列典当服务：",
+        "includes": "动产典当服务；不动产典当服务；财产权利典当服务；其他典当服务。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "典当",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

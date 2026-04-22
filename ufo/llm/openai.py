@@ -88,6 +88,22 @@ class BaseOpenAIService(BaseService):
                     )
                     self.config_llm["JSON_SCHEMA"] = False
                     self.json_schema_enabled = False
+                except Exception as e:
+                    # Catch Pydantic ValidationError when model returns plain text instead of JSON
+                    # (e.g., MiMo native endpoint returns 200 + plain text for json_schema requests)
+                    if "validation error" in str(e).lower() or "json_invalid" in str(e).lower() or "Invalid JSON" in str(e):
+                        self.logger.info(
+                            f"Model {self.model} does not support Structured JSON Output feature (response not valid JSON). Switching to text mode.",
+                        )
+                        self.config_llm["JSON_SCHEMA"] = False
+                        self.json_schema_enabled = False
+                    else:
+                        self.logger.warning(
+                            f"Startup probe for model {self.model} failed with {type(e).__name__}: {e}. "
+                            f"Continuing without JSON schema validation."
+                        )
+                        self.config_llm["JSON_SCHEMA"] = False
+                        self.json_schema_enabled = False
                 break  # Exit the loop if no exception is raised
 
     def _chat_completion(

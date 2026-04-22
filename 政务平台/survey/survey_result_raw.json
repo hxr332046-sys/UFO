@@ -1,0 +1,1308 @@
+{
+  "pageInfo": {
+    "title": "广西经营主体登记平台",
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=portal&fromPage=%2Findex%2Fenterprise%2Fenterprise-zone",
+    "hostname": "zhjg.scjdglj.gxzf.gov.cn",
+    "hash": "#/index/page?fromProject=portal&fromPage=%2Findex%2Fenterprise%2Fenterprise-zone",
+    "readyState": "complete"
+  },
+  "sidebar": {
+    "primaryMenuItems": [],
+    "secondaryMenuItems": []
+  },
+  "vueRoutes": {
+    "totalRoutes": 100,
+    "routes": [
+      {
+        "path": "/company",
+        "name": "办件中心",
+        "children": 9,
+        "redirect": "/company/my-space/space-index",
+        "meta": {
+          "icpspGjhCode": "manager.mattermanager.myhandle.officecenter",
+          "name": "办件中心",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/company/page",
+        "name": "页面",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "页面",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/company/enterprise-list",
+        "name": "enterprise-list",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "icpspGjhCode": "manager.mattermanager.enterlist.title",
+          "name": "经营主体列表",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/company/enterprise-space",
+        "name": "enterprise-space",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "icpspGjhCode": "manager.mattermanager.myhandle.enterprisespace",
+          "name": "企业空间",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/company/authorization-record",
+        "name": "authorization-record",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "icpspGjhCode": "manager.mattermanager.entSpace.enterpriseAuthorizationRecord",
+          "name": "企业授权记录",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/company/branch-list",
+        "name": "branch-list",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "办件进度",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/company/my-space",
+        "name": "my-space",
+        "children": 10,
+        "redirect": "/company/my-space/space-index",
+        "meta": {
+          "name": "",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/company/my-space/space-index",
+        "name": "",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/company/my-space/show-applypdf",
+        "name": "申请材料",
+        "children": 0,
+        "redirect": "",
+        "meta": null
+      },
+      {
+        "path": "/company/my-space/show-notice",
+        "name": "告知书",
+        "children": 0,
+        "redirect": "",
+        "meta": null
+      },
+      {
+        "path": "/company/my-space/show-license",
+        "name": "电子营业执照",
+        "children": 0,
+        "redirect": "",
+        "meta": null
+      },
+      {
+        "path": "/company/my-space/haochaping",
+        "name": "好差评",
+        "children": 0,
+        "redirect": "",
+        "meta": null
+      },
+      {
+        "path": "/company/my-space/hnhaochaping",
+        "name": "海南好差评",
+        "children": 0,
+        "redirect": "",
+        "meta": null
+      },
+      {
+        "path": "/company/my-space/apply-authorization",
+        "name": "apply-authorization",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "icpspGjhCode": "manager.mattermanager.enterlist.applyNewAuth",
+          "name": "申请新授权",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/company/my-space/apply",
+        "name": "apply",
+        "children": 2,
+        "redirect": "/company/my-space/apply/apply-records",
+        "meta": {
+          "icpspGjhCode": "manager.mattermanager.applyauth.applyRecord",
+          "name": "申请记录",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/company/my-space/apply/apply-records",
+        "name": "apply-records",
+        "children": 0,
+        "redirect": "",
+        "meta": null
+      },
+      {
+        "path": "/company/my-space/apply/apply-authorization",
+        "name": "apply-authorization",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "icpspGjhCode": "manager.mattermanager.enterlist.applyNewAuth",
+          "name": "申请新授权",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/company/my-space/selecthandle-progress",
+        "name": "办件进度",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "办件进度",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/company/my-space/selecthandleprogress-detail",
+        "name": "进度详情",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "进度详情",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/company/enterprise-apply",
+        "name": "enterprise-apply",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "电子签名",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/company/offline-handling",
+        "name": "offline-handling",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "线下办理",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/company/permits-supple-list",
+        "name": "permits-supple-list",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "证照分离补充列表",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/development/page",
+        "name": "development",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "开发测试页面",
+          "isLp": true,
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/iframe/page",
+        "name": "iframeName",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "受益所有人",
+          "isLp": true,
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/",
+        "name": "",
+        "children": 0,
+        "redirect": "/index",
+        "meta": null
+      },
+      {
+        "path": "/index/video-guide",
+        "name": "video-guide",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "视频导引",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/index/force-cancel",
+        "name": "force-cancel",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "强制注销异议",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/index/force-cancel-result",
+        "name": "force-cancel-result",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "强制注销异议结果页",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/index",
+        "name": "",
+        "children": 38,
+        "redirect": "/index/page",
+        "meta": null
+      },
+      {
+        "path": "/index/page",
+        "name": "page",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "首页",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/index/contact-us",
+        "name": "contact-us",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "icpspGjhCode": "manager.indexPage.hotline.contact.us",
+          "name": "联系我们",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/index/policy",
+        "name": "policy",
+        "children": 2,
+        "redirect": "/index/policy/policy-index",
+        "meta": {
+          "name": "政策文件",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/index/policy/policy-index",
+        "name": "policy-index",
+        "children": 0,
+        "redirect": "",
+        "meta": null
+      },
+      {
+        "path": "/index/policy/policy-detail",
+        "name": "policy-detail",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "政策详情",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/index/guidelines",
+        "name": "guidelines",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "办事指南中心",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/index/handling-guideline",
+        "name": "handling-guideline",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "gjhCode": "common.router.handlingGuideline",
+          "name": "办理指南",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/index/common-problem",
+        "name": "common-problem",
+        "children": 2,
+        "redirect": "/index/common-problem/common-problem-index",
+        "meta": {
+          "name": "常见问题",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/index/common-problem/common-problem-index",
+        "name": "common-problem-index",
+        "children": 0,
+        "redirect": "",
+        "meta": null
+      },
+      {
+        "path": "/index/common-problem/question-details",
+        "name": "question-details",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "问题详情",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/index/question-details1",
+        "name": "question-details1",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "问题详情",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/index/enterprise",
+        "name": "enterprise",
+        "children": 2,
+        "redirect": "/index/enterprise/enterprise-zone",
+        "meta": {
+          "name": "企业开办",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/index/enterprise/enterprise-zone",
+        "name": "enterprise-zone",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/index/enterprise/establish",
+        "name": "establish",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "情景导办",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/index/without-name",
+        "name": "without-name",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "名称类别",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/index/select-prise",
+        "name": "select-prise",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "选择企业",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/index/pledge-list",
+        "name": "pledge-list",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "选择出质记录",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/index/other-prise",
+        "name": "other-prise",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "成员信息",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/index/realname-authentication",
+        "name": "realname-authentication",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "实名认证",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/index/name-check",
+        "name": "name-check",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "名称检查",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/index/stamp-carving",
+        "name": "stamp-carving",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "刻章单位",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/index/evaluate",
+        "name": "evaluate",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "服务评价",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/index/microenterprise",
+        "name": "microenterprise",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "微型企业",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/index/individual-enterprises",
+        "name": "individual-enterprises",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "个转企",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/index/individual-transfer-enterprises",
+        "name": "individual-transfer-enterprises",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "个转企",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/index/i-to-e-merge",
+        "name": "i-to-e-merge",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "个转企",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/index/close-business",
+        "name": "close-business",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "歇业专区",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/index/change-one-thing",
+        "name": "change-one-thing",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "变更一件事",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/index/change-registration",
+        "name": "change-registration",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "变更备案登记",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/index/capital-reduction",
+        "name": "capital-reduction",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "减资公告",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/index/merge-discrete",
+        "name": "merge-discrete",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "合并分立公告（公司、农专）",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/index/yjs-zone",
+        "name": "yjs-zone",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "一件事",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/index/qydj-one-thing",
+        "name": "qydj-one-thing",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "迁移登记一件事",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/index/qydj-cross-provience",
+        "name": "qydj-cross-provience",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "跨省迁移",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/index/one-thing-gx",
+        "name": "one-thing-gx",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "高效办成一件事专区",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/index/display-view",
+        "name": "display-view",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "金融超市",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/index/hn-znkf",
+        "name": "hn-znkf",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "智能客服",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/index/residence-address",
+        "name": "residence-address",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "地址",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/index/force-cancel",
+        "name": "force-cancel",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "强制注销异议",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/index/force-cancel-result",
+        "name": "force-cancel-result",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "强制注销异议结果页",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/index/force-cancel-notice",
+        "name": "force-cancel-notice",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "强制注销决定书列表页",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/index/cancel-resume-register",
+        "name": "cancel-resume-register",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "强制注销恢复登记专区",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/index/counterfeit-register",
+        "name": "counterfeit-register",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "假冒登记专区",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/index/equity-pledge-processing",
+        "name": "equity-pledge-processing",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "股权出质业务办理",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/international",
+        "name": "",
+        "children": 1,
+        "redirect": "/international/portal",
+        "meta": null
+      },
+      {
+        "path": "/international/portal",
+        "name": "国际服务门户",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "国际服务门户",
+          "isLp": true,
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/login",
+        "name": "",
+        "children": 4,
+        "redirect": "/login/page",
+        "meta": null
+      },
+      {
+        "path": "/login/page",
+        "name": "登录",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "登录",
+          "isLp": true,
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/login/authPage",
+        "name": "登录",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "登录",
+          "isLp": true,
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/login/limited",
+        "name": "登录受限",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "登录受限",
+          "isLp": true,
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/login/404",
+        "name": "404",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "404",
+          "isLp": true,
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/register",
+        "name": "",
+        "children": 4,
+        "redirect": "/register/index",
+        "meta": null
+      },
+      {
+        "path": "/register/index",
+        "name": "index",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "注册页面",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/register/supplement-info",
+        "name": "supplement-info",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "补充信息",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/register/real-name",
+        "name": "实名认证",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "实名认证",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/register/real-name-success",
+        "name": "实名认证注册成功",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "name": "实名认证注册成功",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/user",
+        "name": "",
+        "children": 12,
+        "redirect": "/user/user-info",
+        "meta": {
+          "gjhCode": "common.router.userManager",
+          "name": "用户信息管理",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/user/user-info",
+        "name": "user-info",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "gjhCode": "common.router.userInfo",
+          "name": "",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/user/modify-mobile",
+        "name": "modify-mobile",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "gjhCode": "common.router.modifyMobile",
+          "name": "修改手机号",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/user/modify-password",
+        "name": "modify-password",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "gjhCode": "common.router.modifyPassword",
+          "name": "修改密码",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/user/modify-email",
+        "name": "modify-email",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "gjhCode": "common.router.modifyEmail",
+          "name": "修改邮箱",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/user/modify-auth",
+        "name": "modify-auth",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "gjhCode": "common.router.modifyAuth",
+          "name": "实名认证",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/user/apply-authorization",
+        "name": "apply-authorization",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "gjhCode": "common.router.applyAuthorization",
+          "name": "申请新授权",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/user/apply-records",
+        "name": "apply-records",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "gjhCode": "common.router.applyRecords",
+          "name": "申请记录",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/user/handling-guideline",
+        "name": "handling-guideline",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "gjhCode": "common.router.handlingGuideline",
+          "name": "办理指南",
+          "isAuth": true
+        }
+      },
+      {
+        "path": "/user/guidelines",
+        "name": "guidelines",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "gjhCode": "common.router.guidelines",
+          "name": "办事指南中心",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/user/common-problem",
+        "name": "common-problem",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "gjhCode": "common.router.commonProblem",
+          "name": "常见问题",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/user/question-details",
+        "name": "question-details",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "gjhCode": "common.router.questionDetails",
+          "name": "问题详情",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/user/public-signature",
+        "name": "public-signature",
+        "children": 0,
+        "redirect": "",
+        "meta": {
+          "gjhCode": "common.router.questionDetails",
+          "name": "电子文档",
+          "isAuth": false
+        }
+      },
+      {
+        "path": "/404",
+        "name": "page404",
+        "children": 0,
+        "redirect": "",
+        "meta": null
+      },
+      {
+        "path": "*",
+        "name": "",
+        "children": 0,
+        "redirect": "/404",
+        "meta": null
+      }
+    ]
+  },
+  "headerIframe": {
+    "links": [],
+    "bodyText": ""
+  },
+  "serviceCards": [
+    {
+      "title": "设立登记",
+      "description": "公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理设立登记，取得营业执照。",
+      "cls": "all-services__content--block__card"
+    },
+    {
+      "title": "设立登记",
+      "description": "公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理设立登记，取得营业执照。",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "变更（备案）登记",
+      "description": "公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理变更（备案）登记，如名称、住所（经营场所）、注册资本、经营范围等事项变更。",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "普通注销登记",
+      "description": "公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理普通注销登记。",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "简易注销登记",
+      "description": "经营主体未发生债权债务或者已将债权债务清偿完结，未发生或者已结清清偿费用、职工工资、社会保险费用、法定补偿金、应缴纳税款（滞纳金、罚款），并由全体投资人书面承诺对上述情况的真实性承担法律责任的，可以按照简易程序办理注销登记。",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "经营主体（变更）名称自主申报",
+      "description": "名称自主申报（变更）供已成立企业线上自助查询、筛选、申报变更名称，系统智能校验，无需纸质材料，成功可打印《名称保留告知书》，便捷高效。",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "歇业延期",
+      "description": "歇业延期",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "经营主体名称转让",
+      "description": "名称转让指企业将其名称所有权转让给其他企业",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "不含行政区划企业名称网上申报",
+      "description": "国家市场监督管理总局不含行政区划企业名称网上申报入口、名称开放查询、名称登记公告、企业名称规范用字查询",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "区内迁移登记",
+      "description": "由于经营主体的住所（经营场所）变更，引起区内登记机关改变的需要进行区内迁移登记",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "跨省迁移登记",
+      "description": "由于经营主体的住所（经营场所）变更，引起跨省登记机关改变的需要进行跨省迁移登记",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "粤桂跨省迁移登记",
+      "description": "粤桂跨省迁移登记",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "营业执照（增减补换）",
+      "description": "增加副本、减少副本、补领营业执照/登记证/代表证、换发营业执照",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "歇业备案",
+      "description": "因自然灾害、事故灾难、公共卫生事件、社会安全事件等原因造成经营困难的，可办理歇业备案",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "受益所有人信息（备案）",
+      "description": "经营主体受益所有人信息备案",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "外商信息（初始报告）",
+      "description": "已设立的外商投资企业的外商投资报告登记",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "外商信息（变更报告）",
+      "description": "已设立的外商投资企业的外商投资报告变更、修改",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "股权出质设立登记",
+      "description": "股东将持有的公司股权作为抵押财产，向登记机关申请办理质押登记的法定手续。",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "股权出质变更登记",
+      "description": "当质押的股权比例、质权人名称、出质人姓名或公司名称等登记信息发生变化时，需向登记机关申请更新登记内容。",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "股权出质注销登记",
+      "description": "若主债务已清偿、质权已实现或质权人放弃质权，导致股权质押关系终止，需向登记机关申请解除质押登记。",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "企业开办一件事",
+      "description": "整合企业营业执照申领、公章刻制、税务登记、企业社保登记、企业医保登记、企业住房公积金缴存开户登记、银行预约开户等环节，实现企业开办“一网通办”。",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "企业变更一件事",
+      "description": "企业变更登记、税控设备变更发行、社会保险登记变更、医疗保险登记变更、住房公积金企业缴存登记变更、企业印章刻制、银行基本账户变更等事项集成办理，实现企业变更“一件事”高效办成。",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "企业注销一件事",
+      "description": "企业执照注销登记、企业印章注销、税务注销、海关报关单位备案注销、社会保险登记注销、医疗保险登记注销、住房公积金企业缴存登记注销、银行基本账户注销等事项集成办理，实现企业注销“一件事”高效办成。",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "迁移登记一件事",
+      "description": "企业迁移登记、税务迁出申请（主管税务机关变更）、社会保险迁移登记（迁出地社会保险单位基本信息变更、迁入地企业社会保险登记）、医疗保险迁移变更（迁出地医疗保险单位基本信息变更、迁入地企业医疗保险登记）、住房公积金企业缴存迁移登记（迁出地住房公",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "个体工商户转型为企业一件事",
+      "description": "“个转企”一件事涉及的个体工商户转型为企业变更登记、清税信息核验、发票总额度授予、企业印章刻制、社会保险登记或参保信息变更、医疗保险登记或参保信息变更、住房公积金企业缴存登记或信息变更、基本账户开立或账户信息变更等事项集成办理，实现“一次提",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "银行开户预约",
+      "description": "银行开户预约",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "金融超市",
+      "description": "金融超市",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "贸易名录登记",
+      "description": "贸易名录登记",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "注销公示",
+      "description": "注销公示",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "食品预包装注销",
+      "description": "食品预包装注销",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "食品预包装备案",
+      "description": "食品预包装备案",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "简易注销智能审批（北海试点）",
+      "description": "简易注销智能审批（北海试点）",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "南宁企业开办",
+      "description": "办理南宁企业开办",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "企业减资智能导办",
+      "description": "一站式填报减少减资注册资本申报材料",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "百色全市通办智能审批",
+      "description": "百色全市通办智能审批",
+      "cls": "all-services__content--block__card__content"
+    },
+    {
+      "title": "电子营业执照查询",
+      "description": "电子营业执照亮照 、验证电子营业执照等企业服务",
+      "cls": "flex ancillary-services__content--block__card active"
+    },
+    {
+      "title": "电子营业执照查询",
+      "description": "电子营业执照亮照 、验证电子营业执照等企业服务",
+      "cls": "ancillary-services__content--block__card__content"
+    },
+    {
+      "title": "名称查询",
+      "description": "名称开放查询系统，快速核验您的名称是否可用",
+      "cls": "flex ancillary-services__content--block__card"
+    },
+    {
+      "title": "名称查询",
+      "description": "名称开放查询系统，快速核验您的名称是否可用",
+      "cls": "ancillary-services__content--block__card__content"
+    },
+    {
+      "title": "经营范围查询",
+      "description": "经营范围规范描述查询系统，选择经营范围不再难",
+      "cls": "flex ancillary-services__content--block__card"
+    },
+    {
+      "title": "经营范围查询",
+      "description": "经营范围规范描述查询系统，选择经营范围不再难",
+      "cls": "ancillary-services__content--block__card__content"
+    },
+    {
+      "title": "国家标准公开查询",
+      "description": "强制性国家标准、推荐性国家标准、指导性技术文件",
+      "cls": "flex ancillary-services__content--block__card"
+    },
+    {
+      "title": "国家标准公开查询",
+      "description": "强制性国家标准、推荐性国家标准、指导性技术文件",
+      "cls": "ancillary-services__content--block__card__content"
+    },
+    {
+      "title": "市场监管行政处罚公示",
+      "description": "行政处罚公示（市场准入、食品、广告、产品质量、知识产权、价格、特种设备、药品）",
+      "cls": "flex ancillary-services__content--block__card active"
+    },
+    {
+      "title": "市场监管行政处罚公示",
+      "description": "行政处罚公示（市场准入、食品、广告、产品质量、知识产权、价格、特种设备、药品）",
+      "cls": "ancillary-services__content--block__card__content"
+    },
+    {
+      "title": "国家企业信用信息公示系统",
+      "description": "经营主体信息填报、公示、查询、异议",
+      "cls": "flex ancillary-services__content--block__card"
+    },
+    {
+      "title": "国家企业信用信息公示系统",
+      "description": "经营主体信息填报、公示、查询、异议",
+      "cls": "ancillary-services__content--block__card__content"
+    }
+  ],
+  "techStack": {
+    "frameworks": [
+      "Vue2-instance",
+      "jQuery",
+      "Element-UI"
+    ],
+    "plugins": [
+      "Vuex",
+      "Vue-Router",
+      "Element-Message",
+      "Element-Notify",
+      "Element-Loading"
+    ]
+  },
+  "topNav": [
+    {
+      "text": "标准版  国际版",
+      "cls": "top-item newlangweige"
+    },
+    {
+      "text": "",
+      "cls": "page-title"
+    },
+    {
+      "text": "首页",
+      "cls": "top-item bottom-item"
+    },
+    {
+      "text": "全部服务",
+      "cls": "top-item bottom-item"
+    },
+    {
+      "text": "**裕  用户信息管理  退出",
+      "cls": "top-item user-control"
+    },
+    {
+      "text": "办件中心",
+      "cls": "top-item do-center"
+    },
+    {
+      "text": "长辈模式",
+      "cls": "top-item quitElderModel"
+    }
+  ],
+  "vuexModules": {
+    "modules": [
+      "framework/",
+      "common/",
+      "company/",
+      "index/",
+      "international/",
+      "login/",
+      "register/",
+      "user/"
+    ],
+    "stateKeys": [
+      "framework",
+      "common",
+      "company",
+      "index",
+      "international",
+      "login",
+      "register",
+      "user"
+    ]
+  }
+}

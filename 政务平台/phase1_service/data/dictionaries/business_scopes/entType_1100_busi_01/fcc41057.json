@@ -1,0 +1,46 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "G5422",
+        "saveHyCode": "5422",
+        "hyPecul": "旅游客运",
+        "hyTypeName": "旅游客运",
+        "enHyTypeName": null,
+        "explains": "指专门为观光消遣为目的的团体或个人提供的，或者在特定旅游线路上提供的客运服务。",
+        "includesTitle": "包括下列旅游客运活动：",
+        "includes": "定线旅游客运；非定线旅游客运。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "G5429",
+        "saveHyCode": "5429",
+        "hyPecul": "旅游客运",
+        "hyTypeName": "其他公路客运",
+        "enHyTypeName": null,
+        "explains": "指其他未列明的公路旅客运输活动。",
+        "includesTitle": "包括下列其他公路客运活动：",
+        "includes": "公路班车客运服务、公路包车客运服务；城市电动自行车旅客运输服务；公路摩托车旅客运输服务；人力车旅客运输活动、畜力车旅客运输活动，其他旅客运输活动（抬轿子、滑杆的旅客运输活动）。",
+        "unIncludes": "不包括：城市内的旅客运输，列入541（城市公共交通运输）相关行业类别中；长途汽车终点站的经营管理活动，列入5441（客运汽车站）；婚庆抬轿子，列入8070（婚姻服务）。",
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "旅游客运",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "H6242",
+        "saveHyCode": "6242",
+        "hyPecul": "外卖送餐服务",
+        "hyTypeName": "外卖送餐服务",
+        "enHyTypeName": null,
+        "explains": "指根据消费者的订单和食品安全的要求，选择适当的交通工具、设备，按时、按质、按量送达消费者，并提供相应单据的服务。",
+        "includesTitle": "包括下列外卖送餐服务活动：",
+        "includes": "酒楼餐馆外卖送餐服务；网络送餐服务；其他外卖送餐服务。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "外卖送餐",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "O8222",
+        "saveHyCode": "8222",
+        "hyPecul": "宠物服务",
+        "hyTypeName": "宠物医院服务",
+        "enHyTypeName": null,
+        "explains": "指专为狗、猫等人工饲养动物治疗的场所。",
+        "includesTitle": "包括下列宠物医院服务活动：",
+        "includes": "宠物医院服务。",
+        "unIncludes": "不包括：为牲畜、家禽、其他动物治疗的兽医服务，列入7493（兽医服务）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "O8229",
+        "saveHyCode": "8229",
+        "hyPecul": "宠物服务",
+        "hyTypeName": "其他宠物服务",
+        "enHyTypeName": null,
+        "explains": "指宠物运输、宠物培训及其他未列明的宠物活动。",
+        "includesTitle": "包括下列其他宠物服务服务活动：",
+        "includes": "宠物运输服务；宠物驯化服务。",
+        "unIncludes": "不包括：牲畜、家禽、其他大型动物驯化，03（畜牧业）相关行业类别中。",
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "宠物服务",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

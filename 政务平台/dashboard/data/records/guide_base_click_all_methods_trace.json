@@ -1,0 +1,188 @@
+{
+  "started_at": "2026-04-20 13:20:19",
+  "steps": [
+    {
+      "step": "inject",
+      "data": {
+        "ok": true,
+        "wrapped": [
+          "validateEntType",
+          "queryExtraDto",
+          "showParentEntTypeDataPicker",
+          "handleGjhCode",
+          "parentRegNoValidator",
+          "distCodeValidator",
+          "init",
+          "getQueryNameEntType",
+          "queryRegcodeAndStreet",
+          "deleteBusiInfoData",
+          "getBasicdata",
+          "getQueryNameEntTypeTwo",
+          "concatenateNameAndCode",
+          "getSysConfig",
+          "hasShaowName",
+          "checkchange",
+          "changeEntType",
+          "getFirmData",
+          "addressChange",
+          "findObjectById",
+          "handleDetailAddressInput",
+          "getTotalAddress",
+          "handleCurrencyChange",
+          "parentEntRegnoHandle",
+          "getqueryParentCompanyInfo",
+          "getQueryEntTypeBySubEntType",
+          "getTreeLabel",
+          "fzjgFlowSave",
+          "flowSave",
+          "validateDetailAddress"
+        ],
+        "form": {
+          "entType": "1100",
+          "nameCode": "0",
+          "havaAdress": "0",
+          "distCode": "450921",
+          "streetCode": "450921",
+          "streetName": "容县",
+          "detAddress": "容州镇车站西路富盛广场1幢3203号房",
+          "address": "",
+          "isnameType": "0",
+          "choiceName": "0",
+          "distList": [
+            "450000",
+            "450900",
+            "450921",
+            "450921"
+          ]
+        }
+      }
+    },
+    {
+      "step": "click_next",
+      "data": {
+        "ok": true,
+        "btnText": "下一步",
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "trace": [
+          {
+            "t": 1776662419825,
+            "method": "handleGjhCode",
+            "args": [
+              "\"marketSubjectType\""
+            ]
+          },
+          {
+            "t": 1776662419825,
+            "method": "handleGjhCode",
+            "args": [
+              "\"entTypeExplain\""
+            ]
+          },
+          {
+            "t": 1776662419825,
+            "method": "handleGjhCode",
+            "args": [
+              "\"gs.nameSelect\""
+            ]
+          },
+          {
+            "t": 1776662419825,
+            "method": "handleGjhCode",
+            "args": [
+              "\"noDeclareName\""
+            ]
+          },
+          {
+            "t": 1776662419825,
+            "method": "handleGjhCode",
+            "args": [
+              "\"declareName\""
+            ]
+          },
+          {
+            "t": 1776662419825,
+            "method": "handleGjhCode",
+            "args": [
+              "\"companyAddress\""
+            ]
+          },
+          {
+            "t": 1776662419825,
+            "method": "handleGjhCode",
+            "args": [
+              "\"selectCompanyAddress\""
+            ]
+          },
+          {
+            "t": 1776662419825,
+            "method": "handleGjhCode",
+            "args": [
+              "\"pleaseSelect\""
+            ]
+          },
+          {
+            "t": 1776662419941,
+            "method": "handleGjhCode",
+            "args": [
+              "\"marketSubjectType\""
+            ]
+          },
+          {
+            "t": 1776662419941,
+            "method": "handleGjhCode",
+            "args": [
+              "\"entTypeExplain\""
+            ]
+          },
+          {
+            "t": 1776662419942,
+            "method": "handleGjhCode",
+            "args": [
+              "\"gs.nameSelect\""
+            ]
+          },
+          {
+            "t": 1776662419942,
+            "method": "handleGjhCode",
+            "args": [
+              "\"noDeclareName\""
+            ]
+          },
+          {
+            "t": 1776662419942,
+            "method": "handleGjhCode",
+            "args": [
+              "\"declareName\""
+            ]
+          },
+          {
+            "t": 1776662419942,
+            "method": "handleGjhCode",
+            "args": [
+              "\"companyAddress\""
+            ]
+          },
+          {
+            "t": 1776662419942,
+            "method": "handleGjhCode",
+            "args": [
+              "\"selectCompanyAddress\""
+            ]
+          },
+          {
+            "t": 1776662419942,
+            "method": "handleGjhCode",
+            "args": [
+              "\"pleaseSelect\""
+            ]
+          }
+        ],
+        "visibleDialogs": [],
+        "errors": [
+          "您好，由于系统服务出现异常，请勿多次重复提交，耐心等待片刻再重新尝试，如果问题仍然存在，请联系登记机关寻求帮助。"
+        ]
+      }
+    }
+  ]
+}

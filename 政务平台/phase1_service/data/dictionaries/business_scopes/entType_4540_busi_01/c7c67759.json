@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C2914",
+        "saveHyCode": "2914",
+        "hyPecul": "再生橡胶制造",
+        "hyTypeName": "再生橡胶制造",
+        "enHyTypeName": null,
+        "explains": "指用废橡胶生产再生橡胶的活动。",
+        "includesTitle": "包括对下列再生橡胶的制造活动：",
+        "includes": "初级形状再生橡胶：再生橡胶制板、再生橡胶制片、再生橡胶制带、其他初级形状再生橡胶；再生胶粉。",
+        "unIncludes": "不包括：用再生胶和再生胶粉生产的橡胶制品，列入29大类的相应类别中。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "再生橡胶",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

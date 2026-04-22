@@ -1,0 +1,51 @@
+{
+  "checkToken": null,
+  "getUserInfo": {
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/usermanager/getUserInfo?t=1776785107989",
+    "method": "GET",
+    "req_body": "",
+    "resp_body": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"id\":\"824032604\",\"username\":\"450921198812051251@123\",\"elename\":\"黄永裕\",\"desensitizeElename\":\"**裕\",\"elepaper\":\"10\",\"elepapername\":\"中华人民共和国居民身份证\",\"elepapernumber\":\"450921198812051251\",\"encryptedElepapernumber\":\"450921198812051251\",\"tel\":\"18977514335\",\"encryptedTel\":\"18977514335\",\"email\":null,\"authflag\":\"1\",\"mailFlag\":\"0\",\"pwdFlag\":\"1\",\"telFlag\":\"1\",\"faceFlag\":null,\"elderType\":\"0\",\"languageType\":null,\"usertype\":\"6\",\"uniScID\":null,\"marPrId\""
+  },
+  "getService": {
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/businessguide/servicepeople/getServicePeopleInfo?t=1776784914854&code=apply_notice&useType=busi&busiType=establishNotice02_4&entType=1100",
+    "method": "GET",
+    "req_body": "",
+    "resp_body": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"id\":\"647782805\",\"title\":\"申报须知\",\"sort\":\"0\",\"content\":\"<div style=\\\"line-height:2em;\\\"><p>\\n            欢迎进入企业开办全程网上办平台，在正式填报前，请阅读以下注意事项：\\n        </p>\\n        <p style=\\\"text-indent: 2em;\\\">\\t1、本平台提供企业开办（包含企业登记、公章刻制、申领发票、银行开户、社会保险参保登记和员工参保登记、住房公积金企业缴存登记）全程网上办，您也可以选择单独办理企业登记和其它事项，选择服务事项后，不可随意更改。\\n        </p>\\n        <p style=\\\"text-indent: 2em;\\\">\\n            2、选择本平台提供的全程网上办理，将视同申请人认可通过本平台向企业开办相关行政部门和服务单位传输各类共享信息和材料。\\n        </p>\\"
+  },
+  "checkEstablishName": {
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/guide/establishname/checkEstablishName?t=1776784926486",
+    "method": "POST",
+    "req_body": "{\"entType\":\"4540\",\"nameCode\":\"0\",\"distCode\":\"450921\",\"streetCode\":null,\"streetName\":null,\"address\":\"广西壮族自治区玉林市容县\",\"rcMoneyKindCode\":\"\",\"distCodeArr\":[\"450000\",\"450900\",\"450921\"],\"fzSign\":\"N\",\"parentEntRegno\":\"\",\"parentEntName\":\"\",\"regCapitalUSD\":\"\"}",
+    "resp_body": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":\"0\"},\"msg\":\"操作成功\",\"page\":null}"
+  },
+  "loadCurrentLocationInfo": {
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/name/loadCurrentLocationInfo?t=1776784927211",
+    "method": "POST",
+    "req_body": "{\"flowData\":{\"busiType\":\"01_4\",\"entType\":\"4540\",\"busiId\":\"\",\"vipChannel\":\"null\"},\"linkData\":{\"continueFlag\":\"continueFlag\",\"token\":\"\"},\"extraDto\":{\"entType\":\"4540\",\"nameCode\":\"0\",\"distCode\":\"450921\",\"streetCode\":null,\"streetName\":null,\"address\":\"广西壮族自治区玉林市容县\",\"rcMoneyKindCode\":\"\",\"distCodeArr\":[\"450000\",\"450900\",\"450921\"],\"fzSign\":\"N\",\"parentEntRegno\":\"\",\"parentEntName\":\"\",\"regCapitalUSD\":\"\"}}",
+    "resp_body": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"flowData\":{\"busiId\":null,\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"secondId\":null,\"vipChannel\":\"null\",\"currCompUrl\":null,\"status\":\"10\",\"matterCode\":null,\"interruptControl\":null},\"linkData\":{\"token\":\"\",\"continueFlag\":\"continueFlag\",\"compUrl\":null,\"compUrlPaths\":null,\"busiCompComb\":{\"id\":\"22561611372582\",\"platform\":\"pc,app\",\"busiType\":\"01\",\"busiName\":\"名称登记\",\"entType\":null,\"compComb\":\""
+  },
+  "loadBusinessDataInfo": {
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/name/component/NameShareholder/loadBusinessDataInfo?t=1776785052298",
+    "method": "POST",
+    "req_body": "{\"flowData\":{\"busiId\":\"2046610535813873664\",\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"secondId\":null,\"vipChannel\":\"null\",\"currCompUrl\":\"NameShareholder\",\"status\":\"10\",\"matterCode\":null,\"interruptControl\":null},\"linkData\":{\"compUrl\":\"NameShareholder\",\"compUrlPaths\":[\"NameSupplement\",\"NameShareholder\"],\"token\":\"\"},\"extraDto\":{\"entType\":\"4540\",\"nameCode\":\"0\",\"distCode\":\"450921\",\"streetCode\":null,\"streetName\":null,\"address\":\"广西壮族自治区玉林市容县\",\"rcMoneyK",
+    "resp_body": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"flowData\":{\"busiId\":\"2046610535813873664\",\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"secondId\":null,\"vipChannel\":\"null\",\"currCompUrl\":\"NameShareholder\",\"status\":\"10\",\"matterCode\":null,\"interruptControl\":null},\"linkData\":{\"token\":\"\",\"continueFlag\":null,\"compUrl\":\"NameShareholder\",\"compUrlPaths\":[\"NameSupplement\",\"NameShareholder\"],\"busiCompComb\":{\"id\":\"22561611372582\",\"platform\":\"pc,a"
+  },
+  "operationBusinessDataInfo": {
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/name/component/NameShareholder/operationBusinessDataInfo?t=1776785060779",
+    "method": "POST",
+    "req_body": "{\"id\":null,\"name\":\"黄永裕\",\"type\":\"20\",\"certificateType\":\"10\",\"certificateNo\":\"Nzwt4k47DulOHusNfdeHu3UBVp3KTHZJUe8aWOFFSBfFBzC10X7TvDynQNw9cgUADkLbR9AXg//hB0+TmHAN0Rr8+q9dsHjnY/b56Fax5xVWVhPuv9ag9h+NV+awoiORhBlFciSLGMbHX8fwAk2RuLwU2B9XvQyzC0XAuxToT3w=\",\"encryptedCertificateNo\":null,\"blicTypes\":\"\",\"blicNO\":\"\",\"encryptedBLicNO\":null,\"memberType\":\"\",\"nationalityCode\":\"156\",\"realInvestMoney\":null,\"realInvestMoneyType\":\"156\",\"realInvestMoneyName\":\"人民币\",\"moneyRatio\":null,\"tel\":null,\"encryptedTel\":null,\"e",
+    "resp_body": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"flowData\":{\"busiId\":\"2046610535813873664\",\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"secondId\":null,\"vipChannel\":\"null\",\"currCompUrl\":\"NameShareholder\",\"status\":\"10\",\"matterCode\":null,\"interruptControl\":null},\"linkData\":{\"token\":\"\",\"continueFlag\":null,\"compUrl\":\"NameShareholder\",\"compUrlPaths\":[\"NameSupplement\",\"NameShareholder\"],\"busiCompComb\":{\"id\":\"22561611372582\",\"platform\":\"pc,a"
+  },
+  "nameCheckRepeat": {
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/name/component/NameCheckInfo/nameCheckRepeat?t=1776784972659",
+    "method": "POST",
+    "req_body": "{\"condition\":\"1\",\"busiId\":null,\"busiType\":\"01\",\"entType\":\"4540\",\"name\":\"顺利得（玉林市容县）五金批发市（个人独资）\",\"namePre\":\"玉林市容县\",\"nameMark\":\"顺利得\",\"distCode\":\"450921\",\"areaCode\":\"450921\",\"organize\":\"市（个人独资）\",\"industry\":\"5174\",\"indSpec\":\"五金批发\",\"hasParent\":null,\"jtParentEntName\":\"\"}",
+    "resp_body": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"checkResult\":[{\"entName\":\"北流市顺利饭店（个体工商户）\",\"regionCode\":\"450981\",\"areaCode\":\"450981\",\"regionName\":\"北流市\",\"nameMark\":\"顺利\",\"tradPiny\":\"shunli\",\"savePerFrom\":1741795200000,\"savePerTo\":1792166399000,\"regOrgName\":\"北流市市场监督管理局\",\"state\":\"03\",\"langStateCode\":\"register.name.namecheck.name.state.99\",\"remark\":\"名称字号相似，来自名称库\",\"busiId\":null,\"nameStoreId\":\"145000118366129073\",\"marPrId\":null,\"entType\":\"9600\",\"entTypeName\":null,\"distCodeName\":null,\"busi"
+  },
+  "loadBusinessInfoList": {
+    "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/name/component/NameShareholder/loadBusinessInfoList?t=1776785061229",
+    "method": "POST",
+    "req_body": "{\"flowData\":{\"busiId\":\"2046610535813873664\",\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"secondId\":null,\"vipChannel\":\"null\",\"currCompUrl\":\"NameShareholder\",\"status\":\"10\",\"matterCode\":null,\"interruptControl\":null},\"linkData\":{\"compUrl\":\"NameShareholder\",\"compUrlPaths\":[\"NameSupplement\",\"NameShareholder\"],\"token\":\"\"},\"extraDto\":{\"entType\":\"4540\",\"nameCode\":\"0\",\"distCode\":\"450921\",\"streetCode\":null,\"streetName\":null,\"address\":\"广西壮族自治区玉林市容县\",\"rcMoneyK",
+    "resp_body": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"flowData\":{\"busiId\":\"2046610535813873664\",\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"marPrId\":null,\"secondId\":null,\"vipChannel\":\"null\",\"currCompUrl\":\"NameShareholder\",\"status\":\"10\",\"matterCode\":null,\"interruptControl\":null},\"linkData\":{\"token\":\"\",\"continueFlag\":null,\"compUrl\":\"NameShareholder\",\"compUrlPaths\":[\"NameSupplement\",\"NameShareholder\"],\"busiCompComb\":{\"id\":\"22561611372582\",\"platform\":\"pc,a"
+  }
+}

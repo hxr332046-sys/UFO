@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>政务平台自动化 - 数据面板</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;background:#0f172a;color:#e2e8f0;min-height:100vh}
+.header{background:linear-gradient(135deg,#1e293b,#0f172a);border-bottom:1px solid #334155;padding:24px 32px;display:flex;align-items:center;gap:16px}
+.header h1{font-size:24px;font-weight:700;color:#f8fafc}
+.header .badge{background:#22c55e;color:#0f172a;padding:4px 12px;border-radius:12px;font-size:12px;font-weight:600}
+.header .subtitle{color:#94a3b8;font-size:14px;margin-left:auto}
+.container{max-width:1400px;margin:0 auto;padding:24px 32px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:20px}
+.card{background:#1e293b;border:1px solid #334155;border-radius:12px;overflow:hidden;transition:border-color .2s}
+.card:hover{border-color:#475569}
+.card-header{padding:16px 20px;border-bottom:1px solid #334155;display:flex;align-items:center;gap:10px}
+.card-header .icon{width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.card-header h2{font-size:15px;font-weight:600;color:#f1f5f9}
+.card-header .count{margin-left:auto;background:#334155;color:#94a3b8;padding:2px 10px;border-radius:10px;font-size:12px}
+.card-body{padding:16px 20px;max-height:500px;overflow-y:auto}
+.card-body::-webkit-scrollbar{width:4px}
+.card-body::-webkit-scrollbar-thumb{background:#475569;border-radius:2px}
+.icon-blue{background:#1d4ed8}.icon-green{background:#15803d}.icon-purple{background:#7e22ce}
+.icon-orange{background:#c2410c}.icon-cyan{background:#0e7490}.icon-red{background:#b91c1c}
+.icon-yellow{background:#a16207}.icon-pink{background:#be185d}
+.status{display:inline-flex;align-items:center;gap:4px;font-size:12px;padding:2px 8px;border-radius:6px}
+.status-done{background:#166534;color:#4ade80}.status-wip{background:#854d0e;color:#fbbf24}.status-todo{background:#1e3a5f;color:#7dd3fc}
+.item{padding:10px 0;border-bottom:1px solid #1e293b;display:flex;align-items:center;gap:8px;font-size:13px}
+.item:last-child{border-bottom:none}
+.item .label{color:#cbd5e1;flex:1}
+.item .value{color:#94a3b8;font-family:monospace;font-size:12px}
+.tree-node{padding:3px 0;font-size:13px;cursor:pointer}
+.tree-node:hover{color:#60a5fa}
+.tree-arrow{cursor:pointer;margin-right:4px;user-select:none;display:inline-block;width:14px;text-align:center}
+.tree-arrow:hover{color:#fbbf24}
+.tree-dot{margin-right:4px;color:#475569;display:inline-block;width:14px;text-align:center}
+.tree-node .code{color:#60a5fa;font-family:monospace;margin-right:6px}
+.tree-node .name{color:#cbd5e1}
+.tree-node.leaf .name{color:#94a3b8}
+.tree-children{padding-left:20px;display:none}
+.tree-children.open{display:block}
+.section-title{font-size:13px;font-weight:600;color:#94a3b8;padding:8px 0 4px;text-transform:uppercase;letter-spacing:0.5px}
+.tag{display:inline-block;background:#334155;color:#94a3b8;padding:2px 8px;border-radius:4px;font-size:11px;margin:2px}
+.tag-match{background:#166534;color:#4ade80}
+.api-row{display:flex;gap:8px;padding:6px 0;border-bottom:1px solid rgba(51,65,85,0.5);font-size:12px;align-items:center}
+.api-row .method{font-family:monospace;color:#60a5fa;min-width:40px}
+.api-row .url{color:#94a3b8;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.api-row .status-code{font-family:monospace;min-width:30px;text-align:right}
+.api-row .status-200{color:#4ade80}.api-row .status-404{color:#f87171}
+.progress-bar{height:6px;background:#334155;border-radius:3px;overflow:hidden;margin:8px 0}
+.progress-bar .fill{height:100%;border-radius:3px;transition:width .3s}
+.fill-green{background:linear-gradient(90deg,#22c55e,#4ade80)}
+.fill-yellow{background:linear-gradient(90deg,#eab308,#fbbf24)}
+.fill-blue{background:linear-gradient(90deg,#3b82f6,#60a5fa)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:16px}
+.stat{text-align:center;padding:12px;background:#0f172a;border-radius:8px}
+.stat .num{font-size:28px;font-weight:700;color:#f1f5f9}
+.stat .desc{font-size:11px;color:#64748b;margin-top:2px}
+.search-box{width:100%;padding:8px 12px;background:#0f172a;border:1px solid #334155;border-radius:6px;color:#e2e8f0;font-size:13px;outline:none;margin-bottom:8px}
+.search-box:focus{border-color:#3b82f6}
+.search-box::placeholder{color:#475569}
+.tab-bar{display:flex;gap:4px;margin-bottom:12px}
+.tab{padding:6px 14px;border-radius:6px;font-size:12px;cursor:pointer;color:#94a3b8;background:transparent;border:none}
+.tab.active{background:#334155;color:#f1f5f9}
+.tab:hover{color:#f1f5f9}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🏛️ 政务平台自动化</h1>
+  <span class="badge">v2.0</span>
+  <span class="subtitle">广西数字政务一体化平台 · 设立登记自动化</span>
+</div>
+
+<div class="container">
+  <!-- 总览统计 -->
+  <div class="stats" id="overviewStats"></div>
+
+  <div class="grid">
+    <!-- 项目进度 -->
+    <div class="card">
+      <div class="card-header">
+        <div class="icon icon-blue">📋</div>
+        <h2>项目进度</h2>
+      </div>
+      <div class="card-body" id="progressCard"></div>
+    </div>
+
+    <!-- 技术架构 -->
+    <div class="card">
+      <div class="card-header">
+        <div class="icon icon-purple">🏗️</div>
+        <h2>技术架构</h2>
+      </div>
+      <div class="card-body" id="archCard"></div>
+    </div>
+
+    <!-- 表单字段映射 -->
+    <div class="card">
+      <div class="card-header">
+        <div class="icon icon-green">📝</div>
+        <h2>表单字段映射</h2>
+        <span class="count" id="fieldCount"></span>
+      </div>
+      <div class="card-body" id="fieldsCard"></div>
+    </div>
+
+    <!-- 行业分类字典 -->
+    <div class="card">
+      <div class="card-header">
+        <div class="icon icon-orange">🏭</div>
+        <h2>行业分类字典</h2>
+        <span class="count" id="industryCount"></span>
+      </div>
+      <div class="card-body">
+        <input class="search-box" id="industrySearch" placeholder="搜索行业代码或名称，如 I6511 或 软件开发">
+        <div id="industryTree"></div>
+      </div>
+    </div>
+
+    <!-- 企业类型字典 -->
+    <div class="card">
+      <div class="card-header">
+        <div class="icon icon-cyan">🏢</div>
+        <h2>企业类型字典</h2>
+        <span class="count" id="entTypeCount"></span>
+      </div>
+      <div class="card-body" id="entTypeCard"></div>
+    </div>
+
+    <!-- 关键API -->
+    <div class="card">
+      <div class="card-header">
+        <div class="icon icon-red">🔌</div>
+        <h2>关键API</h2>
+        <span class="count" id="apiCount"></span>
+      </div>
+      <div class="card-body" id="apiCard"></div>
+    </div>
+
+    <!-- Vue组件方法 -->
+    <div class="card">
+      <div class="card-header">
+        <div class="icon icon-yellow">⚙️</div>
+        <h2>Vue组件方法</h2>
+      </div>
+      <div class="card-body" id="methodsCard"></div>
+    </div>
+
+    <!-- 当前阻塞问题 -->
+    <div class="card">
+      <div class="card-header">
+        <div class="icon icon-pink">🚧</div>
+        <h2>当前阻塞问题</h2>
+        <span class="count" id="blockerCount"></span>
+      </div>
+      <div class="card-body" id="blockersCard"></div>
+    </div>
+
+    <!-- 关键发现 -->
+    <div class="card">
+      <div class="card-header">
+        <div class="icon icon-cyan">💡</div>
+        <h2>关键发现</h2>
+        <span class="count" id="findingCount"></span>
+      </div>
+      <div class="card-body" id="findingsCard"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ========== 数据 ==========
+const PROJECT_PROGRESS = [
+  {id:1, name:'准备测试材料+LLM审核', status:'done'},
+  {id:2, name:'修复SPA导航+域名(scjdglj)', status:'done'},
+  {id:3, name:'找到设立登记表单(149字段bdi)', status:'done'},
+  {id:4, name:'initData()初始化bdi(46/149非空)', status:'done'},
+  {id:5, name:'establish→flow路由→basic-info', status:'done'},
+  {id:6, name:'行业类型I65 ✅ findComp+treeSelectChange', status:'done'},
+  {id:6.5,name:'经营范围confirm ✅ 前端验证通过', status:'done'},
+  {id:7, name:'住所cascader $set ✅ bdi同步', status:'done'},
+  {id:7.5,name:'保存请求: busiAreaData URL编码→A0002', status:'wip'},
+  {id:8, name:'遍历所有步骤到提交页', status:'todo'},
+  {id:9, name:'行业分类+企业类型字典', status:'done'},
+  {id:10,name:'数据面板dashboard', status:'done'},
+  {id:11,name:'整理完整测试报告', status:'todo'},
+];
+
+const ARCH = {
+  framework: 'Vue 2 + Element UI + 自定义组件(tne-/tni-*)',
+  router: 'Vue Router (动态路由注册, flow/base/basic-info)',
+  state: 'Vuex (login/SET_TOKEN) + eventBus($emit/$on)',
+  auth: 'top-token + Authorization (localStorage, 无Cookie)',
+  spa_url: 'zhjg.scjdglj.gxzf.gov.cn:9087',
+  cdp: 'Chrome DevTools Protocol (WebSocket, 端口9225)',
+  automation: 'Python + websocket-client + requests',
+  save_mechanism: 'eventBus.$emit(flow-save-basic-info) → 子组件回调 → operationBusinessDataInfo()',
+  data_merge: 'flow-control.$data.businessDataInfo (149字段) ← 各子组件form',
+  encryption: 'entPhone等敏感字段RSA加密后发送',
+};
+
+const FORM_FIELDS = [
+  // regist-info组件 (64字段)
+  {form:'regist-info', prop:'name', label:'企业名称', type:'input', testVal:'广西智信数据科技有限公司', status:'done'},
+  {form:'regist-info', prop:'registerCapital', label:'注册资本', type:'input', testVal:'100', status:'done'},
+  {form:'regist-info', prop:'shouldInvestWay', label:'出资方式', type:'radio', testVal:'1', status:'done'},
+  {form:'regist-info', prop:'entPhone', label:'联系电话', type:'input-encrypted', testVal:'13800138000', status:'done'},
+  {form:'regist-info', prop:'postcode', label:'邮政编码', type:'input', testVal:'530000', status:'done'},
+  {form:'regist-info', prop:'operatorNum', label:'从业人数', type:'input', testVal:'5', status:'wip'},
+  {form:'regist-info', prop:'empNum', label:'从业人数(别名)', type:'hidden', testVal:'5', status:'wip'},
+  {form:'regist-info', prop:'entType', label:'企业类型', type:'hidden', testVal:'1100', status:'done'},
+  {form:'regist-info', prop:'subCapital', label:'实收资本', type:'input', testVal:'100', status:'done'},
+  {form:'regist-info', prop:'setWay', label:'设立方式', type:'hidden', testVal:'01', status:'done'},
+  {form:'regist-info', prop:'accountType', label:'账户类型', type:'hidden', testVal:'1', status:'done'},
+  {form:'regist-info', prop:'licenseRadio', label:'执照类型', type:'hidden', testVal:'0', status:'done'},
+  {form:'regist-info', prop:'copyCerNum', label:'副本数', type:'hidden', testVal:'1', status:'done'},
+  {form:'regist-info', prop:'businessModeGT', label:'经营模式', type:'hidden', testVal:'10', status:'done'},
+  {form:'regist-info', prop:'organize', label:'组织形式', type:'hidden', testVal:'1', status:'done'},
+  {form:'regist-info', prop:'namePreFlag', label:'名称预核准', type:'checkbox', testVal:'1', status:'done'},
+  // businese-info组件 (18字段)
+  {form:'businese-info', prop:'itemIndustryTypeCode', label:'行业类型代码', type:'tree-select', testVal:'I65', status:'done'},
+  {form:'businese-info', prop:'industryTypeName', label:'行业类型名称', type:'hidden', testVal:'软件和信息技术服务业', status:'done'},
+  {form:'businese-info', prop:'busiAreaData', label:'经营范围数据', type:'confirm-callback', testVal:'[{id:I3006,...}]', status:'wip'},
+  {form:'businese-info', prop:'genBusiArea', label:'经营范围文本', type:'confirm-callback', testVal:'软件开发;信息技术咨询服务', status:'done'},
+  {form:'businese-info', prop:'busiAreaCode', label:'经营范围代码', type:'hidden', testVal:'I65', status:'done'},
+  {form:'businese-info', prop:'busiAreaName', label:'经营范围名称', type:'hidden', testVal:'软件开发;信息技术咨询服务', status:'done'},
+  {form:'businese-info', prop:'businessArea', label:'经营范围描述', type:'textarea', testVal:'许可经营项目：软件开发...', status:'done'},
+  {form:'businese-info', prop:'busiPeriod', label:'经营期限', type:'radio', testVal:'01', status:'done'},
+  // residence-information组件 (43字段)
+  {form:'residence-info', prop:'distCode', label:'区域代码', type:'$set', testVal:'450103', status:'done'},
+  {form:'residence-info', prop:'distCodeName', label:'区域名称', type:'$set', testVal:'青秀区', status:'done'},
+  {form:'residence-info', prop:'fisDistCode', label:'财政区域代码', type:'$set', testVal:'450103', status:'done'},
+  {form:'residence-info', prop:'address', label:'企业住所', type:'$set', testVal:'广西壮族自治区/南宁市/青秀区', status:'done'},
+  {form:'residence-info', prop:'detAddress', label:'详细地址', type:'$set+DOM', testVal:'民族大道100号', status:'done'},
+  {form:'residence-info', prop:'regionCode', label:'生产经营地区域', type:'$set', testVal:'450103', status:'done'},
+  {form:'residence-info', prop:'regionName', label:'生产经营地名称', type:'$set', testVal:'青秀区', status:'done'},
+  {form:'residence-info', prop:'businessAddress', label:'生产经营地址', type:'$set', testVal:'广西壮族自治区/南宁市/青秀区', status:'done'},
+  {form:'residence-info', prop:'detBusinessAddress', label:'生产经营地详细', type:'$set+DOM', testVal:'民族大道100号', status:'done'},
+  {form:'residence-info', prop:'isSelectDistCode', label:'是否选择区域', type:'$set', testVal:'1', status:'done'},
+  {form:'residence-info', prop:'havaAdress', label:'是否有地址', type:'$set', testVal:'0', status:'done'},
+];
+
+const APIS = [
+  {method:'POST', url:'/icpsp-api/v4/pc/register/establish/component/BasicInfo/operationBusinessDataInfo', desc:'保存表单数据(实际端点)', status:'A0002'},
+  {method:'POST', url:'/icpsp-api/v4/pc/register/establish/component/BasicInfo/loadbusinessDataInfo', desc:'加载表单数据', status:200},
+  {method:'POST', url:'/icpsp/enterprise/notHmEnterpriseType', desc:'获取企业类型列表', status:200},
+  {method:'POST', url:'/icpsp/enterprise/selectBusinessModules', desc:'获取业务模块', status:200},
+  {method:'POST', url:'/icpsp/enterprise/queryNameInfoList', desc:'查询名称列表', status:200},
+  {method:'POST', url:'/icpsp/enterprise/getDataInfo', desc:'验证名称/保留单号', status:200},
+  {method:'GET',  url:'/icpsp/user/getUserInfo', desc:'获取用户信息', status:200},
+  {method:'GET',  url:'/icpsp/cache/getCacheCreateTime', desc:'缓存时间', status:200},
+];
+
+const VUE_METHODS = [
+  {comp:'flow-control', method:'initData()', desc:'初始化businessDataInfo(149字段)'},
+  {comp:'flow-control', method:'save(btn,cb,sign)', desc:'保存表单(sign="working"=草稿)'},
+  {comp:'flow-control', method:'operationBusinessDataInfo(type,url,data,...)', desc:'组装+加密+发送保存请求'},
+  {comp:'flow-control', method:'handleSteps(step)', desc:'步骤导航'},
+  {comp:'flow-control', method:'next()', desc:'下一步'},
+  {comp:'businese-info', method:'confirm(data)', desc:'设置经营范围(busiAreaData+genBusiArea+busiAreaCode)'},
+  {comp:'businese-info', method:'treeSelectChange(type)', desc:'行业类型选择变更回调'},
+  {comp:'businese-info', method:'validateBusinessArea()', desc:'验证busiAreaData.length>0'},
+  {comp:'tni-business-range', method:'init()', desc:'初始化经营范围列表(allBusinessList)'},
+  {comp:'tni-business-range', method:'search(keyword)', desc:'搜索经营范围项→searchList'},
+  {comp:'regist-info', method:'validateOperatorNum()', desc:'验证从业人数'},
+  {comp:'residence-information', method:'handleAddressData()', desc:'住所数据处理'},
+  {comp:'basic-info', method:'registerComponent(name)', desc:'动态注册子组件'},
+  {comp:'basic-info', method:'registerAllComponent()', desc:'注册所有子组件'},
+];
+
+const BLOCKERS = [
+  {field:'保存请求A0002', type:'operationBusinessDataInfo序列化', error:'A0002 服务端异常', reason:'busiAreaData被encodeURIComponent编码为URL字符串, genBusiArea双重编码, 服务端解析失败', fix:'分析operationBusinessDataInfo源码, 找到序列化逻辑并修正, 或拦截XHR重建body', severity:'critical'},
+];
+
+const KEY_FINDINGS = [
+  {category:'组件树', finding:'flow-control是顶层容器，basic-info是表单容器，子组件: regist-info(64字段) + businese-info(18字段) + residence-information(43字段)', impact:'用findComp(vm,name,0)递归搜索比硬编码路径更稳定'},
+  {category:'保存机制', finding:'save()→eventBus.$emit("flow-save-basic-info")→子组件回调→operationBusinessDataInfo()→XHR POST', impact:'子组件数据通过eventBus收集，非直接读bdi'},
+  {category:'数据合并', finding:'businessDataInfo(149字段) ← 合并各子组件form，但busiAreaData在bdi中为null', impact:'busiAreaData仅存在于businese-info.busineseForm中，save()时从子组件form提取'},
+  {category:'加密', finding:'entPhone等敏感字段在operationBusinessDataInfo()中RSA加密后发送', impact:'明文设置值会被加密函数覆盖，无需手动加密'},
+  {category:'busiAreaData格式', finding:'tni-business-range.searchList的原始格式含id/stateCo/pid/minIndusTypeCode等12+字段', impact:'手动构造的简化格式{name,code,isMain}→A0002，必须用searchList完整格式'},
+  {category:'confirm调用', finding:'businese-info.confirm({busiAreaData:[...items], genBusiArea, busiAreaCode, busiAreaName})', impact:'confirm()同时设置4个字段+触发验证，比$set更可靠'},
+  {category:'域名修正', finding:'正确域名: scjdglj (非scjdgjlj)', impact:'之前所有网络错误源于域名拼写错误'},
+];
+
+// ========== 渲染 ==========
+function renderStats(){
+  const done = PROJECT_PROGRESS.filter(p=>p.status==='done').length;
+  const wip = PROJECT_PROGRESS.filter(p=>p.status==='wip').length;
+  const total = PROJECT_PROGRESS.length;
+  const pct = Math.round(done/total*100);
+  const criticalBlockers = BLOCKERS.filter(b=>b.severity==='critical').length;
+  document.getElementById('overviewStats').innerHTML = `
+    <div class="stat"><div class="num">${pct}%</div><div class="desc">总进度</div></div>
+    <div class="stat"><div class="num">${done}/${total}</div><div class="desc">已完成</div></div>
+    <div class="stat"><div class="num" style="color:${criticalBlockers>0?'#f87171':'#4ade80'}">${criticalBlockers}</div><div class="desc">关键阻塞</div></div>
+  `;
+}
+
+function renderProgress(){
+  const el = document.getElementById('progressCard');
+  el.innerHTML = PROJECT_PROGRESS.map(p=>{
+    const cls = p.status==='done'?'status-done':p.status==='wip'?'status-wip':'status-todo';
+    const label = p.status==='done'?'✅ 完成':p.status==='wip'?'🔧 进行中':'⏳ 待做';
+    return `<div class="item"><span class="status ${cls}">${label}</span><span class="label">${p.name}</span></div>`;
+  }).join('');
+  const done = PROJECT_PROGRESS.filter(p=>p.status==='done').length;
+  el.innerHTML = `<div class="progress-bar"><div class="fill fill-green" style="width:${done/PROJECT_PROGRESS.length*100}%"></div></div>` + el.innerHTML;
+}
+
+function renderArch(){
+  const el = document.getElementById('archCard');
+  const labels = {framework:'框架',router:'路由',state:'状态管理',auth:'认证',spa_url:'SPA地址',cdp:'CDP协议',automation:'自动化工具',save_mechanism:'保存机制',data_merge:'数据合并',encryption:'加密'};
+  el.innerHTML = Object.entries(ARCH).map(([k,v])=>{
+    return `<div class="item"><span class="label">${labels[k]||k}</span><span class="value">${v}</span></div>`;
+  }).join('');
+}
+
+function renderFields(){
+  const el = document.getElementById('fieldsCard');
+  const forms = {'regist-info':'regist-info (64字段)','businese-info':'businese-info (18字段)','residence-info':'residence-info (43字段)'};
+  let html = '';
+  for(const [formKey, formName] of Object.entries(forms)){
+    const fields = FORM_FIELDS.filter(f=>f.form===formKey);
+    html += `<div class="section-title">${formName}</div>`;
+    html += fields.map(f=>{
+      const statusTag = f.status==='done'?'<span class="tag" style="background:#166534;color:#4ade80">✓</span>':f.status==='wip'?'<span class="tag tag-match">⚠</span>':'<span class="tag">?</span>';
+      const typeTag = `<span class="tag">${f.type}</span>`;
+      return `<div class="item">${typeTag}${statusTag}<span class="label">${f.prop}</span><span class="value">${f.testVal||'-'}</span></div>`;
+    }).join('');
+  }
+  el.innerHTML = html;
+  const done = FORM_FIELDS.filter(f=>f.status==='done').length;
+  document.getElementById('fieldCount').textContent = `${done}/${FORM_FIELDS.length}已填`;
+}
+
+let industryData = null;
+let entTypeData = null;
+let industryIndex = null; // 扁平化索引用于搜索
+
+function cleanName(name){
+  return name ? name.replace(/^\[[^\]]+\]\s*/, '') : '';
+}
+
+function countAllNodes(nodes){
+  let c=0;
+  for(const n of nodes){c++;if(n.children)c+=countAllNodes(n.children);}
+  return c;
+}
+
+function buildFlatIndex(nodes, path=[]){
+  // 构建扁平索引: code -> {node, path}
+  let idx = {};
+  for(const n of nodes){
+    const p = [...path, n.code];
+    idx[n.code] = {node:n, path:p};
+    if(n.children) Object.assign(idx, buildFlatIndex(n.children, p));
+  }
+  return idx;
+}
+
+function renderNode(n){
+  const hasChildren = n.children && n.children.length > 0;
+  const isLeaf = !hasChildren;
+  const displayName = cleanName(n.name || n.label || '');
+  const arrow = hasChildren ? `<span class="tree-arrow" data-code="${n.code}">▶</span>` : '<span class="tree-dot">·</span>';
+  const childCount = hasChildren ? `<span style="color:#475569;font-size:11px;margin-left:4px">(${n.children.length})</span>` : '';
+  return `<div class="tree-node ${isLeaf?'leaf':''}">${arrow}<span class="code">[${n.code}]</span><span class="name">${displayName}</span>${childCount}</div>${hasChildren?`<div class="tree-children" data-parent="${n.code}"></div>`:''}`;
+}
+
+function renderIndustryTree(){
+  if(!industryData) return;
+  const data = industryData.data || industryData.categories || industryData;
+  const arr = Array.isArray(data) ? data : [];
+  // 只渲染顶层门类
+  document.getElementById('industryTree').innerHTML = arr.map(n=>renderNode(n)).join('');
+  const total = countAllNodes(arr);
+  document.getElementById('industryCount').textContent = `${arr.length}门类/${total}节点`;
+  // 构建扁平索引
+  industryIndex = buildFlatIndex(arr);
+  // 绑定展开事件
+  document.getElementById('industryTree').addEventListener('click', function(e){
+    const arrow = e.target.closest('.tree-arrow');
+    if(!arrow) return;
+    const code = arrow.dataset.code;
+    const childrenEl = arrow.closest('.tree-node').nextElementSibling;
+    if(!childrenEl || !childrenEl.classList.contains('tree-children')) return;
+    if(childrenEl.classList.contains('open')){
+      // 收起
+      childrenEl.classList.remove('open');
+      arrow.textContent = '▶';
+    } else {
+      // 懒渲染子节点
+      if(!childrenEl.innerHTML.trim()){
+        const entry = industryIndex[code];
+        if(entry && entry.node.children){
+          childrenEl.innerHTML = entry.node.children.map(n=>renderNode(n)).join('');
+        }
+      }
+      childrenEl.classList.add('open');
+      arrow.textContent = '▼';
+    }
+  });
+}
+
+function searchIndustry(q){
+  q = q.trim().toUpperCase();
+  const container = document.getElementById('industryTree');
+  if(!q){
+    // 清空搜索：重置为只显示顶层
+    renderIndustryTree();
+    return;
+  }
+  // 用索引搜索
+  const results = [];
+  for(const [code, entry] of Object.entries(industryIndex)){
+    const name = cleanName(entry.node.name||'').toUpperCase();
+    if(code.toUpperCase().includes(q) || name.includes(q)){
+      results.push(entry);
+    }
+  }
+  // 渲染搜索结果
+  let html = `<div style="color:#fbbf24;font-size:12px;margin-bottom:8px">找到 ${results.length} 个匹配</div>`;
+  results.slice(0,100).forEach(r=>{
+    const pathStr = r.path.map(c=>`<span style="color:#60a5fa">[${c}]</span>`).join(' › ');
+    const name = cleanName(r.node.name||'');
+    html += `<div class="item"><span class="tag">${r.node.code}</span><span class="label">${name}</span></div><div style="padding:0 0 6px 86px;font-size:11px;color:#64748b">${pathStr}</div>`;
+  });
+  if(results.length > 100) html += `<div style="color:#475569;font-size:12px">...还有 ${results.length-100} 个结果</div>`;
+  container.innerHTML = html;
+}
+
+function renderEntTypes(){
+  if(!entTypeData) return;
+  const el = document.getElementById('entTypeCard');
+  const cats = entTypeData.categories || [];
+  let html = '';
+  cats.forEach(cat=>{
+    const hasChildren = cat.children && cat.children.length > 0;
+    html += `<div class="section-title" style="cursor:pointer" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'':'none'">[${cat.code}] ${cat.name} ${hasChildren?'▼':''}</div>`;
+    html += '<div style="padding-left:12px">';
+    if(hasChildren){
+      cat.children.forEach(c=>{
+        html += `<div class="item"><span class="tag">${c.code}</span><span class="label">${c.name}</span></div>`;
+      });
+    } else {
+      html += `<div class="item" style="color:#475569">（无子类型）</div>`;
+    }
+    html += '</div>';
+  });
+  el.innerHTML = html;
+  const total = cats.reduce((s,c)=>s+1+(c.children?c.children.length:0),0);
+  document.getElementById('entTypeCount').textContent = `${cats.length}类/${total}项`;
+}
+
+function renderAPIs(){
+  const el = document.getElementById('apiCard');
+  el.innerHTML = APIS.map(a=>{
+    const statusStr = String(a.status);
+    const cls = statusStr==='200'?'status-200':'status-404';
+    const statusDisplay = statusStr==='200'?'200':statusStr;
+    const shortUrl = a.url.length>50?a.url.substring(0,50)+'...':a.url;
+    return `<div class="api-row"><span class="method">${a.method}</span><span class="url" title="${a.url}">${a.desc}</span><span class="status-code ${cls}">${statusDisplay}</span></div>`;
+  }).join('');
+  document.getElementById('apiCount').textContent = APIS.length+'个';
+}
+
+function renderMethods(){
+  const el = document.getElementById('methodsCard');
+  el.innerHTML = VUE_METHODS.map(m=>{
+    return `<div class="item"><span class="tag">${m.comp}</span><span class="value" style="flex:1;color:#60a5fa">${m.method}</span></div><div style="padding:0 0 6px 0;font-size:11px;color:#64748b;margin-left:86px">${m.desc}</div>`;
+  }).join('');
+}
+
+function renderBlockers(){
+  const el = document.getElementById('blockersCard');
+  el.innerHTML = BLOCKERS.map(b=>{
+    const sevColor = b.severity==='critical'?'#f87171':b.severity==='medium'?'#fbbf24':'#94a3b8';
+    const sevLabel = b.severity==='critical'?'🔴 严重':b.severity==='medium'?'🟡 中等':'🟢 低';
+    return `<div style="padding:10px 0;border-bottom:1px solid #1e293b">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+        <span style="color:${sevColor};font-size:12px;font-weight:600">${sevLabel}</span>
+        <span style="font-weight:600;color:#f1f5f9">${b.field}</span>
+        <span class="tag">${b.type}</span>
+      </div>
+      <div style="font-size:12px;color:#f87171;margin:2px 0">错误: ${b.error}</div>
+      <div style="font-size:12px;color:#64748b">原因: ${b.reason}</div>
+      <div style="font-size:12px;color:#4ade80;margin-top:2px">→ ${b.fix}</div>
+    </div>`;
+  }).join('');
+}
+
+function renderFindings(){
+  const el = document.getElementById('findingsCard');
+  if(!el) return;
+  el.innerHTML = KEY_FINDINGS.map(f=>{
+    const catColors = {'组件树':'#60a5fa','保存机制':'#f87171','数据合并':'#fbbf24','加密':'#a78bfa','busiAreaData格式':'#f87171','confirm调用':'#4ade80','域名修正':'#fbbf24'};
+    const color = catColors[f.category]||'#94a3b8';
+    return `<div style="padding:10px 0;border-bottom:1px solid #1e293b">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+        <span class="tag" style="background:${color}22;color:${color};border:1px solid ${color}44">${f.category}</span>
+      </div>
+      <div style="font-size:12px;color:#cbd5e1;margin:2px 0">${f.finding}</div>
+      <div style="font-size:11px;color:#64748b">影响: ${f.impact}</div>
+    </div>`;
+  }).join('');
+}
+
+// 初始化（不依赖JSON数据的部分）
+renderStats();
+renderProgress();
+renderArch();
+renderFields();
+renderAPIs();
+renderMethods();
+renderBlockers();
+renderFindings();
+document.getElementById('blockerCount').textContent = BLOCKERS.length+'个';
+document.getElementById('findingCount').textContent = KEY_FINDINGS.length+'条';
+</script>
+<script src="data/industry.js"></script>
+<script src="data/ent_types.js"></script>
+<script>
+// JSON数据已通过script标签加载（兼容file://协议）
+industryData = INDUSTRY_DATA;
+entTypeData = ENT_TYPE_DATA;
+renderIndustryTree();
+renderEntTypes();
+document.getElementById('industrySearch').addEventListener('input',function(){searchIndustry(this.value)});
+</script>
+</body>
+</html>

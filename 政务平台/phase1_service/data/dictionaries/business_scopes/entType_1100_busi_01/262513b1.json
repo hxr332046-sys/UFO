@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C1610",
+        "saveHyCode": "1610",
+        "hyPecul": "烟叶复烤",
+        "hyTypeName": "烟叶复烤",
+        "enHyTypeName": null,
+        "explains": "指在原烟（初烤）基础上进行第二次烟叶水分调整的活动。",
+        "includesTitle": "包括对下列烟叶复烤的活动：",
+        "includes": "叶片；烟梗；把烟；其他复烤烟叶。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "烟叶复烤",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

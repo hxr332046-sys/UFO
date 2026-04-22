@@ -1,0 +1,98 @@
+{
+  "started_at": "2026-04-15 00:28:00",
+  "data": {
+    "ok": true,
+    "btnClass": "el-button sub-btn el-button--primary is-loading",
+    "btnVmName": "ElButton",
+    "btnVmLoading": true,
+    "btnVmListeners": [
+      "click"
+    ],
+    "btnVmVnodeOn": [],
+    "parent": {
+      "name": "index",
+      "methods": [
+        "validateEntType",
+        "queryExtraDto",
+        "showParentEntTypeDataPicker",
+        "handleGjhCode",
+        "parentRegNoValidator",
+        "distCodeValidator",
+        "init",
+        "getQueryNameEntType",
+        "queryRegcodeAndStreet",
+        "deleteBusiInfoData",
+        "getBasicdata",
+        "getQueryNameEntTypeTwo",
+        "concatenateNameAndCode",
+        "getSysConfig",
+        "hasShaowName",
+        "checkchange",
+        "changeEntType",
+        "getFirmData",
+        "addressChange",
+        "findObjectById",
+        "handleDetailAddressInput",
+        "getTotalAddress",
+        "handleCurrencyChange",
+        "parentEntRegnoHandle",
+        "getqueryParentCompanyInfo",
+        "getQueryEntTypeBySubEntType",
+        "getTreeLabel",
+        "fzjgFlowSave",
+        "flowSave",
+        "validateDetailAddress"
+      ],
+      "dataKeys": [
+        "distList",
+        "isnameType",
+        "companys",
+        "entTypeTree",
+        "localdataTree",
+        "defaultExpandedKeys",
+        "toDollars",
+        "currencyLists",
+        "deepForm",
+        "entTypeTreeTwo",
+        "capitalTips",
+        "entTypeCode",
+        "entTypeRealy",
+        "isShowName",
+        "isHideName",
+        "isHiddenRegMoney",
+        "dataInfo",
+        "isSearch",
+        "realvalue",
+        "totalAddress",
+        "dolRate",
+        "searchLoading",
+        "companyInfo",
+        "searchAlready",
+        "choiceName",
+        "subEntTypeData",
+        "form",
+        "rules",
+        "goHistroy",
+        "timer",
+        "timeout",
+        "fzSign",
+        "isShowNewFzcode"
+      ],
+      "listeners": [],
+      "vnodeOn": []
+    },
+    "grandParent": {
+      "name": "index",
+      "methods": [
+        "agentTipsDialogClose"
+      ],
+      "dataKeys": [
+        "cityFlag",
+        "agentTipsDialogVisible"
+      ],
+      "listeners": [],
+      "vnodeOn": []
+    }
+  },
+  "ended_at": "2026-04-15 00:28:00"
+}

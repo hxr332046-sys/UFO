@@ -1,0 +1,33 @@
+{
+  "started_at": "2026-04-14 20:43:07",
+  "set_ids": {
+    "ok": true,
+    "paths": [
+      {
+        "compUrl": "MemberPost",
+        "id": "2044029370544291840"
+      }
+    ],
+    "hash": "#/flow/base/member-post"
+  },
+  "invoke_next": {
+    "ok": true,
+    "actions": [
+      "handleStepsNext_err:TypeError: Cannot read properties of undefined (reading 'lastOperComp')",
+      "operationBusinessDataInfo"
+    ],
+    "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/member-post",
+    "hash": "#/flow/base/member-post"
+  },
+  "after": {
+    "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/member-post",
+    "hash": "#/flow/base/member-post",
+    "buttons": [
+      {
+        "text": "确 定",
+        "disabled": false
+      }
+    ],
+    "errors": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Optimization Guide On Device Model",
+  "version": "2025.8.8.1141",
+  "BaseModelSpec": {
+    "name": "v3Nano",
+    "version": "2025.06.30.1229",
+    "supported_performance_hints": [
+      2,
+      1
+    ]
+  }
+}

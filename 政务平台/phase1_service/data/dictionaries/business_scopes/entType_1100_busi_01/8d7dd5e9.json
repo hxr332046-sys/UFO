@@ -1,0 +1,91 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "J6830",
+        "saveHyCode": "6830",
+        "hyPecul": "再保险",
+        "hyTypeName": "再保险",
+        "enHyTypeName": null,
+        "explains": "指承担与其他保险公司承保的现有保单相关的所有或部分风险的活动。",
+        "includesTitle": "包括下列再保险活动：",
+        "includes": "寿险再保险服务；非人寿保险再保险活动：机动车辆再保险活动，水保险活动，非水保险活动，责任、意外保险活动，巨灾风险活动，健康和意外伤害再保险活动，其他非人寿保险再保险活动。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "J6830",
+        "saveHyCode": "6830",
+        "hyPecul": "人寿再保险",
+        "hyTypeName": "再保险",
+        "enHyTypeName": null,
+        "explains": "指承担与其他保险公司承保的现有保单相关的所有或部分风险的活动。",
+        "includesTitle": "包括下列再保险活动：",
+        "includes": "寿险再保险服务；非人寿保险再保险活动：机动车辆再保险活动，水保险活动，非水保险活动，责任、意外保险活动，巨灾风险活动，健康和意外伤害再保险活动，其他非人寿保险再保险活动。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "J6860",
+        "saveHyCode": "6860",
+        "hyPecul": "再保险经纪",
+        "hyTypeName": "保险资产管理",
+        "enHyTypeName": null,
+        "explains": "指保险资产管理机构接受委托，开展的保险资金、商业养老金等资金的投资管理活动。",
+        "includesTitle": "包括下列保险资产管理活动：",
+        "includes": "保险资金管理服务；商业养老金资金管理服务；其他保险资产管理服务。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "J6890",
+        "saveHyCode": "6890",
+        "hyPecul": "再保险经纪",
+        "hyTypeName": "其他保险活动",
+        "enHyTypeName": null,
+        "explains": "指其他未列明的与保险和商业养老金相关或密切相关的活动，包括救助管理、保险精算等。",
+        "includesTitle": "包括下列其他保险活动：",
+        "includes": "保险保障基金服务；健康保障委托管理服务；保险精算活动；保险咨询活动；其他相关保险服务。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "J6830",
+        "saveHyCode": "6830",
+        "hyPecul": "财产再保险",
+        "hyTypeName": "再保险",
+        "enHyTypeName": null,
+        "explains": "指承担与其他保险公司承保的现有保单相关的所有或部分风险的活动。",
+        "includesTitle": "包括下列再保险活动：",
+        "includes": "寿险再保险服务；非人寿保险再保险活动：机动车辆再保险活动，水保险活动，非水保险活动，责任、意外保险活动，巨灾风险活动，健康和意外伤害再保险活动，其他非人寿保险再保险活动。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "再保险",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

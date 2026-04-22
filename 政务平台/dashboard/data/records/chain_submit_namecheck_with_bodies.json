@@ -1,0 +1,82 @@
+{
+  "started_at": "2026-04-16 00:58:22",
+  "steps": [
+    {
+      "step": "before",
+      "data": {
+        "hash": "#/flow/base/name-check-info",
+        "errors": []
+      }
+    },
+    {
+      "step": "invoke_chain",
+      "data": {
+        "ok": true,
+        "trace": [
+          [
+            "ui_sync",
+            {
+              "namePre": "广西南宁",
+              "nameMark": "智信五金",
+              "industrySpecial": "贸易",
+              "organizeText": "802（个人独资）",
+              "selectedName": "广西南宁智信五金贸易802（个人独资）"
+            }
+          ],
+          [
+            "form_snapshot",
+            {
+              "namePre": "广西南宁",
+              "nameMark": "智信五金",
+              "industrySpecial": "贸易",
+              "mainBusinessDesc": "贸易",
+              "industry": "5299",
+              "industryId": "5299",
+              "organize": "802",
+              "name": "广西南宁智信五金贸易802（个人独资）"
+            }
+          ],
+          [
+            "getFormPromise",
+            "resolved"
+          ],
+          [
+            "nameCheckRepeat_err",
+            {
+              "msg": "[object Object]",
+              "code": "A0002"
+            }
+          ],
+          [
+            "click_ok"
+          ],
+          [
+            "flowSave_err",
+            {
+              "msg": "TypeError: Cannot read properties of undefined (reading 'success')",
+              "message": "Cannot read properties of undefined (reading 'success')"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "step": "network",
+      "data": {
+        "reqs": [],
+        "resps": []
+      }
+    },
+    {
+      "step": "after",
+      "data": {
+        "hash": "#/flow/base/name-check-info",
+        "errors": [
+          "您好，由于系统服务出现异常，请勿多次重复提交，耐心等待片刻再重新尝试，如果问题仍然存在，请联系登记机关寻求帮助。"
+        ],
+        "hasYunbangban": false
+      }
+    }
+  ],
+  "ended_at": "2026-04-16 00:58:32"
+}

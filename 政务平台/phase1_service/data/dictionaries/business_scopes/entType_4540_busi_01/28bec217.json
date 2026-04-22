@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C1433",
+        "saveHyCode": "1433",
+        "hyPecul": "方便面制造",
+        "hyTypeName": "方便面制造",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列方便面制造活动：",
+        "includes": "各类方便面食品；各类干吃面食品。",
+        "unIncludes": "不包括：方便汤料的制作，列入1469（其他调味品、发酵制品制造）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "方便面",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema": "ufo.census_run_record.v1",
+  "title": "一次真实普查/演练的人工归档模板（复制后改名，勿当 git 机密提交）",
+  "run_id": "00000000-0000-0000-0000-000000000000",
+  "wall_clock": {
+    "started_at": "2026-04-19 12:00:00",
+    "ended_at": "2026-04-19 12:45:00",
+    "operator": "local"
+  },
+  "environment": {
+    "host": "9087",
+    "browser": "Chrome Dev CDP",
+    "login_method": "扫码/账号（不写入本文件明文口令）",
+    "network_note": "直连 / 代理 / 政务外网"
+  },
+  "matrix_axes": {
+    "busi_type": "02_4",
+    "ent_type": "1100",
+    "entry_path": "portal_设立 | name-register_guide_base | 办件继续办理 | core_resume",
+    "namecheck_outcome": "通过 | 阻断 | 未测"
+  },
+  "artifacts": {
+    "packet_chain_json": "dashboard/data/records/packet_chain_portal_from_start.json",
+    "screenshots_dir": "dashboard/data/records/packet_chain_shots/",
+    "mitm_tail_lines": "optional: jsonl line range"
+  },
+  "observed_issues": [
+    {
+      "id": "ISS-001",
+      "severity": "blocker|degraded|cosmetic",
+      "where": "URL hash / 步骤名 / 接口 path",
+      "symptom": "界面或接口现象（原文摘要）",
+      "evidence": "截图文件名或 JSON 路径 + 字段",
+      "likely_cause": "推测（待验证）",
+      "workaround": "人工或脚本权宜",
+      "follow_up": "是否已记入 §6.2 / §7 死角清单"
+    }
+  ],
+  "interfaces_touched": [
+    {
+      "method": "POST",
+      "path_fragment": "/icpsp-api/...",
+      "code_seen": "00000",
+      "note": "与页面是否一致"
+    }
+  ],
+  "conclusion": {
+    "census_cell_closed": false,
+    "next_matrix_cells": ["4540+02_4", "变更登记入口", "…"]
+  }
+}

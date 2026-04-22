@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C2821",
+        "saveHyCode": "2821",
+        "hyPecul": "合成纤维制造",
+        "hyTypeName": "锦纶纤维制造",
+        "enHyTypeName": null,
+        "explains": "也称聚酰胺纤维，指由尼龙66盐和聚己内酰胺为主要原料生产合成纤维的活动。",
+        "includesTitle": "包括对下列锦纶纤维的制造活动：",
+        "includes": "锦纶纤维：锦纶短纤维、锦纶长丝（锦纶高强力丝、锦纶纤维长丝单丝、其他锦纶长丝）、综丝；锦纶加工丝：锦纶弹力丝、锦纶纤维长丝变形纱线（异型纤维）、其他锦纶加工丝。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "合成纤维",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

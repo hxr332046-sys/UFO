@@ -1,0 +1,233 @@
+{
+  "started_at": "2026-04-14 18:57:36",
+  "steps": [
+    {
+      "step": "snap_0",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info",
+        "hash": "#/flow/base/name-check-info",
+        "title": "广西经营主体登记平台",
+        "forms": 10,
+        "buttons": [
+          {
+            "text": "上一步",
+            "disabled": false,
+            "cls": "el-button el-button--primary is-plain"
+          },
+          {
+            "text": "保存并下一步",
+            "disabled": false,
+            "cls": "el-button el-button--primary"
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "step": "click_0",
+      "data": {
+        "clicked": true,
+        "text": "保存并下一步",
+        "priority": "下一步"
+      }
+    },
+    {
+      "step": "snap_1",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info",
+        "hash": "#/flow/base/name-check-info",
+        "title": "广西经营主体登记平台",
+        "forms": 10,
+        "buttons": [
+          {
+            "text": "上一步",
+            "disabled": false,
+            "cls": "el-button el-button--primary is-plain"
+          },
+          {
+            "text": "保存并下一步",
+            "disabled": true,
+            "cls": "el-button el-button--primary is-loading"
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "step": "click_1",
+      "data": {
+        "clicked": false
+      }
+    },
+    {
+      "step": "snap_2",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info",
+        "hash": "#/flow/base/name-check-info",
+        "title": "广西经营主体登记平台",
+        "forms": 10,
+        "buttons": [
+          {
+            "text": "上一步",
+            "disabled": false,
+            "cls": "el-button el-button--primary is-plain"
+          },
+          {
+            "text": "保存并下一步",
+            "disabled": true,
+            "cls": "el-button el-button--primary is-loading"
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "step": "click_2",
+      "data": {
+        "clicked": false
+      }
+    },
+    {
+      "step": "snap_3",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info",
+        "hash": "#/flow/base/name-check-info",
+        "title": "广西经营主体登记平台",
+        "forms": 10,
+        "buttons": [
+          {
+            "text": "上一步",
+            "disabled": false,
+            "cls": "el-button el-button--primary is-plain"
+          },
+          {
+            "text": "保存并下一步",
+            "disabled": true,
+            "cls": "el-button el-button--primary is-loading"
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "step": "click_3",
+      "data": {
+        "clicked": false
+      }
+    },
+    {
+      "step": "snap_4",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info",
+        "hash": "#/flow/base/name-check-info",
+        "title": "广西经营主体登记平台",
+        "forms": 10,
+        "buttons": [
+          {
+            "text": "上一步",
+            "disabled": false,
+            "cls": "el-button el-button--primary is-plain"
+          },
+          {
+            "text": "保存并下一步",
+            "disabled": true,
+            "cls": "el-button el-button--primary is-loading"
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "step": "click_4",
+      "data": {
+        "clicked": false
+      }
+    },
+    {
+      "step": "snap_5",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info",
+        "hash": "#/flow/base/name-check-info",
+        "title": "广西经营主体登记平台",
+        "forms": 10,
+        "buttons": [
+          {
+            "text": "上一步",
+            "disabled": false,
+            "cls": "el-button el-button--primary is-plain"
+          },
+          {
+            "text": "保存并下一步",
+            "disabled": true,
+            "cls": "el-button el-button--primary is-loading"
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "step": "click_5",
+      "data": {
+        "clicked": false
+      }
+    },
+    {
+      "step": "snap_6",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info",
+        "hash": "#/flow/base/name-check-info",
+        "title": "广西经营主体登记平台",
+        "forms": 10,
+        "buttons": [
+          {
+            "text": "上一步",
+            "disabled": false,
+            "cls": "el-button el-button--primary is-plain"
+          },
+          {
+            "text": "保存并下一步",
+            "disabled": true,
+            "cls": "el-button el-button--primary is-loading"
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "step": "click_6",
+      "data": {
+        "clicked": false
+      }
+    },
+    {
+      "step": "snap_7",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info",
+        "hash": "#/flow/base/name-check-info",
+        "title": "广西经营主体登记平台",
+        "forms": 10,
+        "buttons": [
+          {
+            "text": "上一步",
+            "disabled": false,
+            "cls": "el-button el-button--primary is-plain"
+          },
+          {
+            "text": "保存并下一步",
+            "disabled": true,
+            "cls": "el-button el-button--primary is-loading"
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "step": "click_7",
+      "data": {
+        "clicked": false
+      }
+    }
+  ],
+  "start_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info",
+  "reached_basic_info": false
+}

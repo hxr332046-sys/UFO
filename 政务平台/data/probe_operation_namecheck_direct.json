@@ -1,0 +1,68 @@
+{
+  "steps": [
+    {
+      "step": "S1_call_operation_namecheck",
+      "data": {
+        "ok": false,
+        "err": "[object Object]",
+        "err_json": "{\"timestamp\":1776220923074,\"status\":404,\"error\":\"Not Found\",\"path\":\"/icpsp-api/v4/pc/register/establish/component/NameCheckInfo/operationBusinessDataInfo\"}",
+        "err_keys": [
+          "timestamp",
+          "status",
+          "error",
+          "path"
+        ],
+        "err_data": null,
+        "err_msg": null,
+        "localFlowData": {
+          "busiId": null,
+          "entType": "4540",
+          "busiType": "02",
+          "ywlbSign": null,
+          "busiMode": null,
+          "nameId": "2044022870006435841",
+          "marPrId": null,
+          "secondId": null,
+          "vipChannel": null,
+          "currCompUrl": "OpManyAddress",
+          "status": "10",
+          "matterCode": null,
+          "interruptControl": null
+        },
+        "localPath": [
+          {
+            "compUrl": "BasicInfo",
+            "id": ""
+          }
+        ]
+      }
+    },
+    {
+      "step": "S2_after_state",
+      "data": {
+        "hash": "#/flow/base/basic-info",
+        "flowData": {
+          "busiId": null,
+          "entType": "4540",
+          "busiType": "02",
+          "ywlbSign": null,
+          "busiMode": null,
+          "nameId": "2044022870006435841",
+          "marPrId": null,
+          "secondId": null,
+          "vipChannel": null,
+          "currCompUrl": "OpManyAddress",
+          "status": "10",
+          "matterCode": null,
+          "interruptControl": null
+        },
+        "busiCompUrlPaths": [
+          {
+            "compUrl": "BasicInfo",
+            "id": ""
+          }
+        ]
+      }
+    }
+  ]
+}

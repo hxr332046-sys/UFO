@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "N7640",
+        "saveHyCode": "7640",
+        "hyPecul": "水文服务",
+        "hyTypeName": "水文服务",
+        "enHyTypeName": null,
+        "explains": "指通过布设水文站网，对水的时空分布规律进行监测、收集和分析处理的活动。",
+        "includesTitle": "包括下列水文服务活动：",
+        "includes": "水文水资源监测服务；水文水资源情报预报服务；水文分析与计算服务；水资源调查评价服务。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "水文",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

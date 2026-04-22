@@ -1,0 +1,37 @@
+{
+  "started_at": "2026-04-20 20:28:24",
+  "input": "G:\\UFO\\政务平台\\dashboard\\data\\records\\auto_pick_enterprise_continue.json",
+  "steps": [
+    {
+      "step": "nav",
+      "data": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base?busiId=2045528623080214529&busiType=02_4&entType=4540&marPrId=&marUniscId=&nameId=2045528111915454466"
+    },
+    {
+      "step": "after",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/ybb-select",
+        "hash": "#/flow/base/ybb-select",
+        "title": "广西经营主体登记平台",
+        "hasCore": true,
+        "body": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 陈飞李（广西容县）食品市（个人独资） 1 名称信息 2 信息填报 3 信息确认 4 信息预审 5 电子签章 6 信息审核 7 告知书 8 营业执照 1. 基本信息 2. 成员架构 3. 成员信息 4. 补充信息 5. 税务信息填报 6. 材料补充 7. 营业执照领取 8. 云帮办流程模式选择 云帮办流程模式选择 选择一般流程办理 先签名后确认 企业 申请人填写电子材料 企业 进行电子签名并提交 市监 工作人员对材料进行确认 市监 反馈确认结果，需补"
+      }
+    }
+  ],
+  "route_obj": {
+    "project": "core",
+    "path": "/flow/base",
+    "params": {
+      "busiId": "2045528623080214529",
+      "busiType": "02_4",
+      "entType": "4540",
+      "marPrId": "",
+      "marUniscId": "",
+      "nameId": "2045528111915454466"
+    },
+    "target": "_blank",
+    "source": "NEWICPSP"
+  },
+  "built_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base?busiId=2045528623080214529&busiType=02_4&entType=4540&marPrId=&marUniscId=&nameId=2045528111915454466",
+  "picked_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fybb-select",
+  "ended_at": "2026-04-20 20:28:30"
+}

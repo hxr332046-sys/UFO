@@ -1,0 +1,77 @@
+{
+  "steps": [
+    {
+      "step": "S0_pick_page",
+      "data": {
+        "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/basic-info"
+      }
+    },
+    {
+      "step": "S1_install_probe_init",
+      "data": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/basic-info",
+        "hash": "#/flow/base/basic-info"
+      }
+    },
+    {
+      "step": "S2_goto_portal",
+      "data": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info"
+    },
+    {
+      "step": "S3_install_probe_portal",
+      "data": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+        "hash": "#/index/page?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info"
+      }
+    },
+    {
+      "step": "S4_push_enterprise_zone",
+      "data": {
+        "ok": true,
+        "hash": "#/index/page?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info"
+      }
+    },
+    {
+      "step": "S5_click_start",
+      "data": {
+        "ok": true,
+        "text": "开始办理"
+      }
+    },
+    {
+      "step": "S6_probe_after_start",
+      "data": null
+    },
+    {
+      "step": "S7_to_not_name",
+      "data": {
+        "ok": true,
+        "hash": "#/index/without-name?entType=1100"
+      }
+    },
+    {
+      "step": "S8_probe_after_not_name",
+      "data": null
+    },
+    {
+      "step": "S9_next_btn",
+      "data": {
+        "ok": true,
+        "hash": "#/index/enterprise/establish?busiType=02&entType=1100"
+      }
+    },
+    {
+      "step": "S10_probe_after_next",
+      "data": null
+    },
+    {
+      "step": "S11_final_state",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/basic-info",
+        "hash": "#/flow/base/basic-info"
+      }
+    }
+  ]
+}

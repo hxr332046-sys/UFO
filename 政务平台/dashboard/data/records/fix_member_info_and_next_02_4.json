@@ -1,0 +1,68 @@
+{
+  "started_at": "2026-04-14 21:05:25",
+  "steps": [
+    {
+      "step": "S1_start",
+      "data": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/submit-success"
+    },
+    {
+      "step": "S2_fill_member",
+      "data": {
+        "name": {
+          "ok": false,
+          "label": "成员名称"
+        },
+        "idNo": {
+          "ok": false,
+          "label": "证件号码"
+        },
+        "nation": {
+          "ok": false,
+          "label": "民族"
+        },
+        "birth": {
+          "ok": false,
+          "label": "出生日期"
+        },
+        "organ": {
+          "ok": false,
+          "label": "发证机关"
+        },
+        "validStart": {
+          "ok": false,
+          "label": "证件有效期起"
+        },
+        "addr": {
+          "ok": false,
+          "label": "住址"
+        }
+      }
+    },
+    {
+      "step": "S3_click_member_confirm",
+      "data": {
+        "clicked": false
+      }
+    },
+    {
+      "step": "S4_click_save_next",
+      "data": {
+        "clicked": false
+      }
+    },
+    {
+      "step": "S5_after",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/submit-success",
+        "hash": "#/flow/base/submit-success",
+        "errors": [],
+        "buttons": [
+          {
+            "text": "上一步",
+            "disabled": false
+          }
+        ]
+      }
+    }
+  ]
+}

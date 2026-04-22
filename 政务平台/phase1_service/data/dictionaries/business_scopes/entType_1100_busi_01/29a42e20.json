@@ -1,0 +1,15 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": []
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "其他电池",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

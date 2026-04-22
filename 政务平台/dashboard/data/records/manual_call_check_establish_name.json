@@ -1,0 +1,61 @@
+{
+  "started_at": "2026-04-20 20:21:08",
+  "steps": [
+    {
+      "step": "call",
+      "data": {
+        "payload": {
+          "nameCode": "0",
+          "havaAdress": "1",
+          "distCode": "450921",
+          "streetCode": "450921",
+          "streetName": "容县",
+          "detAddress": "容州镇车站西路富盛广场1幢3203号房",
+          "address": "容县",
+          "rcMoneyKindCode": null,
+          "isnameType": "0",
+          "choiceName": "0",
+          "gainError": "1",
+          "entType": "1100",
+          "busiType": "02_4",
+          "marPrId": "",
+          "marUniscId": ""
+        },
+        "routeQuery": {
+          "busiType": "02_4",
+          "entType": "1100",
+          "marPrId": "",
+          "marUniscId": ""
+        },
+        "hasApi": true,
+        "ok": false,
+        "err": "[object Object]",
+        "err_json": "{\"code\":\"A0002\",\"data\":null,\"msg\":\"服务端异常\",\"page\":null}"
+      }
+    },
+    {
+      "step": "manual_jump_core",
+      "data": {
+        "ok": true,
+        "params": {
+          "busiType": "02_4",
+          "extra": "guideData",
+          "vipChannel": null,
+          "ywlbSign": "",
+          "busiId": "",
+          "extraDto": "{\"extraDto\":{\"nameCode\":\"0\",\"havaAdress\":\"1\",\"distCode\":\"450921\",\"streetCode\":\"450921\",\"streetName\":\"容县\",\"detAddress\":\"容州镇车站西路富盛广场1幢3203号房\",\"address\":\"容县\",\"rcMoneyKindCode\":null,\"isnameType\":\"0\",\"choiceName\":\"0\"}}"
+        }
+      }
+    },
+    {
+      "step": "after",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase",
+        "hash": "#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase",
+        "title": "广西经营主体登记平台",
+        "text": "广西数字政务一体化平台\n首页\n全部服务\n**裕 \n办件中心\n长辈模式\n黄永裕已认证\n我的企业(2)\n证件号码：\n450921198812051251\n|\n联系电话：\n18977514335\n|\n电子邮箱：\n我的办件\n我的签名\n我代理的经营主体\n 消息中心\n办理时间\n\t\n企业名称\n\t\n办理事项\n\t\n当前状态\n\t\n操作\n2026-04-18\n23:43:22\n\t\n陈飞李（广西容县）食品市（个人独资）\n\t\n企业开办\n\t\n填写中\n\t\n 继续办理 删除\n\n\n2026-04-03\n17:54:48\n\t\n广西星彤创科技有限公司\n"
+      }
+    }
+  ],
+  "ended_at": "2026-04-20 20:21:14"
+}

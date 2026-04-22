@@ -1,0 +1,91 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C1392",
+        "saveHyCode": "1392",
+        "hyPecul": "豆制品",
+        "hyTypeName": "豆制品制造",
+        "enHyTypeName": null,
+        "explains": "指以大豆、小豆、绿豆、豌豆、蚕豆等豆类为主要原料，经加工制成食品的活动。",
+        "includesTitle": "包括对下列豆制品的制造活动：",
+        "includes": "水豆腐：盒包装水豆腐、散装水豆腐；豆制品：干豆腐制品，油炸、卤制豆腐制品，豆腐乳，其他豆制品；豆浆及豆浆粉：鲜豆浆、豆浆粉。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "C1392",
+        "saveHyCode": "1392",
+        "hyPecul": "豆制品制造",
+        "hyTypeName": "豆制品制造",
+        "enHyTypeName": null,
+        "explains": "指以大豆、小豆、绿豆、豌豆、蚕豆等豆类为主要原料，经加工制成食品的活动。",
+        "includesTitle": "包括对下列豆制品的制造活动：",
+        "includes": "水豆腐：盒包装水豆腐、散装水豆腐；豆制品：干豆腐制品，油炸、卤制豆腐制品，豆腐乳，其他豆制品；豆浆及豆浆粉：鲜豆浆、豆浆粉。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "C1392",
+        "saveHyCode": "1392",
+        "hyPecul": "豆制品加工",
+        "hyTypeName": "豆制品制造",
+        "enHyTypeName": null,
+        "explains": "指以大豆、小豆、绿豆、豌豆、蚕豆等豆类为主要原料，经加工制成食品的活动。",
+        "includesTitle": "包括对下列豆制品的制造活动：",
+        "includes": "水豆腐：盒包装水豆腐、散装水豆腐；豆制品：干豆腐制品，油炸、卤制豆腐制品，豆腐乳，其他豆制品；豆浆及豆浆粉：鲜豆浆、豆浆粉。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "F5129",
+        "saveHyCode": "5129",
+        "hyPecul": "豆制品批发",
+        "hyTypeName": "其他食品批发",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列其他食品的批发活动：",
+        "includes": "奶制品批发和进出口：奶油批发和进出口、黄油批发和进出口、奶酪批发和进出口、干酪批发和进出口、其他奶制品批发和进出口；综合经营食品、饮料、烟草的批发和进出口；其他未列明食品批发和进出口。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "F5129",
+        "saveHyCode": "5129",
+        "hyPecul": "豆制品销售",
+        "hyTypeName": "其他食品批发",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列其他食品的批发活动：",
+        "includes": "奶制品批发和进出口：奶油批发和进出口、黄油批发和进出口、奶酪批发和进出口、干酪批发和进出口、其他奶制品批发和进出口；综合经营食品、饮料、烟草的批发和进出口；其他未列明食品批发和进出口。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "豆制品",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

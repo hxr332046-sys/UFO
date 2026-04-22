@@ -1,0 +1,1367 @@
+{
+  "started_at": "2026-04-16 01:44:10",
+  "iterations": [
+    {
+      "i": 0,
+      "page": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "nav_guide": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "probe": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "calls": [
+          {
+            "name": "getOrganizeList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "GS52011001A0015",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkNamePrefixList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "preCheckCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "generateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "startGenerateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyNameRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyInfoRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "saveNameMarkInfo",
+            "ok": false,
+            "err": "[object Object]",
+            "data": "undefined",
+            "resp": "undefined"
+          }
+        ],
+        "hits": [],
+        "picked": null
+      }
+    },
+    {
+      "i": 1,
+      "page": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "nav_guide": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "probe": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "calls": [
+          {
+            "name": "getOrganizeList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "GS52011001A0015",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkNamePrefixList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "preCheckCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "generateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "startGenerateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyNameRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyInfoRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "saveNameMarkInfo",
+            "ok": false,
+            "err": "[object Object]",
+            "data": "undefined",
+            "resp": "undefined"
+          }
+        ],
+        "hits": [],
+        "picked": null
+      }
+    },
+    {
+      "i": 2,
+      "page": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "nav_guide": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "probe": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "calls": [
+          {
+            "name": "getOrganizeList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "GS52011001A0015",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkNamePrefixList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "preCheckCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "generateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "startGenerateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyNameRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyInfoRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "saveNameMarkInfo",
+            "ok": false,
+            "err": "[object Object]",
+            "data": "undefined",
+            "resp": "undefined"
+          }
+        ],
+        "hits": [],
+        "picked": null
+      }
+    },
+    {
+      "i": 3,
+      "page": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "nav_guide": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "probe": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "calls": [
+          {
+            "name": "getOrganizeList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "GS52011001A0015",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkNamePrefixList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "preCheckCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "generateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "startGenerateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyNameRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyInfoRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "saveNameMarkInfo",
+            "ok": false,
+            "err": "[object Object]",
+            "data": "undefined",
+            "resp": "undefined"
+          }
+        ],
+        "hits": [],
+        "picked": null
+      }
+    },
+    {
+      "i": 4,
+      "page": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "nav_guide": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "probe": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "calls": [
+          {
+            "name": "getOrganizeList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "GS52011001A0015",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkNamePrefixList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "preCheckCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "generateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "startGenerateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyNameRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyInfoRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "saveNameMarkInfo",
+            "ok": false,
+            "err": "[object Object]",
+            "data": "undefined",
+            "resp": "undefined"
+          }
+        ],
+        "hits": [],
+        "picked": null
+      }
+    },
+    {
+      "i": 5,
+      "page": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "nav_guide": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "probe": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "calls": [
+          {
+            "name": "getOrganizeList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "GS52011001A0015",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkNamePrefixList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "preCheckCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "generateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "startGenerateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyNameRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyInfoRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "saveNameMarkInfo",
+            "ok": false,
+            "err": "[object Object]",
+            "data": "undefined",
+            "resp": "undefined"
+          }
+        ],
+        "hits": [],
+        "picked": null
+      }
+    },
+    {
+      "i": 6,
+      "page": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "nav_guide": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "probe": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "calls": [
+          {
+            "name": "getOrganizeList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "GS52011001A0015",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkNamePrefixList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "preCheckCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "generateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "startGenerateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyNameRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyInfoRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "saveNameMarkInfo",
+            "ok": false,
+            "err": "[object Object]",
+            "data": "undefined",
+            "resp": "undefined"
+          }
+        ],
+        "hits": [],
+        "picked": null
+      }
+    },
+    {
+      "i": 7,
+      "page": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "nav_guide": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "probe": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "calls": [
+          {
+            "name": "getOrganizeList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "GS52011001A0015",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkNamePrefixList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "preCheckCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "generateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "startGenerateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyNameRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyInfoRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "saveNameMarkInfo",
+            "ok": false,
+            "err": "[object Object]",
+            "data": "undefined",
+            "resp": "undefined"
+          }
+        ],
+        "hits": [],
+        "picked": null
+      }
+    },
+    {
+      "i": 8,
+      "page": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "nav_guide": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "probe": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "calls": [
+          {
+            "name": "getOrganizeList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "GS52011001A0015",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkNamePrefixList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "preCheckCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "generateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "startGenerateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyNameRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyInfoRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "saveNameMarkInfo",
+            "ok": false,
+            "err": "[object Object]",
+            "data": "undefined",
+            "resp": "undefined"
+          }
+        ],
+        "hits": [],
+        "picked": null
+      }
+    },
+    {
+      "i": 9,
+      "page": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "nav_guide": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "probe": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "calls": [
+          {
+            "name": "getOrganizeList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "GS52011001A0015",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkNamePrefixList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "preCheckCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "generateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "startGenerateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyNameRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyInfoRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "saveNameMarkInfo",
+            "ok": false,
+            "err": "[object Object]",
+            "data": "undefined",
+            "resp": "undefined"
+          }
+        ],
+        "hits": [],
+        "picked": null
+      }
+    },
+    {
+      "i": 10,
+      "page": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "nav_guide": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "probe": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "calls": [
+          {
+            "name": "getOrganizeList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "GS52011001A0015",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkNamePrefixList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "preCheckCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "generateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "startGenerateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyNameRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyInfoRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "saveNameMarkInfo",
+            "ok": false,
+            "err": "[object Object]",
+            "data": "undefined",
+            "resp": "undefined"
+          }
+        ],
+        "hits": [],
+        "picked": null
+      }
+    },
+    {
+      "i": 11,
+      "page": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "nav_guide": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "probe": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "calls": [
+          {
+            "name": "getOrganizeList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "GS52011001A0015",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkNamePrefixList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "preCheckCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "generateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "startGenerateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyNameRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyInfoRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "saveNameMarkInfo",
+            "ok": false,
+            "err": "[object Object]",
+            "data": "undefined",
+            "resp": "undefined"
+          }
+        ],
+        "hits": [],
+        "picked": null
+      }
+    },
+    {
+      "i": 12,
+      "page": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "nav_guide": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "probe": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "calls": [
+          {
+            "name": "getOrganizeList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "GS52011001A0015",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkNamePrefixList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "preCheckCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "generateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "startGenerateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyNameRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyInfoRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "saveNameMarkInfo",
+            "ok": false,
+            "err": "[object Object]",
+            "data": "undefined",
+            "resp": "undefined"
+          }
+        ],
+        "hits": [],
+        "picked": null
+      }
+    },
+    {
+      "i": 13,
+      "page": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "nav_guide": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "probe": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "calls": [
+          {
+            "name": "getOrganizeList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "GS52011001A0015",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkNamePrefixList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "preCheckCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "generateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "startGenerateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyNameRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyInfoRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "saveNameMarkInfo",
+            "ok": false,
+            "err": "[object Object]",
+            "data": "undefined",
+            "resp": "undefined"
+          }
+        ],
+        "hits": [],
+        "picked": null
+      }
+    },
+    {
+      "i": 14,
+      "page": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "nav_guide": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "probe": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "calls": [
+          {
+            "name": "getOrganizeList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "GS52011001A0015",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkNamePrefixList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "preCheckCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "generateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "startGenerateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyNameRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyInfoRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "saveNameMarkInfo",
+            "ok": false,
+            "err": "[object Object]",
+            "data": "undefined",
+            "resp": "undefined"
+          }
+        ],
+        "hits": [],
+        "picked": null
+      }
+    },
+    {
+      "i": 15,
+      "page": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "nav_guide": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "probe": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "calls": [
+          {
+            "name": "getOrganizeList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "GS52011001A0015",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkNamePrefixList",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "preCheckCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "checkCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "generateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "startGenerateCompanyName",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "A0002",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyNameRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "getGenerateCompanyInfoRedis",
+            "ok": false,
+            "err": "[object Object]",
+            "code": "C0400",
+            "data": null,
+            "resp": "undefined"
+          },
+          {
+            "name": "saveNameMarkInfo",
+            "ok": false,
+            "err": "[object Object]",
+            "data": "undefined",
+            "resp": "undefined"
+          }
+        ],
+        "hits": [],
+        "picked": null
+      }
+    }
+  ],
+  "result": "running",
+  "updated_at": "2026-04-16 01:47:06"
+}

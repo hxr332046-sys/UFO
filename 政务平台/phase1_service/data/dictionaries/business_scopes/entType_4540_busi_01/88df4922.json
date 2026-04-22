@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C2750",
+        "saveHyCode": "2750",
+        "hyPecul": "生物药品",
+        "hyTypeName": "兽用药品制造",
+        "enHyTypeName": null,
+        "explains": "指用于动物疾病防治医药的制造。",
+        "includesTitle": "包括对下列兽用药品的制造活动：",
+        "includes": "兽用化学药品：兽用抗菌素药品、含有奎宁及其盐的兽用药品、含有磺胺兽用药品、其他兽用化学药品；兽用中草药；兽用疫苗。",
+        "unIncludes": "不包括：饲料添加剂（促生长剂）的生产，列入1495（食品及饲料添加剂制造）。",
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "生物药品",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

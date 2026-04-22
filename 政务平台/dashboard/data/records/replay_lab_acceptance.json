@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "name": "defaults",
+      "ok": true,
+      "skip": 308
+    },
+    {
+      "name": "load",
+      "ok": true,
+      "count": 5
+    },
+    {
+      "name": "replay_one",
+      "ok": true,
+      "status": 200
+    },
+    {
+      "name": "replay_all_3",
+      "ok": true,
+      "count": 3
+    }
+  ],
+  "overall": true
+}

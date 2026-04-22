@@ -1,0 +1,14 @@
+{"ts": "2026-04-21 22:10:45", "step": "init", "status": "OK", "detail": "href=https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="}
+{"ts": "2026-04-21 22:10:47", "step": "ent_type", "status": "attempt", "detail": "clicking 全部企业类型"}
+{"ts": "2026-04-21 22:10:50", "step": "ent_type", "status": "attempt", "detail": "clicking 个人独资企业"}
+{"ts": "2026-04-21 22:10:51", "step": "ent_type_verify", "status": "OK", "detail": "found"}
+{"ts": "2026-04-21 22:10:54", "step": "name_status", "status": "attempt", "detail": "clicking 未申请"}
+{"ts": "2026-04-21 22:10:55", "step": "name_status_verify", "status": "OK", "detail": "found"}
+{"ts": "2026-04-21 22:10:57", "step": "district_set", "status": "OK", "detail": "{\"status\":\"set_ok\",\"before\":\"{}\",\"after\":\"{\\\"distCode\\\":\\\"450921\\\",\\\"distCodeArr\\\":[\\\"450000\\\",\\\"450900\\\",\\\"450921\\\"],\\\"address\\\":\\\"广西壮族自治区玉林市容县\\\"}\"}"}
+{"ts": "2026-04-21 22:10:59", "step": "district_verify", "status": "WARN", "detail": "not_found"}
+{"ts": "2026-04-21 22:11:02", "step": "click_next", "status": "attempt", "detail": "clicking 下一步"}
+{"ts": "2026-04-21 22:11:05", "step": "navigate_check_1", "status": "PENDING", "detail": "href=https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="}
+{"ts": "2026-04-21 22:11:08", "step": "navigate_check_2", "status": "PENDING", "detail": "href=https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="}
+{"ts": "2026-04-21 22:11:33", "step": "mitm_checkEstablishName", "status": "TIMEOUT", "detail": "not found in 25s"}
+{"ts": "2026-04-21 22:12:03", "step": "mitm_operationBusinessDataInfo", "status": "TIMEOUT", "detail": "not found in 30s"}
+{"ts": "2026-04-21 22:12:05", "step": "final", "status": "FAIL", "detail": "href=https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId= title=广西经营主体登记平台"}

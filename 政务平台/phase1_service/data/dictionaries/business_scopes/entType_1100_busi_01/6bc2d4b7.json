@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C2825",
+        "saveHyCode": "2825",
+        "hyPecul": "丙纶纤维制造",
+        "hyTypeName": "丙纶纤维制造",
+        "enHyTypeName": null,
+        "explains": "也称聚丙烯纤维，指以聚丙烯为主要原料生产合成纤维的活动。",
+        "includesTitle": "包括对下列丙纶纤维的制造活动：",
+        "includes": "丙纶纤维：丙纶短纤维、丙纶纤维长丝（丙纶高强力丝、丙纶长丝单丝）；丙纶纤维加工丝：丙纶弹力丝、丙纶长丝变形纱线、其他丙纶纤维加工丝。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "丙纶纤维",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

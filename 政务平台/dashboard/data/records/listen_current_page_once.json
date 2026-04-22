@@ -1,0 +1,38 @@
+{
+  "started_at": "2026-04-16 09:26:31",
+  "page": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info",
+  "steps": [
+    {
+      "step": "install_hook",
+      "data": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info"
+      }
+    },
+    {
+      "step": "observed",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info",
+        "changed": false,
+        "capCount": 2,
+        "last": [
+          {
+            "t": "xhr",
+            "m": "GET",
+            "u": "/icpsp-api/v4/pc/register/verifidata/bannedLexiconCalibration?t=1776302820045&nameMark=%E9%99%88%E9%A3%8E",
+            "body": "",
+            "ts": 1776302820045
+          },
+          {
+            "t": "xhr_end",
+            "u": "/icpsp-api/v4/pc/register/verifidata/bannedLexiconCalibration?t=1776302820045&nameMark=%E9%99%88%E9%A3%8E",
+            "status": 200,
+            "resp": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"success\":true,\"tipWay\":\"0\",\"tipStr\":null,\"bannedInfos\":null,\"hyBannedInfos\":null,\"tipKeyWords\":null,\"source\":\"local\",\"bannedLexiconInfo\":null}},\"msg\":\"操作成功\",\"page\":null}",
+            "ts": 1776302820179
+          }
+        ]
+      }
+    }
+  ],
+  "ended_at": "2026-04-16 09:27:00"
+}

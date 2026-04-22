@@ -1,0 +1,32 @@
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 虚拟环境
+.venv*/
+
+# 运行时敏感文件（含 token / cookies）
+packet_lab/out/runtime_auth_headers.json
+packet_lab/out/http_session_cookies.pkl
+packet_lab/out/login_qrcode.png
+data/tokens.json
+
+# 凭据
+config/credentials.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# 日志
+*.log
+
+# 大文件（超 GitHub 100MB 限制）
+*.sqlite
+*.sqlite3
+
+# 系统文件
+Thumbs.db
+.DS_Store

@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "G5952",
+        "saveHyCode": "5952",
+        "hyPecul": "棉花仓储",
+        "hyTypeName": "棉花仓储",
+        "enHyTypeName": null,
+        "explains": "指棉花加工厂仓储、中转仓储、棉花专业仓储、棉花物流配送活动，还包括在棉花仓储、物流配送过程中的棉花信息化管理活动。",
+        "includesTitle": "包括下列棉花仓储活动：",
+        "includes": "各类棉花仓储服务。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "棉花仓储",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

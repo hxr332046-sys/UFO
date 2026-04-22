@@ -1,0 +1,61 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "O8053",
+        "saveHyCode": "8053",
+        "hyPecul": "养生保健",
+        "hyTypeName": "养生保健服务",
+        "enHyTypeName": null,
+        "explains": "指中医养生保健（非医疗）和其他专业养生保健等服务。",
+        "includesTitle": "包括下列养生保健服务活动：",
+        "includes": "保健减肥服务；保健按摩服务；汗蒸服务；其他健康保健服务。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "O8053",
+        "saveHyCode": "8053",
+        "hyPecul": "中医养生保健",
+        "hyTypeName": "养生保健服务",
+        "enHyTypeName": null,
+        "explains": "指中医养生保健（非医疗）和其他专业养生保健等服务。",
+        "includesTitle": "包括下列养生保健服务活动：",
+        "includes": "保健减肥服务；保健按摩服务；汗蒸服务；其他健康保健服务。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "O8053",
+        "saveHyCode": "8053",
+        "hyPecul": "养生保健服务",
+        "hyTypeName": "养生保健服务",
+        "enHyTypeName": null,
+        "explains": "指中医养生保健（非医疗）和其他专业养生保健等服务。",
+        "includesTitle": "包括下列养生保健服务活动：",
+        "includes": "保健减肥服务；保健按摩服务；汗蒸服务；其他健康保健服务。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "养生保健",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

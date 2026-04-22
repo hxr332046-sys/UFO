@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "Q8491",
+        "saveHyCode": "8491",
+        "hyPecul": "健康体检服务",
+        "hyTypeName": "健康体检服务",
+        "enHyTypeName": null,
+        "explains": "指通过医学手段和方法对受检者进行身体检查，了解受检者健康状况、早期发现疾病线索和健康隐患的诊疗行为。",
+        "includesTitle": "包括下列健康体检服务活动：",
+        "includes": "体检中心；其他体检机构。",
+        "unIncludes": "不包括：附属于医院的体检服务，列入841（医院）相关行业类别中。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "健康体检",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

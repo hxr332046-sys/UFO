@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "H6220",
+        "saveHyCode": "6220",
+        "hyPecul": "快餐服务",
+        "hyTypeName": "快餐服务",
+        "enHyTypeName": null,
+        "explains": "指在一定场所内提供快捷、便利的就餐服务。",
+        "includesTitle": "包括下列快餐服务：",
+        "includes": "中式快餐服务；外国快餐服务。",
+        "unIncludes": "不包括：各种特色小吃的餐饮服务（如清真小吃、四川小吃等），列入6291（小吃服务）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "快餐服务",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

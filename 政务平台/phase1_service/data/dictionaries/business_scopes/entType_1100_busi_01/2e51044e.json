@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "J6812",
+        "saveHyCode": "6812",
+        "hyPecul": "年金保险",
+        "hyTypeName": "年金保险",
+        "enHyTypeName": null,
+        "explains": "指以被保险人生存为给付保险金条件，并按约定的时间间隔分期给付生存保险金的人身保险。",
+        "includesTitle": "包括下列年金保险活动：",
+        "includes": "养老年金保险。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "年金保险",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

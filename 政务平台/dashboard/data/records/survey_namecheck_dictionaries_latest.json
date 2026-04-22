@@ -1,0 +1,25 @@
+{
+  "started_at": "2026-04-18 21:55:08",
+  "artifacts": {
+    "queryRegcodeAndStreet": {
+      "saved": "G:\\UFO\\政务平台\\dashboard\\data\\records\\dict_cache\\queryRegcodeAndStreet_20260418_215508.json"
+    },
+    "queryNameEntType": {
+      "saved": "G:\\UFO\\政务平台\\dashboard\\data\\records\\dict_cache\\queryNameEntType_type1_20260418_215508.json",
+      "saved2": "G:\\UFO\\政务平台\\dashboard\\data\\records\\dict_cache\\queryNameEntType_type2_20260418_215508.json"
+    },
+    "getAllIndustryTypeCode": {
+      "saved_1100": "G:\\UFO\\政务平台\\dashboard\\data\\records\\dict_cache\\getAllIndustryTypeCode_entType1100_range1_20260418_215508.json",
+      "saved_4540": "G:\\UFO\\政务平台\\dashboard\\data\\records\\dict_cache\\getAllIndustryTypeCode_entType4540_range1_20260418_215508.json"
+    },
+    "getOrganizeTypeCodeByEntTypeCircle": {
+      "saved_1100": "G:\\UFO\\政务平台\\dashboard\\data\\records\\dict_cache\\getOrganizeTypeCodeByEntTypeCircle_entType1100_20260418_215508.json",
+      "saved_4540": "G:\\UFO\\政务平台\\dashboard\\data\\records\\dict_cache\\getOrganizeTypeCodeByEntTypeCircle_entType4540_20260418_215508.json"
+    },
+    "queryNameEntTypeCfgByEntType": {
+      "saved_1100": "G:\\UFO\\政务平台\\dashboard\\data\\records\\dict_cache\\queryNameEntTypeCfgByEntType_1100_20260418_215508.json",
+      "saved_4540": "G:\\UFO\\政务平台\\dashboard\\data\\records\\dict_cache\\queryNameEntTypeCfgByEntType_4540_20260418_215508.json"
+    }
+  },
+  "ended_at": "2026-04-18 21:55:08"
+}

@@ -1,0 +1,571 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "name": "院",
+        "enName": null,
+        "code": "801",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "所",
+        "enName": null,
+        "code": "803",
+        "entType": "9600",
+        "entPro": "00",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "诊所",
+        "enName": null,
+        "code": "940",
+        "entType": "9600",
+        "entPro": "00",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "咖",
+        "enName": null,
+        "code": "942",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "楼",
+        "enName": null,
+        "code": "1016",
+        "entType": "9600",
+        "entPro": "01",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "家",
+        "enName": null,
+        "code": "1015",
+        "entType": "9600",
+        "entPro": "01",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "酒家",
+        "enName": null,
+        "code": "1014",
+        "entType": "9600",
+        "entPro": "01",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "市",
+        "enName": null,
+        "code": "997",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "室",
+        "enName": null,
+        "code": "666",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "俱乐部",
+        "enName": null,
+        "code": "100",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "酒店",
+        "enName": null,
+        "code": "101",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "酒吧",
+        "enName": null,
+        "code": "102",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "旅店",
+        "enName": null,
+        "code": "103",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "农家院",
+        "enName": null,
+        "code": "104",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "农场",
+        "enName": null,
+        "code": "105",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "农庄",
+        "enName": null,
+        "code": "106",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "影楼",
+        "enName": null,
+        "code": "107",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "工作室",
+        "enName": null,
+        "code": "108",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "队",
+        "enName": null,
+        "code": "109",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "超市",
+        "enName": null,
+        "code": "110",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "网店",
+        "enName": null,
+        "code": "111",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "家庭农场",
+        "enName": null,
+        "code": "112",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "部",
+        "enName": null,
+        "code": "113",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "店",
+        "enName": null,
+        "code": "71",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "铺",
+        "enName": null,
+        "code": "72",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "馆",
+        "enName": null,
+        "code": "73",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "坊",
+        "enName": null,
+        "code": "74",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "场",
+        "enName": null,
+        "code": "75",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "经营部",
+        "enName": null,
+        "code": "76",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "门市部",
+        "enName": null,
+        "code": "77",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "大药房",
+        "enName": null,
+        "code": "78",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "药房",
+        "enName": null,
+        "code": "79",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "药店",
+        "enName": null,
+        "code": "80",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "行",
+        "enName": null,
+        "code": "82",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "房",
+        "enName": null,
+        "code": "83",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "社",
+        "enName": null,
+        "code": "84",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "亭",
+        "enName": null,
+        "code": "85",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "网咖",
+        "enName": null,
+        "code": "86",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "处",
+        "enName": null,
+        "code": "87",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "厂",
+        "enName": null,
+        "code": "88",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "咖啡厅",
+        "enName": null,
+        "code": "89",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "咖啡店",
+        "enName": null,
+        "code": "90",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "中心",
+        "enName": null,
+        "code": "91",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "饭店",
+        "enName": null,
+        "code": "92",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "饭堂",
+        "enName": null,
+        "code": "93",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "吧",
+        "enName": null,
+        "code": "94",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "商行",
+        "enName": null,
+        "code": "95",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "商店",
+        "enName": null,
+        "code": "96",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "浴池",
+        "enName": null,
+        "code": "97",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "门诊部",
+        "enName": null,
+        "code": "99",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "府",
+        "enName": null,
+        "code": "901",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "服务部",
+        "enName": null,
+        "code": "902",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "铺",
+        "enName": null,
+        "code": "903",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "档",
+        "enName": null,
+        "code": "904",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "厅",
+        "enName": null,
+        "code": "905",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "堂",
+        "enName": null,
+        "code": "906",
+        "entType": "9600",
+        "entPro": "03",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null
+}

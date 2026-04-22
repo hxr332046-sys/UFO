@@ -1,0 +1,303 @@
+{
+  "started_at": "2026-04-20 20:13:49",
+  "run_id": "20260420_201349",
+  "shot_dir": "G:/UFO/政务平台/dashboard/data/records/adaptive_namecheck_shots/20260420_201349",
+  "start_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/company/my-space/space-index",
+  "steps": [
+    {
+      "i": 0,
+      "sig": "#/company/my-space/space-index||广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 黄永裕已认证 我的企业(2) 证",
+      "action": "continue_route",
+      "action_out": {
+        "ok": false,
+        "msg": "no_route_captured",
+        "captures": 4,
+        "attempts": [
+          {
+            "idx": 0,
+            "captures": 2,
+            "hasRoute": false,
+            "sample": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"id\":null,\"nameId\":null,\"topicisId\":null,\"marPrId\":null,\"entName\":null,\"busiType\":null,\"busiChildType\":null,\"ywlbSign\":null,\"legalName\":null,\"marUniscId\":null"
+          },
+          {
+            "idx": 1,
+            "captures": 2,
+            "hasRoute": false,
+            "sample": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"id\":null,\"nameId\":null,\"topicisId\":null,\"marPrId\":null,\"entName\":null,\"busiType\":null,\"busiChildType\":null,\"ywlbSign\":null,\"legalName\":null,\"marUniscId\":null"
+          }
+        ],
+        "samples": [
+          {
+            "u": "/icpsp-api/v4/pc/manager/mattermanager/matters/operate?t=1776687244792",
+            "s": 200,
+            "t": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"id\":null,\"nameId\":null,\"topicisId\":null,\"marPrId\":null,\"entName\":null,\"busiType\":null,\"busiChildType\":null,\"ywlbSign\":null,\"legalName\":null,\"marUniscId\":null,\"matterTypeCode\":null,\"matterTypeLangCode\":null,\"matterTypeName\":null,\"flowType\":null,\"matterStateCode\":null,\"matterStateLangCode\":null,\"matterStateName\":null,\"listMatterStateCode\":null,\"listMatterStateLangCode\":null,\"entType\":null,\"entTypeName\":null,\"regionCode\":null,\"regionName\":null,\"domDistrict\":null,\"domDistrictName\":null,\"areaCode\":null,\"areaCodeName\":null,\"createDate\":null,\"timestamp\":null,\"userId\":null,\"applyPerson\":null,\"regOrg\":null,\"regOrgName\":null,\"auditOrg\":null,\"auditOrgName\":null,\"toReason\":null,\"address\":null,\"deputyflag\":null,\"remark\":null,\"operBtns\":null"
+          },
+          {
+            "u": "/icpsp-api/v4/pc/manager/mattermanager/matters/operate?t=1776687244827",
+            "s": 200,
+            "t": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"id\":null,\"nameId\":null,\"topicisId\":null,\"marPrId\":null,\"entName\":null,\"busiType\":null,\"busiChildType\":null,\"ywlbSign\":null,\"legalName\":null,\"marUniscId\":null,\"matterTypeCode\":null,\"matterTypeLangCode\":null,\"matterTypeName\":null,\"flowType\":null,\"matterStateCode\":null,\"matterStateLangCode\":null,\"matterStateName\":null,\"listMatterStateCode\":null,\"listMatterStateLangCode\":null,\"entType\":null,\"entTypeName\":null,\"regionCode\":null,\"regionName\":null,\"domDistrict\":null,\"domDistrictName\":null,\"areaCode\":null,\"areaCodeName\":null,\"createDate\":null,\"timestamp\":null,\"userId\":null,\"applyPerson\":null,\"regOrg\":null,\"regOrgName\":null,\"auditOrg\":null,\"auditOrgName\":null,\"toReason\":null,\"address\":null,\"deputyflag\":null,\"remark\":null,\"operBtns\":null"
+          }
+        ]
+      },
+      "state_before": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/company/my-space/space-index",
+        "hash": "#/company/my-space/space-index",
+        "errors": [],
+        "hasYunbangban": false,
+        "hasNameCheck": false,
+        "hasGuide": false,
+        "hasMySpace": true,
+        "textHint": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 黄永裕已认证 我的企业(2) 证件号码： 450921198812051251 | 联系电话： 18977514335 | 电子邮箱： 我的办件 我的签名 我代理的经营主体 消息中心 办理时间 企业名称 办理事项 当前状态 操作 2026-04-18 23:43:22 陈飞李（广西容县）食品"
+      },
+      "state_after": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/company/my-space/space-index",
+        "hash": "#/company/my-space/space-index",
+        "errors": [],
+        "hasYunbangban": false,
+        "hasNameCheck": false,
+        "hasGuide": false,
+        "hasMySpace": true,
+        "textHint": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 黄永裕已认证 我的企业(2) 证件号码： 450921198812051251 | 联系电话： 18977514335 | 电子邮箱： 我的办件 我的签名 我代理的经营主体 消息中心 办理时间 企业名称 办理事项 当前状态 操作 2026-04-18 23:43:22 陈飞李（广西容县）食品"
+      },
+      "shot_before": {
+        "path": "G:/UFO/政务平台/dashboard/data/records/adaptive_namecheck_shots/20260420_201349/step_00_before.png",
+        "exists": true
+      },
+      "shot_after": {
+        "path": "G:/UFO/政务平台/dashboard/data/records/adaptive_namecheck_shots/20260420_201349/step_00_after.png",
+        "exists": true
+      }
+    },
+    {
+      "i": 1,
+      "sig": "#/company/my-space/space-index||广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 黄永裕已认证 我的企业(2) 证",
+      "action": "nav_core",
+      "action_out": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info",
+      "state_before": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/company/my-space/space-index",
+        "hash": "#/company/my-space/space-index",
+        "errors": [],
+        "hasYunbangban": false,
+        "hasNameCheck": false,
+        "hasGuide": false,
+        "hasMySpace": true,
+        "textHint": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 黄永裕已认证 我的企业(2) 证件号码： 450921198812051251 | 联系电话： 18977514335 | 电子邮箱： 我的办件 我的签名 我代理的经营主体 消息中心 办理时间 企业名称 办理事项 当前状态 操作 2026-04-18 23:43:22 陈飞李（广西容县）食品"
+      },
+      "state_after": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+        "hash": "#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+        "errors": [],
+        "hasYunbangban": false,
+        "hasNameCheck": true,
+        "hasGuide": false,
+        "hasMySpace": true,
+        "textHint": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 黄永裕已认证 我的企业(2) 证件号码： 450921198812051251 | 联系电话： 18977514335 | 电子邮箱： 我的办件 我的签名 我代理的经营主体 消息中心 办理时间 企业名称 办理事项 当前状态 操作 2026-04-18 23:43:22 陈飞李（广西容县）食品"
+      },
+      "shot_before": {
+        "path": "G:/UFO/政务平台/dashboard/data/records/adaptive_namecheck_shots/20260420_201349/step_01_before.png",
+        "exists": true
+      },
+      "shot_after": {
+        "path": "G:/UFO/政务平台/dashboard/data/records/adaptive_namecheck_shots/20260420_201349/step_01_after.png",
+        "exists": true
+      }
+    },
+    {
+      "i": 2,
+      "sig": "#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info||广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 黄永裕已认证 我的企业(2) 证",
+      "action": "continue_route",
+      "action_out": {
+        "ok": false,
+        "msg": "no_route_captured",
+        "captures": 4,
+        "attempts": [
+          {
+            "idx": 0,
+            "captures": 2,
+            "hasRoute": false,
+            "sample": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"id\":null,\"nameId\":null,\"topicisId\":null,\"marPrId\":null,\"entName\":null,\"busiType\":null,\"busiChildType\":null,\"ywlbSign\":null,\"legalName\":null,\"marUniscId\":null"
+          },
+          {
+            "idx": 1,
+            "captures": 2,
+            "hasRoute": false,
+            "sample": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"id\":null,\"nameId\":null,\"topicisId\":null,\"marPrId\":null,\"entName\":null,\"busiType\":null,\"busiChildType\":null,\"ywlbSign\":null,\"legalName\":null,\"marUniscId\":null"
+          }
+        ],
+        "samples": [
+          {
+            "u": "/icpsp-api/v4/pc/manager/mattermanager/matters/operate?t=1776687323234",
+            "s": 200,
+            "t": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"id\":null,\"nameId\":null,\"topicisId\":null,\"marPrId\":null,\"entName\":null,\"busiType\":null,\"busiChildType\":null,\"ywlbSign\":null,\"legalName\":null,\"marUniscId\":null,\"matterTypeCode\":null,\"matterTypeLangCode\":null,\"matterTypeName\":null,\"flowType\":null,\"matterStateCode\":null,\"matterStateLangCode\":null,\"matterStateName\":null,\"listMatterStateCode\":null,\"listMatterStateLangCode\":null,\"entType\":null,\"entTypeName\":null,\"regionCode\":null,\"regionName\":null,\"domDistrict\":null,\"domDistrictName\":null,\"areaCode\":null,\"areaCodeName\":null,\"createDate\":null,\"timestamp\":null,\"userId\":null,\"applyPerson\":null,\"regOrg\":null,\"regOrgName\":null,\"auditOrg\":null,\"auditOrgName\":null,\"toReason\":null,\"address\":null,\"deputyflag\":null,\"remark\":null,\"operBtns\":null"
+          },
+          {
+            "u": "/icpsp-api/v4/pc/manager/mattermanager/matters/operate?t=1776687323269",
+            "s": 200,
+            "t": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"id\":null,\"nameId\":null,\"topicisId\":null,\"marPrId\":null,\"entName\":null,\"busiType\":null,\"busiChildType\":null,\"ywlbSign\":null,\"legalName\":null,\"marUniscId\":null,\"matterTypeCode\":null,\"matterTypeLangCode\":null,\"matterTypeName\":null,\"flowType\":null,\"matterStateCode\":null,\"matterStateLangCode\":null,\"matterStateName\":null,\"listMatterStateCode\":null,\"listMatterStateLangCode\":null,\"entType\":null,\"entTypeName\":null,\"regionCode\":null,\"regionName\":null,\"domDistrict\":null,\"domDistrictName\":null,\"areaCode\":null,\"areaCodeName\":null,\"createDate\":null,\"timestamp\":null,\"userId\":null,\"applyPerson\":null,\"regOrg\":null,\"regOrgName\":null,\"auditOrg\":null,\"auditOrgName\":null,\"toReason\":null,\"address\":null,\"deputyflag\":null,\"remark\":null,\"operBtns\":null"
+          }
+        ]
+      },
+      "state_before": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+        "hash": "#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+        "errors": [],
+        "hasYunbangban": false,
+        "hasNameCheck": true,
+        "hasGuide": false,
+        "hasMySpace": true,
+        "textHint": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 黄永裕已认证 我的企业(2) 证件号码： 450921198812051251 | 联系电话： 18977514335 | 电子邮箱： 我的办件 我的签名 我代理的经营主体 消息中心 办理时间 企业名称 办理事项 当前状态 操作 2026-04-18 23:43:22 陈飞李（广西容县）食品"
+      },
+      "state_after": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+        "hash": "#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+        "errors": [],
+        "hasYunbangban": false,
+        "hasNameCheck": true,
+        "hasGuide": false,
+        "hasMySpace": true,
+        "textHint": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 黄永裕已认证 我的企业(2) 证件号码： 450921198812051251 | 联系电话： 18977514335 | 电子邮箱： 我的办件 我的签名 我代理的经营主体 消息中心 办理时间 企业名称 办理事项 当前状态 操作 2026-04-18 23:43:22 陈飞李（广西容县）食品"
+      },
+      "shot_before": {
+        "path": "G:/UFO/政务平台/dashboard/data/records/adaptive_namecheck_shots/20260420_201349/step_02_before.png",
+        "exists": true
+      },
+      "shot_after": {
+        "path": "G:/UFO/政务平台/dashboard/data/records/adaptive_namecheck_shots/20260420_201349/step_02_after.png",
+        "exists": true
+      }
+    },
+    {
+      "i": 3,
+      "sig": "#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info||广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 黄永裕已认证 我的企业(2) 证",
+      "action": "nav_core",
+      "action_out": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info",
+      "state_before": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+        "hash": "#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+        "errors": [],
+        "hasYunbangban": false,
+        "hasNameCheck": true,
+        "hasGuide": false,
+        "hasMySpace": true,
+        "textHint": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 黄永裕已认证 我的企业(2) 证件号码： 450921198812051251 | 联系电话： 18977514335 | 电子邮箱： 我的办件 我的签名 我代理的经营主体 消息中心 办理时间 企业名称 办理事项 当前状态 操作 2026-04-18 23:43:22 陈飞李（广西容县）食品"
+      },
+      "state_after": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+        "hash": "#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+        "errors": [],
+        "hasYunbangban": false,
+        "hasNameCheck": true,
+        "hasGuide": false,
+        "hasMySpace": true,
+        "textHint": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 黄永裕已认证 我的企业(2) 证件号码： 450921198812051251 | 联系电话： 18977514335 | 电子邮箱： 我的办件 我的签名 我代理的经营主体 消息中心 办理时间 企业名称 办理事项 当前状态 操作 2026-04-18 23:43:22 陈飞李（广西容县）食品"
+      },
+      "shot_before": {
+        "path": "G:/UFO/政务平台/dashboard/data/records/adaptive_namecheck_shots/20260420_201349/step_03_before.png",
+        "exists": true
+      },
+      "shot_after": {
+        "path": "G:/UFO/政务平台/dashboard/data/records/adaptive_namecheck_shots/20260420_201349/step_03_after.png",
+        "exists": true
+      }
+    },
+    {
+      "i": 4,
+      "sig": "#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info||广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 黄永裕已认证 我的企业(2) 证",
+      "action": "nav_guide",
+      "action_out": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+      "state_before": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+        "hash": "#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+        "errors": [],
+        "hasYunbangban": false,
+        "hasNameCheck": true,
+        "hasGuide": false,
+        "hasMySpace": true,
+        "textHint": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 黄永裕已认证 我的企业(2) 证件号码： 450921198812051251 | 联系电话： 18977514335 | 电子邮箱： 我的办件 我的签名 我代理的经营主体 消息中心 办理时间 企业名称 办理事项 当前状态 操作 2026-04-18 23:43:22 陈飞李（广西容县）食品"
+      },
+      "state_after": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "errors": [],
+        "hasYunbangban": false,
+        "hasNameCheck": false,
+        "hasGuide": true,
+        "hasMySpace": false,
+        "textHint": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司农民专业合作社个人独资企业 个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里"
+      },
+      "shot_before": {
+        "path": "G:/UFO/政务平台/dashboard/data/records/adaptive_namecheck_shots/20260420_201349/step_04_before.png",
+        "exists": true
+      },
+      "shot_after": {
+        "path": "G:/UFO/政务平台/dashboard/data/records/adaptive_namecheck_shots/20260420_201349/step_04_after.png",
+        "exists": true
+      }
+    },
+    {
+      "i": 5,
+      "sig": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=||广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型",
+      "action": "nav_core",
+      "action_out": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info",
+      "state_before": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "errors": [],
+        "hasYunbangban": false,
+        "hasNameCheck": false,
+        "hasGuide": true,
+        "hasMySpace": false,
+        "textHint": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司农民专业合作社个人独资企业 个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里"
+      },
+      "state_after": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+        "hash": "#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+        "errors": [],
+        "hasYunbangban": false,
+        "hasNameCheck": true,
+        "hasGuide": false,
+        "hasMySpace": true,
+        "textHint": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 黄永裕已认证 我的企业(2) 证件号码： 450921198812051251 | 联系电话： 18977514335 | 电子邮箱： 我的办件 我的签名 我代理的经营主体 消息中心 办理时间 企业名称 办理事项 当前状态 操作 2026-04-18 23:43:22 陈飞李（广西容县）食品"
+      },
+      "shot_before": {
+        "path": "G:/UFO/政务平台/dashboard/data/records/adaptive_namecheck_shots/20260420_201349/step_05_before.png",
+        "exists": true
+      },
+      "shot_after": {
+        "path": "G:/UFO/政务平台/dashboard/data/records/adaptive_namecheck_shots/20260420_201349/step_05_after.png",
+        "exists": true
+      }
+    },
+    {
+      "i": 6,
+      "state": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+        "hash": "#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+        "errors": [],
+        "hasYunbangban": false,
+        "hasNameCheck": true,
+        "hasGuide": false,
+        "hasMySpace": true,
+        "textHint": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 黄永裕已认证 我的企业(2) 证件号码： 450921198812051251 | 联系电话： 18977514335 | 电子邮箱： 我的办件 我的签名 我代理的经营主体 消息中心 办理时间 企业名称 办理事项 当前状态 操作 2026-04-18 23:43:22 陈飞李（广西容县）食品"
+      },
+      "action": "none",
+      "reason": "all_actions_used_for_state",
+      "shot_before": {
+        "path": "G:/UFO/政务平台/dashboard/data/records/adaptive_namecheck_shots/20260420_201349/step_06_before.png",
+        "exists": true
+      }
+    }
+  ],
+  "result": "not_reached",
+  "final_state": {
+    "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+    "hash": "#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+    "errors": [],
+    "hasYunbangban": false,
+    "hasNameCheck": true,
+    "hasGuide": false,
+    "hasMySpace": true,
+    "textHint": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 黄永裕已认证 我的企业(2) 证件号码： 450921198812051251 | 联系电话： 18977514335 | 电子邮箱： 我的办件 我的签名 我代理的经营主体 消息中心 办理时间 企业名称 办理事项 当前状态 操作 2026-04-18 23:43:22 陈飞李（广西容县）食品"
+  },
+  "ended_at": "2026-04-20 20:17:39"
+}

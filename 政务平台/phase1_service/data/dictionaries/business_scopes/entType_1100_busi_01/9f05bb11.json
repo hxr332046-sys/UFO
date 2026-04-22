@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "F5232",
+        "saveHyCode": "5232",
+        "hyPecul": "服装零售",
+        "hyTypeName": "服装零售",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列服装的零售活动：",
+        "includes": "男士服装专门零售服务；女士服装专门零售服务；童装专门零售服务；运动及休闲服装专门零售服务；特殊服装专门零售服务；袜子专门零售服务；围巾、头巾专门零售服务；手套专门零售服务；皮带专门零售服务；固定摊点服装零售；其他服装专门零售服务。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "服装零售",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

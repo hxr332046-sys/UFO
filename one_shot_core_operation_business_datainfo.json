@@ -1,0 +1,22 @@
+{
+  "started_at": "2026-04-15 19:07:36",
+  "page_before": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+  "steps": [
+    {
+      "step": "nav_core",
+      "data": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/name-check-info"
+    },
+    {
+      "step": "pick_core",
+      "data": {
+        "ok": false,
+        "msg": "no_core_page",
+        "pages": [
+          "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase%2Fname-check-info",
+          "https://zhjg.scjdglj.gxzf.gov.cn:6087/TopIP/web/web-portal.html#/index/page"
+        ]
+      }
+    }
+  ],
+  "ended_at": "2026-04-15 19:07:41"
+}

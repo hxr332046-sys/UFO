@@ -1,0 +1,2676 @@
+{
+  "started_at": "2026-04-20 21:05:31",
+  "steps": [
+    {
+      "step": "scan",
+      "data": {
+        "ok": true,
+        "count": 150,
+        "items": [
+          {
+            "d": 3,
+            "name": "header-comp",
+            "dataKeys": [
+              "homePageButton",
+              "homePageAllServeButton",
+              "homePageLoginButton",
+              "homePageRegisterButton",
+              "homePageUsernameButton",
+              "homePageCenterButton",
+              "homePageDownIcpspButton",
+              "homePageDownEleButton",
+              "showLogoutButton",
+              "systemNameConfig",
+              "language",
+              "languages",
+              "elderType",
+              "provincesIndexLogo",
+              "headerAndFooterFlag",
+              "homelogo",
+              "pageType",
+              "cityUniqueFlag"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 5,
+            "name": "ElDropdownMenu",
+            "dataKeys": [
+              "size",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 4,
+            "name": "ElPopover",
+            "dataKeys": [
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 4,
+            "name": "flow-control",
+            "dataKeys": [
+              "withoutStep",
+              "preAudit",
+              "error",
+              "processInfo",
+              "stepList",
+              "curStep",
+              "curCompUrl",
+              "stepsVHeight",
+              "stepsHHeight",
+              "flowControlContHeight",
+              "params",
+              "locationInfo",
+              "businessDataInfo",
+              "flowControlLoading",
+              "initFlowControl",
+              "jurisdiction",
+              "fromPage",
+              "curOperationBtn",
+              "curOperationStep",
+              "stepsLimit"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 5,
+            "name": "",
+            "dataKeys": [
+              "formInfo",
+              "callBack",
+              "errCallBack",
+              "resolve",
+              "reject",
+              "that",
+              "baseUrl",
+              "baseUrlParams",
+              "showFlag",
+              "showClose",
+              "chooseType",
+              "uplodData",
+              "gjhcode",
+              "uploadList",
+              "uploadSetting",
+              "uploadParams",
+              "saveParams",
+              "currentItem",
+              "currentIndex",
+              "opType"
+            ],
+            "has_form": false,
+            "has_formInfo": true,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 5,
+            "name": "tni-steps",
+            "dataKeys": [
+              "currentIndex",
+              "isShowArrow",
+              "centerPoint",
+              "cursorLeft",
+              "cursorRight",
+              "slotsDefaultArray",
+              "childLength"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 7,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 7,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 7,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 7,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 7,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 7,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 7,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 5,
+            "name": "tni-steps",
+            "dataKeys": [
+              "currentIndex",
+              "isShowArrow",
+              "centerPoint",
+              "cursorLeft",
+              "cursorRight",
+              "slotsDefaultArray",
+              "childLength"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 5,
+            "name": "basic-info",
+            "dataKeys": [
+              "componentInstance",
+              "isInit",
+              "hasFormLoading",
+              "formLoading",
+              "businessDataInfo",
+              "subWidget",
+              "formParams",
+              "jurisdiction"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 7,
+            "name": "index",
+            "dataKeys": [
+              "isFz",
+              "affiliatEdenterpriseForm",
+              "showOrgTree",
+              "isSwitchListOrg",
+              "saveLoading",
+              "amsg",
+              "specMaMeasures",
+              "specMaMeasuresList",
+              "dialogVisible2",
+              "dialogVisible1",
+              "boole",
+              "msg",
+              "isZone",
+              "subjection",
+              "orgTreeList",
+              "localdataTree",
+              "flowData",
+              "extraDto",
+              "localdataProps",
+              "defaultExpandedKeys"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 8,
+            "name": "ElForm",
+            "dataKeys": [
+              "fields",
+              "potentialLabelWidthArr"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 9,
+            "name": "regist-info",
+            "dataKeys": [
+              "dolRate",
+              "rmbRate",
+              "readOnly",
+              "intoParentEntToUniscid",
+              "isRegisteredZeroSwitch",
+              "operatorNumLimit",
+              "nameEntTypeisMin",
+              "parentBusiDateEndRadio",
+              "isWQZJ",
+              "businessModeGTHN",
+              "flowDataentType",
+              "currencyLists",
+              "fieldList",
+              "businessAddress",
+              "showRmbate",
+              "showRmYate",
+              "greenName",
+              "address",
+              "nations",
+              "provinces"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 11,
+            "name": "ElForm",
+            "dataKeys": [
+              "fields",
+              "potentialLabelWidthArr"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 13,
+            "name": "ElFormItem",
+            "dataKeys": [
+              "contentStyleFake",
+              "validateState",
+              "validateMessage",
+              "validateDisabled",
+              "validator",
+              "isNested",
+              "computedLabelWidth"
+            ],
+            "has_form": true,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [
+              "_uid",
+              "_isVue",
+              "$options",
+              "_renderProxy",
+              "_self",
+              "$parent",
+              "$root",
+              "$children",
+              "$refs",
+              "_watcher",
+              "_inactive",
+              "_directInactive",
+              "_isMounted",
+              "_isDestroyed",
+              "_isBeingDestroyed",
+              "_events",
+              "_hasHookEvent",
+              "_vnode",
+              "_staticTrees",
+              "$vnode"
+            ],
+            "formInfo_keys": []
+          },
+          {
+            "d": 15,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 13,
+            "name": "ElFormItem",
+            "dataKeys": [
+              "contentStyleFake",
+              "validateState",
+              "validateMessage",
+              "validateDisabled",
+              "validator",
+              "isNested",
+              "computedLabelWidth"
+            ],
+            "has_form": true,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [
+              "_uid",
+              "_isVue",
+              "$options",
+              "_renderProxy",
+              "_self",
+              "$parent",
+              "$root",
+              "$children",
+              "$refs",
+              "_watcher",
+              "_inactive",
+              "_directInactive",
+              "_isMounted",
+              "_isDestroyed",
+              "_isBeingDestroyed",
+              "_events",
+              "_hasHookEvent",
+              "_vnode",
+              "_staticTrees",
+              "$vnode"
+            ],
+            "formInfo_keys": []
+          },
+          {
+            "d": 15,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 15,
+            "name": "tne-select",
+            "dataKeys": [
+              "options",
+              "cachedOptions",
+              "createdLabel",
+              "createdSelected",
+              "selected",
+              "inputLength",
+              "inputWidth",
+              "initialInputHeight",
+              "cachedPlaceHolder",
+              "optionsCount",
+              "filteredOptionsCount",
+              "visible",
+              "softFocus",
+              "selectedLabel",
+              "hoverIndex",
+              "query",
+              "previousQuery",
+              "inputHovering",
+              "currentPlaceholder",
+              "menuVisibleOnFocus"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 16,
+            "name": "ElSelectDropdown",
+            "dataKeys": [
+              "minWidth",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 19,
+            "name": "tne-tree",
+            "dataKeys": [
+              "store",
+              "root",
+              "currentNode",
+              "treeItems",
+              "checkboxItems",
+              "dragState",
+              "itemComponent",
+              "curVisibleList"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 13,
+            "name": "ElFormItem",
+            "dataKeys": [
+              "contentStyleFake",
+              "validateState",
+              "validateMessage",
+              "validateDisabled",
+              "validator",
+              "isNested",
+              "computedLabelWidth"
+            ],
+            "has_form": true,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [
+              "_uid",
+              "_isVue",
+              "$options",
+              "_renderProxy",
+              "_self",
+              "$parent",
+              "$root",
+              "$children",
+              "$refs",
+              "_watcher",
+              "_inactive",
+              "_directInactive",
+              "_isMounted",
+              "_isDestroyed",
+              "_isBeingDestroyed",
+              "_events",
+              "_hasHookEvent",
+              "_vnode",
+              "_staticTrees",
+              "$vnode"
+            ],
+            "formInfo_keys": []
+          },
+          {
+            "d": 15,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 14,
+            "name": "ElInputNumber",
+            "dataKeys": [
+              "currentValue",
+              "userInput"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 13,
+            "name": "ElFormItem",
+            "dataKeys": [
+              "contentStyleFake",
+              "validateState",
+              "validateMessage",
+              "validateDisabled",
+              "validator",
+              "isNested",
+              "computedLabelWidth"
+            ],
+            "has_form": true,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [
+              "_uid",
+              "_isVue",
+              "$options",
+              "_renderProxy",
+              "_self",
+              "$parent",
+              "$root",
+              "$children",
+              "$refs",
+              "_watcher",
+              "_inactive",
+              "_directInactive",
+              "_isMounted",
+              "_isDestroyed",
+              "_isBeingDestroyed",
+              "_events",
+              "_hasHookEvent",
+              "_vnode",
+              "_staticTrees",
+              "$vnode"
+            ],
+            "formInfo_keys": []
+          },
+          {
+            "d": 15,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 13,
+            "name": "ElFormItem",
+            "dataKeys": [
+              "contentStyleFake",
+              "validateState",
+              "validateMessage",
+              "validateDisabled",
+              "validator",
+              "isNested",
+              "computedLabelWidth"
+            ],
+            "has_form": true,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [
+              "_uid",
+              "_isVue",
+              "$options",
+              "_renderProxy",
+              "_self",
+              "$parent",
+              "$root",
+              "$children",
+              "$refs",
+              "_watcher",
+              "_inactive",
+              "_directInactive",
+              "_isMounted",
+              "_isDestroyed",
+              "_isBeingDestroyed",
+              "_events",
+              "_hasHookEvent",
+              "_vnode",
+              "_staticTrees",
+              "$vnode"
+            ],
+            "formInfo_keys": []
+          },
+          {
+            "d": 15,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "ElFormItem",
+            "dataKeys": [
+              "contentStyleFake",
+              "validateState",
+              "validateMessage",
+              "validateDisabled",
+              "validator",
+              "isNested",
+              "computedLabelWidth"
+            ],
+            "has_form": true,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [
+              "_uid",
+              "_isVue",
+              "$options",
+              "_renderProxy",
+              "_self",
+              "$parent",
+              "$root",
+              "$children",
+              "$refs",
+              "_watcher",
+              "_inactive",
+              "_directInactive",
+              "_isMounted",
+              "_isDestroyed",
+              "_isBeingDestroyed",
+              "_events",
+              "_hasHookEvent",
+              "_vnode",
+              "_staticTrees",
+              "$vnode"
+            ],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 13,
+            "name": "ElFormItem",
+            "dataKeys": [
+              "contentStyleFake",
+              "validateState",
+              "validateMessage",
+              "validateDisabled",
+              "validator",
+              "isNested",
+              "computedLabelWidth"
+            ],
+            "has_form": true,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [
+              "_uid",
+              "_isVue",
+              "$options",
+              "_renderProxy",
+              "_self",
+              "$parent",
+              "$root",
+              "$children",
+              "$refs",
+              "_watcher",
+              "_inactive",
+              "_directInactive",
+              "_isMounted",
+              "_isDestroyed",
+              "_isBeingDestroyed",
+              "_events",
+              "_hasHookEvent",
+              "_vnode",
+              "_staticTrees",
+              "$vnode"
+            ],
+            "formInfo_keys": []
+          },
+          {
+            "d": 15,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 13,
+            "name": "ElFormItem",
+            "dataKeys": [
+              "contentStyleFake",
+              "validateState",
+              "validateMessage",
+              "validateDisabled",
+              "validator",
+              "isNested",
+              "computedLabelWidth"
+            ],
+            "has_form": true,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [
+              "_uid",
+              "_isVue",
+              "$options",
+              "_renderProxy",
+              "_self",
+              "$parent",
+              "$root",
+              "$children",
+              "$refs",
+              "_watcher",
+              "_inactive",
+              "_directInactive",
+              "_isMounted",
+              "_isDestroyed",
+              "_isBeingDestroyed",
+              "_events",
+              "_hasHookEvent",
+              "_vnode",
+              "_staticTrees",
+              "$vnode"
+            ],
+            "formInfo_keys": []
+          },
+          {
+            "d": 15,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 13,
+            "name": "ElFormItem",
+            "dataKeys": [
+              "contentStyleFake",
+              "validateState",
+              "validateMessage",
+              "validateDisabled",
+              "validator",
+              "isNested",
+              "computedLabelWidth"
+            ],
+            "has_form": true,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [
+              "_uid",
+              "_isVue",
+              "$options",
+              "_renderProxy",
+              "_self",
+              "$parent",
+              "$root",
+              "$children",
+              "$refs",
+              "_watcher",
+              "_inactive",
+              "_directInactive",
+              "_isMounted",
+              "_isDestroyed",
+              "_isBeingDestroyed",
+              "_events",
+              "_hasHookEvent",
+              "_vnode",
+              "_staticTrees",
+              "$vnode"
+            ],
+            "formInfo_keys": []
+          },
+          {
+            "d": 15,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 13,
+            "name": "ElFormItem",
+            "dataKeys": [
+              "contentStyleFake",
+              "validateState",
+              "validateMessage",
+              "validateDisabled",
+              "validator",
+              "isNested",
+              "computedLabelWidth"
+            ],
+            "has_form": true,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [
+              "_uid",
+              "_isVue",
+              "$options",
+              "_renderProxy",
+              "_self",
+              "$parent",
+              "$root",
+              "$children",
+              "$refs",
+              "_watcher",
+              "_inactive",
+              "_directInactive",
+              "_isMounted",
+              "_isDestroyed",
+              "_isBeingDestroyed",
+              "_events",
+              "_hasHookEvent",
+              "_vnode",
+              "_staticTrees",
+              "$vnode"
+            ],
+            "formInfo_keys": []
+          },
+          {
+            "d": 15,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 13,
+            "name": "ElFormItem",
+            "dataKeys": [
+              "contentStyleFake",
+              "validateState",
+              "validateMessage",
+              "validateDisabled",
+              "validator",
+              "isNested",
+              "computedLabelWidth"
+            ],
+            "has_form": true,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [
+              "_uid",
+              "_isVue",
+              "$options",
+              "_renderProxy",
+              "_self",
+              "$parent",
+              "$root",
+              "$children",
+              "$refs",
+              "_watcher",
+              "_inactive",
+              "_directInactive",
+              "_isMounted",
+              "_isDestroyed",
+              "_isBeingDestroyed",
+              "_events",
+              "_hasHookEvent",
+              "_vnode",
+              "_staticTrees",
+              "$vnode"
+            ],
+            "formInfo_keys": []
+          },
+          {
+            "d": 15,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 9,
+            "name": "businese-info",
+            "dataKeys": [
+              "update",
+              "interNationalization",
+              "busineseForm",
+              "rulesBusinese",
+              "defaultProps",
+              "params",
+              "industryList",
+              "isShowPrepermit",
+              "isShowManyCert",
+              "isSuper",
+              "ItemIndustryTypeCode",
+              "namePreIndustryTypeCode",
+              "nameId",
+              "sectaryArea",
+              "dialogLoad",
+              "titleAble",
+              "pdfUrl",
+              "numPages",
+              "dialogReview",
+              "columns"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 11,
+            "name": "ElForm",
+            "dataKeys": [
+              "fields",
+              "potentialLabelWidthArr"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 13,
+            "name": "ElFormItem",
+            "dataKeys": [
+              "contentStyleFake",
+              "validateState",
+              "validateMessage",
+              "validateDisabled",
+              "validator",
+              "isNested",
+              "computedLabelWidth"
+            ],
+            "has_form": true,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [
+              "_uid",
+              "_isVue",
+              "$options",
+              "_renderProxy",
+              "_self",
+              "$parent",
+              "$root",
+              "$children",
+              "$refs",
+              "_watcher",
+              "_inactive",
+              "_directInactive",
+              "_isMounted",
+              "_isDestroyed",
+              "_isBeingDestroyed",
+              "_events",
+              "_hasHookEvent",
+              "_vnode",
+              "_staticTrees",
+              "$vnode"
+            ],
+            "formInfo_keys": []
+          },
+          {
+            "d": 15,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 15,
+            "name": "tne-select",
+            "dataKeys": [
+              "options",
+              "cachedOptions",
+              "createdLabel",
+              "createdSelected",
+              "selected",
+              "inputLength",
+              "inputWidth",
+              "initialInputHeight",
+              "cachedPlaceHolder",
+              "optionsCount",
+              "filteredOptionsCount",
+              "visible",
+              "softFocus",
+              "selectedLabel",
+              "hoverIndex",
+              "query",
+              "previousQuery",
+              "inputHovering",
+              "currentPlaceholder",
+              "menuVisibleOnFocus"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 16,
+            "name": "ElSelectDropdown",
+            "dataKeys": [
+              "minWidth",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 19,
+            "name": "tne-tree",
+            "dataKeys": [
+              "store",
+              "root",
+              "currentNode",
+              "treeItems",
+              "checkboxItems",
+              "dragState",
+              "itemComponent",
+              "curVisibleList"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 24,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 13,
+            "name": "ElFormItem",
+            "dataKeys": [
+              "contentStyleFake",
+              "validateState",
+              "validateMessage",
+              "validateDisabled",
+              "validator",
+              "isNested",
+              "computedLabelWidth"
+            ],
+            "has_form": true,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [
+              "_uid",
+              "_isVue",
+              "$options",
+              "_renderProxy",
+              "_self",
+              "$parent",
+              "$root",
+              "$children",
+              "$refs",
+              "_watcher",
+              "_inactive",
+              "_directInactive",
+              "_isMounted",
+              "_isDestroyed",
+              "_isBeingDestroyed",
+              "_events",
+              "_hasHookEvent",
+              "_vnode",
+              "_staticTrees",
+              "$vnode"
+            ],
+            "formInfo_keys": []
+          },
+          {
+            "d": 15,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 14,
+            "name": "range-show",
+            "dataKeys": [
+              "selfForm",
+              "zlsrc",
+              "dialogVisible2",
+              "businessAreaStr",
+              "isZiMaoQu",
+              "splitTypes",
+              "paramsShow",
+              "dialogVisible",
+              "showBusitermTip",
+              "initFlag"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "ElFormItem",
+            "dataKeys": [
+              "contentStyleFake",
+              "validateState",
+              "validateMessage",
+              "validateDisabled",
+              "validator",
+              "isNested",
+              "computedLabelWidth"
+            ],
+            "has_form": true,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [
+              "_uid",
+              "_isVue",
+              "$options",
+              "_renderProxy",
+              "_self",
+              "$parent",
+              "$root",
+              "$children",
+              "$refs",
+              "_watcher",
+              "_inactive",
+              "_directInactive",
+              "_isMounted",
+              "_isDestroyed",
+              "_isBeingDestroyed",
+              "_events",
+              "_hasHookEvent",
+              "_vnode",
+              "_staticTrees",
+              "$vnode"
+            ],
+            "formInfo_keys": []
+          },
+          {
+            "d": 13,
+            "name": "many-cert-registration",
+            "dataKeys": [
+              "showTip",
+              "certCompName",
+              "certCompCode",
+              "tipBefor",
+              "dialogVisible2",
+              "dialogVisible3",
+              "dialogVisible4",
+              "agree",
+              "cardTitle",
+              "columns",
+              "listParams",
+              "tipsBefore",
+              "tableData",
+              "isInit",
+              "saveLoading",
+              "dialogVisible",
+              "businessInfoList",
+              "list",
+              "operationItem",
+              "operationRow"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 9,
+            "name": "",
+            "dataKeys": [
+              "treeListKey",
+              "registrationAuthorityForm",
+              "preAuditForPreLicensing",
+              "nameId",
+              "defaultProps",
+              "params",
+              "defaultExpandedKeys"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 11,
+            "name": "ElForm",
+            "dataKeys": [
+              "fields",
+              "potentialLabelWidthArr"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 10,
+            "name": "residence-information",
+            "dataKeys": [
+              "deepForm",
+              "isNetStr",
+              "isChildValid",
+              "fieldListResidence",
+              "residenceForm",
+              "distList",
+              "entType",
+              "productionDistList",
+              "rulesResidence",
+              "dateOptionsStart",
+              "dateOptionsEnd",
+              "distCodeName",
+              "businessAddress",
+              "provinces",
+              "provincesProduction",
+              "providerUseList",
+              "useModeList",
+              "ecoTecDevZoneList",
+              "ownershipCertificateList",
+              "communityList"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 12,
+            "name": "ElForm",
+            "dataKeys": [
+              "fields",
+              "potentialLabelWidthArr"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 13,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 13,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 13,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 14,
+            "name": "ElFormItem",
+            "dataKeys": [
+              "contentStyleFake",
+              "validateState",
+              "validateMessage",
+              "validateDisabled",
+              "validator",
+              "isNested",
+              "computedLabelWidth"
+            ],
+            "has_form": true,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [
+              "_uid",
+              "_isVue",
+              "$options",
+              "_renderProxy",
+              "_self",
+              "$parent",
+              "$root",
+              "$children",
+              "$refs",
+              "_watcher",
+              "_inactive",
+              "_directInactive",
+              "_isMounted",
+              "_isDestroyed",
+              "_isBeingDestroyed",
+              "_events",
+              "_hasHookEvent",
+              "_vnode",
+              "_staticTrees",
+              "$vnode"
+            ],
+            "formInfo_keys": []
+          },
+          {
+            "d": 16,
+            "name": "ElTooltip",
+            "dataKeys": [
+              "tooltipId",
+              "timeoutPending",
+              "focusing",
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 16,
+            "name": "ElPopover",
+            "dataKeys": [
+              "showPopper",
+              "currentPlacement"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 13,
+            "name": "form-item",
+            "dataKeys": [
+              "formItemWidth",
+              "splitFlag",
+              "dolRate"
+            ],
+            "has_form": false,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [],
+            "formInfo_keys": []
+          },
+          {
+            "d": 14,
+            "name": "ElFormItem",
+            "dataKeys": [
+              "contentStyleFake",
+              "validateState",
+              "validateMessage",
+              "validateDisabled",
+              "validator",
+              "isNested",
+              "computedLabelWidth"
+            ],
+            "has_form": true,
+            "has_formInfo": false,
+            "has_ruleForm": false,
+            "form_keys": [
+              "_uid",
+              "_isVue",
+              "$options",
+              "_renderProxy",
+              "_self",
+              "$parent",
+              "$root",
+              "$children",
+              "$refs",
+              "_watcher",
+              "_inactive",
+              "_directInactive",
+              "_isMounted",
+              "_isDestroyed",
+              "_isBeingDestroyed",
+              "_events",
+              "_hasHookEvent",
+              "_vnode",
+              "_staticTrees",
+              "$vnode"
+            ],
+            "formInfo_keys": []
+          }
+        ]
+      }
+    }
+  ],
+  "start_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/basic-info",
+  "ended_at": "2026-04-20 21:05:31"
+}

@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "Q8513",
+        "saveHyCode": "8513",
+        "hyPecul": "国际精神康复医院",
+        "hyTypeName": "精神康复服务",
+        "enHyTypeName": null,
+        "explains": "指智障、精神疾病、吸毒、酗酒等人员的住宿康复治疗活动。",
+        "includesTitle": "包括下列精神康复服务：",
+        "includes": "智障、精神病人收养、康复服务；戒毒人员收养、康复服务；酗酒人员收养、康复服务。",
+        "unIncludes": "不包括：以治疗为主的智障、精神疾病、吸毒、酗酒等人员的康复服务，列入8499（其他未列明卫生服务）。",
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "精神康复",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

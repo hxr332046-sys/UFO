@@ -1,0 +1,59 @@
+{
+  "initial_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/without-name?entType=1100",
+  "steps": [
+    {
+      "step": "before_toNotName",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/without-name?entType=1100",
+        "hash": "#/index/without-name?entType=1100",
+        "forms": 0,
+        "compNames": [
+          "layout",
+          "header-comp",
+          "ElDropdown",
+          "ElDropdownMenu",
+          "ElDropdownItem",
+          "ElPopover",
+          "sidebar",
+          "ElButton",
+          "footer-comp",
+          "without-name",
+          "breadcrumb",
+          "ElRow"
+        ],
+        "buttons": []
+      }
+    },
+    {
+      "step": "call_toNotName",
+      "data": {
+        "ok": true,
+        "called": "toNotName"
+      }
+    },
+    {
+      "step": "after_toNotName",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/enterprise/establish?busiType=02&entType=1100",
+        "hash": "#/index/enterprise/establish?busiType=02&entType=1100",
+        "forms": 0,
+        "compNames": [
+          "layout",
+          "header-comp",
+          "ElDropdown",
+          "ElDropdownMenu",
+          "ElDropdownItem",
+          "ElPopover",
+          "sidebar",
+          "ElButton",
+          "footer-comp",
+          "establish",
+          "breadcrumb"
+        ],
+        "buttons": [
+          "下一步"
+        ]
+      }
+    }
+  ]
+}

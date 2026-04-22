@@ -1,0 +1,22 @@
+{
+  "started_at": "2026-04-20 21:05:00",
+  "steps": [
+    {
+      "step": "probe",
+      "data": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/basic-info",
+        "hash": "#/flow/base/basic-info",
+        "vmName": "index",
+        "dataKeys": [
+          "cityFlag"
+        ],
+        "formInfo": null,
+        "form": null,
+        "refs": {}
+      }
+    }
+  ],
+  "start_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/basic-info",
+  "ended_at": "2026-04-20 21:05:00"
+}

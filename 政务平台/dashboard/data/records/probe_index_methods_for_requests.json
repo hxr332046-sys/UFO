@@ -1,0 +1,162 @@
+{
+  "started_at": "2026-04-15 00:37:08",
+  "probes": [
+    {
+      "method": "validateEntType",
+      "invoke": {
+        "ok": false,
+        "status": "throw",
+        "err": "TypeError: a is not a function"
+      },
+      "netCount": 0,
+      "netSample": []
+    },
+    {
+      "method": "queryExtraDto",
+      "invoke": null,
+      "netCount": 0,
+      "netSample": []
+    },
+    {
+      "method": "init",
+      "invoke": {
+        "ok": true,
+        "status": "returned"
+      },
+      "netCount": 0,
+      "netSample": []
+    },
+    {
+      "method": "getQueryNameEntType",
+      "invoke": {
+        "ok": true,
+        "status": "returned"
+      },
+      "netCount": 0,
+      "netSample": []
+    },
+    {
+      "method": "queryRegcodeAndStreet",
+      "invoke": {
+        "ok": true,
+        "status": "returned"
+      },
+      "netCount": 0,
+      "netSample": []
+    },
+    {
+      "method": "getQueryNameEntTypeTwo",
+      "invoke": {
+        "ok": true,
+        "status": "returned"
+      },
+      "netCount": 0,
+      "netSample": []
+    },
+    {
+      "method": "checkchange",
+      "invoke": {
+        "ok": false,
+        "status": "throw",
+        "err": "TypeError: Cannot read properties of undefined (reading 'showType')"
+      },
+      "netCount": 0,
+      "netSample": []
+    },
+    {
+      "method": "changeEntType",
+      "invoke": {
+        "ok": false,
+        "status": "throw",
+        "err": "TypeError: Cannot read properties of undefined (reading 'detail')"
+      },
+      "netCount": 0,
+      "netSample": []
+    },
+    {
+      "method": "addressChange",
+      "invoke": {
+        "ok": false,
+        "status": "throw",
+        "err": "TypeError: Cannot read properties of undefined (reading 'detail')"
+      },
+      "netCount": 0,
+      "netSample": []
+    },
+    {
+      "method": "handleDetailAddressInput",
+      "invoke": {
+        "ok": true,
+        "status": "returned"
+      },
+      "netCount": 0,
+      "netSample": []
+    },
+    {
+      "method": "getTotalAddress",
+      "invoke": {
+        "ok": true,
+        "status": "returned"
+      },
+      "netCount": 0,
+      "netSample": []
+    },
+    {
+      "method": "handleCurrencyChange",
+      "invoke": {
+        "ok": true,
+        "status": "returned"
+      },
+      "netCount": 0,
+      "netSample": []
+    },
+    {
+      "method": "getqueryParentCompanyInfo",
+      "invoke": {
+        "ok": true,
+        "status": "returned"
+      },
+      "netCount": 0,
+      "netSample": []
+    },
+    {
+      "method": "getQueryEntTypeBySubEntType",
+      "invoke": {
+        "ok": true,
+        "status": "returned"
+      },
+      "netCount": 0,
+      "netSample": []
+    },
+    {
+      "method": "fzjgFlowSave",
+      "invoke": {
+        "ok": true,
+        "status": "returned"
+      },
+      "netCount": 0,
+      "netSample": []
+    },
+    {
+      "method": "flowSave",
+      "invoke": {
+        "ok": false,
+        "status": "rejected",
+        "err": "TypeError: Cannot read properties of undefined (reading 'getFormData')"
+      },
+      "netCount": 0,
+      "netSample": []
+    },
+    {
+      "method": "validateDetailAddress",
+      "invoke": {
+        "ok": false,
+        "status": "throw",
+        "err": "TypeError: a is not a function"
+      },
+      "netCount": 0,
+      "netSample": []
+    }
+  ],
+  "ended_at": "2026-04-15 00:38:29"
+}

@@ -1,0 +1,16 @@
+{
+  "started_at": "2026-04-15 19:06:16",
+  "page": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+  "steps": [
+    {
+      "step": "operationBusinessDataInfo_once",
+      "data": {
+        "ok": false,
+        "msg": "no_index_flow",
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId="
+      }
+    }
+  ],
+  "ended_at": "2026-04-15 19:06:16"
+}

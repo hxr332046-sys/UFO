@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "Q8416",
+        "saveHyCode": "8416",
+        "hyPecul": "疗养院",
+        "hyTypeName": "疗养院",
+        "enHyTypeName": null,
+        "explains": "指以疗养、康复为主，治疗为辅的医疗服务活动。",
+        "includesTitle": "包括下列疗养院的活动：",
+        "includes": "各类疗养院；残疾军人休养院；复员军人疗养院；复员军人慢性病疗养院；森林疗养院；各类康复中心。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "疗养院",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

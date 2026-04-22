@@ -1,0 +1,20 @@
+{
+  "started_at": "2026-04-20 22:37:13",
+  "steps": [
+    {
+      "step": "nav_core_1100",
+      "data": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base?busiType=02_4&entType=1100&marPrId=&marUniscId="
+    },
+    {
+      "step": "after",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/basic-info",
+        "hash": "#/flow/base/basic-info",
+        "title": "广西经营主体登记平台",
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1 信息填报 2 信息确认 3 信息预审 4 电子签章 5 信息审核 6 告知书 7 营业执照 1. 基本信息 2. 成员架构 3. 成员信息 4. 银行开户 5. 医保登记 6. 刻制印章 7. 社保信息 8. 公积金 9. 材料补充 注册信息 企业名称： 企业类型： 注册资本： 万元 设立方式： 一般新设 分立新设 合并新设 从业人数： 人 核算方式： 独立核算 非独立核算 经营期限： 长期 按年限 更多 是否需要纸质营业执照： 是 否 申请执"
+      }
+    }
+  ],
+  "start_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=portal&fromPage=%2Fcompany%2Fmy-space%2Fspace-index",
+  "ended_at": "2026-04-20 22:37:18"
+}

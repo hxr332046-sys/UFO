@@ -1,0 +1,64 @@
+{
+  "census_schema": "ufo.guide_base_core_census.v1",
+  "run_id": "db6183bd-2653-40c6-bcf6-972790ae6b3c",
+  "started_at": "2026-04-20 20:20:40",
+  "busi_type": "02_4",
+  "ent_types": [
+    "1100"
+  ],
+  "probe_rounds_cap": 1,
+  "flags": {
+    "no_nav": false,
+    "force_nav": true,
+    "no_autoclick": false,
+    "human_fast": false
+  },
+  "segments": [
+    {
+      "ent_type": "1100",
+      "busi_type": "02_4",
+      "rounds": [
+        {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "has_core": false,
+          "has_yun_submit": false,
+          "has_face_sms_gate": false,
+          "s08_menu_count": 0,
+          "s08_form_errors": [],
+          "s08_message_boxes": [],
+          "ui_errors": [],
+          "ui_message_box": "",
+          "autofill_log": [
+            "name:未申请",
+            "ent:内资有限公司",
+            "vm_set_name_unapplied"
+          ],
+          "primary_click": {
+            "ok": true,
+            "mode": "text:下一步",
+            "text": "下一步",
+            "cls": "el-button sub-btn el-button--primary"
+          },
+          "i": 0
+        }
+      ],
+      "nav": {
+        "assigned": true,
+        "target": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "href_after": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="
+      },
+      "outcome": "no_transition",
+      "stopped_early": false
+    }
+  ],
+  "ensure_icpsp_entry": {
+    "ok": true,
+    "ws_url": "ws://127.0.0.1:9225/devtools/page/5BBCE9C7BC1633DED1252DB5F2A10674",
+    "url_before": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase",
+    "url_after": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/company/my-space/space-index?fromProject=core&fromPage=%2Fflow%2Fbase",
+    "navigated": false,
+    "reason": "host_only_skip_nav"
+  },
+  "overall_outcome": "no_transition",
+  "ended_at": "2026-04-20 20:20:52"
+}

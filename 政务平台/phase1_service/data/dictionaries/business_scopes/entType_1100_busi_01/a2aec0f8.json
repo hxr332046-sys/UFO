@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "H6190",
+        "saveHyCode": "6190",
+        "hyPecul": "住宿业",
+        "hyTypeName": "其他住宿业",
+        "enHyTypeName": null,
+        "explains": "指上述未列明的住宿服务。",
+        "includesTitle": "包括下列其他住宿业活动：",
+        "includes": "学生公寓住宿服务；车船住宿服务；分时度假住宿服务；分时住宿服务；其他未列明住宿服务。",
+        "unIncludes": "不包括：房屋出租活动，列入70（房地产业）相关行业类别中。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "住宿业",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

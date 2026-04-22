@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "B0921",
+        "saveHyCode": "0921",
+        "hyPecul": "金矿采选",
+        "hyTypeName": "金矿采选",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列金矿的采选活动：",
+        "includes": "金原矿（砂）；金精（块）矿。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "金矿采选",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

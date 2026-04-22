@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "O8060",
+        "saveHyCode": "8060",
+        "hyPecul": "摄影扩印服务",
+        "hyTypeName": "摄影扩印服务",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列摄影扩印服务活动：",
+        "includes": "摄影服务：普通摄影服务、婚纱摄影服务、儿童摄影服务、证件摄影服务、艺术摄影服务、体育摄影服务、其他摄影服务；照片扩印及处理服务：数码照相扩印服务、电脑加工图片服务、照片翻制服务、其他照片扩印及处理服务。",
+        "unIncludes": "不包括：摄影记者的活动，列入8610（新闻业）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "摄影扩印",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "B0917",
+        "saveHyCode": "0917",
+        "hyPecul": "镁矿采选",
+        "hyTypeName": "镁矿采选",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列镁矿的采选活动：",
+        "includes": "天然碳酸镁（菱镁矿）；镁矿砂：电熔镁矿砂（熔凝镁氧矿）、重烧镁矿砂（烧结镁氧矿）、轻烧镁矿砂（碱烧镁氧矿）、其他镁矿砂；盐湖光卤石；水氯镁石；其他镁矿。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "镁矿采选",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

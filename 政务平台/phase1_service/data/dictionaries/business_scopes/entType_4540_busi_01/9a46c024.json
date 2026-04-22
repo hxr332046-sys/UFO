@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "G5951",
+        "saveHyCode": "5951",
+        "hyPecul": "谷物仓储",
+        "hyTypeName": "谷物仓储",
+        "enHyTypeName": null,
+        "explains": "指国家储备及其他谷物仓储活动。",
+        "includesTitle": "包括下列谷物仓储活动：",
+        "includes": "粮食仓储服务；食用油仓储服务。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "谷物仓储",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

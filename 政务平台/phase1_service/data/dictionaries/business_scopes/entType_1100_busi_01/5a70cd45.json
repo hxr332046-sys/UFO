@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C1393",
+        "saveHyCode": "1393",
+        "hyPecul": "蛋品加工",
+        "hyTypeName": "蛋品加工",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列蛋品的加工活动：",
+        "includes": "干蛋品：蛋黄（干蛋黄、蛋黄粉、其他蛋黄）、去壳禽蛋（干去壳禽蛋、全蛋粉、其他去壳禽蛋）；冰蛋品：冰全蛋、冰蛋白、冰蛋黄、其他冰蛋品；再制蛋：咸蛋、松花蛋、糟蛋、其他再制蛋；卵清蛋白：干卵清蛋白、其他卵清蛋白。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "蛋品加工",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

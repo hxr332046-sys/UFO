@@ -1,0 +1,32 @@
+{
+  "started_at": "2026-04-14 20:45:43",
+  "hook": {
+    "ok": true
+  },
+  "click": {
+    "clicked": true
+  },
+  "after": {
+    "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/member-post",
+    "hash": "#/flow/base/member-post",
+    "errors": [
+      "您好，由于系统服务出现异常，请勿多次重复提交，耐心等待片刻再重新尝试，如果问题仍然存在，请联系登记机关寻求帮助。"
+    ],
+    "lastReq": [
+      {
+        "t": 1776170748868,
+        "m": "POST",
+        "u": "/icpsp-api/v4/pc/register/establish/component/MemberPost/operationBusinessDataInfo?t=1776170748868",
+        "body": "{\"entName\":\"广西玉林天曼五金批发中心（个人独资）\",\"board\":\"0\",\"boardSup\":\"0\",\"pkAndMem\":{\"FR05\":[{\"flowData\":null,\"linkData\":{\"token\":null,\"continueFlag\":null,\"compUrl\":null,\"compUrlPaths\":null,\"busiCompComb\":null,\"compCombArr\":null,\"opeType\":null,\"busiCompUrlPaths\":null},\"processVo\":null,\"jurisdiction\":null,\"currentLocationVo\":null,\"producePdfVo\":null,\"returnModifyVo\":null,\"transferToOfflineVo\":null,\"preSubmitVo\":null,\"submitVo\":null,\"page\":null,\"list\":null,\"itemId\":\"2044029370544291840\",\"fieldList\":null,\"busiComp\":null,\"subBusiCompMap\":null,\"signInfo\":null,\"operationResultVo\":null,\"signRandomCode\":null,\"extraDto\":null,\"naturalFlag\":\"1\",\"name\":\"黄永裕\",\"nationalityCode\":\"156\",\"nationalityCodeName\":null,\"cerType"
+      }
+    ],
+    "lastResp": [
+      {
+        "t": 1776170748924,
+        "u": "/icpsp-api/v4/pc/register/establish/component/MemberPost/operationBusinessDataInfo?t=1776170748868",
+        "status": 200,
+        "text": "{\"code\":\"A0002\",\"data\":null,\"msg\":\"服务端异常\",\"page\":null}"
+      }
+    ]
+  }
+}

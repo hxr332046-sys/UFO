@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "M7493",
+        "saveHyCode": "7493",
+        "hyPecul": "兽医服务",
+        "hyTypeName": "兽医服务",
+        "enHyTypeName": null,
+        "explains": "指专业从事除宠物以外的牲畜、家禽和其他动物的诊疗、开具处方等动物治疗活动。",
+        "includesTitle": "包括下列兽医服务活动：",
+        "includes": "大牲畜疾病防治服务；家禽疾病防治服务；小型动物疾病防治服务；水生动物疾病防治服务；野生动物疾病防治服务；其他动物疾病防治服务。",
+        "unIncludes": "不包括：狗、猫等宠物医院的活动，列入8222（宠物医院服务）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "兽医服务",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

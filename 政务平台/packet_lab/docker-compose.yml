@@ -1,0 +1,8 @@
+# 在仓库根执行: docker compose -f 政务平台/packet_lab/docker-compose.yml run --rm packet-lab
+# （Windows 下路径按本机调整；仅只读挂载抓包目录，避免误改原始证据）
+services:
+  packet-lab:
+    build: .
+    volumes:
+      - ../dashboard/data/records:/data:ro
+      - ./out:/lab/out

@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "F5221",
+        "saveHyCode": "5221",
+        "hyPecul": "粮油零售",
+        "hyTypeName": "粮油零售",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列粮油的零售活动：",
+        "includes": "粮食专门零售服务；食用油专门零售服务；（粮食制品专门零售服务）专营米、面粉、挂面、切面及食用油的零售活动；专营厨房主食食品（馒头、烙饼、面条、米粉等）的零售活动。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "粮油零售",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

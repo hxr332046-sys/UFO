@@ -1,0 +1,2959 @@
+{
+  "test_time": "2026-04-13 18:36:43",
+  "steps": [
+    {
+      "step": "1.创建任务",
+      "time": "18:36:43",
+      "data": {
+        "task_id": "8f98d475",
+        "status": "reviewing",
+        "label": "LLM审核中"
+      },
+      "issues": []
+    },
+    {
+      "step": "2.LLM审核结果",
+      "time": "18:37:07",
+      "data": {
+        "status": "rejected",
+        "label": "需补正",
+        "approved": false,
+        "risk": "medium",
+        "summary": "材料完整度高，人员架构符合自然人独资公司基本要求。主要风险点在于财务负责人兼任及实缴资本填报习惯，建议根据当地政务大厅具体审核偏好进行微调。",
+        "issues_count": 2,
+        "form_mapped": false,
+        "needs_action": true,
+        "action_msg": "材料不合格，请补正后重新提交"
+      },
+      "issues": [
+        "财务负责人由法定代表人陈明辉兼任。虽然法律未明文禁止，但在政务审核实践中，为保证财务监督独立性，部分地区（如广西部分政务窗口）会要求财务负责人与法定代表人、执行董事分离。",
+        "实缴资本填报为100万元，与注册资本一致。在当前认缴制下，新设公司实缴额通常填报为0。若填报为100万，需确保资金已实际到位并准备好银行进账单或验资报告，否则存在虚假出资风险。"
+      ]
+    },
+    {
+      "step": "1b.修正材料",
+      "time": "18:38:04",
+      "data": {
+        "fix1": "财务负责人改为独立人员张丽华",
+        "fix2": "实缴资本改为0（认缴制）"
+      },
+      "issues": []
+    },
+    {
+      "step": "1b.重新提交结果",
+      "time": "18:38:04",
+      "data": {
+        "status": "reviewing",
+        "label": "LLM审核中"
+      },
+      "issues": []
+    },
+    {
+      "step": "1b.重新审核结果",
+      "time": "18:38:12",
+      "data": {
+        "status": "filling",
+        "label": "自动填表中",
+        "approved": true,
+        "risk": "low",
+        "summary": "材料审核通过。各项信息完整且逻辑一致，股东、法定代表人及监事任职符合《公司法》关于自然人独资公司的相关规定，附件材料上传齐全，具备提交政务平台审核的条件。",
+        "issues": [],
+        "form_mapped": false,
+        "needs_action": false
+      },
+      "issues": []
+    },
+    {
+      "step": "3.填表完成状态",
+      "time": "18:40:27",
+      "data": {
+        "status": "filling",
+        "label": "自动填表中",
+        "form_fields_count": 30,
+        "fill_result": {
+          "filled": 0,
+          "skipped": 1,
+          "errors": [
+            "ent_name: field_not_found",
+            "ent_type: field_not_found",
+            "reg_cap: field_not_found",
+            "currency: field_not_found",
+            "op_period: field_not_found",
+            "dom_province: field_not_found",
+            "dom_city: field_not_found",
+            "dom_district: field_not_found",
+            "dom_detail: field_not_found",
+            "op_scope: field_not_found",
+            "ler_name: field_not_found",
+            "ler_id_type: field_not_found",
+            "ler_id_no: field_not_found",
+            "ler_mob: field_not_found",
+            "ler_email: field_not_found",
+            "ler_pos: field_not_found",
+            "inv_name: field_not_found",
+            "inv_id_no: field_not_found",
+            "sub_con_am: field_not_found",
+            "con_prop: field_not_found",
+            "con_form: field_not_found",
+            "sup_name: field_not_found",
+            "sup_id_no: field_not_found",
+            "sup_mob: field_not_found",
+            "fin_name: field_not_found",
+            "fin_id_no: field_not_found",
+            "fin_mob: field_not_found",
+            "contact_name: field_not_found",
+            "contact_mob: field_not_found"
+          ]
+        },
+        "navigation": {
+          "success": true,
+          "route": "/index/enterprise/establish",
+          "current_hash": "#/index/page"
+        },
+        "needs_action": false,
+        "action_msg": ""
+      },
+      "issues": []
+    },
+    {
+      "step": "4.CDP连接",
+      "time": "18:40:27",
+      "data": {
+        "connected": true
+      },
+      "issues": []
+    },
+    {
+      "step": "4a.登录态",
+      "time": "18:40:27",
+      "data": {
+        "Auth": "2060d9e762d64024a76bb3bea2fb5c09",
+        "top": "afa0fc94-b685-4f1a-9eb4-f24ff1b0615d",
+        "has": true
+      },
+      "issues": []
+    },
+    {
+      "step": "5.设立登记页面结构",
+      "time": "18:40:33",
+      "data": {
+        "hash": "",
+        "steps": [],
+        "tabs": [],
+        "form_count": 0,
+        "button_count": 13,
+        "iframe_count": 0
+      },
+      "issues": []
+    },
+    {
+      "step": "5a.字段分类",
+      "time": "18:40:33",
+      "data": {
+        "可填input": 0,
+        "select下拉": 0,
+        "upload上传": 0,
+        "必填required": 0
+      },
+      "issues": []
+    },
+    {
+      "step": "5b.全部字段详情",
+      "time": "18:40:33",
+      "data": {
+        "fields": []
+      },
+      "issues": []
+    },
+    {
+      "step": "5c.页面按钮",
+      "time": "18:40:33",
+      "data": {
+        "buttons": [
+          {
+            "text": "登   录",
+            "disabled": false
+          },
+          {
+            "text": "登   录",
+            "disabled": false
+          },
+          {
+            "text": "个人扫码",
+            "disabled": false
+          },
+          {
+            "text": "法人扫码",
+            "disabled": false
+          },
+          {
+            "text": "×",
+            "disabled": false
+          },
+          {
+            "text": "确定",
+            "disabled": false
+          },
+          {
+            "text": "取消",
+            "disabled": false
+          },
+          {
+            "text": "×",
+            "disabled": false
+          },
+          {
+            "text": "确定",
+            "disabled": false
+          },
+          {
+            "text": "取消",
+            "disabled": false
+          },
+          {
+            "text": "×",
+            "disabled": false
+          },
+          {
+            "text": "确定",
+            "disabled": false
+          },
+          {
+            "text": "取消",
+            "disabled": false
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "5e.名称预核准检查",
+      "time": "18:40:33",
+      "data": {
+        "hasNameCheck": false,
+        "nameCheckBtn": ""
+      },
+      "issues": []
+    },
+    {
+      "step": "5f.认证元素检测",
+      "time": "18:40:33",
+      "data": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "bankAuth": false,
+        "realName": false
+      },
+      "issues": []
+    },
+    {
+      "step": "6.Token验证",
+      "time": "18:59:40",
+      "data": {
+        "token": "...",
+        "checkToken_status": 404,
+        "getUserInfo_status": 404,
+        "token_valid": false
+      },
+      "issues": [
+        "Token已过期！需要重新登录"
+      ]
+    },
+    {
+      "step": "6a.登录要求",
+      "time": "18:59:40",
+      "data": {
+        "action": "需要用户在CDP浏览器中手动登录",
+        "reason": "Token过期，API返回非200",
+        "login_page": "当前页面就是登录页",
+        "methods": [
+          "账号密码+滑块验证",
+          "个人扫码",
+          "法人扫码"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "6b.登录页结构",
+      "time": "18:59:40",
+      "data": {
+        "tabs": [
+          "个人登录\n                    \n                    \n                        \n                        法人登录\n                    \n                    \n                        \n                        扫码登录",
+          "个人登录",
+          "国务院部门网站\n        省（区、市）政府网站\n        自治区政府部门网站\n        广西各设区市网站\n        广西各县（市、区）网站\n      \n      \n        \n        \n          \n            外交部\n            国防部\n            国家发展和改革委员会\n            教育部\n            科学技术部\n            工业和信息化部\n            国家民族事务委员会\n            公安部\n            民政部\n            司法部\n            财政部\n            人力资源和社会保障部\n            自然资源部\n            生态环境部\n            住房和城乡建设部\n            交通运输部\n            水利部\n            农业农村部\n            商务部\n            文化和旅游部\n            国家卫生健康委员会\n            退役军人事务部\n            应急管理部\n            中国人民银行\n            审计署\n            国家语言文字工作委员会\n            国家航天局\n            国家原子能机构\n            国家核安全局\n            国家乡村振兴局\n            国务院国有资产监督管理委员会\n            海关总署\n            国家税务总局\n            国家市场监督管理总局\n            国家金融监督管理总局\n            中国证券监督管理委员会\n            国家广播电视总局\n            国家体育总局\n            国家信访局\n            国家统计局\n            国家知识产权局\n            国家国际发展合作署\n            国家医疗保障局\n            国务院参事室\n            国家机关事务管理局\n            国家认证认可监督管理委员会\n            国家标准化管理委员会\n            国家新闻出版署\n            国家版权局\n            国家宗教事务局\n            国务院研究室\n            国务院侨务办公室\n            国务院港澳事务办公室\n            国务院台湾事务办公室\n            国家互联网信息办公室\n            国务院新闻办公室\n            新华通讯社\n            中国科学院\n            中国社会科学院\n            中国工程院\n            国务院发展研究中心\n            中国气象局\n            国家行政学院\n            国家粮食和物资储备局\n            国家能源局\n            国家国防科技工业局\n            国家烟草专卖局\n            国家移民管理局\n            国家林业和草原局\n            国家铁路局\n            中国民用航空局\n            国家邮政局\n            国家文物局\n            国家中医药管理局\n            国家矿山安全监察局\n            国家消防救援局\n            国家外汇管理局\n            国家药品监督管理局\n          \n        \n        \n        \n        \n          \n            \n            北京\n            天津\n            河北\n            山西\n            内蒙古\n            辽宁\n            吉林\n            黑龙江\n            上海\n            江苏\n            浙江\n            安徽\n            福建\n            江西\n            山东\n            河南\n            湖北\n            湖南\n            广东\n            广西\n            海南\n            重庆\n            四川\n            贵州\n            云南\n            西藏\n            陕西\n            甘肃\n            宁夏\n            青海\n            新疆\n            香港\n            澳门\n            台湾\n            新疆生产建设兵团\n          \n        \n        \n        \n        \n          \n            自治区人民政府组成部门\n            自治区发展改革委\n            自治区教育厅\n            自治区科技厅\n            自治区工业和信息化厅\n            自治区民宗委\n            自治区公安厅\n            自治区民政厅\n            自治区司法厅\n            自治区财政厅\n            自治区人力资源社会保障厅\n            自治区自然资源厅\n            自治区生态环境厅\n            自治区住房城乡建设厅\n            自治区交通运输厅\n            自治区水利厅\n            自治区农业农村厅\n            自治区商务厅\n            自治区文化和旅游厅\n            自治区卫生健康委\n            自治区退役军人事务厅\n            自治区应急管理厅\n            自治区审计厅\n            自治区外事办\n            自治区人民政府直属特设机构\n            自治区国资委\n            自治区人民政府直属机构\n            自治区市场监管局\n            自治区广电局\n            自治区体育局\n            自治区统计局\n            自治区林业局\n            自治区地方金融监管局\n            自治区国动办\n            自治区乡村振兴局\n            自治区北部湾办\n            自治区大数据发展局\n            自治区机关事务管理局\n            自治区医保局\n            自治区人民政府部门管理机构\n            自治区粮食和储备局\n            自治区监狱管理局\n            自治区海洋局\n            自治区中医药局\n            自治区药监局\n          \n        \n        \n        \n        \n          \n            南宁\n            柳州\n            桂林\n            梧州\n            北海\n            防城港\n            钦州\n            贵港\n            玉林\n            百色\n            贺州\n            河池\n            来宾\n            崇左\n          \n        \n        \n        \n        \n          \n            南宁市人民政府\n            横州市人民政府\n            宾阳县人民政府\n            上林县人民政府\n            马山县人民政府\n            隆安县人民政府\n            兴宁区人民政府\n            江南区人民政府\n            青秀区人民政府\n            西乡塘区人民政府\n            邕宁区人民政府\n            良庆区人民政府\n            武鸣区人民政府\n            柳州市人民政府\n            城中区人民政府\n            鱼峰区人民政府\n            柳北区人民政府\n            柳南区人民政府\n            鹿寨县人民政府\n            融水苗族自治县人民政府\n            柳城县人民政府\n            柳江区人民政府\n            融安县人民政府\n            三江侗族自治县人民政府\n            桂林市人民政府\n            秀峰区人民政府\n            叠彩区人民政府\n            象山区人民政府\n            桂林国家高新区 七星区\n            雁山区人民政府\n            临桂区人民政府\n            阳朔县人民政府\n            灵川县人民政府\n            全州县人民政府\n            兴安县人民政府\n            永福县人民政府\n            灌阳县人民政府\n            龙胜各族自治县人民政府\n            资源县人民政府\n            平乐县人民政府\n            荔浦市人民政府\n            恭城瑶族自治县人民政府\n            梧州市人民政府\n            万秀区人民政府\n            长洲区人民政府\n            龙圩区人民政府\n            苍梧县人民政府\n            藤县人民政府\n            蒙山县人民政府\n            岑溪市人民政府\n            北海市人民政府\n            海城区人民政府\n            银海区人民政府\n            铁山港区人民政府\n            合浦县人民政府\n            防城港市人民政府\n            上思县人民政府\n            东兴市人民政府\n            港口区人民政府\n            防城区人民政府\n            钦州市人民政府\n            灵山县人民政府\n            浦北县人民政府\n            钦南区人民政府\n            钦北区人民政府\n            贵港市人民政府\n            桂平市人民政府\n            平南县人民政府\n            港北区人民政府\n            港南区人民政府\n            覃塘区人民政府\n            玉林市人民政府\n            北流市人民政府\n            容县人民政府\n            陆川县人民政府\n            博白县人民政府\n            兴业县人民政府\n            玉州区人民政府\n            福绵区人民政府\n            百色市人民政府\n            右江区人民政府\n            田阳区人民政府\n            田东县人民政府\n            平果市人民政府\n            德保县人民政府\n            靖西市人民政府\n            那坡县人民政府\n            凌云县人民政府\n            乐业县人民政府\n            田林县人民政府\n            隆林各族自治县人民政府\n            西林县人民政府\n            贺州市人民政府\n            八步区人民政府\n            平桂区人民政府\n            昭平县人民政府\n            钟山县人民政府\n            富川瑶族自治县人民政府\n            河池市人民政府\n            金城江区人民政府\n            宜州区人民政府\n            罗城仫佬族自治县人民政府\n            环江毛南族自治县人民政府\n            南丹县人民政府\n            天峨县人民政府\n            东兰县人民政府\n            巴马瑶族自治县人民政府\n            凤山县人民政府\n            都安瑶族自治县人民政府\n            大化瑶族自治县人民政府\n            来宾市人民政府\n            兴宾区人民政府\n            象州县人民政府\n            武宣县人民政府\n            忻城县人民政府\n            金秀瑶族自治县人民政府\n            合山市人民政府\n            崇左市人民政府\n            扶绥县人民政府\n            大新县人民政府\n            天等县人民政府\n            宁明县人民政府\n            龙州县人民政府\n            凭祥市人民政府\n            江州区人民政府",
+          "国务院部门网站\n        省（区、市）政府网站\n        自治区政府部门网站\n        广西各设区市网站\n        广西各县（市、区）网站",
+          "外交部\n            国防部\n            国家发展和改革委员会\n            教育部\n            科学技术部\n            工业和信息化部\n            国家民族事务委员会\n            公安部\n            民政部\n            司法部\n            财政部\n            人力资源和社会保障部\n            自然资源部\n            生态环境部\n            住房和城乡建设部\n            交通运输部\n            水利部\n            农业农村部\n            商务部\n            文化和旅游部\n            国家卫生健康委员会\n            退役军人事务部\n            应急管理部\n            中国人民银行\n            审计署\n            国家语言文字工作委员会\n            国家航天局\n            国家原子能机构\n            国家核安全局\n            国家乡村振兴局\n            国务院国有资产监督管理委员会\n            海关总署\n            国家税务总局\n            国家市场监督管理总局\n            国家金融监督管理总局\n            中国证券监督管理委员会\n            国家广播电视总局\n            国家体育总局\n            国家信访局\n            国家统计局\n            国家知识产权局\n            国家国际发展合作署\n            国家医疗保障局\n            国务院参事室\n            国家机关事务管理局\n            国家认证认可监督管理委员会\n            国家标准化管理委员会\n            国家新闻出版署\n            国家版权局\n            国家宗教事务局\n            国务院研究室\n            国务院侨务办公室\n            国务院港澳事务办公室\n            国务院台湾事务办公室\n            国家互联网信息办公室\n            国务院新闻办公室\n            新华通讯社\n            中国科学院\n            中国社会科学院\n            中国工程院\n            国务院发展研究中心\n            中国气象局\n            国家行政学院\n            国家粮食和物资储备局\n            国家能源局\n            国家国防科技工业局\n            国家烟草专卖局\n            国家移民管理局\n            国家林业和草原局\n            国家铁路局\n            中国民用航空局\n            国家邮政局\n            国家文物局\n            国家中医药管理局\n            国家矿山安全监察局\n            国家消防救援局\n            国家外汇管理局\n            国家药品监督管理局\n          \n        \n        \n        \n        \n          \n            \n            北京\n            天津\n            河北\n            山西\n            内蒙古\n            辽宁\n            吉林\n            黑龙江\n            上海\n            江苏\n            浙江\n            安徽\n            福建\n            江西\n            山东\n            河南\n            湖北\n            湖南\n            广东\n            广西\n            海南\n            重庆\n            四川\n            贵州\n            云南\n            西藏\n            陕西\n            甘肃\n            宁夏\n            青海\n            新疆\n            香港\n            澳门\n            台湾\n            新疆生产建设兵团\n          \n        \n        \n        \n        \n          \n            自治区人民政府组成部门\n            自治区发展改革委\n            自治区教育厅\n            自治区科技厅\n            自治区工业和信息化厅\n            自治区民宗委\n            自治区公安厅\n            自治区民政厅\n            自治区司法厅\n            自治区财政厅\n            自治区人力资源社会保障厅\n            自治区自然资源厅\n            自治区生态环境厅\n            自治区住房城乡建设厅\n            自治区交通运输厅\n            自治区水利厅\n            自治区农业农村厅\n            自治区商务厅\n            自治区文化和旅游厅\n            自治区卫生健康委\n            自治区退役军人事务厅\n            自治区应急管理厅\n            自治区审计厅\n            自治区外事办\n            自治区人民政府直属特设机构\n            自治区国资委\n            自治区人民政府直属机构\n            自治区市场监管局\n            自治区广电局\n            自治区体育局\n            自治区统计局\n            自治区林业局\n            自治区地方金融监管局\n            自治区国动办\n            自治区乡村振兴局\n            自治区北部湾办\n            自治区大数据发展局\n            自治区机关事务管理局\n            自治区医保局\n            自治区人民政府部门管理机构\n            自治区粮食和储备局\n            自治区监狱管理局\n            自治区海洋局\n            自治区中医药局\n            自治区药监局\n          \n        \n        \n        \n        \n          \n            南宁\n            柳州\n            桂林\n            梧州\n            北海\n            防城港\n            钦州\n            贵港\n            玉林\n            百色\n            贺州\n            河池\n            来宾\n            崇左\n          \n        \n        \n        \n        \n          \n            南宁市人民政府\n            横州市人民政府\n            宾阳县人民政府\n            上林县人民政府\n            马山县人民政府\n            隆安县人民政府\n            兴宁区人民政府\n            江南区人民政府\n            青秀区人民政府\n            西乡塘区人民政府\n            邕宁区人民政府\n            良庆区人民政府\n            武鸣区人民政府\n            柳州市人民政府\n            城中区人民政府\n            鱼峰区人民政府\n            柳北区人民政府\n            柳南区人民政府\n            鹿寨县人民政府\n            融水苗族自治县人民政府\n            柳城县人民政府\n            柳江区人民政府\n            融安县人民政府\n            三江侗族自治县人民政府\n            桂林市人民政府\n            秀峰区人民政府\n            叠彩区人民政府\n            象山区人民政府\n            桂林国家高新区 七星区\n            雁山区人民政府\n            临桂区人民政府\n            阳朔县人民政府\n            灵川县人民政府\n            全州县人民政府\n            兴安县人民政府\n            永福县人民政府\n            灌阳县人民政府\n            龙胜各族自治县人民政府\n            资源县人民政府\n            平乐县人民政府\n            荔浦市人民政府\n            恭城瑶族自治县人民政府\n            梧州市人民政府\n            万秀区人民政府\n            长洲区人民政府\n            龙圩区人民政府\n            苍梧县人民政府\n            藤县人民政府\n            蒙山县人民政府\n            岑溪市人民政府\n            北海市人民政府\n            海城区人民政府\n            银海区人民政府\n            铁山港区人民政府\n            合浦县人民政府\n            防城港市人民政府\n            上思县人民政府\n            东兴市人民政府\n            港口区人民政府\n            防城区人民政府\n            钦州市人民政府\n            灵山县人民政府\n            浦北县人民政府\n            钦南区人民政府\n            钦北区人民政府\n            贵港市人民政府\n            桂平市人民政府\n            平南县人民政府\n            港北区人民政府\n            港南区人民政府\n            覃塘区人民政府\n            玉林市人民政府\n            北流市人民政府\n            容县人民政府\n            陆川县人民政府\n            博白县人民政府\n            兴业县人民政府\n            玉州区人民政府\n            福绵区人民政府\n            百色市人民政府\n            右江区人民政府\n            田阳区人民政府\n            田东县人民政府\n            平果市人民政府\n            德保县人民政府\n            靖西市人民政府\n            那坡县人民政府\n            凌云县人民政府\n            乐业县人民政府\n            田林县人民政府\n            隆林各族自治县人民政府\n            西林县人民政府\n            贺州市人民政府\n            八步区人民政府\n            平桂区人民政府\n            昭平县人民政府\n            钟山县人民政府\n            富川瑶族自治县人民政府\n            河池市人民政府\n            金城江区人民政府\n            宜州区人民政府\n            罗城仫佬族自治县人民政府\n            环江毛南族自治县人民政府\n            南丹县人民政府\n            天峨县人民政府\n            东兰县人民政府\n            巴马瑶族自治县人民政府\n            凤山县人民政府\n            都安瑶族自治县人民政府\n            大化瑶族自治县人民政府\n            来宾市人民政府\n            兴宾区人民政府\n            象州县人民政府\n            武宣县人民政府\n            忻城县人民政府\n            金秀瑶族自治县人民政府\n            合山市人民政府\n            崇左市人民政府\n            扶绥县人民政府\n            大新县人民政府\n            天等县人民政府\n            宁明县人民政府\n            龙州县人民政府\n            凭祥市人民政府\n            江州区人民政府"
+        ],
+        "formItems": [],
+        "buttons": [
+          "登   录",
+          "登   录",
+          "个人扫码",
+          "法人扫码",
+          "×",
+          "确定",
+          "取消",
+          "×",
+          "确定",
+          "取消",
+          "×",
+          "确定",
+          "取消"
+        ],
+        "slider": true,
+        "qrcode": true
+      },
+      "issues": []
+    },
+    {
+      "step": "6c.滑块验证机制",
+      "time": "18:59:40",
+      "data": {
+        "hasSlider": true,
+        "tag": "DIV",
+        "cls": "input_list slider1",
+        "text": "刷新向右滑动滑块，完成验证！\n                            验证成功",
+        "hasCanvas": false,
+        "canvasCount": 0
+      },
+      "issues": []
+    },
+    {
+      "step": "6d.扫码登录机制",
+      "time": "18:59:40",
+      "data": {
+        "qrImages": 5,
+        "canvasCount": 0,
+        "qrDivs": [
+          {
+            "cls": "qr_tite",
+            "text": "电子营业执照扫码登录",
+            "visible": false
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "7.导航成功",
+      "time": "19:20:01",
+      "data": {
+        "hash": "#/index/page",
+        "formCount": 0,
+        "isLogin": false
+      },
+      "issues": []
+    },
+    {
+      "step": "8.设立登记表单结构",
+      "time": "19:20:01",
+      "data": {
+        "steps": [],
+        "tabs": [],
+        "formCount": 0,
+        "buttons": [
+          {
+            "text": "查看详情",
+            "disabled": false
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "8a.字段分类",
+      "time": "19:20:01",
+      "data": {
+        "可填input": 0,
+        "select下拉": 0,
+        "upload上传": 0,
+        "必填": 0
+      },
+      "issues": []
+    },
+    {
+      "step": "8b.全部字段",
+      "time": "19:20:01",
+      "data": {
+        "fields": []
+      },
+      "issues": []
+    },
+    {
+      "step": "9.表单填写测试",
+      "time": "19:20:01",
+      "data": {
+        "attempted": 11,
+        "success": 0,
+        "failed": 11,
+        "ok_details": [],
+        "fail_details": [
+          {
+            "ok": false,
+            "label": "公司名称",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "名称",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "注册资本",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "经营范围",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "住所",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "法定代表人",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "身份证",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "联系电话",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "邮箱",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "监事",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "财务负责人",
+            "reason": "not_found"
+          }
+        ]
+      },
+      "issues": [
+        "填写失败: 公司名称(not_found)",
+        "填写失败: 名称(not_found)",
+        "填写失败: 注册资本(not_found)",
+        "填写失败: 经营范围(not_found)",
+        "填写失败: 住所(not_found)",
+        "填写失败: 法定代表人(not_found)",
+        "填写失败: 身份证(not_found)",
+        "填写失败: 联系电话(not_found)",
+        "填写失败: 邮箱(not_found)",
+        "填写失败: 监事(not_found)",
+        "填写失败: 财务负责人(not_found)"
+      ]
+    },
+    {
+      "step": "10.认证检测",
+      "time": "19:20:01",
+      "data": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "bankAuth": false,
+        "realName": false
+      },
+      "issues": []
+    },
+    {
+      "step": "15.最终导航状态",
+      "time": "19:23:09",
+      "data": {
+        "hash": "#/404",
+        "formCount": 0,
+        "textPreview": "404\n抱歉, 你访问的页面不存在.\n请检查您输入的网址是否正确\n或者点击按钮返回首页\n返回主页"
+      },
+      "issues": []
+    },
+    {
+      "step": "16.导航测试最终状态",
+      "time": "19:29:53",
+      "data": {
+        "hash": "#/404",
+        "formCount": 0,
+        "textPreview": "404\n抱歉, 你访问的页面不存在.\n请检查您输入的网址是否正确\n或者点击按钮返回首页\n返回主页"
+      },
+      "issues": []
+    },
+    {
+      "step": "17.导航测试最终状态",
+      "time": "19:32:24",
+      "data": {
+        "hash": "#/index/page",
+        "formCount": 0,
+        "textPreview": "国家政务服务平台\n广西数字政务一体化平台（试运行）\n黄永裕\n市场监管准入一体化平台（试运行）\n经营主体登记注册\n食品许可登记\n特种设备许可\n计量行政许可\n工业产品生产许可\n检验检测机构资质认定\n特色服务\nTESEFUWU\n企业开办一件事\n证照联办（含开办、变更、注销）\n企业变更一件事\n企业注销一件事\n迁移一件事\n个体工商户转型为企业一件事\n企业档案查询\n企业开办一件事（南宁）\n经营主体登记\n企业开"
+      },
+      "issues": []
+    },
+    {
+      "step": "18.导航测试",
+      "time": "19:34:51",
+      "data": {
+        "hash": "#/index/page",
+        "formCount": 0,
+        "text": "国家政务服务平台\n广西数字政务一体化平台（试运行）\n黄永裕\n市场监管准入一体化平台（试运行）\n经营主体登记注册\n食品许可登记\n特种设备许可\n计量行政许可\n工业产品生产许可\n检验检测机构资质认定\n特色服"
+      },
+      "issues": []
+    },
+    {
+      "step": "19.导航测试",
+      "time": "19:36:39",
+      "data": {
+        "hash": "#/index/page",
+        "formCount": 0,
+        "text": "国家政务服务平台\n广西数字政务一体化平台（试运行）\n黄永裕\n市场监管准入一体化平台（试运行）\n经营主体登记注册\n食品许可登记\n特种设备许可\n计量行政许可\n工业产品生产许可\n检验检测机构资质认定\n特色服"
+      },
+      "issues": []
+    },
+    {
+      "step": "20.导航+登录态恢复测试",
+      "time": "19:40:23",
+      "data": {
+        "hash": "#/index/page",
+        "formCount": 0,
+        "text": "国家政务服务平台\n广西数字政务一体化平台（试运行）\n黄永裕\n市场监管准入一体化平台（试运行）\n经营主体登记注册\n食品许可登记\n特种设备许可\n计量行政许可\n工业产品生产许可\n检验检测机构资质认定\n特色服"
+      },
+      "issues": []
+    },
+    {
+      "step": "24.路由未注册",
+      "time": "19:45:13",
+      "data": {
+        "all_404": true,
+        "reason": "SPA刷新后动态路由丢失"
+      },
+      "issues": []
+    },
+    {
+      "step": "28.导航测试",
+      "time": "20:01:41",
+      "data": {
+        "hash": "#/index/enterprise/enterprise-zone",
+        "formCount": 0,
+        "text": "广西数字政务一体化平台\n首页\n全部服务\n**裕 \n办件中心\n长辈模式\n办理营业执照\n整合营业执照、社保登记、公章刻制、税务登记、医保登记、公积金登记、银行预约开户等，实现企业一张表单填写、一次材料提交"
+      },
+      "issues": []
+    },
+    {
+      "step": "45.设立登记表单",
+      "time": "20:15:31",
+      "data": {
+        "formCount": 0,
+        "steps": [],
+        "buttons": [
+          "page",
+          "page1",
+          "其他来源名称",
+          "取 消",
+          "确 定"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "45a.字段详情",
+      "time": "20:15:31",
+      "data": {
+        "fields": []
+      },
+      "issues": []
+    },
+    {
+      "step": "46.填写测试",
+      "time": "20:15:31",
+      "data": {
+        "ok": 0,
+        "fail": 11,
+        "ok_list": [],
+        "fail_list": [
+          {
+            "ok": false,
+            "label": "公司名称",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "名称",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "注册资本",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "经营范围",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "住所",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "法定代表人",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "身份证",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "联系电话",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "邮箱",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "监事",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "财务负责人",
+            "reason": "not_found"
+          }
+        ]
+      },
+      "issues": [
+        "填写失败:公司名称(not_found)",
+        "填写失败:名称(not_found)",
+        "填写失败:注册资本(not_found)",
+        "填写失败:经营范围(not_found)",
+        "填写失败:住所(not_found)",
+        "填写失败:法定代表人(not_found)",
+        "填写失败:身份证(not_found)",
+        "填写失败:联系电话(not_found)",
+        "填写失败:邮箱(not_found)",
+        "填写失败:监事(not_found)",
+        "填写失败:财务负责人(not_found)"
+      ]
+    },
+    {
+      "step": "47.认证检测",
+      "time": "20:15:31",
+      "data": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "bankAuth": false,
+        "realName": false,
+        "signAuth": false,
+        "digitalCert": false,
+        "caAuth": false
+      },
+      "issues": []
+    },
+    {
+      "step": "48.设立登记表单",
+      "time": "20:16:55",
+      "data": {
+        "formCount": 2,
+        "steps": [],
+        "buttons": [
+          "page",
+          "page1",
+          "选择已有名称",
+          "关 闭"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "48a.字段详情",
+      "time": "20:16:55",
+      "data": {
+        "fields": [
+          {
+            "i": 0,
+            "label": "企业名称",
+            "type": "input",
+            "required": true,
+            "ph": "请输入企业名称",
+            "disabled": false
+          },
+          {
+            "i": 1,
+            "label": "名称保留单号",
+            "type": "input",
+            "required": true,
+            "ph": "请输入名称保留单号",
+            "disabled": false
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "49.填写测试",
+      "time": "20:16:55",
+      "data": {
+        "ok": 1,
+        "fail": 10,
+        "ok_list": [
+          {
+            "ok": true,
+            "label": "企业名称"
+          }
+        ],
+        "fail_list": [
+          {
+            "ok": false,
+            "label": "公司名称",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "注册资本",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "经营范围",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "住所",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "法定代表人",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "身份证",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "联系电话",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "邮箱",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "监事",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "财务负责人",
+            "reason": "not_found"
+          }
+        ]
+      },
+      "issues": [
+        "填写失败:公司名称(not_found)",
+        "填写失败:注册资本(not_found)",
+        "填写失败:经营范围(not_found)",
+        "填写失败:住所(not_found)",
+        "填写失败:法定代表人(not_found)",
+        "填写失败:身份证(not_found)",
+        "填写失败:联系电话(not_found)",
+        "填写失败:邮箱(not_found)",
+        "填写失败:监事(not_found)",
+        "填写失败:财务负责人(not_found)"
+      ]
+    },
+    {
+      "step": "50.认证检测",
+      "time": "20:16:55",
+      "data": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "bankAuth": false,
+        "realName": false,
+        "signAuth": false,
+        "digitalCert": false,
+        "caAuth": false
+      },
+      "issues": []
+    },
+    {
+      "step": "51.设立登记表单",
+      "time": "20:18:26",
+      "data": {
+        "formCount": 0,
+        "steps": [],
+        "buttons": [
+          "page",
+          "page1",
+          "其他来源名称",
+          "关 闭"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "51a.字段详情",
+      "time": "20:18:26",
+      "data": {
+        "fields": []
+      },
+      "issues": []
+    },
+    {
+      "step": "52.填写测试",
+      "time": "20:18:26",
+      "data": {
+        "ok": 0,
+        "fail": 11,
+        "ok_list": [],
+        "fail_list": [
+          {
+            "ok": false,
+            "label": "公司名称",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "名称",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "注册资本",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "经营范围",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "住所",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "法定代表人",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "身份证",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "联系电话",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "邮箱",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "监事",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "财务负责人",
+            "reason": "not_found"
+          }
+        ]
+      },
+      "issues": [
+        "填写失败:公司名称(not_found)",
+        "填写失败:名称(not_found)",
+        "填写失败:注册资本(not_found)",
+        "填写失败:经营范围(not_found)",
+        "填写失败:住所(not_found)",
+        "填写失败:法定代表人(not_found)",
+        "填写失败:身份证(not_found)",
+        "填写失败:联系电话(not_found)",
+        "填写失败:邮箱(not_found)",
+        "填写失败:监事(not_found)",
+        "填写失败:财务负责人(not_found)"
+      ]
+    },
+    {
+      "step": "53.认证检测",
+      "time": "20:18:26",
+      "data": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "bankAuth": false,
+        "realName": false,
+        "signAuth": false,
+        "digitalCert": false,
+        "caAuth": false
+      },
+      "issues": []
+    },
+    {
+      "step": "54.名称选择后状态",
+      "time": "20:20:08",
+      "data": {
+        "hash": "#/index/select-prise?entType=1100",
+        "formCount": 2,
+        "inputCount": 2,
+        "text": "广西数字政务一体化平台\n首页\n全部服务\n**裕 \n办件中心\n长辈模式\n请确定您的企业名称\n选择已有名称 \n 温馨提示：请选择企业名称开始办理，如果有其他来源名称，请点击右侧按钮录入信息，如有疑问，请 "
+      },
+      "issues": []
+    },
+    {
+      "step": "55.名称提交后状态",
+      "time": "20:22:14",
+      "data": {
+        "hash": "#/namenotice/declaration-instructions?fromProject=portal&fromPage=%2Findex%2Fselect-prise&busiType=02&busiId=&entType=1100&nameId=undefined",
+        "formCount": 0,
+        "inputCount": 0
+      },
+      "issues": []
+    },
+    {
+      "step": "59.设立登记导航尝试",
+      "time": "20:24:06",
+      "data": {
+        "hash": "#/404",
+        "formCount": 0,
+        "inputCount": 0,
+        "text": "404\n抱歉，你访问的页面不存在。\n请检查您输入的网址是否正确\n或者点击按钮返回首页\n返回主页"
+      },
+      "issues": []
+    },
+    {
+      "step": "70.表单加载失败",
+      "time": "20:38:40",
+      "data": {
+        "hash": "#/404?busiType=02&entType=1100",
+        "formCount": 0
+      },
+      "issues": []
+    },
+    {
+      "step": "80.表单加载失败",
+      "time": "20:40:50",
+      "data": {
+        "reason": "getHandleBusiness未导航到表单"
+      },
+      "issues": []
+    },
+    {
+      "step": "85.表单加载失败",
+      "time": "20:43:33",
+      "data": {
+        "matched": [],
+        "hash": "#/index/page",
+        "text": "Whitelabel Error Page\n\nThis application has no explicit mapping for /error, so you are seeing this as a fallback.\n\nMon Apr 13 20:40:04 CST 2026\nThere "
+      },
+      "issues": []
+    },
+    {
+      "step": "90.表单加载失败",
+      "time": "20:45:50",
+      "data": {
+        "route": "/namenotice/declaration-instructions",
+        "hash": "#/namenotice/declaration-instructions?fromProject=portal&fromPage=%2Findex%2Fselect-prise&busiType=02&busiId=&entType=1100&nameId=undefined",
+        "matchedNames": [
+          "申报须知",
+          "declaration-instructions"
+        ],
+        "text": "广西数字政务一体化平台\n首页\n全部服务\n**裕 \n办件中心\n长辈模式\n\n版权所有：广西壮族自治区市场监督管理局\n\n邮政编码：530028\n\n备案：桂ICP备18012552号-1\n\n地址：南宁市怡宾路1号"
+      },
+      "issues": []
+    },
+    {
+      "step": "95.设立登记表单",
+      "time": "20:47:55",
+      "data": {
+        "formCount": 35,
+        "steps": [],
+        "buttons": [
+          "更多",
+          "添加",
+          "添加规范经营用语",
+          "返回",
+          "保存至下一步",
+          "取消",
+          "确定",
+          "取消",
+          "确定",
+          "取消",
+          "确定",
+          "保存并下一步",
+          "关闭",
+          "关 闭"
+        ],
+        "stepTitle": ""
+      },
+      "issues": []
+    },
+    {
+      "step": "95a.字段详情",
+      "time": "20:47:55",
+      "data": {
+        "fields": [
+          {
+            "i": 0,
+            "label": "企业名称：",
+            "type": "input",
+            "required": true,
+            "ph": "请输入企业名称",
+            "disabled": false,
+            "val": ""
+          },
+          {
+            "i": 1,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 2,
+            "label": "企业类型：",
+            "type": "select",
+            "required": true,
+            "ph": "请选择企业类型",
+            "disabled": false,
+            "val": ""
+          },
+          {
+            "i": 3,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 4,
+            "label": "注册资本：",
+            "type": "input",
+            "required": true,
+            "ph": "请输入注册资本",
+            "disabled": false,
+            "val": ""
+          },
+          {
+            "i": 5,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 6,
+            "label": "设立方式：",
+            "type": "unknown",
+            "required": true
+          },
+          {
+            "i": 7,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 8,
+            "label": "从业人数：",
+            "type": "input",
+            "required": true,
+            "ph": "请输入从业人数",
+            "disabled": false,
+            "val": ""
+          },
+          {
+            "i": 9,
+            "label": "核算方式：",
+            "type": "unknown",
+            "required": true
+          },
+          {
+            "i": 10,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 11,
+            "label": "经营期限：",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 12,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 13,
+            "label": "是否需要纸质营业执照：",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 14,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 15,
+            "label": "申请执照副本数量：",
+            "type": "input",
+            "required": false,
+            "ph": "",
+            "disabled": false,
+            "val": "1"
+          },
+          {
+            "i": 16,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 17,
+            "label": "联系电话：",
+            "type": "input",
+            "required": true,
+            "ph": "请输入法定代表人（负责人，经营者）、财务负责人、经营主体登记联络员中某一人的移动电话",
+            "disabled": false,
+            "val": ""
+          },
+          {
+            "i": 18,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 19,
+            "label": "邮政编码：",
+            "type": "input",
+            "required": true,
+            "ph": "请输入邮政编码",
+            "disabled": false,
+            "val": ""
+          },
+          {
+            "i": 20,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 21,
+            "label": "企业住所：",
+            "type": "input",
+            "required": true,
+            "ph": "请选择省/市/区/街道",
+            "disabled": false,
+            "val": ""
+          },
+          {
+            "i": 22,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 23,
+            "label": "详细地址：",
+            "type": "input",
+            "required": true,
+            "ph": "请输入详细地址，无需重复输入行政区划信息，例：16号楼5层501室",
+            "disabled": false,
+            "val": ""
+          },
+          {
+            "i": 24,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 25,
+            "label": "生产经营地址：",
+            "type": "input",
+            "required": true,
+            "ph": "请选择省/市/区/街道",
+            "disabled": false,
+            "val": ""
+          },
+          {
+            "i": 26,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 27,
+            "label": "生产经营地详细地址：",
+            "type": "input",
+            "required": true,
+            "ph": "请输入详细地址，无需重复输入行政区划信息，例：16号楼5层501室",
+            "disabled": false,
+            "val": ""
+          },
+          {
+            "i": 28,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 29,
+            "label": "其他经营地址：",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 30,
+            "label": "行业类型：",
+            "type": "select",
+            "required": true,
+            "ph": "请选择行业类型",
+            "disabled": false,
+            "val": ""
+          },
+          {
+            "i": 31,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 32,
+            "label": "经营范围（许可经营项目）：",
+            "type": "unknown",
+            "required": true
+          },
+          {
+            "i": 33,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 34,
+            "label": "多证合一：",
+            "type": "unknown",
+            "required": false
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "96.填写测试",
+      "time": "20:47:55",
+      "data": {
+        "ok": 7,
+        "fail": 9,
+        "ok_list": [
+          {
+            "ok": true,
+            "label": "企业名称："
+          },
+          {
+            "ok": true,
+            "label": "企业名称："
+          },
+          {
+            "ok": true,
+            "label": "注册资本："
+          },
+          {
+            "ok": true,
+            "label": "企业住所："
+          },
+          {
+            "ok": true,
+            "label": "联系电话："
+          },
+          {
+            "ok": true,
+            "label": "邮政编码："
+          },
+          {
+            "ok": true,
+            "label": "从业人数："
+          }
+        ],
+        "fail_list": [
+          {
+            "ok": false,
+            "label": "公司名称",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "经营范围（许可经营项目）：",
+            "reason": "no_input_or_disabled"
+          },
+          {
+            "ok": false,
+            "label": "法定代表人",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "身份证",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "邮箱",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "监事",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "财务负责人",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "联络员",
+            "reason": "not_found"
+          },
+          {
+            "ok": false,
+            "label": "股东",
+            "reason": "not_found"
+          }
+        ]
+      },
+      "issues": [
+        "填写失败:公司名称(not_found)",
+        "填写失败:经营范围（许可经营项目）：(no_input_or_disabled)",
+        "填写失败:法定代表人(not_found)",
+        "填写失败:身份证(not_found)",
+        "填写失败:邮箱(not_found)",
+        "填写失败:监事(not_found)",
+        "填写失败:财务负责人(not_found)",
+        "填写失败:联络员(not_found)",
+        "填写失败:股东(not_found)"
+      ]
+    },
+    {
+      "step": "100.设立登记表单",
+      "time": "20:51:53",
+      "data": {
+        "formCount": 35,
+        "steps": [],
+        "buttons": [
+          "更多",
+          "添加",
+          "添加规范经营用语",
+          "返回",
+          "保存至下一步",
+          "取消",
+          "确定",
+          "取消",
+          "确定",
+          "取消",
+          "确定",
+          "保存并下一步",
+          "关闭",
+          "关 闭"
+        ],
+        "stepTitle": ""
+      },
+      "issues": []
+    },
+    {
+      "step": "100a.字段详情",
+      "time": "20:51:53",
+      "data": {
+        "fields": [
+          {
+            "i": 0,
+            "label": "企业名称：",
+            "type": "input",
+            "required": true,
+            "ph": "请输入企业名称",
+            "disabled": false,
+            "val": "广西智信数据科技有限公司"
+          },
+          {
+            "i": 1,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 2,
+            "label": "企业类型：",
+            "type": "select",
+            "required": true,
+            "ph": "请选择企业类型",
+            "disabled": false,
+            "val": ""
+          },
+          {
+            "i": 3,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 4,
+            "label": "注册资本：",
+            "type": "input",
+            "required": true,
+            "ph": "请输入注册资本",
+            "disabled": false,
+            "val": "100"
+          },
+          {
+            "i": 5,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 6,
+            "label": "设立方式：",
+            "type": "unknown",
+            "required": true
+          },
+          {
+            "i": 7,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 8,
+            "label": "从业人数：",
+            "type": "input",
+            "required": true,
+            "ph": "请输入从业人数",
+            "disabled": false,
+            "val": "5"
+          },
+          {
+            "i": 9,
+            "label": "核算方式：",
+            "type": "unknown",
+            "required": true
+          },
+          {
+            "i": 10,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 11,
+            "label": "经营期限：",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 12,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 13,
+            "label": "是否需要纸质营业执照：",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 14,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 15,
+            "label": "申请执照副本数量：",
+            "type": "input",
+            "required": false,
+            "ph": "",
+            "disabled": false,
+            "val": "1"
+          },
+          {
+            "i": 16,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 17,
+            "label": "联系电话：",
+            "type": "input",
+            "required": true,
+            "ph": "请输入法定代表人（负责人，经营者）、财务负责人、经营主体登记联络员中某一人的移动电话",
+            "disabled": false,
+            "val": "13877151234"
+          },
+          {
+            "i": 18,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 19,
+            "label": "邮政编码：",
+            "type": "input",
+            "required": true,
+            "ph": "请输入邮政编码",
+            "disabled": false,
+            "val": "530028"
+          },
+          {
+            "i": 20,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 21,
+            "label": "企业住所：",
+            "type": "input",
+            "required": true,
+            "ph": "请选择省/市/区/街道",
+            "disabled": false,
+            "val": ""
+          },
+          {
+            "i": 22,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 23,
+            "label": "详细地址：",
+            "type": "input",
+            "required": true,
+            "ph": "请输入详细地址，无需重复输入行政区划信息，例：16号楼5层501室",
+            "disabled": false,
+            "val": ""
+          },
+          {
+            "i": 24,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 25,
+            "label": "生产经营地址：",
+            "type": "input",
+            "required": true,
+            "ph": "请选择省/市/区/街道",
+            "disabled": false,
+            "val": ""
+          },
+          {
+            "i": 26,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 27,
+            "label": "生产经营地详细地址：",
+            "type": "input",
+            "required": true,
+            "ph": "请输入详细地址，无需重复输入行政区划信息，例：16号楼5层501室",
+            "disabled": false,
+            "val": ""
+          },
+          {
+            "i": 28,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 29,
+            "label": "其他经营地址：",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 30,
+            "label": "行业类型：",
+            "type": "select",
+            "required": true,
+            "ph": "请选择行业类型",
+            "disabled": false,
+            "val": ""
+          },
+          {
+            "i": 31,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 32,
+            "label": "经营范围（许可经营项目）：",
+            "type": "unknown",
+            "required": true
+          },
+          {
+            "i": 33,
+            "label": "",
+            "type": "unknown",
+            "required": false
+          },
+          {
+            "i": 34,
+            "label": "多证合一：",
+            "type": "unknown",
+            "required": false
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "101.填写测试",
+      "time": "20:51:53",
+      "data": {
+        "ok": 8,
+        "fail": 1,
+        "ok_list": [
+          {
+            "ok": true,
+            "label": "企业名称："
+          },
+          {
+            "ok": true,
+            "label": "注册资本："
+          },
+          {
+            "ok": true,
+            "label": "企业住所："
+          },
+          {
+            "ok": true,
+            "label": "详细地址："
+          },
+          {
+            "ok": true,
+            "label": "生产经营地详细地址："
+          },
+          {
+            "ok": true,
+            "label": "联系电话："
+          },
+          {
+            "ok": true,
+            "label": "邮政编码："
+          },
+          {
+            "ok": true,
+            "label": "从业人数："
+          }
+        ],
+        "fail_list": [
+          {
+            "ok": false,
+            "label": "经营范围（许可经营项目）：",
+            "reason": "no_input_or_disabled"
+          }
+        ]
+      },
+      "issues": [
+        "填写失败:经营范围（许可经营项目）：(no_input_or_disabled)"
+      ]
+    },
+    {
+      "step": "102b.step0_errors",
+      "time": "20:52:08",
+      "data": {
+        "errors": [
+          "企业住所：请选择所在省/市/区/街道",
+          "请选择企业住所",
+          "请选择企业住所",
+          "生产经营地址：请选择所在省/市/区/街道",
+          "请选择生产经营地址"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "102b.step1_errors",
+      "time": "20:52:13",
+      "data": {
+        "errors": [
+          "企业住所：请选择所在省/市/区/街道",
+          "请选择企业住所",
+          "请选择企业住所",
+          "生产经营地址：请选择所在省/市/区/街道",
+          "请选择生产经营地址"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "102b.step2_errors",
+      "time": "20:52:18",
+      "data": {
+        "errors": [
+          "企业住所：请选择所在省/市/区/街道",
+          "请选择企业住所",
+          "请选择企业住所",
+          "生产经营地址：请选择所在省/市/区/街道",
+          "请选择生产经营地址"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "102b.step3_errors",
+      "time": "20:52:23",
+      "data": {
+        "errors": [
+          "企业住所：请选择所在省/市/区/街道",
+          "请选择企业住所",
+          "请选择企业住所",
+          "生产经营地址：请选择所在省/市/区/街道",
+          "请选择生产经营地址"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "102b.step4_errors",
+      "time": "20:52:28",
+      "data": {
+        "errors": [
+          "企业住所：请选择所在省/市/区/街道",
+          "请选择企业住所",
+          "请选择企业住所",
+          "生产经营地址：请选择所在省/市/区/街道",
+          "请选择生产经营地址"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "102b.step5_errors",
+      "time": "20:52:33",
+      "data": {
+        "errors": [
+          "企业住所：请选择所在省/市/区/街道",
+          "请选择企业住所",
+          "请选择企业住所",
+          "生产经营地址：请选择所在省/市/区/街道",
+          "请选择生产经营地址"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "102b.step6_errors",
+      "time": "20:52:38",
+      "data": {
+        "errors": [
+          "企业住所：请选择所在省/市/区/街道",
+          "请选择企业住所",
+          "请选择企业住所",
+          "生产经营地址：请选择所在省/市/区/街道",
+          "请选择生产经营地址"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "102b.step7_errors",
+      "time": "20:52:43",
+      "data": {
+        "errors": [
+          "企业住所：请选择所在省/市/区/街道",
+          "请选择企业住所",
+          "请选择企业住所",
+          "生产经营地址：请选择所在省/市/区/街道",
+          "请选择生产经营地址"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "102b.step8_errors",
+      "time": "20:52:49",
+      "data": {
+        "errors": [
+          "企业住所：请选择所在省/市/区/街道",
+          "请选择企业住所",
+          "请选择企业住所",
+          "生产经营地址：请选择所在省/市/区/街道",
+          "请选择生产经营地址"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "102b.step9_errors",
+      "time": "20:52:54",
+      "data": {
+        "errors": [
+          "企业住所：请选择所在省/市/区/街道",
+          "请选择企业住所",
+          "请选择企业住所",
+          "生产经营地址：请选择所在省/市/区/街道",
+          "请选择生产经营地址"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "110.填写测试",
+      "time": "20:56:31",
+      "data": {
+        "ok": 8,
+        "fail": 0,
+        "ok_list": [
+          {
+            "ok": true,
+            "label": "企业名称："
+          },
+          {
+            "ok": true,
+            "label": "注册资本："
+          },
+          {
+            "ok": true,
+            "label": "详细地址："
+          },
+          {
+            "ok": true,
+            "label": "生产经营地详细地址："
+          },
+          {
+            "ok": true,
+            "label": "联系电话："
+          },
+          {
+            "ok": true,
+            "label": "邮政编码："
+          },
+          {
+            "ok": true,
+            "label": "从业人数："
+          },
+          {
+            "ok": true,
+            "label": "申请执照副本数量："
+          }
+        ],
+        "fail_list": []
+      },
+      "issues": []
+    },
+    {
+      "step": "110b.验证错误",
+      "time": "20:56:41",
+      "data": {
+        "errors": [
+          "企业住所：请选择所在省/市/区/街道",
+          "请选择企业住所",
+          "请选择企业住所",
+          "生产经营地址：请选择所在省/市/区/街道",
+          "请选择生产经营地址",
+          "请选择生产经营地址",
+          "行业类型：",
+          "请选择行业类型",
+          "请选择行业类型",
+          "经营范围（许可经营项目）： 添加规范经营用语 系统信息经营范围选择"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "112.E2E测试完成",
+      "time": "20:59:45",
+      "data": {
+        "totalSteps": 70,
+        "authFindings": 26,
+        "issues": 28
+      },
+      "issues": []
+    },
+    {
+      "step": "120.验证错误",
+      "time": "21:01:00",
+      "data": {
+        "errors": [
+          "请选择企业住所",
+          "请选择生产经营地址",
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "121b.验证阻止",
+      "time": "21:01:05",
+      "data": {
+        "errors": [
+          "请选择企业住所",
+          "请选择生产经营地址",
+          "请选择行业类型",
+          "请填写经营范围"
+        ],
+        "hash": "#/flow/base/basic-info"
+      },
+      "issues": []
+    },
+    {
+      "step": "122.E2E测试完成",
+      "time": "21:01:16",
+      "data": {
+        "totalSteps": 73,
+        "authFindings": 27,
+        "issues": 28
+      },
+      "issues": []
+    },
+    {
+      "step": "130.验证错误",
+      "time": "21:03:32",
+      "data": {
+        "errors": [
+          "请选择企业住所",
+          "请选择生产经营地址",
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "131b.验证阻止",
+      "time": "21:03:37",
+      "data": {
+        "errors": [
+          "请选择企业住所",
+          "请选择生产经营地址",
+          "请选择行业类型",
+          "请填写经营范围"
+        ],
+        "hash": "#/flow/base/basic-info"
+      },
+      "issues": []
+    },
+    {
+      "step": "132.E2E测试完成",
+      "time": "21:03:47",
+      "data": {
+        "totalSteps": 76,
+        "authFindings": 28,
+        "issues": 28
+      },
+      "issues": []
+    },
+    {
+      "step": "130.验证错误",
+      "time": "21:04:24",
+      "data": {
+        "errors": [
+          "请选择企业住所",
+          "请选择生产经营地址",
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "131b.验证阻止",
+      "time": "21:04:29",
+      "data": {
+        "errors": [
+          "请选择企业住所",
+          "请选择生产经营地址",
+          "请选择行业类型",
+          "请填写经营范围"
+        ],
+        "hash": "#/flow/base/basic-info"
+      },
+      "issues": []
+    },
+    {
+      "step": "132.E2E测试完成",
+      "time": "21:04:39",
+      "data": {
+        "totalSteps": 79,
+        "authFindings": 29,
+        "issues": 28
+      },
+      "issues": []
+    },
+    {
+      "step": "140.验证失败",
+      "time": "21:08:35",
+      "data": {
+        "errors": [
+          "请选择企业住所",
+          "请选择生产经营地址",
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "142.E2E测试完成",
+      "time": "21:08:35",
+      "data": {
+        "totalSteps": 81,
+        "authFindings": 29,
+        "authTypes": [
+          "signAuth"
+        ],
+        "issues": 28
+      },
+      "issues": []
+    },
+    {
+      "step": "150.验证失败",
+      "time": "21:13:53",
+      "data": {
+        "errors": [
+          "请选择企业住所",
+          "请选择生产经营地址",
+          "请选择行业类型",
+          "请填写经营范围",
+          "请先选择企业住所"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "150b.最终验证",
+      "time": "21:14:00",
+      "data": {
+        "errors": [
+          "请选择企业住所",
+          "请选择生产经营地址",
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "160.E2E状态总结",
+      "time": "21:16:11",
+      "data": {
+        "completed": [
+          "LLM审核",
+          "导航到表单",
+          "text填写",
+          "认证检测:signAuth"
+        ],
+        "blocked": [
+          "企业住所(区域选择器)",
+          "行业类型(懒加载select)",
+          "经营范围(iframe)"
+        ],
+        "authTypes": [
+          "signAuth(电子签名)"
+        ],
+        "errors": [
+          "请选择企业住所",
+          "请选择生产经营地址",
+          "请选择行业类型",
+          "请填写经营范围",
+          "请先选择企业住所"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "170.验证失败",
+      "time": "21:19:43",
+      "data": {
+        "errors": [
+          "请选择企业住所",
+          "请选择生产经营地址",
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "172.E2E最终报告",
+      "time": "21:19:44",
+      "data": {
+        "totalSteps": 86,
+        "authTypes": [
+          "signAuth"
+        ],
+        "issues": 28,
+        "lastErrors": [
+          "请选择企业住所",
+          "请选择生产经营地址",
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "180.最终验证",
+      "time": "21:21:45",
+      "data": {
+        "errors": [
+          "请选择企业住所",
+          "请选择生产经营地址",
+          "请选择行业类型",
+          "请填写经营范围",
+          "请先选择企业住所"
+        ],
+        "hash": "#/flow/base/basic-info",
+        "formCount": 35
+      },
+      "issues": []
+    },
+    {
+      "step": "190.验证失败",
+      "time": "21:24:45",
+      "data": {
+        "errors": [
+          "请输入详细地址",
+          "请选择是否自贸区",
+          "请输入生产经营地详细地址",
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "192.E2E最终报告",
+      "time": "21:24:55",
+      "data": {
+        "totalSteps": 89,
+        "authTypes": [
+          "signAuth"
+        ],
+        "issues": 28,
+        "lastErrors": [
+          "请输入详细地址",
+          "请选择是否自贸区",
+          "请输入生产经营地详细地址",
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "200.验证失败",
+      "time": "21:28:09",
+      "data": {
+        "errors": [
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "202.E2E最终报告",
+      "time": "21:28:26",
+      "data": {
+        "totalSteps": 91,
+        "authTypes": [
+          "signAuth"
+        ],
+        "issues": 28,
+        "lastErrors": [
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "210.验证失败",
+      "time": "21:30:48",
+      "data": {
+        "errors": [
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "212.E2E最终报告",
+      "time": "21:30:58",
+      "data": {
+        "totalSteps": 93,
+        "authTypes": [
+          "signAuth"
+        ],
+        "issues": 28,
+        "lastErrors": [
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "220.验证失败",
+      "time": "21:33:39",
+      "data": {
+        "errors": [
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "222.E2E最终报告",
+      "time": "21:33:40",
+      "data": {
+        "totalSteps": 95,
+        "authTypes": [
+          "signAuth"
+        ],
+        "issues": 28,
+        "lastErrors": [
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "230.验证错误",
+      "time": "21:35:51",
+      "data": {
+        "errors": [
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "232.E2E报告",
+      "time": "21:36:08",
+      "data": {
+        "totalSteps": 97,
+        "authTypes": [
+          "signAuth"
+        ],
+        "issues": 28,
+        "lastErrors": [
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "240.验证失败",
+      "time": "21:39:09",
+      "data": {
+        "errors": [
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "242.E2E报告",
+      "time": "21:39:19",
+      "data": {
+        "totalSteps": 99,
+        "authTypes": [
+          "signAuth"
+        ],
+        "issues": 28,
+        "lastErrors": [
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "250.验证失败",
+      "time": "21:43:58",
+      "data": {
+        "errors": [
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "252.E2E报告",
+      "time": "21:44:08",
+      "data": {
+        "totalSteps": 101,
+        "authTypes": [
+          "signAuth"
+        ],
+        "issues": 28,
+        "lastErrors": [
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "260.验证失败",
+      "time": "21:49:37",
+      "data": {
+        "errors": [
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "262.E2E报告",
+      "time": "21:49:57",
+      "data": {
+        "totalSteps": 103,
+        "authTypes": [
+          "signAuth"
+        ],
+        "issues": 28,
+        "lastErrors": [
+          "请选择行业类型",
+          "请填写经营范围"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "270.验证通过",
+      "time": "21:54:54",
+      "data": {
+        "hash": "#/flow/base/basic-info",
+        "formCount": 0
+      },
+      "issues": []
+    },
+    {
+      "step": "272.E2E报告",
+      "time": "21:55:04",
+      "data": {
+        "totalSteps": 105,
+        "authTypes": [
+          "signAuth"
+        ],
+        "issues": 28,
+        "lastErrors": []
+      },
+      "issues": []
+    },
+    {
+      "step": "290.表单未加载",
+      "time": "22:06:54",
+      "data": {
+        "hash": "#/index/page",
+        "formCount": 0
+      },
+      "issues": []
+    },
+    {
+      "step": "310.导航",
+      "time": "22:14:18",
+      "data": {
+        "hash": "#/404",
+        "formCount": 0
+      },
+      "issues": []
+    },
+    {
+      "step": "330.导航",
+      "time": "22:23:19",
+      "data": {
+        "hash": "#/index/page",
+        "formCount": 0
+      },
+      "issues": []
+    },
+    {
+      "step": "340.导航",
+      "time": "22:26:27",
+      "data": {
+        "hash": "#/404",
+        "formCount": 0
+      },
+      "issues": []
+    },
+    {
+      "step": "350.导航",
+      "time": "22:31:41",
+      "data": {
+        "hash": "#/index/select-prise?entType=1100",
+        "formCount": 0
+      },
+      "issues": []
+    },
+    {
+      "step": "360.导航",
+      "time": "22:35:34",
+      "data": {
+        "hash": "#/index/select-prise?entType=1100",
+        "formCount": 2
+      },
+      "issues": []
+    },
+    {
+      "step": "370.导航",
+      "time": "22:40:27",
+      "data": {
+        "hash": "#/index/select-prise?entType=1100",
+        "formCount": 0
+      },
+      "issues": []
+    },
+    {
+      "step": "380.导航",
+      "time": "22:44:19",
+      "data": {
+        "hash": "#/index/select-prise?entType=1100",
+        "formCount": 2
+      },
+      "issues": []
+    },
+    {
+      "step": "400.表单未加载",
+      "time": "22:51:09",
+      "data": {
+        "hash": "#/404",
+        "formCount": 0
+      },
+      "issues": []
+    },
+    {
+      "step": "410.表单未加载",
+      "time": "22:55:34",
+      "data": {
+        "hash": "#/index/page",
+        "formCount": 0,
+        "flowRoutes": []
+      },
+      "issues": []
+    },
+    {
+      "step": "420.表单未加载",
+      "time": "22:59:41",
+      "data": {
+        "hash": "#/index/without-name?entType=1100",
+        "formCount": 0,
+        "flowRoutes": []
+      },
+      "issues": []
+    },
+    {
+      "step": "430.表单未加载",
+      "time": "23:03:25",
+      "data": {
+        "hash": "#/index/page",
+        "formCount": 0,
+        "flowRoutes": []
+      },
+      "issues": []
+    },
+    {
+      "step": "440.表单未加载",
+      "time": "23:08:12",
+      "data": {
+        "hash": "#/index/page",
+        "formCount": 0
+      },
+      "issues": []
+    },
+    {
+      "step": "450.表单未加载",
+      "time": "23:11:17",
+      "data": {
+        "hash": "#/index/without-name?entType=1100",
+        "formCount": 0
+      },
+      "issues": []
+    },
+    {
+      "step": "460.导航",
+      "time": "23:14:43",
+      "data": {
+        "hash": "#/namenotice/base",
+        "formCount": 0,
+        "flowRoutes": [
+          "/namenotice",
+          "/namenotice/rule",
+          "/namenotice/base",
+          "/namenotice/declaration-instructions",
+          "/namenotice/ent-type-desc",
+          "/namenotice/name-changerule",
+          "/namenotice/name-adjustment",
+          "/namenotice/name-inspiration"
+        ]
+      },
+      "issues": []
+    },
+    {
+      "step": "470.表单未加载",
+      "time": "23:16:35",
+      "data": {
+        "hash": "#/namenotice/name-inspiration",
+        "formCount": 0
+      },
+      "issues": []
+    },
+    {
+      "step": "480.表单未加载",
+      "time": "23:18:37",
+      "data": {
+        "hash": "#/404",
+        "formCount": 0,
+        "flowRoutes": []
+      },
+      "issues": []
+    },
+    {
+      "step": "490.表单未加载",
+      "time": "23:21:12",
+      "data": {
+        "hash": "#/namenotice/declaration-instructions",
+        "formCount": 0
+      },
+      "issues": []
+    },
+    {
+      "step": "500.表单未加载",
+      "time": "23:23:49",
+      "data": {
+        "hash": "#/namenotice/name-changerule?fromProject=name-register&fromPage=/namenotice/declaration-instructions&busiType=07&busiId=&entType=1100&nameId=test_auto_001",
+        "formCount": 0,
+        "flowRoutes": []
+      },
+      "issues": []
+    }
+  ],
+  "issues": [
+    "财务负责人由法定代表人陈明辉兼任。虽然法律未明文禁止，但在政务审核实践中，为保证财务监督独立性，部分地区（如广西部分政务窗口）会要求财务负责人与法定代表人、执行董事分离。",
+    "实缴资本填报为100万元，与注册资本一致。在当前认缴制下，新设公司实缴额通常填报为0。若填报为100万，需确保资金已实际到位并准备好银行进账单或验资报告，否则存在虚假出资风险。",
+    "Token已过期！需要重新登录",
+    "填写失败: 公司名称(not_found)",
+    "填写失败: 名称(not_found)",
+    "填写失败: 注册资本(not_found)",
+    "填写失败: 经营范围(not_found)",
+    "填写失败: 住所(not_found)",
+    "填写失败: 法定代表人(not_found)",
+    "填写失败: 身份证(not_found)",
+    "填写失败: 联系电话(not_found)",
+    "填写失败: 邮箱(not_found)",
+    "填写失败: 监事(not_found)",
+    "填写失败: 财务负责人(not_found)",
+    "填写失败:公司名称(not_found)",
+    "填写失败:名称(not_found)",
+    "填写失败:注册资本(not_found)",
+    "填写失败:经营范围(not_found)",
+    "填写失败:住所(not_found)",
+    "填写失败:法定代表人(not_found)",
+    "填写失败:身份证(not_found)",
+    "填写失败:联系电话(not_found)",
+    "填写失败:邮箱(not_found)",
+    "填写失败:监事(not_found)",
+    "填写失败:财务负责人(not_found)",
+    "填写失败:经营范围（许可经营项目）：(no_input_or_disabled)",
+    "填写失败:联络员(not_found)",
+    "填写失败:股东(not_found)"
+  ],
+  "auth_findings": [
+    "Token已过期，政务平台API返回非200。需要用户手动登录（可能需要滑块验证+短信验证）",
+    "登录页有3种方式：账号密码（需滑块验证）、个人扫码、法人扫码",
+    "滑块验证是反自动化机制，无法通过CDP直接绕过，需手动完成",
+    "登录页有滑块验证: 刷新向右滑动滑块，完成验证！\n                            验证成功，canvas数量=0",
+    {
+      "step": 0,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 1,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 2,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 3,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 4,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 5,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 6,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 7,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 8,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 9,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 0,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 1,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 2,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 3,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 4,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 5,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 6,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 7,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 8,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 9,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 10,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 11,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 0,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 0,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 0,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    },
+    {
+      "step": 0,
+      "title": "",
+      "auth": {
+        "faceAuth": false,
+        "smsAuth": false,
+        "realName": false,
+        "signAuth": true,
+        "digitalCert": false,
+        "caAuth": false,
+        "ukeyAuth": false
+      }
+    }
+  ],
+  "conclusion": ""
+}

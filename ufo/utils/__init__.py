@@ -77,6 +77,15 @@ def check_json_format(string: str) -> bool:
     return True
 
 
+def _lowercase_keys(d: Any) -> Any:
+    """Recursively lowercase all dict keys for Pydantic model compatibility."""
+    if isinstance(d, dict):
+        return {k.lower() if isinstance(k, str) else k: _lowercase_keys(v) for k, v in d.items()}
+    elif isinstance(d, list):
+        return [_lowercase_keys(item) for item in d]
+    return d
+
+
 def json_parser(json_string: str) -> Dict[str, Any]:
     """
     Parse json string to json object.
@@ -88,7 +97,68 @@ def json_parser(json_string: str) -> Dict[str, Any]:
     if json_string.startswith("```json"):
         json_string = json_string[7:-3]
 
-    return json.loads(json_string)
+    # Try 1: Direct JSON parse
+    try:
+        result = json.loads(json_string)
+        return _lowercase_keys(result)
+    except (json.JSONDecodeError, ValueError):
+        pass
+
+    # Try 2: Extract JSON from markdown code blocks (```json ... ``` or ``` ... ```)
+    import re
+    code_block_patterns = [
+        r'```json\s*\n?(.*?)\n?\s*```',
+        r'```\s*\n?(.*?)\n?\s*```',
+    ]
+    for pattern in code_block_patterns:
+        match = re.search(pattern, json_string, re.DOTALL)
+        if match:
+            try:
+                result = json.loads(match.group(1).strip())
+                return _lowercase_keys(result)
+            except (json.JSONDecodeError, ValueError):
+                continue
+
+    # Try 3: Find first JSON object {...} in the text
+    brace_count = 0
+    start_idx = -1
+    for i, ch in enumerate(json_string):
+        if ch == '{':
+            if brace_count == 0:
+                start_idx = i
+            brace_count += 1
+        elif ch == '}':
+            brace_count -= 1
+            if brace_count == 0 and start_idx >= 0:
+                candidate = json_string[start_idx:i + 1]
+                try:
+                    result = json.loads(candidate)
+                    return _lowercase_keys(result)
+                except (json.JSONDecodeError, ValueError):
+                    start_idx = -1
+                    continue
+
+    # Try 4: Last resort - wrap plain text as a minimal response dict
+    # This allows non-JSON-schema models (like MiMo) to still function
+    # Keys are lowercase because OpenAI SDK modifies Pydantic models to use lowercase validation_alias
+    clean_text = json_string.strip()
+    if clean_text:
+        return {
+            "observation": clean_text[:500],
+            "thought": clean_text[:500],
+            "currentsubtask": "",
+            "message": [],
+            "status": "CONTINUE",
+            "plan": [],
+            "questions": [],
+            "comment": "Model returned non-JSON response, auto-wrapped.",
+            # AppAgentResponse fields (harmless if extra keys for HostAgent)
+            "function": "",
+            "args": "{}",
+            "savescreenshot": {"save": False, "reason": ""},
+        }
+
+    raise ValueError(f"Failed to parse JSON from response: {json_string[:200]}")
 
 
 def is_json_serializable(obj: Any) -> bool:

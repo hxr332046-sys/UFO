@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "R8831",
+        "saveHyCode": "8831",
+        "hyPecul": "图书馆",
+        "hyTypeName": "图书馆",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列图书馆活动：",
+        "includes": "公共图书馆管理服务；高等院校图书馆管理服务；专业图书馆管理服务；其他图书馆管理服务。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "图书馆",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

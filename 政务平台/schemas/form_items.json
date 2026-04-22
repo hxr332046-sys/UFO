@@ -1,0 +1,154 @@
+[
+  {
+    "i": 0,
+    "label": "企业名称",
+    "compType": "el-input",
+    "value": "",
+    "placeholder": "请输入企业名称",
+    "error": ""
+  },
+  {
+    "i": 2,
+    "label": "企业类型",
+    "compType": "el-select",
+    "value": "",
+    "placeholder": "请选择企业类型",
+    "error": ""
+  },
+  {
+    "i": 4,
+    "label": "注册资本",
+    "compType": "el-input",
+    "value": "100",
+    "placeholder": "请输入注册资本",
+    "error": ""
+  },
+  {
+    "i": 6,
+    "label": "设立方式",
+    "compType": "el-radio-group",
+    "value": "",
+    "placeholder": "",
+    "error": ""
+  },
+  {
+    "i": 8,
+    "label": "从业人数",
+    "compType": "el-input",
+    "value": "5",
+    "placeholder": "请输入从业人数",
+    "error": ""
+  },
+  {
+    "i": 9,
+    "label": "核算方式",
+    "compType": "el-radio-group",
+    "value": "",
+    "placeholder": "",
+    "error": ""
+  },
+  {
+    "i": 11,
+    "label": "经营期限",
+    "compType": "button-dialog",
+    "value": "",
+    "placeholder": "",
+    "error": ""
+  },
+  {
+    "i": 13,
+    "label": "是否需要纸质营业执照",
+    "compType": "el-radio-group",
+    "value": "",
+    "placeholder": "",
+    "error": ""
+  },
+  {
+    "i": 15,
+    "label": "申请执照副本数量",
+    "compType": "el-input-number",
+    "value": "1",
+    "placeholder": "",
+    "error": ""
+  },
+  {
+    "i": 17,
+    "label": "联系电话",
+    "compType": "el-date-picker",
+    "value": "13800138000",
+    "placeholder": "请输入法定代表人（负责人，经营者）、财务负责人、经营主体登记联络员中某一人的移动电话",
+    "error": ""
+  },
+  {
+    "i": 19,
+    "label": "邮政编码",
+    "compType": "el-input",
+    "value": "530022",
+    "placeholder": "请输入邮政编码",
+    "error": ""
+  },
+  {
+    "i": 21,
+    "label": "企业住所",
+    "compType": "el-cascader",
+    "value": "",
+    "placeholder": "请选择省/市/区/街道",
+    "error": ""
+  },
+  {
+    "i": 23,
+    "label": "详细地址",
+    "compType": "el-input",
+    "value": "民大道100号",
+    "placeholder": "请输入详细地址，无需重复输入行政区划信息，例：16号楼5层501室",
+    "error": ""
+  },
+  {
+    "i": 25,
+    "label": "生产经营地址",
+    "compType": "el-cascader",
+    "value": "",
+    "placeholder": "请选择省/市/区/街道",
+    "error": ""
+  },
+  {
+    "i": 27,
+    "label": "生产经营地详细地址",
+    "compType": "el-input",
+    "value": "民大道100号",
+    "placeholder": "请输入详细地址，无需重复输入行政区划信息，例：16号楼5层501室",
+    "error": ""
+  },
+  {
+    "i": 29,
+    "label": "其他经营地址",
+    "compType": "button-dialog",
+    "value": "",
+    "placeholder": "",
+    "error": ""
+  },
+  {
+    "i": 30,
+    "label": "行业类型",
+    "compType": "el-select",
+    "value": "",
+    "placeholder": "请选择行业类型",
+    "error": ""
+  },
+  {
+    "i": 32,
+    "label": "经营范围（许可经营项目）",
+    "compType": "button-dialog",
+    "value": "",
+    "placeholder": "",
+    "error": ""
+  },
+  {
+    "i": 34,
+    "label": "多证合一",
+    "compType": "button-dialog",
+    "value": "",
+    "placeholder": "",
+    "error": ""
+  }
+]

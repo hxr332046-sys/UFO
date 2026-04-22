@@ -1,0 +1,344 @@
+{
+  "started_at": "2026-04-20 19:23:23",
+  "portal_entry": "namenotice",
+  "portal_start_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions",
+  "page_before": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+  "cdp_tab_probe": [
+    {
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+      "hint": {
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": "nav_portal_index_page",
+      "data": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions"
+    },
+    {
+      "step": "snap_after_portal_nav",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions",
+        "hash": "#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 全部服务 设立登记 公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理设立登记，取得营业执照。 变更（备案）登记 公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理变更（备案）登记，如名称、住所（经营场所）、注册资本、经营范围等事项变更。 普通注销登记 公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理普通注销登记。"
+      }
+    },
+    {
+      "step": "try_activefuc_establish",
+      "data": {
+        "ok": false,
+        "err": "TypeError: Cannot read properties of undefined (reading 'parentNode')",
+        "code": "20250715092001",
+        "name": "common.home.application.busitype.03_0315",
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions",
+        "hash": "#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions"
+      }
+    },
+    {
+      "step": "fallback_dom_click_establish",
+      "data": {
+        "ok": true,
+        "mode": "child:名称登记@div",
+        "text": "不含行政区划企业名称网上申报国家市场监督管理总局不含行政区划企业名称网上申报入口、名称开放查询、名称登记公告、企业名称规范用字查询",
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions",
+        "hash": "#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions"
+      }
+    },
+    {
+      "step": "snap_after_establish_click",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions",
+        "hash": "#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 全部服务 设立登记 公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理设立登记，取得营业执照。 变更（备案）登记 公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理变更（备案）登记，如名称、住所（经营场所）、注册资本、经营范围等事项变更。 普通注销登记 公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理普通注销登记。"
+      }
+    },
+    {
+      "step": "fallback_nav_enterprise_zone",
+      "note": "设立登记未跳转，直拉企业专区(02_4)",
+      "data": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/enterprise/enterprise-zone?fromProject=portal&fromPage=%2Findex%2Fpage&busiType=02_4&merge=Y"
+    },
+    {
+      "step": "snap_after_enterprise_fallback",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/enterprise/enterprise-zone?fromProject=portal&fromPage=%2Findex%2Fpage&busiType=02_4&merge=Y",
+        "hash": "#/index/enterprise/enterprise-zone?fromProject=portal&fromPage=%2Findex%2Fpage&busiType=02_4&merge=Y",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 办理营业执照 整合营业执照、社保登记、公章刻制、税务登记、医保登记、公积金登记、银行预约开户等，实现企业一张表单填写、一次材料提交，实现企业快速开办。 开始办理 已有营业执照·随时办 如果仅办理了企业登记注册，已有营业执照，但未办理社保登记、公章刻制、税务登记、医保登记、公积金登记、银行预约开户中的一项或多项业务。 开始办理 企业开办“一件事”流程 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址：南宁市怡宾路1号"
+      }
+    },
+    {
+      "step": "cap_after_hook_1",
+      "data": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "step": "click_start_if_zone",
+      "data": {
+        "ok": true,
+        "mode": "text:开始办理",
+        "text": "开始办理",
+        "cls": "el-button zone-header-box-content-left_btn el-button--primary"
+      }
+    },
+    {
+      "step": "snap_after_start",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/namenotice/declaration-instructions?fromProject=portal&fromPage=%2Findex%2Fenterprise%2Fenterprise-zone&entType=1100&busiType=02_4",
+        "hash": "#/namenotice/declaration-instructions?fromProject=portal&fromPage=%2Findex%2Fenterprise%2Fenterprise-zone&entType=1100&busiType=02_4",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 申报须知 欢迎进入企业开办全程网上办平台，在正式填报前，请阅读以下注意事项： 1、本平台提供企业开办（包含企业登记、公章刻制、申领发票、银行开户、社会保险参保登记和员工参保登记、住房公积金企业缴存登记）全程网上办，您也可以选择单独办理企业登记和其它事项，选择服务事项后，不可随意更改。 2、选择本平台提供的全程网上办理，将视同申请人认可通过本平台向企业开办相关行政部门和服务单位传输各类共享信息和材料。 3、申请人通过企业开办全程网上办平台办理业务，有义务确保填报的信息、提交的材料和证件真实"
+      }
+    },
+    {
+      "step": "cap_after_name_register_load",
+      "data": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "step": "phase1_only_stop",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/namenotice/declaration-instructions?fromProject=portal&fromPage=%2Findex%2Fenterprise%2Fenterprise-zone&entType=1100&busiType=02_4",
+        "note": "仅第一阶段：未执行「直至云提交」主循环。请在浏览器内完成名称申报/核名及系统提示的材料下载；第二阶段再运行：python system/run_case_rongxian_to_yun_submit.py --resume-current"
+      }
+    },
+    {
+      "step": "final_snap",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/namenotice/declaration-instructions?fromProject=portal&fromPage=%2Findex%2Fenterprise%2Fenterprise-zone&entType=1100&busiType=02_4",
+        "hash": "#/namenotice/declaration-instructions?fromProject=portal&fromPage=%2Findex%2Fenterprise%2Fenterprise-zone&entType=1100&busiType=02_4",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 申报须知 欢迎进入企业开办全程网上办平台，在正式填报前，请阅读以下注意事项： 1、本平台提供企业开办（包含企业登记、公章刻制、申领发票、银行开户、社会保险参保登记和员工参保登记、住房公积金企业缴存登记）全程网上办，您也可以选择单独办理企业登记和其它事项，选择服务事项后，不可随意更改。 2、选择本平台提供的全程网上办理，将视同申请人认可通过本平台向企业开办相关行政部门和服务单位传输各类共享信息和材料。 3、申请人通过企业开办全程网上办平台办理业务，有义务确保填报的信息、提交的材料和证件真实"
+      }
+    },
+    {
+      "step": "final_cap",
+      "data": {
+        "count": 0,
+        "items": []
+      }
+    }
+  ],
+  "framework": {
+    "name": "four_layer_evidence + L3_context_tables",
+    "version": "2026-04-19b",
+    "layers": {
+      "L0": "mitmproxy optional",
+      "L1": "CDP Network.enable + Performance resource tail + hook timing",
+      "L2": "XHR/fetch hook in page (__ufo_cap tail)",
+      "L3": "step JSON + l3_step_code"
+    },
+    "stop_condition": "page_text_yun_submit_without_click",
+    "note": "实人/短信若出现在云提交停点之前，仅记 l3_warn_auth_gate_early 供复核（预期不应出现）。",
+    "blocker_capture": "blocker_evidence[] 含 UI + last_api（hook_tail / perf_resource_tail）+ packet_chain_shots/*.png；S08 用 GUIDE_BASE_AUTOFILL_V2 + 级联双通道；卡顿时 recovery_stuck_js",
+    "attachments": "可选 --assets：每轮尝试 DOM.setFileInputFiles；身份证按表单项标签匹配正/反面，其余槽位用 mock PDF/JPEG",
+    "llm_observation": "每轮末尾写入 llm_observations[]，schema=ufo.llm_observation.v1，供规划层/RAG 消费",
+    "task_run": "run_id + task{} 见 ufo.gov_task_run.v1：state、events（步骤摘要）、summary"
+  },
+  "run_id": "8e34cfe8-50be-49a0-95aa-2d862b398117",
+  "rehearsal_assets": {
+    "config_path": "G:/UFO/政务平台/config/rehearsal_assets_rongxian.json",
+    "id_front": "G:\\YU\\资料\\身份证正面_副本.jpg",
+    "id_back": "G:\\YU\\资料\\身份证正面.jpg",
+    "mock_pdf": "G:\\UFO\\政务平台\\packet_lab\\out\\rehearsal_mock\\mock_contract.pdf",
+    "mock_image": "G:\\UFO\\政务平台\\packet_lab\\out\\rehearsal_mock\\mock_placeholder.jpg"
+  },
+  "resume_current": false,
+  "require_listing_company_substr": null,
+  "phase1_only": true,
+  "guide_seed_enabled": true,
+  "loop_limits": {
+    "max_primary_rounds": 18,
+    "s08_stuck_max_rounds": 6
+  },
+  "llm_observations": [],
+  "human_pacing": {
+    "config": "config/human_pacing.json",
+    "fast": false
+  },
+  "ended_at": "2026-04-20 19:24:34",
+  "acceptance": [
+    {
+      "id": "AC-CDP",
+      "ok": true,
+      "note": "已连接 CDP 且存在 9087 页签"
+    },
+    {
+      "id": "AC-LOGIN",
+      "ok": true,
+      "note": "顶栏像已登录（办件中心且无 登录/注册 访客条）",
+      "detail": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions",
+        "hash": "#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 全部服务 设立登记 公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理设立登记，取得营业执照。 变更（备案）登记 公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理变更（备案）登记，如名称、住所（经营场所）、注册资本、经营范围等事项变更。 普通注销登记 公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理普通注销登记。"
+      }
+    },
+    {
+      "id": "AC-CLICK-ESTABLISH",
+      "ok": true,
+      "note": "activefuc 或 DOM 命中「设立登记」",
+      "activefuc": {
+        "ok": false,
+        "err": "TypeError: Cannot read properties of undefined (reading 'parentNode')",
+        "code": "20250715092001",
+        "name": "common.home.application.busitype.03_0315",
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions",
+        "hash": "#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions"
+      },
+      "dom": {
+        "ok": true,
+        "mode": "child:名称登记@div",
+        "text": "不含行政区划企业名称网上申报国家市场监督管理总局不含行政区划企业名称网上申报入口、名称开放查询、名称登记公告、企业名称规范用字查询",
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions",
+        "hash": "#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions"
+      }
+    },
+    {
+      "id": "AC-REACH-FLOW",
+      "ok": true,
+      "note": "技术里程碑：曾出现 enterprise-zone / name-register / guide/base / 云提交停点之一（不等于业务上两阶段已验收）",
+      "flags": {
+        "enterprise_zone": true,
+        "name_register_spa": true,
+        "guide_base": false,
+        "yun_submit": false
+      }
+    },
+    {
+      "id": "AC-GUIDE-BASE",
+      "ok": false,
+      "note": "出现过 guide/base（中间里程碑）"
+    },
+    {
+      "id": "AC-CORE-REACHED",
+      "ok": false,
+      "note": "曾进入 core.html（设立主流程/材料等）"
+    },
+    {
+      "id": "AC-YUN-SUBMIT",
+      "ok": false,
+      "note": "本轮未在页面文案中检测到「云提交/云端提交」停点（可能卡在名称引导/材料页之前）"
+    },
+    {
+      "id": "AC-NO-EARLY-AUTH",
+      "ok": true,
+      "note": "云提交停点前未出现实人/短信类门控（若失败请复核是否环境变更）"
+    },
+    {
+      "id": "AC-BLOCKER-EVIDENCE",
+      "ok": true,
+      "note": "若有 blocker_evidence 记录，则每条须含 png_path 或 last_api 中非空 hook/perf 摘要",
+      "count": 0
+    }
+  ],
+  "phase_verdict": {
+    "schema": "ufo.phase_verdict.v1",
+    "phase1_name_then_case_row": {
+      "title": "第一阶段：名称登记/核名可接续（列表是否已有该行取决于进度；可选列表门禁见 case_company_listing_gate）",
+      "status": "unknown",
+      "detail": {}
+    },
+    "phase2_to_yun_submit_stop": {
+      "title": "第二阶段：长表单推进至云提交文案停点（不点云提交）",
+      "status": "skipped",
+      "reached_core_html": false,
+      "reached_yun_submit": false,
+      "note": "本 run 为第一阶段专用：主循环未执行；核名与材料在浏览器内完成后，再跑第二阶段脚本。"
+    },
+    "suggested_human_actions": [
+      "【第一阶段·新设】拟设主体：完成名称自主申报/核名；办件是否已出现在「我的办件」取决于进度，**未出现不代表核名逻辑已失败**。",
+      "【第二阶段】进入 core 后完成各步表单与材料上传，直至页面出现「云提交」类文案（本自动化不点提交）。"
+    ],
+    "run_mode": "phase1_only"
+  },
+  "task": {
+    "schema": "ufo.gov_task_run.v1",
+    "goal": "portal_chain_to_yun_submit_stop",
+    "run_id": "8e34cfe8-50be-49a0-95aa-2d862b398117",
+    "state": "partial",
+    "events": [
+      {
+        "i": 1,
+        "step": "snap_after_portal_nav",
+        "brief": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions",
+          "hash": "#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions",
+          "likelyLoggedIn": true
+        }
+      },
+      {
+        "i": 2,
+        "step": "try_activefuc_establish",
+        "brief": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions",
+          "hash": "#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions"
+        }
+      },
+      {
+        "i": 3,
+        "step": "fallback_dom_click_establish",
+        "brief": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions",
+          "hash": "#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions"
+        }
+      },
+      {
+        "i": 12,
+        "step": "final_snap",
+        "brief": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/namenotice/declaration-instructions?fromProject=portal&fromPage=%2Findex%2Fenterprise%2Fenterprise-zone&entType=1100&busiType=02_4",
+          "hash": "#/namenotice/declaration-instructions?fromProject=portal&fromPage=%2Findex%2Fenterprise%2Fenterprise-zone&entType=1100&busiType=02_4",
+          "likelyLoggedIn": true
+        }
+      }
+    ],
+    "summary": {
+      "reached_yun_submit": false,
+      "reached_core": false,
+      "acceptance_all_ok": false,
+      "has_run_error": false,
+      "no_cdp_page": false
+    }
+  },
+  "framework_notes": {
+    "issues": [
+      "验收项未通过 AC-GUIDE-BASE: 出现过 guide/base（中间里程碑）",
+      "验收项未通过 AC-CORE-REACHED: 曾进入 core.html（设立主流程/材料等）",
+      "验收项未通过 AC-YUN-SUBMIT: 本轮未在页面文案中检测到「云提交/云端提交」停点（可能卡在名称引导/材料页之前）"
+    ],
+    "prompts": [
+      "【第一阶段·新设】拟设主体：完成名称自主申报/核名；办件是否已出现在「我的办件」取决于进度，**未出现不代表核名逻辑已失败**。",
+      "【第二阶段】进入 core 后完成各步表单与材料上传，直至页面出现「云提交」类文案（本自动化不点提交）。"
+    ],
+    "recommendations": [
+      "第一阶段专用模式已结束：请在浏览器完成核名与材料下载；第二阶段再运行 run_case_rongxian_to_yun_submit.py（不带 --phase1-only，常用 --resume-current）"
+    ]
+  }
+}

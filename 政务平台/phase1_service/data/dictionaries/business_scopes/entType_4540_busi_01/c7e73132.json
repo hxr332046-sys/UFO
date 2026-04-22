@@ -1,0 +1,46 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "O8020",
+        "saveHyCode": "8020",
+        "hyPecul": "托儿所",
+        "hyTypeName": "托儿所服务",
+        "enHyTypeName": null,
+        "explains": "指社会、街道、个人办的面向不足三岁幼儿的看护活动，可分为全托、日托、半托，或计时的服务。",
+        "includesTitle": "包括下列托儿所服务活动：",
+        "includes": "全天托儿服务；临时托儿服务；其他托儿服务。",
+        "unIncludes": "不包括：幼儿园，列入8310（学前教育）；以学前教育为主的幼儿看护服务，列入8310（学前教育）。",
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "O8020",
+        "saveHyCode": "8020",
+        "hyPecul": "托儿所服务",
+        "hyTypeName": "托儿所服务",
+        "enHyTypeName": null,
+        "explains": "指社会、街道、个人办的面向不足三岁幼儿的看护活动，可分为全托、日托、半托，或计时的服务。",
+        "includesTitle": "包括下列托儿所服务活动：",
+        "includes": "全天托儿服务；临时托儿服务；其他托儿服务。",
+        "unIncludes": "不包括：幼儿园，列入8310（学前教育）；以学前教育为主的幼儿看护服务，列入8310（学前教育）。",
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "托儿所",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

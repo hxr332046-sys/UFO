@@ -1,0 +1,2406 @@
+{
+  "started_at": "2026-04-20 16:29:21",
+  "portal_entry": "namenotice",
+  "portal_start_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions",
+  "page_before": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+  "cdp_tab_probe": [
+    {
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+      "hint": {
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": "resume_current_skip_portal_nav",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="
+      }
+    },
+    {
+      "step": "snap_after_resume",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址"
+      }
+    },
+    {
+      "step": "cap_after_hook_resume",
+      "data": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "step": "before_primary_round_0",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasYunSubmit": false,
+        "hasYunbangbanMode": false,
+        "hasFaceSmsGate": false,
+        "head": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址：南宁市怡宾路1号 提示 根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理登记代理事务的工作人员）； （3）经营主体的法定代表人（负责人、执行事务合伙人、经营者）、股东（投资人、合伙人）、董事、监事、高级管理人员等。 请确认您属于上述人员范围，再继续办理相关业务。 关 闭",
+        "l3_step_code": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "attachment_try_0",
+      "data": {
+        "skipped": true,
+        "reason": "no_file_inputs",
+        "probe": []
+      }
+    },
+    {
+      "step": "milestone_guide_base_0",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "l3": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "guide_base_autofill_v2",
+      "data": {
+        "ok": true,
+        "log": [
+          "name:未申请",
+          "ent:内资有限公司"
+        ],
+        "r0": {
+          "ok": false
+        },
+        "r1": {
+          "ok": true,
+          "h": "内资有限公司农民专业合作社个人独资企业个体工商户分支机构全部企业类型"
+        }
+      }
+    },
+    {
+      "step": "guide_init_cascade_open_multi",
+      "data": {
+        "ok": false,
+        "totalInputs": 0,
+        "clickedIdx": []
+      }
+    },
+    {
+      "step": "guide_init_region_select_probe",
+      "data": {
+        "ok": true,
+        "log": [
+          "请选择省、市、区、街道"
+        ],
+        "scanned": 1
+      }
+    },
+    {
+      "step": "guide_init_region_pick_dropdown",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "guide_init_region_pick_cascade",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "guide_init_region_dropdown_chain_0",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "guide_init_cascade_open",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "guide_init_cascade_first_a_0",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "guide_init_cascade_pick_nth1",
+      "data": {
+        "ok": false,
+        "idx": 1,
+        "cnt": 0
+      }
+    },
+    {
+      "step": "guide_init_cascade_first_b_0",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "s08_state_probe_0",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasNamePrompt": false,
+        "hasQualificationPrompt": true,
+        "dialogCount": 0,
+        "qDialogVisible": false,
+        "nDialogVisible": false,
+        "ghostDialogState": true,
+        "hookCount": 0,
+        "guideVmFound": true,
+        "guideDataInfoCode": null,
+        "guideChoiceName": "请选择企业类型",
+        "guideEntTypeCode": "1100",
+        "guideEntTypeRealy": "gs",
+        "guideHasPicker": true,
+        "guidePickerCheckValue": [],
+        "guideDistListLen": 0,
+        "guideForm": {
+          "entType": "1100",
+          "nameCode": "",
+          "isnameType": "",
+          "choiceName": "",
+          "havaAdress": "",
+          "distCode": "",
+          "streetCode": "",
+          "streetName": "",
+          "address": "",
+          "detAddress": ""
+        },
+        "buttons": [
+          {
+            "text": "下一步",
+            "disabled": false
+          },
+          {
+            "text": "关 闭",
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "step": "s08_prompt_recovery_0",
+      "data": {
+        "ok": true,
+        "log": [
+          "close_toast",
+          "close_toast",
+          "close_btn",
+          "close_btn",
+          "close_btn"
+        ]
+      }
+    },
+    {
+      "step": "s08_state_after_recovery_0",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasNamePrompt": false,
+        "hasQualificationPrompt": true,
+        "dialogCount": 0,
+        "qDialogVisible": false,
+        "nDialogVisible": false,
+        "ghostDialogState": true,
+        "hookCount": 0,
+        "guideVmFound": true,
+        "guideDataInfoCode": null,
+        "guideChoiceName": "请选择企业类型",
+        "guideEntTypeCode": "1100",
+        "guideEntTypeRealy": "gs",
+        "guideHasPicker": true,
+        "guidePickerCheckValue": [],
+        "guideDistListLen": 0,
+        "guideForm": {
+          "entType": "1100",
+          "nameCode": "",
+          "isnameType": "",
+          "choiceName": "",
+          "havaAdress": "",
+          "distCode": "",
+          "streetCode": "",
+          "streetName": "",
+          "address": "",
+          "detAddress": ""
+        },
+        "buttons": [
+          {
+            "text": "下一步",
+            "disabled": false
+          },
+          {
+            "text": "关 闭",
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "step": "s08_prompt_recovery_assert_0",
+      "data": {
+        "state_changed": false,
+        "still_blocking": true,
+        "before": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hasNamePrompt": false,
+          "hasQualificationPrompt": true,
+          "dialogCount": 0,
+          "qDialogVisible": false,
+          "nDialogVisible": false,
+          "ghostDialogState": true,
+          "hookCount": 0,
+          "guideVmFound": true,
+          "guideDataInfoCode": null,
+          "guideChoiceName": "请选择企业类型",
+          "guideEntTypeCode": "1100",
+          "guideEntTypeRealy": "gs",
+          "guideHasPicker": true,
+          "guidePickerCheckValue": [],
+          "guideDistListLen": 0,
+          "guideForm": {
+            "entType": "1100",
+            "nameCode": "",
+            "isnameType": "",
+            "choiceName": "",
+            "havaAdress": "",
+            "distCode": "",
+            "streetCode": "",
+            "streetName": "",
+            "address": "",
+            "detAddress": ""
+          },
+          "buttons": [
+            {
+              "text": "下一步",
+              "disabled": false
+            },
+            {
+              "text": "关 闭",
+              "disabled": false
+            }
+          ]
+        },
+        "after": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hasNamePrompt": false,
+          "hasQualificationPrompt": true,
+          "dialogCount": 0,
+          "qDialogVisible": false,
+          "nDialogVisible": false,
+          "ghostDialogState": true,
+          "hookCount": 0,
+          "guideVmFound": true,
+          "guideDataInfoCode": null,
+          "guideChoiceName": "请选择企业类型",
+          "guideEntTypeCode": "1100",
+          "guideEntTypeRealy": "gs",
+          "guideHasPicker": true,
+          "guidePickerCheckValue": [],
+          "guideDistListLen": 0,
+          "guideForm": {
+            "entType": "1100",
+            "nameCode": "",
+            "isnameType": "",
+            "choiceName": "",
+            "havaAdress": "",
+            "distCode": "",
+            "streetCode": "",
+            "streetName": "",
+            "address": "",
+            "detAddress": ""
+          },
+          "buttons": [
+            {
+              "text": "下一步",
+              "disabled": false
+            },
+            {
+              "text": "关 闭",
+              "disabled": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "step": "click_primary_round_0",
+      "data": {
+        "ok": false,
+        "skipped": true,
+        "reason": "s08_prompt_blocking",
+        "recovery": {
+          "ok": true,
+          "log": [
+            "close_toast",
+            "close_toast",
+            "close_btn",
+            "close_btn",
+            "close_btn"
+          ]
+        },
+        "vm_prefill": null,
+        "flow_save": null
+      }
+    },
+    {
+      "step": "cap_round_0",
+      "data": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "step": "snap_round_0",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址"
+      }
+    },
+    {
+      "step": "before_primary_round_1",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasYunSubmit": false,
+        "hasYunbangbanMode": false,
+        "hasFaceSmsGate": false,
+        "head": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址：南宁市怡宾路1号 提示 根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理登记代理事务的工作人员）； （3）经营主体的法定代表人（负责人、执行事务合伙人、经营者）、股东（投资人、合伙人）、董事、监事、高级管理人员等。 请确认您属于上述人员范围，再继续办理相关业务。 关 闭 请选择",
+        "l3_step_code": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "attachment_try_1",
+      "data": {
+        "skipped": true,
+        "reason": "no_file_inputs",
+        "probe": []
+      }
+    },
+    {
+      "step": "milestone_guide_base_1",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "l3": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "s08_state_probe_1",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasNamePrompt": false,
+        "hasQualificationPrompt": true,
+        "dialogCount": 0,
+        "qDialogVisible": false,
+        "nDialogVisible": false,
+        "ghostDialogState": true,
+        "hookCount": 0,
+        "guideVmFound": true,
+        "guideDataInfoCode": null,
+        "guideChoiceName": "请选择企业类型",
+        "guideEntTypeCode": "1100",
+        "guideEntTypeRealy": "gs",
+        "guideHasPicker": true,
+        "guidePickerCheckValue": [],
+        "guideDistListLen": 0,
+        "guideForm": {
+          "entType": "1100",
+          "nameCode": "",
+          "isnameType": "",
+          "choiceName": "",
+          "havaAdress": "",
+          "distCode": "",
+          "streetCode": "",
+          "streetName": "",
+          "address": "",
+          "detAddress": ""
+        },
+        "buttons": [
+          {
+            "text": "下一步",
+            "disabled": false
+          },
+          {
+            "text": "关 闭",
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "step": "s08_prompt_recovery_1",
+      "data": {
+        "ok": true,
+        "log": [
+          "close_toast",
+          "close_toast",
+          "close_btn",
+          "close_btn",
+          "close_btn"
+        ]
+      }
+    },
+    {
+      "step": "s08_state_after_recovery_1",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasNamePrompt": false,
+        "hasQualificationPrompt": true,
+        "dialogCount": 0,
+        "qDialogVisible": false,
+        "nDialogVisible": false,
+        "ghostDialogState": true,
+        "hookCount": 0,
+        "guideVmFound": true,
+        "guideDataInfoCode": null,
+        "guideChoiceName": "请选择企业类型",
+        "guideEntTypeCode": "1100",
+        "guideEntTypeRealy": "gs",
+        "guideHasPicker": true,
+        "guidePickerCheckValue": [],
+        "guideDistListLen": 0,
+        "guideForm": {
+          "entType": "1100",
+          "nameCode": "",
+          "isnameType": "",
+          "choiceName": "",
+          "havaAdress": "",
+          "distCode": "",
+          "streetCode": "",
+          "streetName": "",
+          "address": "",
+          "detAddress": ""
+        },
+        "buttons": [
+          {
+            "text": "下一步",
+            "disabled": false
+          },
+          {
+            "text": "关 闭",
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "step": "s08_prompt_recovery_assert_1",
+      "data": {
+        "state_changed": false,
+        "still_blocking": true,
+        "before": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hasNamePrompt": false,
+          "hasQualificationPrompt": true,
+          "dialogCount": 0,
+          "qDialogVisible": false,
+          "nDialogVisible": false,
+          "ghostDialogState": true,
+          "hookCount": 0,
+          "guideVmFound": true,
+          "guideDataInfoCode": null,
+          "guideChoiceName": "请选择企业类型",
+          "guideEntTypeCode": "1100",
+          "guideEntTypeRealy": "gs",
+          "guideHasPicker": true,
+          "guidePickerCheckValue": [],
+          "guideDistListLen": 0,
+          "guideForm": {
+            "entType": "1100",
+            "nameCode": "",
+            "isnameType": "",
+            "choiceName": "",
+            "havaAdress": "",
+            "distCode": "",
+            "streetCode": "",
+            "streetName": "",
+            "address": "",
+            "detAddress": ""
+          },
+          "buttons": [
+            {
+              "text": "下一步",
+              "disabled": false
+            },
+            {
+              "text": "关 闭",
+              "disabled": false
+            }
+          ]
+        },
+        "after": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hasNamePrompt": false,
+          "hasQualificationPrompt": true,
+          "dialogCount": 0,
+          "qDialogVisible": false,
+          "nDialogVisible": false,
+          "ghostDialogState": true,
+          "hookCount": 0,
+          "guideVmFound": true,
+          "guideDataInfoCode": null,
+          "guideChoiceName": "请选择企业类型",
+          "guideEntTypeCode": "1100",
+          "guideEntTypeRealy": "gs",
+          "guideHasPicker": true,
+          "guidePickerCheckValue": [],
+          "guideDistListLen": 0,
+          "guideForm": {
+            "entType": "1100",
+            "nameCode": "",
+            "isnameType": "",
+            "choiceName": "",
+            "havaAdress": "",
+            "distCode": "",
+            "streetCode": "",
+            "streetName": "",
+            "address": "",
+            "detAddress": ""
+          },
+          "buttons": [
+            {
+              "text": "下一步",
+              "disabled": false
+            },
+            {
+              "text": "关 闭",
+              "disabled": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "step": "click_primary_round_1",
+      "data": {
+        "ok": false,
+        "skipped": true,
+        "reason": "s08_prompt_blocking",
+        "recovery": {
+          "ok": true,
+          "log": [
+            "close_toast",
+            "close_toast",
+            "close_btn",
+            "close_btn",
+            "close_btn"
+          ]
+        },
+        "vm_prefill": null,
+        "flow_save": null
+      }
+    },
+    {
+      "step": "cap_round_1",
+      "data": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "step": "snap_round_1",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址"
+      }
+    },
+    {
+      "step": "before_primary_round_2",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasYunSubmit": false,
+        "hasYunbangbanMode": false,
+        "hasFaceSmsGate": false,
+        "head": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址：南宁市怡宾路1号 提示 根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理登记代理事务的工作人员）； （3）经营主体的法定代表人（负责人、执行事务合伙人、经营者）、股东（投资人、合伙人）、董事、监事、高级管理人员等。 请确认您属于上述人员范围，再继续办理相关业务。 关 闭 请选择",
+        "l3_step_code": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "attachment_try_2",
+      "data": {
+        "skipped": true,
+        "reason": "no_file_inputs",
+        "probe": []
+      }
+    },
+    {
+      "step": "milestone_guide_base_2",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "l3": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "s08_state_probe_2",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasNamePrompt": false,
+        "hasQualificationPrompt": true,
+        "dialogCount": 0,
+        "qDialogVisible": false,
+        "nDialogVisible": false,
+        "ghostDialogState": true,
+        "hookCount": 0,
+        "guideVmFound": true,
+        "guideDataInfoCode": null,
+        "guideChoiceName": "请选择企业类型",
+        "guideEntTypeCode": "1100",
+        "guideEntTypeRealy": "gs",
+        "guideHasPicker": true,
+        "guidePickerCheckValue": [],
+        "guideDistListLen": 0,
+        "guideForm": {
+          "entType": "1100",
+          "nameCode": "",
+          "isnameType": "",
+          "choiceName": "",
+          "havaAdress": "",
+          "distCode": "",
+          "streetCode": "",
+          "streetName": "",
+          "address": "",
+          "detAddress": ""
+        },
+        "buttons": [
+          {
+            "text": "下一步",
+            "disabled": false
+          },
+          {
+            "text": "关 闭",
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "step": "s08_prompt_recovery_2",
+      "data": {
+        "ok": true,
+        "log": [
+          "close_toast",
+          "close_toast",
+          "close_btn",
+          "close_btn",
+          "close_btn"
+        ]
+      }
+    },
+    {
+      "step": "s08_state_after_recovery_2",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasNamePrompt": false,
+        "hasQualificationPrompt": true,
+        "dialogCount": 0,
+        "qDialogVisible": false,
+        "nDialogVisible": false,
+        "ghostDialogState": true,
+        "hookCount": 0,
+        "guideVmFound": true,
+        "guideDataInfoCode": null,
+        "guideChoiceName": "请选择企业类型",
+        "guideEntTypeCode": "1100",
+        "guideEntTypeRealy": "gs",
+        "guideHasPicker": true,
+        "guidePickerCheckValue": [],
+        "guideDistListLen": 0,
+        "guideForm": {
+          "entType": "1100",
+          "nameCode": "",
+          "isnameType": "",
+          "choiceName": "",
+          "havaAdress": "",
+          "distCode": "",
+          "streetCode": "",
+          "streetName": "",
+          "address": "",
+          "detAddress": ""
+        },
+        "buttons": [
+          {
+            "text": "下一步",
+            "disabled": false
+          },
+          {
+            "text": "关 闭",
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "step": "s08_prompt_recovery_assert_2",
+      "data": {
+        "state_changed": false,
+        "still_blocking": true,
+        "before": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hasNamePrompt": false,
+          "hasQualificationPrompt": true,
+          "dialogCount": 0,
+          "qDialogVisible": false,
+          "nDialogVisible": false,
+          "ghostDialogState": true,
+          "hookCount": 0,
+          "guideVmFound": true,
+          "guideDataInfoCode": null,
+          "guideChoiceName": "请选择企业类型",
+          "guideEntTypeCode": "1100",
+          "guideEntTypeRealy": "gs",
+          "guideHasPicker": true,
+          "guidePickerCheckValue": [],
+          "guideDistListLen": 0,
+          "guideForm": {
+            "entType": "1100",
+            "nameCode": "",
+            "isnameType": "",
+            "choiceName": "",
+            "havaAdress": "",
+            "distCode": "",
+            "streetCode": "",
+            "streetName": "",
+            "address": "",
+            "detAddress": ""
+          },
+          "buttons": [
+            {
+              "text": "下一步",
+              "disabled": false
+            },
+            {
+              "text": "关 闭",
+              "disabled": false
+            }
+          ]
+        },
+        "after": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hasNamePrompt": false,
+          "hasQualificationPrompt": true,
+          "dialogCount": 0,
+          "qDialogVisible": false,
+          "nDialogVisible": false,
+          "ghostDialogState": true,
+          "hookCount": 0,
+          "guideVmFound": true,
+          "guideDataInfoCode": null,
+          "guideChoiceName": "请选择企业类型",
+          "guideEntTypeCode": "1100",
+          "guideEntTypeRealy": "gs",
+          "guideHasPicker": true,
+          "guidePickerCheckValue": [],
+          "guideDistListLen": 0,
+          "guideForm": {
+            "entType": "1100",
+            "nameCode": "",
+            "isnameType": "",
+            "choiceName": "",
+            "havaAdress": "",
+            "distCode": "",
+            "streetCode": "",
+            "streetName": "",
+            "address": "",
+            "detAddress": ""
+          },
+          "buttons": [
+            {
+              "text": "下一步",
+              "disabled": false
+            },
+            {
+              "text": "关 闭",
+              "disabled": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "step": "click_primary_round_2",
+      "data": {
+        "ok": false,
+        "skipped": true,
+        "reason": "s08_prompt_blocking",
+        "recovery": {
+          "ok": true,
+          "log": [
+            "close_toast",
+            "close_toast",
+            "close_btn",
+            "close_btn",
+            "close_btn"
+          ]
+        },
+        "vm_prefill": null,
+        "flow_save": null
+      }
+    },
+    {
+      "step": "cap_round_2",
+      "data": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "step": "snap_round_2",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址"
+      }
+    },
+    {
+      "step": "before_primary_round_3",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasYunSubmit": false,
+        "hasYunbangbanMode": false,
+        "hasFaceSmsGate": false,
+        "head": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址：南宁市怡宾路1号 提示 根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理登记代理事务的工作人员）； （3）经营主体的法定代表人（负责人、执行事务合伙人、经营者）、股东（投资人、合伙人）、董事、监事、高级管理人员等。 请确认您属于上述人员范围，再继续办理相关业务。 关 闭 请选择",
+        "l3_step_code": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "attachment_try_3",
+      "data": {
+        "skipped": true,
+        "reason": "no_file_inputs",
+        "probe": []
+      }
+    },
+    {
+      "step": "milestone_guide_base_3",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "l3": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "s08_hash_stagnate_3",
+      "data": {
+        "streak": 3,
+        "sig": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=|https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="
+      }
+    },
+    {
+      "step": "guide_base_autofill_stagnate_3",
+      "data": {
+        "ok": true,
+        "log": [
+          "name:未申请",
+          "ent:内资有限公司"
+        ],
+        "r0": {
+          "ok": false
+        },
+        "r1": {
+          "ok": true,
+          "h": "内资有限公司农民专业合作社个人独资企业个体工商户分支机构全部企业类型"
+        }
+      }
+    },
+    {
+      "step": "stagnate_3_cascade_open_multi",
+      "data": {
+        "ok": false,
+        "totalInputs": 0,
+        "clickedIdx": []
+      }
+    },
+    {
+      "step": "stagnate_3_region_select_probe",
+      "data": {
+        "ok": true,
+        "log": [
+          "请选择省、市、区、街道"
+        ],
+        "scanned": 1
+      }
+    },
+    {
+      "step": "stagnate_3_region_pick_dropdown",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "stagnate_3_region_pick_cascade",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "stagnate_3_region_dropdown_chain_0",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "stagnate_3_cascade_open",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "stagnate_3_cascade_first_a_0",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "stagnate_3_cascade_pick_nth1",
+      "data": {
+        "ok": false,
+        "idx": 1,
+        "cnt": 0
+      }
+    },
+    {
+      "step": "stagnate_3_cascade_first_b_0",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "s08_state_probe_3",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasNamePrompt": false,
+        "hasQualificationPrompt": true,
+        "dialogCount": 0,
+        "qDialogVisible": false,
+        "nDialogVisible": false,
+        "ghostDialogState": true,
+        "hookCount": 0,
+        "guideVmFound": true,
+        "guideDataInfoCode": null,
+        "guideChoiceName": "请选择企业类型",
+        "guideEntTypeCode": "1100",
+        "guideEntTypeRealy": "gs",
+        "guideHasPicker": true,
+        "guidePickerCheckValue": [],
+        "guideDistListLen": 0,
+        "guideForm": {
+          "entType": "1100",
+          "nameCode": "",
+          "isnameType": "",
+          "choiceName": "",
+          "havaAdress": "",
+          "distCode": "",
+          "streetCode": "",
+          "streetName": "",
+          "address": "",
+          "detAddress": ""
+        },
+        "buttons": [
+          {
+            "text": "下一步",
+            "disabled": false
+          },
+          {
+            "text": "关 闭",
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "step": "s08_prompt_recovery_3",
+      "data": {
+        "ok": true,
+        "log": [
+          "close_toast",
+          "close_toast",
+          "close_btn",
+          "close_btn",
+          "close_btn"
+        ]
+      }
+    },
+    {
+      "step": "s08_state_after_recovery_3",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasNamePrompt": false,
+        "hasQualificationPrompt": true,
+        "dialogCount": 0,
+        "qDialogVisible": false,
+        "nDialogVisible": false,
+        "ghostDialogState": true,
+        "hookCount": 0,
+        "guideVmFound": true,
+        "guideDataInfoCode": null,
+        "guideChoiceName": "请选择企业类型",
+        "guideEntTypeCode": "1100",
+        "guideEntTypeRealy": "gs",
+        "guideHasPicker": true,
+        "guidePickerCheckValue": [],
+        "guideDistListLen": 0,
+        "guideForm": {
+          "entType": "1100",
+          "nameCode": "",
+          "isnameType": "",
+          "choiceName": "",
+          "havaAdress": "",
+          "distCode": "",
+          "streetCode": "",
+          "streetName": "",
+          "address": "",
+          "detAddress": ""
+        },
+        "buttons": [
+          {
+            "text": "下一步",
+            "disabled": false
+          },
+          {
+            "text": "关 闭",
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "step": "s08_prompt_recovery_assert_3",
+      "data": {
+        "state_changed": false,
+        "still_blocking": true,
+        "before": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hasNamePrompt": false,
+          "hasQualificationPrompt": true,
+          "dialogCount": 0,
+          "qDialogVisible": false,
+          "nDialogVisible": false,
+          "ghostDialogState": true,
+          "hookCount": 0,
+          "guideVmFound": true,
+          "guideDataInfoCode": null,
+          "guideChoiceName": "请选择企业类型",
+          "guideEntTypeCode": "1100",
+          "guideEntTypeRealy": "gs",
+          "guideHasPicker": true,
+          "guidePickerCheckValue": [],
+          "guideDistListLen": 0,
+          "guideForm": {
+            "entType": "1100",
+            "nameCode": "",
+            "isnameType": "",
+            "choiceName": "",
+            "havaAdress": "",
+            "distCode": "",
+            "streetCode": "",
+            "streetName": "",
+            "address": "",
+            "detAddress": ""
+          },
+          "buttons": [
+            {
+              "text": "下一步",
+              "disabled": false
+            },
+            {
+              "text": "关 闭",
+              "disabled": false
+            }
+          ]
+        },
+        "after": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hasNamePrompt": false,
+          "hasQualificationPrompt": true,
+          "dialogCount": 0,
+          "qDialogVisible": false,
+          "nDialogVisible": false,
+          "ghostDialogState": true,
+          "hookCount": 0,
+          "guideVmFound": true,
+          "guideDataInfoCode": null,
+          "guideChoiceName": "请选择企业类型",
+          "guideEntTypeCode": "1100",
+          "guideEntTypeRealy": "gs",
+          "guideHasPicker": true,
+          "guidePickerCheckValue": [],
+          "guideDistListLen": 0,
+          "guideForm": {
+            "entType": "1100",
+            "nameCode": "",
+            "isnameType": "",
+            "choiceName": "",
+            "havaAdress": "",
+            "distCode": "",
+            "streetCode": "",
+            "streetName": "",
+            "address": "",
+            "detAddress": ""
+          },
+          "buttons": [
+            {
+              "text": "下一步",
+              "disabled": false
+            },
+            {
+              "text": "关 闭",
+              "disabled": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "step": "click_primary_round_3",
+      "data": {
+        "ok": false,
+        "skipped": true,
+        "reason": "s08_prompt_blocking",
+        "recovery": {
+          "ok": true,
+          "log": [
+            "close_toast",
+            "close_toast",
+            "close_btn",
+            "close_btn",
+            "close_btn"
+          ]
+        },
+        "vm_prefill": null,
+        "flow_save": null
+      }
+    },
+    {
+      "step": "cap_round_3",
+      "data": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "step": "snap_round_3",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址"
+      }
+    },
+    {
+      "step": "before_primary_round_4",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasYunSubmit": false,
+        "hasYunbangbanMode": false,
+        "hasFaceSmsGate": false,
+        "head": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址：南宁市怡宾路1号 提示 根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理登记代理事务的工作人员）； （3）经营主体的法定代表人（负责人、执行事务合伙人、经营者）、股东（投资人、合伙人）、董事、监事、高级管理人员等。 请确认您属于上述人员范围，再继续办理相关业务。 关 闭 请选择",
+        "l3_step_code": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "attachment_try_4",
+      "data": {
+        "skipped": true,
+        "reason": "no_file_inputs",
+        "probe": []
+      }
+    },
+    {
+      "step": "milestone_guide_base_4",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "l3": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "s08_state_probe_4",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasNamePrompt": false,
+        "hasQualificationPrompt": true,
+        "dialogCount": 0,
+        "qDialogVisible": false,
+        "nDialogVisible": false,
+        "ghostDialogState": true,
+        "hookCount": 0,
+        "guideVmFound": true,
+        "guideDataInfoCode": null,
+        "guideChoiceName": "请选择企业类型",
+        "guideEntTypeCode": "1100",
+        "guideEntTypeRealy": "gs",
+        "guideHasPicker": true,
+        "guidePickerCheckValue": [],
+        "guideDistListLen": 0,
+        "guideForm": {
+          "entType": "1100",
+          "nameCode": "",
+          "isnameType": "",
+          "choiceName": "",
+          "havaAdress": "",
+          "distCode": "",
+          "streetCode": "",
+          "streetName": "",
+          "address": "",
+          "detAddress": ""
+        },
+        "buttons": [
+          {
+            "text": "下一步",
+            "disabled": false
+          },
+          {
+            "text": "关 闭",
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "step": "s08_prompt_recovery_4",
+      "data": {
+        "ok": true,
+        "log": [
+          "close_toast",
+          "close_toast",
+          "close_btn",
+          "close_btn",
+          "close_btn"
+        ]
+      }
+    },
+    {
+      "step": "s08_state_after_recovery_4",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasNamePrompt": false,
+        "hasQualificationPrompt": true,
+        "dialogCount": 0,
+        "qDialogVisible": false,
+        "nDialogVisible": false,
+        "ghostDialogState": true,
+        "hookCount": 0,
+        "guideVmFound": true,
+        "guideDataInfoCode": null,
+        "guideChoiceName": "请选择企业类型",
+        "guideEntTypeCode": "1100",
+        "guideEntTypeRealy": "gs",
+        "guideHasPicker": true,
+        "guidePickerCheckValue": [],
+        "guideDistListLen": 0,
+        "guideForm": {
+          "entType": "1100",
+          "nameCode": "",
+          "isnameType": "",
+          "choiceName": "",
+          "havaAdress": "",
+          "distCode": "",
+          "streetCode": "",
+          "streetName": "",
+          "address": "",
+          "detAddress": ""
+        },
+        "buttons": [
+          {
+            "text": "下一步",
+            "disabled": false
+          },
+          {
+            "text": "关 闭",
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "step": "s08_prompt_recovery_assert_4",
+      "data": {
+        "state_changed": false,
+        "still_blocking": true,
+        "before": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hasNamePrompt": false,
+          "hasQualificationPrompt": true,
+          "dialogCount": 0,
+          "qDialogVisible": false,
+          "nDialogVisible": false,
+          "ghostDialogState": true,
+          "hookCount": 0,
+          "guideVmFound": true,
+          "guideDataInfoCode": null,
+          "guideChoiceName": "请选择企业类型",
+          "guideEntTypeCode": "1100",
+          "guideEntTypeRealy": "gs",
+          "guideHasPicker": true,
+          "guidePickerCheckValue": [],
+          "guideDistListLen": 0,
+          "guideForm": {
+            "entType": "1100",
+            "nameCode": "",
+            "isnameType": "",
+            "choiceName": "",
+            "havaAdress": "",
+            "distCode": "",
+            "streetCode": "",
+            "streetName": "",
+            "address": "",
+            "detAddress": ""
+          },
+          "buttons": [
+            {
+              "text": "下一步",
+              "disabled": false
+            },
+            {
+              "text": "关 闭",
+              "disabled": false
+            }
+          ]
+        },
+        "after": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hasNamePrompt": false,
+          "hasQualificationPrompt": true,
+          "dialogCount": 0,
+          "qDialogVisible": false,
+          "nDialogVisible": false,
+          "ghostDialogState": true,
+          "hookCount": 0,
+          "guideVmFound": true,
+          "guideDataInfoCode": null,
+          "guideChoiceName": "请选择企业类型",
+          "guideEntTypeCode": "1100",
+          "guideEntTypeRealy": "gs",
+          "guideHasPicker": true,
+          "guidePickerCheckValue": [],
+          "guideDistListLen": 0,
+          "guideForm": {
+            "entType": "1100",
+            "nameCode": "",
+            "isnameType": "",
+            "choiceName": "",
+            "havaAdress": "",
+            "distCode": "",
+            "streetCode": "",
+            "streetName": "",
+            "address": "",
+            "detAddress": ""
+          },
+          "buttons": [
+            {
+              "text": "下一步",
+              "disabled": false
+            },
+            {
+              "text": "关 闭",
+              "disabled": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "step": "click_primary_round_4",
+      "data": {
+        "ok": false,
+        "skipped": true,
+        "reason": "s08_prompt_blocking",
+        "recovery": {
+          "ok": true,
+          "log": [
+            "close_toast",
+            "close_toast",
+            "close_btn",
+            "close_btn",
+            "close_btn"
+          ]
+        },
+        "vm_prefill": null,
+        "flow_save": null
+      }
+    },
+    {
+      "step": "cap_round_4",
+      "data": {
+        "count": 6,
+        "items": [
+          {
+            "t": "xhr",
+            "m": "POST",
+            "u": "/icpsp-api/v4/pc/login/checkToken?_t=1776673839291",
+            "body": "{}",
+            "ts": 1776673839291
+          },
+          {
+            "t": "xhr_end",
+            "u": "/icpsp-api/v4/pc/login/checkToken?_t=1776673839291",
+            "status": 404,
+            "resp": "{\"timestamp\":1776673832886,\"status\":404,\"error\":\"Not Found\",\"path\":\"/icpsp-api/v4/pc/login/checkToken\"}",
+            "ts": 1776673839384
+          },
+          {
+            "t": "xhr",
+            "m": "GET",
+            "u": "/icpsp-api/v4/pc/user/getUserInfo?_t=1776673839384",
+            "body": "",
+            "ts": 1776673839384
+          },
+          {
+            "t": "xhr_end",
+            "u": "/icpsp-api/v4/pc/user/getUserInfo?_t=1776673839384",
+            "status": 404,
+            "resp": "{\"timestamp\":1776673832927,\"status\":404,\"error\":\"Not Found\",\"path\":\"/icpsp-api/v4/pc/user/getUserInfo\"}",
+            "ts": 1776673839425
+          },
+          {
+            "t": "xhr",
+            "m": "GET",
+            "u": "/icpsp-api/v4/pc/common/tools/getCacheCreateTime?_t=1776673839425",
+            "body": "",
+            "ts": 1776673839425
+          },
+          {
+            "t": "xhr_end",
+            "u": "/icpsp-api/v4/pc/common/tools/getCacheCreateTime?_t=1776673839425",
+            "status": 200,
+            "resp": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"cacheTimeKey\":\"sysparamCacheTime\",\"cacheTimeValue\":\"1776673616292\"},{\"cacheTimeKey\":\"internationalcodeCacheTime\",\"cacheTimeValue\":\"1776673614934\"}]},\"msg\":\"操作成功\",\"page\":null}",
+            "ts": 1776673839453
+          }
+        ]
+      }
+    },
+    {
+      "step": "snap_round_4",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址"
+      }
+    },
+    {
+      "step": "before_primary_round_5",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasYunSubmit": false,
+        "hasYunbangbanMode": false,
+        "hasFaceSmsGate": false,
+        "head": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址：南宁市怡宾路1号 提示 根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理登记代理事务的工作人员）； （3）经营主体的法定代表人（负责人、执行事务合伙人、经营者）、股东（投资人、合伙人）、董事、监事、高级管理人员等。 请确认您属于上述人员范围，再继续办理相关业务。 关 闭 请选择",
+        "l3_step_code": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "blocker_evidence_s08_exit_blocked_cap",
+      "data": {
+        "tag": "s08_exit_blocked_cap",
+        "wall_time": "2026-04-20 16:30:39",
+        "round": 5,
+        "ui": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "errors": [],
+          "warnings": [],
+          "dialogBody": "根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理登记代理事务的工作人员）； （3）经营主体的法定代表人（负责人、执行事务合伙人、经营者）、股东（投资人、合伙人）、董事、监事、高级管理人员等。 请确认您属于上述人员范围，再继续办理相关业务。",
+          "messageBox": "",
+          "hasBlocking": false
+        },
+        "png_path": "G:/UFO/政务平台/dashboard/data/records/packet_chain_shots/s08_exit_blocked_cap_r5_20260420_163039.png",
+        "last_api": {
+          "hook_tail": {
+            "count": 6,
+            "tail": [
+              {
+                "t": "xhr",
+                "m": "POST",
+                "u": "/icpsp-api/v4/pc/login/checkToken?_t=1776673839291",
+                "body": "{}",
+                "ts": 1776673839291
+              },
+              {
+                "t": "xhr_end",
+                "u": "/icpsp-api/v4/pc/login/checkToken?_t=1776673839291",
+                "status": 404,
+                "resp": "{\"timestamp\":1776673832886,\"status\":404,\"error\":\"Not Found\",\"path\":\"/icpsp-api/v4/pc/login/checkToken\"}",
+                "ts": 1776673839384
+              },
+              {
+                "t": "xhr",
+                "m": "GET",
+                "u": "/icpsp-api/v4/pc/user/getUserInfo?_t=1776673839384",
+                "body": "",
+                "ts": 1776673839384
+              },
+              {
+                "t": "xhr_end",
+                "u": "/icpsp-api/v4/pc/user/getUserInfo?_t=1776673839384",
+                "status": 404,
+                "resp": "{\"timestamp\":1776673832927,\"status\":404,\"error\":\"Not Found\",\"path\":\"/icpsp-api/v4/pc/user/getUserInfo\"}",
+                "ts": 1776673839425
+              },
+              {
+                "t": "xhr",
+                "m": "GET",
+                "u": "/icpsp-api/v4/pc/common/tools/getCacheCreateTime?_t=1776673839425",
+                "body": "",
+                "ts": 1776673839425
+              },
+              {
+                "t": "xhr_end",
+                "u": "/icpsp-api/v4/pc/common/tools/getCacheCreateTime?_t=1776673839425",
+                "status": 200,
+                "resp": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"cacheTimeKey\":\"sysparamCacheTime\",\"cacheTimeValue\":\"1776673616292\"},{\"cacheTimeKey\":\"internationalcodeCacheTime\",\"cacheTimeValue\":\"1776673614934\"}]},\"msg\":\"操作成功\",\"page\":null}",
+                "ts": 1776673839453
+              }
+            ]
+          },
+          "perf_resource_tail": {
+            "count": 57,
+            "tail": [
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/guide/greenchannel/checkGreenChannel?t=1776673653936&busiType=02&entName=",
+                "initiatorType": "xmlhttprequest",
+                "duration": 41.7,
+                "transferSize": 400
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/usermanager/getUserInfo?t=1776673653979",
+                "initiatorType": "xmlhttprequest",
+                "duration": 32.4,
+                "transferSize": 926
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/tools/getCacheCreateTime?t=1776673654018",
+                "initiatorType": "xmlhttprequest",
+                "duration": 26.3,
+                "transferSize": 546
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register/css/base~31ecd969.d0dbd7bd.css",
+                "initiatorType": "link",
+                "duration": 17.3,
+                "transferSize": 0
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register/js/base~31ecd969.js",
+                "initiatorType": "script",
+                "duration": 18.2,
+                "transferSize": 0
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryNameEntType?type=1&t=1776673654160",
+                "initiatorType": "xmlhttprequest",
+                "duration": 36,
+                "transferSize": 9518
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryRegcodeAndStreet?t=1776673654160&fromPage=qykbdb",
+                "initiatorType": "xmlhttprequest",
+                "duration": 95.6,
+                "transferSize": 19256
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/codedata/special/common/queryCodeList?key=CODE_MOKINDCODE&t=1776673654160",
+                "initiatorType": "xmlhttprequest",
+                "duration": 38.3,
+                "transferSize": 29402
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryNameEntType?type=2&t=1776673654160",
+                "initiatorType": "xmlhttprequest",
+                "duration": 83.2,
+                "transferSize": 9155
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/login/checkToken?_t=1776673659155",
+                "initiatorType": "xmlhttprequest",
+                "duration": 67,
+                "transferSize": 403
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/user/getUserInfo?_t=1776673659223",
+                "initiatorType": "xmlhttprequest",
+                "duration": 32.2,
+                "transferSize": 403
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/tools/getCacheCreateTime?_t=1776673659255",
+                "initiatorType": "xmlhttprequest",
+                "duration": 25.2,
+                "transferSize": 546
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/login/checkToken?_t=1776673839291",
+                "initiatorType": "xmlhttprequest",
+                "duration": 90.8,
+                "transferSize": 403
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/user/getUserInfo?_t=1776673839384",
+                "initiatorType": "xmlhttprequest",
+                "duration": 40.7,
+                "transferSize": 403
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/tools/getCacheCreateTime?_t=1776673839425",
+                "initiatorType": "xmlhttprequest",
+                "duration": 28,
+                "transferSize": 546
+              }
+            ]
+          }
+        },
+        "guide_base_structured": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "title": "广西经营主体登记平台",
+          "messageBoxes": [],
+          "formErrors": [],
+          "cascaderInputs": [],
+          "cascaderVisibleMenus": 0,
+          "primaryLikeButtons": [
+            "下一步"
+          ],
+          "nextOrConfirmButtons": [
+            "下一步"
+          ]
+        }
+      }
+    },
+    {
+      "step": "s08_exit_diagnostic",
+      "data": {
+        "round": 5,
+        "reason": "s08_exit_blocked_cap",
+        "diagnostic": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "title": "广西经营主体登记平台",
+          "messageBoxes": [],
+          "formErrors": [],
+          "cascaderInputs": [],
+          "cascaderVisibleMenus": 0,
+          "primaryLikeButtons": [
+            "下一步"
+          ],
+          "nextOrConfirmButtons": [
+            "下一步"
+          ]
+        }
+      }
+    },
+    {
+      "step": "abort_s08_stagnation_cap",
+      "data": {
+        "s08_stuck_counter": 6,
+        "threshold": 6,
+        "round": 5,
+        "hint": "人工处理 MessageBox/住所级联后再跑，或使用 --resume-current 从 core 继续"
+      }
+    },
+    {
+      "step": "stopped_without_yun_submit",
+      "data": {
+        "reason": "abort_s08_stagnation_cap",
+        "max_primary_rounds": 18
+      }
+    },
+    {
+      "step": "final_snap",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址"
+      }
+    },
+    {
+      "step": "final_cap",
+      "data": {
+        "count": 6,
+        "items": [
+          {
+            "t": "xhr",
+            "m": "POST",
+            "u": "/icpsp-api/v4/pc/login/checkToken?_t=1776673839291",
+            "body": "{}",
+            "ts": 1776673839291
+          },
+          {
+            "t": "xhr_end",
+            "u": "/icpsp-api/v4/pc/login/checkToken?_t=1776673839291",
+            "status": 404,
+            "resp": "{\"timestamp\":1776673832886,\"status\":404,\"error\":\"Not Found\",\"path\":\"/icpsp-api/v4/pc/login/checkToken\"}",
+            "ts": 1776673839384
+          },
+          {
+            "t": "xhr",
+            "m": "GET",
+            "u": "/icpsp-api/v4/pc/user/getUserInfo?_t=1776673839384",
+            "body": "",
+            "ts": 1776673839384
+          },
+          {
+            "t": "xhr_end",
+            "u": "/icpsp-api/v4/pc/user/getUserInfo?_t=1776673839384",
+            "status": 404,
+            "resp": "{\"timestamp\":1776673832927,\"status\":404,\"error\":\"Not Found\",\"path\":\"/icpsp-api/v4/pc/user/getUserInfo\"}",
+            "ts": 1776673839425
+          },
+          {
+            "t": "xhr",
+            "m": "GET",
+            "u": "/icpsp-api/v4/pc/common/tools/getCacheCreateTime?_t=1776673839425",
+            "body": "",
+            "ts": 1776673839425
+          },
+          {
+            "t": "xhr_end",
+            "u": "/icpsp-api/v4/pc/common/tools/getCacheCreateTime?_t=1776673839425",
+            "status": 200,
+            "resp": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"cacheTimeKey\":\"sysparamCacheTime\",\"cacheTimeValue\":\"1776673616292\"},{\"cacheTimeKey\":\"internationalcodeCacheTime\",\"cacheTimeValue\":\"1776673614934\"}]},\"msg\":\"操作成功\",\"page\":null}",
+            "ts": 1776673839453
+          }
+        ]
+      }
+    }
+  ],
+  "framework": {
+    "name": "four_layer_evidence + L3_context_tables",
+    "version": "2026-04-19b",
+    "layers": {
+      "L0": "mitmproxy optional",
+      "L1": "CDP Network.enable + Performance resource tail + hook timing",
+      "L2": "XHR/fetch hook in page (__ufo_cap tail)",
+      "L3": "step JSON + l3_step_code"
+    },
+    "stop_condition": "page_text_yun_submit_without_click",
+    "note": "实人/短信若出现在云提交停点之前，仅记 l3_warn_auth_gate_early 供复核（预期不应出现）。",
+    "blocker_capture": "blocker_evidence[] 含 UI + last_api（hook_tail / perf_resource_tail）+ packet_chain_shots/*.png；S08 用 GUIDE_BASE_AUTOFILL_V2 + 级联双通道；卡顿时 recovery_stuck_js",
+    "attachments": "可选 --assets：每轮尝试 DOM.setFileInputFiles；身份证按表单项标签匹配正/反面，其余槽位用 mock PDF/JPEG",
+    "llm_observation": "每轮末尾写入 llm_observations[]，schema=ufo.llm_observation.v1，供规划层/RAG 消费",
+    "task_run": "run_id + task{} 见 ufo.gov_task_run.v1：state、events（步骤摘要）、summary"
+  },
+  "run_id": "5a4f8574-2789-435c-b84b-6766389bcea7",
+  "rehearsal_assets": {
+    "config_path": "config/rehearsal_assets.json",
+    "id_front": "G:\\YU\\资料\\身份证正面_副本.jpg",
+    "id_back": "G:\\YU\\资料\\身份证扫描件反.png",
+    "mock_pdf": "G:\\UFO\\政务平台\\packet_lab\\out\\rehearsal_mock\\mock_contract.pdf",
+    "mock_image": "G:\\UFO\\政务平台\\packet_lab\\out\\rehearsal_mock\\mock_placeholder.jpg"
+  },
+  "resume_current": true,
+  "require_listing_company_substr": null,
+  "phase1_only": false,
+  "guide_seed_enabled": false,
+  "loop_limits": {
+    "max_primary_rounds": 18,
+    "s08_stuck_max_rounds": 6
+  },
+  "llm_observations": [
+    {
+      "schema": "ufo.llm_observation.v1",
+      "round": 0,
+      "l3_step_code": "S08_NAME_REG_GUIDE_BASE",
+      "href_tail": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+      "has_yun_submit_text": false,
+      "click_kw": null,
+      "snippet_tail": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址",
+      "likely_logged_in": true,
+      "ui_errors": [],
+      "message_box_excerpt": "",
+      "dialog_body_excerpt": "根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理",
+      "suggested_next": [
+        {
+          "kind": "dismiss_or_confirm_modal",
+          "text": "确认或关闭弹窗/MessageBox 后再继续"
+        },
+        {
+          "kind": "complete_address_cascade",
+          "text": "完成住所到区县级联；若级联未展开可多击住所输入框"
+        }
+      ]
+    },
+    {
+      "schema": "ufo.llm_observation.v1",
+      "round": 1,
+      "l3_step_code": "S08_NAME_REG_GUIDE_BASE",
+      "href_tail": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+      "has_yun_submit_text": false,
+      "click_kw": null,
+      "snippet_tail": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址",
+      "likely_logged_in": true,
+      "ui_errors": [],
+      "message_box_excerpt": "",
+      "dialog_body_excerpt": "根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理",
+      "suggested_next": [
+        {
+          "kind": "dismiss_or_confirm_modal",
+          "text": "确认或关闭弹窗/MessageBox 后再继续"
+        },
+        {
+          "kind": "complete_address_cascade",
+          "text": "完成住所到区县级联；若级联未展开可多击住所输入框"
+        }
+      ]
+    },
+    {
+      "schema": "ufo.llm_observation.v1",
+      "round": 2,
+      "l3_step_code": "S08_NAME_REG_GUIDE_BASE",
+      "href_tail": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+      "has_yun_submit_text": false,
+      "click_kw": null,
+      "snippet_tail": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址",
+      "likely_logged_in": true,
+      "ui_errors": [],
+      "message_box_excerpt": "",
+      "dialog_body_excerpt": "根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理",
+      "suggested_next": [
+        {
+          "kind": "dismiss_or_confirm_modal",
+          "text": "确认或关闭弹窗/MessageBox 后再继续"
+        },
+        {
+          "kind": "complete_address_cascade",
+          "text": "完成住所到区县级联；若级联未展开可多击住所输入框"
+        }
+      ]
+    },
+    {
+      "schema": "ufo.llm_observation.v1",
+      "round": 3,
+      "l3_step_code": "S08_NAME_REG_GUIDE_BASE",
+      "href_tail": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+      "has_yun_submit_text": false,
+      "click_kw": null,
+      "snippet_tail": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址",
+      "likely_logged_in": true,
+      "ui_errors": [],
+      "message_box_excerpt": "",
+      "dialog_body_excerpt": "根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理",
+      "suggested_next": [
+        {
+          "kind": "dismiss_or_confirm_modal",
+          "text": "确认或关闭弹窗/MessageBox 后再继续"
+        },
+        {
+          "kind": "complete_address_cascade",
+          "text": "完成住所到区县级联；若级联未展开可多击住所输入框"
+        }
+      ]
+    },
+    {
+      "schema": "ufo.llm_observation.v1",
+      "round": 4,
+      "l3_step_code": "S08_NAME_REG_GUIDE_BASE",
+      "href_tail": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+      "has_yun_submit_text": false,
+      "click_kw": null,
+      "snippet_tail": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址",
+      "likely_logged_in": true,
+      "ui_errors": [],
+      "message_box_excerpt": "",
+      "dialog_body_excerpt": "根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理",
+      "suggested_next": [
+        {
+          "kind": "dismiss_or_confirm_modal",
+          "text": "确认或关闭弹窗/MessageBox 后再继续"
+        },
+        {
+          "kind": "complete_address_cascade",
+          "text": "完成住所到区县级联；若级联未展开可多击住所输入框"
+        }
+      ]
+    }
+  ],
+  "human_pacing": {
+    "config": "config/human_pacing.json",
+    "fast": false
+  },
+  "blocker_evidence": [
+    {
+      "tag": "s08_exit_blocked_cap",
+      "wall_time": "2026-04-20 16:30:39",
+      "round": 5,
+      "ui": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "errors": [],
+        "warnings": [],
+        "dialogBody": "根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理登记代理事务的工作人员）； （3）经营主体的法定代表人（负责人、执行事务合伙人、经营者）、股东（投资人、合伙人）、董事、监事、高级管理人员等。 请确认您属于上述人员范围，再继续办理相关业务。",
+        "messageBox": "",
+        "hasBlocking": false
+      },
+      "png_path": "G:/UFO/政务平台/dashboard/data/records/packet_chain_shots/s08_exit_blocked_cap_r5_20260420_163039.png",
+      "last_api": {
+        "hook_tail": {
+          "count": 6,
+          "tail": [
+            {
+              "t": "xhr",
+              "m": "POST",
+              "u": "/icpsp-api/v4/pc/login/checkToken?_t=1776673839291",
+              "body": "{}",
+              "ts": 1776673839291
+            },
+            {
+              "t": "xhr_end",
+              "u": "/icpsp-api/v4/pc/login/checkToken?_t=1776673839291",
+              "status": 404,
+              "resp": "{\"timestamp\":1776673832886,\"status\":404,\"error\":\"Not Found\",\"path\":\"/icpsp-api/v4/pc/login/checkToken\"}",
+              "ts": 1776673839384
+            },
+            {
+              "t": "xhr",
+              "m": "GET",
+              "u": "/icpsp-api/v4/pc/user/getUserInfo?_t=1776673839384",
+              "body": "",
+              "ts": 1776673839384
+            },
+            {
+              "t": "xhr_end",
+              "u": "/icpsp-api/v4/pc/user/getUserInfo?_t=1776673839384",
+              "status": 404,
+              "resp": "{\"timestamp\":1776673832927,\"status\":404,\"error\":\"Not Found\",\"path\":\"/icpsp-api/v4/pc/user/getUserInfo\"}",
+              "ts": 1776673839425
+            },
+            {
+              "t": "xhr",
+              "m": "GET",
+              "u": "/icpsp-api/v4/pc/common/tools/getCacheCreateTime?_t=1776673839425",
+              "body": "",
+              "ts": 1776673839425
+            },
+            {
+              "t": "xhr_end",
+              "u": "/icpsp-api/v4/pc/common/tools/getCacheCreateTime?_t=1776673839425",
+              "status": 200,
+              "resp": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"cacheTimeKey\":\"sysparamCacheTime\",\"cacheTimeValue\":\"1776673616292\"},{\"cacheTimeKey\":\"internationalcodeCacheTime\",\"cacheTimeValue\":\"1776673614934\"}]},\"msg\":\"操作成功\",\"page\":null}",
+              "ts": 1776673839453
+            }
+          ]
+        },
+        "perf_resource_tail": {
+          "count": 57,
+          "tail": [
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/guide/greenchannel/checkGreenChannel?t=1776673653936&busiType=02&entName=",
+              "initiatorType": "xmlhttprequest",
+              "duration": 41.7,
+              "transferSize": 400
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/usermanager/getUserInfo?t=1776673653979",
+              "initiatorType": "xmlhttprequest",
+              "duration": 32.4,
+              "transferSize": 926
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/tools/getCacheCreateTime?t=1776673654018",
+              "initiatorType": "xmlhttprequest",
+              "duration": 26.3,
+              "transferSize": 546
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register/css/base~31ecd969.d0dbd7bd.css",
+              "initiatorType": "link",
+              "duration": 17.3,
+              "transferSize": 0
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register/js/base~31ecd969.js",
+              "initiatorType": "script",
+              "duration": 18.2,
+              "transferSize": 0
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryNameEntType?type=1&t=1776673654160",
+              "initiatorType": "xmlhttprequest",
+              "duration": 36,
+              "transferSize": 9518
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryRegcodeAndStreet?t=1776673654160&fromPage=qykbdb",
+              "initiatorType": "xmlhttprequest",
+              "duration": 95.6,
+              "transferSize": 19256
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/codedata/special/common/queryCodeList?key=CODE_MOKINDCODE&t=1776673654160",
+              "initiatorType": "xmlhttprequest",
+              "duration": 38.3,
+              "transferSize": 29402
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryNameEntType?type=2&t=1776673654160",
+              "initiatorType": "xmlhttprequest",
+              "duration": 83.2,
+              "transferSize": 9155
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/login/checkToken?_t=1776673659155",
+              "initiatorType": "xmlhttprequest",
+              "duration": 67,
+              "transferSize": 403
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/user/getUserInfo?_t=1776673659223",
+              "initiatorType": "xmlhttprequest",
+              "duration": 32.2,
+              "transferSize": 403
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/tools/getCacheCreateTime?_t=1776673659255",
+              "initiatorType": "xmlhttprequest",
+              "duration": 25.2,
+              "transferSize": 546
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/login/checkToken?_t=1776673839291",
+              "initiatorType": "xmlhttprequest",
+              "duration": 90.8,
+              "transferSize": 403
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/user/getUserInfo?_t=1776673839384",
+              "initiatorType": "xmlhttprequest",
+              "duration": 40.7,
+              "transferSize": 403
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/tools/getCacheCreateTime?_t=1776673839425",
+              "initiatorType": "xmlhttprequest",
+              "duration": 28,
+              "transferSize": 546
+            }
+          ]
+        }
+      },
+      "guide_base_structured": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "messageBoxes": [],
+        "formErrors": [],
+        "cascaderInputs": [],
+        "cascaderVisibleMenus": 0,
+        "primaryLikeButtons": [
+          "下一步"
+        ],
+        "nextOrConfirmButtons": [
+          "下一步"
+        ]
+      }
+    }
+  ],
+  "ended_at": "2026-04-20 16:30:39",
+  "acceptance": [
+    {
+      "id": "AC-CDP",
+      "ok": true,
+      "note": "已连接 CDP 且存在 9087 页签"
+    },
+    {
+      "id": "AC-LOGIN",
+      "ok": true,
+      "note": "顶栏像已登录（办件中心且无 登录/注册 访客条）",
+      "detail": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址"
+      }
+    },
+    {
+      "id": "AC-CLICK-ESTABLISH",
+      "ok": true,
+      "note": "resume_current：未从门户重跑设立入口点击",
+      "skipped": true
+    },
+    {
+      "id": "AC-REACH-FLOW",
+      "ok": true,
+      "note": "技术里程碑：曾出现 enterprise-zone / name-register / guide/base / 云提交停点之一（不等于业务上两阶段已验收）",
+      "flags": {
+        "enterprise_zone": false,
+        "name_register_spa": true,
+        "guide_base": true,
+        "yun_submit": false
+      }
+    },
+    {
+      "id": "AC-GUIDE-BASE",
+      "ok": true,
+      "note": "出现过 guide/base（中间里程碑）"
+    },
+    {
+      "id": "AC-CORE-REACHED",
+      "ok": false,
+      "note": "曾进入 core.html（设立主流程/材料等）"
+    },
+    {
+      "id": "AC-YUN-SUBMIT",
+      "ok": false,
+      "note": "本轮未在页面文案中检测到「云提交/云端提交」停点（可能卡在名称引导/材料页之前）"
+    },
+    {
+      "id": "AC-NO-EARLY-AUTH",
+      "ok": true,
+      "note": "云提交停点前未出现实人/短信类门控（若失败请复核是否环境变更）"
+    },
+    {
+      "id": "AC-BLOCKER-EVIDENCE",
+      "ok": true,
+      "note": "若有 blocker_evidence 记录，则每条须含 png_path 或 last_api 中非空 hook/perf 摘要",
+      "count": 1
+    }
+  ],
+  "phase_verdict": {
+    "schema": "ufo.phase_verdict.v1",
+    "phase1_name_then_case_row": {
+      "title": "第一阶段：名称登记/核名可接续（列表是否已有该行取决于进度；可选列表门禁见 case_company_listing_gate）",
+      "status": "unknown",
+      "detail": {}
+    },
+    "phase2_to_yun_submit_stop": {
+      "title": "第二阶段：长表单推进至云提交文案停点（不点云提交）",
+      "status": "fail",
+      "reached_core_html": false,
+      "reached_yun_submit": false
+    },
+    "suggested_human_actions": [
+      "【第一阶段·新设】拟设主体：完成名称自主申报/核名；办件是否已出现在「我的办件」取决于进度，**未出现不代表核名逻辑已失败**。",
+      "【第二阶段】进入 core 后完成各步表单与材料上传，直至页面出现「云提交」类文案（本自动化不点提交）。"
+    ]
+  },
+  "task": {
+    "schema": "ufo.gov_task_run.v1",
+    "goal": "portal_chain_to_yun_submit_stop",
+    "run_id": "5a4f8574-2789-435c-b84b-6766389bcea7",
+    "state": "partial",
+    "events": [
+      {
+        "i": 1,
+        "step": "snap_after_resume",
+        "brief": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "likelyLoggedIn": true
+        }
+      },
+      {
+        "i": 3,
+        "step": "before_primary_round_0",
+        "brief": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "l3_step_code": "S08_NAME_REG_GUIDE_BASE",
+          "hasYunSubmit": false
+        }
+      },
+      {
+        "i": 5,
+        "step": "milestone_guide_base_0",
+        "brief": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="
+        }
+      },
+      {
+        "i": 23,
+        "step": "before_primary_round_1",
+        "brief": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "l3_step_code": "S08_NAME_REG_GUIDE_BASE",
+          "hasYunSubmit": false
+        }
+      },
+      {
+        "i": 25,
+        "step": "milestone_guide_base_1",
+        "brief": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="
+        }
+      },
+      {
+        "i": 33,
+        "step": "before_primary_round_2",
+        "brief": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "l3_step_code": "S08_NAME_REG_GUIDE_BASE",
+          "hasYunSubmit": false
+        }
+      },
+      {
+        "i": 35,
+        "step": "milestone_guide_base_2",
+        "brief": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="
+        }
+      },
+      {
+        "i": 43,
+        "step": "before_primary_round_3",
+        "brief": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "l3_step_code": "S08_NAME_REG_GUIDE_BASE",
+          "hasYunSubmit": false
+        }
+      },
+      {
+        "i": 45,
+        "step": "milestone_guide_base_3",
+        "brief": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="
+        }
+      },
+      {
+        "i": 64,
+        "step": "before_primary_round_4",
+        "brief": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "l3_step_code": "S08_NAME_REG_GUIDE_BASE",
+          "hasYunSubmit": false
+        }
+      },
+      {
+        "i": 66,
+        "step": "milestone_guide_base_4",
+        "brief": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="
+        }
+      },
+      {
+        "i": 74,
+        "step": "before_primary_round_5",
+        "brief": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "l3_step_code": "S08_NAME_REG_GUIDE_BASE",
+          "hasYunSubmit": false
+        }
+      },
+      {
+        "i": 75,
+        "step": "blocker_evidence_s08_exit_blocked_cap",
+        "brief": {
+          "ui_href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "messageBox": null,
+          "errors_head": [],
+          "tag": "s08_exit_blocked_cap"
+        }
+      },
+      {
+        "i": 76,
+        "step": "s08_exit_diagnostic",
+        "brief": {
+          "reason": "s08_exit_blocked_cap"
+        }
+      },
+      {
+        "i": 77,
+        "step": "abort_s08_stagnation_cap"
+      },
+      {
+        "i": 78,
+        "step": "stopped_without_yun_submit",
+        "brief": {
+          "reason": "abort_s08_stagnation_cap"
+        }
+      },
+      {
+        "i": 79,
+        "step": "final_snap",
+        "brief": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "likelyLoggedIn": true
+        }
+      }
+    ],
+    "summary": {
+      "reached_yun_submit": false,
+      "reached_core": false,
+      "acceptance_all_ok": false,
+      "has_run_error": false,
+      "no_cdp_page": false
+    }
+  },
+  "framework_notes": {
+    "issues": [
+      "【阶段结论】第二阶段未达云提交文案停点：见 phase_verdict.phase2_to_yun_submit_stop 与 acceptance 中 AC-YUN-SUBMIT",
+      "验收项未通过 AC-CORE-REACHED: 曾进入 core.html（设立主流程/材料等）",
+      "验收项未通过 AC-YUN-SUBMIT: 本轮未在页面文案中检测到「云提交/云端提交」停点（可能卡在名称引导/材料页之前）",
+      "S08（guide/base）连续停滞已达阈值：已早停并写入 s08_exit_diagnostic"
+    ],
+    "prompts": [
+      "【第一阶段·新设】拟设主体：完成名称自主申报/核名；办件是否已出现在「我的办件」取决于进度，**未出现不代表核名逻辑已失败**。",
+      "【第二阶段】进入 core 后完成各步表单与材料上传，直至页面出现「云提交」类文案（本自动化不点提交）。",
+      "未检测到「云提交」文案：可看 blocker_evidence 截图与最后数步 snap"
+    ],
+    "recommendations": [
+      "全程未出现可见 input[type=file]（多在 core 材料步骤）；若卡在 name-register/guide/base，需先人工关闭「请选择是否需要名称」等弹窗并完成级联住所，再继续跑或改从已进 core 的页签启动",
+      "查 JSON 中 s08_exit_diagnostic.diagnostic；优先处理 MessageBox 与住所级联后再跑，或 --resume-current",
+      "本轮已生成 5 条 llm_observation.v1（供后续 LLM 规划/RAG）；见 rec.llm_observations"
+    ]
+  }
+}

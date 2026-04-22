@@ -1,0 +1,692 @@
+{
+  "captured_at": "2026-04-14 20:08:25",
+  "pages": [
+    {
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/enterprise/enterprise-zone?fromProject=portal&fromPage=%2Findex%2Fpage&busiType=02_4&merge=Y",
+      "snapshot": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/enterprise/enterprise-zone?fromProject=portal&fromPage=%2Findex%2Fpage&busiType=02_4&merge=Y",
+        "hash": "#/index/enterprise/enterprise-zone?fromProject=portal&fromPage=%2Findex%2Fpage&busiType=02_4&merge=Y",
+        "title": "广西经营主体登记平台",
+        "buttonCandidates": [
+          {
+            "text": "广西数字政务一体化平台 标准版 国际版",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "header-left"
+          },
+          {
+            "text": "广西数字政务一体化平台",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "header-title"
+          },
+          {
+            "text": "标准版 国际版",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item newlangweige"
+          },
+          {
+            "text": "标准版",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item-col active"
+          },
+          {
+            "text": "国际版",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item-col"
+          },
+          {
+            "text": "首页",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item bottom-item"
+          },
+          {
+            "text": "全部服务",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item bottom-item"
+          },
+          {
+            "text": "**裕 用户信息管理 退出",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item user-control"
+          },
+          {
+            "text": "**裕 用户信息管理 退出",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "el-dropdown"
+          },
+          {
+            "text": "**裕",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": "el-dropdown-link el-dropdown-selfdefine"
+          },
+          {
+            "text": "办件中心",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item do-center"
+          },
+          {
+            "text": "办件中心",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "officeCenter"
+          },
+          {
+            "text": "长辈模式",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item quitElderModel"
+          },
+          {
+            "text": "手机也能办业务 请打开微信扫描下方二维码",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": ""
+          },
+          {
+            "text": "办理营业执照",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "zone-header-box-content-left_title"
+          },
+          {
+            "text": "开始办理",
+            "role": "primary-action",
+            "tag": "BUTTON",
+            "cls": "el-button zone-header-box-content-left_btn el-button--primary"
+          },
+          {
+            "text": "开始办理",
+            "role": "primary-action",
+            "tag": "SPAN",
+            "cls": ""
+          },
+          {
+            "text": "已有营业执照·随时办",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "zone-header-box-content-right_title"
+          },
+          {
+            "text": "开始办理",
+            "role": "primary-action",
+            "tag": "DIV",
+            "cls": "zone-header-box-content-right_select"
+          },
+          {
+            "text": "开始办理",
+            "role": "primary-action",
+            "tag": "DIV",
+            "cls": "btn"
+          },
+          {
+            "text": "开始办理",
+            "role": "primary-action",
+            "tag": "BUTTON",
+            "cls": "el-button el-button--primary"
+          },
+          {
+            "text": "开始办理",
+            "role": "primary-action",
+            "tag": "SPAN",
+            "cls": ""
+          },
+          {
+            "text": "企业开办“一件事”流程",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "zone-start"
+          },
+          {
+            "text": "企业开办“一件事”流程",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "zone-start-item"
+          },
+          {
+            "text": "企业开办“一件事”流程",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "zone-start-item-title"
+          },
+          {
+            "text": "版权所有：广西壮族自治区市场监督管理局 邮政编码：530028",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "second__content-info"
+          },
+          {
+            "text": "备案：桂ICP备18012552号-1 地址：南宁市怡宾路1号",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "second__content-info"
+          }
+        ],
+        "formFields": [],
+        "popups": [],
+        "steps": []
+      }
+    },
+    {
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/namenotice/declaration-instructions?fromProject=portal&fromPage=%2Findex%2Fenterprise%2Fenterprise-zone&entType=1100&busiType=02_4",
+      "snapshot": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/namenotice/declaration-instructions?fromProject=portal&fromPage=%2Findex%2Fenterprise%2Fenterprise-zone&entType=1100&busiType=02_4",
+        "hash": "#/namenotice/declaration-instructions?fromProject=portal&fromPage=%2Findex%2Fenterprise%2Fenterprise-zone&entType=1100&busiType=02_4",
+        "title": "广西经营主体登记平台",
+        "buttonCandidates": [
+          {
+            "text": "广西数字政务一体化平台 标准版 国际版",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "header-left"
+          },
+          {
+            "text": "广西数字政务一体化平台",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "header-title"
+          },
+          {
+            "text": "标准版 国际版",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item newlangweige"
+          },
+          {
+            "text": "标准版",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item-col active"
+          },
+          {
+            "text": "国际版",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item-col"
+          },
+          {
+            "text": "首页",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item bottom-item"
+          },
+          {
+            "text": "全部服务",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item bottom-item"
+          },
+          {
+            "text": "**裕 用户信息管理 退出",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item user-control"
+          },
+          {
+            "text": "**裕 用户信息管理 退出",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "el-dropdown"
+          },
+          {
+            "text": "**裕",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": "el-dropdown-link el-dropdown-selfdefine"
+          },
+          {
+            "text": "办件中心",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item do-center"
+          },
+          {
+            "text": "办件中心",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "officeCenter"
+          },
+          {
+            "text": "长辈模式",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item quitElderModel"
+          },
+          {
+            "text": "手机也能办业务 请打开微信扫描下方二维码",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": ""
+          },
+          {
+            "text": "申报须知",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "el-card__header"
+          },
+          {
+            "text": "申报须知",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "clearfix"
+          },
+          {
+            "text": "申报须知",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": "title"
+          },
+          {
+            "text": "关于受益所有人备案业务办理的温馨提示",
+            "role": "other",
+            "tag": "DIV",
+            "cls": ""
+          },
+          {
+            "text": "我不同意 我已阅读并同意",
+            "role": "primary-action",
+            "tag": "DIV",
+            "cls": "btnspl"
+          },
+          {
+            "text": "我不同意",
+            "role": "primary-action",
+            "tag": "BUTTON",
+            "cls": "el-button el-button--primary is-plain"
+          },
+          {
+            "text": "我不同意",
+            "role": "primary-action",
+            "tag": "SPAN",
+            "cls": ""
+          },
+          {
+            "text": "我已阅读并同意",
+            "role": "primary-action",
+            "tag": "BUTTON",
+            "cls": "el-button el-button--primary"
+          },
+          {
+            "text": "我已阅读并同意",
+            "role": "primary-action",
+            "tag": "SPAN",
+            "cls": ""
+          },
+          {
+            "text": "版权所有：广西壮族自治区市场监督管理局 邮政编码：530028",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "second__content-info"
+          },
+          {
+            "text": "备案：桂ICP备18012552号-1 地址：南宁市怡宾路1号",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "second__content-info"
+          }
+        ],
+        "formFields": [],
+        "popups": [],
+        "steps": []
+      }
+    },
+    {
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+      "snapshot": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "buttonCandidates": [
+          {
+            "text": "广西数字政务一体化平台 标准版 国际版",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "header-left"
+          },
+          {
+            "text": "广西数字政务一体化平台",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "header-title"
+          },
+          {
+            "text": "标准版 国际版",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item newlangweige"
+          },
+          {
+            "text": "标准版",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item-col active"
+          },
+          {
+            "text": "国际版",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item-col"
+          },
+          {
+            "text": "首页",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item bottom-item"
+          },
+          {
+            "text": "全部服务",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item bottom-item"
+          },
+          {
+            "text": "**裕 用户信息管理 退出",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item user-control"
+          },
+          {
+            "text": "**裕 用户信息管理 退出",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "el-dropdown"
+          },
+          {
+            "text": "**裕",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": "el-dropdown-link el-dropdown-selfdefine"
+          },
+          {
+            "text": "办件中心",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item do-center"
+          },
+          {
+            "text": "办件中心",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "officeCenter"
+          },
+          {
+            "text": "长辈模式",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "top-item quitElderModel"
+          },
+          {
+            "text": "手机也能办业务 请打开微信扫描下方二维码",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": ""
+          },
+          {
+            "text": "市场主体类型说明",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": ""
+          },
+          {
+            "text": "内资有限公司农民专业合作社个人独资企业个体工商户分支机构全部企业类型",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "tni-radio-group"
+          },
+          {
+            "text": "内资有限公司",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": "tni-radio__label"
+          },
+          {
+            "text": "内资有限公司",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": ""
+          },
+          {
+            "text": "农民专业合作社",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": "tni-radio__label"
+          },
+          {
+            "text": "农民专业合作社",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": ""
+          },
+          {
+            "text": "个人独资企业",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": "tni-radio__label"
+          },
+          {
+            "text": "个人独资企业",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": ""
+          },
+          {
+            "text": "个体工商户",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": "tni-radio__label"
+          },
+          {
+            "text": "个体工商户",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": ""
+          },
+          {
+            "text": "分支机构",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": "tni-radio__label"
+          },
+          {
+            "text": "分支机构",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": ""
+          },
+          {
+            "text": "全部企业类型",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": "tni-radio__label"
+          },
+          {
+            "text": "全部企业类型",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": ""
+          },
+          {
+            "text": "2.是否已申请名称？未申请已办理企业名称预保留",
+            "role": "other",
+            "tag": "DIV",
+            "cls": ""
+          },
+          {
+            "text": "未申请已办理企业名称预保留",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "tni-radio-group"
+          },
+          {
+            "text": "未申请",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": "tni-radio__label"
+          },
+          {
+            "text": "已办理企业名称预保留",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": "tni-radio__label"
+          },
+          {
+            "text": "温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "el-alert tips el-alert--warning is-light"
+          },
+          {
+            "text": "温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "el-alert__content"
+          },
+          {
+            "text": "温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": "el-alert__title"
+          },
+          {
+            "text": "温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。",
+            "role": "other",
+            "tag": "DIV",
+            "cls": ""
+          },
+          {
+            "text": "请选择",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "form-item form-item-label__center"
+          },
+          {
+            "text": "请选择",
+            "role": "other",
+            "tag": "DIV",
+            "cls": ""
+          },
+          {
+            "text": "请选择",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "el-form-item is-required"
+          },
+          {
+            "text": "请选择",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "el-form-item__content"
+          },
+          {
+            "text": "请选择",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "tne-data-picker wherecascader"
+          },
+          {
+            "text": "请选择",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": ""
+          },
+          {
+            "text": "下一步",
+            "role": "primary-action",
+            "tag": "DIV",
+            "cls": "sub"
+          },
+          {
+            "text": "下一步",
+            "role": "primary-action",
+            "tag": "BUTTON",
+            "cls": "el-button sub-btn el-button--primary"
+          },
+          {
+            "text": "下一步",
+            "role": "primary-action",
+            "tag": "SPAN",
+            "cls": ""
+          },
+          {
+            "text": "版权所有：广西壮族自治区市场监督管理局 邮政编码：530028",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "second__content-info"
+          },
+          {
+            "text": "备案：桂ICP备18012552号-1 地址：南宁市怡宾路1号",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "second__content-info"
+          },
+          {
+            "text": "提示",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "el-dialog__header"
+          },
+          {
+            "text": "提示",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "title tne-dialog__title"
+          },
+          {
+            "text": "提示",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": ""
+          },
+          {
+            "text": "提示",
+            "role": "other",
+            "tag": "DIV",
+            "cls": ""
+          },
+          {
+            "text": "https://dj.samr.gov.cn",
+            "role": "other",
+            "tag": "A",
+            "cls": ""
+          },
+          {
+            "text": "关 闭",
+            "role": "other",
+            "tag": "DIV",
+            "cls": "el-dialog__footer"
+          },
+          {
+            "text": "关 闭",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": "dialog-footer"
+          },
+          {
+            "text": "关 闭",
+            "role": "other",
+            "tag": "BUTTON",
+            "cls": "el-button el-button--default"
+          },
+          {
+            "text": "关 闭",
+            "role": "other",
+            "tag": "SPAN",
+            "cls": ""
+          }
+        ],
+        "formFields": [],
+        "popups": [],
+        "steps": []
+      }
+    }
+  ]
+}

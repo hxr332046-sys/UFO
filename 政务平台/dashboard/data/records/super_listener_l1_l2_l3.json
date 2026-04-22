@@ -1,0 +1,89 @@
+{
+  "started_at": "2026-04-21 23:20:50",
+  "target_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fguide%2Fbase",
+  "duration_seconds": 180,
+  "events": [
+    {
+      "ts": 1776784850874,
+      "layer": "L3",
+      "kind": "listener_started",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fguide%2Fbase"
+    },
+    {
+      "ts": 1776784850874,
+      "layer": "L2",
+      "kind": "hook_install",
+      "data": {
+        "ok": true,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fguide%2Fbase"
+      }
+    },
+    {
+      "ts": 1776784850875,
+      "layer": "L3",
+      "kind": "snapshot",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fguide%2Fbase",
+        "hash": "#/index/page?fromProject=name-register&fromPage=%2Fguide%2Fbase",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 全部服务 设立登记 公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理设立登记，取得营业执照。 变更（备案）登记 公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理变更（备案）登记，如名称、住所（经营场所）、注册资本、经营范围等事项变更。 普通注销登记 公",
+        "l2Count": 0
+      }
+    },
+    {
+      "ts": 1776784852893,
+      "layer": "L3",
+      "kind": "snapshot",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fguide%2Fbase",
+        "hash": "#/index/page?fromProject=name-register&fromPage=%2Fguide%2Fbase",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 全部服务 设立登记 公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理设立登记，取得营业执照。 变更（备案）登记 公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理变更（备案）登记，如名称、住所（经营场所）、注册资本、经营范围等事项变更。 普通注销登记 公",
+        "l2Count": 0
+      }
+    },
+    {
+      "ts": 1776784854911,
+      "layer": "L3",
+      "kind": "snapshot",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fguide%2Fbase",
+        "hash": "#/index/page?fromProject=name-register&fromPage=%2Fguide%2Fbase",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 全部服务 设立登记 公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理设立登记，取得营业执照。 变更（备案）登记 公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理变更（备案）登记，如名称、住所（经营场所）、注册资本、经营范围等事项变更。 普通注销登记 公",
+        "l2Count": 0
+      }
+    },
+    {
+      "ts": 1776784856924,
+      "layer": "L3",
+      "kind": "snapshot",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fguide%2Fbase",
+        "hash": "#/index/page?fromProject=name-register&fromPage=%2Fguide%2Fbase",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 全部服务 设立登记 公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理设立登记，取得营业执照。 变更（备案）登记 公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理变更（备案）登记，如名称、住所（经营场所）、注册资本、经营范围等事项变更。 普通注销登记 公",
+        "l2Count": 0
+      }
+    },
+    {
+      "ts": 1776784858930,
+      "layer": "L3",
+      "kind": "snapshot",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fguide%2Fbase",
+        "hash": "#/index/page?fromProject=name-register&fromPage=%2Fguide%2Fbase",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 全部服务 设立登记 公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理设立登记，取得营业执照。 变更（备案）登记 公司、非公司企业法人、个人独资企业、合伙企业、农民专业合作社（联合社）及其分支机构，个体工商户等经营主体办理变更（备案）登记，如名称、住所（经营场所）、注册资本、经营范围等事项变更。 普通注销登记 公",
+        "l2Count": 0
+      }
+    }
+  ],
+  "requests": {},
+  "ended_at": "2026-04-21 23:21:00"
+}

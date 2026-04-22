@@ -1,0 +1,1435 @@
+{
+  "started_at": "2026-04-19 11:50:24",
+  "portal_entry": "namenotice",
+  "portal_start_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/page?fromProject=name-register&fromPage=%2Fnamenotice%2Fdeclaration-instructions",
+  "page_before": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+  "cdp_tab_probe": [
+    {
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+      "hint": {
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": "resume_current_skip_portal_nav",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="
+      }
+    },
+    {
+      "step": "snap_after_resume",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址"
+      }
+    },
+    {
+      "step": "cap_after_hook_resume",
+      "data": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "step": "before_primary_round_0",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasYunSubmit": false,
+        "hasYunbangbanMode": false,
+        "hasFaceSmsGate": false,
+        "head": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址：南宁市怡宾路1号 提示 根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理登记代理事务的工作人员）； （3）经营主体的法定代表人（负责人、执行事务合伙人、经营者）、股东（投资人、合伙人）、董事、监事、高级管理人员等。 请确认您属于上述人员范围，再继续办理相关业务。 关 闭 提示 请选择是否需要名称？ 确定",
+        "l3_step_code": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "attachment_try_0",
+      "data": {
+        "skipped": true,
+        "reason": "no_file_inputs",
+        "probe": []
+      }
+    },
+    {
+      "step": "milestone_guide_base_0",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "l3": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "guide_base_autofill_v2",
+      "data": {
+        "ok": true,
+        "log": [
+          "msgbox_name_need_ok",
+          "msgbox_ok",
+          "name:未申请",
+          "ent:内资有限公司"
+        ],
+        "r0": {
+          "ok": false
+        },
+        "r1": {
+          "ok": true,
+          "h": "内资有限公司农民专业合作社个人独资企业个体工商户分支机构全部企业类型"
+        }
+      }
+    },
+    {
+      "step": "guide_init_cascade_open_multi",
+      "data": {
+        "ok": false,
+        "totalInputs": 0,
+        "clickedIdx": []
+      }
+    },
+    {
+      "step": "guide_init_region_select_probe",
+      "data": {
+        "ok": true,
+        "log": [
+          "请选择省、市、区、街道"
+        ],
+        "scanned": 1
+      }
+    },
+    {
+      "step": "guide_init_region_pick_dropdown",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "guide_init_region_pick_cascade",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "guide_init_region_dropdown_chain_0",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "guide_init_cascade_open",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "guide_init_cascade_first_a_0",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "guide_init_cascade_pick_nth1",
+      "data": {
+        "ok": false,
+        "idx": 1,
+        "cnt": 0
+      }
+    },
+    {
+      "step": "guide_init_cascade_first_b_0",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "click_primary_round_0",
+      "data": {
+        "ok": true,
+        "kw": "下一步"
+      }
+    },
+    {
+      "step": "cap_round_0",
+      "data": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "step": "snap_round_0",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址"
+      }
+    },
+    {
+      "step": "before_primary_round_1",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasYunSubmit": false,
+        "hasYunbangbanMode": false,
+        "hasFaceSmsGate": false,
+        "head": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址：南宁市怡宾路1号 提示 根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理登记代理事务的工作人员）； （3）经营主体的法定代表人（负责人、执行事务合伙人、经营者）、股东（投资人、合伙人）、董事、监事、高级管理人员等。 请确认您属于上述人员范围，再继续办理相关业务。 关 闭 提示 请选择是否需要名称？ 确定 请选择",
+        "l3_step_code": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "attachment_try_1",
+      "data": {
+        "skipped": true,
+        "reason": "no_file_inputs",
+        "probe": []
+      }
+    },
+    {
+      "step": "milestone_guide_base_1",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "l3": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "click_primary_round_1",
+      "data": {
+        "ok": true,
+        "kw": "下一步"
+      }
+    },
+    {
+      "step": "cap_round_1",
+      "data": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "step": "snap_round_1",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址"
+      }
+    },
+    {
+      "step": "before_primary_round_2",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasYunSubmit": false,
+        "hasYunbangbanMode": false,
+        "hasFaceSmsGate": false,
+        "head": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址：南宁市怡宾路1号 提示 根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理登记代理事务的工作人员）； （3）经营主体的法定代表人（负责人、执行事务合伙人、经营者）、股东（投资人、合伙人）、董事、监事、高级管理人员等。 请确认您属于上述人员范围，再继续办理相关业务。 关 闭 提示 请选择是否需要名称？ 确定 请选择",
+        "l3_step_code": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "attachment_try_2",
+      "data": {
+        "skipped": true,
+        "reason": "no_file_inputs",
+        "probe": []
+      }
+    },
+    {
+      "step": "milestone_guide_base_2",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "l3": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "click_primary_round_2",
+      "data": {
+        "ok": true,
+        "kw": "下一步"
+      }
+    },
+    {
+      "step": "cap_round_2",
+      "data": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "step": "snap_round_2",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址"
+      }
+    },
+    {
+      "step": "before_primary_round_3",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasYunSubmit": false,
+        "hasYunbangbanMode": false,
+        "hasFaceSmsGate": false,
+        "head": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址：南宁市怡宾路1号 提示 根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理登记代理事务的工作人员）； （3）经营主体的法定代表人（负责人、执行事务合伙人、经营者）、股东（投资人、合伙人）、董事、监事、高级管理人员等。 请确认您属于上述人员范围，再继续办理相关业务。 关 闭 提示 请选择是否需要名称？ 确定 请选择",
+        "l3_step_code": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "attachment_try_3",
+      "data": {
+        "skipped": true,
+        "reason": "no_file_inputs",
+        "probe": []
+      }
+    },
+    {
+      "step": "milestone_guide_base_3",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "l3": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "s08_hash_stagnate_3",
+      "data": {
+        "streak": 3,
+        "sig": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=|https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="
+      }
+    },
+    {
+      "step": "guide_base_autofill_stagnate_3",
+      "data": {
+        "ok": true,
+        "log": [
+          "msgbox_name_need_ok",
+          "msgbox_ok",
+          "name:未申请",
+          "ent:内资有限公司"
+        ],
+        "r0": {
+          "ok": false
+        },
+        "r1": {
+          "ok": true,
+          "h": "内资有限公司农民专业合作社个人独资企业个体工商户分支机构全部企业类型"
+        }
+      }
+    },
+    {
+      "step": "stagnate_3_cascade_open_multi",
+      "data": {
+        "ok": false,
+        "totalInputs": 0,
+        "clickedIdx": []
+      }
+    },
+    {
+      "step": "stagnate_3_region_select_probe",
+      "data": {
+        "ok": true,
+        "log": [
+          "请选择省、市、区、街道"
+        ],
+        "scanned": 1
+      }
+    },
+    {
+      "step": "stagnate_3_region_pick_dropdown",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "stagnate_3_region_pick_cascade",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "stagnate_3_region_dropdown_chain_0",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "stagnate_3_cascade_open",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "stagnate_3_cascade_first_a_0",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "stagnate_3_cascade_pick_nth1",
+      "data": {
+        "ok": false,
+        "idx": 1,
+        "cnt": 0
+      }
+    },
+    {
+      "step": "stagnate_3_cascade_first_b_0",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "click_primary_round_3",
+      "data": {
+        "ok": true,
+        "kw": "下一步"
+      }
+    },
+    {
+      "step": "cap_round_3",
+      "data": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "step": "snap_round_3",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址"
+      }
+    },
+    {
+      "step": "before_primary_round_4",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasYunSubmit": false,
+        "hasYunbangbanMode": false,
+        "hasFaceSmsGate": false,
+        "head": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址：南宁市怡宾路1号 提示 根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理登记代理事务的工作人员）； （3）经营主体的法定代表人（负责人、执行事务合伙人、经营者）、股东（投资人、合伙人）、董事、监事、高级管理人员等。 请确认您属于上述人员范围，再继续办理相关业务。 关 闭 请选择 提示 请选择是否需要名称？ 确定",
+        "l3_step_code": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "attachment_try_4",
+      "data": {
+        "skipped": true,
+        "reason": "no_file_inputs",
+        "probe": []
+      }
+    },
+    {
+      "step": "milestone_guide_base_4",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "l3": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "click_primary_round_4",
+      "data": {
+        "ok": true,
+        "kw": "下一步"
+      }
+    },
+    {
+      "step": "cap_round_4",
+      "data": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "step": "snap_round_4",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址"
+      }
+    },
+    {
+      "step": "before_primary_round_5",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasYunSubmit": false,
+        "hasYunbangbanMode": false,
+        "hasFaceSmsGate": false,
+        "head": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址：南宁市怡宾路1号 提示 根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理登记代理事务的工作人员）； （3）经营主体的法定代表人（负责人、执行事务合伙人、经营者）、股东（投资人、合伙人）、董事、监事、高级管理人员等。 请确认您属于上述人员范围，再继续办理相关业务。 关 闭 请选择 提示 请选择是否需要名称？ 确定",
+        "l3_step_code": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "attachment_try_5",
+      "data": {
+        "skipped": true,
+        "reason": "no_file_inputs",
+        "probe": []
+      }
+    },
+    {
+      "step": "milestone_guide_base_5",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "l3": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "click_primary_round_5",
+      "data": {
+        "ok": true,
+        "kw": "下一步"
+      }
+    },
+    {
+      "step": "cap_round_5",
+      "data": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "step": "snap_round_5",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址"
+      }
+    },
+    {
+      "step": "before_primary_round_6",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasYunSubmit": false,
+        "hasYunbangbanMode": false,
+        "hasFaceSmsGate": false,
+        "head": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址：南宁市怡宾路1号 提示 根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理登记代理事务的工作人员）； （3）经营主体的法定代表人（负责人、执行事务合伙人、经营者）、股东（投资人、合伙人）、董事、监事、高级管理人员等。 请确认您属于上述人员范围，再继续办理相关业务。 关 闭 请选择 提示 请选择是否需要名称？ 确定",
+        "l3_step_code": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "attachment_try_6",
+      "data": {
+        "skipped": true,
+        "reason": "no_file_inputs",
+        "probe": []
+      }
+    },
+    {
+      "step": "milestone_guide_base_6",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "l3": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "s08_hash_stagnate_6",
+      "data": {
+        "streak": 3,
+        "sig": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=|https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="
+      }
+    },
+    {
+      "step": "guide_base_autofill_stagnate_6",
+      "data": {
+        "ok": true,
+        "log": [
+          "msgbox_name_need_ok",
+          "msgbox_ok",
+          "name:未申请",
+          "ent:内资有限公司"
+        ],
+        "r0": {
+          "ok": false
+        },
+        "r1": {
+          "ok": true,
+          "h": "内资有限公司农民专业合作社个人独资企业个体工商户分支机构全部企业类型"
+        }
+      }
+    },
+    {
+      "step": "stagnate_6_cascade_open_multi",
+      "data": {
+        "ok": false,
+        "totalInputs": 0,
+        "clickedIdx": []
+      }
+    },
+    {
+      "step": "stagnate_6_region_select_probe",
+      "data": {
+        "ok": true,
+        "log": [
+          "请选择省、市、区、街道"
+        ],
+        "scanned": 1
+      }
+    },
+    {
+      "step": "stagnate_6_region_pick_dropdown",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "stagnate_6_region_pick_cascade",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "stagnate_6_region_dropdown_chain_0",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "stagnate_6_cascade_open",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "stagnate_6_cascade_first_a_0",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "stagnate_6_cascade_pick_nth1",
+      "data": {
+        "ok": false,
+        "idx": 1,
+        "cnt": 0
+      }
+    },
+    {
+      "step": "stagnate_6_cascade_first_b_0",
+      "data": {
+        "ok": false
+      }
+    },
+    {
+      "step": "click_primary_round_6",
+      "data": {
+        "ok": true,
+        "kw": "下一步"
+      }
+    },
+    {
+      "step": "cap_round_6",
+      "data": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "step": "snap_round_6",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址"
+      }
+    },
+    {
+      "step": "before_primary_round_7",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasYunSubmit": false,
+        "hasYunbangbanMode": false,
+        "hasFaceSmsGate": false,
+        "head": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址：南宁市怡宾路1号 提示 根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理登记代理事务的工作人员）； （3）经营主体的法定代表人（负责人、执行事务合伙人、经营者）、股东（投资人、合伙人）、董事、监事、高级管理人员等。 请确认您属于上述人员范围，再继续办理相关业务。 关 闭 请选择 提示 请选择是否需要名称？ 确定",
+        "l3_step_code": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "attachment_try_7",
+      "data": {
+        "skipped": true,
+        "reason": "no_file_inputs",
+        "probe": []
+      }
+    },
+    {
+      "step": "milestone_guide_base_7",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "l3": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "click_primary_round_7",
+      "data": {
+        "ok": true,
+        "kw": "下一步"
+      }
+    },
+    {
+      "step": "cap_round_7",
+      "data": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "step": "snap_round_7",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址"
+      }
+    },
+    {
+      "step": "before_primary_round_8",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasYunSubmit": false,
+        "hasYunbangbanMode": false,
+        "hasFaceSmsGate": false,
+        "head": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址：南宁市怡宾路1号 提示 根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理登记代理事务的工作人员）； （3）经营主体的法定代表人（负责人、执行事务合伙人、经营者）、股东（投资人、合伙人）、董事、监事、高级管理人员等。 请确认您属于上述人员范围，再继续办理相关业务。 关 闭 请选择 提示 请选择是否需要名称？ 确定",
+        "l3_step_code": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "attachment_try_8",
+      "data": {
+        "skipped": true,
+        "reason": "no_file_inputs",
+        "probe": []
+      }
+    },
+    {
+      "step": "milestone_guide_base_8",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "l3": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "click_primary_round_8",
+      "data": {
+        "ok": true,
+        "kw": "下一步"
+      }
+    },
+    {
+      "step": "cap_round_8",
+      "data": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "step": "snap_round_8",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址"
+      }
+    },
+    {
+      "step": "before_primary_round_9",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasYunSubmit": false,
+        "hasYunbangbanMode": false,
+        "hasFaceSmsGate": false,
+        "head": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址：南宁市怡宾路1号 提示 根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理登记代理事务的工作人员）； （3）经营主体的法定代表人（负责人、执行事务合伙人、经营者）、股东（投资人、合伙人）、董事、监事、高级管理人员等。 请确认您属于上述人员范围，再继续办理相关业务。 关 闭 请选择 提示 请选择是否需要名称？ 确定",
+        "l3_step_code": "S08_NAME_REG_GUIDE_BASE"
+      }
+    },
+    {
+      "step": "blocker_evidence_s08_exit_blocked_cap",
+      "data": {
+        "tag": "s08_exit_blocked_cap",
+        "wall_time": "2026-04-19 11:51:23",
+        "round": 9,
+        "ui": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "errors": [
+            "请选择是否需要名称？"
+          ],
+          "warnings": [],
+          "dialogBody": "根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理登记代理事务的工作人员）； （3）经营主体的法定代表人（负责人、执行事务合伙人、经营者）、股东（投资人、合伙人）、董事、监事、高级管理人员等。 请确认您属于上述人员范围，再继续办理相关业务。",
+          "messageBox": "请选择是否需要名称？",
+          "hasBlocking": true
+        },
+        "png_path": null,
+        "last_api": {
+          "hook_tail": {
+            "count": 0,
+            "tail": []
+          },
+          "perf_resource_tail": {
+            "ok": true,
+            "items": [
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register/js/guide~ad5310f0.js",
+                "dur": 10,
+                "transfer": 674
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register/css/declaration-instructions~0aa67f64.da1cf87a.css",
+                "dur": 11,
+                "transfer": 1336
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register/js/declaration-instructions~0aa67f64.js",
+                "dur": 9,
+                "transfer": 7067
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/businessguide/servicepeople/getServicePeopleInfo?t=1776560196703&code=apply_notice&useType=busi&busiType=establishNotice02_4&entType=1100",
+                "dur": 178,
+                "transfer": 2897
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/headertail/getTailConfigList?t=1776560196703",
+                "dur": 55,
+                "transfer": 707
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register/img/tongyong_bg.8a6f17fb.png",
+                "dur": 83,
+                "transfer": 152485
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/guide/greenchannel/checkGreenChannel?t=1776560203730&busiType=02&entName=",
+                "dur": 36,
+                "transfer": 400
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/usermanager/getUserInfo?t=1776560203767",
+                "dur": 89,
+                "transfer": 933
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/tools/getCacheCreateTime?t=1776560203861",
+                "dur": 31,
+                "transfer": 546
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register/css/base~31ecd969.d0dbd7bd.css",
+                "dur": 53,
+                "transfer": 33848
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register/js/base~31ecd969.js",
+                "dur": 67,
+                "transfer": 154053
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryNameEntType?type=1&t=1776560204047",
+                "dur": 28,
+                "transfer": 9518
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryRegcodeAndStreet?t=1776560204048&fromPage=qykbdb",
+                "dur": 77,
+                "transfer": 19256
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/codedata/special/common/queryCodeList?key=CODE_MOKINDCODE&t=1776560204048",
+                "dur": 31,
+                "transfer": 29402
+              },
+              {
+                "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryNameEntType?type=2&t=1776560204048",
+                "dur": 28,
+                "transfer": 9155
+              }
+            ]
+          },
+          "hook_tail_after_reinstall": {
+            "count": 0,
+            "tail": []
+          }
+        },
+        "png_error": "WebSocketTimeoutException('Connection timed out')"
+      }
+    },
+    {
+      "step": "s08_exit_diagnostic",
+      "data": {
+        "round": 9,
+        "reason": "s08_exit_blocked_cap",
+        "diagnostic": {
+          "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+          "title": "广西经营主体登记平台",
+          "messageBoxes": [],
+          "formErrors": [],
+          "cascaderInputs": [],
+          "cascaderVisibleMenus": 0,
+          "primaryLikeButtons": [
+            "下一步",
+            "确定"
+          ],
+          "nextOrConfirmButtons": [
+            "下一步",
+            "确定"
+          ]
+        }
+      }
+    },
+    {
+      "step": "abort_s08_stagnation_cap",
+      "data": {
+        "s08_stuck_counter": 10,
+        "threshold": 10,
+        "round": 9,
+        "hint": "人工处理 MessageBox/住所级联后再跑，或使用 --resume-current 从 core 继续"
+      }
+    },
+    {
+      "step": "stopped_without_yun_submit",
+      "data": {
+        "reason": "abort_s08_stagnation_cap",
+        "max_primary_rounds": 50
+      }
+    },
+    {
+      "step": "final_snap",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址"
+      }
+    },
+    {
+      "step": "final_cap",
+      "data": {
+        "count": 0,
+        "items": []
+      }
+    }
+  ],
+  "framework": {
+    "name": "four_layer_evidence + L3_context_tables",
+    "version": "2026-04-19b",
+    "layers": {
+      "L0": "mitmproxy optional",
+      "L1": "CDP Network.enable + Performance resource tail + hook timing",
+      "L2": "XHR/fetch hook in page (__ufo_cap tail)",
+      "L3": "step JSON + l3_step_code"
+    },
+    "stop_condition": "page_text_yun_submit_without_click",
+    "note": "实人/短信若出现在云提交停点之前，仅记 l3_warn_auth_gate_early 供复核（预期不应出现）。",
+    "blocker_capture": "blocker_evidence[] 含 UI + last_api（hook_tail / perf_resource_tail）+ packet_chain_shots/*.png；S08 用 GUIDE_BASE_AUTOFILL_V2 + 级联双通道；卡顿时 recovery_stuck_js",
+    "attachments": "可选 --assets：每轮尝试 DOM.setFileInputFiles；身份证按表单项标签匹配正/反面，其余槽位用 mock PDF/JPEG",
+    "llm_observation": "每轮末尾写入 llm_observations[]，schema=ufo.llm_observation.v1，供规划层/RAG 消费"
+  },
+  "rehearsal_assets": {
+    "config_path": "config/rehearsal_assets.json",
+    "id_front": "G:\\YU\\资料\\身份证正面_副本.jpg",
+    "id_back": "G:\\YU\\资料\\身份证扫描件反.png",
+    "mock_pdf": "G:\\UFO\\政务平台\\packet_lab\\out\\rehearsal_mock\\mock_contract.pdf",
+    "mock_image": "G:\\UFO\\政务平台\\packet_lab\\out\\rehearsal_mock\\mock_placeholder.jpg"
+  },
+  "resume_current": true,
+  "llm_observations": [
+    {
+      "schema": "ufo.llm_observation.v1",
+      "round": 0,
+      "l3_step_code": "S08_NAME_REG_GUIDE_BASE",
+      "href_tail": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+      "has_yun_submit_text": false,
+      "click_kw": "下一步",
+      "snippet_tail": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址",
+      "likely_logged_in": true,
+      "ui_errors": [
+        "请选择是否需要名称？"
+      ],
+      "message_box_excerpt": "请选择是否需要名称？",
+      "dialog_body_excerpt": "根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理",
+      "suggested_next": [
+        {
+          "kind": "fix_form",
+          "text": "先处理表单标红/校验提示，再点下一步"
+        },
+        {
+          "kind": "dismiss_or_confirm_modal",
+          "text": "确认或关闭弹窗/MessageBox 后再继续"
+        },
+        {
+          "kind": "complete_address_cascade",
+          "text": "完成住所到区县级联；若级联未展开可多击住所输入框"
+        }
+      ]
+    },
+    {
+      "schema": "ufo.llm_observation.v1",
+      "round": 1,
+      "l3_step_code": "S08_NAME_REG_GUIDE_BASE",
+      "href_tail": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+      "has_yun_submit_text": false,
+      "click_kw": "下一步",
+      "snippet_tail": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址",
+      "likely_logged_in": true,
+      "ui_errors": [
+        "请选择是否需要名称？"
+      ],
+      "message_box_excerpt": "请选择是否需要名称？",
+      "dialog_body_excerpt": "根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理",
+      "suggested_next": [
+        {
+          "kind": "fix_form",
+          "text": "先处理表单标红/校验提示，再点下一步"
+        },
+        {
+          "kind": "dismiss_or_confirm_modal",
+          "text": "确认或关闭弹窗/MessageBox 后再继续"
+        },
+        {
+          "kind": "complete_address_cascade",
+          "text": "完成住所到区县级联；若级联未展开可多击住所输入框"
+        }
+      ]
+    },
+    {
+      "schema": "ufo.llm_observation.v1",
+      "round": 2,
+      "l3_step_code": "S08_NAME_REG_GUIDE_BASE",
+      "href_tail": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+      "has_yun_submit_text": false,
+      "click_kw": "下一步",
+      "snippet_tail": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址",
+      "likely_logged_in": true,
+      "ui_errors": [
+        "请选择是否需要名称？"
+      ],
+      "message_box_excerpt": "请选择是否需要名称？",
+      "dialog_body_excerpt": "根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理",
+      "suggested_next": [
+        {
+          "kind": "fix_form",
+          "text": "先处理表单标红/校验提示，再点下一步"
+        },
+        {
+          "kind": "dismiss_or_confirm_modal",
+          "text": "确认或关闭弹窗/MessageBox 后再继续"
+        },
+        {
+          "kind": "complete_address_cascade",
+          "text": "完成住所到区县级联；若级联未展开可多击住所输入框"
+        }
+      ]
+    },
+    {
+      "schema": "ufo.llm_observation.v1",
+      "round": 3,
+      "l3_step_code": "S08_NAME_REG_GUIDE_BASE",
+      "href_tail": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+      "has_yun_submit_text": false,
+      "click_kw": "下一步",
+      "snippet_tail": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址",
+      "likely_logged_in": true,
+      "ui_errors": [
+        "请选择是否需要名称？"
+      ],
+      "message_box_excerpt": "请选择是否需要名称？",
+      "dialog_body_excerpt": "根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理",
+      "suggested_next": [
+        {
+          "kind": "fix_form",
+          "text": "先处理表单标红/校验提示，再点下一步"
+        },
+        {
+          "kind": "dismiss_or_confirm_modal",
+          "text": "确认或关闭弹窗/MessageBox 后再继续"
+        },
+        {
+          "kind": "complete_address_cascade",
+          "text": "完成住所到区县级联；若级联未展开可多击住所输入框"
+        }
+      ]
+    },
+    {
+      "schema": "ufo.llm_observation.v1",
+      "round": 4,
+      "l3_step_code": "S08_NAME_REG_GUIDE_BASE",
+      "href_tail": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+      "has_yun_submit_text": false,
+      "click_kw": "下一步",
+      "snippet_tail": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址",
+      "likely_logged_in": true,
+      "ui_errors": [
+        "请选择是否需要名称？"
+      ],
+      "message_box_excerpt": "请选择是否需要名称？",
+      "dialog_body_excerpt": "根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理",
+      "suggested_next": [
+        {
+          "kind": "fix_form",
+          "text": "先处理表单标红/校验提示，再点下一步"
+        },
+        {
+          "kind": "dismiss_or_confirm_modal",
+          "text": "确认或关闭弹窗/MessageBox 后再继续"
+        },
+        {
+          "kind": "complete_address_cascade",
+          "text": "完成住所到区县级联；若级联未展开可多击住所输入框"
+        }
+      ]
+    },
+    {
+      "schema": "ufo.llm_observation.v1",
+      "round": 5,
+      "l3_step_code": "S08_NAME_REG_GUIDE_BASE",
+      "href_tail": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+      "has_yun_submit_text": false,
+      "click_kw": "下一步",
+      "snippet_tail": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址",
+      "likely_logged_in": true,
+      "ui_errors": [
+        "请选择是否需要名称？"
+      ],
+      "message_box_excerpt": "请选择是否需要名称？",
+      "dialog_body_excerpt": "根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理",
+      "suggested_next": [
+        {
+          "kind": "fix_form",
+          "text": "先处理表单标红/校验提示，再点下一步"
+        },
+        {
+          "kind": "dismiss_or_confirm_modal",
+          "text": "确认或关闭弹窗/MessageBox 后再继续"
+        },
+        {
+          "kind": "complete_address_cascade",
+          "text": "完成住所到区县级联；若级联未展开可多击住所输入框"
+        }
+      ]
+    },
+    {
+      "schema": "ufo.llm_observation.v1",
+      "round": 6,
+      "l3_step_code": "S08_NAME_REG_GUIDE_BASE",
+      "href_tail": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+      "has_yun_submit_text": false,
+      "click_kw": "下一步",
+      "snippet_tail": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址",
+      "likely_logged_in": true,
+      "ui_errors": [
+        "请选择是否需要名称？"
+      ],
+      "message_box_excerpt": "请选择是否需要名称？",
+      "dialog_body_excerpt": "根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理",
+      "suggested_next": [
+        {
+          "kind": "fix_form",
+          "text": "先处理表单标红/校验提示，再点下一步"
+        },
+        {
+          "kind": "dismiss_or_confirm_modal",
+          "text": "确认或关闭弹窗/MessageBox 后再继续"
+        },
+        {
+          "kind": "complete_address_cascade",
+          "text": "完成住所到区县级联；若级联未展开可多击住所输入框"
+        }
+      ]
+    },
+    {
+      "schema": "ufo.llm_observation.v1",
+      "round": 7,
+      "l3_step_code": "S08_NAME_REG_GUIDE_BASE",
+      "href_tail": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+      "has_yun_submit_text": false,
+      "click_kw": "下一步",
+      "snippet_tail": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址",
+      "likely_logged_in": true,
+      "ui_errors": [
+        "请选择是否需要名称？"
+      ],
+      "message_box_excerpt": "请选择是否需要名称？",
+      "dialog_body_excerpt": "根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理",
+      "suggested_next": [
+        {
+          "kind": "fix_form",
+          "text": "先处理表单标红/校验提示，再点下一步"
+        },
+        {
+          "kind": "dismiss_or_confirm_modal",
+          "text": "确认或关闭弹窗/MessageBox 后再继续"
+        },
+        {
+          "kind": "complete_address_cascade",
+          "text": "完成住所到区县级联；若级联未展开可多击住所输入框"
+        }
+      ]
+    },
+    {
+      "schema": "ufo.llm_observation.v1",
+      "round": 8,
+      "l3_step_code": "S08_NAME_REG_GUIDE_BASE",
+      "href_tail": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+      "has_yun_submit_text": false,
+      "click_kw": "下一步",
+      "snippet_tail": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址",
+      "likely_logged_in": true,
+      "ui_errors": [
+        "请选择是否需要名称？"
+      ],
+      "message_box_excerpt": "请选择是否需要名称？",
+      "dialog_body_excerpt": "根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理",
+      "suggested_next": [
+        {
+          "kind": "fix_form",
+          "text": "先处理表单标红/校验提示，再点下一步"
+        },
+        {
+          "kind": "dismiss_or_confirm_modal",
+          "text": "确认或关闭弹窗/MessageBox 后再继续"
+        },
+        {
+          "kind": "complete_address_cascade",
+          "text": "完成住所到区县级联；若级联未展开可多击住所输入框"
+        }
+      ]
+    }
+  ],
+  "blocker_evidence": [
+    {
+      "tag": "s08_exit_blocked_cap",
+      "wall_time": "2026-04-19 11:51:23",
+      "round": 9,
+      "ui": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "errors": [
+          "请选择是否需要名称？"
+        ],
+        "warnings": [],
+        "dialogBody": "根据《经营主体登记申请及代理行为管理办法》，使用广西市场监管准入一体化平台账号办理经营主体登记注册业务的，应确保操作账号符合以下任一身份要求，否则将无法办理相关业务： （1）经登记备案的联络员（指由经营主体任命或者指定的代表经营主体办理登记、备案事项的内部工作人员）； （2）已在“全国经营主体登记注册服务网”（https://dj.samr.gov.cn）完成代理身份说明的登记注册代理人（指具备登记注册相关专业知识，直接接受经营主体委托，为经营主体提供代理登记注册相关服务的第三方机构或者个人，包括代理机构中具体办理登记代理事务的工作人员）； （3）经营主体的法定代表人（负责人、执行事务合伙人、经营者）、股东（投资人、合伙人）、董事、监事、高级管理人员等。 请确认您属于上述人员范围，再继续办理相关业务。",
+        "messageBox": "请选择是否需要名称？",
+        "hasBlocking": true
+      },
+      "png_path": null,
+      "last_api": {
+        "hook_tail": {
+          "count": 0,
+          "tail": []
+        },
+        "perf_resource_tail": {
+          "ok": true,
+          "items": [
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register/js/guide~ad5310f0.js",
+              "dur": 10,
+              "transfer": 674
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register/css/declaration-instructions~0aa67f64.da1cf87a.css",
+              "dur": 11,
+              "transfer": 1336
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register/js/declaration-instructions~0aa67f64.js",
+              "dur": 9,
+              "transfer": 7067
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/businessguide/servicepeople/getServicePeopleInfo?t=1776560196703&code=apply_notice&useType=busi&busiType=establishNotice02_4&entType=1100",
+              "dur": 178,
+              "transfer": 2897
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/headertail/getTailConfigList?t=1776560196703",
+              "dur": 55,
+              "transfer": 707
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register/img/tongyong_bg.8a6f17fb.png",
+              "dur": 83,
+              "transfer": 152485
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/guide/greenchannel/checkGreenChannel?t=1776560203730&busiType=02&entName=",
+              "dur": 36,
+              "transfer": 400
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/usermanager/getUserInfo?t=1776560203767",
+              "dur": 89,
+              "transfer": 933
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/tools/getCacheCreateTime?t=1776560203861",
+              "dur": 31,
+              "transfer": 546
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register/css/base~31ecd969.d0dbd7bd.css",
+              "dur": 53,
+              "transfer": 33848
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register/js/base~31ecd969.js",
+              "dur": 67,
+              "transfer": 154053
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryNameEntType?type=1&t=1776560204047",
+              "dur": 28,
+              "transfer": 9518
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryRegcodeAndStreet?t=1776560204048&fromPage=qykbdb",
+              "dur": 77,
+              "transfer": 19256
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/codedata/special/common/queryCodeList?key=CODE_MOKINDCODE&t=1776560204048",
+              "dur": 31,
+              "transfer": 29402
+            },
+            {
+              "name": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryNameEntType?type=2&t=1776560204048",
+              "dur": 28,
+              "transfer": 9155
+            }
+          ]
+        },
+        "hook_tail_after_reinstall": {
+          "count": 0,
+          "tail": []
+        }
+      },
+      "png_error": "WebSocketTimeoutException('Connection timed out')"
+    }
+  ],
+  "ended_at": "2026-04-19 11:51:25",
+  "acceptance": [
+    {
+      "id": "AC-CDP",
+      "ok": true,
+      "note": "已连接 CDP 且存在 9087 页签"
+    },
+    {
+      "id": "AC-LOGIN",
+      "ok": true,
+      "note": "顶栏像已登录（办件中心且无 登录/注册 访客条）",
+      "detail": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "title": "广西经营主体登记平台",
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "likelyLoggedIn": true,
+        "snippet": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 1.请选择您要办理的市场主体类型 市场主体类型说明 温馨提示：如果以下高频企业类型不满足您的需求，请点击“全部企业类型”，从全部企业类型中选择。 内资有限公司 农民专业合作社个人独资企业个体工商户分支机构全部企业类型 2.是否已申请名称？ 未申请已办理企业名称预保留 3.您要办理的公司在哪里？ 温馨提示：住所仅需要选择到区县，后续再填写详细地址，保税区的请选择正确的区划。 下一步 版权所有：广西壮族自治区市场监督管理局 邮政编码：530028 备案：桂ICP备18012552号-1 地址"
+      }
+    },
+    {
+      "id": "AC-CLICK-ESTABLISH",
+      "ok": true,
+      "note": "resume_current：未从门户重跑设立入口点击",
+      "skipped": true
+    },
+    {
+      "id": "AC-REACH-FLOW",
+      "ok": true,
+      "note": "已进入 enterprise-zone / name-register / guide/base / 或云提交停点",
+      "flags": {
+        "enterprise_zone": false,
+        "name_register_spa": true,
+        "guide_base": true,
+        "yun_submit": false
+      }
+    },
+    {
+      "id": "AC-GUIDE-BASE",
+      "ok": true,
+      "note": "出现过 guide/base（中间里程碑）"
+    },
+    {
+      "id": "AC-CORE-REACHED",
+      "ok": false,
+      "note": "曾进入 core.html（设立主流程/材料等）"
+    },
+    {
+      "id": "AC-YUN-SUBMIT",
+      "ok": false,
+      "note": "本轮未在页面文案中检测到「云提交/云端提交」停点（可能卡在名称引导/材料页之前）"
+    },
+    {
+      "id": "AC-NO-EARLY-AUTH",
+      "ok": true,
+      "note": "云提交停点前未出现实人/短信类门控（若失败请复核是否环境变更）"
+    },
+    {
+      "id": "AC-BLOCKER-EVIDENCE",
+      "ok": true,
+      "note": "若有 blocker_evidence 记录，则每条须含 png_path 或 last_api 中非空 hook/perf 摘要",
+      "count": 1
+    }
+  ],
+  "framework_notes": {
+    "issues": [
+      "验收项未通过 AC-CORE-REACHED: 曾进入 core.html（设立主流程/材料等）",
+      "验收项未通过 AC-YUN-SUBMIT: 本轮未在页面文案中检测到「云提交/云端提交」停点（可能卡在名称引导/材料页之前）",
+      "S08（guide/base）连续停滞已达阈值：已早停并写入 s08_exit_diagnostic 与 blocker_evidence"
+    ],
+    "prompts": [
+      "未检测到「云提交」文案：可看 blocker_evidence 截图与最后数步 snap"
+    ],
+    "recommendations": [
+      "全程未出现可见 input[type=file]（多在 core 材料步骤）；若卡在 name-register/guide/base，需先人工关闭「请选择是否需要名称」等弹窗并完成级联住所，再继续跑或改从已进 core 的页签启动",
+      "查 JSON 中 s08_exit_diagnostic.diagnostic；优先处理 MessageBox 与住所级联后再跑，或 --resume-current",
+      "本轮已生成 9 条 llm_observation.v1（供后续 LLM 规划/RAG）；见 rec.llm_observations"
+    ]
+  }
+}

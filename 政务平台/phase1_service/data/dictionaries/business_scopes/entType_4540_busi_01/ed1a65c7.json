@@ -1,0 +1,15 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": []
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "热电联产",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

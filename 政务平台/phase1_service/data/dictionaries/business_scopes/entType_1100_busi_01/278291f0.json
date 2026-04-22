@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C3736",
+        "saveHyCode": "3736",
+        "hyPecul": "船舶拆除",
+        "hyTypeName": "船舶拆除",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列船舶拆除活动：",
+        "includes": "船舶拆船。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "船舶拆除",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

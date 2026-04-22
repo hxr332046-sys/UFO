@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "I6312",
+        "saveHyCode": "6312",
+        "hyPecul": "移动电信服务",
+        "hyTypeName": "移动电信服务",
+        "enHyTypeName": null,
+        "explains": "指从事移动通信业务活动。",
+        "includesTitle": "包括下列移动电信服务：",
+        "includes": "移动通信服务：模拟移动通信业务、数字集群通讯业务、第二代数字蜂窝移动通信业务、第三代数字蜂窝移动通信服务等；其他移动电信服务：移动电话卡服务、移动电话咨询服务、其他未列明的移动电信服务。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "移动电信",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

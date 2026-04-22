@@ -1,0 +1,45 @@
+{
+  "schema": "phase1_service.census.payload.v1",
+  "meta": {
+    "job_id": "seeded_from_dict_cache",
+    "path": "/seeded",
+    "params": {
+      "job_id": "seeded_from_dict_cache",
+      "entType": "1100",
+      "busiType": "01"
+    },
+    "dur_ms": 0,
+    "ts": 1776841959
+  },
+  "data": {
+    "code": "00000",
+    "data": {
+      "resultType": "0",
+      "msg": "",
+      "busiData": [
+        {
+          "name": "有限责任公司",
+          "enName": null,
+          "code": "01",
+          "entType": "1100",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        },
+        {
+          "name": "有限公司",
+          "enName": null,
+          "code": "02",
+          "entType": "1100",
+          "entPro": "01",
+          "disOrder": null,
+          "isCanIndCode": null,
+          "entMatterCodes": null
+        }
+      ]
+    },
+    "msg": "操作成功",
+    "page": null
+  }
+}

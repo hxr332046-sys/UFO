@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C2452",
+        "saveHyCode": "2452",
+        "hyPecul": "塑胶玩具制造",
+        "hyTypeName": "塑胶玩具制造",
+        "enHyTypeName": null,
+        "explains": "指制造供14岁以下儿童玩耍的、玩具主体或主要玩耍部分由塑胶制成的，非预定承载儿童体重的非电玩具产品。",
+        "includesTitle": "包括下列塑胶玩具制造活动：",
+        "includes": "塑胶玩具：静态塑胶玩具、机动塑胶玩具、其他塑胶玩具、塑胶（仿真）模型（无动力）。",
+        "unIncludes": "不包括：婴儿推车及其零件制造，列入4119（其他日用杂品制造）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "塑胶玩具",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

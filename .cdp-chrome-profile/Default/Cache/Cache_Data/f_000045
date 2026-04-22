@@ -1,0 +1,700 @@
+var userType = 1;//个人 或 法人
+var tabIndex = getQueryString("userType") || 1;
+var windowWidth = $("body").width();
+$(function(){
+	tabClub(Number(tabIndex) - 1);
+	console.log(windowWidth)
+	if(windowWidth < 1900){
+		sliderFun("#mpanel1","585px","166px","60px");
+		sliderFun("#mpanel2","585px","166px","60px");
+	}else{
+		sliderFun("#mpanel1","697px","198px","70px");
+		sliderFun("#mpanel2","697px","198px","70px");
+	}
+	//tab标签切换
+	$(".tab_list").on("click","li",function(){
+		sliderResult = false;
+		$("input").val("");
+		var $that = $(this);
+		var index = $that.index();
+		tabClub(index);
+	})
+	$(".user_type button").click(function(){
+		var index = $(this).index();
+		$(this).addClass("user_type_active").attr("disabled","disabled").siblings().removeClass("user_type_active").removeAttr("disabled");
+		if(index == 0) {
+			getQRCode(1);
+			userType = 1;
+			$("#dzsb").show();
+			$("#alipay").show();
+			$("#yyzz").hide();
+			$("#gx_app").hide();
+		}else{
+			getQRCode(2);
+			userType = 2;
+			$("#dzsb").hide();
+			$("#alipay").hide();
+			$("#yyzz").show();
+			$("#gx_app").hide();
+		}
+	})
+	$("#gx_app").click(function(){
+		clearInterval(g_hand_timer);
+		clearInterval(codeInterval);
+		$(".tab_list li").eq(2).addClass("tab_active").attr("disabled","disabled").siblings().removeClass("tab_active").removeAttr("disabled");
+		$(".form_list").eq(2).show().siblings(".form_list").hide();
+		$(".tab_list li").eq(0).find("img").attr("src","../img/person.png");
+		$(".tab_list li").eq(1).find("img").attr("src","../img/legal.png");
+		$(".tab_list li").eq(2).find("img").attr("src","../img/qrCodeActive.png");
+		$("#gx_app").hide();
+		$("#gxsm").show();
+		$("#yyzz").show();
+		$(".navContent").hide();
+		$(".qr_tite").show();
+		$(".wx_title").hide();
+		$(".qr_tite").text("智桂通APP扫码登录");
+		if(userType == 1){
+			getQRCode(1);
+			$(".user_type button").eq(0).addClass("user_type_active").attr("disabled","disabled").siblings().removeClass("user_type_active").removeAttr("disabled");
+		}else{
+			getQRCode(2);
+			$(".user_type button").eq(1).addClass("user_type_active").attr("disabled","disabled").siblings().removeClass("user_type_active").removeAttr("disabled");
+		}
+	})
+	$("#gxQrcode").click(function(){
+		getQRCode(userType);
+	})
+
+	$("#yyzzQrcode").click(function(){
+		getQR();
+	})
+	//密码是否可见
+	var isEye = false;
+	$(".eye").on("click",function(){
+		var val = $(this).attr("src");
+		if(val == '../img/eye.png'){
+			$(this).attr("src","../img/closeEye.png").siblings().prop("type","text");
+			isEye = true;
+		}else{
+			$(this).attr("src","../img/eye.png").siblings().prop("type","password");
+			isEye = false;
+		}
+	})
+	
+	
+	//咨询列表
+	var isFadeIn;
+	$("#consult > a").mouseenter(function(){
+		$(".zx_list").fadeIn();
+	})
+	
+	$("#consult > a").mouseleave(function(){
+		isFadeIn = setTimeout(function(){$(".zx_list").fadeOut()},100);
+	})
+	
+	$(".zx_list").mouseenter(function(){
+		clearTimeout(isFadeIn);
+	})
+	
+	$(".zx_list").mouseleave(function(){
+		$(this).fadeOut();
+	})
+	
+	$("#to_top").click(function () {
+		$('html,body').animate({scrollTop: '0px'},800);
+	});
+	
+	var isPackUp = true;
+	$("#pack_up").click(function(){
+		if(isPackUp){
+			$(".menus ul:eq(0)").slideUp();
+			$(this).children("span").text("展开");
+			isPackUp = false;
+		}else{
+			$(".menus ul:eq(0)").slideDown();
+			$(this).children("span").text("收起");
+			isPackUp = true;
+		}
+	})
+
+	$("body").mousedown(function(e){
+		if (!$(e.target).closest(".slider,.verify-refresh,.verify-left-bar").length) {
+			$(".verify-img-out,.verify-sub-block").hide();
+		}
+	})
+
+	$(document).bind('click', function () {
+		$("#footer_Apply").hide();
+	});
+
+	// 底部地方政府
+	$("#mod_4").on("click", function (e) {
+		$("#footer_Apply").show();
+		// $("#mod_4 img").addClass("rotate");
+		stopPropagation(e);
+	});
+
+	$("#footer_Apply").click(function (e) {
+		stopPropagation(e);
+	});
+})
+
+//点击#btnClick时要阻止冒泡，否则.pop是不显示的，
+//因为冒泡了，会执行到下面的方法。
+function stopPropagation(e) {
+	var ev = e || window.event;
+	if (ev.stopPropagation) {
+		ev.stopPropagation();
+	} else if (window.event) {
+		window.event.cancelBubble = true; //兼容IE
+	}
+}
+
+//滑块
+var sliderResult = false;
+function sliderFun(idName,imgWidth,imgHeight,barHeight){
+	$(idName).on("mouseover",".verify-move-block",function(){
+		$(".verify-img-out,.verify-sub-block").show();
+	})
+	// 初始化验证码  嵌入式
+	$(idName).slideVerify({
+		baseUrl:'/am',
+		mode:'fixed',
+		imgSize : {       //图片的大小对象
+	     	width: imgWidth,
+	     	height: imgHeight,
+		},
+		barSize:{
+			width: imgWidth,
+			height: barHeight,
+		},
+	   success: function(params) { //成功的回调
+			// 返回的二次验证参数 合并到验证通过之后的逻辑 参数中回传服务器
+			sliderResult = true;
+			$(idName).hide().siblings(".slider_success").show();
+	   }
+	});
+}
+
+//tab切换
+function tabClub(index){
+	clearInterval(g_hand_timer);
+	clearInterval(codeInterval);
+	$(".tab_list li").eq(index).addClass("tab_active").attr("disabled","disabled").siblings().removeClass("tab_active").removeAttr("disabled");
+	$(".form_list").eq(index).show().siblings(".form_list").hide();
+	$(".verify-img-out,.verify-sub-block").hide();
+	$(".slider_success").hide();
+	$(".cert_tip").show().siblings(".cert_form").hide();
+	switch(index){
+		case 0:
+			userType = 1;
+			$(".tab_list li").eq(0).find("img").attr("src","../img/personActive.png");
+			$(".tab_list li").eq(1).find("img").attr("src","../img/legal.png");
+			$(".tab_list li").eq(2).find("img").attr("src","../img/qrCode.png");
+			$("#dzsb").show();
+			$("#alipay").show();
+			$("#yyzz").hide();
+			$("#gx_app").show();
+			$("#mpanel1").show();
+			break;
+		case 1:
+			userType = 2;
+			$(".tab_list li").eq(0).find("img").attr("src","../img/person.png");
+			$(".tab_list li").eq(1).find("img").attr("src","../img/legalActive.png");
+			$(".tab_list li").eq(2).find("img").attr("src","../img/qrCode.png");
+			$("#dzsb").hide();
+			$("#alipay").hide();
+			$("#yyzz").show();
+			$("#gx_app").show();
+			$("#mpanel2").show();
+			break;
+		case 2:
+			$(".tab_list li").eq(0).find("img").attr("src","../img/person.png");
+			$(".tab_list li").eq(1).find("img").attr("src","../img/legal.png");
+			$(".tab_list li").eq(2).find("img").attr("src","../img/qrCodeActive.png");
+			$("#dzsb").show();
+			$("#alipay").show();
+			$("#gx_app").hide();
+			$("#yyzz").hide();
+			$("#gxsm").show();
+			$(".navContent").hide();
+			$(".wx_title").hide();
+			$(".qr_tite").show();
+			$(".qr_tite").text("智桂通APP扫码登录");
+			getQRCode(userType);
+			break;
+	}
+}
+
+//提示信息
+function errTipMsg(type,text){
+	$(".err_text").text("");
+	if(text){
+		if(type == "success"){
+			$(".err_text").text(text).siblings().attr("src","../img/success1.png").parents(".err_tip").addClass("success_tip").show();
+			setTimeout(function(){$(".err_tip").hide();},2000);
+		}else{
+			$(".err_text").text(text).siblings().attr("src","../img/error.png").parents(".err_tip").removeClass("success_tip").show();
+			setTimeout(function(){$(".err_tip").hide();},2000);
+		}
+	}else{
+		$(".err_text").text("系统错误，请联系管理员").siblings().attr("src","../img/error.png").parents(".err_tip").removeClass("success_tip").show();
+		setTimeout(function(){$(".err_tip").hide();},2000);
+	}
+}
+
+//ajax
+function ajaxFun(url,type,async,contentType,data,callback){
+	if(!url.includes("checkQrCode")){
+		getRandom();
+
+	}
+	$.ajax({
+	   url: url+'?time='+new Date().getTime(),
+		type: type ? type : "post",
+		async: async ? true : false,
+	   contentType: contentType ? contentType : 'application/x-www-form-urlencoded',
+	   dataType:"json",
+	   data:data,
+	   success:function(res) {
+	      callback(res);
+	   },
+	   error:function(err){
+			errTipMsg("error",err.message);
+	   }
+	})
+}
+
+
+//获取二维码
+var codeInterval = null;
+var pullCount = 0;
+var g_hand_timer = null;
+function getQRCode(type){
+	clearInterval(codeInterval);
+	$(".reload").hide();
+	$("#QRcode_img").empty();
+	ajaxFun("../qrCode/getQrcode",null,false,null,{
+		userType:type,
+	},function(res){
+		$("#QRcode_img").attr("src", res.data.qrCode)
+		checkQRCodeResult(res.data.sessionId, type);
+	})
+}
+//轮询扫码结果
+function checkQRCodeResult(text, type){
+   codeInterval = setInterval(function(){
+		if(pullCount >= 12){
+			clearInterval(codeInterval);
+			pullCount = 0;
+			$("#gxQrcode").show();
+			return false;
+		}
+		pullCount += 1;
+		ajaxFun("../qrCode/checkQrCode",null,true,null,{
+			random: text
+		},function(res){
+			if(res.status == 'success'){
+				clearInterval(codeInterval);
+				switch (res.data) {
+					case "1":
+						loginByQRCode(text, type);
+						break;
+					case "3":
+						errTipMsg("error",'用户信息不存在，请注册后再登录');
+						break;
+					default:
+						errTipMsg("error",'登录失败，请刷新页面重新扫描');
+				}
+			}
+		})
+   },5000)
+}
+
+
+/**
+* 二维码登录
+* */
+function loginByQRCode(text, type) {
+	ajaxFun("../auth/submitLogin",null,true,null,{
+		csrf_token: csrfToken,
+		qrCode: text
+	},function(res){
+		if(res.result){
+			selectParentAccount(res);
+		}else{
+			getQRCode(type)
+			errTipMsg("error",res.msg);
+		}
+	})
+}
+
+function selectParentAccount(data) {
+	if(data.userType == "3"){
+		ajaxFun("../account/listParentAccounts","get",true,null, {csrf_token:csrfToken},function(res){
+			if(res.length==0){
+				window.location.href = data.data;
+			}else {
+				var opt = '<option value="">请选择单位</option>'
+				res.forEach(function (e) {
+					opt = opt + "<option value='"+e.id+"'>"+e.enterpriseName+"</option>";
+				});
+				$("#options").html(opt);
+				$("#sure1").modal("show");
+				$("#selectUnitBtn").click(function(){
+					selectUnit(data.data)
+				});
+			}
+		})
+	}else {
+		window.location.href = data.data;
+	}
+}
+var random;
+function getRandom(){
+	$.ajax({
+		type:"get",
+		url:"../veryCode/getSessionRandom",
+		success:function(ret){
+			if(ret.result){
+				//重新获取Random
+				random = ret.data;
+			}else{
+				errTipMsg("error","系统错误,请刷新页面");
+			}
+		}
+	});
+}
+
+
+//个人登录
+function personLoginFun(){
+	var personName = $("#person_login_name").val();
+	var personPswd = $("#person_pswd").val();
+	if(!personName){
+		errTipMsg("error","请输入登录名/身份证号码/手机号码");
+		return false;
+	}
+	if(!personPswd){
+		errTipMsg("error","请输入密码");
+		return false;
+	}
+	if(!sliderResult){
+		errTipMsg("error","请进行滑块验证");
+		return false;
+	}
+	ajaxFun("../auth/submitLogin",null,false,null,{
+	   loginName:strEnc(personName,random,"",""),
+	   password:strEnc(personPswd,random,"",""),
+	   userType:1,
+		csrf_token:csrfToken
+	},function(res){
+		if(res.result){
+			selectParentAccount(res);
+		}else{
+			errTipMsg("error",res.msg);
+			if(res.msg == "滑动验证码失效"){
+				$("#mpanel1").show().siblings(".slider_success").hide();
+			}
+		}
+	})
+}
+//法人登录
+function legalLoginFun(){
+	var legalName = $("#legal_login_name").val();
+	var legalPswd = $("#legal_pswd").val();
+	if(!legalName){
+		errTipMsg("error","请输入统一社会信用代码");
+		return false;
+	}
+	if(!legalPswd){
+		errTipMsg("error","请输入密码");
+		return false;
+	}
+	if(!sliderResult){
+		errTipMsg("error","请进行滑块验证");
+		return false;
+	}
+	ajaxFun("../auth/submitLogin",null,false,null,{
+		loginName:strEnc(legalName,random,"",""),
+		password:strEnc(legalPswd,random,"",""),
+	   userType:2,
+		csrf_token:csrfToken
+	},function(res){
+		if(res.result){
+		   window.location.href = res.data;
+		}else{
+			errTipMsg("error",res.msg)
+			if(res.msg == "滑动验证码失效"){
+				$("#mpanel2").show().siblings(".slider_success").hide();
+			}
+		}
+	})
+}
+
+function selectParentAccount(data) {
+	if(data.userType == "3"){
+		ajaxFun("../account/listParentAccounts","get",true,null, {csrf_token:csrfToken},function(res){
+			if(res.length==0){
+				window.location.href = data.data;
+			}else {
+				var opt = '<option value="">请选择单位</option>'
+				res.forEach(function (e) {
+					opt = opt + "<option value='"+e.id+"'>"+e.enterpriseName+"</option>";
+				});
+				$("#options").html(opt);
+				$("#sure1").modal("show");
+				$("#selectUnitBtn").click(function(){
+					selectUnit(data.data)
+				});
+			}
+		})
+	}else {
+		window.location.href = data.data;
+	}
+}
+/*选择单位账户并提交*/
+function selectUnit(redirectUrl) {
+	var buzType= $("input[name='buzType']:checked").val();
+	if(buzType=='1'){
+		var selecUnit= $("#options").val();
+		if(selecUnit==''){
+			errTipMsg("error","请选择企业");
+			return false;
+		}
+		$.ajax( {
+			type : "post",
+			url : "../account/selectParentAccount?csrf_token="+csrfToken,
+			data:{shipFlowno:selecUnit},
+			async: false,
+			success : function(data) {
+				if(data=='success'){
+					window.location.href = redirectUrl;
+				}else {
+					errTipMsg("error","服务器错误！");
+				}
+			}
+		});
+	}else {
+		window.location.href = redirectUrl;
+	}
+}
+function certLoginJump(serverurl){
+	var params = "&userType="+userType;
+	var url = new URL(window.location.href);
+	var gotoUrl = url.searchParams.get('goto');
+	if (gotoUrl !='null' && gotoUrl!= "" && gotoUrl!= null) {
+		params = params + "&goto=" + gotoUrl;
+	}
+	document.location = serverurl + "/auth/login?service=certService" + params +"&lackFlag=NA";
+}
+//获取浏览器地址栏参数
+function getQueryString(name){
+	var  url = location.href;
+	var n1 = url.length;
+	var n2 = url.indexOf("?");
+	var arr = url.substr(n2 + 1, n1 - n2).split('&');
+	for(var i = 0; i < arr.length; i++){
+		if(name == arr[i].split('=')[0]){
+			return decodeURIComponent(arr[i].split('=')[1])
+		}
+	}
+}
+
+
+/**
+ * 注册用户-链接
+ */
+function regIdRepInit() {
+	if(userType=="1"){
+		document.location = userCenterURL+"gxWeb/html/personRegister.html";
+	}else if(userType=="2"){
+		document.location = userCenterURL+"gxWeb/html/legalRegister.html";
+	}
+
+}
+/**
+ * 注册用户-链接
+ */
+function activateUser() {
+	document.location = userCenterURL+"gxWeb/html/activateStart.html";
+}
+
+function getSocialQR(){
+	var gotoUrl = decodeURI(GetQueryString("goto"));
+	if(gotoUrl == null || gotoUrl == "null"){
+		gotoUrl = "";
+	}
+	window.location = "../socialSecurityCardV2/jumpQrcode?goto=" + gotoUrl;
+}
+function GetQueryString(name) {
+	var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+	var r = window.location.search.substr(1).match(reg);
+	if (r != null) return unescape(r[2]);
+	return null;
+}
+/**
+ * 加载重置密码界面(第一步)
+ */
+function initPwd() {
+	window.location.href = userCenterURL+"gxWeb/html/forgetPswd.html?userType=" + userType;
+}
+/**
+ * 获取国家登录服务地址
+ */
+function getSnapUrl() {
+	$.ajax({
+		type: "post",
+		url: "../politic/ssoInit.do",
+		cache: false,
+		async: false,
+		dataType: "json",
+		data: null,
+		success: function (data) {
+			if (data.errorCode != "0") {
+				errTipMsg("error",data.errorMessage)
+				return;
+			}
+			var snapUrl = data.data;
+			document.location = snapUrl;
+		},
+		error: function (XMLHttpRequest, textStatus, errorThrown) {
+			errTipMsg("error","错误码："+ XMLHttpRequest.status);
+		}
+	});
+}
+
+var g_qrcode = "";
+var timesRun = 0
+function getQR(){
+	clearInterval(g_hand_timer);
+	clearInterval(codeInterval);
+	$(".tab_list li").eq(2).addClass("tab_active").attr("disabled","disabled").siblings().removeClass("tab_active").removeAttr("disabled");
+	$(".form_list").eq(2).show().siblings(".form_list").hide();
+	$(".tab_list li").eq(0).find("img").attr("src","../img/person.png");
+	$(".tab_list li").eq(1).find("img").attr("src","../img/legal.png");
+	$(".tab_list li").eq(2).find("img").attr("src","../img/qrCodeActive.png");
+	$("#dzsb").show();
+	$("#alipay").show();
+	$('#gxsm').hide();
+	$("#gx_app").show();
+	$("#yyzz").hide();
+	$('.navContent').show();
+	$('#login_container').hide();
+	$("#yyzzQrcode").hide();
+	$(".wx_title").hide();
+	$(".qr_tite").show();
+	$(".qr_tite").text("电子营业执照扫码登录");
+	ajaxFun("../api/third/yyzz",null,true,"application/json",null,function(res){
+		if("success" == res.status){
+			var html = "";
+			$(".navContent img").attr("src","data:image/png;base64," + res.message);
+			g_qrcode = res.qrid
+			timesRun = 0
+			g_hand_timer = setInterval(checkQRCode, 3000);
+		}else{
+			errTipMsg("error",res.message);
+		}
+	})
+}
+
+function getWeChart(){
+	clearInterval(g_hand_timer);
+	clearInterval(codeInterval);
+	$(".tab_list li").eq(2).addClass("tab_active").attr("disabled","disabled").siblings().removeClass("tab_active").removeAttr("disabled");
+	$(".form_list").eq(2).show().siblings(".form_list").hide();
+	$(".tab_list li").eq(0).find("img").attr("src","../img/person.png");
+	$(".tab_list li").eq(1).find("img").attr("src","../img/legal.png");
+	$(".tab_list li").eq(2).find("img").attr("src","../img/qrCodeActive.png");
+	$("#dzsb").show();
+	$("#alipay").show();
+	$('#gxsm').hide();
+	$("#gx_app").show();
+	$("#yyzz").hide();
+	$("#qr_codes").hide();
+	$('#login_container').show();
+	$("#yyzzQrcode").hide();
+	$(".wx_title").show();
+	$(".qr_tite").hide();
+	$.ajax({
+		type: "get",
+		url: "../weChat/getParam",
+		cache: false,
+		async: false,
+		dataType: "json",
+		data: null,
+		success: function (data) {
+			if (data.errorCode == "200") {
+				var obj = new WxLogin({
+					self_redirect:false,
+					id:"login_container",
+					appid: data.data.appId,
+					scope: data.data.scope,
+					redirect_uri: data.data.redirect_uri,
+					state: data.data.state,
+					style: "white",
+					href: "data:text/css;base64,LmltcG93ZXJCb3ggLnFyY29kZXsKCW1hcmdpbjogMDsKCXdpZHRoOiAyNDlweDsKCW1hcmdpbi10b3A6IDA7Cglib3JkZXI6IG5vbmU7Cn0KLmltcG93ZXJCb3ggIC50aXRsZXtkaXNwbGF5OiBub25lO30="
+				})
+			}
+		},
+		error: function (XMLHttpRequest, textStatus, errorThrown) {
+			errTipMsg("error","错误码："+ XMLHttpRequest.status);
+		}
+	});
+
+}
+function checkQRCode(){
+	if(timesRun === 100){
+		clearInterval(g_hand_timer);
+		$("#yyzzQrcode").show();
+		return false;
+	}
+	timesRun += 1;
+	$.ajax({
+		type: "POST",
+		url: "../api/third/refreshqr",
+		dataType :'json',
+		data:{
+			"qrid":g_qrcode
+		},
+		success: function (res) {
+			if("success" == res.status){
+				clearInterval(g_hand_timer);
+				if("0" == res.errorCode){
+					$.ajax({
+						url:"../auth/submitLogin",
+						type:"POST",
+						contentType: "application/x-www-form-urlencoded; charset=utf-8",
+						data:{
+							"qrid":res.qrid,
+							"uniscid":res.uniscid,
+							"csrf_token":csrfToken,
+							"yy_goto":yy_goto
+						},
+						async: false,
+						dataType:"json",
+						success:function(data2){
+							if(data2.result == true){
+								window.location.href = data2.data;
+							}else{
+								errTipMsg("error",data2.msg);
+							}
+
+						}
+					});
+
+				}else{
+					errTipMsg("error","您的企业未在广西数字政务一体化平台注册,请先注册!");
+					$("#legalType").val(res.legalType);
+					$("#userName").val(res.idcardNumE);
+					$("#enterpriseName").val(res.enterpriseName);
+					$("#corporation").val(res.legalName);
+					$("#registerBox").modal("show");
+				}
+			}
+		},
+		error: function () {
+			errTipMsg("error","请刷新后重试");
+		}
+	});
+}

@@ -1,0 +1,157 @@
+{
+  "started_at": "2026-04-15 00:24:03",
+  "data": {
+    "ok": true,
+    "childInfo": [
+      {
+        "idx": 0,
+        "name": "ElCard",
+        "hasGetFormData": false,
+        "refName": null
+      },
+      {
+        "idx": 1,
+        "name": "ElButton",
+        "hasGetFormData": false,
+        "refName": null
+      }
+    ],
+    "dataArrays": [
+      {
+        "key": "distList",
+        "len": 3,
+        "undefinedIndexes": [],
+        "sampleTypes": [
+          "string",
+          "string",
+          "string"
+        ]
+      },
+      {
+        "key": "companys",
+        "len": 6,
+        "undefinedIndexes": [],
+        "sampleTypes": [
+          "object",
+          "object",
+          "object",
+          "object",
+          "object",
+          "object"
+        ]
+      },
+      {
+        "key": "entTypeTree",
+        "len": 7,
+        "undefinedIndexes": [],
+        "sampleTypes": [
+          "object",
+          "object",
+          "object",
+          "object",
+          "object",
+          "object",
+          "object"
+        ]
+      },
+      {
+        "key": "localdataTree",
+        "len": 1,
+        "undefinedIndexes": [],
+        "sampleTypes": [
+          "object"
+        ]
+      },
+      {
+        "key": "defaultExpandedKeys",
+        "len": 1,
+        "undefinedIndexes": [],
+        "sampleTypes": [
+          "string"
+        ]
+      },
+      {
+        "key": "currencyLists",
+        "len": 182,
+        "undefinedIndexes": [],
+        "sampleTypes": [
+          "object",
+          "object",
+          "object",
+          "object",
+          "object",
+          "object",
+          "object",
+          "object",
+          "object",
+          "object"
+        ]
+      },
+      {
+        "key": "entTypeTreeTwo",
+        "len": 4,
+        "undefinedIndexes": [],
+        "sampleTypes": [
+          "object",
+          "object",
+          "object",
+          "object"
+        ]
+      },
+      {
+        "key": "capitalTips",
+        "len": 2,
+        "undefinedIndexes": [],
+        "sampleTypes": [
+          "string",
+          "string"
+        ]
+      }
+    ],
+    "refs": {
+      "tniDataPicker": {
+        "isNull": false,
+        "hasGetFormData": true,
+        "name": "tne-data-picker"
+      },
+      "form": {
+        "isNull": false,
+        "hasGetFormData": true,
+        "name": "ElForm"
+      }
+    },
+    "methods": [
+      "validateEntType",
+      "queryExtraDto",
+      "showParentEntTypeDataPicker",
+      "handleGjhCode",
+      "parentRegNoValidator",
+      "distCodeValidator",
+      "init",
+      "getQueryNameEntType",
+      "queryRegcodeAndStreet",
+      "deleteBusiInfoData",
+      "getBasicdata",
+      "getQueryNameEntTypeTwo",
+      "concatenateNameAndCode",
+      "getSysConfig",
+      "hasShaowName",
+      "checkchange",
+      "changeEntType",
+      "getFirmData",
+      "addressChange",
+      "findObjectById",
+      "handleDetailAddressInput",
+      "getTotalAddress",
+      "handleCurrencyChange",
+      "parentEntRegnoHandle",
+      "getqueryParentCompanyInfo",
+      "getQueryEntTypeBySubEntType",
+      "getTreeLabel",
+      "fzjgFlowSave",
+      "flowSave",
+      "validateDetailAddress"
+    ]
+  },
+  "ended_at": "2026-04-15 00:24:03"
+}

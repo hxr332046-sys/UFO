@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/alt-agent",
+  "hash": "#/flow/base/alt-agent",
+  "out": {
+    "operationBusinessDataInfo_err": {
+      "msg": "[object Object]",
+      "code": "A0002",
+      "data": null
+    }
+  },
+  "trace": [
+    [
+      "send",
+      {
+        "m": "POST",
+        "u": "/icpsp-api/v4/pc/register/name/component/NameCheckInfo/operationBusinessDataInfo?t=1776251578218",
+        "b": "{\"flowData\":{\"busiId\":null,\"entType\":\"4540\",\"busiType\":\"01\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":null,\"currCompUrl\":\"NameCheckInfo\",\"status\":\"10\"},\"linkData\":{\"token\":\"\",\"continueFlag\":\"\",\"compUrl\":\"NameCheckInfo\",\"compUrlPaths\":[\"NameCheckInfo\"]},\"itemId\":\"\",\"compUrl\":\"NameCheckInfo\",\"opType\":\"tempSave\",\"busiData\":{\"namePre\":\"???\",\"nameMark\":\"????\",\"industrySpecial\":\"????\",\"allIndKeyWord\":\"??\",\"showKeyWord\":\"??\",\"industry\":\"F5174\",\"industryName\":\"??????\",\"organize\":\"998\",\"organizeName\":\"???????\",\"name\":\"??????????????????\",\"isCheckBox\":\"Y\",\"declarationMode\":\"Y\",\"distCode\":\"450921\",\"streetCode\":\"450921\",\"entType\":\"4540\"}}"
+      }
+    ],
+    [
+      "end",
+      {
+        "u": "/icpsp-api/v4/pc/register/name/component/NameCheckInfo/operationBusinessDataInfo?t=1776251578218",
+        "s": 200,
+        "r": "{\"code\":\"A0002\",\"data\":null,\"msg\":\"服务端异常\",\"page\":null}"
+      }
+    ]
+  ]
+}

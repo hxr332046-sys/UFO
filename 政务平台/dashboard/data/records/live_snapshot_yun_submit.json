@@ -1,0 +1,35 @@
+{
+  "ts": "2026-04-18 12:10:09",
+  "steps": [],
+  "snapshot": {
+    "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html#/index/enterprise/enterprise-zone?fromProject=portal&fromPage=%2Flogin%2FauthPage&busiType=02_4&merge=Y",
+    "hash": "#/index/enterprise/enterprise-zone?fromProject=portal&fromPage=%2Flogin%2FauthPage&busiType=02_4&merge=Y",
+    "hit": {
+      "云提交": false,
+      "云端提交": false,
+      "云帮办": false,
+      "云帮办流程模式选择": false,
+      "保存并下一步": false,
+      "下一步": false,
+      "提交": true,
+      "确定": false,
+      "系统服务出现异常": false,
+      "请勿多次重复提交": false
+    },
+    "hasYunbangbanMode": false,
+    "errorsVisible": [],
+    "buttons": [
+      {
+        "text": "开始办理",
+        "disabled": false
+      },
+      {
+        "text": "开始办理",
+        "disabled": false
+      }
+    ],
+    "title": "广西经营主体登记平台",
+    "textHead": "广西数字政务一体化平台\n首页\n全部服务\n**裕 \n办件中心\n长辈模式\n办理营业执照\n整合营业执照、社保登记、公章刻制、税务登记、医保登记、公积金登记、银行预约开户等，实现企业一张表单填写、一次材料提交，实现企业快速开办。\n开始办理 \n已有营业执照·随时办\n如果仅办理了企业登记注册，已有营业执照，但未办理社保登记、公章刻制、税务登记、医保登记、公积金登记、银行预约开户中的一项或多项业务。\n开始办理 \n企业开办“一件事”流程\n\n版权所有：广西壮族自治区市场监督管理局\n\n邮政编码：530028\n\n备案：桂ICP备18012552号-1\n\n地址：南宁市怡宾路1号"
+  },
+  "ws_hint": null
+}

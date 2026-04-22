@@ -1,0 +1,546 @@
+{
+  "WinEnum": [
+    {
+      "test": "UIA_vs_Win32",
+      "status": "PASS",
+      "detail": "UIA=10 vs Win32=19 (Win32 sees more)"
+    },
+    {
+      "test": "InvisibleWindowAccess",
+      "status": "PASS",
+      "detail": "Total=353, Visible=19, Invisible=334"
+    },
+    {
+      "test": "InvisibleWindowLimit",
+      "status": "WARN",
+      "detail": "UIA cannot access 334 invisible windows, Win32 can enumerate but not interact with UI tree"
+    },
+    {
+      "test": "MinimizedWindowUIA",
+      "status": "WARN",
+      "detail": "2 minimized windows - UIA tree may be incomplete"
+    },
+    {
+      "test": "CrossSessionLimit",
+      "status": "WARN",
+      "detail": "Cannot access windows from other user sessions or secure desktop (UAC)"
+    },
+    {
+      "test": "SystemTrayAccess",
+      "status": "PASS",
+      "detail": "2 tray windows found"
+    },
+    {
+      "test": "DesktopBackgroundWindow",
+      "status": "PASS",
+      "detail": "Progman (desktop background) found: 1"
+    }
+  ],
+  "CtrlDetect": [
+    {
+      "test": "MaxUITreeDepth",
+      "status": "PASS",
+      "detail": "Deepest found: 5 levels"
+    },
+    {
+      "test": "UITreeDepthLimit",
+      "status": "INFO",
+      "detail": "UIA has no hard depth limit, but deep trees may timeout"
+    },
+    {
+      "test": "ExplorerTest",
+      "status": "WARN",
+      "detail": "此电脑 window not found for deep test"
+    },
+    {
+      "test": "CustomControlLimit",
+      "status": "WARN",
+      "detail": "Custom/owner-draw controls (e.g., Chrome renderer, game UI) have limited UIA support"
+    },
+    {
+      "test": "DirectXGameLimit",
+      "status": "WARN",
+      "detail": "DirectX/OpenGL game windows: UIA returns minimal or empty control tree"
+    },
+    {
+      "test": "ElectronAppLimit",
+      "status": "INFO",
+      "detail": "Electron apps (Chrome_WidgetWin_1): UIA tree may be shallow, rely on visual detection"
+    },
+    {
+      "test": "HybridDetection",
+      "status": "INFO",
+      "detail": "UFO² supports hybrid UIA+Vision via OmniParser, but requires separate OmniParser endpoint setup"
+    }
+  ],
+  "Commands": [
+    {
+      "test": "FullCommandInventory",
+      "status": "PASS",
+      "detail": "20 commands: ['AnnotationCommand', 'AtomicCommand', 'ClickCommand', 'ClickInputCommand', 'ClickOnCoordinatesCommand', 'ControlCommand', 'DoubleClickCommand', 'DragCommand', 'DragOnCoordinatesCommand', 'GetTextsCommand', 'KeyPressCommand', 'MouseMoveCommand', 'NoActionCommand', 'ScrollCommand', 'SetEditTextCommand', 'SummaryCommand', 'TypeCommand', 'WaitCommand', 'WheelMouseInputCommand', 'keyboardInputCommand']"
+    },
+    {
+      "test": "GUI_ClickCommand",
+      "status": "PASS",
+      "detail": "Available"
+    },
+    {
+      "test": "GUI_ClickInputCommand",
+      "status": "PASS",
+      "detail": "Available"
+    },
+    {
+      "test": "GUI_ClickOnCoordinatesCommand",
+      "status": "PASS",
+      "detail": "Available"
+    },
+    {
+      "test": "GUI_DoubleClickCommand",
+      "status": "PASS",
+      "detail": "Available"
+    },
+    {
+      "test": "GUI_SetEditTextCommand",
+      "status": "PASS",
+      "detail": "Available"
+    },
+    {
+      "test": "GUI_WheelMouseInputCommand",
+      "status": "PASS",
+      "detail": "Available"
+    },
+    {
+      "test": "GUI_ScrollCommand",
+      "status": "PASS",
+      "detail": "Available"
+    },
+    {
+      "test": "GUI_DragCommand",
+      "status": "PASS",
+      "detail": "Available"
+    },
+    {
+      "test": "GUI_DragOnCoordinatesCommand",
+      "status": "PASS",
+      "detail": "Available"
+    },
+    {
+      "test": "GUI_KeyPressCommand",
+      "status": "PASS",
+      "detail": "Available"
+    },
+    {
+      "test": "GUI_MouseMoveCommand",
+      "status": "PASS",
+      "detail": "Available"
+    },
+    {
+      "test": "CoordinateVsControl",
+      "status": "INFO",
+      "detail": "Control-based (UIA) is more reliable; Coordinate-based is fallback for non-standard UI"
+    },
+    {
+      "test": "KeyboardInputLimit",
+      "status": "INFO",
+      "detail": "KeyPressCommand supports single keys; complex shortcuts need multiple KeyPressCommands"
+    },
+    {
+      "test": "DragLimit",
+      "status": "INFO",
+      "detail": "Drag requires source+target coordinates; cross-window drag may fail if windows overlap incorrectly"
+    },
+    {
+      "test": "TextInputMethods",
+      "status": "INFO",
+      "detail": "set_text (instant, no keyboard events) vs type_keys (simulates keystrokes, triggers events)"
+    }
+  ],
+  "Screenshot": [
+    {
+      "test": "PhotographerClasses",
+      "status": "PASS",
+      "detail": "All photographer classes importable"
+    },
+    {
+      "test": "DesktopScreenshot",
+      "status": "PASS",
+      "detail": "Image size=(1920, 2160)"
+    },
+    {
+      "test": "SingleMonitorOnly",
+      "status": "WARN",
+      "detail": "Single monitor: (1920, 1080)"
+    },
+    {
+      "test": "DPIAwareness",
+      "status": "PASS",
+      "detail": "DPI awareness level=-2147024809"
+    },
+    {
+      "test": "DPIScalingLimit",
+      "status": "WARN",
+      "detail": "High DPI scaling (150%/200%) may cause coordinate mismatch between screenshot and UIA bounds"
+    },
+    {
+      "test": "SecureDesktopLimit",
+      "status": "FAIL",
+      "detail": "Cannot screenshot secure desktop (UAC prompt, login screen)"
+    },
+    {
+      "test": "LockedScreenLimit",
+      "status": "FAIL",
+      "detail": "Cannot screenshot or interact when screen is locked"
+    }
+  ],
+  "MCP": [
+    {
+      "test": "ConfigContent",
+      "status": "PASS",
+      "detail": "Config size=4051 bytes"
+    },
+    {
+      "test": "LocalServer_cli",
+      "status": "PASS",
+      "detail": "Available: cli_mcp_server.py"
+    },
+    {
+      "test": "LocalServer_constellation",
+      "status": "PASS",
+      "detail": "Available: constellation_mcp_server.py"
+    },
+    {
+      "test": "LocalServer_excel wincom",
+      "status": "PASS",
+      "detail": "Available: excel_wincom_mcp_server.py"
+    },
+    {
+      "test": "LocalServer_pdf reader",
+      "status": "PASS",
+      "detail": "Available: pdf_reader_mcp_server.py"
+    },
+    {
+      "test": "LocalServer_ppt wincom",
+      "status": "PASS",
+      "detail": "Available: ppt_wincom_mcp_server.py"
+    },
+    {
+      "test": "LocalServer_ui",
+      "status": "PASS",
+      "detail": "Available: ui_mcp_server.py"
+    },
+    {
+      "test": "LocalServer_word wincom",
+      "status": "PASS",
+      "detail": "Available: word_wincom_mcp_server.py"
+    },
+    {
+      "test": "HTTPServer_hardware",
+      "status": "PASS",
+      "detail": "Available: hardware_mcp_server.py"
+    },
+    {
+      "test": "HTTPServer_linux",
+      "status": "PASS",
+      "detail": "Available: linux_mcp_server.py"
+    },
+    {
+      "test": "HTTPServer_mobile",
+      "status": "PASS",
+      "detail": "Available: mobile_mcp_server.py"
+    },
+    {
+      "test": "MCPRuntimeRequirement",
+      "status": "INFO",
+      "detail": "MCP servers must be started before UFO can use them; auto-start is configured in mcp.yaml"
+    },
+    {
+      "test": "MCPFallbackToUI",
+      "status": "INFO",
+      "detail": "When MCP execution fails, UFO falls back to GUI automation (configurable)"
+    }
+  ],
+  "Office": [
+    {
+      "test": "xlwings",
+      "status": "PASS",
+      "detail": "Available - direct Excel cell/chart manipulation"
+    },
+    {
+      "test": "python-pptx",
+      "status": "PASS",
+      "detail": "Available - PowerPoint slide editing"
+    },
+    {
+      "test": "win32com",
+      "status": "PASS",
+      "detail": "Available - Outlook/Word/Excel COM automation"
+    },
+    {
+      "test": "OfficeVersionLimit",
+      "status": "INFO",
+      "detail": "COM automation requires installed Office app; xlwings needs Excel running; python-pptx works without PowerPoint"
+    },
+    {
+      "test": "NoOfficeLimit",
+      "status": "WARN",
+      "detail": "If Office apps not installed, only GUI-level interaction possible (no API access)"
+    }
+  ],
+  "LLM": [
+    {
+      "test": "HostAgent_APIType",
+      "status": "PASS",
+      "detail": "Configured: openai"
+    },
+    {
+      "test": "HostAgent_Model",
+      "status": "PASS",
+      "detail": "Configured: gpt-4o"
+    },
+    {
+      "test": "HostAgent_VisualMode",
+      "status": "PASS",
+      "detail": "VISUAL_MODE=True"
+    },
+    {
+      "test": "HostAgent_APIKey",
+      "status": "WARN",
+      "detail": "NOT configured - LLM calls will fail"
+    },
+    {
+      "test": "AppAgent_APIType",
+      "status": "PASS",
+      "detail": "Configured: openai"
+    },
+    {
+      "test": "AppAgent_Model",
+      "status": "PASS",
+      "detail": "Configured: gpt-4o"
+    },
+    {
+      "test": "SupportedProviders",
+      "status": "PASS",
+      "detail": "8 providers: ['OpenAI', 'Azure OpenAI', 'Azure AD', 'Google Gemini', 'Qwen', 'Ollama (local)', 'Anthropic Claude', 'DeepSeek']"
+    },
+    {
+      "test": "VisionModelRequirement",
+      "status": "INFO",
+      "detail": "VISUAL_MODE=True requires vision-capable model (GPT-4o, Gemini Pro Vision, etc.)"
+    },
+    {
+      "test": "NonVisionMode",
+      "status": "INFO",
+      "detail": "VISUAL_MODE=False works with text-only models but significantly reduces GUI automation capability"
+    },
+    {
+      "test": "LLMLatencyImpact",
+      "status": "INFO",
+      "detail": "Each step requires 1+ LLM calls; typical latency 2-10s per step depending on model and network"
+    },
+    {
+      "test": "LLMCostImpact",
+      "status": "INFO",
+      "detail": "GPT-4o: ~$0.005-0.01 per step (input+output tokens); local models: free but slower"
+    },
+    {
+      "test": "MaxStepLimit",
+      "status": "INFO",
+      "detail": "MAX_STEP=50 by default; complex tasks may hit this limit"
+    }
+  ],
+  "Safety": [
+    {
+      "test": "SafeGuardEnabled",
+      "status": "PASS",
+      "detail": "SAFE_GUARD=True"
+    },
+    {
+      "test": "ControlWhitelist",
+      "status": "PASS",
+      "detail": "15 allowed control types: ['Button', 'Edit', 'TabItem', 'Document', 'ListItem', 'MenuItem', 'ScrollBar', 'TreeItem', 'Hyperlink', 'ComboBox', 'RadioButton', 'Spinner', 'CheckBox', 'Group', 'Text']"
+    },
+    {
+      "test": "MaxStepLimit",
+      "status": "PASS",
+      "detail": "MAX_STEP=50"
+    },
+    {
+      "test": "SafeGuardScope",
+      "status": "INFO",
+      "detail": "SafeGuard prevents actions on controls NOT in CONTROL_LIST whitelist"
+    },
+    {
+      "test": "UACBypassLimit",
+      "status": "FAIL",
+      "detail": "Cannot bypass UAC prompts - secure desktop blocks all automation"
+    },
+    {
+      "test": "AdminPrivilege",
+      "status": "INFO",
+      "detail": "Some apps (Task Manager, Registry Editor) require admin rights; UFO inherits caller's privileges"
+    },
+    {
+      "test": "FileSystemAccess",
+      "status": "INFO",
+      "detail": "UFO can interact with File Explorer GUI but cannot directly modify files via UIA (needs MCP/API)"
+    },
+    {
+      "test": "CredentialExposure",
+      "status": "WARN",
+      "detail": "LLM receives screenshots which may contain sensitive data; API keys transmitted to LLM provider"
+    }
+  ],
+  "Special": [
+    {
+      "test": "ElectronAppCount",
+      "status": "PASS",
+      "detail": "6 Electron apps detected"
+    },
+    {
+      "test": "ElectronAppUIA",
+      "status": "WARN",
+      "detail": "Electron apps have limited UIA trees; rely on visual detection: ['windsurf雅虎…等3个会话', '国产反代 - Windsurf - AI工具箱网站技术方案报', '2046 - Windsurf [管理员]', 'UFO电脑自动化 - Windsurf [管理员]', '15分钟教会你用上爆火的自进化Agent Hermes，并且']"
+    },
+    {
+      "test": "Win32AppCount",
+      "status": "PASS",
+      "detail": "11 Win32 apps detected"
+    },
+    {
+      "test": "Win32AppUIA",
+      "status": "PASS",
+      "detail": "Win32 apps generally have full UIA support"
+    },
+    {
+      "test": "UWPAppCount",
+      "status": "PASS",
+      "detail": "0 UWP apps detected"
+    },
+    {
+      "test": "UWPAppUIA",
+      "status": "INFO",
+      "detail": "UWP apps have good UIA support but may need special handling"
+    },
+    {
+      "test": "GameWindowLimit",
+      "status": "FAIL",
+      "detail": "Game windows (DirectX/OpenGL): No UIA controls, no reliable click coordinates, visual-only with low accuracy"
+    },
+    {
+      "test": "VMWindowLimit",
+      "status": "FAIL",
+      "detail": "VM console windows: Cannot penetrate into guest OS; only host-level window control"
+    },
+    {
+      "test": "RDPLimit",
+      "status": "FAIL",
+      "detail": "RDP client windows: Cannot control remote session content; only local RDP window frame"
+    },
+    {
+      "test": "BrowserContentLimit",
+      "status": "WARN",
+      "detail": "Browser tab content: UIA can access basic elements (address bar, tabs) but web page DOM requires different approach"
+    },
+    {
+      "test": "ConsoleLimit",
+      "status": "INFO",
+      "detail": "Console windows (cmd/PowerShell): Limited UIA support; text content accessible but not individual elements"
+    },
+    {
+      "test": "ToastNotificationLimit",
+      "status": "WARN",
+      "detail": "Toast notifications are transient; may disappear before UFO can interact with them"
+    },
+    {
+      "test": "VirtualDesktopLimit",
+      "status": "WARN",
+      "detail": "Windows virtual desktops: UIA only sees windows on current active desktop"
+    }
+  ],
+  "RAG": [
+    {
+      "test": "FAISSIndexCreation",
+      "status": "PASS",
+      "detail": "Created index with dim=384"
+    },
+    {
+      "test": "EmbeddingModelRequirement",
+      "status": "INFO",
+      "detail": "First run downloads embedding model (~100MB); cached locally after that"
+    },
+    {
+      "test": "KnowledgeSources",
+      "status": "INFO",
+      "detail": "3 sources: Help documents, Demonstration traces, Execution experience"
+    },
+    {
+      "test": "RAGScopeLimit",
+      "status": "INFO",
+      "detail": "RAG only helps with application-specific knowledge; does not improve general OS interaction"
+    },
+    {
+      "test": "KnowledgeFreshness",
+      "status": "INFO",
+      "detail": "Knowledge is static per session; new experience saved after task completion"
+    }
+  ],
+  "Agent": [
+    {
+      "test": "AgentSubModules",
+      "status": "PASS",
+      "detail": "Modules: ['agent', 'memory', 'presenters', 'processors', 'states', '__pycache__']"
+    },
+    {
+      "test": "ProcessingStrategies",
+      "status": "PASS",
+      "detail": "7 strategies: ['app_agent_processing_strategy', 'customized_agent_processing_strategy', 'host_agent_processing_strategy', 'linux_agent_strategy', 'mobile_agent_strategy', 'processing_strategy', 'strategy_dependency']"
+    },
+    {
+      "test": "StateModules",
+      "status": "PASS",
+      "detail": "States: ['app_agent_state', 'basic', 'evaluaton_agent_state', 'host_agent_state', 'linux_agent_state', 'mobile_agent_state', 'operator_state']"
+    },
+    {
+      "test": "AgentHierarchy",
+      "status": "INFO",
+      "detail": "HostAgent (desktop-level orchestration) → AppAgent (application-specific execution)"
+    },
+    {
+      "test": "ConcurrentAgentLimit",
+      "status": "INFO",
+      "detail": "One AppAgent per application; HostAgent coordinates multiple AppAgents sequentially"
+    },
+    {
+      "test": "CustomAgentSupport",
+      "status": "PASS",
+      "detail": "Custom agents supported via third_party config and processor strategy extension"
+    }
+  ],
+  "PiP": [
+    {
+      "test": "RDPClientAvailable",
+      "status": "PASS",
+      "detail": "mstsc.exe found"
+    },
+    {
+      "test": "RDPLoopbackRequirement",
+      "status": "INFO",
+      "detail": "PiP uses RDP loopback (connect to localhost); requires RDP to be enabled on the system"
+    },
+    {
+      "test": "PiPFeatureStatus",
+      "status": "WARN",
+      "detail": "PiP is documented but may require additional setup/configuration; not plug-and-play"
+    },
+    {
+      "test": "PiPResourceUsage",
+      "status": "INFO",
+      "detail": "PiP creates a virtual desktop session; uses additional RAM (~200-500MB) and GPU resources"
+    },
+    {
+      "test": "PiPCompatibility",
+      "status": "INFO",
+      "detail": "PiP requires Windows Pro/Enterprise (RDP server); Windows Home does not support incoming RDP"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "schema": "phase1_service.census.payload.v1",
+  "meta": {
+    "job_id": "D:scope",
+    "path": "/icpsp-api/v4/pc/common/synchrdata/queryIndustryFeatAndDes",
+    "params": {
+      "busType": "01",
+      "entType": "1100",
+      "hyPecul": "诊所"
+    },
+    "dur_ms": 7394,
+    "keyword": "诊所",
+    "ts": 1776843204
+  },
+  "data": {
+    "code": "00000",
+    "data": {
+      "resultType": "0",
+      "msg": "",
+      "busiData": [
+        {
+          "hyCode": "Q8411",
+          "saveHyCode": "8411",
+          "hyPecul": "诊所",
+          "hyTypeName": "综合医院",
+          "enHyTypeName": null,
+          "explains": null,
+          "includesTitle": "包括下列综合医院的活动：",
+          "includes": "综合医院服务；各类综合医院；综合医院的住院部（住院与门诊分离）。",
+          "unIncludes": null,
+          "busiType": "21,01,28,23,08,02,03",
+          "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+          "isCustomHy": "0",
+          "isRecomm": "0"
+        },
+        {
+          "hyCode": "Q8425",
+          "saveHyCode": "8425",
+          "hyPecul": "诊所",
+          "hyTypeName": "门诊部(所)",
+          "enHyTypeName": null,
+          "explains": "指门诊部、诊所、医务室、卫生所（室）、中小学卫生保健所等卫生机构的活动。",
+          "includesTitle": "包括下列门诊部（所）活动：",
+          "includes": "门诊部服务；诊所服务；卫生所（室）服务；医务室服务；中小学卫生保健所服务；其他门诊医疗服务。",
+          "unIncludes": "不包括：村门诊所、村卫生室，列入8424（村卫生室）。",
+          "busiType": "01,02,03,08,21,23,28",
+          "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+          "isCustomHy": "0",
+          "isRecomm": "0"
+        },
+        {
+          "hyCode": "Q8425",
+          "saveHyCode": "8425",
+          "hyPecul": "中医诊所",
+          "hyTypeName": "门诊部(所)",
+          "enHyTypeName": null,
+          "explains": "指门诊部、诊所、医务室、卫生所（室）、中小学卫生保健所等卫生机构的活动。",
+          "includesTitle": "包括下列门诊部（所）活动：",
+          "includes": "门诊部服务；诊所服务；卫生所（室）服务；医务室服务；中小学卫生保健所服务；其他门诊医疗服务。",
+          "unIncludes": "不包括：村门诊所、村卫生室，列入8424（村卫生室）。",
+          "busiType": "01,02,03,08,21,23,28",
+          "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+          "isCustomHy": "0",
+          "isRecomm": "0"
+        },
+        {
+          "hyCode": "Q8425",
+          "saveHyCode": "8425",
+          "hyPecul": "内科诊所",
+          "hyTypeName": "门诊部(所)",
+          "enHyTypeName": null,
+          "explains": "指门诊部、诊所、医务室、卫生所（室）、中小学卫生保健所等卫生机构的活动。",
+          "includesTitle": "包括下列门诊部（所）活动：",
+          "includes": "门诊部服务；诊所服务；卫生所（室）服务；医务室服务；中小学卫生保健所服务；其他门诊医疗服务。",
+          "unIncludes": "不包括：村门诊所、村卫生室，列入8424（村卫生室）。",
+          "busiType": "21,01,28,23,08,02,03",
+          "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+          "isCustomHy": "0",
+          "isRecomm": "0"
+        },
+        {
+          "hyCode": "Q8425",
+          "saveHyCode": "8425",
+          "hyPecul": "口腔诊所",
+          "hyTypeName": "门诊部(所)",
+          "enHyTypeName": null,
+          "explains": "指门诊部、诊所、医务室、卫生所（室）、中小学卫生保健所等卫生机构的活动。",
+          "includesTitle": "包括下列门诊部（所）活动：",
+          "includes": "门诊部服务；诊所服务；卫生所（室）服务；医务室服务；中小学卫生保健所服务；其他门诊医疗服务。",
+          "unIncludes": "不包括：村门诊所、村卫生室，列入8424（村卫生室）。",
+          "busiType": "21,01,28,23,08,02,03",
+          "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+          "isCustomHy": "0",
+          "isRecomm": "0"
+        },
+        {
+          "hyCode": "Q8425",
+          "saveHyCode": "8425",
+          "hyPecul": "牙科诊所",
+          "hyTypeName": "门诊部(所)",
+          "enHyTypeName": null,
+          "explains": "指门诊部、诊所、医务室、卫生所（室）、中小学卫生保健所等卫生机构的活动。",
+          "includesTitle": "包括下列门诊部（所）活动：",
+          "includes": "门诊部服务；诊所服务；卫生所（室）服务；医务室服务；中小学卫生保健所服务；其他门诊医疗服务。",
+          "unIncludes": "不包括：村门诊所、村卫生室，列入8424（村卫生室）。",
+          "busiType": "21,01,28,23,08,02,03",
+          "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+          "isCustomHy": "0",
+          "isRecomm": "0"
+        },
+        {
+          "hyCode": "Q8425",
+          "saveHyCode": "8425",
+          "hyPecul": "医疗美容诊所",
+          "hyTypeName": "门诊部(所)",
+          "enHyTypeName": null,
+          "explains": "指门诊部、诊所、医务室、卫生所（室）、中小学卫生保健所等卫生机构的活动。",
+          "includesTitle": "包括下列门诊部（所）活动：",
+          "includes": "门诊部服务；诊所服务；卫生所（室）服务；医务室服务；中小学卫生保健所服务；其他门诊医疗服务。",
+          "unIncludes": "不包括：村门诊所、村卫生室，列入8424（村卫生室）。",
+          "busiType": "21,01,28,23,08,02,03",
+          "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+          "isCustomHy": "0",
+          "isRecomm": "0"
+        },
+        {
+          "hyCode": "Q8425",
+          "saveHyCode": "8425",
+          "hyPecul": "中西医结合诊所",
+          "hyTypeName": "门诊部(所)",
+          "enHyTypeName": null,
+          "explains": "指门诊部、诊所、医务室、卫生所（室）、中小学卫生保健所等卫生机构的活动。",
+          "includesTitle": "包括下列门诊部（所）活动：",
+          "includes": "门诊部服务；诊所服务；卫生所（室）服务；医务室服务；中小学卫生保健所服务；其他门诊医疗服务。",
+          "unIncludes": "不包括：村门诊所、村卫生室，列入8424（村卫生室）。",
+          "busiType": "01,02,03,08,21,23,28",
+          "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+          "isCustomHy": "0",
+          "isRecomm": "0"
+        }
+      ]
+    },
+    "msg": "操作成功",
+    "page": null
+  }
+}

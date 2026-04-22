@@ -1,0 +1,186 @@
+{
+  "started_at": "2026-04-16 01:39:38",
+  "steps": [
+    {
+      "step": "pick_ws",
+      "data": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId="
+    },
+    {
+      "step": "radio_structure",
+      "data": [
+        {
+          "cls": "tni-radio-group",
+          "text": "内资有限公司农民专业合作社个人独资企业个体工商户分支机构全部企业类型",
+          "items": [
+            {
+              "tag": "LABEL",
+              "cls": "tni-radio is-checked text-center",
+              "text": "内资有限公司"
+            },
+            {
+              "tag": "SPAN",
+              "cls": "tni-radio__label",
+              "text": "内资有限公司"
+            },
+            {
+              "tag": "SPAN",
+              "cls": "",
+              "text": "内资有限公司"
+            },
+            {
+              "tag": "SPAN",
+              "cls": "tni-radio__icon",
+              "text": ""
+            },
+            {
+              "tag": "LABEL",
+              "cls": "tni-radio text-center",
+              "text": "农民专业合作社"
+            },
+            {
+              "tag": "SPAN",
+              "cls": "tni-radio__label",
+              "text": "农民专业合作社"
+            },
+            {
+              "tag": "SPAN",
+              "cls": "",
+              "text": "农民专业合作社"
+            },
+            {
+              "tag": "LABEL",
+              "cls": "tni-radio text-center",
+              "text": "个人独资企业"
+            },
+            {
+              "tag": "SPAN",
+              "cls": "tni-radio__label",
+              "text": "个人独资企业"
+            },
+            {
+              "tag": "SPAN",
+              "cls": "",
+              "text": "个人独资企业"
+            },
+            {
+              "tag": "LABEL",
+              "cls": "tni-radio text-center",
+              "text": "个体工商户"
+            },
+            {
+              "tag": "SPAN",
+              "cls": "tni-radio__label",
+              "text": "个体工商户"
+            },
+            {
+              "tag": "SPAN",
+              "cls": "",
+              "text": "个体工商户"
+            },
+            {
+              "tag": "LABEL",
+              "cls": "tni-radio text-center",
+              "text": "分支机构"
+            },
+            {
+              "tag": "SPAN",
+              "cls": "tni-radio__label",
+              "text": "分支机构"
+            },
+            {
+              "tag": "SPAN",
+              "cls": "",
+              "text": "分支机构"
+            },
+            {
+              "tag": "LABEL",
+              "cls": "tni-radio text-center",
+              "text": "全部企业类型"
+            },
+            {
+              "tag": "SPAN",
+              "cls": "tni-radio__label",
+              "text": "全部企业类型"
+            },
+            {
+              "tag": "SPAN",
+              "cls": "",
+              "text": "全部企业类型"
+            }
+          ]
+        },
+        {
+          "cls": "tni-radio-group",
+          "text": "未申请已办理企业名称预保留",
+          "items": [
+            {
+              "tag": "LABEL",
+              "cls": "tni-radio text-center",
+              "text": "未申请"
+            },
+            {
+              "tag": "SPAN",
+              "cls": "tni-radio__label",
+              "text": "未申请"
+            },
+            {
+              "tag": "LABEL",
+              "cls": "tni-radio text-center",
+              "text": "已办理企业名称预保留"
+            },
+            {
+              "tag": "SPAN",
+              "cls": "tni-radio__label",
+              "text": "已办理企业名称预保留"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "step": "network_before",
+      "data": {
+        "requestWillBeSent": [],
+        "responseReceived": []
+      }
+    },
+    {
+      "step": "target_clicks",
+      "data": {
+        "r1": {
+          "ok": true,
+          "kw": "未申请",
+          "tag": "LABEL",
+          "cls": "tni-radio text-center",
+          "text": "未申请"
+        },
+        "b1": {
+          "ok": true,
+          "kw": "下一步",
+          "text": "下一步"
+        },
+        "b2": {
+          "ok": false,
+          "kw": "确定"
+        }
+      }
+    },
+    {
+      "step": "network_after",
+      "data": {
+        "requestWillBeSent": [],
+        "responseReceived": []
+      }
+    },
+    {
+      "step": "state_after",
+      "data": {
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hash": "#/guide/base?busiType=02_4&entType=1100&marPrId=&marUniscId=",
+        "hasYunbangban": false,
+        "hasNamePrompt": false
+      }
+    }
+  ],
+  "ended_at": "2026-04-16 01:39:48"
+}

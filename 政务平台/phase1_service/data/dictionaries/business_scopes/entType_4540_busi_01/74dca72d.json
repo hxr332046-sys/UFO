@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "Q8414",
+        "saveHyCode": "8414",
+        "hyPecul": "民族医院",
+        "hyTypeName": "民族医院",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列民族医院的活动：",
+        "includes": "民族医院服务。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "民族医院",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

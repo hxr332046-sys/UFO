@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C3221",
+        "saveHyCode": "3221",
+        "hyPecul": "黄金冶炼",
+        "hyTypeName": "金冶炼",
+        "enHyTypeName": null,
+        "explains": "指用金精（块）矿、阳极泥（冶炼其他有色金属时回收的阳极泥含金）、废杂金提炼黄金的生产活动。",
+        "includesTitle": "包括对下列金的冶炼活动：",
+        "includes": "矿山成品金；冶炼产金：金矿料产金、有色料副产金、再生金。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "金冶炼",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

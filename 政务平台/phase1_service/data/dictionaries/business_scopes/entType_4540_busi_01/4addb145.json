@@ -1,0 +1,106 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "J6621",
+        "saveHyCode": "6621",
+        "hyPecul": "商业银行",
+        "hyTypeName": "商业银行服务",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列商业银行服务活动：",
+        "includes": "中资银行：中国工商银行、中国建设银行、中国农业银行、中国银行、交通银行、中国邮政储蓄银行、招商银行、上海浦东发展银行、中信银行、兴业银行、中国民生银行、中国光大银行、华夏银行、广发银行、平安银行、恒丰银行、浙商银行、渤海银行、城市商业银行、农村商业银行、农村合作银行、民营银行、村镇银行及其他中资银行，上述银行分支机构；外资银行及分支机构。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "J6629",
+        "saveHyCode": "6629",
+        "hyPecul": "商业银行",
+        "hyTypeName": "其他货币银行服务",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列其他货币银行服务活动：",
+        "includes": "其他未列明货币银行服务。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "J6629",
+        "saveHyCode": "6629",
+        "hyPecul": "农村商业银行",
+        "hyTypeName": "其他货币银行服务",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列其他货币银行服务活动：",
+        "includes": "其他未列明货币银行服务。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "J6621",
+        "saveHyCode": "6621",
+        "hyPecul": "农村商业银行",
+        "hyTypeName": "商业银行服务",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列商业银行服务活动：",
+        "includes": "中资银行：中国工商银行、中国建设银行、中国农业银行、中国银行、交通银行、中国邮政储蓄银行、招商银行、上海浦东发展银行、中信银行、兴业银行、中国民生银行、中国光大银行、华夏银行、广发银行、平安银行、恒丰银行、浙商银行、渤海银行、城市商业银行、农村商业银行、农村合作银行、民营银行、村镇银行及其他中资银行，上述银行分支机构；外资银行及分支机构。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "J6629",
+        "saveHyCode": "6629",
+        "hyPecul": "城市商业银行",
+        "hyTypeName": "其他货币银行服务",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列其他货币银行服务活动：",
+        "includes": "其他未列明货币银行服务。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "J6621",
+        "saveHyCode": "6621",
+        "hyPecul": "城市商业银行",
+        "hyTypeName": "商业银行服务",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列商业银行服务活动：",
+        "includes": "中资银行：中国工商银行、中国建设银行、中国农业银行、中国银行、交通银行、中国邮政储蓄银行、招商银行、上海浦东发展银行、中信银行、兴业银行、中国民生银行、中国光大银行、华夏银行、广发银行、平安银行、恒丰银行、浙商银行、渤海银行、城市商业银行、农村商业银行、农村合作银行、民营银行、村镇银行及其他中资银行，上述银行分支机构；外资银行及分支机构。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "商业银行",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

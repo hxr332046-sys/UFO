@@ -1,0 +1,312 @@
+{
+  "tasks": [
+    {
+      "task_id": "5ac4e228",
+      "task_type": "change",
+      "client_id": "C003",
+      "client_name": "广西华信科技有限公司",
+      "status": "confirming",
+      "status_label": "等待客户确认",
+      "materials": {
+        "company_name": "广西华信科技有限公司",
+        "unified_social_credit_code": "91450100MA5KWG2E5X",
+        "change_type": "经营范围变更",
+        "original_business_scope": "软件开发、信息技术咨询服务",
+        "new_business_scope": "软件开发、信息技术咨询服务、数据处理和存储支持服务、人工智能应用软件开发",
+        "legal_person_name": "王建国",
+        "legal_person_id_number": "450102198501151234",
+        "contact_phone": "0771-5551234",
+        "change_reason": "公司业务拓展需要，增加数据处理和AI相关业务",
+        "resolution_document": "已上传股东会决议扫描件",
+        "business_license_copy": "已上传营业执照副本扫描件",
+        "legal_person_id_copy": "已上传法定代表人身份证扫描件"
+      },
+      "form_data": {
+        "fields": {
+          "entName": {
+            "value": "广西华信科技有限公司",
+            "auto_fill": true,
+            "needs_confirm": false
+          },
+          "uniscId": {
+            "value": "91450100MA5KWG2E5X",
+            "auto_fill": true,
+            "needs_confirm": false
+          },
+          "changeItem": {
+            "value": "经营范围变更",
+            "auto_fill": true,
+            "needs_confirm": false
+          },
+          "scopeBefore": {
+            "value": "软件开发、信息技术咨询服务",
+            "auto_fill": true,
+            "needs_confirm": false
+          },
+          "scopeAfter": {
+            "value": "软件开发、信息技术咨询服务、数据处理和存储支持服务、人工智能应用软件开发",
+            "auto_fill": true,
+            "needs_confirm": false
+          },
+          "leRepName": {
+            "value": "王建国",
+            "auto_fill": true,
+            "needs_confirm": false
+          },
+          "leRepIdNo": {
+            "value": "450102198501151234",
+            "auto_fill": true,
+            "needs_confirm": false
+          },
+          "leRepMob": {
+            "value": "0771-5551234",
+            "auto_fill": true,
+            "needs_confirm": false
+          },
+          "agentName": {
+            "value": null,
+            "auto_fill": false,
+            "needs_client_input": true
+          },
+          "agentIdNo": {
+            "value": null,
+            "auto_fill": false,
+            "needs_client_input": true
+          },
+          "agentMob": {
+            "value": null,
+            "auto_fill": false,
+            "needs_client_input": true
+          },
+          "appDate": {
+            "value": "needs_confirm",
+            "auto_fill": false,
+            "needs_confirm": true
+          }
+        },
+        "needs_client_actions": [
+          "上传股东会决议原件扫描件",
+          "上传营业执照副本原件扫描件",
+          "上传法定代表人身份证原件正反面扫描件",
+          "法定代表人需通过政务APP进行人脸识别及电子签名",
+          "补充经办人（如非法人本人办理）的身份信息"
+        ],
+        "fill_order": [
+          "entName",
+          "uniscId",
+          "changeItem",
+          "scopeBefore",
+          "scopeAfter",
+          "leRepName",
+          "leRepIdNo",
+          "leRepMob",
+          "agentName",
+          "agentIdNo",
+          "agentMob",
+          "appDate"
+        ],
+        "navigation": {
+          "success": true,
+          "route": "/index/change-registration",
+          "current_hash": "#/index/page"
+        },
+        "fill_result": {
+          "filled": 0,
+          "skipped": 4,
+          "errors": [
+            "entName: field_not_found",
+            "uniscId: field_not_found",
+            "changeItem: field_not_found",
+            "scopeBefore: field_not_found",
+            "scopeAfter: field_not_found",
+            "leRepName: field_not_found",
+            "leRepIdNo: field_not_found",
+            "leRepMob: field_not_found"
+          ]
+        },
+        "screenshot": "g:\\UFO\\政务平台\\system\\core\\..\\..\\data\\screenshots\\5ac4e228_preview.png"
+      },
+      "gov_response": {},
+      "auth_info": {},
+      "review_result": {
+        "approved": true,
+        "issues": [],
+        "suggestions": [
+          "请确保上传的《股东会决议》中已明确载明关于修改公司章程的决议内容。",
+          "经营范围变更通常必须提交《公司章程修正案》或新章程，请确认该材料已准备就绪，虽当前列表中未单独列出，但属于法定必备材料。",
+          "建议在正式提交前，通过‘经营范围规范表述查询系统’核对‘人工智能应用软件开发’等新增项是否完全符合最新的规范化表述要求。"
+        ],
+        "form_mapping": {
+          "企业名称": "广西华信科技有限公司",
+          "统一社会信用代码": "91450100MA5KWG2E5X",
+          "变更项目": "经营范围变更",
+          "变更前经营范围": "软件开发、信息技术咨询服务",
+          "变更后经营范围": "软件开发、信息技术咨询服务、数据处理和存储支持服务、人工智能应用软件开发",
+          "法定代表人姓名": "王建国",
+          "联系电话": "0771-5551234"
+        },
+        "risk_level": "low",
+        "summary": "申请材料逻辑一致，信息填写完整，符合经营范围变更的初步审核要求。主要证明文件已上传，建议补充并核对公司章程修正案后正式提交。"
+      },
+      "needs_client_action": true,
+      "client_action_message": "请确认表单预览无误后授权提交",
+      "history": [
+        {
+          "time": "2026-04-13 18:13:25",
+          "status": "created",
+          "message": "任务创建",
+          "actor": "system"
+        },
+        {
+          "time": "2026-04-13 18:13:25",
+          "status": "reviewing",
+          "message": "开始LLM审核",
+          "actor": "system"
+        },
+        {
+          "time": "2026-04-13 18:13:34",
+          "status": "approved",
+          "message": "材料审核通过",
+          "actor": "system"
+        },
+        {
+          "time": "2026-04-13 18:13:34",
+          "status": "filling",
+          "message": "开始填写表单",
+          "actor": "system"
+        },
+        {
+          "time": "2026-04-13 18:13:45",
+          "status": "confirming",
+          "message": "表单填写完成，等待客户确认",
+          "actor": "system"
+        }
+      ],
+      "created_at": "2026-04-13T18:13:25.551029",
+      "updated_at": "2026-04-13T18:13:45.544083"
+    },
+    {
+      "task_id": "8f98d475",
+      "task_type": "establish",
+      "client_id": "TEST001",
+      "client_name": "广西智信数据科技有限公司",
+      "status": "filling",
+      "status_label": "自动填表中",
+      "materials": {
+        "company_name": "广西智信数据科技有限公司",
+        "company_type": "有限责任公司（自然人独资）",
+        "reg_capital": "100万元人民币",
+        "paid_capital": "0万元（认缴制）",
+        "capital_contribution_method": "货币",
+        "business_scope_main": "软件开发、信息技术咨询服务、数据处理和存储支持服务",
+        "business_scope_extra": "人工智能应用软件开发、网络技术服务",
+        "registered_address_province": "广西壮族自治区",
+        "registered_address_city": "南宁市",
+        "registered_address_district": "青秀区",
+        "registered_address_detail": "民族大道166号上东国际T3栋1801室",
+        "business_term": "长期",
+        "legal_person_name": "陈明辉",
+        "legal_person_id_type": "居民身份证",
+        "legal_person_id_number": "450103199001151234",
+        "legal_person_phone": "13877151234",
+        "legal_person_email": "chenmh@example.com",
+        "legal_person_nationality": "中国",
+        "legal_person_position": "执行董事兼经理",
+        "shareholder_name": "陈明辉",
+        "shareholder_id_number": "450103199001151234",
+        "shareholder_contribution_amount": "100万元",
+        "shareholder_contribution_ratio": "100%",
+        "shareholder_contribution_method": "货币",
+        "supervisor_name": "李芳",
+        "supervisor_id_number": "450103199205051234",
+        "supervisor_phone": "13877159876",
+        "supervisor_position": "监事",
+        "financial_officer_name": "张丽华",
+        "financial_officer_phone": "13877158888",
+        "contact_phone": "13877151234",
+        "contact_email": "chenmh@example.com",
+        "company_articles_uploaded": true,
+        "legal_person_id_copy_uploaded": true,
+        "business_premise_proof_uploaded": true,
+        "shareholder_id_copy_uploaded": true,
+        "supervisor_id_copy_uploaded": true,
+        "name_pre_approval_uploaded": true,
+        "financial_officer_id_number": "450103199308081234"
+      },
+      "form_data": {},
+      "gov_response": {},
+      "auth_info": {},
+      "review_result": {
+        "approved": true,
+        "issues": [],
+        "suggestions": [
+          "建议在正式提交前，通过‘经营范围规范化表述查询系统’再次核对经营范围，确保完全符合最新的政务规范。",
+          "请确保所有上传的身份证件扫描件为原件彩色扫描，且在有效期内。",
+          "住所证明材料（如租赁合同）建议核对起止日期，确保覆盖当前申请时间。"
+        ],
+        "form_mapping": {
+          "企业名称": "广西智信数据科技有限公司",
+          "公司类型": "有限责任公司（自然人独资）",
+          "注册资本": "100万元人民币",
+          "法定代表人": "陈明辉",
+          "执行董事": "陈明辉",
+          "经理": "陈明辉",
+          "监事": "李芳",
+          "财务负责人": "张丽华",
+          "住所": "广西壮族自治区南宁市青秀区民族大道166号上东国际T3栋1801室",
+          "经营期限": "长期"
+        },
+        "risk_level": "low",
+        "summary": "材料审核通过。各项信息完整且逻辑一致，股东、法定代表人及监事任职符合《公司法》关于自然人独资公司的相关规定，附件材料上传齐全，具备提交政务平台审核的条件。"
+      },
+      "needs_client_action": false,
+      "client_action_message": "",
+      "history": [
+        {
+          "time": "2026-04-13 18:36:43",
+          "status": "created",
+          "message": "任务创建",
+          "actor": "system"
+        },
+        {
+          "time": "2026-04-13 18:36:43",
+          "status": "reviewing",
+          "message": "开始LLM审核",
+          "actor": "system"
+        },
+        {
+          "time": "2026-04-13 18:37:06",
+          "status": "rejected",
+          "message": "材料不合格: 财务负责人由法定代表人陈明辉兼任。虽然法律未明文禁止，但在政务审核实践中，为保证财务监督独立性，部分地区（如广西部分政务窗口）会要求财务负责人与法定代表人、执行董事分离。; 实缴资本填报为100万元，与注册资本一致。在当前认缴制下，新设公司实缴额通常填报为0。若填报为100万，需确保资金已实际到位并准备好银行进账单或验资报告，否则存在虚假出资风险。",
+          "actor": "system"
+        },
+        {
+          "time": "2026-04-13 18:38:04",
+          "status": "reviewing",
+          "message": "客户补正后重新审核",
+          "actor": "client"
+        },
+        {
+          "time": "2026-04-13 18:38:04",
+          "status": "reviewing",
+          "message": "开始LLM审核",
+          "actor": "system"
+        },
+        {
+          "time": "2026-04-13 18:38:11",
+          "status": "approved",
+          "message": "材料审核通过",
+          "actor": "system"
+        },
+        {
+          "time": "2026-04-13 18:38:11",
+          "status": "filling",
+          "message": "开始填写表单",
+          "actor": "system"
+        }
+      ],
+      "created_at": "2026-04-13T18:36:43.532769",
+      "updated_at": "2026-04-13T18:38:11.621207"
+    }
+  ]
+}
