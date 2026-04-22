@@ -23,6 +23,9 @@ config/credentials.json
 # 日志
 *.log
 
+# 归档（旧文件，不推送到远程）
+_archive/
+
 # 大文件（超 GitHub 100MB 限制）
 *.sqlite
 *.sqlite3
