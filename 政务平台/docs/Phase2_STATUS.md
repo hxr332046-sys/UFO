@@ -1,19 +1,26 @@
 # Phase 2 当前进度与快速续传指南
 
-**更新**：2026-04-23 下午
-**当前状态**：BasicInfo + MemberPost 协议化成功，浏览器已进入 MemberPool 组件
+**更新**：2026-04-23 晚
+**当前状态**：已推进到 `SlUploadMaterial`（材料补充上传页），卡在"租赁合同"上传的 fileId 绑定
 
 ---
 
-## 一、已完成组件（pure HTTP 协议化）
+## 一、已完成组件（pure HTTP 协议化 + 前端自动推进）
 
-| # | 组件 | API | 作用 |
+| # | 组件 | API | 状态 |
 |---|---|---|---|
-| 1 | matters/operate | `btnCode=108` | 返回 route，进入设立 |
-| 2 | loadCurrentLocationInfo | POST | Session 切到设立态 |
-| 3 | **BasicInfo** | `/operationBusinessDataInfo` | **创建 busiId** |
-| 4-7 | Residence/OpManyAddress/ManyCert | `load*` | 字典预加载 |
-| 8 | **MemberPost** | `/operationBusinessDataInfo` | **保存成员架构** |
+| 1 | matters/operate | `btnCode=108` | ✅ |
+| 2 | loadCurrentLocationInfo | POST | ✅ |
+| 3 | **BasicInfo** | `/operationBusinessDataInfo` | ✅ **创建 busiId** |
+| 4-7 | Residence/OpManyAddress/ManyCert | `load*` | ✅ |
+| 8 | **MemberPost** | `/operationBusinessDataInfo` | ✅ **保存成员架构** |
+| 9 | **MemberInfo** | `/operationBusinessDataInfo` | ✅ **补投资人+政治面貌+代理机构** |
+| 10 | **MemberPool** | `/operationBusinessDataInfo` | ✅ (自动推进) |
+| 11 | **ComplementInfo** | `/operationBusinessDataInfo` | ✅ (自动推进) |
+| 12 | **TaxInvoice** | `/operationBusinessDataInfo` | ✅ (自动推进) |
+| 13 | **SlUploadMaterial** | 当前位置，卡在文件上传绑定 | ⏸️ |
+
+**跳过的组件**（个人独资不需要）：PersonInfoRegGT, ChargeDepartment, RegMergeAndDiv, WzInfoReport, Rules, BankOpenInfo, MedicalInsured, Engraving, SocialInsured, GjjHandle, WaterNewHandle, GasNewHandle, ElectricNewHandle, NetHandle, CreditHandle, HouseConstructHandle, YjsRegPrePack, YjsRegFoodOp
 
 **当前 busiId**: `2047122548757872642`（黄永裕 个人独资）
 
@@ -54,16 +61,38 @@ Start-Process "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" -Ar
 
 ## 三、下次要做的组件（按流程顺序）
 
-1. **MemberPool** (当前位置) — 成员池，可能只是 load/show
-2. **MemberInfo** — 成员详情
-3. **PersonInfoRegGT** — 个人信息登记（可能需要身份证 OCR）
-4. **ChargeDepartment** — 监管部门
-5. **Rules** — 章程决议
-6. **ComplementInfo** — 补充信息
-7. **TaxInfo** — 税务信息
-8. **MaterialSuppl** — 材料补充
-9. **BusinessLicense** — 营业执照领取
-10. **CloudFlow** — 云办流程
+1. **SlUploadMaterial** ⏸️ (当前) — 租赁合同上传 fileId 需绑定到 Vue state
+2. **BusinessLicenceWay** — 营业执照领取方式
+3. **YbbSelect** — 云帮办流程选择
+4. **PreElectronicDoc** — 信息确认
+5. **PreSubmitSuccess** — 预提交成功 ← **用户要求停在这里**
+6. ElectronicDoc / SubmitSuccess / RegNotification / RegBusiLicence（实际提交后阶段）
+
+## 三-补、已证明的推进模式
+
+点"保存并下一步"按钮会触发一系列 API 调用：
+- `<当前组件>/operationBusinessDataInfo` (save)
+- `<下一组件>/loadBusinessDataInfo` (自动 load 下一组件)
+
+所以只要**前一组件 save 成功**（服务端业务校验通过），前端自动推进到下一组件。
+
+---
+
+## 三-后、SlUploadMaterial 卡点分析
+
+**问题**：`DOM.setFileInputFiles` 对 Element UI 的 `<el-upload>` 不起作用（Element UI 使用自定义 `http-request`）。
+
+**已尝试**：
+1. ❌ DOM.setFileInputFiles + dispatchEvent('change')
+2. ❌ 直接在 DOM 上 click
+3. ⚠️ 调 `ElUpload.handleStart(file)` —— 加入 uploadFiles (status=ready) 但不触发 POST
+4. ✅ 调 `upload-inner.post(file)` —— **成功触发 upload API 200 OK**
+5. ⚠️ 但文件未绑定到 `sl-upload-material.businessDataInfo`（fileId 没回填）
+
+**下次方案**（任选）：
+- A. 用户手动在浏览器点上传按钮选文件
+- B. 继续研究 `sl-upload-material.businessDataInfo.data` 结构，手动把 upload 响应的 fileId 填到对应 material 槽位
+- C. 拦截 Element UI 的 onSuccess 回调，手动调用
 
 ---
 
