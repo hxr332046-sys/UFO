@@ -1,7 +1,8 @@
 # Phase 2 当前进度与快速续传指南
 
-**更新**：2026-04-23 晚
-**当前状态**：已推进到 `SlUploadMaterial`（材料补充上传页），卡在"租赁合同"上传的 fileId 绑定
+**更新**：2026-04-23 深夜
+**当前状态**：已推进到 `PreElectronicDoc`（信息确认页），再一步就是 **PreSubmitSuccess** 🎯
+**关键突破**：SlUploadMaterial 文件上传 fileId 绑定完成（`cerno` 小写 ≠ `cerNo` 大写 N）
 
 ---
 
@@ -18,7 +19,10 @@
 | 10 | **MemberPool** | `/operationBusinessDataInfo` | ✅ (自动推进) |
 | 11 | **ComplementInfo** | `/operationBusinessDataInfo` | ✅ (自动推进) |
 | 12 | **TaxInvoice** | `/operationBusinessDataInfo` | ✅ (自动推进) |
-| 13 | **SlUploadMaterial** | 当前位置，卡在文件上传绑定 | ⏸️ |
+| 13 | **SlUploadMaterial** | upload + special(cerno) + save | ✅ **租赁合同上传 + 绑定 fileId** |
+| 14 | **BusinessLicenceWay** | `/operationBusinessDataInfo` | ✅ (自动推进) |
+| 15 | **YbbSelect** | `/operationBusinessDataInfo` | ✅ 一般流程 (isSelectYbb=0) |
+| 16 | **PreElectronicDoc** | 当前位置 | ⏸️ 下一步点"云帮办提交"=PreSubmitSuccess 🎯 |
 
 **跳过的组件**（个人独资不需要）：PersonInfoRegGT, ChargeDepartment, RegMergeAndDiv, WzInfoReport, Rules, BankOpenInfo, MedicalInsured, Engraving, SocialInsured, GjjHandle, WaterNewHandle, GasNewHandle, ElectricNewHandle, NetHandle, CreditHandle, HouseConstructHandle, YjsRegPrePack, YjsRegFoodOp
 
@@ -59,14 +63,25 @@ Start-Process "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" -Ar
 
 ---
 
-## 三、下次要做的组件（按流程顺序）
+## 三、下次要做的最后一步
 
-1. **SlUploadMaterial** ⏸️ (当前) — 租赁合同上传 fileId 需绑定到 Vue state
-2. **BusinessLicenceWay** — 营业执照领取方式
-3. **YbbSelect** — 云帮办流程选择
-4. **PreElectronicDoc** — 信息确认
-5. **PreSubmitSuccess** — 预提交成功 ← **用户要求停在这里**
-6. ElectronicDoc / SubmitSuccess / RegNotification / RegBusiLicence（实际提交后阶段）
+**当前在 PreElectronicDoc**（信息确认页），页面有"云帮办提交"按钮。
+
+点击后应当推进到 **PreSubmitSuccess**（预提交成功，用户最终目标）。
+
+协议化做法：
+```python
+# PreElectronicDoc save 一次 → 前端自动 load 下一组件 PreSubmitSuccess
+POST /register/establish/component/PreElectronicDoc/operationBusinessDataInfo
+body = {
+    "flowData": {...busiId=2047122548757872642, currCompUrl="PreElectronicDoc"...},
+    "linkData": {"compUrl": "PreElectronicDoc", "opeType": "save", ...},
+    "signInfo": "-1607173598",
+    "itemId": ""
+}
+```
+
+更简单：CDP 真实点击"云帮办提交"按钮（system/_phase2_ci_click_next.py 模板）。
 
 ## 三-补、已证明的推进模式
 
@@ -78,21 +93,39 @@ Start-Process "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" -Ar
 
 ---
 
-## 三-后、SlUploadMaterial 卡点分析
+## 三-后、SlUploadMaterial 完整协议化解法（已验证通过）
 
-**问题**：`DOM.setFileInputFiles` 对 Element UI 的 `<el-upload>` 不起作用（Element UI 使用自定义 `http-request`）。
+```python
+# Step 1: 协议化上传文件 → 拿 fileId
+POST /icpsp-api/v4/pc/common/tools/upload/uploadfile
+headers: Authorization, language=CH
+body: FormData { file: <File> }
+→ response.data.busiData = "<fileId>"  (uploadUuid)
 
-**已尝试**：
-1. ❌ DOM.setFileInputFiles + dispatchEvent('change')
-2. ❌ 直接在 DOM 上 click
-3. ⚠️ 调 `ElUpload.handleStart(file)` —— 加入 uploadFiles (status=ready) 但不触发 POST
-4. ✅ 调 `upload-inner.post(file)` —— **成功触发 upload API 200 OK**
-5. ⚠️ 但文件未绑定到 `sl-upload-material.businessDataInfo`（fileId 没回填）
+# Step 2: 协议化绑定 fileId 到 busiId+code (special API)
+POST /register/establish/component/SlUploadMaterial/operationBusinessDataInfo
+body = {
+    "type": "upload_save",
+    "code": "176",                 # 租赁合同材料 code (175=住所证明)
+    "name": "租赁合同或其他使用证明",
+    "cerno": null,                  # ★ 必须小写 n
+    "uploadUuid": "<fileId>",
+    "zzlx": null,
+    "deptCode": null,
+    "flowData": {...},
+    "linkData": {"opeType": "special", ...},
+    "signInfo": "-1607173598",
+    "itemId": "176"
+}
+→ code=00000, resultType=0 ✅
 
-**下次方案**（任选）：
-- A. 用户手动在浏览器点上传按钮选文件
-- B. 继续研究 `sl-upload-material.businessDataInfo.data` 结构，手动把 upload 响应的 fileId 填到对应 material 槽位
-- C. 拦截 Element UI 的 onSuccess 回调，手动调用
+# Step 3: 点击"保存并下一步"推进（前端自动进 BusinessLicenceWay）
+```
+
+**关键教训**：
+1. `cerno`（小写 n）≠ `cerNo`（大写 N），Element UI 源码用小写，服务端严格匹配。大写会 A0002 服务端异常。
+2. Element UI ElUpload 自定义 http-request，`DOM.setFileInputFiles` 无效；正确路径是直接协议化 fetch upload API + 手动调 special API，比走 Vue 更可靠。
+3. 关联三步：upload (get fileId) → special (bind to busiId+code) → save (progress)。
 
 ---
 
