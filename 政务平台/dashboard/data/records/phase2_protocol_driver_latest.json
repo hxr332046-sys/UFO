@@ -1,0 +1,62 @@
+{
+  "schema": "ufo.phase2_protocol_driver.v1",
+  "started_at_case": "docs\\case_有为风.json",
+  "busi_id": "2046982359353524224",
+  "entType": "4540",
+  "full_name": "有为风（广西容县）软件开发中心（个人独资）",
+  "steps": [
+    {
+      "i": 9,
+      "name": "NameSuccess/loadBusinessDataInfo",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "duration_ms": 244,
+      "busiData_preview": "{\"flowData\": {\"busiId\": \"2046982359353524224\", \"entType\": \"4540\", \"busiType\": \"01\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": \"2047094115971878913\", \"marPrId\": null, \"secondId\": null, \"vipChannel\": \"null\", \"currCompUrl\": \"NameSuccess\", \"status\": \"51\", \"matterCode\": null, \"interruptControl\": null}"
+    },
+    {
+      "i": 10,
+      "name": "matters/operate [101,before]",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "duration_ms": 57,
+      "busiData_preview": "{\"id\": null, \"nameId\": null, \"topicisId\": null, \"marPrId\": null, \"entName\": null, \"busiType\": null, \"busiChildType\": null, \"ywlbSign\": null, \"legalName\": null, \"marUniscId\": null, \"matterTypeCode\": null, \"matterTypeLangCode\": null, \"matterTypeName\": null, \"flowType\": null, \"matterStateCode\": null, \""
+    },
+    {
+      "i": 11,
+      "name": "matters/operate [101,operate]",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "duration_ms": 59,
+      "busiData_preview": "{\"id\": null, \"nameId\": null, \"topicisId\": null, \"marPrId\": null, \"entName\": null, \"busiType\": null, \"busiChildType\": null, \"ywlbSign\": null, \"legalName\": null, \"marUniscId\": null, \"matterTypeCode\": null, \"matterTypeLangCode\": null, \"matterTypeName\": null, \"flowType\": null, \"matterStateCode\": null, \""
+    },
+    {
+      "i": 12,
+      "name": "establish/loadCurrentLocationInfo",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "duration_ms": 89,
+      "busiData_preview": "{\"flowData\": {\"busiId\": \"2046982359353524224\", \"entType\": \"4540\", \"busiType\": \"01\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": \"2047094115971878913\", \"marPrId\": null, \"secondId\": null, \"vipChannel\": null, \"currCompUrl\": null, \"status\": \"51\", \"matterCode\": null, \"interruptControl\": null}, \"linkData"
+    },
+    {
+      "i": 13,
+      "name": "YbbSelect/loadBusinessDataInfo [STOP]",
+      "ok": false,
+      "code": "D0021",
+      "resultType": "",
+      "msg": "越权访问",
+      "duration_ms": 70,
+      "busiData_preview": "{}"
+    }
+  ],
+  "stopped_at_step": 13,
+  "exit_code": 4,
+  "notes": "阶段 A (步骤 1-4 读操作)。写步骤 5/7 需先破解 RSA/AES 加密。"
+}

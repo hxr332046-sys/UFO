@@ -1,0 +1,60 @@
+{
+  "ok": true,
+  "reason": "alive",
+  "checked_at": "2026-04-23 11:35:04",
+  "cdp_port": 9225,
+  "target_tab_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/member-pool",
+  "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/member-pool",
+  "hash": "#/flow/base/member-pool",
+  "title": "广西经营主体登记平台",
+  "ready_state": "complete",
+  "local_storage_keys": [
+    "Authorization",
+    "_topnet_AUTH_BTN_LIST",
+    "_topnet_allSysConfig",
+    "_topnet_cacheTime",
+    "_topnet_flowParams",
+    "_topnet_fromPage",
+    "_topnet_language",
+    "_topnet_languagePackage",
+    "_topnet_notShowGuide",
+    "_topnet_theme",
+    "_topnet_undefined",
+    "top-token"
+  ],
+  "likely_logged_in_storage": true,
+  "authorization": "13cab667…(len=32)",
+  "top_token": "20403a5f…(len=36)",
+  "user_name": "450921198812051251@123",
+  "guest_words": false,
+  "sso_failure_page": false,
+  "check_token": {
+    "status": 0,
+    "code": "",
+    "ok": false,
+    "msg": "NetworkError: Failed to execute 'send' on 'XMLHttpRequest': Failed to load 'https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/login/checkToken?_t=1776915304"
+  },
+  "get_user_info": {
+    "status": 0,
+    "code": "",
+    "ok": false,
+    "msg": "NetworkError: Failed to execute 'send' on 'XMLHttpRequest': Failed to load 'https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/user/getUserInfo?_t=1776915304"
+  },
+  "cache_ping": {
+    "status": 0,
+    "code": "",
+    "ok": false,
+    "msg": "NetworkError: Failed to execute 'send' on 'XMLHttpRequest': Failed to load 'https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/tools/getCacheCreateTim"
+  },
+  "runtime_auth_synced": true,
+  "tab_probe": [
+    {
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/member-pool",
+      "hint": {
+        "hasTaskCenter": true,
+        "guestHeaderLogin": false,
+        "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/member-pool"
+      }
+    }
+  ]
+}

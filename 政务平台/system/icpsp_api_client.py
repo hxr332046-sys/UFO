@@ -21,6 +21,7 @@ import requests
 MITM_DEFAULT = Path("G:/UFO/政务平台/dashboard/data/records/mitm_ufo_flows.jsonl")
 RECORDS_DIR = Path("G:/UFO/政务平台/dashboard/data/records")
 RUNTIME_AUTH_JSON = Path("G:/UFO/政务平台/packet_lab/out/runtime_auth_headers.json")
+HTTP_SESSION_PKL = Path("G:/UFO/政务平台/packet_lab/out/http_session_cookies.pkl")
 
 # 类浏览器指纹头：服务端某些接口（如 NameCheckInfo/operationBusinessDataInfo）会检查这组头，
 # 若缺失会返回 D0022（越权访问）。下面这组是 Edge Dev 149 + Windows 的默认值。
@@ -154,6 +155,19 @@ def pick_latest_auth_headers_auto(mitm_jsonl: Path = MITM_DEFAULT, records_dir: 
     raise RuntimeError("no auth headers from any source: " + "; ".join(errs))
 
 
+def _load_http_session_cookies() -> Optional[Any]:
+    """加载纯 HTTP 扫码登录后保存的 session cookies（含 9087 SESSION / SESSIONFORTYRZ）。
+    Phase 2 的 name/loadCurrentLocationInfo 等接口必须带 9087 SESSION。"""
+    if not HTTP_SESSION_PKL.exists():
+        return None
+    try:
+        import pickle
+        with open(HTTP_SESSION_PKL, "rb") as f:
+            return pickle.load(f)
+    except Exception:
+        return None
+
+
 @dataclass
 class ICPSPClient:
     mitm_jsonl: Path = MITM_DEFAULT
@@ -162,6 +176,15 @@ class ICPSPClient:
 
     def __post_init__(self) -> None:
         self.s = requests.Session()
+        self.s.verify = False
+        self.s.proxies = {"http": None, "https": None}
+        # 加载 pure-HTTP 登录保存的 session cookies（Phase 2 必需）
+        cj = _load_http_session_cookies()
+        if cj is not None:
+            try:
+                self.s.cookies = cj
+            except Exception:
+                pass
 
     def _headers(self) -> Dict[str, str]:
         h = pick_latest_auth_headers_auto(self.mitm_jsonl, RECORDS_DIR)
@@ -183,6 +206,11 @@ class ICPSPClient:
                 h[k] = v
             elif k == "User-Agent" and cur.strip() in ("Mozilla/5.0", "python-requests"):
                 h[k] = v
+        # session 已加载 pkl cookies，requests 会自动发送；
+        # 但若 header 已有 Cookie 字符串（来自 mitm 或旧逻辑），requests 会优先用 session cookies
+        # 所以删掉 header 里的 Cookie，让 session 管
+        if _load_http_session_cookies() is not None:
+            h.pop("Cookie", None)
         return h
 
     def get_json(self, path: str, params: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
@@ -196,9 +224,12 @@ class ICPSPClient:
         r.raise_for_status()
         return r.json()
 
-    def post_json(self, path: str, body: Dict[str, Any]) -> Dict[str, Any]:
+    def post_json(self, path: str, body: Dict[str, Any],
+                   extra_headers: Optional[Dict[str, str]] = None) -> Dict[str, Any]:
         url = self.base + path
         h = self._headers()
+        if extra_headers:
+            h.update(extra_headers)
         # keep a t param in url to mimic frontend; harmless
         if "?" not in url:
             url = url + f"?t={int(time.time()*1000)}"

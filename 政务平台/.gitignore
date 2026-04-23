@@ -30,6 +30,17 @@ _archive/
 *.sqlite
 *.sqlite3
 
+# mitm 抓包流量（含 RSA 加密身份证、token 等敏感数据）
+dashboard/data/records/mitm_*.jsonl
+
+# 下载的页面静态资源（core_assets 下 JS/CSS 快照）
+dashboard/data/records/core_assets/
+
+# 临时 debug 文件（下划线前缀约定）
+dashboard/data/records/_*.json
+dashboard/data/records/_*.txt
+system/_*.py
+
 # 系统文件
 Thumbs.db
 .DS_Store
