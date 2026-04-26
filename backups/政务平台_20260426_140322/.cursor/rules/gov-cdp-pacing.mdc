@@ -1,0 +1,24 @@
+---
+description: 广西政务平台 CDP 自动化节奏与顺序（政务平台仓库）
+globs: "**/*.py"
+---
+
+# CDP 政务自动化：顺序与节拍（固化）
+
+## 必须遵守
+
+1. **业务动作间隔**：每一次导航、点击、`Runtime.evaluate`、表单操作、**每个** `input[type=file]` 槽位注入之后，使用 **`sleep_human(...)`**；全局 **`min_delay_sec` 默认 ≥ 1.0**（见 `config/human_pacing.json`），代码见 `system/human_pacing.py`（非 `--human-fast` 不得低于 1s）。
+2. **顺序逻辑**：先观测（probe/snap/UI）再执行副作用；遵循 `packet_chain_portal_from_start` 主路径顺序，不跳步连点。
+3. **上传**：`system/cdp_attachment_upload.py` 在 `DOM.setFileInputFiles` **每个槽位后**已接 `sleep_human(1.0)`；新上传逻辑须保持「每槽一间隔」。
+4. **例外**：`wait_href` 轮询、CDP 重连退避可用 **短 `time.sleep`**，不改为 1s，避免死等。
+
+## 禁止
+
+- 在生产/9087 实网调试中使用 **`--human-fast`** 压速度。
+- 将 `min_delay_sec` 配置为小于 1.0（会被运行时抬回 1.0，且不应依赖该行为故意写低）。
+- **循环脚本 / 死循环式探测**：禁止用 `while True`（或无上限重试）对同一页连续点主按钮、连发导航或叠请求「试到成功为止」；易触发长时间风控。推进节奏必须是 **一步副作用 → `sleep_human` → 读反馈 → 再下一步**。
+- **并发**：禁止多进程/多连接对 9087 同时做带副作用的提交；业务有先后顺序时必须串行。详见 `docs/实网开发操作纪律_单步与风控.md`。
+
+## 入口
+
+- 脚本开头：`configure_human_pacing(ROOT / "config/human_pacing.json", fast=...)`

@@ -1,0 +1,36 @@
+{
+  "schema": "phase1_service.census.payload.v1",
+  "meta": {
+    "job_id": "businessModules",
+    "path": "/icpsp-api/v4/pc/register/guide/home/selectBusinessModules",
+    "params": {},
+    "dur_ms": 59,
+    "ts": 1776842509
+  },
+  "data": {
+    "code": "00000",
+    "data": {
+      "resultType": "0",
+      "msg": "",
+      "busiData": [
+        {
+          "code": "9600",
+          "name": "个体户",
+          "childType": null
+        },
+        {
+          "code": "1000",
+          "name": "企业",
+          "childType": null
+        },
+        {
+          "code": "9100",
+          "name": "农民合作社",
+          "childType": null
+        }
+      ]
+    },
+    "msg": "操作成功",
+    "page": null
+  }
+}

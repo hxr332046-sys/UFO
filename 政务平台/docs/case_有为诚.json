@@ -1,0 +1,48 @@
+{
+  "case_id": "rongxian_youweicheng_2026",
+  "source_doc": "docs/资料.txt",
+  "company_name_full": "广西有为诚有限公司",
+  "company_name_phase1_normalized": "有为诚（广西容县）软件开发中心（个人独资）",
+  "region_text": "广西容县",
+  "承办所_note": "厢西所，或容县区域内任选",
+  "capital_wan": 1,
+  "employees": 1,
+  "address_full": "广西壮族自治区玉林市容县容州镇车站西路富盛广场1幢3203号房",
+  "roles_note": "法人、财务、承办人、投资人等同一自然人",
+  "person": {
+    "name": "黄永裕",
+    "mobile": "18977514335",
+    "id_no": "450921198812051251",
+    "email": "344979990@qq.com"
+  },
+  "party": "非党员",
+  "politics_visage": "群众",
+  "property_use_mode": "租赁",
+  "house_to_bus": "否",
+  "assets": {
+    "property_cert": "G:\\YU\\资料\\住所证明.PDF",
+    "lease_contract": "G:\\YU\\资料\\微信图片_20260411104217_91_17.jpg",
+    "id_front": "G:\\YU\\资料\\身份证正面_副本.jpg",
+    "id_back": "G:\\YU\\资料\\身份证正面.jpg"
+  },
+  "phase2_invest_date": "2030-04-24",
+  "phase2_invest_money_yuan": "10000",
+  "run_goal": "端到端实战验证：新案例（有为诚，资本 1 万）跑到云提交停点，不提交",
+  "busiType_default": "02_4",
+  "entType_default": "4540",
+  "name_mark": "有为诚",
+  "phase1_name_pre": "广西容县",
+  "phase1_check_name": "有为诚（广西容县）软件开发中心（个人独资）",
+  "phase1_industry_special": "软件开发",
+  "phase1_industry_code": "6513",
+  "phase1_industry_name": "应用软件开发",
+  "phase1_main_business_desc": "软件开发",
+  "phase1_organize": "中心（个人独资）",
+  "phase1_dist_codes": [
+    "450000",
+    "450900",
+    "450921"
+  ],
+  "phase1_protocol_busi_type": "01",
+  "_note_phase1": "资料.txt 名称为'广西有为诚有限公司'但标注个人独资；个人独资企业不能叫'有限公司'，Phase1 使用规范化个人独资名称。行业继承已验证的 6513/应用软件开发。资本改为 1 万（10000 元）"
+}

@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C2823",
+        "saveHyCode": "2823",
+        "hyPecul": "腈纶纤维制造",
+        "hyTypeName": "腈纶纤维制造",
+        "enHyTypeName": null,
+        "explains": "也称聚丙烯腈纤维，指以丙烯腈为主要原料（含丙烯腈85%以上）生产合成纤维的活动。",
+        "includesTitle": "包括对下列腈纶纤维的制造活动：",
+        "includes": "腈纶短纤维：腈纶棉型短纤维、腈纶毛型短纤维、其他腈纶短纤维；腈纶长纤丝束。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "腈纶纤维",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

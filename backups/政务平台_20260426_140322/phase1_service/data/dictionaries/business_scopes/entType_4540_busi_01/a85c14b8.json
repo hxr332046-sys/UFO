@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C2453",
+        "saveHyCode": "2453",
+        "hyPecul": "金属玩具制造",
+        "hyTypeName": "金属玩具制造",
+        "enHyTypeName": null,
+        "explains": "指制造供14岁以下儿童玩耍的、玩具主体或主要玩耍部分由金属材料制成的，非预定承载儿童体重的非电玩具产品。",
+        "includesTitle": "包括下列金属玩具制造活动：",
+        "includes": "金属玩具车、飞机（非电动）；金属玩具枪；金属模型（非电动）：模型汽车、模型飞机、模型火车等；其他金属玩具（非电动）。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "金属玩具",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

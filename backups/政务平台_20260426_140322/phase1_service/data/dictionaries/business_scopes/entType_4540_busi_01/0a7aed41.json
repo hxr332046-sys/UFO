@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "A0152",
+        "saveHyCode": "0152",
+        "hyPecul": "葡萄种植",
+        "hyTypeName": "葡萄种植",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列葡萄的种植活动：",
+        "includes": "葡萄：巨峰葡萄、玫瑰香葡萄、白葡萄、龙眼葡萄、木纳格葡萄、红提葡萄、酿造葡萄、其他葡萄；葡萄籽；农户葡萄种植、加工一体的葡萄酒生产及葡萄产品加工。",
+        "unIncludes": "不包括：野生水果的采集，列入0252（非木竹材林产品采集）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "葡萄种植",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

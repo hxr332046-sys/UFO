@@ -1,0 +1,4334 @@
+{
+  "BasicInfo": {
+    "index": 1,
+    "label": "基本信息",
+    "compUrl": "BasicInfo",
+    "route": "basic-info",
+    "hash": "#/flow/base/basic-info",
+    "apiCalls": [],
+    "content_preview": "广西数字政务一体化平台\n首页\n全部服务\n**裕 \n办件中心\n长辈模式\n泽昕（广西容县）科技有限公司\n1\n名称信息\n2\n信息填报\n3\n信息确认\n4\n信息预审\n5\n电子签章\n6\n信息审核\n7\n告知书\n8\n营业执照\n1.\n基本信息\n2.\n成员架构\n3.\n成员信息\n4.\n补充信息\n5.\n章程\n6.\n银行开户\n7.\n医保登记\n8.\n刻制印章\n9.\n税务信息填报\n10.\n社保信息\n11.\n公积金\n12.\n材料补充\n13.\n营业执照领取\n14.\n云帮办流程模式选择\n注册信息\n企业名称：\n企业类型：\n注册资本：\n万元\n壹佰万元\n设立方式：\n一般新设\n分立新设\n合并新设\n从业人数：\n人\n核算方式：\n独立核算\n非独立核算\n经营期限：\n长期\n按年限\n更多 \n是否需要纸质营业执照：\n是\n否\n申请执照副本数量：\n个\n联系电话：\n邮政编码：\n住所/主要经营场所信息\n企业住所：\n详细地址：\n玉林市容县容州镇车站西路富盛",
+    "vuex": {
+      "storeKey": "basicInfo",
+      "found": true,
+      "keys": [
+        "manyCertObj",
+        "orgDataParams",
+        "showBusinessArea",
+        "secretaryServiceEnt",
+        "businessRegMode",
+        "zmqFlag",
+        "operatorNum",
+        "telephone",
+        "regOrg",
+        "regOrgName",
+        "postcode",
+        "copyCerNum",
+        "licenseRadio",
+        "accountType",
+        "busiPeriod"
+      ]
+    },
+    "fields": [
+      {
+        "label": "企业名称",
+        "required": true,
+        "type": "text",
+        "value": "泽昕（广西容县）科技有限公司",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业类型",
+        "required": true,
+        "type": "text",
+        "value": "[1151]有限责任公司（自然人独资）",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "注册资本",
+        "required": true,
+        "type": "text",
+        "value": "100.000000",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "设立方式",
+        "required": true,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "从业人数",
+        "required": true,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "核算方式",
+        "required": true,
+        "type": "radio",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营期限",
+        "required": false,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "是否需要纸质营业执照",
+        "required": false,
+        "type": "radio",
+        "value": "0",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "申请执照副本数量",
+        "required": false,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "联系电话",
+        "required": true,
+        "type": "text",
+        "value": "18977514335",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "邮政编码",
+        "required": true,
+        "type": "text",
+        "value": "537500",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业住所",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地址",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "其他经营地址",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "行业类型",
+        "required": true,
+        "type": "text",
+        "value": "[6513]应用软件开发",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营范围（许可经营项目）",
+        "required": true,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "多证合一",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "登记机关/市场监管所",
+        "required": true,
+        "type": "text",
+        "value": "",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      }
+    ],
+    "radioGroups": [
+      {
+        "label": "设立方式：",
+        "options": [
+          "一般新设",
+          "分立新设",
+          "合并新设"
+        ]
+      },
+      {
+        "label": "核算方式：",
+        "options": [
+          "独立核算",
+          "非独立核算"
+        ]
+      },
+      {
+        "label": "经营期限：",
+        "options": [
+          "长期",
+          "按年限"
+        ]
+      },
+      {
+        "label": "是否需要纸质营业执照：",
+        "options": [
+          "是",
+          "否"
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "MemberPost": {
+    "index": 2,
+    "label": "成员架构",
+    "compUrl": "MemberPost",
+    "route": "member-post",
+    "hash": "#/flow/base/basic-info",
+    "apiCalls": [],
+    "content_preview": "广西数字政务一体化平台\n首页\n全部服务\n**裕 \n办件中心\n长辈模式\n泽昕（广西容县）科技有限公司\n1\n名称信息\n2\n信息填报\n3\n信息确认\n4\n信息预审\n5\n电子签章\n6\n信息审核\n7\n告知书\n8\n营业执照\n1.\n基本信息\n2.\n成员架构\n3.\n成员信息\n4.\n补充信息\n5.\n章程\n6.\n银行开户\n7.\n医保登记\n8.\n刻制印章\n9.\n税务信息填报\n10.\n社保信息\n11.\n公积金\n12.\n材料补充\n13.\n营业执照领取\n14.\n云帮办流程模式选择\n注册信息\n企业名称：\n企业类型：\n注册资本：\n万元\n壹佰万元\n设立方式：\n一般新设\n分立新设\n合并新设\n从业人数：\n人\n核算方式：\n独立核算\n非独立核算\n经营期限：\n长期\n按年限\n更多 \n是否需要纸质营业执照：\n是\n否\n申请执照副本数量：\n个\n联系电话：\n邮政编码：\n住所/主要经营场所信息\n企业住所：\n详细地址：\n玉林市容县容州镇车站西路富盛",
+    "vuex": {
+      "storeKey": "memberPost",
+      "found": true,
+      "keys": [
+        "memberPostObj",
+        "entName",
+        "postList",
+        "personList",
+        "pkAndMem",
+        "board",
+        "boardSup",
+        "personInfo",
+        "memberBaseObj"
+      ]
+    },
+    "fields": [
+      {
+        "label": "企业名称",
+        "required": true,
+        "type": "text",
+        "value": "泽昕（广西容县）科技有限公司",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业类型",
+        "required": true,
+        "type": "text",
+        "value": "[1151]有限责任公司（自然人独资）",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "注册资本",
+        "required": true,
+        "type": "text",
+        "value": "100.000000",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "设立方式",
+        "required": true,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "从业人数",
+        "required": true,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "核算方式",
+        "required": true,
+        "type": "radio",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营期限",
+        "required": false,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "是否需要纸质营业执照",
+        "required": false,
+        "type": "radio",
+        "value": "0",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "申请执照副本数量",
+        "required": false,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "联系电话",
+        "required": true,
+        "type": "text",
+        "value": "18977514335",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "邮政编码",
+        "required": true,
+        "type": "text",
+        "value": "537500",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业住所",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地址",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "其他经营地址",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "行业类型",
+        "required": true,
+        "type": "text",
+        "value": "[6513]应用软件开发",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营范围（许可经营项目）",
+        "required": true,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "多证合一",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "登记机关/市场监管所",
+        "required": true,
+        "type": "text",
+        "value": "",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      }
+    ],
+    "radioGroups": [
+      {
+        "label": "设立方式：",
+        "options": [
+          "一般新设",
+          "分立新设",
+          "合并新设"
+        ]
+      },
+      {
+        "label": "核算方式：",
+        "options": [
+          "独立核算",
+          "非独立核算"
+        ]
+      },
+      {
+        "label": "经营期限：",
+        "options": [
+          "长期",
+          "按年限"
+        ]
+      },
+      {
+        "label": "是否需要纸质营业执照：",
+        "options": [
+          "是",
+          "否"
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "MemberPool": {
+    "index": 3,
+    "label": "成员信息",
+    "compUrl": "MemberPool",
+    "route": "member-pool",
+    "hash": "#/flow/base/basic-info",
+    "apiCalls": [],
+    "content_preview": "广西数字政务一体化平台\n首页\n全部服务\n**裕 \n办件中心\n长辈模式\n泽昕（广西容县）科技有限公司\n1\n名称信息\n2\n信息填报\n3\n信息确认\n4\n信息预审\n5\n电子签章\n6\n信息审核\n7\n告知书\n8\n营业执照\n1.\n基本信息\n2.\n成员架构\n3.\n成员信息\n4.\n补充信息\n5.\n章程\n6.\n银行开户\n7.\n医保登记\n8.\n刻制印章\n9.\n税务信息填报\n10.\n社保信息\n11.\n公积金\n12.\n材料补充\n13.\n营业执照领取\n14.\n云帮办流程模式选择\n注册信息\n企业名称：\n企业类型：\n注册资本：\n万元\n壹佰万元\n设立方式：\n一般新设\n分立新设\n合并新设\n从业人数：\n人\n核算方式：\n独立核算\n非独立核算\n经营期限：\n长期\n按年限\n更多 \n是否需要纸质营业执照：\n是\n否\n申请执照副本数量：\n个\n联系电话：\n邮政编码：\n住所/主要经营场所信息\n企业住所：\n详细地址：\n玉林市容县容州镇车站西路富盛",
+    "vuex": {
+      "storeKey": "memberInfo",
+      "found": true,
+      "keys": [
+        "memberPostObj",
+        "postObj",
+        "perponList",
+        "address",
+        "mobile",
+        "email",
+        "nationality",
+        "birthday",
+        "issuingAuthority",
+        "idCardStartDate",
+        "idCardEndDate"
+      ]
+    },
+    "fields": [
+      {
+        "label": "企业名称",
+        "required": true,
+        "type": "text",
+        "value": "泽昕（广西容县）科技有限公司",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业类型",
+        "required": true,
+        "type": "text",
+        "value": "[1151]有限责任公司（自然人独资）",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "注册资本",
+        "required": true,
+        "type": "text",
+        "value": "100.000000",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "设立方式",
+        "required": true,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "从业人数",
+        "required": true,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "核算方式",
+        "required": true,
+        "type": "radio",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营期限",
+        "required": false,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "是否需要纸质营业执照",
+        "required": false,
+        "type": "radio",
+        "value": "0",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "申请执照副本数量",
+        "required": false,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "联系电话",
+        "required": true,
+        "type": "text",
+        "value": "18977514335",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "邮政编码",
+        "required": true,
+        "type": "text",
+        "value": "537500",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业住所",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地址",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "其他经营地址",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "行业类型",
+        "required": true,
+        "type": "text",
+        "value": "[6513]应用软件开发",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营范围（许可经营项目）",
+        "required": true,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "多证合一",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "登记机关/市场监管所",
+        "required": true,
+        "type": "text",
+        "value": "",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      }
+    ],
+    "radioGroups": [
+      {
+        "label": "设立方式：",
+        "options": [
+          "一般新设",
+          "分立新设",
+          "合并新设"
+        ]
+      },
+      {
+        "label": "核算方式：",
+        "options": [
+          "独立核算",
+          "非独立核算"
+        ]
+      },
+      {
+        "label": "经营期限：",
+        "options": [
+          "长期",
+          "按年限"
+        ]
+      },
+      {
+        "label": "是否需要纸质营业执照：",
+        "options": [
+          "是",
+          "否"
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "ComplementInfo": {
+    "index": 4,
+    "label": "补充信息",
+    "compUrl": "ComplementInfo",
+    "route": "complement-info",
+    "hash": "#/flow/base/basic-info",
+    "apiCalls": [],
+    "content_preview": "广西数字政务一体化平台\n首页\n全部服务\n**裕 \n办件中心\n长辈模式\n泽昕（广西容县）科技有限公司\n1\n名称信息\n2\n信息填报\n3\n信息确认\n4\n信息预审\n5\n电子签章\n6\n信息审核\n7\n告知书\n8\n营业执照\n1.\n基本信息\n2.\n成员架构\n3.\n成员信息\n4.\n补充信息\n5.\n章程\n6.\n银行开户\n7.\n医保登记\n8.\n刻制印章\n9.\n税务信息填报\n10.\n社保信息\n11.\n公积金\n12.\n材料补充\n13.\n营业执照领取\n14.\n云帮办流程模式选择\n注册信息\n企业名称：\n企业类型：\n注册资本：\n万元\n壹佰万元\n设立方式：\n一般新设\n分立新设\n合并新设\n从业人数：\n人\n核算方式：\n独立核算\n非独立核算\n经营期限：\n长期\n按年限\n更多 \n是否需要纸质营业执照：\n是\n否\n申请执照副本数量：\n个\n联系电话：\n邮政编码：\n住所/主要经营场所信息\n企业住所：\n详细地址：\n玉林市容县容州镇车站西路富盛",
+    "vuex": {
+      "storeKey": "complementInfo",
+      "found": false
+    },
+    "fields": [
+      {
+        "label": "企业名称",
+        "required": true,
+        "type": "text",
+        "value": "泽昕（广西容县）科技有限公司",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业类型",
+        "required": true,
+        "type": "text",
+        "value": "[1151]有限责任公司（自然人独资）",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "注册资本",
+        "required": true,
+        "type": "text",
+        "value": "100.000000",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "设立方式",
+        "required": true,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "从业人数",
+        "required": true,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "核算方式",
+        "required": true,
+        "type": "radio",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营期限",
+        "required": false,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "是否需要纸质营业执照",
+        "required": false,
+        "type": "radio",
+        "value": "0",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "申请执照副本数量",
+        "required": false,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "联系电话",
+        "required": true,
+        "type": "text",
+        "value": "18977514335",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "邮政编码",
+        "required": true,
+        "type": "text",
+        "value": "537500",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业住所",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地址",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "其他经营地址",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "行业类型",
+        "required": true,
+        "type": "text",
+        "value": "[6513]应用软件开发",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营范围（许可经营项目）",
+        "required": true,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "多证合一",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "登记机关/市场监管所",
+        "required": true,
+        "type": "text",
+        "value": "",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      }
+    ],
+    "radioGroups": [
+      {
+        "label": "设立方式：",
+        "options": [
+          "一般新设",
+          "分立新设",
+          "合并新设"
+        ]
+      },
+      {
+        "label": "核算方式：",
+        "options": [
+          "独立核算",
+          "非独立核算"
+        ]
+      },
+      {
+        "label": "经营期限：",
+        "options": [
+          "长期",
+          "按年限"
+        ]
+      },
+      {
+        "label": "是否需要纸质营业执照：",
+        "options": [
+          "是",
+          "否"
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "Rules": {
+    "index": 5,
+    "label": "章程",
+    "compUrl": "Rules",
+    "route": "rules",
+    "hash": "#/flow/base/basic-info",
+    "apiCalls": [],
+    "content_preview": "广西数字政务一体化平台\n首页\n全部服务\n**裕 \n办件中心\n长辈模式\n泽昕（广西容县）科技有限公司\n1\n名称信息\n2\n信息填报\n3\n信息确认\n4\n信息预审\n5\n电子签章\n6\n信息审核\n7\n告知书\n8\n营业执照\n1.\n基本信息\n2.\n成员架构\n3.\n成员信息\n4.\n补充信息\n5.\n章程\n6.\n银行开户\n7.\n医保登记\n8.\n刻制印章\n9.\n税务信息填报\n10.\n社保信息\n11.\n公积金\n12.\n材料补充\n13.\n营业执照领取\n14.\n云帮办流程模式选择\n注册信息\n企业名称：\n企业类型：\n注册资本：\n万元\n壹佰万元\n设立方式：\n一般新设\n分立新设\n合并新设\n从业人数：\n人\n核算方式：\n独立核算\n非独立核算\n经营期限：\n长期\n按年限\n更多 \n是否需要纸质营业执照：\n是\n否\n申请执照副本数量：\n个\n联系电话：\n邮政编码：\n住所/主要经营场所信息\n企业住所：\n详细地址：\n玉林市容县容州镇车站西路富盛",
+    "vuex": {
+      "storeKey": "rule",
+      "found": true,
+      "keys": [
+        "ruleHtml",
+        "ruleSuppleHtml"
+      ]
+    },
+    "fields": [
+      {
+        "label": "企业名称",
+        "required": true,
+        "type": "text",
+        "value": "泽昕（广西容县）科技有限公司",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业类型",
+        "required": true,
+        "type": "text",
+        "value": "[1151]有限责任公司（自然人独资）",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "注册资本",
+        "required": true,
+        "type": "text",
+        "value": "100.000000",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "设立方式",
+        "required": true,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "从业人数",
+        "required": true,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "核算方式",
+        "required": true,
+        "type": "radio",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营期限",
+        "required": false,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "是否需要纸质营业执照",
+        "required": false,
+        "type": "radio",
+        "value": "0",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "申请执照副本数量",
+        "required": false,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "联系电话",
+        "required": true,
+        "type": "text",
+        "value": "18977514335",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "邮政编码",
+        "required": true,
+        "type": "text",
+        "value": "537500",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业住所",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地址",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "其他经营地址",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "行业类型",
+        "required": true,
+        "type": "text",
+        "value": "[6513]应用软件开发",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营范围（许可经营项目）",
+        "required": true,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "多证合一",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "登记机关/市场监管所",
+        "required": true,
+        "type": "text",
+        "value": "",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      }
+    ],
+    "radioGroups": [
+      {
+        "label": "设立方式：",
+        "options": [
+          "一般新设",
+          "分立新设",
+          "合并新设"
+        ]
+      },
+      {
+        "label": "核算方式：",
+        "options": [
+          "独立核算",
+          "非独立核算"
+        ]
+      },
+      {
+        "label": "经营期限：",
+        "options": [
+          "长期",
+          "按年限"
+        ]
+      },
+      {
+        "label": "是否需要纸质营业执照：",
+        "options": [
+          "是",
+          "否"
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "BankOpenInfo": {
+    "index": 6,
+    "label": "银行开户",
+    "compUrl": "BankOpenInfo",
+    "route": "bank-open-info",
+    "hash": "#/flow/base/basic-info",
+    "apiCalls": [],
+    "content_preview": "广西数字政务一体化平台\n首页\n全部服务\n**裕 \n办件中心\n长辈模式\n泽昕（广西容县）科技有限公司\n1\n名称信息\n2\n信息填报\n3\n信息确认\n4\n信息预审\n5\n电子签章\n6\n信息审核\n7\n告知书\n8\n营业执照\n1.\n基本信息\n2.\n成员架构\n3.\n成员信息\n4.\n补充信息\n5.\n章程\n6.\n银行开户\n7.\n医保登记\n8.\n刻制印章\n9.\n税务信息填报\n10.\n社保信息\n11.\n公积金\n12.\n材料补充\n13.\n营业执照领取\n14.\n云帮办流程模式选择\n注册信息\n企业名称：\n企业类型：\n注册资本：\n万元\n壹佰万元\n设立方式：\n一般新设\n分立新设\n合并新设\n从业人数：\n人\n核算方式：\n独立核算\n非独立核算\n经营期限：\n长期\n按年限\n更多 \n是否需要纸质营业执照：\n是\n否\n申请执照副本数量：\n个\n联系电话：\n邮政编码：\n住所/主要经营场所信息\n企业住所：\n详细地址：\n玉林市容县容州镇车站西路富盛",
+    "vuex": {
+      "storeKey": "bankOpenInfo",
+      "found": true,
+      "keys": [
+        "oneStopProcessing"
+      ]
+    },
+    "fields": [
+      {
+        "label": "企业名称",
+        "required": true,
+        "type": "text",
+        "value": "泽昕（广西容县）科技有限公司",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业类型",
+        "required": true,
+        "type": "text",
+        "value": "[1151]有限责任公司（自然人独资）",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "注册资本",
+        "required": true,
+        "type": "text",
+        "value": "100.000000",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "设立方式",
+        "required": true,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "从业人数",
+        "required": true,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "核算方式",
+        "required": true,
+        "type": "radio",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营期限",
+        "required": false,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "是否需要纸质营业执照",
+        "required": false,
+        "type": "radio",
+        "value": "0",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "申请执照副本数量",
+        "required": false,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "联系电话",
+        "required": true,
+        "type": "text",
+        "value": "18977514335",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "邮政编码",
+        "required": true,
+        "type": "text",
+        "value": "537500",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业住所",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地址",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "其他经营地址",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "行业类型",
+        "required": true,
+        "type": "text",
+        "value": "[6513]应用软件开发",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营范围（许可经营项目）",
+        "required": true,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "多证合一",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "登记机关/市场监管所",
+        "required": true,
+        "type": "text",
+        "value": "",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      }
+    ],
+    "radioGroups": [
+      {
+        "label": "设立方式：",
+        "options": [
+          "一般新设",
+          "分立新设",
+          "合并新设"
+        ]
+      },
+      {
+        "label": "核算方式：",
+        "options": [
+          "独立核算",
+          "非独立核算"
+        ]
+      },
+      {
+        "label": "经营期限：",
+        "options": [
+          "长期",
+          "按年限"
+        ]
+      },
+      {
+        "label": "是否需要纸质营业执照：",
+        "options": [
+          "是",
+          "否"
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "MedicalInsured": {
+    "index": 7,
+    "label": "医保登记",
+    "compUrl": "MedicalInsured",
+    "route": "medical-insured",
+    "hash": "#/flow/base/basic-info",
+    "apiCalls": [],
+    "content_preview": "广西数字政务一体化平台\n首页\n全部服务\n**裕 \n办件中心\n长辈模式\n泽昕（广西容县）科技有限公司\n1\n名称信息\n2\n信息填报\n3\n信息确认\n4\n信息预审\n5\n电子签章\n6\n信息审核\n7\n告知书\n8\n营业执照\n1.\n基本信息\n2.\n成员架构\n3.\n成员信息\n4.\n补充信息\n5.\n章程\n6.\n银行开户\n7.\n医保登记\n8.\n刻制印章\n9.\n税务信息填报\n10.\n社保信息\n11.\n公积金\n12.\n材料补充\n13.\n营业执照领取\n14.\n云帮办流程模式选择\n注册信息\n企业名称：\n企业类型：\n注册资本：\n万元\n壹佰万元\n设立方式：\n一般新设\n分立新设\n合并新设\n从业人数：\n人\n核算方式：\n独立核算\n非独立核算\n经营期限：\n长期\n按年限\n更多 \n是否需要纸质营业执照：\n是\n否\n申请执照副本数量：\n个\n联系电话：\n邮政编码：\n住所/主要经营场所信息\n企业住所：\n详细地址：\n玉林市容县容州镇车站西路富盛",
+    "vuex": {
+      "storeKey": "medicalInsured",
+      "found": false
+    },
+    "fields": [
+      {
+        "label": "企业名称",
+        "required": true,
+        "type": "text",
+        "value": "泽昕（广西容县）科技有限公司",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业类型",
+        "required": true,
+        "type": "text",
+        "value": "[1151]有限责任公司（自然人独资）",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "注册资本",
+        "required": true,
+        "type": "text",
+        "value": "100.000000",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "设立方式",
+        "required": true,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "从业人数",
+        "required": true,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "核算方式",
+        "required": true,
+        "type": "radio",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营期限",
+        "required": false,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "是否需要纸质营业执照",
+        "required": false,
+        "type": "radio",
+        "value": "0",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "申请执照副本数量",
+        "required": false,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "联系电话",
+        "required": true,
+        "type": "text",
+        "value": "18977514335",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "邮政编码",
+        "required": true,
+        "type": "text",
+        "value": "537500",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业住所",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地址",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "其他经营地址",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "行业类型",
+        "required": true,
+        "type": "text",
+        "value": "[6513]应用软件开发",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营范围（许可经营项目）",
+        "required": true,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "多证合一",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "登记机关/市场监管所",
+        "required": true,
+        "type": "text",
+        "value": "",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      }
+    ],
+    "radioGroups": [
+      {
+        "label": "设立方式：",
+        "options": [
+          "一般新设",
+          "分立新设",
+          "合并新设"
+        ]
+      },
+      {
+        "label": "核算方式：",
+        "options": [
+          "独立核算",
+          "非独立核算"
+        ]
+      },
+      {
+        "label": "经营期限：",
+        "options": [
+          "长期",
+          "按年限"
+        ]
+      },
+      {
+        "label": "是否需要纸质营业执照：",
+        "options": [
+          "是",
+          "否"
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "Engraving": {
+    "index": 8,
+    "label": "刻制印章",
+    "compUrl": "Engraving",
+    "route": "engraving",
+    "hash": "#/flow/base/basic-info",
+    "apiCalls": [],
+    "content_preview": "广西数字政务一体化平台\n首页\n全部服务\n**裕 \n办件中心\n长辈模式\n泽昕（广西容县）科技有限公司\n1\n名称信息\n2\n信息填报\n3\n信息确认\n4\n信息预审\n5\n电子签章\n6\n信息审核\n7\n告知书\n8\n营业执照\n1.\n基本信息\n2.\n成员架构\n3.\n成员信息\n4.\n补充信息\n5.\n章程\n6.\n银行开户\n7.\n医保登记\n8.\n刻制印章\n9.\n税务信息填报\n10.\n社保信息\n11.\n公积金\n12.\n材料补充\n13.\n营业执照领取\n14.\n云帮办流程模式选择\n注册信息\n企业名称：\n企业类型：\n注册资本：\n万元\n壹佰万元\n设立方式：\n一般新设\n分立新设\n合并新设\n从业人数：\n人\n核算方式：\n独立核算\n非独立核算\n经营期限：\n长期\n按年限\n更多 \n是否需要纸质营业执照：\n是\n否\n申请执照副本数量：\n个\n联系电话：\n邮政编码：\n住所/主要经营场所信息\n企业住所：\n详细地址：\n玉林市容县容州镇车站西路富盛",
+    "vuex": {
+      "storeKey": "engraving",
+      "found": false
+    },
+    "fields": [
+      {
+        "label": "企业名称",
+        "required": true,
+        "type": "text",
+        "value": "泽昕（广西容县）科技有限公司",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业类型",
+        "required": true,
+        "type": "text",
+        "value": "[1151]有限责任公司（自然人独资）",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "注册资本",
+        "required": true,
+        "type": "text",
+        "value": "100.000000",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "设立方式",
+        "required": true,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "从业人数",
+        "required": true,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "核算方式",
+        "required": true,
+        "type": "radio",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营期限",
+        "required": false,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "是否需要纸质营业执照",
+        "required": false,
+        "type": "radio",
+        "value": "0",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "申请执照副本数量",
+        "required": false,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "联系电话",
+        "required": true,
+        "type": "text",
+        "value": "18977514335",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "邮政编码",
+        "required": true,
+        "type": "text",
+        "value": "537500",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业住所",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地址",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "其他经营地址",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "行业类型",
+        "required": true,
+        "type": "text",
+        "value": "[6513]应用软件开发",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营范围（许可经营项目）",
+        "required": true,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "多证合一",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "登记机关/市场监管所",
+        "required": true,
+        "type": "text",
+        "value": "",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      }
+    ],
+    "radioGroups": [
+      {
+        "label": "设立方式：",
+        "options": [
+          "一般新设",
+          "分立新设",
+          "合并新设"
+        ]
+      },
+      {
+        "label": "核算方式：",
+        "options": [
+          "独立核算",
+          "非独立核算"
+        ]
+      },
+      {
+        "label": "经营期限：",
+        "options": [
+          "长期",
+          "按年限"
+        ]
+      },
+      {
+        "label": "是否需要纸质营业执照：",
+        "options": [
+          "是",
+          "否"
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "TaxInvoice": {
+    "index": 9,
+    "label": "税务信息填报",
+    "compUrl": "TaxInvoice",
+    "route": "tax-invoice",
+    "hash": "#/flow/base/basic-info",
+    "apiCalls": [],
+    "content_preview": "广西数字政务一体化平台\n首页\n全部服务\n**裕 \n办件中心\n长辈模式\n泽昕（广西容县）科技有限公司\n1\n名称信息\n2\n信息填报\n3\n信息确认\n4\n信息预审\n5\n电子签章\n6\n信息审核\n7\n告知书\n8\n营业执照\n1.\n基本信息\n2.\n成员架构\n3.\n成员信息\n4.\n补充信息\n5.\n章程\n6.\n银行开户\n7.\n医保登记\n8.\n刻制印章\n9.\n税务信息填报\n10.\n社保信息\n11.\n公积金\n12.\n材料补充\n13.\n营业执照领取\n14.\n云帮办流程模式选择\n注册信息\n企业名称：\n企业类型：\n注册资本：\n万元\n壹佰万元\n设立方式：\n一般新设\n分立新设\n合并新设\n从业人数：\n人\n核算方式：\n独立核算\n非独立核算\n经营期限：\n长期\n按年限\n更多 \n是否需要纸质营业执照：\n是\n否\n申请执照副本数量：\n个\n联系电话：\n邮政编码：\n住所/主要经营场所信息\n企业住所：\n详细地址：\n玉林市容县容州镇车站西路富盛",
+    "vuex": {
+      "storeKey": "taxInvoice",
+      "found": false
+    },
+    "fields": [
+      {
+        "label": "企业名称",
+        "required": true,
+        "type": "text",
+        "value": "泽昕（广西容县）科技有限公司",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业类型",
+        "required": true,
+        "type": "text",
+        "value": "[1151]有限责任公司（自然人独资）",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "注册资本",
+        "required": true,
+        "type": "text",
+        "value": "100.000000",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "设立方式",
+        "required": true,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "从业人数",
+        "required": true,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "核算方式",
+        "required": true,
+        "type": "radio",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营期限",
+        "required": false,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "是否需要纸质营业执照",
+        "required": false,
+        "type": "radio",
+        "value": "0",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "申请执照副本数量",
+        "required": false,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "联系电话",
+        "required": true,
+        "type": "text",
+        "value": "18977514335",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "邮政编码",
+        "required": true,
+        "type": "text",
+        "value": "537500",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业住所",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地址",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "其他经营地址",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "行业类型",
+        "required": true,
+        "type": "text",
+        "value": "[6513]应用软件开发",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营范围（许可经营项目）",
+        "required": true,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "多证合一",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "登记机关/市场监管所",
+        "required": true,
+        "type": "text",
+        "value": "",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      }
+    ],
+    "radioGroups": [
+      {
+        "label": "设立方式：",
+        "options": [
+          "一般新设",
+          "分立新设",
+          "合并新设"
+        ]
+      },
+      {
+        "label": "核算方式：",
+        "options": [
+          "独立核算",
+          "非独立核算"
+        ]
+      },
+      {
+        "label": "经营期限：",
+        "options": [
+          "长期",
+          "按年限"
+        ]
+      },
+      {
+        "label": "是否需要纸质营业执照：",
+        "options": [
+          "是",
+          "否"
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "SocialInsured": {
+    "index": 10,
+    "label": "社保信息",
+    "compUrl": "SocialInsured",
+    "route": "social-insured",
+    "hash": "#/flow/base/basic-info",
+    "apiCalls": [],
+    "content_preview": "广西数字政务一体化平台\n首页\n全部服务\n**裕 \n办件中心\n长辈模式\n泽昕（广西容县）科技有限公司\n1\n名称信息\n2\n信息填报\n3\n信息确认\n4\n信息预审\n5\n电子签章\n6\n信息审核\n7\n告知书\n8\n营业执照\n1.\n基本信息\n2.\n成员架构\n3.\n成员信息\n4.\n补充信息\n5.\n章程\n6.\n银行开户\n7.\n医保登记\n8.\n刻制印章\n9.\n税务信息填报\n10.\n社保信息\n11.\n公积金\n12.\n材料补充\n13.\n营业执照领取\n14.\n云帮办流程模式选择\n注册信息\n企业名称：\n企业类型：\n注册资本：\n万元\n壹佰万元\n设立方式：\n一般新设\n分立新设\n合并新设\n从业人数：\n人\n核算方式：\n独立核算\n非独立核算\n经营期限：\n长期\n按年限\n更多 \n是否需要纸质营业执照：\n是\n否\n申请执照副本数量：\n个\n联系电话：\n邮政编码：\n住所/主要经营场所信息\n企业住所：\n详细地址：\n玉林市容县容州镇车站西路富盛",
+    "vuex": {
+      "storeKey": "socialInsured",
+      "found": false
+    },
+    "fields": [
+      {
+        "label": "企业名称",
+        "required": true,
+        "type": "text",
+        "value": "泽昕（广西容县）科技有限公司",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业类型",
+        "required": true,
+        "type": "text",
+        "value": "[1151]有限责任公司（自然人独资）",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "注册资本",
+        "required": true,
+        "type": "text",
+        "value": "100.000000",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "设立方式",
+        "required": true,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "从业人数",
+        "required": true,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "核算方式",
+        "required": true,
+        "type": "radio",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营期限",
+        "required": false,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "是否需要纸质营业执照",
+        "required": false,
+        "type": "radio",
+        "value": "0",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "申请执照副本数量",
+        "required": false,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "联系电话",
+        "required": true,
+        "type": "text",
+        "value": "18977514335",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "邮政编码",
+        "required": true,
+        "type": "text",
+        "value": "537500",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业住所",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地址",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "其他经营地址",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "行业类型",
+        "required": true,
+        "type": "text",
+        "value": "[6513]应用软件开发",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营范围（许可经营项目）",
+        "required": true,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "多证合一",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "登记机关/市场监管所",
+        "required": true,
+        "type": "text",
+        "value": "",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      }
+    ],
+    "radioGroups": [
+      {
+        "label": "设立方式：",
+        "options": [
+          "一般新设",
+          "分立新设",
+          "合并新设"
+        ]
+      },
+      {
+        "label": "核算方式：",
+        "options": [
+          "独立核算",
+          "非独立核算"
+        ]
+      },
+      {
+        "label": "经营期限：",
+        "options": [
+          "长期",
+          "按年限"
+        ]
+      },
+      {
+        "label": "是否需要纸质营业执照：",
+        "options": [
+          "是",
+          "否"
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "GjjHandle": {
+    "index": 11,
+    "label": "公积金",
+    "compUrl": "GjjHandle",
+    "route": "gjj-handle",
+    "hash": "#/flow/base/basic-info",
+    "apiCalls": [],
+    "content_preview": "广西数字政务一体化平台\n首页\n全部服务\n**裕 \n办件中心\n长辈模式\n泽昕（广西容县）科技有限公司\n1\n名称信息\n2\n信息填报\n3\n信息确认\n4\n信息预审\n5\n电子签章\n6\n信息审核\n7\n告知书\n8\n营业执照\n1.\n基本信息\n2.\n成员架构\n3.\n成员信息\n4.\n补充信息\n5.\n章程\n6.\n银行开户\n7.\n医保登记\n8.\n刻制印章\n9.\n税务信息填报\n10.\n社保信息\n11.\n公积金\n12.\n材料补充\n13.\n营业执照领取\n14.\n云帮办流程模式选择\n注册信息\n企业名称：\n企业类型：\n注册资本：\n万元\n壹佰万元\n设立方式：\n一般新设\n分立新设\n合并新设\n从业人数：\n人\n核算方式：\n独立核算\n非独立核算\n经营期限：\n长期\n按年限\n更多 \n是否需要纸质营业执照：\n是\n否\n申请执照副本数量：\n个\n联系电话：\n邮政编码：\n住所/主要经营场所信息\n企业住所：\n详细地址：\n玉林市容县容州镇车站西路富盛",
+    "vuex": {
+      "storeKey": "gjjHandle",
+      "found": false
+    },
+    "fields": [
+      {
+        "label": "企业名称",
+        "required": true,
+        "type": "text",
+        "value": "泽昕（广西容县）科技有限公司",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业类型",
+        "required": true,
+        "type": "text",
+        "value": "[1151]有限责任公司（自然人独资）",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "注册资本",
+        "required": true,
+        "type": "text",
+        "value": "100.000000",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "设立方式",
+        "required": true,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "从业人数",
+        "required": true,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "核算方式",
+        "required": true,
+        "type": "radio",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营期限",
+        "required": false,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "是否需要纸质营业执照",
+        "required": false,
+        "type": "radio",
+        "value": "0",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "申请执照副本数量",
+        "required": false,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "联系电话",
+        "required": true,
+        "type": "text",
+        "value": "18977514335",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "邮政编码",
+        "required": true,
+        "type": "text",
+        "value": "537500",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业住所",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地址",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "其他经营地址",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "行业类型",
+        "required": true,
+        "type": "text",
+        "value": "[6513]应用软件开发",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营范围（许可经营项目）",
+        "required": true,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "多证合一",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "登记机关/市场监管所",
+        "required": true,
+        "type": "text",
+        "value": "",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      }
+    ],
+    "radioGroups": [
+      {
+        "label": "设立方式：",
+        "options": [
+          "一般新设",
+          "分立新设",
+          "合并新设"
+        ]
+      },
+      {
+        "label": "核算方式：",
+        "options": [
+          "独立核算",
+          "非独立核算"
+        ]
+      },
+      {
+        "label": "经营期限：",
+        "options": [
+          "长期",
+          "按年限"
+        ]
+      },
+      {
+        "label": "是否需要纸质营业执照：",
+        "options": [
+          "是",
+          "否"
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "SlUploadMaterial": {
+    "index": 12,
+    "label": "材料补充",
+    "compUrl": "SlUploadMaterial",
+    "route": "sl-upload-material",
+    "hash": "#/flow/base/basic-info",
+    "apiCalls": [],
+    "content_preview": "广西数字政务一体化平台\n首页\n全部服务\n**裕 \n办件中心\n长辈模式\n泽昕（广西容县）科技有限公司\n1\n名称信息\n2\n信息填报\n3\n信息确认\n4\n信息预审\n5\n电子签章\n6\n信息审核\n7\n告知书\n8\n营业执照\n1.\n基本信息\n2.\n成员架构\n3.\n成员信息\n4.\n补充信息\n5.\n章程\n6.\n银行开户\n7.\n医保登记\n8.\n刻制印章\n9.\n税务信息填报\n10.\n社保信息\n11.\n公积金\n12.\n材料补充\n13.\n营业执照领取\n14.\n云帮办流程模式选择\n注册信息\n企业名称：\n企业类型：\n注册资本：\n万元\n壹佰万元\n设立方式：\n一般新设\n分立新设\n合并新设\n从业人数：\n人\n核算方式：\n独立核算\n非独立核算\n经营期限：\n长期\n按年限\n更多 \n是否需要纸质营业执照：\n是\n否\n申请执照副本数量：\n个\n联系电话：\n邮政编码：\n住所/主要经营场所信息\n企业住所：\n详细地址：\n玉林市容县容州镇车站西路富盛",
+    "vuex": {
+      "storeKey": "slUploadMaterial",
+      "found": false
+    },
+    "fields": [
+      {
+        "label": "企业名称",
+        "required": true,
+        "type": "text",
+        "value": "泽昕（广西容县）科技有限公司",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业类型",
+        "required": true,
+        "type": "text",
+        "value": "[1151]有限责任公司（自然人独资）",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "注册资本",
+        "required": true,
+        "type": "text",
+        "value": "100.000000",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "设立方式",
+        "required": true,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "从业人数",
+        "required": true,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "核算方式",
+        "required": true,
+        "type": "radio",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营期限",
+        "required": false,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "是否需要纸质营业执照",
+        "required": false,
+        "type": "radio",
+        "value": "0",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "申请执照副本数量",
+        "required": false,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "联系电话",
+        "required": true,
+        "type": "text",
+        "value": "18977514335",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "邮政编码",
+        "required": true,
+        "type": "text",
+        "value": "537500",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业住所",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地址",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "其他经营地址",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "行业类型",
+        "required": true,
+        "type": "text",
+        "value": "[6513]应用软件开发",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营范围（许可经营项目）",
+        "required": true,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "多证合一",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "登记机关/市场监管所",
+        "required": true,
+        "type": "text",
+        "value": "",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      }
+    ],
+    "radioGroups": [
+      {
+        "label": "设立方式：",
+        "options": [
+          "一般新设",
+          "分立新设",
+          "合并新设"
+        ]
+      },
+      {
+        "label": "核算方式：",
+        "options": [
+          "独立核算",
+          "非独立核算"
+        ]
+      },
+      {
+        "label": "经营期限：",
+        "options": [
+          "长期",
+          "按年限"
+        ]
+      },
+      {
+        "label": "是否需要纸质营业执照：",
+        "options": [
+          "是",
+          "否"
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "BusinessLicenceWay": {
+    "index": 13,
+    "label": "营业执照领取",
+    "compUrl": "BusinessLicenceWay",
+    "route": "business-licence-way",
+    "hash": "#/flow/base/basic-info",
+    "apiCalls": [],
+    "content_preview": "广西数字政务一体化平台\n首页\n全部服务\n**裕 \n办件中心\n长辈模式\n泽昕（广西容县）科技有限公司\n1\n名称信息\n2\n信息填报\n3\n信息确认\n4\n信息预审\n5\n电子签章\n6\n信息审核\n7\n告知书\n8\n营业执照\n1.\n基本信息\n2.\n成员架构\n3.\n成员信息\n4.\n补充信息\n5.\n章程\n6.\n银行开户\n7.\n医保登记\n8.\n刻制印章\n9.\n税务信息填报\n10.\n社保信息\n11.\n公积金\n12.\n材料补充\n13.\n营业执照领取\n14.\n云帮办流程模式选择\n注册信息\n企业名称：\n企业类型：\n注册资本：\n万元\n壹佰万元\n设立方式：\n一般新设\n分立新设\n合并新设\n从业人数：\n人\n核算方式：\n独立核算\n非独立核算\n经营期限：\n长期\n按年限\n更多 \n是否需要纸质营业执照：\n是\n否\n申请执照副本数量：\n个\n联系电话：\n邮政编码：\n住所/主要经营场所信息\n企业住所：\n详细地址：\n玉林市容县容州镇车站西路富盛",
+    "vuex": {
+      "storeKey": "businessLicenceWay",
+      "found": false
+    },
+    "fields": [
+      {
+        "label": "企业名称",
+        "required": true,
+        "type": "text",
+        "value": "泽昕（广西容县）科技有限公司",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业类型",
+        "required": true,
+        "type": "text",
+        "value": "[1151]有限责任公司（自然人独资）",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "注册资本",
+        "required": true,
+        "type": "text",
+        "value": "100.000000",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "设立方式",
+        "required": true,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "从业人数",
+        "required": true,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "核算方式",
+        "required": true,
+        "type": "radio",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营期限",
+        "required": false,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "是否需要纸质营业执照",
+        "required": false,
+        "type": "radio",
+        "value": "0",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "申请执照副本数量",
+        "required": false,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "联系电话",
+        "required": true,
+        "type": "text",
+        "value": "18977514335",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "邮政编码",
+        "required": true,
+        "type": "text",
+        "value": "537500",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业住所",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地址",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "其他经营地址",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "行业类型",
+        "required": true,
+        "type": "text",
+        "value": "[6513]应用软件开发",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营范围（许可经营项目）",
+        "required": true,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "多证合一",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "登记机关/市场监管所",
+        "required": true,
+        "type": "text",
+        "value": "",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      }
+    ],
+    "radioGroups": [
+      {
+        "label": "设立方式：",
+        "options": [
+          "一般新设",
+          "分立新设",
+          "合并新设"
+        ]
+      },
+      {
+        "label": "核算方式：",
+        "options": [
+          "独立核算",
+          "非独立核算"
+        ]
+      },
+      {
+        "label": "经营期限：",
+        "options": [
+          "长期",
+          "按年限"
+        ]
+      },
+      {
+        "label": "是否需要纸质营业执照：",
+        "options": [
+          "是",
+          "否"
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "YbbSelect": {
+    "index": 14,
+    "label": "云帮办流程模式选择",
+    "compUrl": "YbbSelect",
+    "route": "ybb-select",
+    "hash": "#/flow/base/basic-info",
+    "apiCalls": [],
+    "content_preview": "广西数字政务一体化平台\n首页\n全部服务\n**裕 \n办件中心\n长辈模式\n泽昕（广西容县）科技有限公司\n1\n名称信息\n2\n信息填报\n3\n信息确认\n4\n信息预审\n5\n电子签章\n6\n信息审核\n7\n告知书\n8\n营业执照\n1.\n基本信息\n2.\n成员架构\n3.\n成员信息\n4.\n补充信息\n5.\n章程\n6.\n银行开户\n7.\n医保登记\n8.\n刻制印章\n9.\n税务信息填报\n10.\n社保信息\n11.\n公积金\n12.\n材料补充\n13.\n营业执照领取\n14.\n云帮办流程模式选择\n注册信息\n企业名称：\n企业类型：\n注册资本：\n万元\n壹佰万元\n设立方式：\n一般新设\n分立新设\n合并新设\n从业人数：\n人\n核算方式：\n独立核算\n非独立核算\n经营期限：\n长期\n按年限\n更多 \n是否需要纸质营业执照：\n是\n否\n申请执照副本数量：\n个\n联系电话：\n邮政编码：\n住所/主要经营场所信息\n企业住所：\n详细地址：\n玉林市容县容州镇车站西路富盛",
+    "vuex": {
+      "storeKey": "ybbSelect",
+      "found": false
+    },
+    "fields": [
+      {
+        "label": "企业名称",
+        "required": true,
+        "type": "text",
+        "value": "泽昕（广西容县）科技有限公司",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业类型",
+        "required": true,
+        "type": "text",
+        "value": "[1151]有限责任公司（自然人独资）",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "注册资本",
+        "required": true,
+        "type": "text",
+        "value": "100.000000",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "设立方式",
+        "required": true,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "从业人数",
+        "required": true,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "核算方式",
+        "required": true,
+        "type": "radio",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营期限",
+        "required": false,
+        "type": "radio",
+        "value": "01",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "是否需要纸质营业执照",
+        "required": false,
+        "type": "radio",
+        "value": "0",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "申请执照副本数量",
+        "required": false,
+        "type": "text",
+        "value": "1",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "联系电话",
+        "required": true,
+        "type": "text",
+        "value": "18977514335",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "邮政编码",
+        "required": true,
+        "type": "text",
+        "value": "537500",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "企业住所",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地址",
+        "required": true,
+        "type": "text",
+        "value": "广西壮族自治区/玉林市/容县",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "生产经营地详细地址",
+        "required": true,
+        "type": "text",
+        "value": "容州镇车站西路富盛广场1幢3203号房",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "其他经营地址",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "行业类型",
+        "required": true,
+        "type": "text",
+        "value": "[6513]应用软件开发",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "经营范围（许可经营项目）",
+        "required": true,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "多证合一",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      },
+      {
+        "label": "登记机关/市场监管所",
+        "required": true,
+        "type": "text",
+        "value": "",
+        "readonly": true
+      },
+      {
+        "label": "",
+        "required": false,
+        "type": "none",
+        "value": "",
+        "readonly": false
+      }
+    ],
+    "radioGroups": [
+      {
+        "label": "设立方式：",
+        "options": [
+          "一般新设",
+          "分立新设",
+          "合并新设"
+        ]
+      },
+      {
+        "label": "核算方式：",
+        "options": [
+          "独立核算",
+          "非独立核算"
+        ]
+      },
+      {
+        "label": "经营期限：",
+        "options": [
+          "长期",
+          "按年限"
+        ]
+      },
+      {
+        "label": "是否需要纸质营业执照：",
+        "options": [
+          "是",
+          "否"
+        ]
+      }
+    ],
+    "tables": []
+  }
+}

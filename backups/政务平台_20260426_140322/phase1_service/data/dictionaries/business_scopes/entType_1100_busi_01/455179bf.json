@@ -1,0 +1,46 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "I6331",
+        "saveHyCode": "6331",
+        "hyPecul": "卫星传输服务",
+        "hyTypeName": "广播电视卫星传输服务",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列卫星传输服务活动：",
+        "includes": "卫星广播电视信号的传输、覆盖与接收服务；卫星广播电视传输、覆盖、接收系统的设计、安装、调试、测试、监测等服务。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "I6331",
+        "saveHyCode": "6331",
+        "hyPecul": "广播电视卫星传输服务",
+        "hyTypeName": "广播电视卫星传输服务",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列卫星传输服务活动：",
+        "includes": "卫星广播电视信号的传输、覆盖与接收服务；卫星广播电视传输、覆盖、接收系统的设计、安装、调试、测试、监测等服务。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "卫星传输",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

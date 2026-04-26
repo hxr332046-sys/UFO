@@ -1,0 +1,46 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "O8223",
+        "saveHyCode": "8223",
+        "hyPecul": "宠物美容",
+        "hyTypeName": "宠物美容服务",
+        "enHyTypeName": null,
+        "explains": "指为宠物遮掩体型缺失、增添美感，从而达到让宠物和主人身心愉悦效果的美容服务。",
+        "includesTitle": "包括下列宠物美容服务活动：",
+        "includes": "宠物美容服务。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "O8223",
+        "saveHyCode": "8223",
+        "hyPecul": "宠物美容服务",
+        "hyTypeName": "宠物美容服务",
+        "enHyTypeName": null,
+        "explains": "指为宠物遮掩体型缺失、增添美感，从而达到让宠物和主人身心愉悦效果的美容服务。",
+        "includesTitle": "包括下列宠物美容服务活动：",
+        "includes": "宠物美容服务。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "宠物美容",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

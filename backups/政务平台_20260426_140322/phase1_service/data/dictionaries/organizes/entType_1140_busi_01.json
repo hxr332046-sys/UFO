@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "name": "有限责任公司",
+        "enName": null,
+        "code": "01",
+        "entType": "1100",
+        "entPro": "01",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      },
+      {
+        "name": "有限公司",
+        "enName": null,
+        "code": "02",
+        "entType": "1100",
+        "entPro": "01",
+        "disOrder": null,
+        "isCanIndCode": null,
+        "entMatterCodes": null
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null
+}

@@ -1,0 +1,181 @@
+{
+  "success": true,
+  "busiId": "2047593104839671808",
+  "nameId": "2047592637135396865",
+  "establish_busiId": "2047593389029441538",
+  "basicinfo_signInfo": "1268557445",
+  "stopped_at_step": 15,
+  "steps": [
+    {
+      "i": 1,
+      "name": "name/loadCurrentLocationInfo",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 225,
+      "busiData_preview": "{\"flowData\": {\"busiId\": \"2047593104839671808\", \"entType\": \"1151\", \"busiType\": \"01\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": null, \"marPrId\": null, \"secondId\": null, \"vipChannel\": null, \"currCompUrl\": null, \"status\": \"10\", \"matterCode\": null, \"interruptControl\": null}, \"linkData\": {\"token\": \"\", \"continueFlag\": null, \"compUrl\": null, \"compUrlPaths\": null, \"busiCompComb\": {\"id\": \"22561611372582\""
+    },
+    {
+      "i": 2,
+      "name": "NameSupplement/loadBusinessDataInfo",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 1709,
+      "busiData_preview": "{\"flowData\": {\"busiId\": \"2047593104839671808\", \"entType\": \"1151\", \"busiType\": \"01\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": null, \"marPrId\": null, \"secondId\": null, \"vipChannel\": \"null\", \"currCompUrl\": \"NameSupplement\", \"status\": \"10\", \"matterCode\": null, \"interruptControl\": null}, \"linkData\": {\"token\": \"\", \"continueFlag\": null, \"compUrl\": \"NameSupplement\", \"compUrlPaths\": [\"NameSupplement\"],"
+    },
+    {
+      "i": 3,
+      "name": "NameShareholder/loadBusinessInfoList",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 204,
+      "busiData_preview": "{\"flowData\": {\"busiId\": \"2047593104839671808\", \"entType\": \"1151\", \"busiType\": \"01\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": null, \"marPrId\": null, \"secondId\": null, \"vipChannel\": \"null\", \"currCompUrl\": \"NameShareholder\", \"status\": \"10\", \"matterCode\": null, \"interruptControl\": null}, \"linkData\": {\"token\": \"\", \"continueFlag\": null, \"compUrl\": \"NameShareholder\", \"compUrlPaths\": [\"NameSupplement\""
+    },
+    {
+      "i": 4,
+      "name": "NameShareholder/loadBusinessDataInfo",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 250,
+      "busiData_preview": "{\"flowData\": {\"busiId\": \"2047593104839671808\", \"entType\": \"1151\", \"busiType\": \"01\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": null, \"marPrId\": null, \"secondId\": null, \"vipChannel\": \"null\", \"currCompUrl\": \"NameShareholder\", \"status\": \"10\", \"matterCode\": null, \"interruptControl\": null}, \"linkData\": {\"token\": \"\", \"continueFlag\": null, \"compUrl\": \"NameShareholder\", \"compUrlPaths\": [\"NameSupplement\""
+    },
+    {
+      "i": 5,
+      "name": "NameShareholder/operationBusinessDataInfo [save]",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 2475,
+      "busiData_preview": "{\"flowData\": {\"busiId\": \"2047593104839671808\", \"entType\": \"1151\", \"busiType\": \"01\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": null, \"marPrId\": null, \"secondId\": null, \"vipChannel\": \"null\", \"currCompUrl\": \"NameShareholder\", \"status\": \"10\", \"matterCode\": null, \"interruptControl\": null}, \"linkData\": {\"token\": \"\", \"continueFlag\": null, \"compUrl\": \"NameShareholder\", \"compUrlPaths\": [\"NameSupplement\""
+    },
+    {
+      "i": 6,
+      "name": "NameShareholder/loadBusinessInfoList [reload]",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 201,
+      "busiData_preview": "{\"flowData\": {\"busiId\": \"2047593104839671808\", \"entType\": \"1151\", \"busiType\": \"01\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": null, \"marPrId\": null, \"secondId\": null, \"vipChannel\": \"null\", \"currCompUrl\": \"NameShareholder\", \"status\": \"10\", \"matterCode\": null, \"interruptControl\": null}, \"linkData\": {\"token\": \"\", \"continueFlag\": null, \"compUrl\": \"NameShareholder\", \"compUrlPaths\": [\"NameSupplement\""
+    },
+    {
+      "i": 7,
+      "name": "NameSupplement/operationBusinessDataInfo [save]",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 457,
+      "busiData_preview": "{\"flowData\": {\"busiId\": \"2047593104839671808\", \"entType\": \"1151\", \"busiType\": \"01\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": null, \"marPrId\": null, \"secondId\": null, \"vipChannel\": \"null\", \"currCompUrl\": \"NameSupplement\", \"status\": \"10\", \"matterCode\": null, \"interruptControl\": null}, \"linkData\": {\"token\": \"\", \"continueFlag\": null, \"compUrl\": \"NameSupplement\", \"compUrlPaths\": [\"NameSupplement\"],"
+    },
+    {
+      "i": 8,
+      "name": "name/submit",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 18486,
+      "busiData_preview": "{\"flowData\": {\"busiId\": \"2047593104839671808\", \"entType\": \"1151\", \"busiType\": \"01\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": null, \"marPrId\": null, \"secondId\": null, \"vipChannel\": \"null\", \"currCompUrl\": \"NameShareholder\", \"status\": \"20\", \"matterCode\": null, \"interruptControl\": null}, \"linkData\": {\"token\": \"\", \"continueFlag\": \"\", \"compUrl\": \"NameSupplement\", \"compUrlPaths\": [\"NameSupplement\"], "
+    },
+    {
+      "i": 9,
+      "name": "NameSuccess/loadBusinessDataInfo",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 145,
+      "busiData_preview": "{\"flowData\": {\"busiId\": \"2047593104839671808\", \"entType\": \"1151\", \"busiType\": \"01\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": \"2047592637135396865\", \"marPrId\": null, \"secondId\": null, \"vipChannel\": \"null\", \"currCompUrl\": \"NameSuccess\", \"status\": \"51\", \"matterCode\": null, \"interruptControl\": null}, \"linkData\": {\"token\": \"\", \"continueFlag\": null, \"compUrl\": \"NameSuccess\", \"compUrlPaths\": [\"NameSu"
+    },
+    {
+      "i": 10,
+      "name": "matters/operate [108,before]",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 53,
+      "busiData_preview": "{\"id\": null, \"nameId\": null, \"topicisId\": null, \"marPrId\": null, \"entName\": null, \"busiType\": null, \"busiChildType\": null, \"ywlbSign\": null, \"legalName\": null, \"marUniscId\": null, \"matterTypeCode\": null, \"matterTypeLangCode\": null, \"matterTypeName\": null, \"flowType\": null, \"matterStateCode\": null, \"matterStateLangCode\": null, \"matterStateName\": null, \"listMatterStateCode\": null, \"listMatterStateLa"
+    },
+    {
+      "i": 11,
+      "name": "matters/operate [108,operate]",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 60,
+      "busiData_preview": "{\"id\": null, \"nameId\": null, \"topicisId\": null, \"marPrId\": null, \"entName\": null, \"busiType\": null, \"busiChildType\": null, \"ywlbSign\": null, \"legalName\": null, \"marUniscId\": null, \"matterTypeCode\": null, \"matterTypeLangCode\": null, \"matterTypeName\": null, \"flowType\": null, \"matterStateCode\": null, \"matterStateLangCode\": null, \"matterStateName\": null, \"listMatterStateCode\": null, \"listMatterStateLa"
+    },
+    {
+      "i": 12,
+      "name": "establish/loadCurrentLocationInfo",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 197,
+      "busiData_preview": "{\"flowData\": {\"busiId\": null, \"entType\": \"1151\", \"busiType\": \"02\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": \"2047592637135396865\", \"marPrId\": null, \"secondId\": null, \"vipChannel\": null, \"currCompUrl\": null, \"status\": \"10\", \"matterCode\": null, \"interruptControl\": null}, \"linkData\": {\"token\": \"\", \"continueFlag\": \"continueFlag\", \"compUrl\": null, \"compUrlPaths\": null, \"busiCompComb\": {\"id\": \"22561"
+    },
+    {
+      "i": 13,
+      "name": "YbbSelect/loadBusinessDataInfo [D0021 optional]",
+      "ok": false,
+      "code": "D0021",
+      "resultType": "",
+      "msg": "越权访问",
+      "err": null,
+      "duration_ms": 73,
+      "busiData_preview": "{}"
+    },
+    {
+      "i": 14,
+      "name": "establish/BasicInfo/loadBusinessDataInfo",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 686,
+      "busiData_preview": "{\"flowData\": {\"busiId\": null, \"entType\": \"1151\", \"busiType\": \"02\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": \"2047592637135396865\", \"marPrId\": null, \"secondId\": null, \"vipChannel\": null, \"currCompUrl\": \"BasicInfo\", \"status\": \"10\", \"matterCode\": null, \"interruptControl\": null}, \"linkData\": {\"token\": \"\", \"continueFlag\": null, \"compUrl\": \"BasicInfo\", \"compUrlPaths\": [\"BasicInfo\"], \"busiCompComb\": "
+    },
+    {
+      "i": 15,
+      "name": "establish/BasicInfo/operationBusinessDataInfo [save]",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 1233,
+      "busiData_preview": "{\"flowData\": {\"busiId\": \"2047593389029441538\", \"entType\": \"1151\", \"busiType\": \"02\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": \"2047592637135396865\", \"marPrId\": null, \"secondId\": null, \"vipChannel\": null, \"currCompUrl\": \"BasicInfo\", \"status\": \"10\", \"matterCode\": null, \"interruptControl\": null}, \"linkData\": {\"token\": \"\", \"continueFlag\": \"continueFlag\", \"compUrl\": \"BasicInfo\", \"compUrlPaths\": [\"Ba"
+    }
+  ],
+  "latency_ms": 69672,
+  "reason": null,
+  "reason_detail": null,
+  "phase1_executed": false,
+  "phase1_busiId": null,
+  "phase1_reason": null
+}

@@ -1,0 +1,46 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "M7410",
+        "saveHyCode": "7410",
+        "hyPecul": "气象服务",
+        "hyTypeName": "气象服务",
+        "enHyTypeName": null,
+        "explains": "指从事气象探测、预报、服务和气象灾害防御、气候资源利用等活动。",
+        "includesTitle": "包括下列气象服务活动：",
+        "includes": "气象观测服务：一般气象观测服务、基本气象观测服务、基准气象观测服务、农业气象观测服务、高空辐射观测服务、酸雨观测服务、其他气象观测服务；气象预报，相关气象服务：气象预报服务，雷达气象服务，气象台、中心服务，高空探测服务，高空交换站服务，其他相关气象服务。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "M7431",
+        "saveHyCode": "7431",
+        "hyPecul": "海洋气象服务",
+        "hyTypeName": "海洋气象服务",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列海洋气象服务活动：",
+        "includes": "海洋气象预测服务；海洋气象观测服务；其他海洋气象服务。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "气象服务",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

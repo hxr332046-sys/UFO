@@ -1,0 +1,36 @@
+{
+  "schema": "ufo.material_pack.v1",
+  "busi_type": "02_4",
+  "ent_type": "1100",
+  "flow_hint": "establish",
+  "notes": "示例：路径请改为你本机；正式演练可复制为 rehearsal_material_pack.json 并在 packet_chain --assets 仍用 rehearsal_assets 时保持 slot 语义一致。",
+  "items": [
+    {
+      "slot_id": "id_card_front",
+      "role": "identity",
+      "file_path": "packet_lab/out/rehearsal_mock/id_front.jpg",
+      "label_keywords": ["国徽", "正面"],
+      "accept_mime": ["image/jpeg", "image/png"],
+      "max_mb": 5,
+      "human_review_required": true
+    },
+    {
+      "slot_id": "id_card_back",
+      "role": "identity",
+      "file_path": "packet_lab/out/rehearsal_mock/id_back.png",
+      "label_keywords": ["人像", "反面"],
+      "accept_mime": ["image/jpeg", "image/png"],
+      "max_mb": 5,
+      "human_review_required": true
+    },
+    {
+      "slot_id": "mock_contract_pdf",
+      "role": "contract",
+      "file_path": "packet_lab/out/rehearsal_mock/mock_contract.pdf",
+      "label_keywords": ["章程", "PDF"],
+      "accept_mime": ["application/pdf"],
+      "max_mb": 10,
+      "human_review_required": false
+    }
+  ]
+}

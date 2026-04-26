@@ -1,0 +1,71 @@
+{
+  "success": false,
+  "busiId": "2047593389029441538",
+  "nameId": "2047592637135396865",
+  "establish_busiId": "2047603008216875009",
+  "basicinfo_signInfo": "1268557445",
+  "stopped_at_step": 16,
+  "steps": [
+    {
+      "i": 12,
+      "name": "establish/loadCurrentLocationInfo",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 602,
+      "busiData_preview": "{\"flowData\": {\"busiId\": \"2047593389029441538\", \"entType\": \"1151\", \"busiType\": \"02\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": \"2047592637135396865\", \"marPrId\": null, \"secondId\": null, \"vipChannel\": null, \"currCompUrl\": null, \"status\": \"10\", \"matterCode\": null, \"interruptControl\": null}, \"linkData\": {\"token\": \"\", \"continueFlag\": \"continueFlag\", \"compUrl\": null, \"compUrlPaths\": null, \"busiCompCom"
+    },
+    {
+      "i": 13,
+      "name": "YbbSelect/loadBusinessDataInfo [D0021 optional]",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 131,
+      "busiData_preview": "{\"flowData\": {\"busiId\": \"2047593389029441538\", \"entType\": \"1151\", \"busiType\": \"02\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": \"2047592637135396865\", \"marPrId\": null, \"secondId\": null, \"vipChannel\": null, \"currCompUrl\": \"YbbSelect\", \"status\": \"10\", \"matterCode\": null, \"interruptControl\": null}, \"linkData\": {\"token\": \"\", \"continueFlag\": null, \"compUrl\": \"YbbSelect\", \"compUrlPaths\": [\"YbbSelect\"],"
+    },
+    {
+      "i": 14,
+      "name": "establish/BasicInfo/loadBusinessDataInfo",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 2476,
+      "busiData_preview": "{\"flowData\": {\"busiId\": null, \"entType\": \"1151\", \"busiType\": \"02\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": \"2047592637135396865\", \"marPrId\": null, \"secondId\": null, \"vipChannel\": null, \"currCompUrl\": \"BasicInfo\", \"status\": \"10\", \"matterCode\": null, \"interruptControl\": null}, \"linkData\": {\"token\": \"\", \"continueFlag\": null, \"compUrl\": \"BasicInfo\", \"compUrlPaths\": [\"BasicInfo\"], \"busiCompComb\": "
+    },
+    {
+      "i": 15,
+      "name": "establish/BasicInfo/operationBusinessDataInfo [save]",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 2093,
+      "busiData_preview": "{\"flowData\": {\"busiId\": \"2047603008216875009\", \"entType\": \"1151\", \"busiType\": \"02\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": \"2047592637135396865\", \"marPrId\": null, \"secondId\": null, \"vipChannel\": null, \"currCompUrl\": \"BasicInfo\", \"status\": \"10\", \"matterCode\": null, \"interruptControl\": null}, \"linkData\": {\"token\": \"\", \"continueFlag\": \"continueFlag\", \"compUrl\": \"BasicInfo\", \"compUrlPaths\": [\"Ba"
+    },
+    {
+      "i": 16,
+      "name": "establish/MemberPost/operationBusinessDataInfo [save,1151,7roles]",
+      "ok": false,
+      "code": "A0002",
+      "resultType": "",
+      "msg": "服务端异常",
+      "err": null,
+      "duration_ms": 827,
+      "busiData_preview": "{}"
+    }
+  ],
+  "latency_ms": 16119,
+  "reason": "step16_failed",
+  "reason_detail": "establish/MemberPost/operationBusinessDataInfo [save,1151,7roles]: code=A0002 msg=服务端异常",
+  "phase1_executed": false,
+  "phase1_busiId": null,
+  "phase1_reason": null
+}

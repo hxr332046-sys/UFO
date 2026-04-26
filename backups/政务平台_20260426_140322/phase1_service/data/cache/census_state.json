@@ -1,0 +1,1248 @@
+{
+  "completed": {
+    "entType_type1::97cb9b5e68f2": {
+      "status": "ok",
+      "saved_path": "data\\dictionaries\\ent_types_type1.json",
+      "ts": 1776842485,
+      "dur_ms": 465
+    },
+    "entType_type2::b6f82dbc4a18": {
+      "status": "ok",
+      "saved_path": "data\\dictionaries\\ent_types_type2.json",
+      "ts": 1776842488,
+      "dur_ms": 50
+    },
+    "regcode_street_root::a3b888c43d31": {
+      "status": "ok",
+      "saved_path": "data\\dictionaries\\regions\\root.json",
+      "ts": 1776842492,
+      "dur_ms": 66
+    },
+    "codeList_MOKINDCODE::a958ddb3ec69": {
+      "status": "ok",
+      "saved_path": "data\\dictionaries\\code_lists\\MOKINDCODE.json",
+      "ts": 1776842495,
+      "dur_ms": 61
+    },
+    "codeList_CERTYPECODE::b0ba56227225": {
+      "status": "ok",
+      "saved_path": "data\\dictionaries\\code_lists\\CERTYPECODE.json",
+      "ts": 1776842497,
+      "dur_ms": 50
+    },
+    "sysParam_all::99914b932bd3": {
+      "status": "ok",
+      "saved_path": "data\\dictionaries\\sys_params.json",
+      "ts": 1776842499,
+      "dur_ms": 75
+    },
+    "serialTypeCode::99914b932bd3": {
+      "status": "ok",
+      "saved_path": "data\\dictionaries\\serial_type_code.json",
+      "ts": 1776842501,
+      "dur_ms": 64
+    },
+    "rentalHouseCode::99914b932bd3": {
+      "status": "ok",
+      "saved_path": "data\\dictionaries\\rental_house_code.json",
+      "ts": 1776842507,
+      "dur_ms": 2881
+    },
+    "businessModules::99914b932bd3": {
+      "status": "ok",
+      "saved_path": "data\\dictionaries\\business_modules.json",
+      "ts": 1776842509,
+      "dur_ms": 59
+    },
+    "sysConfig_noIndSpeTips::85aec6321dc8": {
+      "status": "ok",
+      "saved_path": "data\\dictionaries\\sys_configs\\noIndSpeTips.json",
+      "ts": 1776842512,
+      "dur_ms": 56
+    },
+    "matter_types::ab756e519585": {
+      "status": "ok",
+      "saved_path": "data\\dictionaries\\matter_types.json",
+      "ts": 1776842515,
+      "dur_ms": 57
+    },
+    "matter_states::ab756e519585": {
+      "status": "ok",
+      "saved_path": "data\\dictionaries\\matter_states.json",
+      "ts": 1776842518,
+      "dur_ms": 50
+    },
+    "D:scope::ddded6f129ce": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/f27b59fa_互联网.json",
+      "ts": 1776842536,
+      "dur_ms": 1083
+    },
+    "D:scope::c964988c4199": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/e29150bc_五金.json",
+      "ts": 1776842540,
+      "dur_ms": 1783
+    },
+    "D:scope::e63dae45c611": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/874f9d31_仓储.json",
+      "ts": 1776842544,
+      "dur_ms": 839
+    },
+    "D:scope::b1f251879eee": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/fc954d25_代理.json",
+      "ts": 1776842547,
+      "dur_ms": 779
+    },
+    "D:scope::40ff617b2ebd": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/1a3b222c_传媒.json",
+      "ts": 1776842553,
+      "dur_ms": 3818
+    },
+    "D:scope::48fbbd5af430": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/b0dd4b6a_传播.json",
+      "ts": 1776842557,
+      "dur_ms": 896
+    },
+    "D:scope::9ca1938ffd56": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/056a6036_信息技术.json",
+      "ts": 1776842561,
+      "dur_ms": 836
+    },
+    "D:scope::740ab3bbc7ff": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/fbc026c9_健康.json",
+      "ts": 1776842565,
+      "dur_ms": 1644
+    },
+    "D:scope::c90e48bd516f": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/3759cdec_养殖.json",
+      "ts": 1776842569,
+      "dur_ms": 940
+    },
+    "D:scope::dae318657211": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/7fd0896e_农业.json",
+      "ts": 1776842572,
+      "dur_ms": 1049
+    },
+    "D:scope::6438afd5c2b9": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/184219e0_制造.json",
+      "ts": 1776842577,
+      "dur_ms": 1735
+    },
+    "D:scope::5f16036d9b39": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/d383dc79_副食.json",
+      "ts": 1776842583,
+      "dur_ms": 3616
+    },
+    "D:scope::3f63f3d96552": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/856be095_加工.json",
+      "ts": 1776842587,
+      "dur_ms": 1763
+    },
+    "D:scope::b9f4b0e6dba9": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/5a009134_包装.json",
+      "ts": 1776842591,
+      "dur_ms": 822
+    },
+    "D:scope::def1342815b1": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/34721f25_化工.json",
+      "ts": 1776842595,
+      "dur_ms": 1234
+    },
+    "D:scope::ac7c31d68d45": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/2fbcd878_医疗.json",
+      "ts": 1776842598,
+      "dur_ms": 940
+    },
+    "D:scope::9fe50cba3797": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/13b7cefe_医药.json",
+      "ts": 1776842606,
+      "dur_ms": 4920
+    },
+    "D:scope::18ee9b18f479": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/0976ba90_印刷.json",
+      "ts": 1776842609,
+      "dur_ms": 933
+    },
+    "D:scope::e63af60b7e61": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/a74ccc6e_咨询.json",
+      "ts": 1776842615,
+      "dur_ms": 3143
+    },
+    "D:scope::9eb9cf51590e": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/032f5b96_商贸.json",
+      "ts": 1776842619,
+      "dur_ms": 842
+    },
+    "D:scope::b6518a4abf78": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/fb4e1405_培训.json",
+      "ts": 1776842622,
+      "dur_ms": 1082
+    },
+    "D:scope::ad718268be34": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/10b10733_婚庆.json",
+      "ts": 1776842625,
+      "dur_ms": 829
+    },
+    "D:scope::8ee56c7c1f9c": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/e655a410_安装.json",
+      "ts": 1776842629,
+      "dur_ms": 840
+    },
+    "D:scope::fcfea4cdaab2": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/5902679b_家政.json",
+      "ts": 1776842632,
+      "dur_ms": 827
+    },
+    "D:scope::d22882ea84af": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/cb04208e_小吃.json",
+      "ts": 1776842637,
+      "dur_ms": 1762
+    },
+    "D:scope::08610af13d78": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/22c8a6a7_工程.json",
+      "ts": 1776842640,
+      "dur_ms": 1316
+    },
+    "D:scope::dd29132e2034": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/55b2b2b9_市政.json",
+      "ts": 1776842644,
+      "dur_ms": 1127
+    },
+    "D:scope::be99886d240a": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/bacd6f47_广告.json",
+      "ts": 1776842648,
+      "dur_ms": 775
+    },
+    "D:scope::2206433a98ac": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/e8d46d30_应用软件.json",
+      "ts": 1776842651,
+      "dur_ms": 722
+    },
+    "D:scope::15287b37d890": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/4b7aab3e_建筑.json",
+      "ts": 1776842657,
+      "dur_ms": 3213
+    },
+    "D:scope::76147020762f": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/3ff3c3e2_开发.json",
+      "ts": 1776842660,
+      "dur_ms": 935
+    },
+    "D:scope::00df58ff4708": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/705d54db_快递.json",
+      "ts": 1776842664,
+      "dur_ms": 1221
+    },
+    "D:scope::e11b82999303": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/abb16057_快餐.json",
+      "ts": 1776842670,
+      "dur_ms": 3491
+    },
+    "D:scope::77d1f88225b9": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/d7d3b3a5_房地产.json",
+      "ts": 1776842673,
+      "dur_ms": 953
+    },
+    "D:scope::b88f4a1d7ddd": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/7c114133_批发.json",
+      "ts": 1776842677,
+      "dur_ms": 1910
+    },
+    "D:scope::6bb2ad02d067": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/b6496f76_技术服务.json",
+      "ts": 1776842680,
+      "dur_ms": 825
+    },
+    "D:scope::86247eeca26f": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/aef5b453_投资.json",
+      "ts": 1776842684,
+      "dur_ms": 927
+    },
+    "D:scope::f54305659fff": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/4c8bd0af_摄影.json",
+      "ts": 1776842688,
+      "dur_ms": 790
+    },
+    "D:scope::96f966747549": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/8640cb15_教育.json",
+      "ts": 1776842691,
+      "dur_ms": 800
+    },
+    "D:scope::f496af17d66a": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/cfc089f7_数据处理.json",
+      "ts": 1776842695,
+      "dur_ms": 780
+    },
+    "D:scope::def04a90e7f8": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/f9f7bb66_文化.json",
+      "ts": 1776842700,
+      "dur_ms": 937
+    },
+    "D:scope::fca573973718": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/69c6c601_施工.json",
+      "ts": 1776842703,
+      "dur_ms": 801
+    },
+    "D:scope::1f1031ba33ba": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/47d68cd0_服务.json",
+      "ts": 1776842708,
+      "dur_ms": 1963
+    },
+    "D:scope::f529bb70fb36": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/d2fe24af_服装.json",
+      "ts": 1776842712,
+      "dur_ms": 780
+    },
+    "D:scope::b349fd9d9a3f": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/5edd2814_机械.json",
+      "ts": 1776842716,
+      "dur_ms": 935
+    },
+    "D:scope::89e30383b59f": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/3fc786dc_林业.json",
+      "ts": 1776842721,
+      "dur_ms": 1188
+    },
+    "D:scope::53b6f1c75230": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/7c79dda3_水产.json",
+      "ts": 1776842725,
+      "dur_ms": 812
+    },
+    "D:scope::3bfe856c0538": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/b64c4120_汽车.json",
+      "ts": 1776842729,
+      "dur_ms": 906
+    },
+    "D:scope::143a53a42630": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/7e5ba858_洗衣.json",
+      "ts": 1776842732,
+      "dur_ms": 797
+    },
+    "D:scope::5488eca989d5": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/711d0aef_物业.json",
+      "ts": 1776842736,
+      "dur_ms": 822
+    },
+    "D:scope::b8a2ccf3433c": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/ccbb7801_物流.json",
+      "ts": 1776842740,
+      "dur_ms": 1288
+    },
+    "D:scope::20d7df819449": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/ac45d51b_生产.json",
+      "ts": 1776842743,
+      "dur_ms": 791
+    },
+    "D:scope::3cc270ed3a30": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/b0a65b92_电子.json",
+      "ts": 1776842746,
+      "dur_ms": 1190
+    },
+    "D:scope::2924a9ebefaa": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/94204352_畜牧.json",
+      "ts": 1776842750,
+      "dur_ms": 769
+    },
+    "D:scope::592a84ad48ba": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/fc7393bf_研发.json",
+      "ts": 1776842753,
+      "dur_ms": 819
+    },
+    "D:scope::79aaeedaa7d7": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/de7dfbc2_种植.json",
+      "ts": 1776842756,
+      "dur_ms": 1204
+    },
+    "D:scope::7be4e7ef7f54": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/3d078fbc_科技.json",
+      "ts": 1776842764,
+      "dur_ms": 4957
+    },
+    "D:scope::75fd66cc2dc1": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/da3c6da7_租赁.json",
+      "ts": 1776842768,
+      "dur_ms": 1055
+    },
+    "D:scope::908dae5662fe": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/72809245_策划.json",
+      "ts": 1776842772,
+      "dur_ms": 1362
+    },
+    "D:scope::86c5d2135113": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/08b55fea_管理.json",
+      "ts": 1776842780,
+      "dur_ms": 5036
+    },
+    "D:scope::dd7bbdf93188": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/5ddf43fa_纺织.json",
+      "ts": 1776842784,
+      "dur_ms": 1152
+    },
+    "D:scope::4bf451eba741": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/03fbecc8_经营.json",
+      "ts": 1776842788,
+      "dur_ms": 957
+    },
+    "D:scope::9315d03f76df": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/324712a3_维修.json",
+      "ts": 1776842791,
+      "dur_ms": 879
+    },
+    "D:scope::2b9542789127": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/92c7f4c3_美发.json",
+      "ts": 1776842795,
+      "dur_ms": 828
+    },
+    "D:scope::0b2c4014bf01": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/53b4b807_美容.json",
+      "ts": 1776842798,
+      "dur_ms": 1304
+    },
+    "D:scope::657d288c648f": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/916801e9_营销.json",
+      "ts": 1776842802,
+      "dur_ms": 787
+    },
+    "D:scope::32489746c039": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/ceb29c6d_融资.json",
+      "ts": 1776842805,
+      "dur_ms": 937
+    },
+    "D:scope::3fad61397454": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/81b2cb54_装修.json",
+      "ts": 1776842809,
+      "dur_ms": 1499
+    },
+    "D:scope::252322d317d1": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/4a7ece96_装饰.json",
+      "ts": 1776842813,
+      "dur_ms": 1549
+    },
+    "D:scope::8e8e94f50f0d": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/8a2b56e2_计算机.json",
+      "ts": 1776842817,
+      "dur_ms": 1238
+    },
+    "D:scope::6afb0d0b8fa0": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/b08890a6_设计.json",
+      "ts": 1776842822,
+      "dur_ms": 1356
+    },
+    "D:scope::4f2989060ba6": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/54a5e4f0_诊所.json",
+      "ts": 1776842826,
+      "dur_ms": 1387
+    },
+    "D:scope::8cb47916ef6a": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/b8fe8d95_财务.json",
+      "ts": 1776842829,
+      "dur_ms": 1121
+    },
+    "D:scope::b44efcb3e931": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/f427d663_贸易.json",
+      "ts": 1776842834,
+      "dur_ms": 1494
+    },
+    "D:scope::9c047a68681c": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/5110a0d1_资产.json",
+      "ts": 1776842837,
+      "dur_ms": 1172
+    },
+    "D:scope::7f9448f1e79d": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/a41622d7_软件开发.json",
+      "ts": 1776842841,
+      "dur_ms": 1320
+    },
+    "D:scope::23d5204b4037": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/5f66853b_辅导.json",
+      "ts": 1776842845,
+      "dur_ms": 1575
+    },
+    "D:scope::537bc9b4e413": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/0f3a252a_运输.json",
+      "ts": 1776842850,
+      "dur_ms": 2428
+    },
+    "D:scope::92c9d4495880": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/43711e01_进出口.json",
+      "ts": 1776842854,
+      "dur_ms": 1103
+    },
+    "D:scope::99ab49c5dfac": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/d53738b0_配送.json",
+      "ts": 1776842858,
+      "dur_ms": 1157
+    },
+    "D:scope::0a954ca3b61c": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/75a8a1b0_酒水.json",
+      "ts": 1776842862,
+      "dur_ms": 977
+    },
+    "D:scope::514c9b5ef7b0": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/60f89aac_金融.json",
+      "ts": 1776842866,
+      "dur_ms": 1124
+    },
+    "D:scope::b434ef4ae355": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/7f0dc5e3_销售.json",
+      "ts": 1776842870,
+      "dur_ms": 943
+    },
+    "D:scope::842e5276f41d": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/0c5bd351_零售.json",
+      "ts": 1776842873,
+      "dur_ms": 789
+    },
+    "D:scope::4908047f1868": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/84b0a8eb_食品.json",
+      "ts": 1776842878,
+      "dur_ms": 1543
+    },
+    "D:scope::6779f1fb477b": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/2a0ad6ff_餐饮.json",
+      "ts": 1776842882,
+      "dur_ms": 1746
+    },
+    "D:scope::71d245179e19": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_4540_busi_01/31c325ee_饮料.json",
+      "ts": 1776842886,
+      "dur_ms": 1117
+    },
+    "D:scope::d70f009a5c4e": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/f27b59fa_互联网.json",
+      "ts": 1776842890,
+      "dur_ms": 1950
+    },
+    "D:scope::fa71bdcb0c69": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/e29150bc_五金.json",
+      "ts": 1776842894,
+      "dur_ms": 1318
+    },
+    "D:scope::48c64f9c8f52": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/874f9d31_仓储.json",
+      "ts": 1776842898,
+      "dur_ms": 1231
+    },
+    "D:scope::e40e288472df": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/fc954d25_代理.json",
+      "ts": 1776842902,
+      "dur_ms": 1338
+    },
+    "D:scope::fe51a7fde67c": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/1a3b222c_传媒.json",
+      "ts": 1776842905,
+      "dur_ms": 780
+    },
+    "D:scope::422c0550ea94": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/b0dd4b6a_传播.json",
+      "ts": 1776842909,
+      "dur_ms": 1085
+    },
+    "D:scope::4d9ea25ef69d": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/056a6036_信息技术.json",
+      "ts": 1776842913,
+      "dur_ms": 1019
+    },
+    "D:scope::b30f4a214bb5": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/fbc026c9_健康.json",
+      "ts": 1776842916,
+      "dur_ms": 1326
+    },
+    "D:scope::90678d8aa0a9": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/3759cdec_养殖.json",
+      "ts": 1776842920,
+      "dur_ms": 894
+    },
+    "D:scope::042b18dcbcd7": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/7fd0896e_农业.json",
+      "ts": 1776842925,
+      "dur_ms": 2105
+    },
+    "D:scope::662ed0eb824b": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/184219e0_制造.json",
+      "ts": 1776842929,
+      "dur_ms": 1576
+    },
+    "D:scope::ceee8c237d6c": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/d383dc79_副食.json",
+      "ts": 1776842933,
+      "dur_ms": 1483
+    },
+    "D:scope::e731af16c783": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/856be095_加工.json",
+      "ts": 1776842937,
+      "dur_ms": 1339
+    },
+    "D:scope::57e3e8e18a62": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/5a009134_包装.json",
+      "ts": 1776842942,
+      "dur_ms": 1924
+    },
+    "D:scope::f1633bf0cbe9": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/34721f25_化工.json",
+      "ts": 1776842945,
+      "dur_ms": 1329
+    },
+    "D:scope::b35a2c0d52cf": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/2fbcd878_医疗.json",
+      "ts": 1776842953,
+      "dur_ms": 1332
+    },
+    "D:scope::ae4ecc4fcebe": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/13b7cefe_医药.json",
+      "ts": 1776842956,
+      "dur_ms": 1088
+    },
+    "D:scope::820e7aaee02d": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/0976ba90_印刷.json",
+      "ts": 1776842961,
+      "dur_ms": 1318
+    },
+    "D:scope::34edcdf84d9f": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/a74ccc6e_咨询.json",
+      "ts": 1776842965,
+      "dur_ms": 1516
+    },
+    "D:scope::6b0fdd6e9d6f": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/032f5b96_商贸.json",
+      "ts": 1776842968,
+      "dur_ms": 1013
+    },
+    "D:scope::236aeaebcd6f": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/fb4e1405_培训.json",
+      "ts": 1776842972,
+      "dur_ms": 1390
+    },
+    "D:scope::bd844801c288": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/10b10733_婚庆.json",
+      "ts": 1776842976,
+      "dur_ms": 1656
+    },
+    "D:scope::06e21d9846a7": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/e655a410_安装.json",
+      "ts": 1776842980,
+      "dur_ms": 1140
+    },
+    "D:scope::a13166a55f52": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/5902679b_家政.json",
+      "ts": 1776842985,
+      "dur_ms": 1478
+    },
+    "D:scope::8de0e8110698": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/cb04208e_小吃.json",
+      "ts": 1776842997,
+      "dur_ms": 857
+    },
+    "D:scope::99ec1bc593d8": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/22c8a6a7_工程.json",
+      "ts": 1776843001,
+      "dur_ms": 956
+    },
+    "D:scope::6e4f595de966": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/55b2b2b9_市政.json",
+      "ts": 1776843004,
+      "dur_ms": 1108
+    },
+    "D:scope::dd792e7ed053": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/bacd6f47_广告.json",
+      "ts": 1776843012,
+      "dur_ms": 5729
+    },
+    "D:scope::59077d4385f7": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/e8d46d30_应用软件.json",
+      "ts": 1776843016,
+      "dur_ms": 869
+    },
+    "D:scope::f7b0d2d93755": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/4b7aab3e_建筑.json",
+      "ts": 1776843021,
+      "dur_ms": 984
+    },
+    "D:scope::d39dcf8a4a59": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/3ff3c3e2_开发.json",
+      "ts": 1776843024,
+      "dur_ms": 953
+    },
+    "D:scope::22269ed33906": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/705d54db_快递.json",
+      "ts": 1776843028,
+      "dur_ms": 1046
+    },
+    "D:scope::05938f442b1c": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/abb16057_快餐.json",
+      "ts": 1776843032,
+      "dur_ms": 806
+    },
+    "D:scope::da724976b168": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/d7d3b3a5_房地产.json",
+      "ts": 1776843036,
+      "dur_ms": 1118
+    },
+    "D:scope::fbeaab852cd0": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/7c114133_批发.json",
+      "ts": 1776843039,
+      "dur_ms": 851
+    },
+    "D:scope::e07bdb66b8db": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/b6496f76_技术服务.json",
+      "ts": 1776843047,
+      "dur_ms": 1147
+    },
+    "D:scope::c3ec82cade62": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/aef5b453_投资.json",
+      "ts": 1776843051,
+      "dur_ms": 1263
+    },
+    "D:scope::23fd9d27f24d": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/4c8bd0af_摄影.json",
+      "ts": 1776843055,
+      "dur_ms": 869
+    },
+    "D:scope::4f033f6997ce": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/8640cb15_教育.json",
+      "ts": 1776843059,
+      "dur_ms": 743
+    },
+    "D:scope::c494c99f6c72": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/cfc089f7_数据处理.json",
+      "ts": 1776843063,
+      "dur_ms": 697
+    },
+    "D:scope::8c21fd3701f2": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/f9f7bb66_文化.json",
+      "ts": 1776843068,
+      "dur_ms": 1154
+    },
+    "D:scope::20c4ddc0806b": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/69c6c601_施工.json",
+      "ts": 1776843072,
+      "dur_ms": 735
+    },
+    "D:scope::ce4d59fa18f9": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/47d68cd0_服务.json",
+      "ts": 1776843076,
+      "dur_ms": 960
+    },
+    "D:scope::ce1fd3ec276a": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/d2fe24af_服装.json",
+      "ts": 1776843079,
+      "dur_ms": 740
+    },
+    "D:scope::174646d1d05f": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/5edd2814_机械.json",
+      "ts": 1776843083,
+      "dur_ms": 829
+    },
+    "D:scope::8548858ba3ce": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/3fc786dc_林业.json",
+      "ts": 1776843087,
+      "dur_ms": 975
+    },
+    "D:scope::a95af81aaa62": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/7c79dda3_水产.json",
+      "ts": 1776843091,
+      "dur_ms": 726
+    },
+    "D:scope::3144d0516f07": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/b64c4120_汽车.json",
+      "ts": 1776843095,
+      "dur_ms": 1410
+    },
+    "D:scope::fda239ee92de": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/7e5ba858_洗衣.json",
+      "ts": 1776843098,
+      "dur_ms": 712
+    },
+    "D:scope::f30c8a57f7c9": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/711d0aef_物业.json",
+      "ts": 1776843101,
+      "dur_ms": 709
+    },
+    "D:scope::c14e202c5950": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/ccbb7801_物流.json",
+      "ts": 1776843105,
+      "dur_ms": 772
+    },
+    "D:scope::51338c9087c4": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/ac45d51b_生产.json",
+      "ts": 1776843109,
+      "dur_ms": 722
+    },
+    "D:scope::d255f0a99da9": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/b0a65b92_电子.json",
+      "ts": 1776843116,
+      "dur_ms": 4615
+    },
+    "D:scope::09d0735d7529": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/94204352_畜牧.json",
+      "ts": 1776843122,
+      "dur_ms": 2497
+    },
+    "D:scope::7a7e1e1023d7": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/fc7393bf_研发.json",
+      "ts": 1776843126,
+      "dur_ms": 1509
+    },
+    "D:scope::8cd91f886f5f": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/de7dfbc2_种植.json",
+      "ts": 1776843130,
+      "dur_ms": 900
+    },
+    "D:scope::b9e912b49aec": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/3d078fbc_科技.json",
+      "ts": 1776843134,
+      "dur_ms": 932
+    },
+    "D:scope::826049d0d3cd": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/da3c6da7_租赁.json",
+      "ts": 1776843137,
+      "dur_ms": 739
+    },
+    "D:scope::f6f26095b3ba": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/72809245_策划.json",
+      "ts": 1776843141,
+      "dur_ms": 785
+    },
+    "D:scope::e10cb705421c": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/08b55fea_管理.json",
+      "ts": 1776843147,
+      "dur_ms": 3487
+    },
+    "D:scope::d143df3958c6": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/5ddf43fa_纺织.json",
+      "ts": 1776843151,
+      "dur_ms": 682
+    },
+    "D:scope::00d507227cb4": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/03fbecc8_经营.json",
+      "ts": 1776843154,
+      "dur_ms": 635
+    },
+    "D:scope::76c2ab4713ea": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/324712a3_维修.json",
+      "ts": 1776843157,
+      "dur_ms": 695
+    },
+    "D:scope::69083c7e7f2e": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/92c7f4c3_美发.json",
+      "ts": 1776843161,
+      "dur_ms": 638
+    },
+    "D:scope::171a30f97de4": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/53b4b807_美容.json",
+      "ts": 1776843165,
+      "dur_ms": 668
+    },
+    "D:scope::0cf1fc2ef008": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/916801e9_营销.json",
+      "ts": 1776843169,
+      "dur_ms": 645
+    },
+    "D:scope::b4ea8d606bf5": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/ceb29c6d_融资.json",
+      "ts": 1776843173,
+      "dur_ms": 1393
+    },
+    "D:scope::813641c01706": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/81b2cb54_装修.json",
+      "ts": 1776843176,
+      "dur_ms": 706
+    },
+    "D:scope::6cd0155571f6": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/4a7ece96_装饰.json",
+      "ts": 1776843179,
+      "dur_ms": 927
+    },
+    "D:scope::10b95b1b58b3": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/8a2b56e2_计算机.json",
+      "ts": 1776843183,
+      "dur_ms": 856
+    },
+    "D:scope::89bf5bf4eb97": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/b08890a6_设计.json",
+      "ts": 1776843194,
+      "dur_ms": 8071
+    },
+    "D:scope::850e2a257b0c": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/54a5e4f0_诊所.json",
+      "ts": 1776843204,
+      "dur_ms": 7394
+    },
+    "D:scope::e564b12e4b91": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/b8fe8d95_财务.json",
+      "ts": 1776843207,
+      "dur_ms": 941
+    },
+    "D:scope::170f1de73ea0": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/f427d663_贸易.json",
+      "ts": 1776843211,
+      "dur_ms": 1037
+    },
+    "D:scope::44f8ab77500c": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/5110a0d1_资产.json",
+      "ts": 1776843215,
+      "dur_ms": 1316
+    },
+    "D:scope::09269dbf8171": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/a41622d7_软件开发.json",
+      "ts": 1776843219,
+      "dur_ms": 766
+    },
+    "D:scope::9ac1ff4c6caa": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/5f66853b_辅导.json",
+      "ts": 1776843222,
+      "dur_ms": 640
+    },
+    "D:scope::fd00a35b10c0": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/0f3a252a_运输.json",
+      "ts": 1776843226,
+      "dur_ms": 1260
+    },
+    "D:scope::e705d4703f96": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/43711e01_进出口.json",
+      "ts": 1776843229,
+      "dur_ms": 961
+    },
+    "D:scope::03cf960d45a1": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/d53738b0_配送.json",
+      "ts": 1776843233,
+      "dur_ms": 663
+    },
+    "D:scope::6d09ff4fb9d3": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/75a8a1b0_酒水.json",
+      "ts": 1776843236,
+      "dur_ms": 671
+    },
+    "D:scope::b26ec3e856ee": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/60f89aac_金融.json",
+      "ts": 1776843240,
+      "dur_ms": 673
+    },
+    "D:scope::52a861b2c29d": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/7f0dc5e3_销售.json",
+      "ts": 1776843243,
+      "dur_ms": 798
+    },
+    "D:scope::a09369c45073": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/0c5bd351_零售.json",
+      "ts": 1776843246,
+      "dur_ms": 701
+    },
+    "D:scope::6b2af7cdc079": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/84b0a8eb_食品.json",
+      "ts": 1776843255,
+      "dur_ms": 5595
+    },
+    "D:scope::ccd2db62c4c2": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/2a0ad6ff_餐饮.json",
+      "ts": 1776843258,
+      "dur_ms": 829
+    },
+    "D:scope::0fae0eef7e65": {
+      "status": "ok",
+      "saved_path": "dictionaries/business_scopes/entType_1100_busi_01/31c325ee_饮料.json",
+      "ts": 1776843261,
+      "dur_ms": 754
+    }
+  },
+  "failed": {
+    "entType_type1::97cb9b5e68f2": {
+      "job_id": "entType_type1",
+      "params": {
+        "type": "1"
+      },
+      "resp": {
+        "_ok": false,
+        "_err": "HTTPError('404 Client Error: Not Found for url: https://zhjg.scjdglj.gxzf.gov.cn:9087/v4/pc/common/synchrdata/queryNameEntType?type=1&t=1776842142320')"
+      },
+      "ts": 1776842142
+    },
+    "entType_type2::b6f82dbc4a18": {
+      "job_id": "entType_type2",
+      "params": {
+        "type": "2"
+      },
+      "resp": {
+        "_ok": false,
+        "_err": "HTTPError('404 Client Error: Not Found for url: https://zhjg.scjdglj.gxzf.gov.cn:9087/v4/pc/common/synchrdata/queryNameEntType?type=2&t=1776842142783')"
+      },
+      "ts": 1776842142
+    },
+    "regcode_street_root::a3b888c43d31": {
+      "job_id": "regcode_street_root",
+      "params": {
+        "fromPage": "qykbdb"
+      },
+      "resp": {
+        "_ok": false,
+        "_err": "HTTPError('404 Client Error: Not Found for url: https://zhjg.scjdglj.gxzf.gov.cn:9087/v4/pc/common/synchrdata/queryRegcodeAndStreet?fromPage=qykbdb&t=1776842142821')"
+      },
+      "ts": 1776842142
+    },
+    "codeList_MOKINDCODE::a958ddb3ec69": {
+      "job_id": "codeList_MOKINDCODE",
+      "params": {
+        "key": "CODE_MOKINDCODE"
+      },
+      "resp": {
+        "_ok": false,
+        "_err": "HTTPError('404 Client Error: Not Found for url: https://zhjg.scjdglj.gxzf.gov.cn:9087/v4/pc/common/codedata/special/common/queryCodeList?key=CODE_MOKINDCODE&t=1776842142861')"
+      },
+      "ts": 1776842142
+    },
+    "codeList_CERTYPECODE::b0ba56227225": {
+      "job_id": "codeList_CERTYPECODE",
+      "params": {
+        "key": "CODE_CERTYPECODE"
+      },
+      "resp": {
+        "_ok": false,
+        "_err": "HTTPError('404 Client Error: Not Found for url: https://zhjg.scjdglj.gxzf.gov.cn:9087/v4/pc/common/codedata/common/queryCodeKV?key=CODE_CERTYPECODE&t=1776842142892')"
+      },
+      "ts": 1776842142
+    },
+    "sysParam_all::99914b932bd3": {
+      "job_id": "sysParam_all",
+      "params": {},
+      "resp": {
+        "_ok": false,
+        "_err": "HTTPError('404 Client Error: Not Found for url: https://zhjg.scjdglj.gxzf.gov.cn:9087/v4/pc/common/configdata/sysParam/getAllSysParam?t=1776842142927')"
+      },
+      "ts": 1776842142
+    },
+    "serialTypeCode::99914b932bd3": {
+      "job_id": "serialTypeCode",
+      "params": {},
+      "resp": {
+        "_ok": false,
+        "_err": "HTTPError('404 Client Error: Not Found for url: https://zhjg.scjdglj.gxzf.gov.cn:9087/v4/pc/common/configdata/getSerialTypeCode?t=1776842142960')"
+      },
+      "ts": 1776842142
+    },
+    "rentalHouseCode::99914b932bd3": {
+      "job_id": "rentalHouseCode",
+      "params": {},
+      "resp": {
+        "_ok": false,
+        "_err": "HTTPError('404 Client Error: Not Found for url: https://zhjg.scjdglj.gxzf.gov.cn:9087/v4/pc/common/configdata/getRentalHouseCode?t=1776842142992')"
+      },
+      "ts": 1776842143
+    },
+    "businessModules::99914b932bd3": {
+      "job_id": "businessModules",
+      "params": {},
+      "resp": {
+        "_ok": false,
+        "_err": "HTTPError('404 Client Error: Not Found for url: https://zhjg.scjdglj.gxzf.gov.cn:9087/v4/pc/register/guide/home/selectBusinessModules?t=1776842143024')"
+      },
+      "ts": 1776842143
+    },
+    "sysConfig_noIndSpeTips::85aec6321dc8": {
+      "job_id": "sysConfig_noIndSpeTips",
+      "params": {
+        "key": "noIndSpeTips"
+      },
+      "resp": {
+        "_ok": false,
+        "_err": "HTTPError('404 Client Error: Not Found for url: https://zhjg.scjdglj.gxzf.gov.cn:9087/v4/pc/common/configdata/sysConfig/getSysConfig?key=noIndSpeTips&t=1776842143067')"
+      },
+      "ts": 1776842143
+    },
+    "matter_types::ab756e519585": {
+      "job_id": "matter_types",
+      "params": {
+        "useType": "0"
+      },
+      "resp": {
+        "_ok": false,
+        "_err": "HTTPError('404 Client Error: Not Found for url: https://zhjg.scjdglj.gxzf.gov.cn:9087/v4/pc/common/configdata/matter/types?useType=0&t=1776842143097')"
+      },
+      "ts": 1776842143
+    },
+    "matter_states::ab756e519585": {
+      "job_id": "matter_states",
+      "params": {
+        "useType": "0"
+      },
+      "resp": {
+        "_ok": false,
+        "_err": "HTTPError('404 Client Error: Not Found for url: https://zhjg.scjdglj.gxzf.gov.cn:9087/v4/pc/common/configdata/matter/states?useType=0&t=1776842143129')"
+      },
+      "ts": 1776842143
+    }
+  },
+  "d0029_count": 0,
+  "total_requests": 186
+}

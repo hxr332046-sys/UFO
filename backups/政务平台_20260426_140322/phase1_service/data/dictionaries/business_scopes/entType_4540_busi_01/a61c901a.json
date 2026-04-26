@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "Q8424",
+        "saveHyCode": "8424",
+        "hyPecul": "社会保障",
+        "hyTypeName": "村卫生室 ",
+        "enHyTypeName": null,
+        "explains": "指获得《医疗机构执业许可证》及相关专业诊疗技术服务准入许可的农村基层医疗机构务。",
+        "includesTitle": "包括下列村卫生室活动：",
+        "includes": "村卫生室（所、医疗点）。",
+        "unIncludes": "不包括：乡卫生院，列入8423（乡镇卫生院）；镇卫生院，列入8423（乡镇卫生院）。",
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "社会保障",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "N7910",
+        "saveHyCode": "7910",
+        "hyPecul": "土地整治开发",
+        "hyTypeName": "土地整治服务",
+        "enHyTypeName": null,
+        "explains": "指对土地开发、整理、复垦等进行规划设计、勘测、监测、评估的活动。",
+        "includesTitle": "包括下列土地整治服务活动：",
+        "includes": "为土地开发、整理、复垦进行的规划设计活动；为土地开发、整理、复垦进行的勘测活动；土地监测活动；土地评估论证活动。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "N7910",
+        "saveHyCode": "7910",
+        "hyPecul": "土地整治服务",
+        "hyTypeName": "土地整治服务",
+        "enHyTypeName": null,
+        "explains": "指对土地开发、整理、复垦等进行规划设计、勘测、监测、评估的活动。",
+        "includesTitle": "包括下列土地整治服务活动：",
+        "includes": "为土地开发、整理、复垦进行的规划设计活动；为土地开发、整理、复垦进行的勘测活动；土地监测活动；土地评估论证活动。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "土地整治",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

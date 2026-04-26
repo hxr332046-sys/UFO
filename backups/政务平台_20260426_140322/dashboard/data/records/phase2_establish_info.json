@@ -1,0 +1,144 @@
+{
+  "schema": "ufo.phase2.establish.v1",
+  "captured_at": "2026-04-23 09:20",
+  "name_registration": {
+    "busiId": "2046982359353524224",
+    "nameId": "2047094115971878913",
+    "entName": "有为风（广西容县）软件开发中心（个人独资）"
+  },
+  "establish_registration": {
+    "busiId": "2047122548757872642",
+    "created_at_ts": 1776907006014,
+    "created_via": "BasicInfo/operationBusinessDataInfo",
+    "itemCombId": "22561619020183"
+  },
+  "establish_flow": {
+    "step_1_operate_108": {
+      "method": "POST",
+      "url": "/icpsp-api/v4/pc/manager/mattermanager/matters/operate",
+      "body": {"busiId": "<name_busi_id>", "btnCode": "108", "dealFlag": "operate"},
+      "note": "返回 route.params: {busiType:02_4, nameId, visaFree:true}"
+    },
+    "step_2_load_current_loc": {
+      "method": "POST",
+      "url": "/icpsp-api/v4/pc/register/establish/loadCurrentLocationInfo",
+      "body": {
+        "flowData": {"busiType": "02_4", "entType": "4540", "nameId": "<nameId>"},
+        "linkData": {"continueFlag": "continueFlag", "token": ""}
+      },
+      "note": "服务端 session 进入设立态；返回 status=10 + busiCompComb 信息"
+    },
+    "step_3_load_basic_info": {
+      "method": "POST",
+      "url": "/icpsp-api/v4/pc/register/establish/component/BasicInfo/loadBusinessDataInfo",
+      "body_flowData": {"busiId": null, "currCompUrl": "BasicInfo", "status": "10"},
+      "body_linkData": {"compUrl": "BasicInfo", "compUrlPaths": ["BasicInfo"], "token": ""},
+      "body_itemId": "",
+      "note": "读 BasicInfo 页面数据；这里 busiId 仍为 null"
+    },
+    "step_4_concurrent_loads": [
+      "/register/establish/component/Residence/freeBusinessAreaList",
+      "/register/establish/component/Residence/isFreeBusinessArea",
+      "/register/establish/component/ManyCertRegistration/loadBusinessInfoList",
+      "/register/establish/component/OpManyAddress/loadBusinessInfoList"
+    ],
+    "step_5_SAVE_CREATE_BUSIID": {
+      "method": "POST",
+      "url": "/icpsp-api/v4/pc/register/establish/component/BasicInfo/operationBusinessDataInfo",
+      "KEY": "此请求成功后服务端创建新 busiId 并写回 resp.flowData.busiId",
+      "body_keys_required": [
+        "regOrg", "regOrgName", "shouldInvestWay", "entPhone(RSA)",
+        "subCapital", "operatorNum", "entType", "entTypeName",
+        "name", "nameMark", "businessArea", "busiAreaData(URL_encoded_JSON)",
+        "busiAreaCode", "busiAreaName", "itemIndustryTypeCode", "industryTypeName",
+        "entDomicileDto", "flowData", "linkData", "signInfo", "itemId(empty)"
+      ],
+      "critical_body_fields": {
+        "shouldInvestWay": "01",
+        "entPhone": "RSA-encrypted phone",
+        "regOrg": "145090000000000046",
+        "regOrgName": "容西市监所",
+        "subCapital": "10.000000",
+        "operatorNum": "1",
+        "licenseRadio": "0",
+        "copyCerNum": 1,
+        "moneyKindCode": "",
+        "namePreFlag": true,
+        "businessModeGT": "10",
+        "organize": "1",
+        "accountType": "1",
+        "xfz": "close",
+        "areaCategory": "I",
+        "entryCode": "",
+        "secretaryServiceEnt": "0",
+        "busiAreaCode": "I3006",
+        "busiAreaName": "软件开发",
+        "itemIndustryTypeCode": "6513",
+        "industryTypeName": "应用软件开发",
+        "businessArea": "一般经营项目：软件开发（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）",
+        "busiAreaData_decoded": {
+          "firstPlace": "general",
+          "param": [{
+            "id": "I3006",
+            "stateCo": "1",
+            "name": "软件开发",
+            "pid": "65",
+            "minIndusTypeCode": "6511;6512;6513",
+            "midIndusTypeCode": "651;651;651",
+            "isMainIndustry": "1",
+            "category": "I",
+            "indusTypeCode": "6511;6512;6513",
+            "indusTypeName": "软件开发",
+            "additionalValue": ""
+          }]
+        },
+        "entDomicileDto": {
+          "distCode": "450921",
+          "distCodeName": "玉林市容县",
+          "fisDistCode": null,
+          "streetCode": null,
+          "detAddress": "容州镇车站西路富盛广场1幢3203号房",
+          "address": "玉林市容县容州镇车站西路富盛广场1幢3203号房",
+          "regionCode": "450921",
+          "regionName": "玉林市容县",
+          "businessAddress": "广西壮族自治区玉林市容县容州镇车站西路富盛广场1幢3203号房",
+          "detBusinessAddress": "容州镇车站西路富盛广场1幢3203号房",
+          "houseToBus": "0",
+          "normAddFlag": "02",
+          "havaAdress": "0",
+          "isSelectDistCode": "0"
+        },
+        "flowData": {
+          "busiId": null,
+          "entType": "4540",
+          "busiType": "02",
+          "ywlbSign": "4",
+          "nameId": "<name_id>",
+          "currCompUrl": "OpManyAddress",
+          "status": "10"
+        },
+        "linkData": {
+          "compUrl": "BasicInfo",
+          "opeType": "save",
+          "compUrlPaths": ["BasicInfo"],
+          "busiCompUrlPaths": "%5B%5D",
+          "token": "",
+          "continueFlag": "continueFlag"
+        },
+        "signInfo": "-1607173598",
+        "itemId": ""
+      }
+    }
+  },
+  "next_components_after_basicinfo": [
+    "MemberPost", "MemberPool", "PersonInfoRegGT", "ChargeDepartment",
+    "RegMergeAndDiv", "WzInfoReport", "ComplementInfo", "Rules",
+    "BankOpenInfo", "MedicalInsured", "Engraving", "TaxInvoice",
+    "SocialInsured", "GjjHandle", "WaterNewHandle", "GasNewHandle",
+    "ElectricNewHandle", "NetHandle", "CreditHandle", "HouseConstructHandle",
+    "YjsRegPrePack", "YjsRegFoodOp", "SlUploadMaterial", "BusinessLicenceWay",
+    "YbbSelect", "PreElectronicDoc", "PreSubmitSuccess", "ElectronicDoc",
+    "SubmitSuccess", "RegNotification", "RegBusiLicence"
+  ],
+  "process_to_comp_map": "nameshow|0,fill|1-26,confirm|27,preTrial|28,signature|29,audit|30,notification|31,busiLicense|32"
+}

@@ -1,0 +1,108 @@
+{
+  "success": true,
+  "busiId": "2047593104839671808",
+  "hit_count": 2,
+  "checkState": 4,
+  "similar_names": [
+    {
+      "name": "玉林市昱铭中药材专业合作社",
+      "regNo": null
+    },
+    {
+      "name": "广西容县昱铭工程建设有限公司",
+      "regNo": null
+    }
+  ],
+  "steps": [
+    {
+      "name": "checkEstablishName",
+      "ok": true,
+      "code": "00000",
+      "result_type": "0",
+      "msg": "",
+      "server_msg": null,
+      "duration_ms": null,
+      "extracted": {}
+    },
+    {
+      "name": "loadCurrentLocationInfo",
+      "ok": true,
+      "code": "00000",
+      "result_type": "0",
+      "msg": "",
+      "server_msg": null,
+      "duration_ms": null,
+      "extracted": {
+        "flowData.busiType": "01"
+      }
+    },
+    {
+      "name": "NameCheckInfo/loadBusinessDataInfo",
+      "ok": true,
+      "code": "00000",
+      "result_type": "0",
+      "msg": "",
+      "server_msg": null,
+      "duration_ms": null,
+      "extracted": {}
+    },
+    {
+      "name": "bannedLexiconCalibration",
+      "ok": true,
+      "code": "00000",
+      "result_type": "0",
+      "msg": "",
+      "server_msg": null,
+      "duration_ms": null,
+      "extracted": {
+        "success": true,
+        "tipStr": ""
+      }
+    },
+    {
+      "name": "NameCheckInfo/operationBusinessDataInfo#first",
+      "ok": true,
+      "code": "00000",
+      "result_type": "2",
+      "msg": "",
+      "server_msg": null,
+      "duration_ms": null,
+      "extracted": {
+        "resultType": "2"
+      }
+    },
+    {
+      "name": "NameCheckInfo/nameCheckRepeat",
+      "ok": true,
+      "code": "00000",
+      "result_type": "0",
+      "msg": "",
+      "server_msg": null,
+      "duration_ms": null,
+      "extracted": {
+        "nameCheckDTO_captured": true,
+        "hit_count": 2,
+        "checkState_reported": 4,
+        "langStateCode": "register.msg.namecheck.state.similar"
+      }
+    },
+    {
+      "name": "NameCheckInfo/operationBusinessDataInfo#second",
+      "ok": true,
+      "code": "00000",
+      "result_type": "0",
+      "msg": "",
+      "server_msg": null,
+      "duration_ms": null,
+      "extracted": {
+        "checkState_sent": 4,
+        "busiId_from_second_save": "2047593104839671808"
+      }
+    }
+  ],
+  "latency_ms": 9697,
+  "reason": null,
+  "reason_detail": null,
+  "error_code": null,
+  "cached": false
+}

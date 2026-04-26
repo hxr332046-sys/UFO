@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "A0161",
+        "saveHyCode": "0161",
+        "hyPecul": "坚果种植",
+        "hyTypeName": "坚果种植",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列坚果的种植活动：",
+        "includes": "椰子：种用椰子、其他椰子；腰果；核桃；山核桃；栗子：板栗、锥栗、丹东栗、其他栗子；松子；榛子；阿月浑子果（开心果）；槟榔；白果；香榧；巴旦杏；夏威夷果；其他坚果；农户坚果种植、加工一体的果酒及坚果产品的生产。",
+        "unIncludes": "不包括：野生坚果的采集，列入0252（非木竹材林产品采集）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "坚果种植",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

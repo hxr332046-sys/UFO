@@ -1,0 +1,91 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "F5285",
+        "saveHyCode": "5285",
+        "hyPecul": "卫生洁具",
+        "hyTypeName": "卫生洁具零售",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列卫生洁具的零售活动：",
+        "includes": "各种浴盆、盥洗盆等专门零售服务；各种卫生间用水龙头、喷头等专门零售服务；其他卫生洁具专门零售服务。",
+        "unIncludes": "不包括：建筑小五金、电工工具零售，列入5281（五金零售）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "C3373",
+        "saveHyCode": "3373",
+        "hyPecul": "卫生洁具",
+        "hyTypeName": "搪瓷卫生洁具制造",
+        "enHyTypeName": null,
+        "explains": "指卫生用和清洁盥洗用搪瓷用具的生产活动。",
+        "includesTitle": "包括对下列搪瓷卫生洁具的制造活动：",
+        "includes": "搪瓷洗涤器具：搪瓷浴缸、搪瓷洗涤槽、搪瓷盥洗盆、其他搪瓷洗涤器具；医疗、卫生用搪瓷制品：搪瓷针盒，搪瓷大便器，搪瓷尿壶及痰盂，其他医疗、卫生用搪瓷制品。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "F5285",
+        "saveHyCode": "5285",
+        "hyPecul": "卫生洁具销售",
+        "hyTypeName": "卫生洁具零售",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列卫生洁具的零售活动：",
+        "includes": "各种浴盆、盥洗盆等专门零售服务；各种卫生间用水龙头、喷头等专门零售服务；其他卫生洁具专门零售服务。",
+        "unIncludes": "不包括：建筑小五金、电工工具零售，列入5281（五金零售）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "F5285",
+        "saveHyCode": "5285",
+        "hyPecul": "卫生洁具零售",
+        "hyTypeName": "卫生洁具零售",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列卫生洁具的零售活动：",
+        "includes": "各种浴盆、盥洗盆等专门零售服务；各种卫生间用水龙头、喷头等专门零售服务；其他卫生洁具专门零售服务。",
+        "unIncludes": "不包括：建筑小五金、电工工具零售，列入5281（五金零售）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "C3373",
+        "saveHyCode": "3373",
+        "hyPecul": "搪瓷卫生洁具制造",
+        "hyTypeName": "搪瓷卫生洁具制造",
+        "enHyTypeName": null,
+        "explains": "指卫生用和清洁盥洗用搪瓷用具的生产活动。",
+        "includesTitle": "包括对下列搪瓷卫生洁具的制造活动：",
+        "includes": "搪瓷洗涤器具：搪瓷浴缸、搪瓷洗涤槽、搪瓷盥洗盆、其他搪瓷洗涤器具；医疗、卫生用搪瓷制品：搪瓷针盒，搪瓷大便器，搪瓷尿壶及痰盂，其他医疗、卫生用搪瓷制品。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "卫生洁具",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

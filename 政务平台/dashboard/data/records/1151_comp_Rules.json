@@ -1,0 +1,1153 @@
+{
+  "typeList": [
+    {
+      "type": "rule_rec",
+      "name": "register.Rules.typeName.rule_rec",
+      "show": true,
+      "selectMode": "2",
+      "linkType": null,
+      "disabled": null,
+      "download": true
+    }
+  ],
+  "modes": [
+    {
+      "type": "rule_rec_2",
+      "name": "register.Rules.modeName.2",
+      "value": "2",
+      "ruleTemplates": [
+        {
+          "strategy": "09",
+          "busiType": "02",
+          "ywlbsign": null,
+          "entType": "11",
+          "organCode": null,
+          "invType": "1",
+          "board": "1",
+          "supervisor": "1",
+          "altItem": null,
+          "type": "rule_rec",
+          "scene": null,
+          "linkType": null,
+          "temSerial": "09-02-rule_rec-111",
+          "temUrl": "09-02-rule_rec-111.vue",
+          "hasSup": null,
+          "downloadUrl": null,
+          "remark": "单股东不设董事会不设监事会章程",
+          "sort": "2",
+          "chosign": "Y"
+        }
+      ]
+    },
+    {
+      "type": "rule_rec_1",
+      "name": "register.Rules.modeName.1",
+      "value": "1",
+      "ruleTemplates": [
+        {
+          "strategy": "09",
+          "busiType": "02",
+          "ywlbsign": null,
+          "entType": "11",
+          "organCode": null,
+          "invType": "1",
+          "board": "1",
+          "supervisor": "1",
+          "altItem": null,
+          "type": "rule_rec",
+          "scene": null,
+          "linkType": null,
+          "temSerial": "09-02-rule_rec-sc-111",
+          "temUrl": null,
+          "hasSup": null,
+          "downloadUrl": "/downloadFiles/GUANGXI/09-02-rule_rec-sc-111.zip",
+          "remark": "单股东不设董事会不设监事会章程",
+          "sort": "2",
+          "chosign": "Y"
+        }
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "temserial": "09-02-rule_rec-111",
+      "fieldCode": "invDecideDate",
+      "fieldName": "股东决定日期",
+      "fieldType": "date",
+      "type": "rule_rec_2",
+      "value": null,
+      "checkRule": "^.+$",
+      "checkruleMsg": "不能为空",
+      "must": "Y",
+      "order": "1",
+      "fieldContent": null
+    },
+    {
+      "temserial": "09-02-rule_rec-111",
+      "fieldCode": "invSignDate",
+      "fieldName": "股东签字日期",
+      "fieldType": "date",
+      "type": "rule_rec_2",
+      "value": null,
+      "checkRule": "^.+$",
+      "checkruleMsg": "不能为空",
+      "must": "Y",
+      "order": "2",
+      "fieldContent": null
+    },
+    {
+      "temserial": "09-02-rule_rec-111",
+      "fieldCode": "boardDecideDate",
+      "fieldName": "董事决定日期",
+      "fieldType": "date",
+      "type": "rule_rec_2",
+      "value": null,
+      "checkRule": "^.+$",
+      "checkruleMsg": "不能为空",
+      "must": "Y",
+      "order": "3",
+      "fieldContent": null
+    },
+    {
+      "temserial": "09-02-rule_rec-111",
+      "fieldCode": "boardSignDate",
+      "fieldName": "董事签字日期",
+      "fieldType": "date",
+      "type": "rule_rec_2",
+      "value": null,
+      "checkRule": "^.+$",
+      "checkruleMsg": "不能为空",
+      "must": "Y",
+      "order": "4",
+      "fieldContent": null
+    },
+    {
+      "temserial": "09-02-rule_rec-111",
+      "fieldCode": "mainRuleSignTime",
+      "fieldName": "主章程签字日期",
+      "fieldType": "date",
+      "type": "rule_rec_2",
+      "value": "2023年6月20日",
+      "checkRule": "^.+$",
+      "checkruleMsg": "不能为空",
+      "must": "Y",
+      "order": "5",
+      "fieldContent": null
+    }
+  ],
+  "supTerms": {},
+  "materials": [],
+  "htmlTemplate": null,
+  "templateModel": {
+    "entName": "广西星彤创科技有限公司",
+    "oldEntName": null,
+    "entType": "1151",
+    "address": "广西壮族自治区玉林市容县容州镇车站西路富盛广场1幢3203号房",
+    "businessArea": "一般项目：技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广;五金产品零售;五金产品制造;五金产品批发;五金产品研发;家用电器销售;家用电器制造;电子产品销售;日用杂品销售;日用杂品制造;日用百货销售;日用家电零售;日用品销售;化妆品批发;化妆品零售;厨具卫具及日用杂品零售;厨具卫具及日用杂品批发;第一类医疗器械销售;玩具销售;玩具制造;汽车装饰用品销售;体育用品及器材批发;体育用品及器材制造;体育用品及器材零售;文具用品零售;文具用品批发;办公用品销售;鞋帽批发;鞋帽零售;劳动保护用品销售;服装服饰批发;家具销售;服装服饰零售;钟表销售;办公设备销售;互联网销售（除销售需要许可的商品）;家用电器零配件销售;旧货销售;家用电器研发;珠宝首饰零售;珠宝首饰批发;计算机软硬件及辅助设备零售;计算机软硬件及辅助设备批发;建筑材料销售;轻质建筑材料销售;食品销售（仅销售预包装食品）;食品互联网销售（仅销售预包装食品）。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）",
+    "organ": "容县市场监督管理局",
+    "subCapital": "200",
+    "investMoney": "",
+    "legalPerson": {
+      "post": "代表公司执行公司事务的董事",
+      "names": "黄永裕",
+      "selectNames": "任命黄永裕"
+    },
+    "executivePartners": null,
+    "executivePartnerNames": null,
+    "currentDate": "2026年04月23日",
+    "deadline": "长期",
+    "positions": {
+      "jshfzx": {
+        "rzList": null,
+        "selectRzNames": null,
+        "rzNames": null,
+        "mzList": null,
+        "selectMzNames": null,
+        "mzNames": null,
+        "curList": [],
+        "selectCurNames": "",
+        "curNames": "",
+        "gdhList": [],
+        "selectGdhNames": "",
+        "gdhNames": "",
+        "zdhList": [],
+        "fzdhList": [],
+        "selectZdhNames": "",
+        "zdhNames": "",
+        "fzdhNames": "",
+        "dshList": [],
+        "selectDshNames": "",
+        "dshNames": "",
+        "jshList": [],
+        "selectJshNames": "",
+        "jshNames": "",
+        "zxdsList": [],
+        "selectZxdsNames": "",
+        "zxdsNames": "",
+        "maxTimeLimit": "",
+        "allList": null,
+        "curMap": {},
+        "curZgdbMap": {},
+        "curGdhAndZgdbMap": {},
+        "groupPostDesc": "监事会副主席",
+        "gdhRzList": null,
+        "gdhMzList": null,
+        "dshRzList": null,
+        "dshMzList": null,
+        "jshRzList": null,
+        "jshMzList": null,
+        "zxdsRzList": null,
+        "zxdsMzList": null
+      },
+      "jl": {
+        "rzList": null,
+        "selectRzNames": null,
+        "rzNames": null,
+        "mzList": null,
+        "selectMzNames": null,
+        "mzNames": null,
+        "curList": [],
+        "selectCurNames": "",
+        "curNames": "",
+        "gdhList": [],
+        "selectGdhNames": "",
+        "gdhNames": "",
+        "zdhList": [],
+        "fzdhList": [],
+        "selectZdhNames": "",
+        "zdhNames": "",
+        "fzdhNames": "",
+        "dshList": [],
+        "selectDshNames": "",
+        "dshNames": "",
+        "jshList": [],
+        "selectJshNames": "",
+        "jshNames": "",
+        "zxdsList": [],
+        "selectZxdsNames": "",
+        "zxdsNames": "",
+        "maxTimeLimit": "",
+        "allList": null,
+        "curMap": {},
+        "curZgdbMap": {},
+        "curGdhAndZgdbMap": {},
+        "groupPostDesc": "经理",
+        "gdhRzList": null,
+        "gdhMzList": null,
+        "dshRzList": null,
+        "dshMzList": null,
+        "jshRzList": null,
+        "jshMzList": null,
+        "zxdsRzList": null,
+        "zxdsMzList": null
+      },
+      "zxds": {
+        "rzList": null,
+        "selectRzNames": null,
+        "rzNames": null,
+        "mzList": null,
+        "selectMzNames": null,
+        "mzNames": null,
+        "curList": [
+          {
+            "name": "黄永裕",
+            "post": "410C",
+            "postName": null,
+            "timeLimit": "",
+            "idType": "10",
+            "idNo": "450921198812051251",
+            "isChairMan": null,
+            "realSelectWay": "任命",
+            "realAppointOrg": "上级任命",
+            "isLegalPerson": true,
+            "isAuditCouncil": false,
+            "selectWay": "任命",
+            "selectWayOld": "任命",
+            "secondSelectWay": "聘任",
+            "appointOrg": "上级任命",
+            "appointOrgOld": "上级任命",
+            "secondAppointOrg": "执行董事任命",
+            "appointSelect": "上级任命任命",
+            "appointSelectOld": "上级任命任命",
+            "secondAppointSelect": "执行董事任命聘任"
+          }
+        ],
+        "selectCurNames": "任命黄永裕",
+        "curNames": "黄永裕",
+        "gdhList": [],
+        "selectGdhNames": "",
+        "gdhNames": "",
+        "zdhList": [],
+        "fzdhList": [
+          {
+            "name": "黄永裕",
+            "post": "410C",
+            "postName": null,
+            "timeLimit": "",
+            "idType": "10",
+            "idNo": "450921198812051251",
+            "isChairMan": null,
+            "realSelectWay": "任命",
+            "realAppointOrg": "上级任命",
+            "isLegalPerson": true,
+            "isAuditCouncil": false,
+            "selectWay": "任命",
+            "selectWayOld": "任命",
+            "secondSelectWay": "聘任",
+            "appointOrg": "上级任命",
+            "appointOrgOld": "上级任命",
+            "secondAppointOrg": "执行董事任命",
+            "appointSelect": "上级任命任命",
+            "appointSelectOld": "上级任命任命",
+            "secondAppointSelect": "执行董事任命聘任"
+          }
+        ],
+        "selectZdhNames": "",
+        "zdhNames": "",
+        "fzdhNames": "黄永裕",
+        "dshList": [],
+        "selectDshNames": "",
+        "dshNames": "",
+        "jshList": [],
+        "selectJshNames": "",
+        "jshNames": "",
+        "zxdsList": [],
+        "selectZxdsNames": "",
+        "zxdsNames": "",
+        "maxTimeLimit": "",
+        "allList": null,
+        "curMap": {
+          "上级任命任命": [
+            {
+              "name": "黄永裕",
+              "post": "410C",
+              "postName": null,
+              "timeLimit": "",
+              "idType": "10",
+              "idNo": "450921198812051251",
+              "isChairMan": null,
+              "realSelectWay": "任命",
+              "realAppointOrg": "上级任命",
+              "isLegalPerson": true,
+              "isAuditCouncil": false,
+              "selectWay": "任命",
+              "selectWayOld": "任命",
+              "secondSelectWay": "聘任",
+              "appointOrg": "上级任命",
+              "appointOrgOld": "上级任命",
+              "secondAppointOrg": "执行董事任命",
+              "appointSelect": "上级任命任命",
+              "appointSelectOld": "上级任命任命",
+              "secondAppointSelect": "执行董事任命聘任"
+            }
+          ]
+        },
+        "curZgdbMap": {
+          "其他": "非职工代表1人,由上级任命任命产生"
+        },
+        "curGdhAndZgdbMap": {},
+        "groupPostDesc": "执行董事",
+        "gdhRzList": null,
+        "gdhMzList": null,
+        "dshRzList": null,
+        "dshMzList": null,
+        "jshRzList": null,
+        "jshMzList": null,
+        "zxdsRzList": null,
+        "zxdsMzList": null
+      },
+      "jshzx": {
+        "rzList": null,
+        "selectRzNames": null,
+        "rzNames": null,
+        "mzList": null,
+        "selectMzNames": null,
+        "mzNames": null,
+        "curList": [],
+        "selectCurNames": "",
+        "curNames": "",
+        "gdhList": [],
+        "selectGdhNames": "",
+        "gdhNames": "",
+        "zdhList": [],
+        "fzdhList": [],
+        "selectZdhNames": "",
+        "zdhNames": "",
+        "fzdhNames": "",
+        "dshList": [],
+        "selectDshNames": "",
+        "dshNames": "",
+        "jshList": [],
+        "selectJshNames": "",
+        "jshNames": "",
+        "zxdsList": [],
+        "selectZxdsNames": "",
+        "zxdsNames": "",
+        "maxTimeLimit": "",
+        "allList": null,
+        "curMap": {},
+        "curZgdbMap": {},
+        "curGdhAndZgdbMap": {},
+        "groupPostDesc": "监事会主席",
+        "gdhRzList": null,
+        "gdhMzList": null,
+        "dshRzList": null,
+        "dshMzList": null,
+        "jshRzList": null,
+        "jshMzList": null,
+        "zxdsRzList": null,
+        "zxdsMzList": null
+      },
+      "fzjl": {
+        "rzList": null,
+        "selectRzNames": null,
+        "rzNames": null,
+        "mzList": null,
+        "selectMzNames": null,
+        "mzNames": null,
+        "curList": [],
+        "selectCurNames": "",
+        "curNames": "",
+        "gdhList": [],
+        "selectGdhNames": "",
+        "gdhNames": "",
+        "zdhList": [],
+        "fzdhList": [],
+        "selectZdhNames": "",
+        "zdhNames": "",
+        "fzdhNames": "",
+        "dshList": [],
+        "selectDshNames": "",
+        "dshNames": "",
+        "jshList": [],
+        "selectJshNames": "",
+        "jshNames": "",
+        "zxdsList": [],
+        "selectZxdsNames": "",
+        "zxdsNames": "",
+        "maxTimeLimit": "",
+        "allList": null,
+        "curMap": {},
+        "curZgdbMap": {},
+        "curGdhAndZgdbMap": {},
+        "groupPostDesc": "副经理",
+        "gdhRzList": null,
+        "gdhMzList": null,
+        "dshRzList": null,
+        "dshMzList": null,
+        "jshRzList": null,
+        "jshMzList": null,
+        "zxdsRzList": null,
+        "zxdsMzList": null
+      },
+      "js": {
+        "rzList": null,
+        "selectRzNames": null,
+        "rzNames": null,
+        "mzList": null,
+        "selectMzNames": null,
+        "mzNames": null,
+        "curList": [
+          {
+            "name": "李飞嫦",
+            "post": "408A",
+            "postName": null,
+            "timeLimit": "",
+            "idType": "10",
+            "idNo": "450921198612090424",
+            "isChairMan": null,
+            "realSelectWay": "任命",
+            "realAppointOrg": "上级任命",
+            "isLegalPerson": false,
+            "isAuditCouncil": false,
+            "selectWay": "任命",
+            "selectWayOld": "任命",
+            "secondSelectWay": "",
+            "appointOrg": "上级任命",
+            "appointOrgOld": "上级任命",
+            "secondAppointOrg": "职工代表大会",
+            "appointSelect": "上级任命任命",
+            "appointSelectOld": "上级任命任命",
+            "secondAppointSelect": "职工代表大会"
+          }
+        ],
+        "selectCurNames": "任命李飞嫦",
+        "curNames": "李飞嫦",
+        "gdhList": [],
+        "selectGdhNames": "",
+        "gdhNames": "",
+        "zdhList": [],
+        "fzdhList": [
+          {
+            "name": "李飞嫦",
+            "post": "408A",
+            "postName": null,
+            "timeLimit": "",
+            "idType": "10",
+            "idNo": "450921198612090424",
+            "isChairMan": null,
+            "realSelectWay": "任命",
+            "realAppointOrg": "上级任命",
+            "isLegalPerson": false,
+            "isAuditCouncil": false,
+            "selectWay": "任命",
+            "selectWayOld": "任命",
+            "secondSelectWay": "",
+            "appointOrg": "上级任命",
+            "appointOrgOld": "上级任命",
+            "secondAppointOrg": "职工代表大会",
+            "appointSelect": "上级任命任命",
+            "appointSelectOld": "上级任命任命",
+            "secondAppointSelect": "职工代表大会"
+          }
+        ],
+        "selectZdhNames": "",
+        "zdhNames": "",
+        "fzdhNames": "李飞嫦",
+        "dshList": [],
+        "selectDshNames": "",
+        "dshNames": "",
+        "jshList": [],
+        "selectJshNames": "",
+        "jshNames": "",
+        "zxdsList": [],
+        "selectZxdsNames": "",
+        "zxdsNames": "",
+        "maxTimeLimit": "",
+        "allList": null,
+        "curMap": {
+          "上级任命任命": [
+            {
+              "name": "李飞嫦",
+              "post": "408A",
+              "postName": null,
+              "timeLimit": "",
+              "idType": "10",
+              "idNo": "450921198612090424",
+              "isChairMan": null,
+              "realSelectWay": "任命",
+              "realAppointOrg": "上级任命",
+              "isLegalPerson": false,
+              "isAuditCouncil": false,
+              "selectWay": "任命",
+              "selectWayOld": "任命",
+              "secondSelectWay": "",
+              "appointOrg": "上级任命",
+              "appointOrgOld": "上级任命",
+              "secondAppointOrg": "职工代表大会",
+              "appointSelect": "上级任命任命",
+              "appointSelectOld": "上级任命任命",
+              "secondAppointSelect": "职工代表大会"
+            }
+          ]
+        },
+        "curZgdbMap": {
+          "其他": "非职工代表1人,由上级任命任命产生"
+        },
+        "curGdhAndZgdbMap": {},
+        "groupPostDesc": "监事",
+        "gdhRzList": null,
+        "gdhMzList": null,
+        "dshRzList": null,
+        "dshMzList": null,
+        "jshRzList": null,
+        "jshMzList": null,
+        "zxdsRzList": null,
+        "zxdsMzList": null
+      },
+      "fdsz": {
+        "rzList": null,
+        "selectRzNames": null,
+        "rzNames": null,
+        "mzList": null,
+        "selectMzNames": null,
+        "mzNames": null,
+        "curList": [],
+        "selectCurNames": "",
+        "curNames": "",
+        "gdhList": [],
+        "selectGdhNames": "",
+        "gdhNames": "",
+        "zdhList": [],
+        "fzdhList": [],
+        "selectZdhNames": "",
+        "zdhNames": "",
+        "fzdhNames": "",
+        "dshList": [],
+        "selectDshNames": "",
+        "dshNames": "",
+        "jshList": [],
+        "selectJshNames": "",
+        "jshNames": "",
+        "zxdsList": [],
+        "selectZxdsNames": "",
+        "zxdsNames": "",
+        "maxTimeLimit": "",
+        "allList": null,
+        "curMap": {},
+        "curZgdbMap": {},
+        "curGdhAndZgdbMap": {},
+        "groupPostDesc": "副董事长",
+        "gdhRzList": null,
+        "gdhMzList": null,
+        "dshRzList": null,
+        "dshMzList": null,
+        "jshRzList": null,
+        "jshMzList": null,
+        "zxdsRzList": null,
+        "zxdsMzList": null
+      },
+      "dsz": {
+        "rzList": null,
+        "selectRzNames": null,
+        "rzNames": null,
+        "mzList": null,
+        "selectMzNames": null,
+        "mzNames": null,
+        "curList": [],
+        "selectCurNames": "",
+        "curNames": "",
+        "gdhList": [],
+        "selectGdhNames": "",
+        "gdhNames": "",
+        "zdhList": [],
+        "fzdhList": [],
+        "selectZdhNames": "",
+        "zdhNames": "",
+        "fzdhNames": "",
+        "dshList": [],
+        "selectDshNames": "",
+        "dshNames": "",
+        "jshList": [],
+        "selectJshNames": "",
+        "jshNames": "",
+        "zxdsList": [],
+        "selectZxdsNames": "",
+        "zxdsNames": "",
+        "maxTimeLimit": "",
+        "allList": null,
+        "curMap": {},
+        "curZgdbMap": {},
+        "curGdhAndZgdbMap": {},
+        "groupPostDesc": "董事长",
+        "gdhRzList": null,
+        "gdhMzList": null,
+        "dshRzList": null,
+        "dshMzList": null,
+        "jshRzList": null,
+        "jshMzList": null,
+        "zxdsRzList": null,
+        "zxdsMzList": null
+      },
+      "zjl": {
+        "rzList": null,
+        "selectRzNames": null,
+        "rzNames": null,
+        "mzList": null,
+        "selectMzNames": null,
+        "mzNames": null,
+        "curList": [
+          {
+            "name": "黄永裕",
+            "post": "410C",
+            "postName": null,
+            "timeLimit": "",
+            "idType": "10",
+            "idNo": "450921198812051251",
+            "isChairMan": null,
+            "realSelectWay": "聘任",
+            "realAppointOrg": "执行董事任命",
+            "isLegalPerson": false,
+            "isAuditCouncil": false,
+            "selectWay": "任命",
+            "selectWayOld": "任命",
+            "secondSelectWay": "聘任",
+            "appointOrg": "上级任命",
+            "appointOrgOld": "上级任命",
+            "secondAppointOrg": "执行董事任命",
+            "appointSelect": "上级任命任命",
+            "appointSelectOld": "上级任命任命",
+            "secondAppointSelect": "执行董事任命聘任"
+          }
+        ],
+        "selectCurNames": "聘任黄永裕",
+        "curNames": "黄永裕",
+        "gdhList": [],
+        "selectGdhNames": "",
+        "gdhNames": "",
+        "zdhList": [],
+        "fzdhList": [
+          {
+            "name": "黄永裕",
+            "post": "410C",
+            "postName": null,
+            "timeLimit": "",
+            "idType": "10",
+            "idNo": "450921198812051251",
+            "isChairMan": null,
+            "realSelectWay": "聘任",
+            "realAppointOrg": "执行董事任命",
+            "isLegalPerson": false,
+            "isAuditCouncil": false,
+            "selectWay": "任命",
+            "selectWayOld": "任命",
+            "secondSelectWay": "聘任",
+            "appointOrg": "上级任命",
+            "appointOrgOld": "上级任命",
+            "secondAppointOrg": "执行董事任命",
+            "appointSelect": "上级任命任命",
+            "appointSelectOld": "上级任命任命",
+            "secondAppointSelect": "执行董事任命聘任"
+          }
+        ],
+        "selectZdhNames": "",
+        "zdhNames": "",
+        "fzdhNames": "黄永裕",
+        "dshList": [],
+        "selectDshNames": "",
+        "dshNames": "",
+        "jshList": [],
+        "selectJshNames": "",
+        "jshNames": "",
+        "zxdsList": [
+          {
+            "name": "黄永裕",
+            "post": "410C",
+            "postName": null,
+            "timeLimit": "",
+            "idType": "10",
+            "idNo": "450921198812051251",
+            "isChairMan": null,
+            "realSelectWay": "聘任",
+            "realAppointOrg": "执行董事任命",
+            "isLegalPerson": false,
+            "isAuditCouncil": false,
+            "selectWay": "任命",
+            "selectWayOld": "任命",
+            "secondSelectWay": "聘任",
+            "appointOrg": "上级任命",
+            "appointOrgOld": "上级任命",
+            "secondAppointOrg": "执行董事任命",
+            "appointSelect": "上级任命任命",
+            "appointSelectOld": "上级任命任命",
+            "secondAppointSelect": "执行董事任命聘任"
+          }
+        ],
+        "selectZxdsNames": "聘任黄永裕",
+        "zxdsNames": "黄永裕",
+        "maxTimeLimit": "",
+        "allList": null,
+        "curMap": {
+          "执行董事任命聘任": [
+            {
+              "name": "黄永裕",
+              "post": "410C",
+              "postName": null,
+              "timeLimit": "",
+              "idType": "10",
+              "idNo": "450921198812051251",
+              "isChairMan": null,
+              "realSelectWay": "聘任",
+              "realAppointOrg": "执行董事任命",
+              "isLegalPerson": false,
+              "isAuditCouncil": false,
+              "selectWay": "任命",
+              "selectWayOld": "任命",
+              "secondSelectWay": "聘任",
+              "appointOrg": "上级任命",
+              "appointOrgOld": "上级任命",
+              "secondAppointOrg": "执行董事任命",
+              "appointSelect": "上级任命任命",
+              "appointSelectOld": "上级任命任命",
+              "secondAppointSelect": "执行董事任命聘任"
+            }
+          ]
+        },
+        "curZgdbMap": {
+          "其他": "非职工代表1人,由执行董事任命聘任产生"
+        },
+        "curGdhAndZgdbMap": {},
+        "groupPostDesc": "总经理",
+        "gdhRzList": null,
+        "gdhMzList": null,
+        "dshRzList": null,
+        "dshMzList": null,
+        "jshRzList": null,
+        "jshMzList": null,
+        "zxdsRzList": null,
+        "zxdsMzList": null
+      },
+      "ds": {
+        "rzList": null,
+        "selectRzNames": null,
+        "rzNames": null,
+        "mzList": null,
+        "selectMzNames": null,
+        "mzNames": null,
+        "curList": [],
+        "selectCurNames": "",
+        "curNames": "",
+        "gdhList": [],
+        "selectGdhNames": "",
+        "gdhNames": "",
+        "zdhList": [],
+        "fzdhList": [],
+        "selectZdhNames": "",
+        "zdhNames": "",
+        "fzdhNames": "",
+        "dshList": [],
+        "selectDshNames": "",
+        "dshNames": "",
+        "jshList": [],
+        "selectJshNames": "",
+        "jshNames": "",
+        "zxdsList": [],
+        "selectZxdsNames": "",
+        "zxdsNames": "",
+        "maxTimeLimit": "",
+        "allList": null,
+        "curMap": {},
+        "curZgdbMap": {},
+        "curGdhAndZgdbMap": {},
+        "groupPostDesc": "董事",
+        "gdhRzList": null,
+        "gdhMzList": null,
+        "dshRzList": null,
+        "dshMzList": null,
+        "jshRzList": null,
+        "jshMzList": null,
+        "zxdsRzList": null,
+        "zxdsMzList": null
+      }
+    },
+    "signers": {
+      "zdhjs": {
+        "addSigners": null,
+        "delSigners": null,
+        "protoSigners": null,
+        "allSigners": null,
+        "llist": null,
+        "rlist": null
+      },
+      "managerjs": {
+        "addSigners": null,
+        "delSigners": null,
+        "protoSigners": null,
+        "allSigners": [
+          "BzQJz2"
+        ],
+        "llist": null,
+        "rlist": null
+      },
+      "invest": {
+        "addSigners": null,
+        "delSigners": null,
+        "protoSigners": null,
+        "allSigners": [
+          "uIJbie"
+        ],
+        "llist": null,
+        "rlist": null
+      },
+      "legal": {
+        "addSigners": null,
+        "delSigners": null,
+        "protoSigners": null,
+        "allSigners": [
+          "uIJbie"
+        ],
+        "llist": null,
+        "rlist": null
+      },
+      "zxswhhr": {
+        "addSigners": null,
+        "delSigners": null,
+        "protoSigners": null,
+        "allSigners": null,
+        "llist": null,
+        "rlist": null
+      },
+      "company": {
+        "addSigners": null,
+        "delSigners": null,
+        "protoSigners": null,
+        "allSigners": null,
+        "llist": null,
+        "rlist": null
+      },
+      "managerds": {
+        "addSigners": null,
+        "delSigners": null,
+        "protoSigners": null,
+        "allSigners": null,
+        "llist": null,
+        "rlist": null
+      }
+    },
+    "investors": {
+      "names": "黄永裕",
+      "capitalInfos": [
+        {
+          "name": "黄永裕",
+          "memType": null,
+          "moneyRatio": "100.0000%",
+          "amount": "200.000000",
+          "capitalTime": "2050年12月31日",
+          "capitalWay": "货币",
+          "realInvestMoney": "",
+          "realInvestDate": "",
+          "realInvestWay": "",
+          "handUpEndDate": "",
+          "capitalWays": [
+            {
+              "capitalWay": "货币",
+              "money": "200.000000",
+              "date": null
+            }
+          ],
+          "idNo": "450921198812051251",
+          "idCardTypeName": "中华人民共和国居民身份证",
+          "invTypeName": "自然人股东",
+          "address": "广西壮族自治区玉林市容县石寨镇上烟村雅益一队15号",
+          "nationality": "中国",
+          "shouldInvestWay": null,
+          "bearDutyMode": null,
+          "bearDutyModeDesc": null,
+          "shouldInvestMap": {},
+          "insSubInfoDtos": null
+        }
+      ],
+      "farmerRatio": {},
+      "farmerInvertors": {},
+      "records": null,
+      "hasRealMoney": false,
+      "classifyInvestFlag": true,
+      "hasStagesInvest": false,
+      "hasNaturalPer": true,
+      "bearDutyModeMap": {}
+    },
+    "groupInfo": null,
+    "financialInfo": {
+      "selectWay": "聘任",
+      "name": "黄永裕"
+    },
+    "zxdsManager": {
+      "mName": "黄永裕",
+      "timeLimit": null,
+      "mname": "黄永裕"
+    },
+    "jlManager": {
+      "mName": "黄永裕",
+      "timeLimit": null,
+      "mname": "黄永裕"
+    },
+    "alterInfo": null,
+    "moneyKind": "人民币",
+    "hasParty": false,
+    "personInfos": [
+      {
+        "name": "黄永裕",
+        "cerNo": "450921198812051251",
+        "positionInfos": [
+          {
+            "positionNameInfo": {
+              "positionName": "执行董事",
+              "positionCode": "410C",
+              "rowspan": 1
+            },
+            "realAppointOrgInfo": {
+              "realAppointOrg": "上级任命",
+              "rowspan": 1
+            },
+            "selectWayInfo": {
+              "selectWay": "任命",
+              "rowspan": 1
+            },
+            "timeLimitInfo": {
+              "timeLimit": "",
+              "rowspan": 1
+            },
+            "isLegalPersonInfo": {
+              "isLegalPerson": true,
+              "rowspan": 1
+            },
+            "auditCouncil": {
+              "isAuditCouncil": false,
+              "rowspan": 1
+            }
+          }
+        ]
+      },
+      {
+        "name": "李飞嫦",
+        "cerNo": "450921198612090424",
+        "positionInfos": [
+          {
+            "positionNameInfo": {
+              "positionName": "监事",
+              "positionCode": "408A",
+              "rowspan": 1
+            },
+            "realAppointOrgInfo": {
+              "realAppointOrg": "上级任命",
+              "rowspan": 1
+            },
+            "selectWayInfo": {
+              "selectWay": "任命",
+              "rowspan": 1
+            },
+            "timeLimitInfo": {
+              "timeLimit": "",
+              "rowspan": 1
+            },
+            "isLegalPersonInfo": {
+              "isLegalPerson": false,
+              "rowspan": 1
+            },
+            "auditCouncil": {
+              "isAuditCouncil": false,
+              "rowspan": 1
+            }
+          }
+        ]
+      },
+      {
+        "name": "黄永裕",
+        "cerNo": "450921198812051251",
+        "positionInfos": [
+          {
+            "positionNameInfo": {
+              "positionName": "总经理",
+              "positionCode": "410C",
+              "rowspan": 1
+            },
+            "realAppointOrgInfo": {
+              "realAppointOrg": "执行董事任命",
+              "rowspan": 1
+            },
+            "selectWayInfo": {
+              "selectWay": "聘任",
+              "rowspan": 1
+            },
+            "timeLimitInfo": {
+              "timeLimit": "",
+              "rowspan": 1
+            },
+            "isLegalPersonInfo": {
+              "isLegalPerson": false,
+              "rowspan": 1
+            },
+            "auditCouncil": {
+              "isAuditCouncil": false,
+              "rowspan": 1
+            }
+          }
+        ]
+      },
+      {
+        "name": "黄永裕",
+        "cerNo": "450921198812051251",
+        "positionInfos": [
+          {
+            "positionNameInfo": {
+              "positionName": "财务负责人",
+              "positionCode": null,
+              "rowspan": 1
+            },
+            "realAppointOrgInfo": {
+              "realAppointOrg": null,
+              "rowspan": 1
+            },
+            "selectWayInfo": {
+              "selectWay": "聘任",
+              "rowspan": 1
+            },
+            "timeLimitInfo": {
+              "timeLimit": null,
+              "rowspan": 1
+            },
+            "isLegalPersonInfo": {
+              "isLegalPerson": null,
+              "rowspan": 1
+            },
+            "auditCouncil": {
+              "isAuditCouncil": null,
+              "rowspan": 1
+            }
+          }
+        ]
+      }
+    ],
+    "domListsStr": null,
+    "economicNature": null,
+    "audiCouncilManagers": [],
+    "isBusinessRegMode": "N",
+    "wzEnt": false,
+    "agent": {
+      "id": null,
+      "applicAnt": "",
+      "agentName": "黄永裕",
+      "sex": null,
+      "certificateType": "10",
+      "certificateTypeName": "中华人民共和国居民身份证",
+      "certificateNo": "450921198812051251",
+      "phone": "",
+      "mobile": "18977514335",
+      "address": null,
+      "zipcode": "",
+      "keepStartDate": 1687104000000,
+      "keepEndDate": 1694966400000,
+      "modifyMaterial": "1",
+      "modifyWord": "1",
+      "modifyForm": "1",
+      "otherModifyItem": "1",
+      "license": null,
+      "topicisId": null,
+      "apprType": null,
+      "apprReason": null,
+      "isLegalPerson": null,
+      "epostcode": null,
+      "nation": null,
+      "birthday": null,
+      "certificateGrantor": null,
+      "signDateStart": null,
+      "signDateEnd": null,
+      "effectiveFlagTim": null,
+      "isOrgan": null,
+      "organName": null,
+      "organUnsid": null,
+      "organTel": null,
+      "eaddress": null
+    },
+    "allExecutivePartner": false
+  },
+  "uploadId": null,
+  "uploadType": null,
+  "opType": null,
+  "uploadMaterialVo": [
+    {
+      "fromType": null,
+      "name": null,
+      "enName": null,
+      "code": "032",
+      "cerNo": null,
+      "zzlx": null,
+      "type": null,
+      "flag": null,
+      "must": null,
+      "deptCode": null,
+      "unUpdate": null,
+      "uploadMore": null,
+      "fileType": "JPG,JPEG,PNG,BMP,GIF,PDF,DOC,DOCX",
+      "tempFileUrl": null,
+      "sum": null,
+      "description": "上传控件中材料相关上传配置，勿删，详见网上业务配置说明69",
+      "fileSize": "5120",
+      "cutImgSize": "500",
+      "pictureNumber": null,
+      "maxCount": "90",
+      "materialVoList": null,
+      "readOnlyFlag": false
+    }
+  ]
+}

@@ -1,0 +1,1279 @@
+{
+  "schema": "phase1_service.census.payload.v1",
+  "meta": {
+    "job_id": "regcode_street_root",
+    "path": "/icpsp-api/v4/pc/common/synchrdata/queryRegcodeAndStreet",
+    "params": {
+      "fromPage": "qykbdb"
+    },
+    "dur_ms": 66,
+    "ts": 1776842492
+  },
+  "data": {
+    "code": "00000",
+    "data": {
+      "resultType": "0",
+      "msg": "",
+      "busiData": [
+        {
+          "allName": "广西壮族自治区",
+          "children": [
+            {
+              "allName": "南宁市",
+              "children": [
+                {
+                  "allName": "南宁市兴宁区",
+                  "children": [],
+                  "name": "兴宁区",
+                  "id": "450102",
+                  "parentId": "450100",
+                  "uniqueId": "450102",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "南宁市青秀区",
+                  "children": [],
+                  "name": "青秀区",
+                  "id": "450103",
+                  "parentId": "450100",
+                  "uniqueId": "450103",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "南宁市江南区",
+                  "children": [],
+                  "name": "江南区",
+                  "id": "450105",
+                  "parentId": "450100",
+                  "uniqueId": "450105",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "南宁市西乡塘区",
+                  "children": [],
+                  "name": "西乡塘区",
+                  "id": "450107",
+                  "parentId": "450100",
+                  "uniqueId": "450107",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "南宁市良庆区",
+                  "children": [],
+                  "name": "良庆区",
+                  "id": "450108",
+                  "parentId": "450100",
+                  "uniqueId": "450108",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "南宁市邕宁区",
+                  "children": [],
+                  "name": "邕宁区",
+                  "id": "450109",
+                  "parentId": "450100",
+                  "uniqueId": "450109",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "南宁市武鸣区",
+                  "children": [],
+                  "name": "武鸣区",
+                  "id": "450110",
+                  "parentId": "450100",
+                  "uniqueId": "450110",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "南宁市高新区",
+                  "children": [],
+                  "name": "高新区",
+                  "id": "450111",
+                  "parentId": "450100",
+                  "uniqueId": "450111",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "南宁市经开区",
+                  "children": [],
+                  "name": "经开区",
+                  "id": "450112",
+                  "parentId": "450100",
+                  "uniqueId": "450112",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "南宁市广西东盟经济技术开发区",
+                  "children": [],
+                  "name": "东盟区",
+                  "id": "450113",
+                  "parentId": "450100",
+                  "uniqueId": "450113",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "南宁市隆安县",
+                  "children": [],
+                  "name": "隆安县",
+                  "id": "450123",
+                  "parentId": "450100",
+                  "uniqueId": "450123",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "南宁市马山县",
+                  "children": [],
+                  "name": "马山县",
+                  "id": "450124",
+                  "parentId": "450100",
+                  "uniqueId": "450124",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "南宁市上林县",
+                  "children": [],
+                  "name": "上林县",
+                  "id": "450125",
+                  "parentId": "450100",
+                  "uniqueId": "450125",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "南宁市宾阳县",
+                  "children": [],
+                  "name": "宾阳县",
+                  "id": "450126",
+                  "parentId": "450100",
+                  "uniqueId": "450126",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "南宁市横州市",
+                  "children": [],
+                  "name": "横州市",
+                  "id": "450181",
+                  "parentId": "450100",
+                  "uniqueId": "450181",
+                  "isStreet": "N"
+                }
+              ],
+              "name": "南宁市",
+              "id": "450100",
+              "parentId": "450000",
+              "uniqueId": "450100",
+              "isStreet": "N"
+            },
+            {
+              "allName": "柳州市",
+              "children": [
+                {
+                  "allName": "柳州市城中区",
+                  "children": [],
+                  "name": "城中区",
+                  "id": "450202",
+                  "parentId": "450200",
+                  "uniqueId": "450202",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "柳州市鱼峰区",
+                  "children": [],
+                  "name": "鱼峰区",
+                  "id": "450203",
+                  "parentId": "450200",
+                  "uniqueId": "450203",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "柳州市柳南区",
+                  "children": [],
+                  "name": "柳南区",
+                  "id": "450204",
+                  "parentId": "450200",
+                  "uniqueId": "450204",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "柳州市柳北区",
+                  "children": [],
+                  "name": "柳北区",
+                  "id": "450205",
+                  "parentId": "450200",
+                  "uniqueId": "450205",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "柳州市柳江区",
+                  "children": [],
+                  "name": "柳江区",
+                  "id": "450206",
+                  "parentId": "450200",
+                  "uniqueId": "450206",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "柳州市柳城县",
+                  "children": [],
+                  "name": "柳城县",
+                  "id": "450222",
+                  "parentId": "450200",
+                  "uniqueId": "450222",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "柳州市鹿寨县",
+                  "children": [],
+                  "name": "鹿寨县",
+                  "id": "450223",
+                  "parentId": "450200",
+                  "uniqueId": "450223",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "柳州市融安县",
+                  "children": [],
+                  "name": "融安县",
+                  "id": "450224",
+                  "parentId": "450200",
+                  "uniqueId": "450224",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "柳州市融水县",
+                  "children": [],
+                  "name": "融水县",
+                  "id": "450225",
+                  "parentId": "450200",
+                  "uniqueId": "450225",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "柳州市三江县",
+                  "children": [],
+                  "name": "三江县",
+                  "id": "450226",
+                  "parentId": "450200",
+                  "uniqueId": "450226",
+                  "isStreet": "N"
+                }
+              ],
+              "name": "柳州市",
+              "id": "450200",
+              "parentId": "450000",
+              "uniqueId": "450200",
+              "isStreet": "N"
+            },
+            {
+              "allName": "桂林市",
+              "children": [
+                {
+                  "allName": "桂林市秀峰区",
+                  "children": [],
+                  "name": "秀峰区",
+                  "id": "450302",
+                  "parentId": "450300",
+                  "uniqueId": "450302",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "桂林市叠彩区",
+                  "children": [],
+                  "name": "叠彩区",
+                  "id": "450303",
+                  "parentId": "450300",
+                  "uniqueId": "450303",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "桂林市象山区",
+                  "children": [],
+                  "name": "象山区",
+                  "id": "450304",
+                  "parentId": "450300",
+                  "uniqueId": "450304",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "桂林市七星区",
+                  "children": [],
+                  "name": "七星区",
+                  "id": "450305",
+                  "parentId": "450300",
+                  "uniqueId": "450305",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "桂林市雁山区",
+                  "children": [],
+                  "name": "雁山区",
+                  "id": "450311",
+                  "parentId": "450300",
+                  "uniqueId": "450311",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "桂林市临桂区",
+                  "children": [],
+                  "name": "临桂区",
+                  "id": "450312",
+                  "parentId": "450300",
+                  "uniqueId": "450312",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "桂林市阳朔县",
+                  "children": [],
+                  "name": "阳朔县",
+                  "id": "450321",
+                  "parentId": "450300",
+                  "uniqueId": "450321",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "桂林市灵川县",
+                  "children": [],
+                  "name": "灵川县",
+                  "id": "450323",
+                  "parentId": "450300",
+                  "uniqueId": "450323",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "桂林市全州县",
+                  "children": [],
+                  "name": "全州县",
+                  "id": "450324",
+                  "parentId": "450300",
+                  "uniqueId": "450324",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "桂林市兴安县",
+                  "children": [],
+                  "name": "兴安县",
+                  "id": "450325",
+                  "parentId": "450300",
+                  "uniqueId": "450325",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "桂林市永福县",
+                  "children": [],
+                  "name": "永福县",
+                  "id": "450326",
+                  "parentId": "450300",
+                  "uniqueId": "450326",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "桂林市灌阳县",
+                  "children": [],
+                  "name": "灌阳县",
+                  "id": "450327",
+                  "parentId": "450300",
+                  "uniqueId": "450327",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "桂林市龙胜县",
+                  "children": [],
+                  "name": "龙胜县",
+                  "id": "450328",
+                  "parentId": "450300",
+                  "uniqueId": "450328",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "桂林市资源县",
+                  "children": [],
+                  "name": "资源县",
+                  "id": "450329",
+                  "parentId": "450300",
+                  "uniqueId": "450329",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "桂林市平乐县",
+                  "children": [],
+                  "name": "平乐县",
+                  "id": "450330",
+                  "parentId": "450300",
+                  "uniqueId": "450330",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "桂林市恭城县",
+                  "children": [],
+                  "name": "恭城县",
+                  "id": "450332",
+                  "parentId": "450300",
+                  "uniqueId": "450332",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "桂林市荔浦市",
+                  "children": [],
+                  "name": "荔浦市",
+                  "id": "450381",
+                  "parentId": "450300",
+                  "uniqueId": "450381",
+                  "isStreet": "N"
+                }
+              ],
+              "name": "桂林市",
+              "id": "450300",
+              "parentId": "450000",
+              "uniqueId": "450300",
+              "isStreet": "N"
+            },
+            {
+              "allName": "梧州市",
+              "children": [
+                {
+                  "allName": "梧州市万秀区",
+                  "children": [],
+                  "name": "万秀区",
+                  "id": "450403",
+                  "parentId": "450400",
+                  "uniqueId": "450403",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "梧州市长洲区",
+                  "children": [],
+                  "name": "长洲区",
+                  "id": "450405",
+                  "parentId": "450400",
+                  "uniqueId": "450405",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "梧州市龙圩区",
+                  "children": [],
+                  "name": "龙圩区",
+                  "id": "450406",
+                  "parentId": "450400",
+                  "uniqueId": "450406",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "梧州市苍梧县",
+                  "children": [],
+                  "name": "苍梧县",
+                  "id": "450421",
+                  "parentId": "450400",
+                  "uniqueId": "450421",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "梧州市藤县",
+                  "children": [],
+                  "name": "藤县",
+                  "id": "450422",
+                  "parentId": "450400",
+                  "uniqueId": "450422",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "梧州市蒙山县",
+                  "children": [],
+                  "name": "蒙山县",
+                  "id": "450423",
+                  "parentId": "450400",
+                  "uniqueId": "450423",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "梧州市岑溪市",
+                  "children": [],
+                  "name": "岑溪市",
+                  "id": "450481",
+                  "parentId": "450400",
+                  "uniqueId": "450481",
+                  "isStreet": "N"
+                }
+              ],
+              "name": "梧州市",
+              "id": "450400",
+              "parentId": "450000",
+              "uniqueId": "450400",
+              "isStreet": "N"
+            },
+            {
+              "allName": "北海市",
+              "children": [
+                {
+                  "allName": "北海市海城区",
+                  "children": [],
+                  "name": "海城区",
+                  "id": "450502",
+                  "parentId": "450500",
+                  "uniqueId": "450502",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "北海市银海区",
+                  "children": [],
+                  "name": "银海区",
+                  "id": "450503",
+                  "parentId": "450500",
+                  "uniqueId": "450503",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "北海市经济技术开发区",
+                  "children": [],
+                  "name": "经济技术开发区",
+                  "id": "450504",
+                  "parentId": "450500",
+                  "uniqueId": "450504",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "北海市涠洲岛区",
+                  "children": [],
+                  "name": "涠洲岛区",
+                  "id": "450511",
+                  "parentId": "450500",
+                  "uniqueId": "450511",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "北海市铁山港区",
+                  "children": [],
+                  "name": "铁山港区",
+                  "id": "450512",
+                  "parentId": "450500",
+                  "uniqueId": "450512",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "北海市合浦县",
+                  "children": [],
+                  "name": "合浦县",
+                  "id": "450521",
+                  "parentId": "450500",
+                  "uniqueId": "450521",
+                  "isStreet": "N"
+                }
+              ],
+              "name": "北海市",
+              "id": "450500",
+              "parentId": "450000",
+              "uniqueId": "450500",
+              "isStreet": "N"
+            },
+            {
+              "allName": "防城港市",
+              "children": [
+                {
+                  "allName": "防城港市港口区",
+                  "children": [],
+                  "name": "港口区",
+                  "id": "450602",
+                  "parentId": "450600",
+                  "uniqueId": "450602",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "防城港市防城区",
+                  "children": [],
+                  "name": "防城区",
+                  "id": "450603",
+                  "parentId": "450600",
+                  "uniqueId": "450603",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "防城港市上思县",
+                  "children": [],
+                  "name": "上思县",
+                  "id": "450621",
+                  "parentId": "450600",
+                  "uniqueId": "450621",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "防城港市东兴市",
+                  "children": [],
+                  "name": "东兴市",
+                  "id": "450681",
+                  "parentId": "450600",
+                  "uniqueId": "450681",
+                  "isStreet": "N"
+                }
+              ],
+              "name": "防城港市",
+              "id": "450600",
+              "parentId": "450000",
+              "uniqueId": "450600",
+              "isStreet": "N"
+            },
+            {
+              "allName": "钦州市",
+              "children": [
+                {
+                  "allName": "钦州市钦州综合保税区",
+                  "children": [],
+                  "name": "钦州综合保税区",
+                  "id": "450001",
+                  "parentId": "450700",
+                  "uniqueId": "450001",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "钦州市自贸区钦州港片区",
+                  "children": [],
+                  "name": "自贸区钦州港片区",
+                  "id": "450701",
+                  "parentId": "450700",
+                  "uniqueId": "450701",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "钦州市钦南区",
+                  "children": [],
+                  "name": "钦南区",
+                  "id": "450702",
+                  "parentId": "450700",
+                  "uniqueId": "450702",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "钦州市钦北区",
+                  "children": [],
+                  "name": "钦北区",
+                  "id": "450703",
+                  "parentId": "450700",
+                  "uniqueId": "450703",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "钦州市钦州港",
+                  "children": [],
+                  "name": "钦州港",
+                  "id": "450704",
+                  "parentId": "450700",
+                  "uniqueId": "450704",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "钦州市灵山县",
+                  "children": [],
+                  "name": "灵山县",
+                  "id": "450721",
+                  "parentId": "450700",
+                  "uniqueId": "450721",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "钦州市浦北县",
+                  "children": [],
+                  "name": "浦北县",
+                  "id": "450722",
+                  "parentId": "450700",
+                  "uniqueId": "450722",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "钦州市中马钦州产业园区",
+                  "children": [],
+                  "name": "中马钦州产业园区",
+                  "id": "450762",
+                  "parentId": "450700",
+                  "uniqueId": "450762",
+                  "isStreet": "N"
+                }
+              ],
+              "name": "钦州市",
+              "id": "450700",
+              "parentId": "450000",
+              "uniqueId": "450700",
+              "isStreet": "N"
+            },
+            {
+              "allName": "贵港市",
+              "children": [
+                {
+                  "allName": "贵港市港北区",
+                  "children": [],
+                  "name": "港北区",
+                  "id": "450802",
+                  "parentId": "450800",
+                  "uniqueId": "450802",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "贵港市港南区",
+                  "children": [],
+                  "name": "港南区",
+                  "id": "450803",
+                  "parentId": "450800",
+                  "uniqueId": "450803",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "贵港市覃塘区",
+                  "children": [],
+                  "name": "覃塘区",
+                  "id": "450804",
+                  "parentId": "450800",
+                  "uniqueId": "450804",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "贵港市平南县",
+                  "children": [],
+                  "name": "平南县",
+                  "id": "450821",
+                  "parentId": "450800",
+                  "uniqueId": "450821",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "贵港市桂平市",
+                  "children": [],
+                  "name": "桂平市",
+                  "id": "450881",
+                  "parentId": "450800",
+                  "uniqueId": "450881",
+                  "isStreet": "N"
+                }
+              ],
+              "name": "贵港市",
+              "id": "450800",
+              "parentId": "450000",
+              "uniqueId": "450800",
+              "isStreet": "N"
+            },
+            {
+              "allName": "玉林市",
+              "children": [
+                {
+                  "allName": "玉林市玉州区",
+                  "children": [],
+                  "name": "玉州区",
+                  "id": "450902",
+                  "parentId": "450900",
+                  "uniqueId": "450902",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "玉林市福绵区",
+                  "children": [],
+                  "name": "福绵区",
+                  "id": "450903",
+                  "parentId": "450900",
+                  "uniqueId": "450903",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "玉林市",
+                  "children": [],
+                  "name": "高新区",
+                  "id": "450904",
+                  "parentId": "450900",
+                  "uniqueId": "450904",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "玉林市容县",
+                  "children": [],
+                  "name": "容县",
+                  "id": "450921",
+                  "parentId": "450900",
+                  "uniqueId": "450921",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "玉林市陆川县",
+                  "children": [],
+                  "name": "陆川县",
+                  "id": "450922",
+                  "parentId": "450900",
+                  "uniqueId": "450922",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "玉林市博白县",
+                  "children": [],
+                  "name": "博白县",
+                  "id": "450923",
+                  "parentId": "450900",
+                  "uniqueId": "450923",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "玉林市兴业县",
+                  "children": [],
+                  "name": "兴业县",
+                  "id": "450924",
+                  "parentId": "450900",
+                  "uniqueId": "450924",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "玉林市北流市",
+                  "children": [],
+                  "name": "北流市",
+                  "id": "450981",
+                  "parentId": "450900",
+                  "uniqueId": "450981",
+                  "isStreet": "N"
+                }
+              ],
+              "name": "玉林市",
+              "id": "450900",
+              "parentId": "450000",
+              "uniqueId": "450900",
+              "isStreet": "N"
+            },
+            {
+              "allName": "百色市",
+              "children": [
+                {
+                  "allName": "百色市右江区",
+                  "children": [],
+                  "name": "右江区",
+                  "id": "451002",
+                  "parentId": "451000",
+                  "uniqueId": "451002",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "百色市田阳区",
+                  "children": [],
+                  "name": "田阳区",
+                  "id": "451003",
+                  "parentId": "451000",
+                  "uniqueId": "451003",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "百色市田东县",
+                  "children": [],
+                  "name": "田东县",
+                  "id": "451022",
+                  "parentId": "451000",
+                  "uniqueId": "451022",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "百色市德保县",
+                  "children": [],
+                  "name": "德保县",
+                  "id": "451024",
+                  "parentId": "451000",
+                  "uniqueId": "451024",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "百色市那坡县",
+                  "children": [],
+                  "name": "那坡县",
+                  "id": "451026",
+                  "parentId": "451000",
+                  "uniqueId": "451026",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "百色市凌云县",
+                  "children": [],
+                  "name": "凌云县",
+                  "id": "451027",
+                  "parentId": "451000",
+                  "uniqueId": "451027",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "百色市乐业县",
+                  "children": [],
+                  "name": "乐业县",
+                  "id": "451028",
+                  "parentId": "451000",
+                  "uniqueId": "451028",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "百色市田林县",
+                  "children": [],
+                  "name": "田林县",
+                  "id": "451029",
+                  "parentId": "451000",
+                  "uniqueId": "451029",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "百色市西林县",
+                  "children": [],
+                  "name": "西林县",
+                  "id": "451030",
+                  "parentId": "451000",
+                  "uniqueId": "451030",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "百色市隆林各族自治县",
+                  "children": [],
+                  "name": "隆林各族自治县",
+                  "id": "451031",
+                  "parentId": "451000",
+                  "uniqueId": "451031",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "百色市靖西市",
+                  "children": [],
+                  "name": "靖西市",
+                  "id": "451081",
+                  "parentId": "451000",
+                  "uniqueId": "451081",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "百色市平果市",
+                  "children": [],
+                  "name": "平果市",
+                  "id": "451082",
+                  "parentId": "451000",
+                  "uniqueId": "451082",
+                  "isStreet": "N"
+                }
+              ],
+              "name": "百色市",
+              "id": "451000",
+              "parentId": "450000",
+              "uniqueId": "451000",
+              "isStreet": "N"
+            },
+            {
+              "allName": "贺州市",
+              "children": [
+                {
+                  "allName": "贺州市八步区",
+                  "children": [],
+                  "name": "八步区",
+                  "id": "451102",
+                  "parentId": "451100",
+                  "uniqueId": "451102",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "贺州市平桂区",
+                  "children": [],
+                  "name": "平桂区",
+                  "id": "451103",
+                  "parentId": "451100",
+                  "uniqueId": "451103",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "贺州市昭平县",
+                  "children": [],
+                  "name": "昭平县",
+                  "id": "451121",
+                  "parentId": "451100",
+                  "uniqueId": "451121",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "贺州市钟山县",
+                  "children": [],
+                  "name": "钟山县",
+                  "id": "451122",
+                  "parentId": "451100",
+                  "uniqueId": "451122",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "贺州市富川瑶族自治县",
+                  "children": [],
+                  "name": "富川瑶族自治县",
+                  "id": "451123",
+                  "parentId": "451100",
+                  "uniqueId": "451123",
+                  "isStreet": "N"
+                }
+              ],
+              "name": "贺州市",
+              "id": "451100",
+              "parentId": "450000",
+              "uniqueId": "451100",
+              "isStreet": "N"
+            },
+            {
+              "allName": "河池市",
+              "children": [
+                {
+                  "allName": "河池市金城江区",
+                  "children": [],
+                  "name": "金城江区",
+                  "id": "451202",
+                  "parentId": "451200",
+                  "uniqueId": "451202",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "河池市宜州区",
+                  "children": [],
+                  "name": "宜州区",
+                  "id": "451203",
+                  "parentId": "451200",
+                  "uniqueId": "451203",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "河池市南丹县",
+                  "children": [],
+                  "name": "南丹县",
+                  "id": "451221",
+                  "parentId": "451200",
+                  "uniqueId": "451221",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "河池市天峨县",
+                  "children": [],
+                  "name": "天峨县",
+                  "id": "451222",
+                  "parentId": "451200",
+                  "uniqueId": "451222",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "河池市凤山县",
+                  "children": [],
+                  "name": "凤山县",
+                  "id": "451223",
+                  "parentId": "451200",
+                  "uniqueId": "451223",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "河池市东兰县",
+                  "children": [],
+                  "name": "东兰县",
+                  "id": "451224",
+                  "parentId": "451200",
+                  "uniqueId": "451224",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "河池市罗城仫佬族自治县",
+                  "children": [],
+                  "name": "罗城仫佬族自治县",
+                  "id": "451225",
+                  "parentId": "451200",
+                  "uniqueId": "451225",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "河池市环江毛南族自治县",
+                  "children": [],
+                  "name": "环江毛南族自治县",
+                  "id": "451226",
+                  "parentId": "451200",
+                  "uniqueId": "451226",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "河池市巴马瑶族自治县",
+                  "children": [],
+                  "name": "巴马瑶族自治县",
+                  "id": "451227",
+                  "parentId": "451200",
+                  "uniqueId": "451227",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "河池市都安瑶族自治县",
+                  "children": [],
+                  "name": "都安瑶族自治县",
+                  "id": "451228",
+                  "parentId": "451200",
+                  "uniqueId": "451228",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "河池市大化瑶族自治县",
+                  "children": [],
+                  "name": "大化瑶族自治县",
+                  "id": "451229",
+                  "parentId": "451200",
+                  "uniqueId": "451229",
+                  "isStreet": "N"
+                }
+              ],
+              "name": "河池市",
+              "id": "451200",
+              "parentId": "450000",
+              "uniqueId": "451200",
+              "isStreet": "N"
+            },
+            {
+              "allName": "来宾市",
+              "children": [
+                {
+                  "allName": "来宾市兴宾区",
+                  "children": [],
+                  "name": "兴宾区",
+                  "id": "451302",
+                  "parentId": "451300",
+                  "uniqueId": "451302",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "来宾市忻城县",
+                  "children": [],
+                  "name": "忻城县",
+                  "id": "451321",
+                  "parentId": "451300",
+                  "uniqueId": "451321",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "来宾市象州县",
+                  "children": [],
+                  "name": "象州县",
+                  "id": "451322",
+                  "parentId": "451300",
+                  "uniqueId": "451322",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "来宾市武宣县",
+                  "children": [],
+                  "name": "武宣县",
+                  "id": "451323",
+                  "parentId": "451300",
+                  "uniqueId": "451323",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "来宾市金秀县",
+                  "children": [],
+                  "name": "金秀县",
+                  "id": "451324",
+                  "parentId": "451300",
+                  "uniqueId": "451324",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "来宾市合山市",
+                  "children": [],
+                  "name": "合山市",
+                  "id": "451381",
+                  "parentId": "451300",
+                  "uniqueId": "451381",
+                  "isStreet": "N"
+                }
+              ],
+              "name": "来宾市",
+              "id": "451300",
+              "parentId": "450000",
+              "uniqueId": "451300",
+              "isStreet": "N"
+            },
+            {
+              "allName": "崇左市",
+              "children": [
+                {
+                  "allName": "崇左市江州区",
+                  "children": [],
+                  "name": "江州区",
+                  "id": "451402",
+                  "parentId": "451400",
+                  "uniqueId": "451402",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "崇左市扶绥县",
+                  "children": [],
+                  "name": "扶绥县",
+                  "id": "451421",
+                  "parentId": "451400",
+                  "uniqueId": "451421",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "崇左市宁明县",
+                  "children": [],
+                  "name": "宁明县",
+                  "id": "451422",
+                  "parentId": "451400",
+                  "uniqueId": "451422",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "崇左市龙州县",
+                  "children": [],
+                  "name": "龙州县",
+                  "id": "451423",
+                  "parentId": "451400",
+                  "uniqueId": "451423",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "崇左市大新县",
+                  "children": [],
+                  "name": "大新县",
+                  "id": "451424",
+                  "parentId": "451400",
+                  "uniqueId": "451424",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "崇左市天等县",
+                  "children": [],
+                  "name": "天等县",
+                  "id": "451425",
+                  "parentId": "451400",
+                  "uniqueId": "451425",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "崇左市凭祥市",
+                  "children": [],
+                  "name": "凭祥市",
+                  "id": "451481",
+                  "parentId": "451400",
+                  "uniqueId": "451481",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "崇左市凭祥市",
+                  "children": [],
+                  "name": "凭祥产业园区夏石片区",
+                  "id": "451482",
+                  "parentId": "451400",
+                  "uniqueId": "451482",
+                  "isStreet": "N"
+                },
+                {
+                  "allName": "崇左市宁明县",
+                  "children": [],
+                  "name": "凭祥产业园区宁明片区",
+                  "id": "451483",
+                  "parentId": "451400",
+                  "uniqueId": "451483",
+                  "isStreet": "N"
+                }
+              ],
+              "name": "崇左市",
+              "id": "451400",
+              "parentId": "450000",
+              "uniqueId": "451400",
+              "isStreet": "N"
+            }
+          ],
+          "name": "广西壮族自治区",
+          "id": "450000",
+          "uniqueId": "450000",
+          "isStreet": "N"
+        }
+      ]
+    },
+    "msg": "操作成功",
+    "page": null
+  }
+}

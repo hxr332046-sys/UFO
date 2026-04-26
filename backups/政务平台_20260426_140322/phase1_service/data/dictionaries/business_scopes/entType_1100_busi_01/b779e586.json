@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "B0810",
+        "saveHyCode": "0810",
+        "hyPecul": "铁矿采选",
+        "hyTypeName": "铁矿采选",
+        "enHyTypeName": null,
+        "explains": "指对铁矿石的采矿、选矿活动。",
+        "includesTitle": "包括对下列铁矿的采选活动：",
+        "includes": "铁矿石原矿：磁铁矿、赤铁矿、褐铁矿、菱铁矿、多金属矿；铁矿石成品矿：炼钢块矿、炼铁块矿、铁富粉矿、铁精矿；人造富铁矿（已烧结铁矿）：烧结铁矿、球团铁矿、其他人造富铁矿。",
+        "unIncludes": "不包括：硫铁矿（黄铁矿）的采选，列入1020（化学矿开采）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "铁矿采选",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

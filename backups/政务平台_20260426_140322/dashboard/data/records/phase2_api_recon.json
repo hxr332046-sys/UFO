@@ -1,0 +1,201 @@
+{
+  "total_mitm_flows": 1791,
+  "phase2_flow_count": 21,
+  "api_call_counts": {
+    "/icpsp-api/v4/pc/register/name/loadCurrentLocationInfo": 2,
+    "/icpsp-api/v4/pc/register/name/component/NameSupplement/loadBusinessDataInfo": 1,
+    "/icpsp-api/v4/pc/register/name/component/NameShareholder/loadBusinessInfoList": 2,
+    "/icpsp-api/v4/pc/register/name/component/NameShareholder/loadBusinessDataInfo": 1,
+    "/icpsp-api/v4/pc/register/name/component/NameShareholder/operationBusinessDataInfo": 1,
+    "/icpsp-api/v4/pc/register/name/component/NameSupplement/operationBusinessDataInfo": 1,
+    "/icpsp-api/v4/pc/register/name/submit": 1,
+    "/icpsp-api/v4/pc/register/name/component/NameSuccess/loadBusinessDataInfo": 1,
+    "/icpsp-api/v4/pc/manager/mattermanager/matters/operate": 6,
+    "/icpsp-api/v4/pc/register/establish/loadCurrentLocationInfo": 4,
+    "/icpsp-api/v4/pc/register/establish/component/YbbSelect/loadBusinessDataInfo": 1
+  },
+  "api_reasons": {
+    "/icpsp-api/v4/pc/register/name/loadCurrentLocationInfo": {
+      "busiId_non_null_no_namecheck": 2
+    },
+    "/icpsp-api/v4/pc/register/name/component/NameSupplement/loadBusinessDataInfo": {
+      "busiId_non_null_no_namecheck": 1
+    },
+    "/icpsp-api/v4/pc/register/name/component/NameShareholder/loadBusinessInfoList": {
+      "busiId_non_null_no_namecheck": 2
+    },
+    "/icpsp-api/v4/pc/register/name/component/NameShareholder/loadBusinessDataInfo": {
+      "busiId_non_null_no_namecheck": 1
+    },
+    "/icpsp-api/v4/pc/register/name/component/NameShareholder/operationBusinessDataInfo": {
+      "busiId_non_null_no_namecheck": 1
+    },
+    "/icpsp-api/v4/pc/register/name/component/NameSupplement/operationBusinessDataInfo": {
+      "busiId_non_null_no_namecheck": 1
+    },
+    "/icpsp-api/v4/pc/register/name/submit": {
+      "busiId_non_null_no_namecheck": 1
+    },
+    "/icpsp-api/v4/pc/register/name/component/NameSuccess/loadBusinessDataInfo": {
+      "busiId_non_null_no_namecheck": 1
+    },
+    "/icpsp-api/v4/pc/manager/mattermanager/matters/operate": {
+      "busiId_non_null_no_namecheck": 6
+    },
+    "/icpsp-api/v4/pc/register/establish/loadCurrentLocationInfo": {
+      "busiId_non_null_no_namecheck": 4
+    },
+    "/icpsp-api/v4/pc/register/establish/component/YbbSelect/loadBusinessDataInfo": {
+      "busiId_non_null_no_namecheck": 1
+    }
+  },
+  "sample_flows": [
+    {
+      "ts": 1776784926688,
+      "method": "POST",
+      "api": "/icpsp-api/v4/pc/register/name/loadCurrentLocationInfo",
+      "reason": "busiId_non_null_no_namecheck",
+      "status": null
+    },
+    {
+      "ts": 1776784927363,
+      "method": "POST",
+      "api": "/icpsp-api/v4/pc/register/name/loadCurrentLocationInfo",
+      "reason": "busiId_non_null_no_namecheck",
+      "status": null
+    },
+    {
+      "ts": 1776784993251,
+      "method": "POST",
+      "api": "/icpsp-api/v4/pc/register/name/component/NameSupplement/loadBusinessDataInfo",
+      "reason": "busiId_non_null_no_namecheck",
+      "status": null
+    },
+    {
+      "ts": 1776784993611,
+      "method": "POST",
+      "api": "/icpsp-api/v4/pc/register/name/component/NameShareholder/loadBusinessInfoList",
+      "reason": "busiId_non_null_no_namecheck",
+      "status": null
+    },
+    {
+      "ts": 1776785052487,
+      "method": "POST",
+      "api": "/icpsp-api/v4/pc/register/name/component/NameShareholder/loadBusinessDataInfo",
+      "reason": "busiId_non_null_no_namecheck",
+      "status": null
+    },
+    {
+      "ts": 1776785061212,
+      "method": "POST",
+      "api": "/icpsp-api/v4/pc/register/name/component/NameShareholder/operationBusinessDataInfo",
+      "reason": "busiId_non_null_no_namecheck",
+      "status": null
+    },
+    {
+      "ts": 1776785061375,
+      "method": "POST",
+      "api": "/icpsp-api/v4/pc/register/name/component/NameShareholder/loadBusinessInfoList",
+      "reason": "busiId_non_null_no_namecheck",
+      "status": null
+    },
+    {
+      "ts": 1776785099780,
+      "method": "POST",
+      "api": "/icpsp-api/v4/pc/register/name/component/NameSupplement/operationBusinessDataInfo",
+      "reason": "busiId_non_null_no_namecheck",
+      "status": null
+    },
+    {
+      "ts": 1776785107981,
+      "method": "POST",
+      "api": "/icpsp-api/v4/pc/register/name/submit",
+      "reason": "busiId_non_null_no_namecheck",
+      "status": null
+    },
+    {
+      "ts": 1776785108325,
+      "method": "POST",
+      "api": "/icpsp-api/v4/pc/register/name/component/NameSuccess/loadBusinessDataInfo",
+      "reason": "busiId_non_null_no_namecheck",
+      "status": null
+    },
+    {
+      "ts": 1776785726145,
+      "method": "POST",
+      "api": "/icpsp-api/v4/pc/manager/mattermanager/matters/operate",
+      "reason": "busiId_non_null_no_namecheck",
+      "status": null
+    },
+    {
+      "ts": 1776785727719,
+      "method": "POST",
+      "api": "/icpsp-api/v4/pc/manager/mattermanager/matters/operate",
+      "reason": "busiId_non_null_no_namecheck",
+      "status": null
+    },
+    {
+      "ts": 1776788134334,
+      "method": "POST",
+      "api": "/icpsp-api/v4/pc/register/establish/loadCurrentLocationInfo",
+      "reason": "busiId_non_null_no_namecheck",
+      "status": null
+    },
+    {
+      "ts": 1776788135084,
+      "method": "POST",
+      "api": "/icpsp-api/v4/pc/register/establish/loadCurrentLocationInfo",
+      "reason": "busiId_non_null_no_namecheck",
+      "status": null
+    },
+    {
+      "ts": 1776788140194,
+      "method": "POST",
+      "api": "/icpsp-api/v4/pc/manager/mattermanager/matters/operate",
+      "reason": "busiId_non_null_no_namecheck",
+      "status": null
+    },
+    {
+      "ts": 1776788140264,
+      "method": "POST",
+      "api": "/icpsp-api/v4/pc/manager/mattermanager/matters/operate",
+      "reason": "busiId_non_null_no_namecheck",
+      "status": null
+    },
+    {
+      "ts": 1776788140723,
+      "method": "POST",
+      "api": "/icpsp-api/v4/pc/register/establish/loadCurrentLocationInfo",
+      "reason": "busiId_non_null_no_namecheck",
+      "status": null
+    },
+    {
+      "ts": 1776788143675,
+      "method": "POST",
+      "api": "/icpsp-api/v4/pc/register/establish/loadCurrentLocationInfo",
+      "reason": "busiId_non_null_no_namecheck",
+      "status": null
+    },
+    {
+      "ts": 1776788144280,
+      "method": "POST",
+      "api": "/icpsp-api/v4/pc/register/establish/component/YbbSelect/loadBusinessDataInfo",
+      "reason": "busiId_non_null_no_namecheck",
+      "status": null
+    },
+    {
+      "ts": 1776871178314,
+      "method": "POST",
+      "api": "/icpsp-api/v4/pc/manager/mattermanager/matters/operate",
+      "reason": "busiId_non_null_no_namecheck",
+      "status": null
+    },
+    {
+      "ts": 1776871179238,
+      "method": "POST",
+      "api": "/icpsp-api/v4/pc/manager/mattermanager/matters/operate",
+      "reason": "busiId_non_null_no_namecheck",
+      "status": null
+    }
+  ]
+}

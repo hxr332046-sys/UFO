@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "F5168",
+        "saveHyCode": "5168",
+        "hyPecul": "农用薄膜批发",
+        "hyTypeName": "农用薄膜批发",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列农药薄膜的批发活动：",
+        "includes": "农业用薄膜的批发和进出口。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "农用薄膜",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

@@ -1,0 +1,493 @@
+{
+  "schema": "ufo.node_assets_manifest.v1",
+  "generated_at": "2026-04-26 13:50:42",
+  "records_dir": "D:\\UFO\\政务平台\\dashboard\\data\\records",
+  "assets_dir": "D:\\UFO\\政务平台\\dashboard\\data\\assets",
+  "node_count": 35,
+  "nodes": [
+    {
+      "comp_url": "NameInfoDisplay",
+      "page_name": "",
+      "business_stage_name": "",
+      "functions": [
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\NameInfoDisplay.json"
+    },
+    {
+      "comp_url": "BasicInfo",
+      "page_name": "基本信息",
+      "business_stage_name": "第二阶段：信息填报",
+      "functions": [
+        "load_business_list",
+        "load_business_data",
+        "operation_business_data",
+        "load_current_location",
+        "form_fields",
+        "radio_selection",
+        "save",
+        "progression_transition"
+      ],
+      "error_codes": [
+        "00000"
+      ],
+      "prompt_count": 0,
+      "field_total": 20,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\BasicInfo.json"
+    },
+    {
+      "comp_url": "MemberPost",
+      "page_name": "成员架构",
+      "business_stage_name": "第二阶段：信息填报",
+      "functions": [
+        "load_business_list",
+        "load_business_data",
+        "operation_business_data",
+        "load_current_location",
+        "save",
+        "progression_transition"
+      ],
+      "error_codes": [
+        "00000"
+      ],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\MemberPost.json"
+    },
+    {
+      "comp_url": "MemberPool",
+      "page_name": "成员信息",
+      "business_stage_name": "第二阶段：信息填报",
+      "functions": [
+        "load_business_list",
+        "load_business_data",
+        "operation_business_data",
+        "load_current_location",
+        "progression_transition"
+      ],
+      "error_codes": [
+        "00000"
+      ],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\MemberPool.json"
+    },
+    {
+      "comp_url": "PersonInfoRegGT",
+      "page_name": "",
+      "business_stage_name": "",
+      "functions": [
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\PersonInfoRegGT.json"
+    },
+    {
+      "comp_url": "ChargeDepartment",
+      "page_name": "",
+      "business_stage_name": "",
+      "functions": [
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\ChargeDepartment.json"
+    },
+    {
+      "comp_url": "RegMergeAndDiv",
+      "page_name": "",
+      "business_stage_name": "",
+      "functions": [
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\RegMergeAndDiv.json"
+    },
+    {
+      "comp_url": "WzInfoReport",
+      "page_name": "",
+      "business_stage_name": "",
+      "functions": [
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\WzInfoReport.json"
+    },
+    {
+      "comp_url": "ComplementInfo",
+      "page_name": "补充信息",
+      "business_stage_name": "第二阶段：信息填报",
+      "functions": [
+        "load_business_list",
+        "load_business_data",
+        "operation_business_data",
+        "load_current_location",
+        "save",
+        "progression_transition"
+      ],
+      "error_codes": [
+        "00000"
+      ],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\ComplementInfo.json"
+    },
+    {
+      "comp_url": "Rules",
+      "page_name": "章程",
+      "business_stage_name": "",
+      "functions": [
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\Rules.json"
+    },
+    {
+      "comp_url": "BankOpenInfo",
+      "page_name": "银行开户",
+      "business_stage_name": "",
+      "functions": [
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\BankOpenInfo.json"
+    },
+    {
+      "comp_url": "MedicalInsured",
+      "page_name": "医保登记",
+      "business_stage_name": "",
+      "functions": [
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\MedicalInsured.json"
+    },
+    {
+      "comp_url": "Engraving",
+      "page_name": "刻制印章",
+      "business_stage_name": "",
+      "functions": [
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\Engraving.json"
+    },
+    {
+      "comp_url": "TaxInvoice",
+      "page_name": "税务信息填报",
+      "business_stage_name": "第二阶段：信息填报",
+      "functions": [
+        "load_business_list",
+        "load_business_data",
+        "operation_business_data",
+        "load_current_location",
+        "save",
+        "progression_transition"
+      ],
+      "error_codes": [
+        "00000"
+      ],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\TaxInvoice.json"
+    },
+    {
+      "comp_url": "SocialInsured",
+      "page_name": "社保信息",
+      "business_stage_name": "",
+      "functions": [
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\SocialInsured.json"
+    },
+    {
+      "comp_url": "GjjHandle",
+      "page_name": "公积金",
+      "business_stage_name": "",
+      "functions": [
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\GjjHandle.json"
+    },
+    {
+      "comp_url": "WaterNewHandle",
+      "page_name": "",
+      "business_stage_name": "",
+      "functions": [
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\WaterNewHandle.json"
+    },
+    {
+      "comp_url": "GasNewHandle",
+      "page_name": "",
+      "business_stage_name": "",
+      "functions": [
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\GasNewHandle.json"
+    },
+    {
+      "comp_url": "ElectricNewHandle",
+      "page_name": "",
+      "business_stage_name": "",
+      "functions": [
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\ElectricNewHandle.json"
+    },
+    {
+      "comp_url": "NetHandle",
+      "page_name": "",
+      "business_stage_name": "",
+      "functions": [
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\NetHandle.json"
+    },
+    {
+      "comp_url": "CreditHandle",
+      "page_name": "",
+      "business_stage_name": "",
+      "functions": [
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\CreditHandle.json"
+    },
+    {
+      "comp_url": "HouseConstructHandle",
+      "page_name": "",
+      "business_stage_name": "",
+      "functions": [
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\HouseConstructHandle.json"
+    },
+    {
+      "comp_url": "YjsRegPrePack",
+      "page_name": "",
+      "business_stage_name": "",
+      "functions": [
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\YjsRegPrePack.json"
+    },
+    {
+      "comp_url": "YjsRegFoodOp",
+      "page_name": "",
+      "business_stage_name": "",
+      "functions": [
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\YjsRegFoodOp.json"
+    },
+    {
+      "comp_url": "SlUploadMaterial",
+      "page_name": "材料补充",
+      "business_stage_name": "",
+      "functions": [
+        "load_business_list",
+        "load_business_data",
+        "operation_business_data",
+        "load_current_location",
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\SlUploadMaterial.json"
+    },
+    {
+      "comp_url": "BusinessLicenceWay",
+      "page_name": "营业执照领取",
+      "business_stage_name": "第二阶段：信息填报",
+      "functions": [
+        "load_business_list",
+        "load_business_data",
+        "operation_business_data",
+        "load_current_location",
+        "save",
+        "progression_transition"
+      ],
+      "error_codes": [
+        "00000"
+      ],
+      "prompt_count": 0,
+      "field_total": 1,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\BusinessLicenceWay.json"
+    },
+    {
+      "comp_url": "YbbSelect",
+      "page_name": "云帮办流程模式选择",
+      "business_stage_name": "第二阶段：信息填报",
+      "functions": [
+        "load_business_list",
+        "load_business_data",
+        "operation_business_data",
+        "load_current_location",
+        "save",
+        "progression_transition"
+      ],
+      "error_codes": [
+        "00000"
+      ],
+      "prompt_count": 1,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\YbbSelect.json"
+    },
+    {
+      "comp_url": "PreElectronicDoc",
+      "page_name": "预电子文档 / 信息确认",
+      "business_stage_name": "第二阶段：信息填报",
+      "functions": [
+        "save",
+        "pre_submit_ybb",
+        "progression_transition"
+      ],
+      "error_codes": [
+        "D0018"
+      ],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\PreElectronicDoc.json"
+    },
+    {
+      "comp_url": "PreSubmitSuccess",
+      "page_name": "云提交成功页",
+      "business_stage_name": "第二阶段：信息填报",
+      "functions": [
+        "load_business_data",
+        "progression_transition"
+      ],
+      "error_codes": [
+        "D0010"
+      ],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\PreSubmitSuccess.json"
+    },
+    {
+      "comp_url": "ElectronicDoc",
+      "page_name": "",
+      "business_stage_name": "",
+      "functions": [
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\ElectronicDoc.json"
+    },
+    {
+      "comp_url": "SubmitSuccess",
+      "page_name": "",
+      "business_stage_name": "",
+      "functions": [
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\SubmitSuccess.json"
+    },
+    {
+      "comp_url": "RegNotification",
+      "page_name": "",
+      "business_stage_name": "",
+      "functions": [
+        "progression_transition"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\RegNotification.json"
+    },
+    {
+      "comp_url": "RegBusiLicence",
+      "page_name": "",
+      "business_stage_name": "",
+      "functions": [],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\RegBusiLicence.json"
+    },
+    {
+      "comp_url": "MemberBaseInfo",
+      "page_name": "",
+      "business_stage_name": "",
+      "functions": [
+        "load_business_list",
+        "load_business_data",
+        "operation_business_data",
+        "load_current_location"
+      ],
+      "error_codes": [],
+      "prompt_count": 0,
+      "field_total": 18,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\MemberBaseInfo.json"
+    },
+    {
+      "comp_url": "MemberInfo",
+      "page_name": "成员信息",
+      "business_stage_name": "第二阶段：信息填报",
+      "functions": [
+        "save"
+      ],
+      "error_codes": [
+        "00000"
+      ],
+      "prompt_count": 0,
+      "field_total": 0,
+      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\MemberInfo.json"
+    }
+  ]
+}

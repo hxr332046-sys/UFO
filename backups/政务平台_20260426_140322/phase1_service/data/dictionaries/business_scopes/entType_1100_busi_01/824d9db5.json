@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C1953",
+        "saveHyCode": "1953",
+        "hyPecul": "塑料鞋制造",
+        "hyTypeName": "塑料鞋制造",
+        "enHyTypeName": null,
+        "explains": "指以聚氯乙烯、聚乙烯、聚氨酯和乙烯醋酸乙烯等树脂为原料生产发泡或不发泡的塑料鞋类制品的活动。",
+        "includesTitle": "包括对下列塑料鞋的制造活动：",
+        "includes": "全塑凉鞋、拖鞋；塑料鞋零件、护腿及类似品；其他塑料鞋。",
+        "unIncludes": "不包括：塑料制滑雪靴，列入2444（运动防护用具制造）；塑料制滑雪板，列入2442（专项运动器材及配件制造）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "塑料鞋",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

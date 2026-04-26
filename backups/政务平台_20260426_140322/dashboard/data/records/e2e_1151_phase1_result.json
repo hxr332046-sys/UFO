@@ -1,0 +1,71 @@
+{
+  "success": false,
+  "busiId": "2047369185264271360",
+  "nameId": null,
+  "establish_busiId": null,
+  "basicinfo_signInfo": null,
+  "stopped_at_step": 5,
+  "steps": [
+    {
+      "i": 1,
+      "name": "name/loadCurrentLocationInfo",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 424,
+      "busiData_preview": "{\"flowData\": {\"busiId\": \"2047369185264271360\", \"entType\": \"4540\", \"busiType\": \"01\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": \"2047368861596590082\", \"marPrId\": null, \"secondId\": null, \"vipChannel\": null, \"currCompUrl\": null, \"status\": \"90\", \"matterCode\": null, \"interruptControl\": null}, \"linkData\": {\"token\": \"\", \"continueFlag\": null, \"compUrl\": null, \"compUrlPaths\": null, \"busiCompComb\": {\"id\":"
+    },
+    {
+      "i": 2,
+      "name": "NameSupplement/loadBusinessDataInfo",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 16461,
+      "busiData_preview": "{\"flowData\": {\"busiId\": \"2047369185264271360\", \"entType\": \"4540\", \"busiType\": \"01\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": \"2047368861596590082\", \"marPrId\": null, \"secondId\": null, \"vipChannel\": \"null\", \"currCompUrl\": \"NameSupplement\", \"status\": \"90\", \"matterCode\": null, \"interruptControl\": null}, \"linkData\": {\"token\": \"\", \"continueFlag\": null, \"compUrl\": \"NameSupplement\", \"compUrlPaths\": [\""
+    },
+    {
+      "i": 3,
+      "name": "NameShareholder/loadBusinessInfoList",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 165,
+      "busiData_preview": "{\"flowData\": {\"busiId\": \"2047369185264271360\", \"entType\": \"4540\", \"busiType\": \"01\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": \"2047368861596590082\", \"marPrId\": null, \"secondId\": null, \"vipChannel\": \"null\", \"currCompUrl\": \"NameShareholder\", \"status\": \"90\", \"matterCode\": null, \"interruptControl\": null}, \"linkData\": {\"token\": \"\", \"continueFlag\": null, \"compUrl\": \"NameShareholder\", \"compUrlPaths\": "
+    },
+    {
+      "i": 4,
+      "name": "NameShareholder/loadBusinessDataInfo",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 200,
+      "busiData_preview": "{\"flowData\": {\"busiId\": \"2047369185264271360\", \"entType\": \"4540\", \"busiType\": \"01\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": \"2047368861596590082\", \"marPrId\": null, \"secondId\": null, \"vipChannel\": \"null\", \"currCompUrl\": \"NameShareholder\", \"status\": \"90\", \"matterCode\": null, \"interruptControl\": null}, \"linkData\": {\"token\": \"\", \"continueFlag\": null, \"compUrl\": \"NameShareholder\", \"compUrlPaths\": "
+    },
+    {
+      "i": 5,
+      "name": "NameShareholder/operationBusinessDataInfo [save]",
+      "ok": false,
+      "code": "D0018",
+      "resultType": "",
+      "msg": "业务状态已变化，请刷新页面",
+      "err": null,
+      "duration_ms": 118,
+      "busiData_preview": "{}"
+    }
+  ],
+  "latency_ms": 24575,
+  "reason": "step5_failed",
+  "reason_detail": "NameShareholder/operationBusinessDataInfo [save]: code=D0018 msg=业务状态已变化，请刷新页面",
+  "phase1_executed": false,
+  "phase1_busiId": null,
+  "phase1_reason": null
+}

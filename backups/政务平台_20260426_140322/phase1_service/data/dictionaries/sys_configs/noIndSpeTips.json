@@ -1,0 +1,30 @@
+{
+  "schema": "phase1_service.census.payload.v1",
+  "meta": {
+    "job_id": "sysConfig_noIndSpeTips",
+    "path": "/icpsp-api/v4/pc/common/configdata/sysConfig/getSysConfig",
+    "params": {
+      "key": "noIndSpeTips"
+    },
+    "dur_ms": 56,
+    "ts": 1776842512
+  },
+  "data": {
+    "code": "00000",
+    "data": {
+      "resultType": "0",
+      "msg": "",
+      "busiData": {
+        "code": "noIndSpeTips",
+        "name": "无行业表述须知",
+        "content": "<p>\n   <strong>无行业企业名称申报须至少满足以下三个条件：</strong>\n</p >\n<p>\n   （一）申报主体为已登记的跨5个以上国民经济行业门类综合经营的企业法人；\n</p >\n<p>\n   （二）投资设立3个以上与本企业字号相同且经营1年以上的公司，同时各公司的行业或者经营特点分别属于国民经济行业不同门类；\n</p >\n<p>\n   （三）除有投资关系外，应与所在地同一行政区域内已登记的或保留期内的企业名称字号不同。\n</p >",
+        "enName": null,
+        "enContent": null,
+        "sysFile": null,
+        "url": null
+      }
+    },
+    "msg": "操作成功",
+    "page": null
+  }
+}

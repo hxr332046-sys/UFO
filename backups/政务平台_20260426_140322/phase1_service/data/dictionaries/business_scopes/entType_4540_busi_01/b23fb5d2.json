@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C2423",
+        "saveHyCode": "2423",
+        "hyPecul": "电子乐器制造",
+        "hyTypeName": "电子乐器制造",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列电子乐器的制造活动：",
+        "includes": "电子琴；数码钢琴（电钢琴）；电吉他；电子鼓；其他电子乐器。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "电子乐器",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

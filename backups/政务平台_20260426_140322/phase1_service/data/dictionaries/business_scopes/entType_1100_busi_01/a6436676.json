@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C2222",
+        "saveHyCode": "2222",
+        "hyPecul": "手工纸制造",
+        "hyTypeName": "手工纸制造",
+        "enHyTypeName": null,
+        "explains": "指采用手工操作成型，制成纸的生产活动。",
+        "includesTitle": "包括对下列手工纸的制造活动：",
+        "includes": "手工纸：宣纸、国画纸、其他手工纸；手工纸板。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "手工纸",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

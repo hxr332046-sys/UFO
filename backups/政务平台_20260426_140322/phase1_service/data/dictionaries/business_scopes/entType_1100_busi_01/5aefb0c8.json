@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C3076",
+        "saveHyCode": "3076",
+        "hyPecul": "园艺陶瓷制造",
+        "hyTypeName": "园艺陶瓷制造",
+        "enHyTypeName": null,
+        "explains": "指专门为园林、公园、室外景观的摆设或具有一定功能的大型陶瓷制造。",
+        "includesTitle": "包括下列园艺陶瓷制造活动：",
+        "includes": "陶瓷制果皮箱：瓷制果皮箱、陶制果皮箱、其他陶瓷制果皮箱；陶瓷制花盆：瓷制装饰性花盆、瓷制非装饰性花盆、陶制装饰性花盆、陶制非装饰性花盆。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "园艺陶瓷",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

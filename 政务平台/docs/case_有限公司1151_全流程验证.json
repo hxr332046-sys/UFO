@@ -1,0 +1,62 @@
+{
+  "case_id": "rongxian_yongheng_1151_e2e_20260424",
+  "source_doc": "1151全流程端到端验证",
+  "company_name_full": "广西容县昱铭科技有限公司",
+  "company_name_phase1_normalized": "昱铭（广西容县）科技有限公司",
+  "region_text": "广西容县",
+  "承办所_note": "容县区域内",
+  "capital_wan": 100,
+  "employees": 1,
+  "address_full": "广西壮族自治区玉林市容县容州镇车站西路富盛广场1幢3203号房",
+  "roles_note": "法人、财务、承办人同一自然人(自然人独资有限公司)",
+  "entTypeName": "有限责任公司（自然人独资）",
+  "subCapital": "100.000000",
+  "business_area": "一般经营项目：软件开发（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）",
+  "busiAreaName": "软件开发",
+  "busiAreaCode": "I3006",
+  "itemIndustryTypeCode": "6513",
+  "industryTypeName": "应用软件开发",
+  "areaCategory": "I",
+  "busiAreaData_items": [{
+    "id": "I3006", "stateCo": "1", "name": "软件开发", "pid": "65",
+    "minIndusTypeCode": "6511;6512;6513", "midIndusTypeCode": "651;651;651",
+    "isMainIndustry": "1", "category": "I",
+    "indusTypeCode": "6511;6512;6513", "indusTypeName": "软件开发",
+    "additionalValue": ""
+  }],
+  "person": {
+    "name": "黄永裕",
+    "mobile": "18977514335",
+    "id_no": "450921198812051251",
+    "email": "344979990@qq.com",
+    "id_front_uuid": "38daaa84894646fa9ccdd1acf97eaba2",
+    "id_back_uuid": "a6df4e5ebd1f49ccabe0203eb6361c1d",
+    "home_address": "广西壮族自治区玉林市容县容州镇",
+    "certificateGrantor": "容县公安局",
+    "signDateStart": "2020-01-22",
+    "signDate": "2040-01-22"
+  },
+  "party": "非党员",
+  "assets": {
+    "lease_contract": "G:\\YU\\资料\\微信图片_20260411104217_91_17.jpg",
+    "id_front": "G:\\YU\\资料\\身份证正面_副本.jpg",
+    "id_back": "G:\\YU\\资料\\身份证正面.jpg"
+  },
+  "run_goal": "1151全流程端到端验证: 28步协议链+CDP BenefitUsers",
+  "busiType_default": "02_4",
+  "entType_default": "1151",
+  "name_mark": "昱铭",
+  "phase1_name_pre": "广西容县",
+  "phase1_check_name": "昱铭（广西容县）科技有限公司",
+  "phase1_industry_special": "科技",
+  "phase1_industry_code": "6513",
+  "phase1_industry_name": "应用软件开发",
+  "phase1_main_business_desc": "技术推广服务",
+  "phase1_organize": "有限公司",
+  "phase1_dist_codes": [
+    "450000",
+    "450900",
+    "450921"
+  ],
+  "phase1_protocol_busi_type": "01"
+}

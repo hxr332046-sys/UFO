@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C2822",
+        "saveHyCode": "2822",
+        "hyPecul": "涤纶纤维制造",
+        "hyTypeName": "涤纶纤维制造",
+        "enHyTypeName": null,
+        "explains": "也称聚酯纤维，指以聚对苯二甲酸乙二醇酯（简称聚酯）为原料生产合成纤维的活动。",
+        "includesTitle": "包括对下列涤纶纤维的制造活动：",
+        "includes": "涤纶短纤维：涤纶棉型短纤维、涤纶毛型短纤维、其他涤纶短纤维；涤纶长丝：涤纶高强力丝、其他涤纶长丝；涤纶加工丝：涤纶变形纱线（涤纶弹力丝、其他涤纶变形纱线）、其他涤纶加工丝。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "涤纶纤维",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

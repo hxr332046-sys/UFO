@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "J6650",
+        "saveHyCode": "6650",
+        "hyPecul": "银行监管服务",
+        "hyTypeName": "银行监管服务",
+        "enHyTypeName": null,
+        "explains": "指代表政府管理银行业活动，制定并发布对银行业金融机构及其业务活动监督管理的规章、规则。",
+        "includesTitle": "包括下列银行监管机构的服务：",
+        "includes": "中国银行业监督管理委员会；中国银行业监督管理委员会分支机构。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "银行监管",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

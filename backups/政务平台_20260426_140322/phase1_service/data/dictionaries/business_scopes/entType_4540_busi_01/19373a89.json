@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "L7281",
+        "saveHyCode": "7281",
+        "hyPecul": "科技会展服务",
+        "hyTypeName": "科技会展服务",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列科技会展服务活动：",
+        "includes": "科学技术国际、国内会议服务；科学技术学术会议服务；科技成果会展服务；前沿科技会展服务；专业技术与产品会展服务：电子、通信产品会展服务，汽车展览服务，机械设备会展服务，其他专业技术与产品会展服务；其他科技会展服务。",
+        "unIncludes": "不包括：科学、自然等博览会活动，列入8850（博物馆）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "科技会展",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

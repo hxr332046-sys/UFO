@@ -1,0 +1,76 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "H6190",
+        "saveHyCode": "6190",
+        "hyPecul": "住宿",
+        "hyTypeName": "其他住宿业",
+        "enHyTypeName": null,
+        "explains": "指上述未列明的住宿服务。",
+        "includesTitle": "包括下列其他住宿业活动：",
+        "includes": "学生公寓住宿服务；车船住宿服务；分时度假住宿服务；分时住宿服务；其他未列明住宿服务。",
+        "unIncludes": "不包括：房屋出租活动，列入70（房地产业）相关行业类别中。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "H6190",
+        "saveHyCode": "6190",
+        "hyPecul": "住宿业",
+        "hyTypeName": "其他住宿业",
+        "enHyTypeName": null,
+        "explains": "指上述未列明的住宿服务。",
+        "includesTitle": "包括下列其他住宿业活动：",
+        "includes": "学生公寓住宿服务；车船住宿服务；分时度假住宿服务；分时住宿服务；其他未列明住宿服务。",
+        "unIncludes": "不包括：房屋出租活动，列入70（房地产业）相关行业类别中。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "H6190",
+        "saveHyCode": "6190",
+        "hyPecul": "住宿服务",
+        "hyTypeName": "其他住宿业",
+        "enHyTypeName": null,
+        "explains": "指上述未列明的住宿服务。",
+        "includesTitle": "包括下列其他住宿业活动：",
+        "includes": "学生公寓住宿服务；车船住宿服务；分时度假住宿服务；分时住宿服务；其他未列明住宿服务。",
+        "unIncludes": "不包括：房屋出租活动，列入70（房地产业）相关行业类别中。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "Q8519",
+        "saveHyCode": "8519",
+        "hyPecul": "住宿社会救助",
+        "hyTypeName": "其他提供住宿社会救助",
+        "enHyTypeName": null,
+        "explains": "指对生活无着流浪等其他人员的收养救助等活动。",
+        "includesTitle": "包括下列其他提供住宿社会救助活动：",
+        "includes": "生活无着流浪乞讨人员救助活动；其他收养服务；其他未列明的提供住宿社会救助服务。",
+        "unIncludes": "不包括：为老人、五保户、残疾人、孤儿等提供不带住宿的帮助活动，列入8521（社会看护与帮助服务）；孤儿、弃婴的收养、领养活动，列入8521（社会看护与帮助服务）。",
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "住宿",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

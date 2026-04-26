@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C3650",
+        "saveHyCode": "3650",
+        "hyPecul": "电车制造",
+        "hyTypeName": "电车制造",
+        "enHyTypeName": null,
+        "explains": "指以电作为动力，以屏板或可控硅方式控制的城市内交通工具和专用交通工具的制造。",
+        "includesTitle": "包括对下列电车的制造活动：",
+        "includes": "有轨电车；大型无轨电车、中型无轨电车、轻型无轨电车。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "电车制造",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

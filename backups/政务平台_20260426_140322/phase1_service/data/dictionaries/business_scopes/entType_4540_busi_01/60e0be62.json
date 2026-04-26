@@ -1,0 +1,91 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "O8080",
+        "saveHyCode": "8080",
+        "hyPecul": "殡葬",
+        "hyTypeName": "殡葬服务",
+        "enHyTypeName": null,
+        "explains": "指与殡葬有关的各类服务。",
+        "includesTitle": "包括下列殡葬服务活动：",
+        "includes": "殡仪馆管理服务；殡葬礼仪服务；遗体搬运存放服务；墓地安葬服务；丧葬用品服务（花圈、寿衣出售等服务）；其他殡葬服务。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "O8080",
+        "saveHyCode": "8080",
+        "hyPecul": "殡葬服务",
+        "hyTypeName": "殡葬服务",
+        "enHyTypeName": null,
+        "explains": "指与殡葬有关的各类服务。",
+        "includesTitle": "包括下列殡葬服务活动：",
+        "includes": "殡仪馆管理服务；殡葬礼仪服务；遗体搬运存放服务；墓地安葬服务；丧葬用品服务（花圈、寿衣出售等服务）；其他殡葬服务。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "O8080",
+        "saveHyCode": "8080",
+        "hyPecul": "殡葬用品",
+        "hyTypeName": "殡葬服务",
+        "enHyTypeName": null,
+        "explains": "指与殡葬有关的各类服务。",
+        "includesTitle": "包括下列殡葬服务活动：",
+        "includes": "殡仪馆管理服务；殡葬礼仪服务；遗体搬运存放服务；墓地安葬服务；丧葬用品服务（花圈、寿衣出售等服务）；其他殡葬服务。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "O8080",
+        "saveHyCode": "8080",
+        "hyPecul": "殡葬礼仪服务",
+        "hyTypeName": "殡葬服务",
+        "enHyTypeName": null,
+        "explains": "指与殡葬有关的各类服务。",
+        "includesTitle": "包括下列殡葬服务活动：",
+        "includes": "殡仪馆管理服务；殡葬礼仪服务；遗体搬运存放服务；墓地安葬服务；丧葬用品服务（花圈、寿衣出售等服务）；其他殡葬服务。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "O8080",
+        "saveHyCode": "8080",
+        "hyPecul": "陵园殡葬服务",
+        "hyTypeName": "殡葬服务",
+        "enHyTypeName": null,
+        "explains": "指与殡葬有关的各类服务。",
+        "includesTitle": "包括下列殡葬服务活动：",
+        "includes": "殡仪馆管理服务；殡葬礼仪服务；遗体搬运存放服务；墓地安葬服务；丧葬用品服务（花圈、寿衣出售等服务）；其他殡葬服务。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "殡葬",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

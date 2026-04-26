@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "J6811",
+        "saveHyCode": "6811",
+        "hyPecul": "人身保险",
+        "hyTypeName": "人寿保险",
+        "enHyTypeName": null,
+        "explains": "指以人的寿命为保险标的的人身保险，包括定期寿险、终身寿险和两全保险。",
+        "includesTitle": "包括下列人寿保险活动：",
+        "includes": "普通寿险服务；分红寿险服务；投连寿险服务；万能寿险服务；其他寿险服务。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "人身保险",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

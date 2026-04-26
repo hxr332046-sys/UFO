@@ -1,0 +1,228 @@
+[
+  {
+    "url": "v4/pc/manager/usermanager/getUserInfo?t=1776930843268",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/manager/usermanager/getUserInfo?t=1776930843268",
+    "method": "GET",
+    "postData": "",
+    "ts": 0.8788793087005615,
+    "status": 200,
+    "response_code": "00000",
+    "response_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"id\":\"824032604\",\"username\":\"450921198812051251@123\",\"elename\":\"黄永裕\",\"desensitizeElename\":\"**裕\",\"elepaper\":\"10\",\"elepapername\":\"中华人民共和国居民身份证\",\"elepapernumber\":\"450921198812051251\",\"encryptedElepapernumber\":\"450921198812051251\",\"tel\":\"1897"
+  },
+  {
+    "url": "v4/pc/common/tools/getCacheCreateTime?t=1776930843451",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/tools/getCacheCreateTime?t=1776930843451",
+    "method": "GET",
+    "postData": "",
+    "ts": 1.0630252361297607,
+    "status": 200,
+    "response_code": "00000",
+    "response_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"cacheTimeKey\":\"sysparamCacheTime\",\"cacheTimeValue\":\"1776905584012\"},{\"cacheTimeKey\":\"internationalcodeCacheTime\",\"cacheTimeValue\":\"1776905582975\"}]},\"msg\":\"操作成功\",\"page\":null}"
+  },
+  {
+    "url": "v4/pc/register/establish/loadCurrentLocationInfo?t=1776930844059",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/establish/loadCurrentLocationInfo?t=1776930844059",
+    "method": "POST",
+    "postData": "{\"flowData\":{\"busiId\":null,\"entType\":\"1151\",\"busiType\":\"02\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":\"2047218022607474690\",\"marPrId\":null,\"secondId\":null,\"vipChannel\":null,\"currCompUrl\":\"BasicInfo\",\"status\":\"10\",\"matterCode\":null,\"interruptControl\":null},\"linkData\":{\"continueFlag\":\"\",\"token\":\"\"}}",
+    "ts": 1.6716012954711914,
+    "response_code": "00000",
+    "response_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[[],[],[{\"internationalCode\":\"manager.system.tail.copyright\",\"url\":null,\"sort\":\"32\"},{\"internationalCode\":\"manager.system.tail.postCode\",\"url\":null,\"sort\":\"33\"},{\"internationalCode\":\"manager.system.tail.filing\",\"url\":null,\"sort\":\"34\"},{\"in",
+    "status": 200
+  },
+  {
+    "url": "v4/pc/common/headertail/getTailConfigList?t=1776930844060",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/headertail/getTailConfigList?t=1776930844060",
+    "method": "GET",
+    "postData": "",
+    "ts": 1.672591209411621,
+    "status": 200,
+    "response_code": "00000",
+    "response_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[]},\"msg\":\"操作成功\",\"page\":null}"
+  },
+  {
+    "url": "v4/pc/common/codedata/common/queryCodeKV?t=1776930844875&key=CODE_NATCODE",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/codedata/common/queryCodeKV?t=1776930844875&key=CODE_NATCODE",
+    "method": "GET",
+    "postData": "",
+    "ts": 2.4972317218780518,
+    "status": 200,
+    "response_code": "00000",
+    "response_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":null},\"msg\":\"操作成功\",\"page\":null}"
+  },
+  {
+    "url": "v4/pc/register/establish/component/BasicInfo/loadBusinessDataInfo?t=1776930844877",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/establish/component/BasicInfo/loadBusinessDataInfo?t=1776930844877",
+    "method": "POST",
+    "postData": "{\"flowData\":{\"busiId\":null,\"entType\":\"1151\",\"busiType\":\"02\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":\"2047218022607474690\",\"marPrId\":null,\"secondId\":null,\"vipChannel\":null,\"currCompUrl\":\"BasicInfo\",\"status\":\"10\",\"matterCode\":null,\"interruptControl\":null},\"linkData\":{\"compUrl\":\"BasicInfo\",\"compUrlPaths\":[\"BasicInfo\"],\"token\":\"\"},\"itemId\":\"\"}",
+    "ts": 2.4988253116607666,
+    "status": 200,
+    "response_code": "00000",
+    "response_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"code\":\"0\",\"name\":\"办公\",\"enName\":null,\"chosign\":\"Y\"},{\"code\":\"1\",\"name\":\"工业\",\"enName\":null,\"chosign\":\"Y\"},{\"code\":\"2\",\"name\":\"商业\",\"enName\":null,\"chosign\":\"Y\"},{\"code\":\"4\",\"name\":\"住宅\",\"enName\":null,\"chosign\":\"Y\"},{\"code\":\"5\",\"name\":\"其他\",\"e"
+  },
+  {
+    "url": "v4/pc/register/tools/manycert/queryCertificateCodeList?t=1776930846774",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/tools/manycert/queryCertificateCodeList?t=1776930846774",
+    "method": "POST",
+    "postData": "{\"parkEnterprises\":\"0\",\"busiStr\":\"0\",\"entType\":\"1151\",\"orgCode\":\"450921\",\"businessArea\":\"软件开发\",\"busiAreaCode\":\"I3006\",\"busiType\":\"02\"}",
+    "ts": 4.4368462562561035,
+    "status": 200,
+    "response_code": "00000",
+    "response_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"code\":\"01\",\"name\":\"房屋或土地管理部门的证明\",\"enName\":null,\"codetype\":\"ownercert\",\"sort\":1,\"chosign\":null},{\"code\":\"03\",\"name\":\"房屋购买合同、土地使用受让合同\",\"enName\":null,\"codetype\":\"ownercert\",\"sort\":3,\"chosign\":null},{\"code\":\"05\",\"name\":\"所在地政府、街道办、管委会出具的证明\","
+  },
+  {
+    "url": "v4/pc/register/tools/manycert/queryCertiSeparateList?t=1776930846774",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/tools/manycert/queryCertiSeparateList?t=1776930846774",
+    "method": "POST",
+    "postData": "{\"businessArea\":\"软件开发\",\"busiAreaCode\":\"I3006\",\"freeTradeArea\":\"\",\"parentBusinessArea\":\"\",\"foreignBusinessArea\":\"\"}",
+    "ts": 4.437848806381226,
+    "status": 200,
+    "response_code": "00000",
+    "response_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"code\":\"01\",\"name\":\"自有\",\"chosign\":\"Y\"},{\"code\":\"02\",\"name\":\"租赁\",\"chosign\":\"Y\"},{\"code\":\"03\",\"name\":\"无偿使用\",\"chosign\":\"Y\"},{\"code\":\"05\",\"name\":\"转租赁，并已征得房屋所有权人的同意\",\"chosign\":\"Y\"},{\"code\":\"99\",\"name\":\"其他\",\"chosign\":\"Y\"}]},\"msg\":\"操作成功\",\"page\""
+  },
+  {
+    "url": "v4/pc/common/configdata/listOrgan?t=1776930846774&busType=02&regCap=100.000000&entType=1151&distCode=450921&areaCode=450921",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/configdata/listOrgan?t=1776930846774&busType=02&regCap=100.000000&entType=1151&distCode=450921&areaCode=450921",
+    "method": "GET",
+    "postData": "",
+    "ts": 4.437848806381226,
+    "response_code": "00000",
+    "response_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"code\":\"156\",\"name\":\"人民币\",\"enName\":null,\"shoName\":\"人民币\",\"commonSign\":\"Y\",\"compare\":2,\"rmbRate\":\"1\",\"dolRate\":\"0.1209\",\"choSign\":null}},\"msg\":\"操作成功\",\"page\":null}",
+    "status": 200
+  },
+  {
+    "url": "v4/pc/common/synchrdata/queryRegcodeAndStreet?t=1776930846774",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/synchrdata/queryRegcodeAndStreet?t=1776930846774",
+    "method": "GET",
+    "postData": "",
+    "ts": 4.43884801864624,
+    "status": 200,
+    "response_code": "00000",
+    "response_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[]},\"msg\":\"操作成功\",\"page\":null}"
+  },
+  {
+    "url": "v4/pc/common/register/focuscustody/generalCodeList?t=1776930846774&type=ownercert",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/register/focuscustody/generalCodeList?t=1776930846774&type=ownercert",
+    "method": "GET",
+    "postData": "",
+    "ts": 4.439847946166992,
+    "status": 200,
+    "response_code": "00000",
+    "response_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":false},\"msg\":\"操作成功\",\"page\":null}"
+  },
+  {
+    "url": "v4/pc/common/configdata/enterprisehouseusemodecode/getAllCode?t=1776930846774",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/configdata/enterprisehouseusemodecode/getAllCode?t=1776930846774",
+    "method": "GET",
+    "postData": "",
+    "ts": 4.439847946166992,
+    "status": 200,
+    "response_code": "00000",
+    "response_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":null},\"msg\":\"操作成功\",\"page\":null}"
+  },
+  {
+    "url": "v4/pc/common/configdata/enterpriseaddressusemode/getAllCode?t=1776930846774",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/configdata/enterpriseaddressusemode/getAllCode?t=1776930846774",
+    "method": "GET",
+    "postData": "",
+    "ts": 4.439847946166992,
+    "status": 200,
+    "response_code": "00000",
+    "response_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[]},\"msg\":\"操作成功\",\"page\":null}"
+  },
+  {
+    "url": "v4/pc/register/establish/component/Residence/freeBusinessAreaList?t=1776930846778",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/establish/component/Residence/freeBusinessAreaList?t=1776930846778",
+    "method": "POST",
+    "postData": "{\"distCode\":\"450921\"}",
+    "ts": 4.440848350524902,
+    "status": 200,
+    "response_code": "00000",
+    "response_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":false},\"msg\":\"操作成功\",\"page\":null}"
+  },
+  {
+    "url": "v4/pc/common/codedata/common/queryOneCode?t=1776930846778&key=CODE_MOKINDCODE&code=156",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/codedata/common/queryOneCode?t=1776930846778&key=CODE_MOKINDCODE&code=156",
+    "method": "GET",
+    "postData": "",
+    "ts": 4.441850423812866,
+    "status": 200,
+    "response_code": "00000",
+    "response_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":[{\"code\":\"1150\",\"name\":\"一人有限责任公司\",\"maxTypeSign\":\"N\",\"midTypeSign\":\"N\",\"minTypeSign\":\"Y\",\"fourTypeSign\":\"N\",\"parType\":null,\"shortName\":\"有限责任公司\",\"enName\":null},{\"code\":\"1151\",\"name\":\"有限责任公司（自然人独资）\",\"maxTypeSign\":\"N\",\"midTypeSign\":\"N\",\"minTyp"
+  },
+  {
+    "url": "v4/pc/common/configdata/getAllIndustryTypeCode?t=1776930846778&indTypeCode=&range=1&busiType=02&entType=1151",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/configdata/getAllIndustryTypeCode?t=1776930846778&indTypeCode=&range=1&busiType=02&entType=1151",
+    "method": "GET",
+    "postData": "",
+    "ts": 4.44284987449646,
+    "status": 200,
+    "response_code": "00000",
+    "response_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"chooseGtInOrgan\":null,\"orginGt\":false,\"list\":[{\"id\":\"145000000003000258\",\"name\":\"容县市场监督管理局\",\"code\":\"450921\",\"shortName\":\"容县市场监督管理局\",\"address\":null,\"valid\":1,\"grade\":\"06\",\"organtypeCode\":\"P\",\"organpropertyCode\":\"01,02,03,04,07,05,06\",\"par"
+  },
+  {
+    "url": "v4/pc/register/establish/component/Residence/isFreeBusinessArea?t=1776930846778",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/establish/component/Residence/isFreeBusinessArea?t=1776930846778",
+    "method": "POST",
+    "postData": "{\"entName\":\"泽昕（广西容县）科技有限公司\",\"address\":\"玉林市容县\",\"distCode\":\"450921\",\"orgId\":\"\",\"priOrgId\":\"\"}",
+    "ts": 4.44284987449646,
+    "status": 200,
+    "response_code": "00000",
+    "response_preview": "{\"code\":\"00000\",\"data\":{\"resultType\":\"0\",\"msg\":\"\",\"busiData\":{\"flowData\":{\"busiId\":null,\"entType\":\"1151\",\"busiType\":\"02\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":\"2047218022607474690\",\"marPrId\":null,\"secondId\":null,\"vipChannel\":null,\"currCompUrl\":\"OpManyAddress\",\"status\":\"10\",\"matterCode\":null,\"inter"
+  },
+  {
+    "url": "v4/pc/register/tools/manycert/queryCertificateCodeList?t=1776930846778",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/tools/manycert/queryCertificateCodeList?t=1776930846778",
+    "method": "POST",
+    "postData": "{\"parkEnterprises\":\"0\",\"busiStr\":\"0\",\"entType\":\"1151\",\"orgCode\":\"450921\",\"businessArea\":\"一般经营项目：软件开发（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）\",\"busiAreaCode\":\"I3006\",\"busiType\":\"02\"}",
+    "ts": 4.444848299026489,
+    "status": 200
+  },
+  {
+    "url": "v4/pc/register/tools/manycert/queryCertiSeparateList?t=1776930846778",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/tools/manycert/queryCertiSeparateList?t=1776930846778",
+    "method": "POST",
+    "postData": "{\"businessArea\":\"一般经营项目：软件开发（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）\",\"busiAreaCode\":\"I3006\",\"freeTradeArea\":\"\",\"parentBusinessArea\":\"\",\"foreignBusinessArea\":\"\"}",
+    "ts": 4.444848299026489,
+    "status": 200
+  },
+  {
+    "url": "v4/pc/register/establish/component/Residence/isFreeBusinessArea?t=1776930846922",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/establish/component/Residence/isFreeBusinessArea?t=1776930846922",
+    "method": "POST",
+    "postData": "{\"entName\":\"泽昕（广西容县）科技有限公司\",\"address\":\"玉林市容县容州镇车站西路富盛广场1幢3203号房\",\"distCode\":\"450921\",\"orgId\":\"\",\"priOrgId\":\"\"}",
+    "ts": 4.536503791809082,
+    "status": 200
+  },
+  {
+    "url": "v4/pc/register/establish/component/BasicInfo/loadEnttypeList?t=1776930846977&entType=1151",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/establish/component/BasicInfo/loadEnttypeList?t=1776930846977&entType=1151",
+    "method": "GET",
+    "postData": "",
+    "ts": 4.590620994567871,
+    "status": 200
+  },
+  {
+    "url": "v4/pc/common/codedata/special/common/queryCodeList?key=CODE_MOKINDCODE&t=1776930846977",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/common/codedata/special/common/queryCodeList?key=CODE_MOKINDCODE&t=1776930846977",
+    "method": "GET",
+    "postData": "",
+    "ts": 4.591620445251465,
+    "status": 200
+  },
+  {
+    "url": "v4/pc/register/establish/component/ManyCertRegistration/loadBusinessInfoList?t=1776930847153",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/establish/component/ManyCertRegistration/loadBusinessInfoList?t=1776930847153",
+    "method": "POST",
+    "postData": "{\"flowData\":{\"busiId\":null,\"entType\":\"1151\",\"busiType\":\"02\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":\"2047218022607474690\",\"marPrId\":null,\"secondId\":null,\"vipChannel\":null,\"currCompUrl\":\"ManyCertRegistration\",\"status\":\"10\",\"matterCode\":null,\"interruptControl\":null},\"linkData\":{\"compUrl\":\"ManyCertRegistration\",\"compUrlPaths\":[\"BasicInfo\",\"ManyCertRegistration\"],\"token\":\"\"},\"itemId\":\"\",\"businessArea\":\"一般经营项目：软件开发（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）\",\"busiAreaCode\":\"I3006\",\"entType\":\"1151\",\"orgCode\":\"450921\"}",
+    "ts": 4.769535064697266,
+    "status": 200
+  },
+  {
+    "url": "v4/pc/register/establish/component/OpManyAddress/loadBusinessInfoList?t=1776930847154",
+    "full_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/v4/pc/register/establish/component/OpManyAddress/loadBusinessInfoList?t=1776930847154",
+    "method": "POST",
+    "postData": "{\"flowData\":{\"busiId\":null,\"entType\":\"1151\",\"busiType\":\"02\",\"ywlbSign\":\"4\",\"busiMode\":null,\"nameId\":\"2047218022607474690\",\"marPrId\":null,\"secondId\":null,\"vipChannel\":null,\"currCompUrl\":\"OpManyAddress\",\"status\":\"10\",\"matterCode\":null,\"interruptControl\":null},\"linkData\":{\"compUrl\":\"OpManyAddress\",\"compUrlPaths\":[\"BasicInfo\",\"OpManyAddress\"],\"token\":\"\"},\"itemId\":\"\"}",
+    "ts": 4.770536661148071,
+    "status": 200
+  }
+]

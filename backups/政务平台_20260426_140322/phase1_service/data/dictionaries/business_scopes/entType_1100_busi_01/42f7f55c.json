@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "O8221",
+        "saveHyCode": "8221",
+        "hyPecul": "宠物饲养",
+        "hyTypeName": "宠物饲养",
+        "enHyTypeName": null,
+        "explains": "指专门以观赏、领养（出售）为目的的宠物饲养活动，而非经济目的的饲养。",
+        "includesTitle": "包括下列宠物饲养活动：",
+        "includes": "以观赏为目的的专业宠物饲养活动；以领养或其他目的的宠物饲养活动。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "宠物饲养",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

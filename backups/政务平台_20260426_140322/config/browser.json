@@ -1,0 +1,33 @@
+{
+  "name": "政务平台",
+  "executable": "C:\\Program Files (x86)\\Microsoft\\Edge Dev\\Application\\msedge.exe",
+  "browser_kind": "edge_dev",
+  "cdp_port": 9225,
+  "cdp_http": "http://127.0.0.1:9225/json",
+  "user_data_dir": "C:\\Temp\\EdgeDevCDP",
+  "launch_args": [
+    "--remote-debugging-port=9225",
+    "--remote-allow-origins=*",
+    "--user-data-dir=C:\\Temp\\EdgeDevCDP"
+  ],
+  "extra_chrome_args": [
+    "--no-first-run",
+    "--no-default-browser-check",
+    "--proxy-server=http://127.0.0.1:8080"
+  ],
+  "start_url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html",
+  "launch_command_powershell": "& 'C:\\Program Files (x86)\\Microsoft\\Edge Dev\\Application\\msedge.exe' --remote-debugging-port=9225 --remote-allow-origins=* '--user-data-dir=C:\\Temp\\EdgeDevCDP' --no-first-run --no-default-browser-check --proxy-server=http://127.0.0.1:8080",
+  "fallback_executables": [
+    "C:\\Program Files\\Google\\Chrome Dev\\Application\\chrome.exe"
+  ],
+  "fallback_user_data_dir": "C:\\Temp\\ChromeDevCDP",
+  "notes": [
+    "Edge Dev 安装目录：C:\\Program Files (x86)\\Microsoft\\Edge Dev\\Application（本配置已指向 msedge.exe）",
+    "CDP 基于 Chromium，参数与 Chrome 完全一致：--remote-debugging-port/--remote-allow-origins/--user-data-dir",
+    "必须加 --remote-allow-origins=* 否则 WebSocket 连接被 403 拒绝",
+    "不要同时运行两个使用同一 User Data 目录的实例",
+    "登录态保存在 User Data 目录（C:\\Temp\\EdgeDevCDP），首次启动需在 Edge Dev 内登录一次",
+    "fallback_executables 保留 Chrome Dev 作为应急入口；如需切回 Chrome Dev，将 executable/user_data_dir/launch_args 恢复即可",
+    "mitmproxy：已通过启动参数 --proxy-server=http://127.0.0.1:8080 走代理；根证书由 scripts/trust_mitm_ca.ps1 导入当前用户；请先开 mitmdump 再启动 Edge Dev"
+  ]
+}

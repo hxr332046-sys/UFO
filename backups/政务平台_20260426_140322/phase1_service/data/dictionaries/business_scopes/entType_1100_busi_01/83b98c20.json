@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "O8051",
+        "saveHyCode": "8051",
+        "hyPecul": "洗浴服务",
+        "hyTypeName": "洗浴服务",
+        "enHyTypeName": null,
+        "explains": "指专业洗浴室以及在宾馆、饭店或娱乐场所常设的独立（或相对独立）洗浴、温泉、SPA等服务。",
+        "includesTitle": "包括下列洗浴服务活动：",
+        "includes": "普通洗浴服务：洗澡服务、搓澡服务、修脚服务、其他普通洗浴服务；温泉洗浴服务；桑拿洗浴服务；水疗保健服务；其他洗浴服务。",
+        "unIncludes": "不包括：与医疗护理有关的服务，列入8499（其他未列明卫生服务）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "洗浴服务",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "loadCurrentLocationInfo": {
+    "code": "00000",
+    "flowData": {
+      "busiId": null,
+      "entType": "1151",
+      "busiType": "02",
+      "ywlbSign": "4",
+      "busiMode": null,
+      "nameId": "2047218022607474690",
+      "marPrId": null,
+      "secondId": null,
+      "vipChannel": null,
+      "currCompUrl": "BasicInfo",
+      "status": "10",
+      "matterCode": null,
+      "interruptControl": null
+    }
+  },
+  "BasicInfo": {
+    "code": "00000"
+  },
+  "MemberPost": {
+    "code": "D0021"
+  }
+}

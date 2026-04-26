@@ -1,0 +1,112 @@
+{
+  "schema": "ufo.node_asset.v1",
+  "generated_at": "2026-04-26 13:50:42",
+  "comp_url": "RegBusiLicence",
+  "page_name": "",
+  "business_stage_name": "",
+  "asset_quality": {
+    "ui_capture_valid": true,
+    "flags": []
+  },
+  "functions": [],
+  "protocol_contract": {
+    "jurisdiction": [],
+    "observed_actions": [],
+    "observed_steps": [],
+    "expected_components": [],
+    "process_to_busi_comp": "nameshow|0,fill|1-26,confirm|27,preTrial|28,signature|29,audit|30,notification|31,busiLicense|32",
+    "flow_data_sample": {},
+    "link_data_sample": {},
+    "process_vo": {},
+    "current_location_vo": {},
+    "item_id_sample": "",
+    "sign_info_sample": "",
+    "sequence": {
+      "index": 32,
+      "previous_component": "RegNotification",
+      "next_component": null,
+      "comp_comb_arr": [
+        "NameInfoDisplay",
+        "BasicInfo",
+        "MemberPost",
+        "MemberPool",
+        "PersonInfoRegGT",
+        "ChargeDepartment",
+        "RegMergeAndDiv",
+        "WzInfoReport",
+        "ComplementInfo",
+        "Rules",
+        "BankOpenInfo",
+        "MedicalInsured",
+        "Engraving",
+        "TaxInvoice",
+        "SocialInsured",
+        "GjjHandle",
+        "WaterNewHandle",
+        "GasNewHandle",
+        "ElectricNewHandle",
+        "NetHandle",
+        "CreditHandle",
+        "HouseConstructHandle",
+        "YjsRegPrePack",
+        "YjsRegFoodOp",
+        "SlUploadMaterial",
+        "BusinessLicenceWay",
+        "YbbSelect",
+        "PreElectronicDoc",
+        "PreSubmitSuccess",
+        "ElectronicDoc",
+        "SubmitSuccess",
+        "RegNotification",
+        "RegBusiLicence"
+      ]
+    }
+  },
+  "ui_assets": {
+    "label": "",
+    "route": "",
+    "hash": "",
+    "content_preview": "",
+    "field_summary": {
+      "source": "survey_fields",
+      "total": 0,
+      "required": 0,
+      "readonly": 0,
+      "sensitive": 0
+    },
+    "server_fields": [],
+    "survey_fields": [],
+    "radio_groups": [],
+    "tables": [],
+    "picker_placeholders": [],
+    "vuex": {},
+    "api_calls": []
+  },
+  "prompt_assets": {
+    "blocking_prompts": [],
+    "dialogs": [],
+    "visible_buttons": [],
+    "recommended_actions": [],
+    "messages": []
+  },
+  "error_assets": {
+    "codes": [],
+    "categories": [],
+    "messages": [],
+    "suggested_actions": [],
+    "problems": []
+  },
+  "runtime_assets": {
+    "page_names": [],
+    "business_stage_names": [],
+    "latest_flow_data": {},
+    "latest_link_data": {},
+    "latest_diagnosis": {},
+    "recent_steps": []
+  },
+  "sources": {
+    "survey_file": "",
+    "phase2_record": "D:\\UFO\\政务平台\\dashboard\\data\\records\\phase2_establish_latest.json",
+    "smart_record": "D:\\UFO\\政务平台\\dashboard\\data\\records\\smart_register_latest.json"
+  }
+}

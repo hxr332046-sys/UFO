@@ -1,0 +1,185 @@
+{
+  "schema": "phase1_service.census.payload.v1",
+  "meta": {
+    "job_id": "matter_types",
+    "path": "/icpsp-api/v4/pc/common/configdata/matter/types",
+    "params": {
+      "useType": "0"
+    },
+    "dur_ms": 57,
+    "ts": 1776842515
+  },
+  "data": {
+    "code": "00000",
+    "data": {
+      "resultType": "0",
+      "msg": "",
+      "busiData": [
+        {
+          "code": "zzhm",
+          "langCode": "common.matter.type.zzhm",
+          "name": "名称自主申报（老）",
+          "disOrder": 1
+        },
+        {
+          "code": "zzbm",
+          "langCode": "common.matter.type.zzbm",
+          "name": "名称自主变名（老）",
+          "disOrder": 1
+        },
+        {
+          "code": "102",
+          "langCode": "common.matter.type.102",
+          "name": "企业开办",
+          "disOrder": 7
+        },
+        {
+          "code": "149",
+          "langCode": "common.matter.type.149",
+          "name": "迁移登记",
+          "disOrder": 9
+        },
+        {
+          "code": "105",
+          "langCode": "common.matter.type.105",
+          "name": "企业开办随时办",
+          "disOrder": 10
+        },
+        {
+          "code": "103",
+          "langCode": "common.matter.type.103",
+          "name": "变更备案登记",
+          "disOrder": 13
+        },
+        {
+          "code": "bgyjs",
+          "langCode": "common.matter.type.bgyjs",
+          "name": "企业变更一件事",
+          "disOrder": 14
+        },
+        {
+          "code": "104",
+          "langCode": "common.matter.type.104",
+          "name": "注销登记",
+          "disOrder": 19
+        },
+        {
+          "code": "108",
+          "langCode": "common.matter.type.108",
+          "name": "名称自主申报（变更）",
+          "disOrder": 37
+        },
+        {
+          "code": "109",
+          "langCode": "common.matter.type.109",
+          "name": "简易注销登记",
+          "disOrder": 43
+        },
+        {
+          "code": "129",
+          "langCode": "common.matter.type.129",
+          "name": "个转企",
+          "disOrder": 55
+        },
+        {
+          "code": "147",
+          "langCode": "common.matter.type.147",
+          "name": "营业执照（增补换发）",
+          "disOrder": 56
+        },
+        {
+          "code": "138",
+          "langCode": "common.matter.type.138",
+          "name": "食品预包装备案",
+          "disOrder": 76
+        },
+        {
+          "code": "139",
+          "langCode": "common.matter.type.139",
+          "name": "食品预包装变更",
+          "disOrder": 77
+        },
+        {
+          "code": "140",
+          "langCode": "common.matter.type.140",
+          "name": "食品预包装注销",
+          "disOrder": 78
+        },
+        {
+          "code": "121",
+          "langCode": "common.matter.type.121",
+          "name": "股权出质设立",
+          "disOrder": 80
+        },
+        {
+          "code": "122",
+          "langCode": "common.matter.type.122",
+          "name": "股权出质变更",
+          "disOrder": 85
+        },
+        {
+          "code": "123",
+          "langCode": "common.matter.type.123",
+          "name": "股权出质注销",
+          "disOrder": 90
+        },
+        {
+          "code": "144",
+          "langCode": "common.matter.type.144",
+          "name": "歇业备案",
+          "disOrder": 91
+        },
+        {
+          "code": "145",
+          "langCode": "common.matter.type.145",
+          "name": "歇业延期",
+          "disOrder": 92
+        },
+        {
+          "code": "ksqya",
+          "langCode": "common.matter.type.ksqya",
+          "name": "跨省迁移",
+          "disOrder": 95
+        },
+        {
+          "code": "jzgg",
+          "langCode": "common.matter.type.jzgg",
+          "name": "减资公告",
+          "disOrder": 160
+        },
+        {
+          "code": "161",
+          "langCode": "common.matter.type.161",
+          "name": "企业注销一件事",
+          "disOrder": 161
+        },
+        {
+          "code": "znjz",
+          "langCode": "common.matter.type.znjz",
+          "name": "企业减资智能导办",
+          "disOrder": 162
+        },
+        {
+          "code": "xjzlb",
+          "langCode": "common.matter.type.xjzlb",
+          "name": "企业变更（证照联办）",
+          "disOrder": 163
+        },
+        {
+          "code": "203",
+          "langCode": "common.matter.type.203",
+          "name": "强制注销恢复登记",
+          "disOrder": 166
+        },
+        {
+          "code": "999",
+          "langCode": "common.matter.type.999",
+          "name": "其他业务",
+          "disOrder": 999
+        }
+      ]
+    },
+    "msg": "操作成功",
+    "page": null
+  }
+}

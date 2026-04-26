@@ -1,0 +1,8 @@
+{
+  "provider": "openai",
+  "api_key": "sk-aistudio-2026",
+  "model": "gemini-flash-latest",
+  "base_url": "http://localhost:7860/v1",
+  "max_tokens": 2000,
+  "temperature": 0.1
+}

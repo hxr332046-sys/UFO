@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "D4420",
+        "saveHyCode": "4420",
+        "hyPecul": "电力供应",
+        "hyTypeName": "电力供应",
+        "enHyTypeName": null,
+        "explains": "指利用电网出售给用户电能的输送与分配活动，以及供电局的供电活动。",
+        "includesTitle": "包括下列电力供应活动：",
+        "includes": "供电、售电；电能的输送与分配活动。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "电力供应",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

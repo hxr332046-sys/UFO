@@ -1,0 +1,119 @@
+{
+  "schema": "ufo.session_bootstrap.v1",
+  "started_at": "2026-04-25 10:31:33",
+  "cdp_port": 9225,
+  "ent_type": "4540",
+  "busi_type": "02_4",
+  "steps": [
+    {
+      "step": "pick_page",
+      "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-api/sso/entservice?targetUrlKey=02_0002"
+    },
+    {
+      "step": "navigate_guide_base",
+      "target": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/name-register.html#/guide/base?busiType=02_4&entType=4540&marPrId=&marUniscId="
+    },
+    {
+      "step": "probe_after_navigate",
+      "data": {
+        "_cdp_exception": {
+          "exceptionId": 11,
+          "text": "Uncaught (in promise)",
+          "lineNumber": 0,
+          "columnNumber": 0,
+          "exception": {
+            "type": "object",
+            "subtype": "error",
+            "className": "DOMException",
+            "description": "SecurityError: Failed to read the 'cookie' property from 'Document': Access is denied for this document.\n    at <anonymous>:7:29\n    at <anonymous>:34:7",
+            "objectId": "8910124121114870796.4.1",
+            "preview": {
+              "type": "object",
+              "subtype": "error",
+              "description": "SecurityError: Failed to read the 'cookie' property from 'Document': Access is denied for this document.\n    at <anonymous>:7:29\n    at <anonymous>:34:7",
+              "overflow": false,
+              "properties": [
+                {
+                  "name": "stack",
+                  "type": "string",
+                  "value": "SecurityError: Failed to read the 'cookie' propert….\n    at <anonymous>:7:29\n    at <anonymous>:34:7"
+                },
+                {
+                  "name": "code",
+                  "type": "number",
+                  "value": "18"
+                },
+                {
+                  "name": "name",
+                  "type": "string",
+                  "value": "SecurityError"
+                },
+                {
+                  "name": "message",
+                  "type": "string",
+                  "value": "Failed to read the 'cookie' property from 'Document': Access is denied for this document."
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "step": "probe_after_settle",
+      "data": {
+        "_cdp_exception": {
+          "exceptionId": 12,
+          "text": "Uncaught (in promise)",
+          "lineNumber": 0,
+          "columnNumber": 0,
+          "exception": {
+            "type": "object",
+            "subtype": "error",
+            "className": "DOMException",
+            "description": "SecurityError: Failed to read the 'cookie' property from 'Document': Access is denied for this document.\n    at <anonymous>:7:29\n    at <anonymous>:34:7",
+            "objectId": "8910124121114870796.4.1",
+            "preview": {
+              "type": "object",
+              "subtype": "error",
+              "description": "SecurityError: Failed to read the 'cookie' property from 'Document': Access is denied for this document.\n    at <anonymous>:7:29\n    at <anonymous>:34:7",
+              "overflow": false,
+              "properties": [
+                {
+                  "name": "stack",
+                  "type": "string",
+                  "value": "SecurityError: Failed to read the 'cookie' propert….\n    at <anonymous>:7:29\n    at <anonymous>:34:7"
+                },
+                {
+                  "name": "code",
+                  "type": "number",
+                  "value": "18"
+                },
+                {
+                  "name": "name",
+                  "type": "string",
+                  "value": "SecurityError"
+                },
+                {
+                  "name": "message",
+                  "type": "string",
+                  "value": "Failed to read the 'cookie' property from 'Document': Access is denied for this document."
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "step": "sync_runtime_auth",
+      "data": {
+        "ok": false,
+        "reason": "auth_not_32",
+        "authLen": 0
+      }
+    }
+  ],
+  "final": {},
+  "error": "sync_failed"
+}

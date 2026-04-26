@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C3082",
+        "saveHyCode": "3082",
+        "hyPecul": "云母制品制造",
+        "hyTypeName": "云母制品制造",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列云母制品的制造活动：",
+        "includes": "薄片云母、厚片云母、剥片云母、熔铸合成云母；电容器片云母、电容器零部件云母片、高压锅炉水位计用云母片、电子管用云母片；无机耐高温合成云母纸层压板、云母纸、云母带等云母纸制品；电焊条用合成云母粉、干磨云母粉、湿磨云母粉、碎云母、云母碎屑制品；其他云母制品。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "云母制品",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

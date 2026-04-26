@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "J6610",
+        "saveHyCode": "6610",
+        "hyPecul": "中央银行服务",
+        "hyTypeName": "中央银行服务",
+        "enHyTypeName": null,
+        "explains": "指代表政府管理金融活动，并制定和执行货币政策，维护金融稳定，管理金融市场的特殊金融机构的活动。",
+        "includesTitle": "包括下列中央银行金融服务：",
+        "includes": "中国人民银行；中国人民银行分支机构。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "中央银行",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

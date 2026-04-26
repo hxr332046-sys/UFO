@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C3041",
+        "saveHyCode": "3041",
+        "hyPecul": "平板玻璃制造",
+        "hyTypeName": "平板玻璃制造",
+        "enHyTypeName": null,
+        "explains": "指用浮法、垂直引上法、压延法、溢流法等生产平板玻璃原片的活动。",
+        "includesTitle": "包括对下列平板玻璃的制造活动：",
+        "includes": "普通平板玻璃：垂直引上法生产的平板玻璃、平拉法生产的平板玻璃；浮法平板玻璃；压延玻璃；制版玻璃；其他平板玻璃。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "平板玻璃",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

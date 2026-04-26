@@ -1,0 +1,46 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "L7245",
+        "saveHyCode": "7245",
+        "hyPecul": "环保咨询",
+        "hyTypeName": "环保咨询",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列环保咨询活动：",
+        "includes": "环境保护法律咨询服务；环境保护咨询服务；环境治理咨询服务；污染防治与方案咨询服务；其他环境咨询。",
+        "unIncludes": "不包括：环境治理技术咨询与推广，列入7516（环保技术推广服务）。",
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "L7245",
+        "saveHyCode": "7245",
+        "hyPecul": "环保咨询服务",
+        "hyTypeName": "环保咨询",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括下列环保咨询活动：",
+        "includes": "环境保护法律咨询服务；环境保护咨询服务；环境治理咨询服务；污染防治与方案咨询服务；其他环境咨询。",
+        "unIncludes": "不包括：环境治理技术咨询与推广，列入7516（环保技术推广服务）。",
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "环保咨询",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

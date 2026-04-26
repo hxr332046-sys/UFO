@@ -1,0 +1,47 @@
+{
+  "platform_name": "广西经营主体登记平台",
+  "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/portal.html",
+  "hostname": "zhjg.scjdglj.gxzf.gov.cn",
+  "port": 9087,
+  "base_path": "/icpsp-web-pc/portal.html",
+  "router_mode": "hash",
+  "tech_stack": {
+    "framework": "Vue 2",
+    "ui_library": "Element-UI",
+    "state_management": "Vuex",
+    "router": "Vue-Router (hash mode)",
+    "other": ["jQuery"]
+  },
+  "vuex_modules": {
+    "framework": "框架状态",
+    "common": "公共状态",
+    "company": "办件中心/企业相关",
+    "index": "首页/业务办理",
+    "international": "国际版",
+    "login": "登录",
+    "register": "注册",
+    "user": "用户信息管理"
+  },
+  "page_structure": {
+    "header": "iframe#iframe-header",
+    "main": "div#app (Vue根实例)",
+    "footer": "iframe#iframe-footer",
+    "layout": "div#customLayout.layout"
+  },
+  "element_ui_plugins": [
+    "Element-Message",
+    "Element-Notify",
+    "Element-Loading"
+  ],
+  "top_nav_items": [
+    {"text": "标准版/国际版", "cls": "top-item newlangweige"},
+    {"text": "首页", "cls": "top-item bottom-item"},
+    {"text": "全部服务", "cls": "top-item bottom-item"},
+    {"text": "办件中心", "cls": "top-item do-center"},
+    {"text": "长辈模式", "cls": "top-item quitElderModel"}
+  ],
+  "user_nav_items": [
+    {"text": "用户信息管理", "action": "dropdown"},
+    {"text": "退出", "action": "dropdown"}
+  ]
+}

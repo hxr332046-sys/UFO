@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "busiId": "2047122548757872642",
+  "nameId": "2047094115971878913",
+  "establish_busiId": null,
+  "basicinfo_signInfo": null,
+  "stopped_at_step": 25,
+  "steps": [
+    {
+      "i": 25,
+      "name": "establish/PreSubmitSuccess/loadBusinessDataInfo [终点]",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "msg": "操作成功",
+      "err": null,
+      "duration_ms": 2473,
+      "busiData_preview": "{\"flowData\": {\"busiId\": \"2047122548757872642\", \"entType\": \"4540\", \"busiType\": \"02\", \"ywlbSign\": \"4\", \"busiMode\": null, \"nameId\": \"2047094115971878913\", \"marPrId\": null, \"secondId\": null, \"vipChannel\": null, \"currCompUrl\": \"PreSubmitSuccess\", \"status\": \"90\", \"matterCode\": null, \"interruptControl\": null}, \"linkData\": {\"token\": \"\", \"continueFlag\": null, \"compUrl\": \"PreSubmitSuccess\", \"compUrlPaths\": "
+    }
+  ],
+  "latency_ms": 4419,
+  "reason": null,
+  "reason_detail": null,
+  "phase1_executed": false,
+  "phase1_busiId": null,
+  "phase1_reason": null
+}

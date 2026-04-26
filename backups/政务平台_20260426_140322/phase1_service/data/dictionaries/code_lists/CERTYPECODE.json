@@ -1,0 +1,125 @@
+{
+  "schema": "phase1_service.census.payload.v1",
+  "meta": {
+    "job_id": "codeList_CERTYPECODE",
+    "path": "/icpsp-api/v4/pc/common/codedata/common/queryCodeKV",
+    "params": {
+      "key": "CODE_CERTYPECODE"
+    },
+    "dur_ms": 50,
+    "ts": 1776842497
+  },
+  "data": {
+    "code": "00000",
+    "data": {
+      "resultType": "0",
+      "msg": "",
+      "busiData": {
+        "55": {
+          "code": "55",
+          "name": "港澳居民来往大陆通行证",
+          "parent": null,
+          "enName": null
+        },
+        "56": {
+          "code": "56",
+          "name": "台湾居民身份证",
+          "parent": null,
+          "enName": null
+        },
+        "57": {
+          "code": "57",
+          "name": "台湾居民来往大陆通行证",
+          "parent": null,
+          "enName": null
+        },
+        "58": {
+          "code": "58",
+          "name": "台湾农民身份有关证明",
+          "parent": null,
+          "enName": null
+        },
+        "90": {
+          "code": "90",
+          "name": "其他有效身份证件",
+          "parent": null,
+          "enName": null
+        },
+        "60": {
+          "code": "60",
+          "name": "户口簿",
+          "parent": null,
+          "enName": null
+        },
+        "61": {
+          "code": "61",
+          "name": "外国人永久居留身份证",
+          "parent": null,
+          "enName": null
+        },
+        "40": {
+          "code": "40",
+          "name": "外国（地区）护照",
+          "parent": null,
+          "enName": null
+        },
+        "51": {
+          "code": "51",
+          "name": "香港特别行政区护照",
+          "parent": null,
+          "enName": null
+        },
+        "62": {
+          "code": "62",
+          "name": "中华人民共和国华侨护照",
+          "parent": null,
+          "enName": null
+        },
+        "52": {
+          "code": "52",
+          "name": "香港（永久性）居民身份证",
+          "parent": null,
+          "enName": null
+        },
+        "30": {
+          "code": "30",
+          "name": "中华人民共和国警官证",
+          "parent": null,
+          "enName": null
+        },
+        "63": {
+          "code": "63",
+          "name": "港澳居民居住证",
+          "parent": null,
+          "enName": null
+        },
+        "53": {
+          "code": "53",
+          "name": "澳门特别行政区护照",
+          "parent": null,
+          "enName": null
+        },
+        "64": {
+          "code": "64",
+          "name": "台湾居民居住证",
+          "parent": null,
+          "enName": null
+        },
+        "10": {
+          "code": "10",
+          "name": "中华人民共和国居民身份证",
+          "parent": null,
+          "enName": null
+        },
+        "54": {
+          "code": "54",
+          "name": "澳门（永久性）居民身份证",
+          "parent": null,
+          "enName": null
+        }
+      }
+    },
+    "msg": "操作成功",
+    "page": null
+  }
+}

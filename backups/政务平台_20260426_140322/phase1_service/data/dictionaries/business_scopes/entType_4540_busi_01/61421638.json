@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "A0132",
+        "saveHyCode": "0132",
+        "hyPecul": "麻类种植",
+        "hyTypeName": "麻类种植",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列麻类的种植活动：",
+        "includes": "生亚麻；生苎麻；生黄红麻；生线麻；生苘麻；生大麻；生剑麻；麻秆；其他生麻。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "麻类种植",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "R8992",
+        "saveHyCode": "8992",
+        "hyPecul": "体育健康服务",
+        "hyTypeName": "体育健康服务",
+        "enHyTypeName": null,
+        "explains": "指国民体质监测与康体服务，以及科学健身调理、社会体育指导员、运动康复按摩、体育健康指导等服务。",
+        "includesTitle": "包括下列体育健康服务活动：",
+        "includes": "国民体质监测服务；科学健身咨询服务；体育社会指导员培训服务；科学健康调理；运动康复按摩；体育健康指导。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "体育健康",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

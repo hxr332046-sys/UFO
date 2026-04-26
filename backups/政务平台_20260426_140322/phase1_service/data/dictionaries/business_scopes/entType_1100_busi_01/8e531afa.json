@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C3483",
+        "saveHyCode": "3483",
+        "hyPecul": "弹簧制造",
+        "hyTypeName": "弹簧制造",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列弹簧的制造活动：",
+        "includes": "钢铁制弹簧：钢铁片簧及簧片、螺旋弹簧、压缩弹簧、拉伸弹簧、扭转弹簧、碟形弹簧、钢铁涡旋弹簧、其他钢铁制弹簧；铜弹簧：磷青铜弹簧、铍铜弹簧、铝青铜弹簧、硅青铜弹簧、黄铜弹簧、德银弹簧、其他铜弹簧。",
+        "unIncludes": "不包括：钟表发条制造，列入4030（钟表与计时仪器制造）。",
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "弹簧制造",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

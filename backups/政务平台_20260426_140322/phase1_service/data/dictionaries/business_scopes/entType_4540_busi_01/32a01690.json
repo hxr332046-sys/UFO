@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C1313",
+        "saveHyCode": "1313",
+        "hyPecul": "玉米加工",
+        "hyTypeName": "玉米加工",
+        "enHyTypeName": null,
+        "explains": "指将玉米碾碎或碾磨成玉米碴或玉米粉的加工活动，不含以玉米为原料的饲料加工、淀粉及淀粉制品制造、酒精制造等。",
+        "includesTitle": "包括下列玉米加工活动：",
+        "includes": "玉米细粉；玉米粗磨：玉米渣、玉米粗粉；未烘烤的玉米爆米花半成品；玉米片。",
+        "unIncludes": "不包括：以制作淀粉为目的各类谷物粉面的加工，列入1391（淀粉及淀粉制品制造）。",
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "玉米加工",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

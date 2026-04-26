@@ -1,0 +1,93 @@
+{
+  "schema": "phase1_service.census.payload.v1",
+  "meta": {
+    "job_id": "matter_states",
+    "path": "/icpsp-api/v4/pc/common/configdata/matter/states",
+    "params": {
+      "useType": "0"
+    },
+    "dur_ms": 50,
+    "ts": 1776842518
+  },
+  "data": {
+    "code": "00000",
+    "data": {
+      "resultType": "0",
+      "msg": "",
+      "busiData": [
+        {
+          "code": "100",
+          "langCode": "common.matter.selectstate.100",
+          "name": "common.matter.selectstate.100"
+        },
+        {
+          "code": "101",
+          "langCode": "common.matter.selectstate.101",
+          "name": "common.matter.selectstate.101"
+        },
+        {
+          "code": "102",
+          "langCode": "common.matter.selectstate.102",
+          "name": "common.matter.selectstate.102"
+        },
+        {
+          "code": "103",
+          "langCode": "common.matter.selectstate.103",
+          "name": "common.matter.selectstate.103"
+        },
+        {
+          "code": "104",
+          "langCode": "common.matter.selectstate.104",
+          "name": "common.matter.selectstate.104"
+        },
+        {
+          "code": "108",
+          "langCode": "common.matter.selectstate.108",
+          "name": "common.matter.selectstate.108"
+        },
+        {
+          "code": "109",
+          "langCode": "common.matter.selectstate.109",
+          "name": "common.matter.selectstate.109"
+        },
+        {
+          "code": "110",
+          "langCode": "common.matter.selectstate.110",
+          "name": "common.matter.selectstate.110"
+        },
+        {
+          "code": "107",
+          "langCode": "common.matter.selectstate.107",
+          "name": "common.matter.selectstate.107"
+        },
+        {
+          "code": "105",
+          "langCode": "common.matter.selectstate.105",
+          "name": "common.matter.selectstate.105"
+        },
+        {
+          "code": "106",
+          "langCode": "common.matter.selectstate.106",
+          "name": "common.matter.selectstate.106"
+        },
+        {
+          "code": "111",
+          "langCode": "common.matter.selectstate.111",
+          "name": "common.matter.selectstate.111"
+        },
+        {
+          "code": "121",
+          "langCode": "common.matter.selectstate.121",
+          "name": "common.matter.selectstate.121"
+        },
+        {
+          "code": "122",
+          "langCode": "common.matter.selectstate.122",
+          "name": "common.matter.selectstate.122"
+        }
+      ]
+    },
+    "msg": "操作成功",
+    "page": null
+  }
+}

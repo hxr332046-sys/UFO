@@ -1,0 +1,10 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": "10,20,30"
+  },
+  "msg": "操作成功",
+  "page": null
+}

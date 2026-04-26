@@ -1,0 +1,38 @@
+{
+  "schema": "smart_register.v2",
+  "case_path": "docs\\case_美的为.json",
+  "case_id": "rongxian_meiyuying_4540_2026",
+  "case_name": "美裕盈（广西容县）科技中心（个人独资）",
+  "final_status": "step_5_p1_query",
+  "started_at": "2026-04-26 13:50:28",
+  "finished_at": "2026-04-26 13:50:42",
+  "phase1_busi_id": null,
+  "phase1_name_id": null,
+  "establish_busi_id": null,
+  "phase2_start_from_index": 0,
+  "resume_source": null,
+  "resume_candidate": null,
+  "last_phase2_state": {},
+  "latest_diagnosis": {},
+  "checkpoint": null,
+  "log": [
+    {
+      "phase": "phase1",
+      "attempt": 1,
+      "success": false,
+      "exit_reason": "step_5_p1_query",
+      "exit_detail": "NameCheckInfo/nameCheckRepeat: NAME_CHECK_STOP 名称库查重返回 stop，当前名称不能继续提交；请更换字号后重跑，或先人工释放原名称；疑似冲突名称：美裕盈（广西容县）科技中心（个人独资）",
+      "duration_s": 6.5
+    }
+  ],
+  "encountered_problems": [
+    {
+      "phase": "phase1",
+      "attempt": 1,
+      "success": false,
+      "exit_reason": "step_5_p1_query",
+      "exit_detail": "NameCheckInfo/nameCheckRepeat: NAME_CHECK_STOP 名称库查重返回 stop，当前名称不能继续提交；请更换字号后重跑，或先人工释放原名称；疑似冲突名称：美裕盈（广西容县）科技中心（个人独资）",
+      "duration_s": 6.5
+    }
+  ]
+}

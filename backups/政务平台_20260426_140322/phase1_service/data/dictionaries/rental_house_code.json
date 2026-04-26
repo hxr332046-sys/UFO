@@ -1,0 +1,41 @@
+{
+  "schema": "phase1_service.census.payload.v1",
+  "meta": {
+    "job_id": "rentalHouseCode",
+    "path": "/icpsp-api/v4/pc/common/configdata/getRentalHouseCode",
+    "params": {},
+    "dur_ms": 2881,
+    "ts": 1776842507
+  },
+  "data": {
+    "code": "00000",
+    "data": {
+      "resultType": "0",
+      "msg": "",
+      "busiData": [
+        {
+          "code": "1",
+          "codeName": "不动产权证书",
+          "choSign": "Y"
+        },
+        {
+          "code": "2",
+          "codeName": "土地使用权证(含国有或者宅基地使用权)",
+          "choSign": "Y"
+        },
+        {
+          "code": "3",
+          "codeName": "经房产部门备案商品房购买合同",
+          "choSign": "Y"
+        },
+        {
+          "code": "4",
+          "codeName": "以上证件都没有",
+          "choSign": "Y"
+        }
+      ]
+    },
+    "msg": "操作成功",
+    "page": null
+  }
+}

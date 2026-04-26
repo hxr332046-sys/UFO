@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "O8070",
+        "saveHyCode": "8070",
+        "hyPecul": "婚姻服务",
+        "hyTypeName": "婚姻服务",
+        "enHyTypeName": null,
+        "explains": "指婚姻介绍、婚庆典礼等服务。",
+        "includesTitle": "包括下列婚姻服务活动：",
+        "includes": "婚姻介绍服务：婚姻介绍所、电子红娘，以及专门为未婚男女提供联谊活动的机构；婚庆礼仪服务：婚礼策划、组织服务，婚礼租车服务，婚礼用品出租服务，婚礼摄像服务、其他婚姻服务。",
+        "unIncludes": "不包括：专门的婚纱摄影，列入8060（摄影扩印服务）。",
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "婚姻服务",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

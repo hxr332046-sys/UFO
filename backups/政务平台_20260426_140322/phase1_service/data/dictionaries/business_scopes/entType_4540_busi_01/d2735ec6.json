@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "F5112",
+        "saveHyCode": "5112",
+        "hyPecul": "包装种子批发",
+        "hyTypeName": "种子批发",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列种子的批发活动：",
+        "includes": "谷物种子批发和进出口；豆类种子批发和进出口；种用薯类批发和进出口；蔬菜种子批发和进出口；水果种子批发和进出口；树种批发和进出口；草种批发和进出口；花种批发和进出口；其他种子批发和进出口。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "种子批发",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

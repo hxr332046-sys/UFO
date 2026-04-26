@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "A0113",
+        "saveHyCode": "0113",
+        "hyPecul": "玉米种植",
+        "hyTypeName": "玉米种植",
+        "enHyTypeName": null,
+        "explains": null,
+        "includesTitle": "包括对下列玉米的种植活动：",
+        "includes": "白玉米：种用白玉米、其他白玉米；黄玉米：种用黄玉米、其他黄玉米；糯玉米：种用糯玉米、其他糯玉米；甜玉米：种用甜玉米、其他甜玉米；其他玉米：玉米秸及其他未列明玉米。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "玉米种植",
+    "entType": "1100",
+    "busiType": "01"
+  }
+}

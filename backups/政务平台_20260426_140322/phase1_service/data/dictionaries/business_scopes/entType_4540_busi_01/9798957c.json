@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "M7486",
+        "saveHyCode": "7486",
+        "hyPecul": "土地规划服务",
+        "hyTypeName": "土地规划服务",
+        "enHyTypeName": null,
+        "explains": "指开展国土规划、土地利用总体规划、专项规划、详细规划的调查评价、编制设计、论证评估、修改、咨询活动。",
+        "includesTitle": "包括下列土地规划服务活动：",
+        "includes": "国土规划服务；土地总体规划服务；土地专项规划服务；土地规划调查评价服务；土地规划编制设计服务；土地规划论证评估服务；土地规划修改服务；土地规划咨询服务。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "土地规划",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

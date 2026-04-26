@@ -1,0 +1,3853 @@
+{
+  "schema": "phase1_service.census.payload.v1",
+  "meta": {
+    "job_id": "sysParam_all",
+    "path": "/icpsp-api/v4/pc/common/configdata/sysParam/getAllSysParam",
+    "params": {},
+    "dur_ms": 75,
+    "ts": 1776842499
+  },
+  "data": {
+    "code": "00000",
+    "data": {
+      "resultType": "0",
+      "msg": "",
+      "busiData": [
+        {
+          "key": "noNeedTaxBeforeChecks",
+          "value": null
+        },
+        {
+          "key": "bannCheckInd",
+          "value": "N"
+        },
+        {
+          "key": "liuzhouHouseAppid",
+          "value": "2c928f8e82eca6de018310a96a7b002a"
+        },
+        {
+          "key": "isShowAddress",
+          "value": "Y"
+        },
+        {
+          "key": "saveQszInvestorCheckEnttype",
+          "value": "1,51,52,53,61,62,63"
+        },
+        {
+          "key": "agencyRealName",
+          "value": "N"
+        },
+        {
+          "key": "newDzyyzzSdKeyIndex",
+          "value": "2"
+        },
+        {
+          "key": "isIdCardForFlow",
+          "value": "N"
+        },
+        {
+          "key": "isMergeCustoms",
+          "value": "Y"
+        },
+        {
+          "key": "autoDepositRatio",
+          "value": "N"
+        },
+        {
+          "key": "nameAltFusionMode",
+          "value": "N"
+        },
+        {
+          "key": "isCheckAccLigEatDate",
+          "value": "Y"
+        },
+        {
+          "key": "noBankDialog",
+          "value": "N"
+        },
+        {
+          "key": "isInitParent",
+          "value": "N"
+        },
+        {
+          "key": "transferMode",
+          "value": "02"
+        },
+        {
+          "key": "licenseCancelStatementTips",
+          "value": "请确认纸质版营业执照正副本可正常缴回登记机关，如有遗失，请先在国家企业信用信息公示系统公告执照作废声明后提交！"
+        },
+        {
+          "key": "enableLimitWordView",
+          "value": "Y"
+        },
+        {
+          "key": "homelogo",
+          "value": "default"
+        },
+        {
+          "key": "pCancelTopMeisFlag",
+          "value": "N"
+        },
+        {
+          "key": "isMustFixTel",
+          "value": "Y"
+        },
+        {
+          "key": "isNewClusPage",
+          "value": "guangxi"
+        },
+        {
+          "key": "nameExtensionAheadDaysForNameDelay",
+          "value": "15"
+        },
+        {
+          "key": "baseAddressProof",
+          "value": "N"
+        },
+        {
+          "key": "bannedOneWord",
+          "value": "Y"
+        },
+        {
+          "key": "isEnableInvestCompanyInfo",
+          "value": "N"
+        },
+        {
+          "key": "blackEntCauSign",
+          "value": "2"
+        },
+        {
+          "key": "isShowInsurance",
+          "value": "1,2,gz"
+        },
+        {
+          "key": "zxggdataway",
+          "value": "2"
+        },
+        {
+          "key": "isShowHandleProgressPhone",
+          "value": "Y"
+        },
+        {
+          "key": "qzspListType",
+          "value": null
+        },
+        {
+          "key": "isShowAttnInfo",
+          "value": "Y"
+        },
+        {
+          "key": "isClassifyShowBusiterm",
+          "value": "Y"
+        },
+        {
+          "key": "DownloadFileFlag",
+          "value": "N"
+        },
+        {
+          "key": "EstateSign",
+          "value": "N"
+        },
+        {
+          "key": "delBusiAreaToEntType",
+          "value": null
+        },
+        {
+          "key": "registerGuideFlag",
+          "value": "1"
+        },
+        {
+          "key": "dlBenefitCheckHuomian",
+          "value": "Y"
+        },
+        {
+          "key": "nameAuthAuditPromise",
+          "value": "Y"
+        },
+        {
+          "key": "isNotCheckBusiDateEnd",
+          "value": "Y"
+        },
+        {
+          "key": "normAddressShequServiceId",
+          "value": "dzfwpt_sqjcwcx"
+        },
+        {
+          "key": "isGovernmentHall",
+          "value": "N"
+        },
+        {
+          "key": "benefitSysClientId",
+          "value": "450000"
+        },
+        {
+          "key": "isXzSmy",
+          "value": "N"
+        },
+        {
+          "key": "isLegalAddress",
+          "value": "N"
+        },
+        {
+          "key": "isGXOneWindowPass",
+          "value": "Y"
+        },
+        {
+          "key": "allowedOrigins",
+          "value": "192.168.44.136,192.168.44.137,https://zhjg.scjdglj.gxzf.gov.cn:6087/TopIP/web/web-portal.html#/index/page"
+        },
+        {
+          "key": "prePackRegionAlt",
+          "value": "Y"
+        },
+        {
+          "key": "TopDOTW_vue_url",
+          "value": "https://zhjg.scjdglj.gxzf.gov.cn:31993/TopDOTW_vue"
+        },
+        {
+          "key": "isTransferHalfRules",
+          "value": "N"
+        },
+        {
+          "key": "regionCrossCityConfig",
+          "value": "N"
+        },
+        {
+          "key": "checkUnderEighteen",
+          "value": "N"
+        },
+        {
+          "key": "legalShowBringMode",
+          "value": "N"
+        },
+        {
+          "key": "businessAreaSize",
+          "value": "900"
+        },
+        {
+          "key": "engraveOfficialAccount",
+          "value": "Y"
+        },
+        {
+          "key": "bgSbmatter",
+          "value": "all"
+        },
+        {
+          "key": "subjectionComparePdf",
+          "value": "N"
+        },
+        {
+          "key": "sendMessageInDay",
+          "value": "2"
+        },
+        {
+          "key": "jyzxggCode",
+          "value": null
+        },
+        {
+          "key": "visitLimitCfg",
+          "value": "{\"visitNumSessionCfg\":\"100\",\"visitTimeSessionCfg\":\"60\",\"visitNumIpCfg\":\"200\",\"visitTimeIpCfg\":\"60\",\"limitPhoneCfg\":\"15617899029\",\"limitPhoneNumCfg\":\"2\"}"
+        },
+        {
+          "key": "checkIfEasyOut",
+          "value": "N"
+        },
+        {
+          "key": "xjBankOpen",
+          "value": "N"
+        },
+        {
+          "key": "branchOperation",
+          "value": "11,12,21,22,3100,3200,3300,3400,43,45,51,52,53,54,58,61,62,63,64,68,71,72,73,91,92"
+        },
+        {
+          "key": "groupShareholdersNoticeDateLimit",
+          "value": "Y"
+        },
+        {
+          "key": "noShowHavaAdress",
+          "value": "N"
+        },
+        {
+          "key": "useOldOneThingServer",
+          "value": "N"
+        },
+        {
+          "key": "checkInvestorTaxEnttype",
+          "value": "1100,1200,5100,5200,6100,6200"
+        },
+        {
+          "key": "isRemoveFinAndInv",
+          "value": "N"
+        },
+        {
+          "key": "isJkInferenceOneThingCl",
+          "value": "Y"
+        },
+        {
+          "key": "showPromiseLetterDialog",
+          "value": "Y"
+        },
+        {
+          "key": "guideClickNextStepJumpMode",
+          "value": "1"
+        },
+        {
+          "key": "agentSetUpGtNumsHN",
+          "value": "5;10;"
+        },
+        {
+          "key": "ruleUploadTitle",
+          "value": "Y"
+        },
+        {
+          "key": "TrsCkmUrl",
+          "value": "http://192.168.3.15:8090/Firely/ws/ValidateContextService?wsdl"
+        },
+        {
+          "key": "pushOneThingToSyAndSg",
+          "value": "N"
+        },
+        {
+          "key": "enableChengDuYJS",
+          "value": "N"
+        },
+        {
+          "key": "enablePromiseLetterView",
+          "value": "Y"
+        },
+        {
+          "key": "isPushNoSupportCerType",
+          "value": "N"
+        },
+        {
+          "key": "base64_type",
+          "value": "2"
+        },
+        {
+          "key": "CommonQyzxVersion",
+          "value": "0"
+        },
+        {
+          "key": "pdfMergePost",
+          "value": "Y"
+        },
+        {
+          "key": "uploadJyzxCnsSize",
+          "value": "5"
+        },
+        {
+          "key": "handleIntPledgeBusiType",
+          "value": "11,12,51,52,61,62"
+        },
+        {
+          "key": "qrPrivateKey",
+          "value": "4cf498439b36a70a"
+        },
+        {
+          "key": "dsrwTime",
+          "value": "1"
+        },
+        {
+          "key": "agentAddress",
+          "value": "Y"
+        },
+        {
+          "key": "memPoolGsTipMode",
+          "value": "1"
+        },
+        {
+          "key": "licGuideType",
+          "value": "1"
+        },
+        {
+          "key": "nameNoMustHYEntTypes",
+          "value": "1100-1200"
+        },
+        {
+          "key": "isCheckTaxByInterface",
+          "value": "N"
+        },
+        {
+          "key": "zJuploadNum",
+          "value": "4"
+        },
+        {
+          "key": "cancelNoticeApiCacheTime",
+          "value": "5"
+        },
+        {
+          "key": "topEOCPSCancelTaxPwd",
+          "value": "123"
+        },
+        {
+          "key": "nzIsShowRealMoney",
+          "value": "Y"
+        },
+        {
+          "key": "busitermZjMode",
+          "value": "Y"
+        },
+        {
+          "key": "opItemVersion",
+          "value": "2024ver"
+        },
+        {
+          "key": "bankOpenAccount",
+          "value": "1,2"
+        },
+        {
+          "key": "serTypeMulti",
+          "value": "201,202,203,206,207,26,27"
+        },
+        {
+          "key": "useIcautioustoreLog",
+          "value": "Y"
+        },
+        {
+          "key": "qmbEntNameType",
+          "value": "0"
+        },
+        {
+          "key": "uploadProveForAbode",
+          "value": "N"
+        },
+        {
+          "key": "ischeckFalEnt",
+          "value": "Y"
+        },
+        {
+          "key": "isMontageAuditStrings",
+          "value": "Y"
+        },
+        {
+          "key": "MemCountSign",
+          "value": "3"
+        },
+        {
+          "key": "talkHandleVersion",
+          "value": "1.0"
+        },
+        {
+          "key": "isCancelTipsGX",
+          "value": "Y"
+        },
+        {
+          "key": "easyLogoutRevokeEndDateLimit",
+          "value": "N"
+        },
+        {
+          "key": "nameAltCheckName",
+          "value": "N"
+        },
+        {
+          "key": "stockOrderByCondition",
+          "value": "N"
+        },
+        {
+          "key": "personCheckNameAndPassword",
+          "value": "entInfo:topicis123"
+        },
+        {
+          "key": "pictureClippingWidth",
+          "value": "1366"
+        },
+        {
+          "key": "readOnlyFields",
+          "value": "01,02,03,04,05,06,07,08,09"
+        },
+        {
+          "key": "waterPdfImg",
+          "value": "shuiyin_GUANGXI.png"
+        },
+        {
+          "key": "invAddSign",
+          "value": "N"
+        },
+        {
+          "key": "addressComposeTactics",
+          "value": "1,2,3,4,5"
+        },
+        {
+          "key": "easyCancelNoticeDay",
+          "value": "20"
+        },
+        {
+          "key": "jyzSetUpGtNumsHN",
+          "value": "5"
+        },
+        {
+          "key": "jiansheSocketTerminalNo",
+          "value": null
+        },
+        {
+          "key": "minAddressLength",
+          "value": "5"
+        },
+        {
+          "key": "businessIntervalTime",
+          "value": "30"
+        },
+        {
+          "key": "ifcancelgjgs",
+          "value": "Y"
+        },
+        {
+          "key": "sendInterFace",
+          "value": "01"
+        },
+        {
+          "key": "shareHolderCheckRegCap",
+          "value": "N"
+        },
+        {
+          "key": "entTypeSelect",
+          "value": "1000,4540,4530"
+        },
+        {
+          "key": "heilongjiangDeptCode",
+          "value": "230109"
+        },
+        {
+          "key": "verificationNatureAge",
+          "value": "18"
+        },
+        {
+          "key": "yjzYztSsbConfig",
+          "value": "N"
+        },
+        {
+          "key": "ocrDiscernGPModel",
+          "value": "1"
+        },
+        {
+          "key": "SlDepartMentModel",
+          "value": "2"
+        },
+        {
+          "key": "noNoticeGgToZxFlag",
+          "value": null
+        },
+        {
+          "key": "isCheckAccLigEatDateBeforeDissolveDate",
+          "value": "2024-10-01"
+        },
+        {
+          "key": "isShowZzhmGzs",
+          "value": "Y"
+        },
+        {
+          "key": "isShowAgentModifyMateria",
+          "value": "Y"
+        },
+        {
+          "key": "liuzhouHouseKey",
+          "value": "MIICWwIBAAKBgQDFpQSTU7xGtIsj3eoiLB5de3uLd8OXUIKo6ru3y6SdA7l8Ki1YS7CdRqlFkIIxPXXiesEzxyF6q0YLi5me01n/end22N/veDqpfm6z2rs47+2Y2JS15FCSKLMzkpO2FXDoInVnHq40dmfPONlNo9fI455gKMxXYhytgk7wfu2P8QIDAQABAoGAHEUUOHZ7salVVZYCTUz+MuTcsQA6a8RKTBr3KrzoGMVVnJrzzXNWGcjnoVmgJabi27gvNla/RSqGZFRdbshQUOe4smQeXtbqZ6D3ayj/8CM3Rf2nDrBfsnccztlVtuFqoeABGb0z+E5j5x7dzcyx3vh+650do/B8E0plwEJ77JkCQQD/OXU6x3NDEyR/jPQIBBo5Tv5S3bPVUxZUbUWsAtumHKv4wvU3H20HH5XTMH1yECCR29Mapy9dAo8J7DmwDyU7AkEAxj7Ele/EivtRV9PtXTMTDEdKCwL5VcQcVTG4pKAIEMvsyKqyLtf7bBvHDuYh5B7WvFMt9ln/tSOg/0Q3+dlcwwJAdC8p6KonFF/Ae7gk1wlXDsOhDwQR+4ipX6Gm19ktOH9Q4huOGZvavCVqxQsL8ELbMMsLXNTCwOqLRw8ca8NZRQJAIQLYt2Lqpn386JQYpXlYxaWlVboUDM0QLruN1JP1Y96hOjT6YMSEUFc7yWZW5GaiOU/cinYoF2CscXVJoOgqAwJAQprl1Ibt4mgoD8mmyiKwFBMnIYRK9EMT/D9N4ubqycsqigxwt3SnIDPy31MxGmBPdFXisib4a5bTR1mIL4i6bg=="
+        },
+        {
+          "key": "TopDOTW_vue_inurl",
+          "value": "https://10.240.172.236:31993/TopDOTW_vue"
+        },
+        {
+          "key": "commonCityQydjLikeOther",
+          "value": null
+        },
+        {
+          "key": "showRegCapRate",
+          "value": "Y"
+        },
+        {
+          "key": "cancelMergeAndDivTipWay",
+          "value": "2"
+        },
+        {
+          "key": "isLongterm",
+          "value": "1,3,51,52,53,54,61,62,63,64,82"
+        },
+        {
+          "key": "illegalAccessLimitTime",
+          "value": "20"
+        },
+        {
+          "key": "gdCount",
+          "value": "50"
+        },
+        {
+          "key": "invEntNum",
+          "value": "3"
+        },
+        {
+          "key": "yryxBanType",
+          "value": null
+        },
+        {
+          "key": "toOldHandleApp",
+          "value": "Y"
+        },
+        {
+          "key": "zxdqrXmlNew",
+          "value": "Y"
+        },
+        {
+          "key": "showXzPushGsFlag",
+          "value": "0"
+        },
+        {
+          "key": "yskbsj_state",
+          "value": "07,11,12"
+        },
+        {
+          "key": "initAgent",
+          "value": "Y"
+        },
+        {
+          "key": "cancelNewspaperAccountTeamRecDateSign",
+          "value": "N"
+        },
+        {
+          "key": "deepseekCircuitBreaker",
+          "value": "2,5"
+        },
+        {
+          "key": "deepSeekQmb",
+          "value": "N"
+        },
+        {
+          "key": "nameCanDelay",
+          "value": "N"
+        },
+        {
+          "key": "gdIdentityCardType",
+          "value": "1"
+        },
+        {
+          "key": "ruleUploadCount",
+          "value": "10"
+        },
+        {
+          "key": "isOnlyIndustryName",
+          "value": "Y"
+        },
+        {
+          "key": "showABuItemCoSign",
+          "value": "Y"
+        },
+        {
+          "key": "MessageHead",
+          "value": null
+        },
+        {
+          "key": "parentEntNameDesenRule",
+          "value": "1"
+        },
+        {
+          "key": "canRegRegion",
+          "value": null
+        },
+        {
+          "key": "ResideceInfoMustGX",
+          "value": "Y"
+        },
+        {
+          "key": "isBatchImportCbry",
+          "value": "N"
+        },
+        {
+          "key": "talkRegisterEntType",
+          "value": "01,02,03"
+        },
+        {
+          "key": "isCheckApprovalItem",
+          "value": "N"
+        },
+        {
+          "key": "isYzdzByLicense",
+          "value": "Y"
+        },
+        {
+          "key": "nameAltAutoAuditFlag",
+          "value": "Y"
+        },
+        {
+          "key": "stagesInvestFlag",
+          "value": "N"
+        },
+        {
+          "key": "openSsdjFlag",
+          "value": "Y"
+        },
+        {
+          "key": "selfNameGZSAddSL",
+          "value": "Y"
+        },
+        {
+          "key": "bindEntMode",
+          "value": "0"
+        },
+        {
+          "key": "loginrecordlog",
+          "value": "Y"
+        },
+        {
+          "key": "systemNameConfig",
+          "value": "Y"
+        },
+        {
+          "key": "isFykzManyHandle",
+          "value": "N"
+        },
+        {
+          "key": "isShowInvNameAndCerNoInPdf",
+          "value": "Y"
+        },
+        {
+          "key": "showFundManagePrompt",
+          "value": "N"
+        },
+        {
+          "key": "useHainanPlugin",
+          "value": "N"
+        },
+        {
+          "key": "editInvMeetTime",
+          "value": "N"
+        },
+        {
+          "key": "doorHeadRecordAccountJk",
+          "value": "N"
+        },
+        {
+          "key": "icpspUploadSign",
+          "value": "0"
+        },
+        {
+          "key": "provideruseAndTel",
+          "value": "N"
+        },
+        {
+          "key": "nameFilter",
+          "value": "`'。•"
+        },
+        {
+          "key": "showYwlbsign",
+          "value": "Y"
+        },
+        {
+          "key": "headerAndFooterFlag",
+          "value": "1"
+        },
+        {
+          "key": "isDownJYCSCNS",
+          "value": "N"
+        },
+        {
+          "key": "cancelKeepEndDate",
+          "value": "3"
+        },
+        {
+          "key": "oneThingProducePdfConfig",
+          "value": "Y"
+        },
+        {
+          "key": "topmeisApiUrlV2",
+          "value": "http://10.240.255.21:19081/topmeis-api"
+        },
+        {
+          "key": "ifcheckzqrggCanrea",
+          "value": "N"
+        },
+        {
+          "key": "haveUseSeccurityMachineFlag",
+          "value": "N"
+        },
+        {
+          "key": "isSealImageJyzx",
+          "value": "Y"
+        },
+        {
+          "key": "topASEMSQuery",
+          "value": "N"
+        },
+        {
+          "key": "extendInfo",
+          "value": "N"
+        },
+        {
+          "key": "producePdfPrivateKey",
+          "value": "4cf498439b36a70a"
+        },
+        {
+          "key": "isContainRuleRecord",
+          "value": "N"
+        },
+        {
+          "key": "manualAuditForSX",
+          "value": "Y"
+        },
+        {
+          "key": "getBusinessLicenceWay",
+          "value": "0,1"
+        },
+        {
+          "key": "liuzhouPropertyVerificationUrl",
+          "value": "http://59.211.43.135:8080/rkrestfulws/8f2ecaa69987c6a7fcc0930822f5177e"
+        },
+        {
+          "key": "qmbV2RecommendCount",
+          "value": "50"
+        },
+        {
+          "key": "isCheckCerNoIdenticalWithOCRRGS",
+          "value": "N"
+        },
+        {
+          "key": "isHideHzyh",
+          "value": "N"
+        },
+        {
+          "key": "prePackAddressOneCheck",
+          "value": "1"
+        },
+        {
+          "key": "ZLBusinessUrl",
+          "value": "https://plugin.jyfwyun.com/plugin/search"
+        },
+        {
+          "key": "checkMapBounds",
+          "value": "N"
+        },
+        {
+          "key": "onlyEmailCheck",
+          "value": "Y"
+        },
+        {
+          "key": "bmShowDatumSign",
+          "value": "Y"
+        },
+        {
+          "key": "isUseCommonVerification",
+          "value": "N"
+        },
+        {
+          "key": "invEditSign",
+          "value": "N"
+        },
+        {
+          "key": "capitalVerificationEntTypes",
+          "value": "1,51,52,53,61,62,63,54,64,453,454,91,96"
+        },
+        {
+          "key": "yyjXzNum",
+          "value": "2"
+        },
+        {
+          "key": "cancelTurnOneThing",
+          "value": "N"
+        },
+        {
+          "key": "ywlbTimeJob",
+          "value": "N"
+        },
+        {
+          "key": "mustUploadAccredit",
+          "value": "Y"
+        },
+        {
+          "key": "customCity",
+          "value": "03"
+        },
+        {
+          "key": "saicRealnameSceneType",
+          "value": "0"
+        },
+        {
+          "key": "simpleRejectIfChoiceZx",
+          "value": "N"
+        },
+        {
+          "key": "nameAltBusForAlt",
+          "value": "28-名称自主申报（变更）"
+        },
+        {
+          "key": "isClassifyShowBusitermOld",
+          "value": "Y"
+        },
+        {
+          "key": "legalContinueHandle",
+          "value": "N"
+        },
+        {
+          "key": "isUpdateAccState",
+          "value": "Y"
+        },
+        {
+          "key": "housingConstructionJumpToUrl",
+          "value": "http://zjj.nanning.gov.cn/"
+        },
+        {
+          "key": "normAddressServiceValue",
+          "value": "dzfwpt_mhjs01"
+        },
+        {
+          "key": "StyleMode",
+          "value": "1"
+        },
+        {
+          "key": "benefitClientId",
+          "value": "450000"
+        },
+        {
+          "key": "termNoticeIsCancel",
+          "value": "N"
+        },
+        {
+          "key": "mailPassword",
+          "value": "Wangjili521"
+        },
+        {
+          "key": "isFilterRegion",
+          "value": "N"
+        },
+        {
+          "key": "source_icfes",
+          "value": "3"
+        },
+        {
+          "key": "TopDOTW_URL",
+          "value": "https://10.240.172.236:31993/TopDOTW"
+        },
+        {
+          "key": "forbHandChoSign",
+          "value": "01,03,08,21,28"
+        },
+        {
+          "key": "contractUnitNum",
+          "value": "1"
+        },
+        {
+          "key": "appEntType",
+          "value": "1100,1150,1151,1130,9600,9100,9200,2000,2100,2110,2120,2121,2122,2123,2130,2140,2150,2151,2152,2153,2190,2200,2210,2211,2212,2213,2219,2220,2221,2222,2223,2229"
+        },
+        {
+          "key": "legalAgeLimitGt",
+          "value": "16"
+        },
+        {
+          "key": "currentAddressIsMusted",
+          "value": "N"
+        },
+        {
+          "key": "busiAreaManual",
+          "value": null
+        },
+        {
+          "key": "oldTokenDelFlag",
+          "value": "Y"
+        },
+        {
+          "key": "benefitAppPrivateKey",
+          "value": "33B5A9FCF1F1A666"
+        },
+        {
+          "key": "commitmentFormatJyzx",
+          "value": "jpg,jpeg"
+        },
+        {
+          "key": "isHideGovernmentFreeSeal",
+          "value": "N"
+        },
+        {
+          "key": "jzgsggContext2",
+          "value": "<p>本公司于<span style=\"color: red\">{decDate}</span>作出减少注册资本的决议/决定，由<span style=\"color: red\">{altBeRegcap}</span>万元{altBeRegCapCurCn}减至<span style=\"color: red\">{altAfRegcap}</span>万元{altAfRegCapCurCn}，减少注册资本弥补公司亏损。</p>"
+        },
+        {
+          "key": "jzgsggContext1",
+          "value": "<p>本公司于<span style=\"color: red\">{decDate}</span>作出减少注册资本的决议/决定，由<span style=\"color: red\">{altBeRegcap}</span>万元{altBeRegCapCurCn}减至<span style=\"color: red\">{altAfRegcap}</span>万元{altAfRegCapCurCn}，请公司债权人自本公告发布之日起四十五日内，与本公司联系，要求清偿债务或者提供相应担保。</p>"
+        },
+        {
+          "key": "houseLeaseCode",
+          "value": "02"
+        },
+        {
+          "key": "slShowMcJd",
+          "value": "N"
+        },
+        {
+          "key": "deepSeekNameMarkNum",
+          "value": "10"
+        },
+        {
+          "key": "isNamePreApproveFillAddParent",
+          "value": "N"
+        },
+        {
+          "key": "onlyPhoneCheck",
+          "value": "Y"
+        },
+        {
+          "key": "isYzdzByPostLicense",
+          "value": "Y"
+        },
+        {
+          "key": "isShowSocialInsurance",
+          "value": "1,2,gx"
+        },
+        {
+          "key": "dzVerifyzszmcl",
+          "value": "bdcqz:不动产权证,fcz:房产证,fwzm:房屋证明,fwgmht:房屋购买合同"
+        },
+        {
+          "key": "sexValueWay_legal",
+          "value": "Y"
+        },
+        {
+          "key": "topFdoasSignConfig",
+          "value": "topicis:topicisoracle:Basic"
+        },
+        {
+          "key": "isOnlyLerRepBind",
+          "value": "N"
+        },
+        {
+          "key": "invOneCoSign",
+          "value": "Y"
+        },
+        {
+          "key": "openOpManyAddressEntTypes",
+          "value": "1,3,453,454,46,47,51,52,53,54,61,62,63,64,91,98,99"
+        },
+        {
+          "key": "noNameEntAlterNameFlag",
+          "value": "Y"
+        },
+        {
+          "key": "frequentOperations",
+          "value": null
+        },
+        {
+          "key": "gzqRemoveBgCombination",
+          "value": "03-010000-036,03-010000-043,03-010000-042"
+        },
+        {
+          "key": "expressFromAddress",
+          "value": "N"
+        },
+        {
+          "key": "CountryNameKey",
+          "value": "合作社联合社"
+        },
+        {
+          "key": "qmbNameCheckMode",
+          "value": "1"
+        },
+        {
+          "key": "isOneEleNumberToUser",
+          "value": "N"
+        },
+        {
+          "key": "pimControl",
+          "value": null
+        },
+        {
+          "key": "nameAutoAuditFlag",
+          "value": "Y"
+        },
+        {
+          "key": "initGroupRecordDateLimit",
+          "value": "Y"
+        },
+        {
+          "key": "bggxyjsNotCollectingDivision",
+          "value": "sw,ga,sb,gjj,yb"
+        },
+        {
+          "key": "contrastAddressAIModel",
+          "value": "02"
+        },
+        {
+          "key": "isFilterRegionSJ",
+          "value": "N"
+        },
+        {
+          "key": "yzdzNum",
+          "value": "50"
+        },
+        {
+          "key": "cnkiResultDealInd",
+          "value": "2"
+        },
+        {
+          "key": "cancelPubSystemPubDateSign",
+          "value": "N"
+        },
+        {
+          "key": "isDoEntRegCanDelay",
+          "value": "Y"
+        },
+        {
+          "key": "jzgsggContext3",
+          "value": "<p>本公司股东<span style=\"color: red\">{invName}</span>未按照公司章程规定的出资日期缴纳出资，公司已经催缴，宽限期届满后<span style=\"color: red\">{invName}</span>仍未缴纳出资，本公司经董事会决议以书面形式向<span style=\"color: red\">{invName}</span>发出失权通知，{invNameList}。现本公司决定减少注册资本，由<span style=\"color: red\">{altBeRegcap}</span>万元{altBeRegCapCurCn}减至<span style=\"color: red\">{altAfRegcap}</span>万元{altAfRegCapCurCn}，请公司债权人自本公告发布之日起四十五日内，与本公司联系，要求清偿债务或者提供相应担保。</p>"
+        },
+        {
+          "key": "showAgentChoose",
+          "value": "Y"
+        },
+        {
+          "key": "altRuleStrategy",
+          "value": "09"
+        },
+        {
+          "key": "supportBusinessContactView",
+          "value": "N"
+        },
+        {
+          "key": "wzRecordExistFor",
+          "value": "Y"
+        },
+        {
+          "key": "unified_white_list_x-frame-options",
+          "value": null
+        },
+        {
+          "key": "isOpenDigitalMap",
+          "value": "N"
+        },
+        {
+          "key": "cancelResultSign",
+          "value": "Y"
+        },
+        {
+          "key": "ssbtzFlag",
+          "value": "false"
+        },
+        {
+          "key": "cancelFaciPushAfterEspSign",
+          "value": "Y"
+        },
+        {
+          "key": "newDzyyzzAuthCode",
+          "value": "65e9d9f9b6b54fa3b4fe7990fa9cc14f"
+        },
+        {
+          "key": "basicPostcodeCheck",
+          "value": "N"
+        },
+        {
+          "key": "jzgsggEntType",
+          "value": "1100,1200,5100,5200,6100,6200"
+        },
+        {
+          "key": "benefitRemoveFlag",
+          "value": "N"
+        },
+        {
+          "key": "isShowFormItem",
+          "value": "N"
+        },
+        {
+          "key": "namekeyLength",
+          "value": "10"
+        },
+        {
+          "key": "nameAltOpenAllEnttype",
+          "value": "N"
+        },
+        {
+          "key": "newCompanyLaw",
+          "value": "Y"
+        },
+        {
+          "key": "saicPictureControlsVersion",
+          "value": "3050"
+        },
+        {
+          "key": "isLaTaxDefaultHandle",
+          "value": "N"
+        },
+        {
+          "key": "topFdoasEleLicCondSign",
+          "value": "N"
+        },
+        {
+          "key": "bgyzq_yclq_desc",
+          "value": "yyzz,gz,fp,ukey"
+        },
+        {
+          "key": "ECPSurl",
+          "value": "http://gx.gsxt.gov.cn/index.html"
+        },
+        {
+          "key": "noticeupdate",
+          "value": "N"
+        },
+        {
+          "key": "saicSupportCerType",
+          "value": "10,55,57,61,62"
+        },
+        {
+          "key": "cancelNewCompanyLawDate",
+          "value": "20240701000000"
+        },
+        {
+          "key": "isDoIfOverdue",
+          "value": "N"
+        },
+        {
+          "key": "normAddressJingzhunServiceId",
+          "value": "dzfwpt_jzdzcx"
+        },
+        {
+          "key": "individualChangeCompany",
+          "value": "0"
+        },
+        {
+          "key": "choosePreauditInPdf",
+          "value": "N"
+        },
+        {
+          "key": "showDetAddressTip",
+          "value": "请确认该地址是否属于本行政区划内，如果您申报错误，登记部门会责令及时办理迁移和变更登记。请慎重！"
+        },
+        {
+          "key": "topEocpsReceiveSign",
+          "value": "N"
+        },
+        {
+          "key": "topfs",
+          "value": "only"
+        },
+        {
+          "key": "jyzxOtherLimitFY",
+          "value": "Y"
+        },
+        {
+          "key": "isUseDeputyManager",
+          "value": "1"
+        },
+        {
+          "key": "yjsRegionCode",
+          "value": "450000"
+        },
+        {
+          "key": "gzqSpecialUseCombination",
+          "value": "03-010000-047,03-010000-048,03-010000-049,03-190000-017"
+        },
+        {
+          "key": "syncMc",
+          "value": "N"
+        },
+        {
+          "key": "qyTaxMandatory",
+          "value": "N"
+        },
+        {
+          "key": "notGrdzCreditorPubDay",
+          "value": "45"
+        },
+        {
+          "key": "isMcFreeTradeZoneConverSl",
+          "value": "Y"
+        },
+        {
+          "key": "limitSetUpEntHN",
+          "value": "Y"
+        },
+        {
+          "key": "homePageLoginButton",
+          "value": "Y"
+        },
+        {
+          "key": "NHExcelImportForName",
+          "value": "N"
+        },
+        {
+          "key": "noCheckMailSign",
+          "value": "N"
+        },
+        {
+          "key": "keepEndDate",
+          "value": "3"
+        },
+        {
+          "key": "bankAppointUrl",
+          "value": "N"
+        },
+        {
+          "key": "zhaoShang_appkey",
+          "value": null
+        },
+        {
+          "key": "prePackOrganShow",
+          "value": "Y"
+        },
+        {
+          "key": "onePerComCauSign",
+          "value": "2"
+        },
+        {
+          "key": "cancelAgentLiaisonsVerify",
+          "value": "Y"
+        },
+        {
+          "key": "OpDiscodeMustEqualMainDiscode",
+          "value": "N"
+        },
+        {
+          "key": "zbhfPubInfoMode",
+          "value": "0"
+        },
+        {
+          "key": "isComplexPwdRegular",
+          "value": "^(?![a-zA-Z]+$)(?![A-Z0-9]+$)(?![A-Z\\\\W_!@#$%^&*`~()-+=]+$)(?![a-z0-9]+$)(?![a-z\\\\W_!@#$%^&*`~()-+=]+$)(?![0-9\\\\W_!@#$%^&*`~()-+=]+$)[a-zA-Z0-9\\\\W_!@#$%^&*`~()-+=]{8,20}$"
+        },
+        {
+          "key": "juvenileInvGuardian",
+          "value": "N"
+        },
+        {
+          "key": "showThreeTel",
+          "value": "N"
+        },
+        {
+          "key": "cancelStepTips",
+          "value": "注销登记操作步骤提示：<br/>1.进入<a href=\"http://202.100.252.118/login.jspx\">国家企业信用信息公示系统（海南）</a>进行清算公告、债权人公告，债权人公告期为zqrggqx日；<br/>2.公告期满后在“海南e登记”申请注销登记；"
+        },
+        {
+          "key": "industryApply",
+          "value": "N"
+        },
+        {
+          "key": "isInvalidName",
+          "value": "N"
+        },
+        {
+          "key": "customsInterfaceVerifyGx",
+          "value": "Y"
+        },
+        {
+          "key": "checkBearDutyMode",
+          "value": "N"
+        },
+        {
+          "key": "checkMoneyByEntType",
+          "value": "2,4,91,92,12,52,62"
+        },
+        {
+          "key": "checkFreeze",
+          "value": "N"
+        },
+        {
+          "key": "xybaSocialKEY",
+          "value": null
+        },
+        {
+          "key": "managerCount",
+          "value": "5"
+        },
+        {
+          "key": "xyPhshModel",
+          "value": "00"
+        },
+        {
+          "key": "wsdzqRegOnly",
+          "value": "N"
+        },
+        {
+          "key": "synchronousUpdateMobtel",
+          "value": "Y"
+        },
+        {
+          "key": "nameAltPromiseLetterView",
+          "value": "Y"
+        },
+        {
+          "key": "checkInvAndLegalEntNumsGX",
+          "value": "N"
+        },
+        {
+          "key": "healthInsuranceDefault",
+          "value": null
+        },
+        {
+          "key": "showInvestorRealWay",
+          "value": "N"
+        },
+        {
+          "key": "isUseEntRepSignature",
+          "value": "1"
+        },
+        {
+          "key": "qmbshowRemarkReason",
+          "value": "N"
+        },
+        {
+          "key": "altOpmanyAddressPostCode",
+          "value": "7"
+        },
+        {
+          "key": "previewImageDays",
+          "value": "7"
+        },
+        {
+          "key": "freeTradeAreaNameCfg",
+          "value": "自贸,自由贸易,南宁,钦州,凭祥"
+        },
+        {
+          "key": "openBusinessRegMode",
+          "value": "Y"
+        },
+        {
+          "key": "isStandardAddress",
+          "value": "Y"
+        },
+        {
+          "key": "easyLogoutCnsMaxSigner",
+          "value": "6"
+        },
+        {
+          "key": "submitPrompt",
+          "value": "请认真查看全部申请材料，检查无误后再进行提交，你确认要继续提交吗？"
+        },
+        {
+          "key": "paramWhiteList",
+          "value": "content,If-None-Match"
+        },
+        {
+          "key": "numberEncryptPublicKey",
+          "value": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCCtpetpDjhSUCWiqJ1Np8ht5ayB0n3KeGLtcC4ELBmIigcSjPtV6fdykkyDNnN+fePdZz9tB75jw/DBjiR0rv+B1hFvofEdkikviTvvVAW/mShsqI39vBZ2+C9lZKb17hWsypOYgnhkondkkSsKi2Vz0vGGacSE9oDJz+Xcoc1zwIDAQAB"
+        },
+        {
+          "key": "noResCustAddrAlt",
+          "value": "N"
+        },
+        {
+          "key": "benefitPrivateKey",
+          "value": "33B5A9FCF1F1A666"
+        },
+        {
+          "key": "execRealNameLogic",
+          "value": "Y"
+        },
+        {
+          "key": "redRegCapCheckNoticeNew",
+          "value": "N"
+        },
+        {
+          "key": "parkEnterprisesSwitch",
+          "value": "N"
+        },
+        {
+          "key": "showFinancialEmail",
+          "value": "Y"
+        },
+        {
+          "key": "showAllAccType",
+          "value": "N"
+        },
+        {
+          "key": "isIDcardOneImg",
+          "value": "N"
+        },
+        {
+          "key": "sisNotice",
+          "value": "Y"
+        },
+        {
+          "key": "isHiddenRegMoney",
+          "value": "Y"
+        },
+        {
+          "key": "enableUploadMaterialMC",
+          "value": "Y"
+        },
+        {
+          "key": "lbsMapKey",
+          "value": "acd90b49b23caba2de31d3e6088631a1"
+        },
+        {
+          "key": "isForbiddenArea",
+          "value": "Y"
+        },
+        {
+          "key": "isSendhnzMailJob",
+          "value": "N"
+        },
+        {
+          "key": "showAllEntTypeButton",
+          "value": "Y"
+        },
+        {
+          "key": "hnLookupRateUrl",
+          "value": "http://www.safe.gov.cn/safe/rmbhlzjj/index.html"
+        },
+        {
+          "key": "easyCancelSWTipWay",
+          "value": "0"
+        },
+        {
+          "key": "industrySpecialLength",
+          "value": "20"
+        },
+        {
+          "key": "sendSealInfoWay",
+          "value": "1"
+        },
+        {
+          "key": "notNeedRealName",
+          "value": "4514"
+        },
+        {
+          "key": "newDzyyzzSdPassword",
+          "value": "hongdun123"
+        },
+        {
+          "key": "talkRegisterPicture",
+          "value": "rebot_nanning.png"
+        },
+        {
+          "key": "isEasyCancelInterface",
+          "value": "N"
+        },
+        {
+          "key": "normAddressJingzhunServiceValue",
+          "value": "dzfwpt_jzdzcx"
+        },
+        {
+          "key": "isShowMsgAndMail",
+          "value": "1"
+        },
+        {
+          "key": "hfBankSign",
+          "value": null
+        },
+        {
+          "key": "showSyncDelMc",
+          "value": "Y"
+        },
+        {
+          "key": "engravingHandleImgSwitch",
+          "value": "N"
+        },
+        {
+          "key": "isGxSengFlag",
+          "value": "Y"
+        },
+        {
+          "key": "companySignByNewLegal",
+          "value": "N"
+        },
+        {
+          "key": "isUpdateCopy",
+          "value": "all"
+        },
+        {
+          "key": "toOldHandle",
+          "value": "Y"
+        },
+        {
+          "key": "isLiaisionUpload",
+          "value": "Y"
+        },
+        {
+          "key": "name_jt_entType",
+          "value": "1100"
+        },
+        {
+          "key": "isOpenEncryptAndDecrypt",
+          "value": "N"
+        },
+        {
+          "key": "businessProfileFixTip",
+          "value": "{\"错误类型配置\":{\"empty\":\"未识别到__\",\"format\":\"__格式不正确\"},\"字段信息配置\":{\"staff\":{\"name\":\"预计人员数量\",\"example\":\"3人\"},\"term\":{\"name\":\"营业期限\",\"example\":\"10年/长期\"},\"phone\":{\"name\":\"联系电话\",\"example\":\"134****0465\"}},\"通用提示模板\":\"【错误类型提示】，请重新输入。<br/>例如：【字段例子】\"}"
+        },
+        {
+          "key": "uploadPDFSize",
+          "value": "1000"
+        },
+        {
+          "key": "TrsCkmContral",
+          "value": "N"
+        },
+        {
+          "key": "grdzCreditorPubDay",
+          "value": "60"
+        },
+        {
+          "key": "gzqStockEquityEstablishMode",
+          "value": "Y"
+        },
+        {
+          "key": "isCheckEasyReduceRegCapitalDate",
+          "value": "Y"
+        },
+        {
+          "key": "pushFileToEocpsByTopfs",
+          "value": "N"
+        },
+        {
+          "key": "busiAreaManualNew",
+          "value": null
+        },
+        {
+          "key": "apprTypeFlag",
+          "value": "2"
+        },
+        {
+          "key": "isUploadMore",
+          "value": "Y"
+        },
+        {
+          "key": "memPostMode",
+          "value": "1"
+        },
+        {
+          "key": "checkXyBlackLawSeri",
+          "value": "Y"
+        },
+        {
+          "key": "rvlpNoSow",
+          "value": "N"
+        },
+        {
+          "key": "realInvestDateAfterNowGF",
+          "value": "N"
+        },
+        {
+          "key": "imgCompressRatio",
+          "value": "0.7"
+        },
+        {
+          "key": "isHfSwAuthentication",
+          "value": "N"
+        },
+        {
+          "key": "detAddressRegExpression",
+          "value": null
+        },
+        {
+          "key": "appSsbOpenFlag",
+          "value": "Y"
+        },
+        {
+          "key": "clearTaxProveFlag",
+          "value": "Y"
+        },
+        {
+          "key": "altsaicRealnameGetPersonType",
+          "value": "0"
+        },
+        {
+          "key": "realInvestDateBeforeNow",
+          "value": "Y"
+        },
+        {
+          "key": "gtksblShowMode",
+          "value": null
+        },
+        {
+          "key": "mcbgNoticeOrgMode",
+          "value": "Y"
+        },
+        {
+          "key": "zjauthCerTypeList",
+          "value": "10,55,62"
+        },
+        {
+          "key": "gzqOldLegalCheckType",
+          "value": "C_2"
+        },
+        {
+          "key": "agentPrompts",
+          "value": "02,03,04,12"
+        },
+        {
+          "key": "zxhnztPushDeptTypes",
+          "value": null
+        },
+        {
+          "key": "EstateProveMaterialMultiple",
+          "value": "Y"
+        },
+        {
+          "key": "cancelZoneAddDepart",
+          "value": "02,04,05,06,07,08,11"
+        },
+        {
+          "key": "isShowAltShareTip",
+          "value": "Y"
+        },
+        {
+          "key": "gjgsgwurl",
+          "value": "http://www.gsxt.gov.cn/corp-query-homepage.html"
+        },
+        {
+          "key": "bankTip",
+          "value": null
+        },
+        {
+          "key": "bggxyjsBusiness",
+          "value": "0306,03"
+        },
+        {
+          "key": "overcapitalizationGT",
+          "value": "100000"
+        },
+        {
+          "key": "isIndustryName",
+          "value": "N"
+        },
+        {
+          "key": "illegalAccessLimit",
+          "value": "50"
+        },
+        {
+          "key": "nameAccreditCommonModeSign",
+          "value": "Y"
+        },
+        {
+          "key": "zxHztzsShowGDJLB",
+          "value": "N"
+        },
+        {
+          "key": "cancelNewspaperTime",
+          "value": "Y"
+        },
+        {
+          "key": "queryBusTypes",
+          "value": "2110,2610,7010,7040"
+        },
+        {
+          "key": "zhaoShang_appid",
+          "value": null
+        },
+        {
+          "key": "isAllProvinceFreeTradeArea",
+          "value": "N"
+        },
+        {
+          "key": "showRuleSupplement",
+          "value": "N"
+        },
+        {
+          "key": "nameRepeatLimitNum",
+          "value": "1000"
+        },
+        {
+          "key": "bhyjsSendTj",
+          "value": "N"
+        },
+        {
+          "key": "enableOverTimeAutoFail",
+          "value": "N"
+        },
+        {
+          "key": "unified_switch_host",
+          "value": "N"
+        },
+        {
+          "key": "checkRealCapital",
+          "value": "Y"
+        },
+        {
+          "key": "noNameElectronicDoc",
+          "value": "Y"
+        },
+        {
+          "key": "dealAboutQydjVerify",
+          "value": "Y"
+        },
+        {
+          "key": "isEocpsCustomsRecord",
+          "value": "Y"
+        },
+        {
+          "key": "anHouseTips",
+          "value": "N"
+        },
+        {
+          "key": "isShowPassDate",
+          "value": "Y"
+        },
+        {
+          "key": "enableCheckXyBlackLawSeri",
+          "value": "Y"
+        },
+        {
+          "key": "benefitSysPrivateKey",
+          "value": "33B5A9FCF1F1A666"
+        },
+        {
+          "key": "hnztappId",
+          "value": "7b9378ec90914f5aadb60de40bde135e"
+        },
+        {
+          "key": "swZxGeneralTipWay",
+          "value": "0"
+        },
+        {
+          "key": "checkHouseNumHB",
+          "value": "N"
+        },
+        {
+          "key": "isNamePre",
+          "value": "N"
+        },
+        {
+          "key": "hideInvesterRealInvestMoney",
+          "value": "N"
+        },
+        {
+          "key": "qaNameRecommend",
+          "value": "N"
+        },
+        {
+          "key": "custOpenZxFlag",
+          "value": "Y"
+        },
+        {
+          "key": "jyzxEntRevocationPermit",
+          "value": "N"
+        },
+        {
+          "key": "isShowSignFrame",
+          "value": "N"
+        },
+        {
+          "key": "managementHoldOffEnableDecimalPoint",
+          "value": "N"
+        },
+        {
+          "key": "liuzhouHouseSid",
+          "value": "ee1894a0226f6db829f7aba23e804cbe"
+        },
+        {
+          "key": "slShowMcGzh",
+          "value": "Y"
+        },
+        {
+          "key": "socialDefault",
+          "value": "2"
+        },
+        {
+          "key": "checkEntNameAndUniscidInvType",
+          "value": "03,04,05,06,10,11,12,13,14,15,30,31,32,33,34,40,41,42"
+        },
+        {
+          "key": "nameInvEighteenMode",
+          "value": "2"
+        },
+        {
+          "key": "topisDeepseekMode",
+          "value": "1"
+        },
+        {
+          "key": "gsHcpPublicKey",
+          "value": "04a0b74a28742cd231ec32c4f400299049c2b8901d3e5a819b7cacbe407074b4c137b983fa4e91da68052136bbc66aec821cd6c32ced7b170666c9f1bc07a9164e"
+        },
+        {
+          "key": "qmbCheckNameBannedPattern",
+          "value": "(企业名称|字号)[中]?(包含|含有|包涵|蕴含|携带|附带|含括|含着|带着|存在|带有|有|含|带)([^字]+)([字]?)"
+        },
+        {
+          "key": "parentNameBannLimit",
+          "value": "Y"
+        },
+        {
+          "key": "isAppBoardHead",
+          "value": "Y"
+        },
+        {
+          "key": "showOffcieTab",
+          "value": "Y"
+        },
+        {
+          "key": "isShowFootGzs",
+          "value": "Y"
+        },
+        {
+          "key": "zxPhone",
+          "value": "0371-123456"
+        },
+        {
+          "key": "easyCancelAccsendMss",
+          "value": null
+        },
+        {
+          "key": "industryzjsign",
+          "value": "2"
+        },
+        {
+          "key": "saicResendTimeLimit",
+          "value": "3"
+        },
+        {
+          "key": "showStreet",
+          "value": "Y"
+        },
+        {
+          "key": "intermediaryLimitProvince",
+          "value": "Y"
+        },
+        {
+          "key": "mergeTimitLimit",
+          "value": "DS12,DS13,DS02,DS03,JS02,JS03"
+        },
+        {
+          "key": "provinceAndCityName",
+          "value": "GX"
+        },
+        {
+          "key": "newDzyyzzSysCode",
+          "value": "SAIC_BIZ_10664G0000253056"
+        },
+        {
+          "key": "registerBusWayFlag",
+          "value": "1"
+        },
+        {
+          "key": "DSTimeLimitThreeYear",
+          "value": "N"
+        },
+        {
+          "key": "memPostGsMode",
+          "value": "1"
+        },
+        {
+          "key": "showDomList",
+          "value": "N"
+        },
+        {
+          "key": "isShowZLBusiness",
+          "value": null
+        },
+        {
+          "key": "normAddressServiceId",
+          "value": "dzfwpt_mhjs01"
+        },
+        {
+          "key": "isShowOrganName",
+          "value": "N"
+        },
+        {
+          "key": "jzgsggIsAlter",
+          "value": "Y"
+        },
+        {
+          "key": "indChaEntLimitDate",
+          "value": null
+        },
+        {
+          "key": "filterIndustryKeyWords",
+          "value": null
+        },
+        {
+          "key": "zzhmNameKeepTime",
+          "value": "60"
+        },
+        {
+          "key": "afterJzMessage",
+          "value": "<br/>您可登陆国家企业信用信息公示系统办理“减资公告”且公示期满以后方可办理该业务。<br/>点击国家企业信用信息公示系统跳转新页面，跳转地址：<a href=\"javascript:void(window.open('http://www.gsxt.gov.cn/corp-query-homepage.html'))\">http://www.gsxt.gov.cn/corp-query-homepage.html</a>"
+        },
+        {
+          "key": "specialCityQinzhou",
+          "value": "4507"
+        },
+        {
+          "key": "sendMsgOrgContent",
+          "value": "Y"
+        },
+        {
+          "key": "enableNameReform2023",
+          "value": "Y"
+        },
+        {
+          "key": "normAddressAppid",
+          "value": "7B0B7FB354220F3B"
+        },
+        {
+          "key": "registerAuditMode",
+          "value": "1"
+        },
+        {
+          "key": "isComplexPwd",
+          "value": "N"
+        },
+        {
+          "key": "creditJumpToUrl",
+          "value": "http://jrb.nanning.gov.cn/"
+        },
+        {
+          "key": "normAddressAppsecre",
+          "value": "B728C1E07B0B7FB354220F3B9AE10E27"
+        },
+        {
+          "key": "messageTitle",
+          "value": null
+        },
+        {
+          "key": "newDzyyzzInitType",
+          "value": "6"
+        },
+        {
+          "key": "qmbRecommendNum",
+          "value": "5"
+        },
+        {
+          "key": "onlySPYBZBA",
+          "value": "Y"
+        },
+        {
+          "key": "bmShowAgentSign",
+          "value": "Y"
+        },
+        {
+          "key": "busiDateEndModel",
+          "value": "0"
+        },
+        {
+          "key": "seniorJlPostFirstBg",
+          "value": "ZJL02"
+        },
+        {
+          "key": "canChangeEnttype1110",
+          "value": "N"
+        },
+        {
+          "key": "altClassifyInvestFlag",
+          "value": "Y"
+        },
+        {
+          "key": "gsDutyPaidCheck",
+          "value": "N"
+        },
+        {
+          "key": "pdfDescShow",
+          "value": "（本文档与其他申请文档作为一个整体，由相关人员集中签字）"
+        },
+        {
+          "key": "numberDecryptPrivateKey",
+          "value": "MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBAIK2l62kOOFJQJaKonU2nyG3lrIHSfcp4Yu1wLgQsGYiKBxKM+1Xp93KSTIM2c359491nP20HvmPD8MGOJHSu/4HWEW+h8R2SKS+JO+9UBb+ZKGyojf28Fnb4L2VkpvXuFazKk5iCeGSid2SRKwqLZXPS8YZpxIT2gMnP5dyhzXPAgMBAAECgYBHA5ZSIxc35gkuAHGUhrFbqxc271jS7DD6KythlMeRJVtvSyz89BNiHqU3iN3H1tcVXIuHFhWB9aRViwquxrOU1OIxagkkCXGd+qZuaeENjqvBbr/uooCf2ZaQdFxb44VG5cXk5uTcBC5ZNQWNeEhaXxD6r+aCBA4My7UUiLTHmQJBAP0zUcbbTvW1sDKAZR+fTkw+fC9kxqDHHLpdSd+/SB3pv/83klF5c4Bwo9PSF59YZFG04SiLDXEhFGgWneUbRa0CQQCEKJMaJU7aDlyEpq8CcNGOU4AU20KvSVbxBWk0ybKmKad76SrFSzSM5rECTvx3wHW4fp2NnOC/DO85FshJv0DrAkAp4E37HJRfkPAWOiP/aeKSO5dgY0NyndvDeuBX8BPmVp2ZgUBi1zpiGL8PrmSXxw+4b7j5cp4DgtwUJwFwPeV1AkASMoQO1ZRF8jRLD6iJbX9tWZIJTSeheze9eEFEQ4GV36ZwKWr6P6C8xgcZika5Nob/IHART8iiheVqtvhdLziBAkARTH7aaEEOyynDFObpcj+z2Z7jmxUd/d0eOd/kIMJCYoK7zrosf/Wrt3/c+tvxFL/K3AJUXvYTtworqKCEnofF"
+        },
+        {
+          "key": "showCancelSettle",
+          "value": "1"
+        },
+        {
+          "key": "classifyInvestFlag",
+          "value": "Y"
+        },
+        {
+          "key": "busiAreaStandSign",
+          "value": "Y"
+        },
+        {
+          "key": "is_easyCancelWsdq",
+          "value": "Y"
+        },
+        {
+          "key": "cumulativeDuration",
+          "value": "{year}年{day}天"
+        },
+        {
+          "key": "isNotNeedInvOfDel",
+          "value": "Y"
+        },
+        {
+          "key": "provinceRegCode",
+          "value": "230000"
+        },
+        {
+          "key": "detailInfoPassKey",
+          "value": "topnet"
+        },
+        {
+          "key": "smsConfig",
+          "value": "appCode=07;appName=ICPSP;businessCode=07;businessName=ICPSP"
+        },
+        {
+          "key": "ZLBusinessUrlApp",
+          "value": "https://m.jyfwyun.com/#/pages/search/search"
+        },
+        {
+          "key": "TopIIMSAppCode",
+          "value": "0001"
+        },
+        {
+          "key": "ownershipCertificate",
+          "value": "房屋或土地管理部门的证明,房屋购买合同、土地使用受让合同,所在地政府、街道办、管委会出具的证明,其他"
+        },
+        {
+          "key": "aesKey",
+          "value": "topneticpsp12345"
+        },
+        {
+          "key": "yjsPdfOrgName",
+          "value": null
+        },
+        {
+          "key": "verifiScopeWordsRelatedFinance",
+          "value": "2"
+        },
+        {
+          "key": "promptInvEntType",
+          "value": "12,52,62"
+        },
+        {
+          "key": "projectsign",
+          "value": "01"
+        },
+        {
+          "key": "veriCodeValidityConfig",
+          "value": "10"
+        },
+        {
+          "key": "isShowSwNsywgzs",
+          "value": "N"
+        },
+        {
+          "key": "isCancelTips",
+          "value": "N"
+        },
+        {
+          "key": "isShowlicenseCancelStatementTips",
+          "value": "N"
+        },
+        {
+          "key": "manualAudit",
+          "value": "Y"
+        },
+        {
+          "key": "loginIsComplexPwdType",
+          "value": null
+        },
+        {
+          "key": "autonomyNameModel",
+          "value": "1"
+        },
+        {
+          "key": "legalPersonShowNotMustGT",
+          "value": "Y"
+        },
+        {
+          "key": "CollectElectricJumpToUrl",
+          "value": "https://95598.csg.cn/#/gx/business/powerApply/alLowPower"
+        },
+        {
+          "key": "NegetiveControlWay",
+          "value": "2"
+        },
+        {
+          "key": "isShowManagerNH",
+          "value": "Y"
+        },
+        {
+          "key": "registerBasicMode",
+          "value": "1"
+        },
+        {
+          "key": "entDomicileCityFlag",
+          "value": "guangxi"
+        },
+        {
+          "key": "isUploadZMAndFM",
+          "value": "10,55"
+        },
+        {
+          "key": "isShowMailSy",
+          "value": "N"
+        },
+        {
+          "key": "isGuiyangStart",
+          "value": "N"
+        },
+        {
+          "key": "cerNoWarmGrade",
+          "value": "0"
+        },
+        {
+          "key": "nameCountryInvSizeLimit",
+          "value": "Y"
+        },
+        {
+          "key": "isMustOffical",
+          "value": "N"
+        },
+        {
+          "key": "complexWordWhiteList",
+          "value": "焗-張-趙-犇-璟-汾-羴-璘-垚-玥-昇-喆-锡-疍-焜-燊-珮-燚-曌-禤-玶-珺-琯-溸-崟-翚-媄-旻-埌-皕-嘢-珣-穇-朸-沄-翓-锜-瑧-秾-洺-缪-盉-堃-翷-杋-僡-珅-镕-祐-旸-赟-贇-哈-啰-孖-淏-媞-䘵-鋆-珽-祎-濛-瑂-橦-𬇕"
+        },
+        {
+          "key": "gasNoHandleDistCode",
+          "value": "451422,451425,451424,451481"
+        },
+        {
+          "key": "qmbRecommendCount",
+          "value": "50"
+        },
+        {
+          "key": "deptPreChecks",
+          "value": "05"
+        },
+        {
+          "key": "easyCancelNoticeDaySFQ",
+          "value": "20"
+        },
+        {
+          "key": "ruleStrategy",
+          "value": "09"
+        },
+        {
+          "key": "enableMatterCodeFilter",
+          "value": "N"
+        },
+        {
+          "key": "isShowThemeBusiterm",
+          "value": "Y"
+        },
+        {
+          "key": "businessCrossCheckTip",
+          "value": "N"
+        },
+        {
+          "key": "nameExtensionTimesForNameDelay",
+          "value": "3"
+        },
+        {
+          "key": "isQylxfs",
+          "value": "N"
+        },
+        {
+          "key": "isLimitHandleByStreet",
+          "value": "N"
+        },
+        {
+          "key": "showLogoutButton",
+          "value": "Y"
+        },
+        {
+          "key": "enableSmallEyesView",
+          "value": "N"
+        },
+        {
+          "key": "applicationTemplate",
+          "value": "N"
+        },
+        {
+          "key": "equityFreezeCheck",
+          "value": "N"
+        },
+        {
+          "key": "isRegOrgFreeSeal",
+          "value": "N"
+        },
+        {
+          "key": "onepersonByPreAndBustypes",
+          "value": null
+        },
+        {
+          "key": "showBusitermCodeDetail",
+          "value": "Y"
+        },
+        {
+          "key": "useAllName",
+          "value": "N"
+        },
+        {
+          "key": "homePageButton",
+          "value": "Y"
+        },
+        {
+          "key": "pushOneThingWithoutEnt",
+          "value": "N"
+        },
+        {
+          "key": "isPushHBFLToGSXT",
+          "value": "N"
+        },
+        {
+          "key": "speDetailinfoBadRecordsCheck",
+          "value": "03"
+        },
+        {
+          "key": "registerZqFlag",
+          "value": "1"
+        },
+        {
+          "key": "bggxyjsYbMatter",
+          "value": "all"
+        },
+        {
+          "key": "setUpGTEntNumsToManHN",
+          "value": "Y"
+        },
+        {
+          "key": "isNoUserNameRegister",
+          "value": "N"
+        },
+        {
+          "key": "ccFiveSituationRrecord",
+          "value": "1-1-1-1-1"
+        },
+        {
+          "key": "isSendMsgToInv",
+          "value": "N"
+        },
+        {
+          "key": "intermediaryHandleOrgType",
+          "value": "0"
+        },
+        {
+          "key": "streetCodeUseAllName",
+          "value": "N"
+        },
+        {
+          "key": "merge_notice",
+          "value": "45"
+        },
+        {
+          "key": "isShowJszxNumber",
+          "value": "N"
+        },
+        {
+          "key": "serTypeInput",
+          "value": "104,206"
+        },
+        {
+          "key": "isCheckInvestorTaxGx",
+          "value": "Y"
+        },
+        {
+          "key": "enableSaicRealname",
+          "value": "Y"
+        },
+        {
+          "key": "phoneLoginFlag",
+          "value": "Y"
+        },
+        {
+          "key": "invLockNameSign",
+          "value": "N"
+        },
+        {
+          "key": "notNeedRealNameBusType",
+          "value": "02,03,04,12,55,56"
+        },
+        {
+          "key": "countryMemberRatio",
+          "value": "80"
+        },
+        {
+          "key": "gasNoHandleTipsDistCode",
+          "value": "451422,451425,451424,451481"
+        },
+        {
+          "key": "financialVerifyMode",
+          "value": "1"
+        },
+        {
+          "key": "investorChangeItemMerge",
+          "value": "Y"
+        },
+        {
+          "key": "bggxyjsGaKzMatter",
+          "value": "all"
+        },
+        {
+          "key": "isWriteBenefitUsersRecord",
+          "value": "N"
+        },
+        {
+          "key": "cancelAccountTeamRealNameType",
+          "value": "1"
+        },
+        {
+          "key": "normAddressUrl",
+          "value": "http://222.84.136.242/ywxzservice/dbClient.do"
+        },
+        {
+          "key": "showSealContentType",
+          "value": null
+        },
+        {
+          "key": "showZfKzFlag",
+          "value": "Y"
+        },
+        {
+          "key": "hnPunish",
+          "value": "0"
+        },
+        {
+          "key": "leRepIsResidentNetBusi",
+          "value": "N"
+        },
+        {
+          "key": "bggxyjsGjjMatter",
+          "value": "all"
+        },
+        {
+          "key": "isStockCompanyInvSign",
+          "value": "Y"
+        },
+        {
+          "key": "yyjXzTime",
+          "value": "15"
+        },
+        {
+          "key": "isShowOcr",
+          "value": "N"
+        },
+        {
+          "key": "isBusinessModeGTLimit",
+          "value": "N"
+        },
+        {
+          "key": "naturalFlagInvType",
+          "value": "20,21,22,35,36,01,02"
+        },
+        {
+          "key": "sendMsgToBankStr",
+          "value": "您好！贵公司已通过工商注册审批，请尽快前往预开户网点完善开户手续，银行账号：yhzh，网点：yhwd，联系人：lxr，lxdh。"
+        },
+        {
+          "key": "isUseEntRepSignatureZbhf",
+          "value": "1"
+        },
+        {
+          "key": "normAddressAespswd",
+          "value": "B728C1E07B0B7FB354220F3B9AE10E27"
+        },
+        {
+          "key": "serTypeContract",
+          "value": "301,302"
+        },
+        {
+          "key": "ssoBindEntErrTips",
+          "value": "当前法人用户的法定代表人信息与市监局数据不一致，无法登录。请联系政务网更新用户法定代表人信息后再操作！"
+        },
+        {
+          "key": "noCheckBannParentName",
+          "value": "N"
+        },
+        {
+          "key": "isSyncer",
+          "value": "Y"
+        },
+        {
+          "key": "liuzhouResideceCheckSwitch",
+          "value": "Y"
+        },
+        {
+          "key": "cancelDateComparison",
+          "value": "Y"
+        },
+        {
+          "key": "TrsCkmPsw",
+          "value": "123123"
+        },
+        {
+          "key": "cutRatio",
+          "value": "0.5"
+        },
+        {
+          "key": "jyzxcnsSupportSignCerType",
+          "value": "10,55,62"
+        },
+        {
+          "key": "prePackFoodOpAddrCheck",
+          "value": "0"
+        },
+        {
+          "key": "personCheckType",
+          "value": "2"
+        },
+        {
+          "key": "swZxSimpleTipWay",
+          "value": "0"
+        },
+        {
+          "key": "prePackShowNoHandle",
+          "value": "1"
+        },
+        {
+          "key": "noCheckBusinessArea",
+          "value": "除酒类经营|"
+        },
+        {
+          "key": "isRegOrgRandomSealComCompany",
+          "value": "N"
+        },
+        {
+          "key": "domicileendtime",
+          "value": "N"
+        },
+        {
+          "key": "nameComposeType",
+          "value": "N"
+        },
+        {
+          "key": "isEasyCancelTopEcps",
+          "value": "N"
+        },
+        {
+          "key": "jiansheSocketAreaNo",
+          "value": "0551"
+        },
+        {
+          "key": "bankNumLimit",
+          "value": "1"
+        },
+        {
+          "key": "bannedOneWordInNameMark",
+          "value": "Y"
+        },
+        {
+          "key": "bggxyjsSwMatter",
+          "value": "all"
+        },
+        {
+          "key": "isAuthBank",
+          "value": "N"
+        },
+        {
+          "key": "forPartnerMultiLeRepSign",
+          "value": "Y"
+        },
+        {
+          "key": "pushFileToFdoasByTopfs",
+          "value": "N"
+        },
+        {
+          "key": "authWay",
+          "value": "01"
+        },
+        {
+          "key": "namePreposeVerifySignature",
+          "value": "N"
+        },
+        {
+          "key": "isCheckPersonForAddressHN",
+          "value": "Y"
+        },
+        {
+          "key": "haikouEnv",
+          "value": "false"
+        },
+        {
+          "key": "benefitRegRemoveEntType",
+          "value": "2,3,41,42,43,44,4540,456,46,47,53,6140,63,8,9"
+        },
+        {
+          "key": "usdToRmbRatio",
+          "value": "7"
+        },
+        {
+          "key": "suppRealNamePosition",
+          "value": "Y"
+        },
+        {
+          "key": "agentLimitSign",
+          "value": "Y"
+        },
+        {
+          "key": "EstateProveMaterialUpload",
+          "value": "Y"
+        },
+        {
+          "key": "isWaterJumpDistcode",
+          "value": "451423,451424,451481,451425,451422,451421"
+        },
+        {
+          "key": "isTaxCancelByinterface",
+          "value": "N"
+        },
+        {
+          "key": "wisdomConsultUrl",
+          "value": "http://XXXXX"
+        },
+        {
+          "key": "nameExtensionDelayDaysForNameDelay",
+          "value": "15"
+        },
+        {
+          "key": "numberOfDecimal",
+          "value": "4"
+        },
+        {
+          "key": "selfNameCNSAndSQ",
+          "value": "Y"
+        },
+        {
+          "key": "commonCityFlag",
+          "value": "hainan"
+        },
+        {
+          "key": "cancelFacilitationTips",
+          "value": "注销便利化操作步骤提示：<br/>1.进入<a href=\"http://202.100.252.118/login.jspx\">国家企业信用信息公示系统（海南）</a>或者本系统进行简易注销公告或者清算公告、债权人公告，简易注销公告期限为jyzxcqqx天、债权人公告期限为zqrggqx天；<br/>2.简易注销公告期满jyzxcqqx日内可申请简易注销登记、债权人公告结束后可申请注销登记；"
+        },
+        {
+          "key": "isOpenOneThing",
+          "value": "N"
+        },
+        {
+          "key": "isTaxDefaultPopup",
+          "value": "N"
+        },
+        {
+          "key": "ocrServerURL",
+          "value": "http://192.168.3.29:8000"
+        },
+        {
+          "key": "leRepIsResidentName",
+          "value": "0"
+        },
+        {
+          "key": "liuzhouNormAddArea",
+          "value": "4502"
+        },
+        {
+          "key": "RegisteredCapitalReadonly",
+          "value": "Y"
+        },
+        {
+          "key": "isOutRegisterAndCancel",
+          "value": "Y"
+        },
+        {
+          "key": "topfsFlag",
+          "value": "Y"
+        },
+        {
+          "key": "NegativeListFlag",
+          "value": "Y"
+        },
+        {
+          "key": "isShowLegalLocalSign",
+          "value": "N"
+        },
+        {
+          "key": "authtype",
+          "value": "3"
+        },
+        {
+          "key": "isSendMsgToBank",
+          "value": "N"
+        },
+        {
+          "key": "isShowNoNeedName",
+          "value": "Y"
+        },
+        {
+          "key": "isPersonSaveWarningPrompt",
+          "value": "Y"
+        },
+        {
+          "key": "mailserverport",
+          "value": "25"
+        },
+        {
+          "key": "preApprovalZZ",
+          "value": "N"
+        },
+        {
+          "key": "showAddressInExpressInfo",
+          "value": "N"
+        },
+        {
+          "key": "isSupportShortIDCard",
+          "value": "Y"
+        },
+        {
+          "key": "isYzdzByCityCode",
+          "value": "N"
+        },
+        {
+          "key": "topIcisNwUserName",
+          "value": "HAIN460000"
+        },
+        {
+          "key": "guangxiZimaoFangchanCheckModel",
+          "value": "3"
+        },
+        {
+          "key": "benefitAppClientId",
+          "value": "450000"
+        },
+        {
+          "key": "deptPreChecksFlag",
+          "value": "01"
+        },
+        {
+          "key": "isAutoAllocation",
+          "value": "N"
+        },
+        {
+          "key": "isHnName",
+          "value": "N"
+        },
+        {
+          "key": "yunBangBanRegOrgShow",
+          "value": "all"
+        },
+        {
+          "key": "registerProgressMode",
+          "value": "3"
+        },
+        {
+          "key": "toRemoveRulePdf",
+          "value": "N"
+        },
+        {
+          "key": "setDataType",
+          "value": "yyyy年M月d日"
+        },
+        {
+          "key": "checkNameInvSixteen",
+          "value": "9600,4540"
+        },
+        {
+          "key": "newDzyyzzSecType",
+          "value": "6"
+        },
+        {
+          "key": "isSelectAddress",
+          "value": "3"
+        },
+        {
+          "key": "isAutoApproval",
+          "value": "12"
+        },
+        {
+          "key": "isOpenRealNameCheckForSocial",
+          "value": "N"
+        },
+        {
+          "key": "needApplyAuth",
+          "value": null
+        },
+        {
+          "key": "homePageRegisterButton",
+          "value": "Y"
+        },
+        {
+          "key": "isEnableRecyclingMethod",
+          "value": "Y"
+        },
+        {
+          "key": "ruleModelConf",
+          "value": "Y"
+        },
+        {
+          "key": "isGasJumpDistcode",
+          "value": "451421,451423,451481,451425"
+        },
+        {
+          "key": "simpleCancelCnsUpload",
+          "value": "N"
+        },
+        {
+          "key": "jzgsggXZDays",
+          "value": "45"
+        },
+        {
+          "key": "topmeisEasyObjectionInterface",
+          "value": "Y"
+        },
+        {
+          "key": "noCentAddrAlt",
+          "value": "N"
+        },
+        {
+          "key": "agentLiaisonsCheckPost",
+          "value": "liaisan,finance,manager,executivePartner,legal,invest"
+        },
+        {
+          "key": "isZsNatureQz",
+          "value": "N"
+        },
+        {
+          "key": "vcmailsubject",
+          "value": "请及时进行核验"
+        },
+        {
+          "key": "isDeptPreByInterface",
+          "value": "N"
+        },
+        {
+          "key": "agencyNewFlow",
+          "value": "N"
+        },
+        {
+          "key": "qydjShowOrgType",
+          "value": "3"
+        },
+        {
+          "key": "isSourceFlag",
+          "value": "N"
+        },
+        {
+          "key": "personCheckChange",
+          "value": "N"
+        },
+        {
+          "key": "hztzsShowGDJLB",
+          "value": "N"
+        },
+        {
+          "key": "tradeLicenseMail",
+          "value": "N"
+        },
+        {
+          "key": "realNameSupportCerTypes",
+          "value": "PC1|10;PC2|10;PC3|10;PC4|10;PC5|10;PC6|10;PC7|10,55,62;PC8|10;PC9|10;PC10|10;PC11|10;PC12|10;PC13|10;PC14|10;PC20|10,55,57,61,62;APP1|10;APP2|10;APP3|10;APP4|10;APP5|10,55,61,62;APP20|10,55,57,61,62"
+        },
+        {
+          "key": "noCheckFields",
+          "value": "经营者姓名,电话,经营场所,详细住所,名称,清算组备案通知书文号,电子邮箱"
+        },
+        {
+          "key": "checkBusiareaSign",
+          "value": "N"
+        },
+        {
+          "key": "isDockingTaxFlag",
+          "value": null
+        },
+        {
+          "key": "zsOcrVerificationMode",
+          "value": "04"
+        },
+        {
+          "key": "directorRuleUpload",
+          "value": "N"
+        },
+        {
+          "key": "registerUploadFlag",
+          "value": "1"
+        },
+        {
+          "key": "healthDefault",
+          "value": "2"
+        },
+        {
+          "key": "corporatePortrait",
+          "value": "Y"
+        },
+        {
+          "key": "exePartnerExpediteOrgLegalSign",
+          "value": "Y"
+        },
+        {
+          "key": "enableDistCodeBelow",
+          "value": "N"
+        },
+        {
+          "key": "memPoolMode",
+          "value": "1"
+        },
+        {
+          "key": "businessQuantityThreshold",
+          "value": "3"
+        },
+        {
+          "key": "topIcisUrl",
+          "value": "http://10.240.255.21:19081/TopICIS_ES"
+        },
+        {
+          "key": "illegalAccessRecordTime",
+          "value": "10"
+        },
+        {
+          "key": "entpriseTypeSelect",
+          "value": "Y"
+        },
+        {
+          "key": "benefitBusinessNumCheck",
+          "value": "N"
+        },
+        {
+          "key": "nameLockFlag",
+          "value": "N"
+        },
+        {
+          "key": "topIcisNwPassWord",
+          "value": "topicis123"
+        },
+        {
+          "key": "socialSecurityDefault",
+          "value": "0"
+        },
+        {
+          "key": "isNewParentEntInSupplement",
+          "value": "Y"
+        },
+        {
+          "key": "isShowIndustryRecommend",
+          "value": "Y"
+        },
+        {
+          "key": "areaCodeNotWords",
+          "value": "N"
+        },
+        {
+          "key": "visitLimitIpSwitch",
+          "value": "N"
+        },
+        {
+          "key": "freeTradeAreaOrgans",
+          "value": "450100,450111,450112,450128,450700,450704,450762800,451400,451481,451408,450108"
+        },
+        {
+          "key": "qzAddressWhiteSelectSwitch",
+          "value": "N"
+        },
+        {
+          "key": "isRuleResolutionRelate",
+          "value": "Y"
+        },
+        {
+          "key": "businessLicence_Model",
+          "value": "1"
+        },
+        {
+          "key": "isShowSendPdf",
+          "value": "N"
+        },
+        {
+          "key": "showBreadcrumb",
+          "value": "N"
+        },
+        {
+          "key": "isShowMcHandleProgress",
+          "value": "Y"
+        },
+        {
+          "key": "isShowContributeTime",
+          "value": "Y"
+        },
+        {
+          "key": "bgjzdbCnz",
+          "value": "Y"
+        },
+        {
+          "key": "gatRestrictionGzq",
+          "value": "N"
+        },
+        {
+          "key": "nameExtensionQzspDelayDaysForNameDelay",
+          "value": "60"
+        },
+        {
+          "key": "hasAgent",
+          "value": "Y"
+        },
+        {
+          "key": "printNameDatum",
+          "value": "1"
+        },
+        {
+          "key": "addressSign",
+          "value": "N"
+        },
+        {
+          "key": "bankOpenZxFlag",
+          "value": null
+        },
+        {
+          "key": "showDemoFunction",
+          "value": "N"
+        },
+        {
+          "key": "normAddressShequServiceValue",
+          "value": "dzfwpt_sqjcwcx"
+        },
+        {
+          "key": "closureV2",
+          "value": "N"
+        },
+        {
+          "key": "yshSuccessNotModify",
+          "value": "N"
+        },
+        {
+          "key": "homePageCenterButton",
+          "value": "Y"
+        },
+        {
+          "key": "idcardReuseDay",
+          "value": "180"
+        },
+        {
+          "key": "promptOtherInvFlag",
+          "value": "1"
+        },
+        {
+          "key": "isSendYyzz",
+          "value": null
+        },
+        {
+          "key": "matePermitLicenseWay",
+          "value": "2"
+        },
+        {
+          "key": "isNotNeedSupervisorOfOld",
+          "value": "410A,410B,410C,431A,431B,434Q,434R,436A,432A,432K,490A,491A,491B,408A,9999,493C,408B,CWFZR"
+        },
+        {
+          "key": "canMmdjRegionCode",
+          "value": "4501"
+        },
+        {
+          "key": "pdfTipInfoMode",
+          "value": "1"
+        },
+        {
+          "key": "ZLAuthCode",
+          "value": "64f1066fb4"
+        },
+        {
+          "key": "isAutoApprovalBH",
+          "value": "Y"
+        },
+        {
+          "key": "saicLimitDayTipFlag",
+          "value": "N"
+        },
+        {
+          "key": "isChiefUpload",
+          "value": "Y"
+        },
+        {
+          "key": "checkInvestorTaxGuangxi",
+          "value": "Y"
+        },
+        {
+          "key": "isEnableMap",
+          "value": "N"
+        },
+        {
+          "key": "diffRegionRegSign",
+          "value": "N"
+        },
+        {
+          "key": "specifyParkWindow",
+          "value": null
+        },
+        {
+          "key": "registerOpmanyAddressPostCode",
+          "value": "7"
+        },
+        {
+          "key": "ybbSelectRegionLimit",
+          "value": "4514"
+        },
+        {
+          "key": "filterStreetFlag",
+          "value": "Y"
+        },
+        {
+          "key": "guideWzEnttypesConfig",
+          "value": "5,6,7"
+        },
+        {
+          "key": "smsContentConfig",
+          "value": "企业注册登记全程网上办事系统温馨提示，您本次验证码是dtmm，该验证码将于5分钟后失效。\n"
+        },
+        {
+          "key": "nameAltPromiseLetterDialog",
+          "value": "Y"
+        },
+        {
+          "key": "agentSetUpEntNums",
+          "value": "100"
+        },
+        {
+          "key": "yjsStreetRegionConfig",
+          "value": "fspscjyzzcba,wdsdbg"
+        },
+        {
+          "key": "moneyKindChangeDotConfig",
+          "value": "1"
+        },
+        {
+          "key": "gfToYxNeedOldInvSign",
+          "value": "N"
+        },
+        {
+          "key": "ordinaryBgTurnOneThingBg",
+          "value": "N"
+        },
+        {
+          "key": "getBusinessLicenceWayBg",
+          "value": "0,1"
+        },
+        {
+          "key": "pushSyCheckPdfConfig",
+          "value": "Y"
+        },
+        {
+          "key": "capReductionOffine",
+          "value": "N"
+        },
+        {
+          "key": "isFileFarmerMemberHkb",
+          "value": "N"
+        },
+        {
+          "key": "yunFlowTypeLimit",
+          "value": "N"
+        },
+        {
+          "key": "hasReductinNotice",
+          "value": "Y"
+        },
+        {
+          "key": "gzqAnyTime",
+          "value": "Y"
+        },
+        {
+          "key": "NhMustSetDsh",
+          "value": "N"
+        },
+        {
+          "key": "noHyNameTipWay",
+          "value": "0"
+        },
+        {
+          "key": "SaicRealnameSwitch",
+          "value": "Y"
+        },
+        {
+          "key": "isAdjustStagesAndDetails",
+          "value": "N"
+        },
+        {
+          "key": "isShowLicenseAdd",
+          "value": "Y"
+        },
+        {
+          "key": "wzInvCheckPerson",
+          "value": "Y"
+        },
+        {
+          "key": "MemTypeSign",
+          "value": "03"
+        },
+        {
+          "key": "isShowAccountType",
+          "value": "Y"
+        },
+        {
+          "key": "sqsByBank",
+          "value": "N"
+        },
+        {
+          "key": "setUpEntNum",
+          "value": "99"
+        },
+        {
+          "key": "isCancelQsLic",
+          "value": "Y"
+        },
+        {
+          "key": "isPreInspectionModel",
+          "value": "02"
+        },
+        {
+          "key": "TrsCkmUser",
+          "value": "henanceshi"
+        },
+        {
+          "key": "intermediaryOrgan",
+          "value": null
+        },
+        {
+          "key": "entEstDays",
+          "value": "90"
+        },
+        {
+          "key": "codeLeaf",
+          "value": "N"
+        },
+        {
+          "key": "qykbPhshModel",
+          "value": "07"
+        },
+        {
+          "key": "residenceHouseType",
+          "value": "3"
+        },
+        {
+          "key": "benefitRegLimitType",
+          "value": "11,12,453,51,52,54,61,62,64,71,73"
+        },
+        {
+          "key": "bankLimit",
+          "value": "N"
+        },
+        {
+          "key": "postcodeSDR",
+          "value": "51,52,53,54,61,62,63,64"
+        },
+        {
+          "key": "isSelectCopyCerNum",
+          "value": "N"
+        },
+        {
+          "key": "parentLeg_yc",
+          "value": "Y"
+        },
+        {
+          "key": "agencyconfType",
+          "value": "1"
+        },
+        {
+          "key": "nameAndRegMerge",
+          "value": "Y"
+        },
+        {
+          "key": "mailserverhost",
+          "value": "smtp.exmail.qq.com"
+        },
+        {
+          "key": "showSuppleChildCompany",
+          "value": "2"
+        },
+        {
+          "key": "isShowPeopleImg",
+          "value": "N"
+        },
+        {
+          "key": "mobilePhoneExpression",
+          "value": "^1[0-9]{10}$"
+        },
+        {
+          "key": "isShowOpeartor",
+          "value": "Y"
+        },
+        {
+          "key": "AccountManMoreThan2",
+          "value": "N"
+        },
+        {
+          "key": "limitOpscopeNum",
+          "value": "10"
+        },
+        {
+          "key": "checkNameInvEighteen",
+          "value": "9600,4540"
+        },
+        {
+          "key": "supportForeignReportEntType",
+          "value": "51,52,53,61,62,63,54,64,72,73"
+        },
+        {
+          "key": "invDaysAndNum",
+          "value": "30|2"
+        },
+        {
+          "key": "qmbCityFlag",
+          "value": "3"
+        },
+        {
+          "key": "intelligentConsultation",
+          "value": "N"
+        },
+        {
+          "key": "isEnableTaxClean",
+          "value": "N"
+        },
+        {
+          "key": "isShowMinIndus",
+          "value": "N"
+        },
+        {
+          "key": "yjsSituationGuidanceShowInform",
+          "value": "N"
+        },
+        {
+          "key": "checkPartnerNumType",
+          "value": "1"
+        },
+        {
+          "key": "isPushTaxByInterface",
+          "value": "N"
+        },
+        {
+          "key": "qydjDepartment",
+          "value": "1,2,3,4,5,6"
+        },
+        {
+          "key": "isClearIcisHandleProgressPhone",
+          "value": "N"
+        },
+        {
+          "key": "yjzYztZzlbConfig",
+          "value": "1,2,3"
+        },
+        {
+          "key": "loginTemplate",
+          "value": "0"
+        },
+        {
+          "key": "isSupportIndustryAuthorize",
+          "value": "N"
+        },
+        {
+          "key": "systemCityFlag",
+          "value": "GUANGXI"
+        },
+        {
+          "key": "frequentBusinessSubmitVerifi",
+          "value": "N"
+        },
+        {
+          "key": "icpspPublicUri",
+          "value": "http://192.168.3.202:9080/ICPSP"
+        },
+        {
+          "key": "isOnlyShowFreeSeal",
+          "value": "3"
+        },
+        {
+          "key": "nameAccreditForBranchHasParent",
+          "value": "N"
+        },
+        {
+          "key": "checkNHGlry",
+          "value": "1"
+        },
+        {
+          "key": "isInternaDisplay",
+          "value": "N"
+        },
+        {
+          "key": "isReadOnlySubCapital",
+          "value": "Y"
+        },
+        {
+          "key": "idcardMust",
+          "value": "Y"
+        },
+        {
+          "key": "flowTypeSign",
+          "value": "02"
+        },
+        {
+          "key": "specialCityNanNing",
+          "value": "4501"
+        },
+        {
+          "key": "noShowSXQ",
+          "value": "N"
+        },
+        {
+          "key": "isNeedBusinessLicencePdf",
+          "value": "Y"
+        },
+        {
+          "key": "dzVerifyzlsyzm",
+          "value": "zlzm:租赁证明,wcsyzm:无偿使用证明"
+        },
+        {
+          "key": "noticePassLimitDay",
+          "value": "50"
+        },
+        {
+          "key": "isTransferManualRules",
+          "value": "N"
+        },
+        {
+          "key": "incrRegCapCompanylawWarning",
+          "value": "N"
+        },
+        {
+          "key": "isSupportAllIndustry",
+          "value": "Y"
+        },
+        {
+          "key": "BgCountryNameKey",
+          "value": "合作社联合社,合作社联社"
+        },
+        {
+          "key": "isReverseAdd_NanNing",
+          "value": "N"
+        },
+        {
+          "key": "isTransferHalfJoinSignatures",
+          "value": "N"
+        },
+        {
+          "key": "isReadOnlyAgentInfo",
+          "value": "Y"
+        },
+        {
+          "key": "zxGGTimeLimitCurrDay",
+          "value": "N"
+        },
+        {
+          "key": "addressTimeForHF",
+          "value": "N"
+        },
+        {
+          "key": "smsUrl",
+          "value": "http://10.240.255.20:9001/sms/services/UserService"
+        },
+        {
+          "key": "isShowTaxForFlow",
+          "value": "1,2,i"
+        },
+        {
+          "key": "saicRegorg",
+          "value": "450000"
+        },
+        {
+          "key": "benefitPrivateKeyIV",
+          "value": "Al8O201SQg8w6Fos"
+        },
+        {
+          "key": "canAlterNoCheckName",
+          "value": "456,21,22,41,42,43,44,46,47,58,68,71,92"
+        },
+        {
+          "key": "enableFinalInspectUse",
+          "value": "N"
+        },
+        {
+          "key": "showQydjReasonCode",
+          "value": "1001,1002,1003"
+        },
+        {
+          "key": "ssbtzUrl",
+          "value": "http://ip:port/上下文地址"
+        },
+        {
+          "key": "unified_switch_xss",
+          "value": "Y"
+        },
+        {
+          "key": "freeTradeAreaCodeCfg",
+          "value": "450100,450108,450111,450128,450700,450001,450706,450704,451401,451481,450112,450101,450701,450001,450000"
+        },
+        {
+          "key": "uploadMaterialNoNeedWater",
+          "value": "N"
+        },
+        {
+          "key": "benefitRemoveEntType",
+          "value": "2,31,32,35,41,42,43,454,455,456,46,581,582,583,584,681,682,683,9"
+        },
+        {
+          "key": "isShowYyclrq",
+          "value": "N"
+        },
+        {
+          "key": "groupJcAddPre",
+          "value": "Y"
+        },
+        {
+          "key": "indLockNameSign",
+          "value": "N"
+        },
+        {
+          "key": "cerApplyAppIosURL",
+          "value": "https://itunes.apple.com/cn/app/%E6%B2%B3%E5%8D%97%E6%8E%8C%E4%B8%8A%E5%B7%A5%E5%95%86/id1390415366?mt=8"
+        },
+        {
+          "key": "hideLegalPosition_yc",
+          "value": "N"
+        },
+        {
+          "key": "invCheckChange",
+          "value": "N"
+        },
+        {
+          "key": "loginAfterSync",
+          "value": "{\"type\":\"1\",\"corePoolSize\":\"1\",\"maximumPoolSize\":\"1\",\"keepAliveTime\":\"0\",\"interval\":\"24\"}"
+        },
+        {
+          "key": "govSsoCheckLegal",
+          "value": "N"
+        },
+        {
+          "key": "icpspDomain",
+          "value": "http://116.252.25.12:10121/ICPSP"
+        },
+        {
+          "key": "agentLiaisonsCheckInvest",
+          "value": "11,51,61,453,454,54,64,91,96,12,52,62"
+        },
+        {
+          "key": "sendMsgToSignerStr",
+          "value": "【sjmc】尊敬的先生/女士，您的企业【qymc】所办理的【ywmc】shjg"
+        },
+        {
+          "key": "isSendPdfAndVedio",
+          "value": "N"
+        },
+        {
+          "key": "licensesUploadMaterial",
+          "value": "Y"
+        },
+        {
+          "key": "proveshowsZx",
+          "value": null
+        },
+        {
+          "key": "pdfTimeStyle",
+          "value": "2"
+        },
+        {
+          "key": "bghnztPushDeptTypes",
+          "value": "1,2,3,4,5,6,7"
+        },
+        {
+          "key": "passwordCipherType",
+          "value": "MD5"
+        },
+        {
+          "key": "xzQykbUpdateDate",
+          "value": "30"
+        },
+        {
+          "key": "checkTermOfLeaseValue",
+          "value": "N"
+        },
+        {
+          "key": "managerCheckIsNhcy",
+          "value": "1"
+        },
+        {
+          "key": "noAllowedChangeStockNum",
+          "value": "Y"
+        },
+        {
+          "key": "isToOfflineJyzSw",
+          "value": "N"
+        },
+        {
+          "key": "homePageAllServeButton",
+          "value": "Y"
+        },
+        {
+          "key": "openEntDays",
+          "value": "60"
+        },
+        {
+          "key": "cancelfacilJyzxGg",
+          "value": "N"
+        },
+        {
+          "key": "BgDepartMentModel",
+          "value": "2"
+        },
+        {
+          "key": "handlePrePackByStation",
+          "value": "N"
+        },
+        {
+          "key": "xzChangeQueryCopy",
+          "value": "N"
+        },
+        {
+          "key": "jyzxGGCheckTipWay",
+          "value": "0"
+        },
+        {
+          "key": "altBusinessShowSelectBase",
+          "value": "01;02"
+        },
+        {
+          "key": "phzrrSignRelevancySmrz",
+          "value": "N"
+        },
+        {
+          "key": "isCustomHy",
+          "value": "N"
+        },
+        {
+          "key": "cancelNoticeBannerType",
+          "value": "0"
+        },
+        {
+          "key": "simpleCancelStepTips",
+          "value": "简易注销登记操作步骤提示：<br/>1.进入<a href=\"http://202.100.252.118/login.jspx\">国家企业信用信息公示系统（海南）</a>进行简易注销公告，公告期为jyzxggqx日；<br/>2.公告期满jyzxcqqx日内在“海南e登记”申请简易注销登记；"
+        },
+        {
+          "key": "isEnableCancelTaxInterface",
+          "value": "N"
+        },
+        {
+          "key": "printNeedSign",
+          "value": "N"
+        },
+        {
+          "key": "isEditCerInfoNum",
+          "value": "0"
+        },
+        {
+          "key": "isShowBeforeMergeEntInfo",
+          "value": "N"
+        },
+        {
+          "key": "easycancelModeType",
+          "value": "03"
+        },
+        {
+          "key": "specialCityBaiSe",
+          "value": "4510"
+        },
+        {
+          "key": "setUpGtNumDaysHN",
+          "value": "30;365;"
+        },
+        {
+          "key": "guangxiZimaoArea",
+          "value": "4501,4507,4500,4514"
+        },
+        {
+          "key": "isCheckEntAddr",
+          "value": "N"
+        },
+        {
+          "key": "isStandardAddressLiuzhou",
+          "value": "Y"
+        },
+        {
+          "key": "unifyReceiver",
+          "value": "N"
+        },
+        {
+          "key": "yhOneStopNyyhkjzh",
+          "value": "农业银行科技支行"
+        },
+        {
+          "key": "engraveTaxMust",
+          "value": "N"
+        },
+        {
+          "key": "ywlbDates",
+          "value": "30"
+        },
+        {
+          "key": "indEntNum",
+          "value": "3"
+        },
+        {
+          "key": "cityUniqueFlag",
+          "value": "GX"
+        },
+        {
+          "key": "httpSqlFilter",
+          "value": "Y"
+        },
+        {
+          "key": "checkFalEntType",
+          "value": "11,51,61,12,52,62"
+        },
+        {
+          "key": "isShowWisdomConsult",
+          "value": "N"
+        },
+        {
+          "key": "ifusesystemexchangerateusd",
+          "value": "N"
+        },
+        {
+          "key": "isSensitiveWord",
+          "value": null
+        },
+        {
+          "key": "checkRuleBj",
+          "value": "N"
+        },
+        {
+          "key": "datumModel",
+          "value": "HENAN"
+        },
+        {
+          "key": "licenseNum",
+          "value": "20"
+        },
+        {
+          "key": "isCanUploadAfterRealName",
+          "value": "N"
+        },
+        {
+          "key": "collectOCRpicture",
+          "value": "N"
+        },
+        {
+          "key": "NewFrameNoPdfBusiType",
+          "value": "35,36,38,39,40,41,42,43,44,45,46,60"
+        },
+        {
+          "key": "isClassificationOrder",
+          "value": "Y"
+        },
+        {
+          "key": "newDzyyzzUrl",
+          "value": "https://49.119.98.89:8443/ebl/v1"
+        },
+        {
+          "key": "homePageUsernameButton",
+          "value": "Y"
+        },
+        {
+          "key": "isPopOrgChangeTips",
+          "value": "N"
+        },
+        {
+          "key": "zxblhDeptInterfaceMode",
+          "value": "Y"
+        },
+        {
+          "key": "notShowDistCode",
+          "value": "450114,450514"
+        },
+        {
+          "key": "isShowNationalityCW",
+          "value": "N"
+        },
+        {
+          "key": "loginType",
+          "value": "auth"
+        },
+        {
+          "key": "JSTimeLimitThreeYear",
+          "value": "N"
+        },
+        {
+          "key": "tybPrePackSetOrgan",
+          "value": "Y"
+        },
+        {
+          "key": "showPledgeDateSign",
+          "value": "N"
+        },
+        {
+          "key": "inPartnerMultiLeRepSign",
+          "value": "Y"
+        },
+        {
+          "key": "checkNameNoIndSpeSign",
+          "value": null
+        },
+        {
+          "key": "yunBangBanEntTypeShow",
+          "value": "all"
+        },
+        {
+          "key": "qydjReasonFlag",
+          "value": "01"
+        },
+        {
+          "key": "isSzTaxDefaultHandle",
+          "value": "N"
+        },
+        {
+          "key": "hiddenRegAddressFlag",
+          "value": "N"
+        },
+        {
+          "key": "appUrlSignInvTime",
+          "value": "300"
+        },
+        {
+          "key": "isDepartPushOnestopServicdeGx",
+          "value": "Y"
+        },
+        {
+          "key": "agentIsLegalPerson",
+          "value": "Y"
+        },
+        {
+          "key": "mailUsername",
+          "value": "wangjili@topnet.net.cn"
+        },
+        {
+          "key": "isNecessaryStreet",
+          "value": "N"
+        },
+        {
+          "key": "showAgentPersonTel",
+          "value": "Y"
+        },
+        {
+          "key": "mustChooseOne",
+          "value": "Y"
+        },
+        {
+          "key": "tipsContent",
+          "value": "如银行开户经办人发生变更，请将短信验证码（点击确认后即可接受）告知相关人员|如银行开户经办人发生变更，请将短信验证码告知相关人员"
+        },
+        {
+          "key": "signerNeedHaveUser",
+          "value": "N"
+        },
+        {
+          "key": "ZLIndustryFunction",
+          "value": "N"
+        },
+        {
+          "key": "guangxiNewCompanyLawInvestDate",
+          "value": "N"
+        },
+        {
+          "key": "NonPubPartyBuildUsingWay",
+          "value": "6"
+        },
+        {
+          "key": "thisSystemHandle",
+          "value": "02,03,56,57,116"
+        },
+        {
+          "key": "intermediaryIsShowScore",
+          "value": "Y"
+        },
+        {
+          "key": "isJkInferenceOneThing",
+          "value": "N"
+        },
+        {
+          "key": "legalPersonShowNotMust",
+          "value": "N"
+        },
+        {
+          "key": "isCheckAllShareholdersSign",
+          "value": "Y"
+        },
+        {
+          "key": "topEOCPSCancelTaxUserName",
+          "value": "client1"
+        },
+        {
+          "key": "specialBusiAreaOrganAreaCode",
+          "value": "6401"
+        },
+        {
+          "key": "isShowPledgeRevoke",
+          "value": "N"
+        },
+        {
+          "key": "busiAreaReplaceNullKeys",
+          "value": "。（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）|。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）|【分支机构经营】"
+        },
+        {
+          "key": "syncIntranetCacheDuration",
+          "value": "120"
+        },
+        {
+          "key": "isDirectorPersonUh",
+          "value": "N"
+        },
+        {
+          "key": "registerRealName",
+          "value": "Y"
+        }
+      ]
+    },
+    "msg": "操作成功",
+    "page": null
+  }
+}

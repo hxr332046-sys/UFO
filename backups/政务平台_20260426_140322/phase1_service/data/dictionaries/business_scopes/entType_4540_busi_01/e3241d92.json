@@ -1,0 +1,46 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "L7282",
+        "saveHyCode": "7282",
+        "hyPecul": "旅游会展",
+        "hyTypeName": "旅游会展服务",
+        "enHyTypeName": null,
+        "explains": "指以策划、展示、交易旅游地、景点、活动、产品的会展服务。",
+        "includesTitle": "包括下列旅游会展服务活动：",
+        "includes": "旅游会议服务；旅游展览服务；旅游交易会服务。",
+        "unIncludes": null,
+        "busiType": "01,02,03,08,21,23,28",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,8000,9000",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      },
+      {
+        "hyCode": "L7282",
+        "saveHyCode": "7282",
+        "hyPecul": "旅游会展服务",
+        "hyTypeName": "旅游会展服务",
+        "enHyTypeName": null,
+        "explains": "指以策划、展示、交易旅游地、景点、活动、产品的会展服务。",
+        "includesTitle": "包括下列旅游会展服务活动：",
+        "includes": "旅游会议服务；旅游展览服务；旅游交易会服务。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "旅游会展",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "id_front": "G:\\YU\\资料\\身份证正面_副本.jpg",
+  "id_back": "G:\\YU\\资料\\身份证扫描件反.png",
+  "notes": "设立流程演练：正反面为真实路径；其余上传槽位由脚本自动使用 packet_lab/out/rehearsal_mock 下模拟文件。"
+}

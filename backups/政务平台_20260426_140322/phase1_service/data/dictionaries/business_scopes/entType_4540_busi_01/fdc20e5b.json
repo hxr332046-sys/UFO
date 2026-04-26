@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "resultType": "0",
+    "msg": "",
+    "busiData": [
+      {
+        "hyCode": "C2524",
+        "saveHyCode": "2524",
+        "hyPecul": "煤制品",
+        "hyTypeName": "煤制品制造",
+        "enHyTypeName": null,
+        "explains": "指用烟煤、无烟煤、褐煤及其他各种煤炭制成的煤砖、煤球等固体燃料制品的活动。",
+        "includesTitle": "包括对下列煤制品制造活动：",
+        "includes": "煤制品：型煤、蜂窝煤、煤砖、煤球、其他煤制品。",
+        "unIncludes": null,
+        "busiType": "21,01,28,23,08,02,03",
+        "entType": "1000,2000,3000,4000,5000,6000,7000,9600,9200,9100",
+        "isCustomHy": "0",
+        "isRecomm": "0"
+      }
+    ]
+  },
+  "msg": "操作成功",
+  "page": null,
+  "_meta": {
+    "hyPecul": "煤制品",
+    "entType": "4540",
+    "busiType": "01"
+  }
+}
