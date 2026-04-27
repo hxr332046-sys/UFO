@@ -66,13 +66,20 @@ def step_header(i: int, total: int, name: str):
 class SmartRegisterRunner:
     """有感知的智能注册执行器。"""
 
-    def __init__(self, case_path: Path, *, verbose: bool = False, dry_run: bool = False, do_login: bool = False, do_resume: bool = False, cleanup_on_fail: bool = False):
+    def __init__(self, case_path: Path, *, verbose: bool = False, dry_run: bool = False,
+                 do_login: bool = False, do_resume: bool = False, cleanup_on_fail: bool = False,
+                 enable_governance: bool = True, strict_validation: bool = False):
         self.case_path = case_path
         self.verbose = verbose
         self.dry_run = dry_run
         self.do_login = do_login
         self.do_resume = do_resume
         self.cleanup_on_fail = cleanup_on_fail
+        # 治理子系统开关
+        self.enable_governance = enable_governance
+        self.strict_validation = strict_validation  # True: ambiguous 也阻断; False: 仅 fail 阻断
+        self._scout = None  # OptionsScout 实例（lazy）
+        self._validation_report = None
         self.case: Dict[str, Any] = {}
         self.client = None
         self.log: List[Dict[str, Any]] = []
@@ -235,6 +242,89 @@ class SmartRegisterRunner:
         return True
 
     # ════════════════════════════════════════════════
+    # 治理子系统集成
+    # ════════════════════════════════════════════════
+    def _run_case_validation(self) -> bool:
+        """启动前对 case 做质检；ambiguous 触发交互修正；fail 直接终止。"""
+        try:
+            from governance import CaseValidator, IndustryMatcher, OptionDict
+        except Exception as e:
+            warn(f"治理子系统不可用: {e}（跳过质检）")
+            return True
+
+        print(_c("\n═══ 步骤 0a: case 质检（治理） ═══", "m"))
+        opt = OptionDict.load()
+        ind = IndustryMatcher.load()
+        v = CaseValidator(option_dict=opt, industry_matcher=ind)
+        report = v.validate(self.case)
+        self._validation_report = report
+
+        # 写报告到 records
+        try:
+            from pathlib import Path as _P
+            v.write_report(report, _P("dashboard/data/records/_validation_report_latest.json"))
+        except Exception:
+            pass
+
+        info(f"  字段检查总数: {report.checked_fields}")
+        info(f"  fail: {len(report.fails)} | ambiguous: {len(report.ambiguous)} | warn: {len(report.warns)}")
+
+        # 输出所有 issue
+        for it in report.issues:
+            tag = {"fail": "❌", "ambiguous": "❓", "warn": "⚠"}.get(it.level.value, "·")
+            print(f"  {tag} [{it.level.value}] {it.field_path} = {it.case_value!r}")
+            print(f"      {it.message}")
+            if it.candidates:
+                top = it.candidates[:3]
+                for c in top:
+                    score = c.get("score")
+                    print(f"        - {c.get('code','')} {c.get('name','')}"
+                          + (f"  (score={score})" if score is not None else ""))
+
+        # FAIL 必须修复
+        if report.fails:
+            fail("case 存在 FAIL 级问题，请先修正 case 文件后重试。")
+            return False
+
+        # ambiguous: 交互修正（terminal）
+        if report.ambiguous and self.strict_validation:
+            print(_c("\n  存在 ambiguous 问题，进入交互修正...", "y"))
+            new_case = v.interactive_resolve(report, self.case)
+            self.case = new_case
+            ok("case 已根据用户选择更新（仅内存生效，未回写文件）")
+        elif report.ambiguous:
+            warn(f"存在 {len(report.ambiguous)} 个 ambiguous 问题，但 strict_validation=False，自动继续。"
+                 f"如需强制确认请加 --strict-validation 或手动修正 case。")
+
+        ok("case 质检通过（无 fail 阻断）")
+        return True
+
+    def _attach_governance_scout(self, client) -> None:
+        """把 OptionsScout 挂为 client 响应观察者，被动建库。"""
+        try:
+            from governance import OptionsScout, OptionDict
+        except Exception:
+            return
+        if self._scout is None:
+            self._scout = OptionsScout(OptionDict.load(), log=False)
+        try:
+            client.register_response_observer(self._scout.as_observer())
+        except Exception as e:
+            warn(f"Scout observer 注册失败: {e}")
+
+    def _persist_governance_scout(self) -> None:
+        """运行结束时持久化 scout 收集的字典。"""
+        if self._scout is None:
+            return
+        try:
+            findings = self._scout.report()
+            if findings.get("total_findings", 0) > 0:
+                p = self._scout.persist()
+                ok(f"治理：scout 沉淀字典 → {p}（新发现 {findings['total_findings']} 个枚举字段）")
+        except Exception as e:
+            warn(f"Scout 持久化失败: {e}")
+
+    # ════════════════════════════════════════════════
     # 0. 加载 case
     # ════════════════════════════════════════════════
     def load_case(self) -> bool:
@@ -298,6 +388,9 @@ class SmartRegisterRunner:
 
         try:
             self.client = ICPSPClient()
+            # 治理 — 把 Scout 挂为响应观察者，被动建库
+            if self.enable_governance:
+                self._attach_governance_scout(self.client)
         except Exception as e:
             fail(f"ICPSPClient 初始化失败: {e}")
             fail("请确认浏览器已登录且 session cookies 可用")
@@ -323,6 +416,8 @@ class SmartRegisterRunner:
                 warn("getUserInfo 返回 00000 但用户名为空，尝试刷新 session...")
                 self._silent_session_refresh()
                 self.client = ICPSPClient()  # 重建 client 加载新的 pkl cookies
+                if self.enable_governance:
+                    self._attach_governance_scout(self.client)
                 resp2 = self.client.get_json("/icpsp-api/v4/pc/manager/usermanager/getUserInfo", params={})
                 bd2 = ((resp2.get("data") or {}).get("busiData") or {})
                 username2 = bd2.get("realName") or bd2.get("name") or "未知"
@@ -958,6 +1053,11 @@ class SmartRegisterRunner:
         if not self.load_case():
             return 2
 
+        # Step 0.0a: 治理 — case 质检（在登录之前，避免无效流程消耗 session）
+        if self.enable_governance:
+            if not self._run_case_validation():
+                return 2
+
         # Step 0.0: 登录（如果需要）
         if self.do_login:
             if not self.qr_login():
@@ -1031,9 +1131,13 @@ class SmartRegisterRunner:
             else:
                 warn("失败现场已保留，可直接使用 --resume 或继续办理定位后续跑")
             self._print_summary()
+            # 治理：失败也要把已学到的字典持久化
+            self._persist_governance_scout()
             return 6
 
         self._print_summary()
+        # 治理：成功后持久化字典
+        self._persist_governance_scout()
         return 0
 
     def _cleanup_establish(self, busi_id: str):

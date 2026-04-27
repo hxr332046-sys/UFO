@@ -237,7 +237,36 @@ class ICPSPClient:
         r = self.s.post(url, headers=h, json=body, timeout=self.timeout)
         r.raise_for_status()
         try:
-            return r.json()
+            resp = r.json()
         except Exception:
-            return {"_non_json": True, "text": (r.text or "")[:4000]}
+            resp = {"_non_json": True, "text": (r.text or "")[:4000]}
+
+        # 治理观察者钩子：让 Scout 等订阅者被动收集响应
+        observers = getattr(self, "_response_observers", None)
+        if observers:
+            for ob in list(observers):
+                try:
+                    ob(path, body, resp)
+                except Exception as e:  # 观察者绝不能影响主流程
+                    import logging as _lg
+                    _lg.getLogger(__name__).debug(
+                        "observer %r raised: %s", ob, e,
+                    )
+        return resp
+
+    # ─── 观察者注册（治理框架 / Scout 用） ──────────────
+    def register_response_observer(self, observer) -> None:
+        """注册一个响应观察者：
+            observer(path: str, body: dict, response: dict) -> None
+
+        所有 post_json 调用都会回调。异常被吞掉，不影响业务。
+        """
+        if not hasattr(self, "_response_observers"):
+            self._response_observers = []
+        if observer not in self._response_observers:
+            self._response_observers.append(observer)
+
+    def unregister_response_observer(self, observer) -> None:
+        if hasattr(self, "_response_observers") and observer in self._response_observers:
+            self._response_observers.remove(observer)
 
