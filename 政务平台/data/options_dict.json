@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-04-27T16:32:24",
+  "last_updated": "2026-04-27T16:52:27",
   "fields": {
     "materialVoList": {
       "label": "materialVoList",
@@ -1163,14 +1163,973 @@
       ]
     },
     "distCode": {
-      "label": "distCode",
+      "label": "行政区域代码（树形展平）",
       "source": "BasicInfo.busiData.entDomicileDto.distCode",
       "is_open": false,
-      "last_seen": "2026-04-27T16:29:42",
+      "last_seen": "2026-04-27T16:52:27",
       "options": [
         {
           "code": "450921",
           "name": "玉林市容县"
+        },
+        {
+          "code": "450000",
+          "name": "广西壮族自治区",
+          "short_name": "广西壮族自治区",
+          "parent": null,
+          "depth": 0
+        },
+        {
+          "code": "450100",
+          "name": "南宁市",
+          "short_name": "南宁市",
+          "parent": "450000",
+          "depth": 1
+        },
+        {
+          "code": "450102",
+          "name": "南宁市兴宁区",
+          "short_name": "兴宁区",
+          "parent": "450100",
+          "depth": 2
+        },
+        {
+          "code": "450103",
+          "name": "南宁市青秀区",
+          "short_name": "青秀区",
+          "parent": "450100",
+          "depth": 2
+        },
+        {
+          "code": "450105",
+          "name": "南宁市江南区",
+          "short_name": "江南区",
+          "parent": "450100",
+          "depth": 2
+        },
+        {
+          "code": "450107",
+          "name": "南宁市西乡塘区",
+          "short_name": "西乡塘区",
+          "parent": "450100",
+          "depth": 2
+        },
+        {
+          "code": "450108",
+          "name": "南宁市良庆区",
+          "short_name": "良庆区",
+          "parent": "450100",
+          "depth": 2
+        },
+        {
+          "code": "450109",
+          "name": "南宁市邕宁区",
+          "short_name": "邕宁区",
+          "parent": "450100",
+          "depth": 2
+        },
+        {
+          "code": "450110",
+          "name": "南宁市武鸣区",
+          "short_name": "武鸣区",
+          "parent": "450100",
+          "depth": 2
+        },
+        {
+          "code": "450111",
+          "name": "南宁市高新区",
+          "short_name": "高新区",
+          "parent": "450100",
+          "depth": 2
+        },
+        {
+          "code": "450112",
+          "name": "南宁市经开区",
+          "short_name": "经开区",
+          "parent": "450100",
+          "depth": 2
+        },
+        {
+          "code": "450113",
+          "name": "南宁市广西东盟经济技术开发区",
+          "short_name": "东盟区",
+          "parent": "450100",
+          "depth": 2
+        },
+        {
+          "code": "450123",
+          "name": "南宁市隆安县",
+          "short_name": "隆安县",
+          "parent": "450100",
+          "depth": 2
+        },
+        {
+          "code": "450124",
+          "name": "南宁市马山县",
+          "short_name": "马山县",
+          "parent": "450100",
+          "depth": 2
+        },
+        {
+          "code": "450125",
+          "name": "南宁市上林县",
+          "short_name": "上林县",
+          "parent": "450100",
+          "depth": 2
+        },
+        {
+          "code": "450126",
+          "name": "南宁市宾阳县",
+          "short_name": "宾阳县",
+          "parent": "450100",
+          "depth": 2
+        },
+        {
+          "code": "450181",
+          "name": "南宁市横州市",
+          "short_name": "横州市",
+          "parent": "450100",
+          "depth": 2
+        },
+        {
+          "code": "450200",
+          "name": "柳州市",
+          "short_name": "柳州市",
+          "parent": "450000",
+          "depth": 1
+        },
+        {
+          "code": "450202",
+          "name": "柳州市城中区",
+          "short_name": "城中区",
+          "parent": "450200",
+          "depth": 2
+        },
+        {
+          "code": "450203",
+          "name": "柳州市鱼峰区",
+          "short_name": "鱼峰区",
+          "parent": "450200",
+          "depth": 2
+        },
+        {
+          "code": "450204",
+          "name": "柳州市柳南区",
+          "short_name": "柳南区",
+          "parent": "450200",
+          "depth": 2
+        },
+        {
+          "code": "450205",
+          "name": "柳州市柳北区",
+          "short_name": "柳北区",
+          "parent": "450200",
+          "depth": 2
+        },
+        {
+          "code": "450206",
+          "name": "柳州市柳江区",
+          "short_name": "柳江区",
+          "parent": "450200",
+          "depth": 2
+        },
+        {
+          "code": "450222",
+          "name": "柳州市柳城县",
+          "short_name": "柳城县",
+          "parent": "450200",
+          "depth": 2
+        },
+        {
+          "code": "450223",
+          "name": "柳州市鹿寨县",
+          "short_name": "鹿寨县",
+          "parent": "450200",
+          "depth": 2
+        },
+        {
+          "code": "450224",
+          "name": "柳州市融安县",
+          "short_name": "融安县",
+          "parent": "450200",
+          "depth": 2
+        },
+        {
+          "code": "450225",
+          "name": "柳州市融水县",
+          "short_name": "融水县",
+          "parent": "450200",
+          "depth": 2
+        },
+        {
+          "code": "450226",
+          "name": "柳州市三江县",
+          "short_name": "三江县",
+          "parent": "450200",
+          "depth": 2
+        },
+        {
+          "code": "450300",
+          "name": "桂林市",
+          "short_name": "桂林市",
+          "parent": "450000",
+          "depth": 1
+        },
+        {
+          "code": "450302",
+          "name": "桂林市秀峰区",
+          "short_name": "秀峰区",
+          "parent": "450300",
+          "depth": 2
+        },
+        {
+          "code": "450303",
+          "name": "桂林市叠彩区",
+          "short_name": "叠彩区",
+          "parent": "450300",
+          "depth": 2
+        },
+        {
+          "code": "450304",
+          "name": "桂林市象山区",
+          "short_name": "象山区",
+          "parent": "450300",
+          "depth": 2
+        },
+        {
+          "code": "450305",
+          "name": "桂林市七星区",
+          "short_name": "七星区",
+          "parent": "450300",
+          "depth": 2
+        },
+        {
+          "code": "450311",
+          "name": "桂林市雁山区",
+          "short_name": "雁山区",
+          "parent": "450300",
+          "depth": 2
+        },
+        {
+          "code": "450312",
+          "name": "桂林市临桂区",
+          "short_name": "临桂区",
+          "parent": "450300",
+          "depth": 2
+        },
+        {
+          "code": "450321",
+          "name": "桂林市阳朔县",
+          "short_name": "阳朔县",
+          "parent": "450300",
+          "depth": 2
+        },
+        {
+          "code": "450323",
+          "name": "桂林市灵川县",
+          "short_name": "灵川县",
+          "parent": "450300",
+          "depth": 2
+        },
+        {
+          "code": "450324",
+          "name": "桂林市全州县",
+          "short_name": "全州县",
+          "parent": "450300",
+          "depth": 2
+        },
+        {
+          "code": "450325",
+          "name": "桂林市兴安县",
+          "short_name": "兴安县",
+          "parent": "450300",
+          "depth": 2
+        },
+        {
+          "code": "450326",
+          "name": "桂林市永福县",
+          "short_name": "永福县",
+          "parent": "450300",
+          "depth": 2
+        },
+        {
+          "code": "450327",
+          "name": "桂林市灌阳县",
+          "short_name": "灌阳县",
+          "parent": "450300",
+          "depth": 2
+        },
+        {
+          "code": "450328",
+          "name": "桂林市龙胜县",
+          "short_name": "龙胜县",
+          "parent": "450300",
+          "depth": 2
+        },
+        {
+          "code": "450329",
+          "name": "桂林市资源县",
+          "short_name": "资源县",
+          "parent": "450300",
+          "depth": 2
+        },
+        {
+          "code": "450330",
+          "name": "桂林市平乐县",
+          "short_name": "平乐县",
+          "parent": "450300",
+          "depth": 2
+        },
+        {
+          "code": "450332",
+          "name": "桂林市恭城县",
+          "short_name": "恭城县",
+          "parent": "450300",
+          "depth": 2
+        },
+        {
+          "code": "450381",
+          "name": "桂林市荔浦市",
+          "short_name": "荔浦市",
+          "parent": "450300",
+          "depth": 2
+        },
+        {
+          "code": "450400",
+          "name": "梧州市",
+          "short_name": "梧州市",
+          "parent": "450000",
+          "depth": 1
+        },
+        {
+          "code": "450403",
+          "name": "梧州市万秀区",
+          "short_name": "万秀区",
+          "parent": "450400",
+          "depth": 2
+        },
+        {
+          "code": "450405",
+          "name": "梧州市长洲区",
+          "short_name": "长洲区",
+          "parent": "450400",
+          "depth": 2
+        },
+        {
+          "code": "450406",
+          "name": "梧州市龙圩区",
+          "short_name": "龙圩区",
+          "parent": "450400",
+          "depth": 2
+        },
+        {
+          "code": "450421",
+          "name": "梧州市苍梧县",
+          "short_name": "苍梧县",
+          "parent": "450400",
+          "depth": 2
+        },
+        {
+          "code": "450422",
+          "name": "梧州市藤县",
+          "short_name": "藤县",
+          "parent": "450400",
+          "depth": 2
+        },
+        {
+          "code": "450423",
+          "name": "梧州市蒙山县",
+          "short_name": "蒙山县",
+          "parent": "450400",
+          "depth": 2
+        },
+        {
+          "code": "450481",
+          "name": "梧州市岑溪市",
+          "short_name": "岑溪市",
+          "parent": "450400",
+          "depth": 2
+        },
+        {
+          "code": "450500",
+          "name": "北海市",
+          "short_name": "北海市",
+          "parent": "450000",
+          "depth": 1
+        },
+        {
+          "code": "450502",
+          "name": "北海市海城区",
+          "short_name": "海城区",
+          "parent": "450500",
+          "depth": 2
+        },
+        {
+          "code": "450503",
+          "name": "北海市银海区",
+          "short_name": "银海区",
+          "parent": "450500",
+          "depth": 2
+        },
+        {
+          "code": "450504",
+          "name": "北海市经济技术开发区",
+          "short_name": "经济技术开发区",
+          "parent": "450500",
+          "depth": 2
+        },
+        {
+          "code": "450511",
+          "name": "北海市涠洲岛区",
+          "short_name": "涠洲岛区",
+          "parent": "450500",
+          "depth": 2
+        },
+        {
+          "code": "450512",
+          "name": "北海市铁山港区",
+          "short_name": "铁山港区",
+          "parent": "450500",
+          "depth": 2
+        },
+        {
+          "code": "450521",
+          "name": "北海市合浦县",
+          "short_name": "合浦县",
+          "parent": "450500",
+          "depth": 2
+        },
+        {
+          "code": "450600",
+          "name": "防城港市",
+          "short_name": "防城港市",
+          "parent": "450000",
+          "depth": 1
+        },
+        {
+          "code": "450602",
+          "name": "防城港市港口区",
+          "short_name": "港口区",
+          "parent": "450600",
+          "depth": 2
+        },
+        {
+          "code": "450603",
+          "name": "防城港市防城区",
+          "short_name": "防城区",
+          "parent": "450600",
+          "depth": 2
+        },
+        {
+          "code": "450621",
+          "name": "防城港市上思县",
+          "short_name": "上思县",
+          "parent": "450600",
+          "depth": 2
+        },
+        {
+          "code": "450681",
+          "name": "防城港市东兴市",
+          "short_name": "东兴市",
+          "parent": "450600",
+          "depth": 2
+        },
+        {
+          "code": "450700",
+          "name": "钦州市",
+          "short_name": "钦州市",
+          "parent": "450000",
+          "depth": 1
+        },
+        {
+          "code": "450001",
+          "name": "钦州市钦州综合保税区",
+          "short_name": "钦州综合保税区",
+          "parent": "450700",
+          "depth": 2
+        },
+        {
+          "code": "450701",
+          "name": "钦州市自贸区钦州港片区",
+          "short_name": "自贸区钦州港片区",
+          "parent": "450700",
+          "depth": 2
+        },
+        {
+          "code": "450702",
+          "name": "钦州市钦南区",
+          "short_name": "钦南区",
+          "parent": "450700",
+          "depth": 2
+        },
+        {
+          "code": "450703",
+          "name": "钦州市钦北区",
+          "short_name": "钦北区",
+          "parent": "450700",
+          "depth": 2
+        },
+        {
+          "code": "450704",
+          "name": "钦州市钦州港",
+          "short_name": "钦州港",
+          "parent": "450700",
+          "depth": 2
+        },
+        {
+          "code": "450721",
+          "name": "钦州市灵山县",
+          "short_name": "灵山县",
+          "parent": "450700",
+          "depth": 2
+        },
+        {
+          "code": "450722",
+          "name": "钦州市浦北县",
+          "short_name": "浦北县",
+          "parent": "450700",
+          "depth": 2
+        },
+        {
+          "code": "450762",
+          "name": "钦州市中马钦州产业园区",
+          "short_name": "中马钦州产业园区",
+          "parent": "450700",
+          "depth": 2
+        },
+        {
+          "code": "450800",
+          "name": "贵港市",
+          "short_name": "贵港市",
+          "parent": "450000",
+          "depth": 1
+        },
+        {
+          "code": "450802",
+          "name": "贵港市港北区",
+          "short_name": "港北区",
+          "parent": "450800",
+          "depth": 2
+        },
+        {
+          "code": "450803",
+          "name": "贵港市港南区",
+          "short_name": "港南区",
+          "parent": "450800",
+          "depth": 2
+        },
+        {
+          "code": "450804",
+          "name": "贵港市覃塘区",
+          "short_name": "覃塘区",
+          "parent": "450800",
+          "depth": 2
+        },
+        {
+          "code": "450821",
+          "name": "贵港市平南县",
+          "short_name": "平南县",
+          "parent": "450800",
+          "depth": 2
+        },
+        {
+          "code": "450881",
+          "name": "贵港市桂平市",
+          "short_name": "桂平市",
+          "parent": "450800",
+          "depth": 2
+        },
+        {
+          "code": "450900",
+          "name": "玉林市",
+          "short_name": "玉林市",
+          "parent": "450000",
+          "depth": 1
+        },
+        {
+          "code": "450902",
+          "name": "玉林市玉州区",
+          "short_name": "玉州区",
+          "parent": "450900",
+          "depth": 2
+        },
+        {
+          "code": "450903",
+          "name": "玉林市福绵区",
+          "short_name": "福绵区",
+          "parent": "450900",
+          "depth": 2
+        },
+        {
+          "code": "450904",
+          "name": "玉林市",
+          "short_name": "高新区",
+          "parent": "450900",
+          "depth": 2
+        },
+        {
+          "code": "450922",
+          "name": "玉林市陆川县",
+          "short_name": "陆川县",
+          "parent": "450900",
+          "depth": 2
+        },
+        {
+          "code": "450923",
+          "name": "玉林市博白县",
+          "short_name": "博白县",
+          "parent": "450900",
+          "depth": 2
+        },
+        {
+          "code": "450924",
+          "name": "玉林市兴业县",
+          "short_name": "兴业县",
+          "parent": "450900",
+          "depth": 2
+        },
+        {
+          "code": "450981",
+          "name": "玉林市北流市",
+          "short_name": "北流市",
+          "parent": "450900",
+          "depth": 2
+        },
+        {
+          "code": "451000",
+          "name": "百色市",
+          "short_name": "百色市",
+          "parent": "450000",
+          "depth": 1
+        },
+        {
+          "code": "451002",
+          "name": "百色市右江区",
+          "short_name": "右江区",
+          "parent": "451000",
+          "depth": 2
+        },
+        {
+          "code": "451003",
+          "name": "百色市田阳区",
+          "short_name": "田阳区",
+          "parent": "451000",
+          "depth": 2
+        },
+        {
+          "code": "451022",
+          "name": "百色市田东县",
+          "short_name": "田东县",
+          "parent": "451000",
+          "depth": 2
+        },
+        {
+          "code": "451024",
+          "name": "百色市德保县",
+          "short_name": "德保县",
+          "parent": "451000",
+          "depth": 2
+        },
+        {
+          "code": "451026",
+          "name": "百色市那坡县",
+          "short_name": "那坡县",
+          "parent": "451000",
+          "depth": 2
+        },
+        {
+          "code": "451027",
+          "name": "百色市凌云县",
+          "short_name": "凌云县",
+          "parent": "451000",
+          "depth": 2
+        },
+        {
+          "code": "451028",
+          "name": "百色市乐业县",
+          "short_name": "乐业县",
+          "parent": "451000",
+          "depth": 2
+        },
+        {
+          "code": "451029",
+          "name": "百色市田林县",
+          "short_name": "田林县",
+          "parent": "451000",
+          "depth": 2
+        },
+        {
+          "code": "451030",
+          "name": "百色市西林县",
+          "short_name": "西林县",
+          "parent": "451000",
+          "depth": 2
+        },
+        {
+          "code": "451031",
+          "name": "百色市隆林各族自治县",
+          "short_name": "隆林各族自治县",
+          "parent": "451000",
+          "depth": 2
+        },
+        {
+          "code": "451081",
+          "name": "百色市靖西市",
+          "short_name": "靖西市",
+          "parent": "451000",
+          "depth": 2
+        },
+        {
+          "code": "451082",
+          "name": "百色市平果市",
+          "short_name": "平果市",
+          "parent": "451000",
+          "depth": 2
+        },
+        {
+          "code": "451100",
+          "name": "贺州市",
+          "short_name": "贺州市",
+          "parent": "450000",
+          "depth": 1
+        },
+        {
+          "code": "451102",
+          "name": "贺州市八步区",
+          "short_name": "八步区",
+          "parent": "451100",
+          "depth": 2
+        },
+        {
+          "code": "451103",
+          "name": "贺州市平桂区",
+          "short_name": "平桂区",
+          "parent": "451100",
+          "depth": 2
+        },
+        {
+          "code": "451121",
+          "name": "贺州市昭平县",
+          "short_name": "昭平县",
+          "parent": "451100",
+          "depth": 2
+        },
+        {
+          "code": "451122",
+          "name": "贺州市钟山县",
+          "short_name": "钟山县",
+          "parent": "451100",
+          "depth": 2
+        },
+        {
+          "code": "451123",
+          "name": "贺州市富川瑶族自治县",
+          "short_name": "富川瑶族自治县",
+          "parent": "451100",
+          "depth": 2
+        },
+        {
+          "code": "451200",
+          "name": "河池市",
+          "short_name": "河池市",
+          "parent": "450000",
+          "depth": 1
+        },
+        {
+          "code": "451202",
+          "name": "河池市金城江区",
+          "short_name": "金城江区",
+          "parent": "451200",
+          "depth": 2
+        },
+        {
+          "code": "451203",
+          "name": "河池市宜州区",
+          "short_name": "宜州区",
+          "parent": "451200",
+          "depth": 2
+        },
+        {
+          "code": "451221",
+          "name": "河池市南丹县",
+          "short_name": "南丹县",
+          "parent": "451200",
+          "depth": 2
+        },
+        {
+          "code": "451222",
+          "name": "河池市天峨县",
+          "short_name": "天峨县",
+          "parent": "451200",
+          "depth": 2
+        },
+        {
+          "code": "451223",
+          "name": "河池市凤山县",
+          "short_name": "凤山县",
+          "parent": "451200",
+          "depth": 2
+        },
+        {
+          "code": "451224",
+          "name": "河池市东兰县",
+          "short_name": "东兰县",
+          "parent": "451200",
+          "depth": 2
+        },
+        {
+          "code": "451225",
+          "name": "河池市罗城仫佬族自治县",
+          "short_name": "罗城仫佬族自治县",
+          "parent": "451200",
+          "depth": 2
+        },
+        {
+          "code": "451226",
+          "name": "河池市环江毛南族自治县",
+          "short_name": "环江毛南族自治县",
+          "parent": "451200",
+          "depth": 2
+        },
+        {
+          "code": "451227",
+          "name": "河池市巴马瑶族自治县",
+          "short_name": "巴马瑶族自治县",
+          "parent": "451200",
+          "depth": 2
+        },
+        {
+          "code": "451228",
+          "name": "河池市都安瑶族自治县",
+          "short_name": "都安瑶族自治县",
+          "parent": "451200",
+          "depth": 2
+        },
+        {
+          "code": "451229",
+          "name": "河池市大化瑶族自治县",
+          "short_name": "大化瑶族自治县",
+          "parent": "451200",
+          "depth": 2
+        },
+        {
+          "code": "451300",
+          "name": "来宾市",
+          "short_name": "来宾市",
+          "parent": "450000",
+          "depth": 1
+        },
+        {
+          "code": "451302",
+          "name": "来宾市兴宾区",
+          "short_name": "兴宾区",
+          "parent": "451300",
+          "depth": 2
+        },
+        {
+          "code": "451321",
+          "name": "来宾市忻城县",
+          "short_name": "忻城县",
+          "parent": "451300",
+          "depth": 2
+        },
+        {
+          "code": "451322",
+          "name": "来宾市象州县",
+          "short_name": "象州县",
+          "parent": "451300",
+          "depth": 2
+        },
+        {
+          "code": "451323",
+          "name": "来宾市武宣县",
+          "short_name": "武宣县",
+          "parent": "451300",
+          "depth": 2
+        },
+        {
+          "code": "451324",
+          "name": "来宾市金秀县",
+          "short_name": "金秀县",
+          "parent": "451300",
+          "depth": 2
+        },
+        {
+          "code": "451381",
+          "name": "来宾市合山市",
+          "short_name": "合山市",
+          "parent": "451300",
+          "depth": 2
+        },
+        {
+          "code": "451400",
+          "name": "崇左市",
+          "short_name": "崇左市",
+          "parent": "450000",
+          "depth": 1
+        },
+        {
+          "code": "451402",
+          "name": "崇左市江州区",
+          "short_name": "江州区",
+          "parent": "451400",
+          "depth": 2
+        },
+        {
+          "code": "451421",
+          "name": "崇左市扶绥县",
+          "short_name": "扶绥县",
+          "parent": "451400",
+          "depth": 2
+        },
+        {
+          "code": "451422",
+          "name": "崇左市宁明县",
+          "short_name": "宁明县",
+          "parent": "451400",
+          "depth": 2
+        },
+        {
+          "code": "451423",
+          "name": "崇左市龙州县",
+          "short_name": "龙州县",
+          "parent": "451400",
+          "depth": 2
+        },
+        {
+          "code": "451424",
+          "name": "崇左市大新县",
+          "short_name": "大新县",
+          "parent": "451400",
+          "depth": 2
+        },
+        {
+          "code": "451425",
+          "name": "崇左市天等县",
+          "short_name": "天等县",
+          "parent": "451400",
+          "depth": 2
+        },
+        {
+          "code": "451481",
+          "name": "崇左市凭祥市",
+          "short_name": "凭祥市",
+          "parent": "451400",
+          "depth": 2
+        },
+        {
+          "code": "451482",
+          "name": "崇左市凭祥市",
+          "short_name": "凭祥产业园区夏石片区",
+          "parent": "451400",
+          "depth": 2
+        },
+        {
+          "code": "451483",
+          "name": "崇左市宁明县",
+          "short_name": "凭祥产业园区宁明片区",
+          "parent": "451400",
+          "depth": 2
         }
       ]
     },
@@ -1466,7 +2425,7 @@
       "label": "证件类型",
       "source": "national_standard:政务平台通用",
       "is_open": false,
-      "last_seen": "2026-04-27T16:32:24",
+      "last_seen": "2026-04-27T16:43:47",
       "options": [
         {
           "code": "10",
@@ -1535,6 +2494,46 @@
         {
           "code": "90",
           "name": "其他证件"
+        },
+        {
+          "code": "55",
+          "name": "港澳居民来往大陆通行证",
+          "parent": null
+        },
+        {
+          "code": "56",
+          "name": "台湾居民身份证",
+          "parent": null
+        },
+        {
+          "code": "57",
+          "name": "台湾居民来往大陆通行证",
+          "parent": null
+        },
+        {
+          "code": "58",
+          "name": "台湾农民身份有关证明",
+          "parent": null
+        },
+        {
+          "code": "52",
+          "name": "香港（永久性）居民身份证",
+          "parent": null
+        },
+        {
+          "code": "53",
+          "name": "澳门特别行政区护照",
+          "parent": null
+        },
+        {
+          "code": "64",
+          "name": "台湾居民居住证",
+          "parent": null
+        },
+        {
+          "code": "54",
+          "name": "澳门（永久性）居民身份证",
+          "parent": null
         }
       ]
     },
@@ -1759,6 +2758,2935 @@
         {
           "code": "DSH",
           "name": "董事会成员"
+        }
+      ]
+    },
+    "organize_form": {
+      "label": "组织形式（按企业类型分组）",
+      "source": "phase1_service:organizes/",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:43:47",
+      "options": [
+        {
+          "code": "01",
+          "name": "有限责任公司",
+          "ent_type": "1100",
+          "ent_pro": "01"
+        },
+        {
+          "code": "02",
+          "name": "有限公司",
+          "ent_type": "1100",
+          "ent_pro": "01"
+        },
+        {
+          "code": "802",
+          "name": "院",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "805",
+          "name": "所",
+          "ent_type": "4540",
+          "ent_pro": "00"
+        },
+        {
+          "code": "1005",
+          "name": "楼",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "1004",
+          "name": "家",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "1003",
+          "name": "酒家",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "941",
+          "name": "诊所",
+          "ent_type": "4540",
+          "ent_pro": "00"
+        },
+        {
+          "code": "1002",
+          "name": "园",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "990",
+          "name": "咖",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "998",
+          "name": "市",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "e7e93a7d05355590e0532003a8c0c99c",
+          "name": "分部",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "e7e93a7d05355590e0532103a8c0c99c",
+          "name": "分厂",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "e7e93a7d05355590e0532203a8c0c99c",
+          "name": "分店",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "19",
+          "name": "店",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "20",
+          "name": "铺",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "21",
+          "name": "馆",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "22",
+          "name": "坊",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "23",
+          "name": "场",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "24",
+          "name": "经营部",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "25",
+          "name": "门市部",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "26",
+          "name": "大药房",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "27",
+          "name": "药房",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "28",
+          "name": "药店",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "29",
+          "name": "厅",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "30",
+          "name": "行",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "31",
+          "name": "房",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "32",
+          "name": "社",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "33",
+          "name": "亭",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "34",
+          "name": "网咖",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "35",
+          "name": "网吧",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "36",
+          "name": "处",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "37",
+          "name": "厂",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "38",
+          "name": "咖啡厅",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "39",
+          "name": "咖啡店",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "40",
+          "name": "中心",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "41",
+          "name": "饭店",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "42",
+          "name": "饭堂",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "44",
+          "name": "吧",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "45",
+          "name": "商行",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "46",
+          "name": "商店",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "47",
+          "name": "商店馆",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "48",
+          "name": "浴池",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "49",
+          "name": "诊所",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "50",
+          "name": "门诊部",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "51",
+          "name": "俱乐部",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "52",
+          "name": "酒吧",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "53",
+          "name": "酒店",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "54",
+          "name": "旅馆",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "55",
+          "name": "农家院",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "56",
+          "name": "农场",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "57",
+          "name": "加油站",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "58",
+          "name": "影楼",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "59",
+          "name": "工作室",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "60",
+          "name": "加盟店",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "61",
+          "name": "队",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "62",
+          "name": "超市",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "63",
+          "name": "家庭农场",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "64",
+          "name": "部",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "65",
+          "name": "站",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "e7e93a7d05355590e0532003a8d0c99c",
+          "name": "服务部",
+          "ent_type": "4540",
+          "ent_pro": "01"
+        },
+        {
+          "code": "67",
+          "name": "农民专业合作社",
+          "ent_type": "9100",
+          "ent_pro": "02"
+        },
+        {
+          "code": "68",
+          "name": "专业合作社",
+          "ent_type": "9100",
+          "ent_pro": "02"
+        },
+        {
+          "code": "69",
+          "name": "专业合作社联合社",
+          "ent_type": "9100",
+          "ent_pro": "02"
+        },
+        {
+          "code": "70",
+          "name": "农民专业合作社联合社",
+          "ent_type": "9100",
+          "ent_pro": "02"
+        },
+        {
+          "code": "801",
+          "name": "院",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "803",
+          "name": "所",
+          "ent_type": "9600",
+          "ent_pro": "00"
+        },
+        {
+          "code": "940",
+          "name": "诊所",
+          "ent_type": "9600",
+          "ent_pro": "00"
+        },
+        {
+          "code": "942",
+          "name": "咖",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "1016",
+          "name": "楼",
+          "ent_type": "9600",
+          "ent_pro": "01"
+        },
+        {
+          "code": "1015",
+          "name": "家",
+          "ent_type": "9600",
+          "ent_pro": "01"
+        },
+        {
+          "code": "1014",
+          "name": "酒家",
+          "ent_type": "9600",
+          "ent_pro": "01"
+        },
+        {
+          "code": "997",
+          "name": "市",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "666",
+          "name": "室",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "100",
+          "name": "俱乐部",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "101",
+          "name": "酒店",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "102",
+          "name": "酒吧",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "103",
+          "name": "旅店",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "104",
+          "name": "农家院",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "105",
+          "name": "农场",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "106",
+          "name": "农庄",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "107",
+          "name": "影楼",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "108",
+          "name": "工作室",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "109",
+          "name": "队",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "110",
+          "name": "超市",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "111",
+          "name": "网店",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "112",
+          "name": "家庭农场",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "113",
+          "name": "部",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "71",
+          "name": "店",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "72",
+          "name": "铺",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "73",
+          "name": "馆",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "74",
+          "name": "坊",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "75",
+          "name": "场",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "76",
+          "name": "经营部",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "77",
+          "name": "门市部",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "78",
+          "name": "大药房",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "79",
+          "name": "药房",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "80",
+          "name": "药店",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "82",
+          "name": "行",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "83",
+          "name": "房",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "84",
+          "name": "社",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "85",
+          "name": "亭",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "86",
+          "name": "网咖",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "87",
+          "name": "处",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "88",
+          "name": "厂",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "89",
+          "name": "咖啡厅",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "90",
+          "name": "咖啡店",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "91",
+          "name": "中心",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "92",
+          "name": "饭店",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "93",
+          "name": "饭堂",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "94",
+          "name": "吧",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "95",
+          "name": "商行",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "96",
+          "name": "商店",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "97",
+          "name": "浴池",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "99",
+          "name": "门诊部",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "901",
+          "name": "府",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "902",
+          "name": "服务部",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "903",
+          "name": "铺",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "904",
+          "name": "档",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "905",
+          "name": "厅",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        },
+        {
+          "code": "906",
+          "name": "堂",
+          "ent_type": "9600",
+          "ent_pro": "03"
+        }
+      ]
+    },
+    "entType": {
+      "label": "企业类型代码",
+      "source": "data/ent_type_codes.json",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:43:47",
+      "options": [
+        {
+          "code": "1000",
+          "name": "内资公司",
+          "parent": null
+        },
+        {
+          "code": "1100",
+          "name": "有限责任公司",
+          "parent": null
+        },
+        {
+          "code": "1110",
+          "name": "有限责任公司（国有独资）",
+          "parent": null
+        },
+        {
+          "code": "1120",
+          "name": "有限责任公司（外商投资企业投资）",
+          "parent": null
+        },
+        {
+          "code": "1121",
+          "name": "有限责任公司（外商投资企业合资）",
+          "parent": null
+        },
+        {
+          "code": "1122",
+          "name": "有限责任公司（外商投资企业合作）",
+          "parent": null
+        },
+        {
+          "code": "1123",
+          "name": "有限责任公司（外商投资企业独资）",
+          "parent": null
+        },
+        {
+          "code": "1124",
+          "name": "有限责任公司（外商投资企业股份制）",
+          "parent": null
+        },
+        {
+          "code": "1130",
+          "name": "有限责任公司（自然人投资或控股）",
+          "parent": null
+        },
+        {
+          "code": "1140",
+          "name": "有限责任公司（国有控股）",
+          "parent": null
+        },
+        {
+          "code": "1150",
+          "name": "一人有限责任公司",
+          "parent": null
+        },
+        {
+          "code": "1151",
+          "name": "有限责任公司（自然人独资）",
+          "parent": null
+        },
+        {
+          "code": "1152",
+          "name": "有限责任公司（自然人投资或控股的法人独资）",
+          "parent": null
+        },
+        {
+          "code": "1153",
+          "name": "有限责任公司（非自然人投资或控股的法人独资）",
+          "parent": null
+        },
+        {
+          "code": "1160",
+          "name": "有限责任公司（法人独资）",
+          "parent": null
+        },
+        {
+          "code": "1170",
+          "name": "有限责任公司（外商投资）",
+          "parent": null
+        },
+        {
+          "code": "1190",
+          "name": "其他有限责任公司",
+          "parent": null
+        },
+        {
+          "code": "1200",
+          "name": "股份有限公司",
+          "parent": null
+        },
+        {
+          "code": "1210",
+          "name": "股份有限公司（上市）",
+          "parent": null
+        },
+        {
+          "code": "1211",
+          "name": "股份有限公司（上市、自然人投资或控股）",
+          "parent": null
+        },
+        {
+          "code": "1212",
+          "name": "股份有限公司（上市、国有控股）",
+          "parent": null
+        },
+        {
+          "code": "1213",
+          "name": "股份有限公司（上市、外商投资企业投资）",
+          "parent": null
+        },
+        {
+          "code": "1220",
+          "name": "股份有限公司（未上市）",
+          "parent": null
+        },
+        {
+          "code": "1221",
+          "name": "股份有限公司（未上市、自然人投资或控股）",
+          "parent": null
+        },
+        {
+          "code": "1222",
+          "name": "股份有限公司（未上市、国有控股）",
+          "parent": null
+        },
+        {
+          "code": "1223",
+          "name": "股份有限公司（未上市、外商投资企业投资）",
+          "parent": null
+        },
+        {
+          "code": "1230",
+          "name": "股份有限公司（外商投资企业投资）",
+          "parent": null
+        },
+        {
+          "code": "1290",
+          "name": "其他股份有限公司",
+          "parent": null
+        },
+        {
+          "code": "2000",
+          "name": "内资公司分公司",
+          "parent": null
+        },
+        {
+          "code": "2100",
+          "name": "有限责任公司分公司",
+          "parent": null
+        },
+        {
+          "code": "2150",
+          "name": "一人有限责任公司分公司",
+          "parent": null
+        },
+        {
+          "code": "2200",
+          "name": "股份有限公司分公司",
+          "parent": null
+        },
+        {
+          "code": "2250",
+          "name": "股份有限公司（上市）分公司",
+          "parent": null
+        },
+        {
+          "code": "2260",
+          "name": "股份有限公司（未上市）分公司",
+          "parent": null
+        },
+        {
+          "code": "3000",
+          "name": "内资非公司企业",
+          "parent": null
+        },
+        {
+          "code": "3100",
+          "name": "全民所有制企业（国有企业）",
+          "parent": null
+        },
+        {
+          "code": "3200",
+          "name": "集体所有制企业（集体企业）",
+          "parent": null
+        },
+        {
+          "code": "3300",
+          "name": "股份合作企业",
+          "parent": null
+        },
+        {
+          "code": "3400",
+          "name": "联营企业",
+          "parent": null
+        },
+        {
+          "code": "3500",
+          "name": "其他内资企业",
+          "parent": null
+        },
+        {
+          "code": "4000",
+          "name": "内资非公司企业分支机构",
+          "parent": null
+        },
+        {
+          "code": "4100",
+          "name": "全民所有制分支机构",
+          "parent": null
+        },
+        {
+          "code": "4200",
+          "name": "集体所有制分支机构",
+          "parent": null
+        },
+        {
+          "code": "4300",
+          "name": "股份合作企业分支机构",
+          "parent": null
+        },
+        {
+          "code": "4400",
+          "name": "联营企业分支机构",
+          "parent": null
+        },
+        {
+          "code": "4500",
+          "name": "其他内资企业分支机构",
+          "parent": null
+        },
+        {
+          "code": "5000",
+          "name": "外商投资企业",
+          "parent": null
+        },
+        {
+          "code": "5100",
+          "name": "外商投资有限责任公司",
+          "parent": null
+        },
+        {
+          "code": "5200",
+          "name": "外商投资股份有限公司",
+          "parent": null
+        },
+        {
+          "code": "5300",
+          "name": "外商投资合伙企业",
+          "parent": null
+        },
+        {
+          "code": "5400",
+          "name": "外商投资企业分支机构",
+          "parent": null
+        },
+        {
+          "code": "6000",
+          "name": "港、澳、台投资企业",
+          "parent": null
+        },
+        {
+          "code": "6100",
+          "name": "港、澳、台投资有限责任公司",
+          "parent": null
+        },
+        {
+          "code": "6200",
+          "name": "港、澳、台投资股份有限公司",
+          "parent": null
+        },
+        {
+          "code": "6300",
+          "name": "港、澳、台投资合伙企业",
+          "parent": null
+        },
+        {
+          "code": "6400",
+          "name": "港、澳、台投资企业分支机构",
+          "parent": null
+        },
+        {
+          "code": "7000",
+          "name": "农民专业合作社",
+          "parent": null
+        },
+        {
+          "code": "7100",
+          "name": "农民专业合作社",
+          "parent": null
+        },
+        {
+          "code": "7200",
+          "name": "农民专业合作社分支机构",
+          "parent": null
+        },
+        {
+          "code": "8000",
+          "name": "个体工商户",
+          "parent": null
+        },
+        {
+          "code": "8100",
+          "name": "个体工商户",
+          "parent": null
+        },
+        {
+          "code": "8200",
+          "name": "个体工商户分支机构",
+          "parent": null
+        }
+      ]
+    },
+    "currencyCode": {
+      "label": "币种代码（含汇率）",
+      "source": "phase1_service:MOKINDCODE.json",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:43:47",
+      "options": [
+        {
+          "code": "191",
+          "name": "克罗地亚库纳",
+          "shoName": "克罗地亚库纳",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "192",
+          "name": "古巴比索",
+          "shoName": "古巴比索",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "072",
+          "name": "普拉",
+          "shoName": "普拉",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "590",
+          "name": "巴波亚",
+          "shoName": "巴波亚",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "470",
+          "name": "马耳他里拉",
+          "shoName": "马耳他里拉",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "196",
+          "name": "塞浦路斯镑",
+          "shoName": "塞浦路斯镑",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "076",
+          "name": "克鲁赛罗",
+          "shoName": "克鲁赛罗",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "230",
+          "name": "埃塞俄比亚比尔",
+          "shoName": "埃塞俄比亚比尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "990",
+          "name": "发展单位",
+          "shoName": "发展单位",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "352",
+          "name": "冰岛克朗",
+          "shoName": "冰岛克朗",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "991",
+          "name": "金融兰特",
+          "shoName": "金融兰特",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "112",
+          "name": "白俄罗斯卢布",
+          "shoName": "白俄罗斯卢布",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "233",
+          "name": "克罗姆",
+          "shoName": "克罗姆",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "356",
+          "name": "印度卢比",
+          "shoName": "印度卢比",
+          "commonSign": "Y",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "752",
+          "name": "瑞典克朗",
+          "shoName": "瑞典克朗",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "598",
+          "name": "基那",
+          "shoName": "基那",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "478",
+          "name": "乌吉亚",
+          "shoName": "乌吉亚",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "116",
+          "name": "柬埔寨瑞尔",
+          "shoName": "柬埔寨瑞尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "512",
+          "name": "阿曼里亚尔",
+          "shoName": "阿曼里亚尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "238",
+          "name": "福克兰群岛镑",
+          "shoName": "福克兰群岛镑",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "634",
+          "name": "卡塔尔里亚尔",
+          "shoName": "卡塔尔里亚尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "756",
+          "name": "瑞士法郎",
+          "shoName": "瑞士法郎",
+          "commonSign": "Y",
+          "compare": 1,
+          "rmbRate": "3.3270",
+          "dolRate": "0.7046"
+        },
+        {
+          "code": "516",
+          "name": "纳米比亚元",
+          "shoName": "纳米比亚元",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "084",
+          "name": "伯里兹元",
+          "shoName": "伯里兹元",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "480",
+          "name": "毛里求斯卢比",
+          "shoName": "毛里求斯卢比",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "360",
+          "name": "卢比",
+          "shoName": "卢比",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "242",
+          "name": "斐济元",
+          "shoName": "斐济元",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "484",
+          "name": "墨西哥比索",
+          "shoName": "墨西哥比索",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "760",
+          "name": "叙利亚镑",
+          "shoName": "叙利亚镑",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "364",
+          "name": "伊朗里亚尔",
+          "shoName": "伊朗里亚尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "882",
+          "name": "塔拉",
+          "shoName": "塔拉",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "762",
+          "name": "塔吉克卢布",
+          "shoName": "塔吉克卢布",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "124",
+          "name": "加拿大元",
+          "shoName": "加拿大元",
+          "commonSign": "Y",
+          "compare": 1,
+          "rmbRate": "1",
+          "dolRate": "1"
+        },
+        {
+          "code": "642",
+          "name": "列伊",
+          "shoName": "列伊",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "246",
+          "name": "芬兰马克",
+          "shoName": "芬兰马克",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "004",
+          "name": "阿富汗尼",
+          "shoName": "阿富汗尼",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1",
+          "dolRate": "1"
+        },
+        {
+          "code": "400",
+          "name": "约旦第纳尔",
+          "shoName": "约旦第纳尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "764",
+          "name": "泰国铢",
+          "shoName": "泰国铢",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "368",
+          "name": "伊拉克第纳尔",
+          "shoName": "伊拉克第纳尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "886",
+          "name": "也门里亚尔",
+          "shoName": "也门里亚尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "524",
+          "name": "尼泊尔卢比",
+          "shoName": "尼泊尔卢比",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "800",
+          "name": "乌干达先令",
+          "shoName": "乌干达先令",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "008",
+          "name": "列克",
+          "shoName": "列克",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "404",
+          "name": "肯尼亚先令",
+          "shoName": "肯尼亚先令",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "646",
+          "name": "卢旺达法郎",
+          "shoName": "卢旺达法郎",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "528",
+          "name": "荷兰盾",
+          "shoName": "荷兰盾",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "804",
+          "name": "库邦",
+          "shoName": "库邦",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "408",
+          "name": "北朝鲜圆",
+          "shoName": "北朝鲜圆",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "807",
+          "name": "马其顿第纳尔",
+          "shoName": "马其顿第纳尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "090",
+          "name": "所罗门群岛元",
+          "shoName": "所罗门群岛元",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "250",
+          "name": "法国法郎",
+          "shoName": "法国法郎",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "0.8570",
+          "dolRate": "0.1815"
+        },
+        {
+          "code": "096",
+          "name": "文莱元",
+          "shoName": "文莱元",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "372",
+          "name": "爱尔兰镑",
+          "shoName": "爱尔兰镑",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "890",
+          "name": "南斯拉夫第纳尔",
+          "shoName": "南斯拉夫第纳尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "132",
+          "name": "佛得角埃斯库多",
+          "shoName": "佛得角埃斯库多",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "012",
+          "name": "阿尔及利亚第纳尔",
+          "shoName": "阿尔及利亚第纳尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "496",
+          "name": "图格里克",
+          "shoName": "图格里克",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "376",
+          "name": "锡克尔",
+          "shoName": "锡克尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "894",
+          "name": "克瓦查",
+          "shoName": "克瓦查",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "410",
+          "name": "韩国元",
+          "shoName": "韩国元",
+          "commonSign": "Y",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "498",
+          "name": "摩尔瓦多列伊",
+          "shoName": "摩尔瓦多列伊",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "136",
+          "name": "开曼群岛元",
+          "shoName": "开曼群岛元",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "532",
+          "name": "荷属安的列斯盾",
+          "shoName": "荷属安的列斯盾",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "654",
+          "name": "圣赫勒拿镑",
+          "shoName": "圣赫勒拿镑",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "533",
+          "name": "阿鲁巴盾",
+          "shoName": "阿鲁巴盾",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "776",
+          "name": "邦加",
+          "shoName": "邦加",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "810",
+          "name": "卢布",
+          "shoName": "卢布",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "414",
+          "name": "科威特第纳尔",
+          "shoName": "科威特第纳尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "417",
+          "name": "索姆",
+          "shoName": "索姆",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "418",
+          "name": "基普",
+          "shoName": "基普",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "818",
+          "name": "埃及镑",
+          "shoName": "埃及镑",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "380",
+          "name": "意大利里拉",
+          "shoName": "意大利里拉",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "020",
+          "name": "安道尔比塞塔",
+          "shoName": "安道尔比塞塔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "262",
+          "name": "吉布提法郎",
+          "shoName": "吉布提法郎",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "780",
+          "name": "特立尼达和多巴哥元",
+          "shoName": "特立尼达和多巴哥元",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "144",
+          "name": "斯里兰卡卢比",
+          "shoName": "斯里兰卡卢比",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "024",
+          "name": "新克瓦查",
+          "shoName": "新克瓦查",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "784",
+          "name": "UAE迪拉姆",
+          "shoName": "UAE迪拉姆",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "300",
+          "name": "德拉克马",
+          "shoName": "德拉克马",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "388",
+          "name": "牙买加元",
+          "shoName": "牙买加元",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "422",
+          "name": "黎巴嫩镑",
+          "shoName": "黎巴嫩镑",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "788",
+          "name": "突尼斯第纳尔",
+          "shoName": "突尼斯第纳尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "426",
+          "name": "罗提",
+          "shoName": "罗提",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "548",
+          "name": "瓦图",
+          "shoName": "瓦图",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "703",
+          "name": "斯洛伐克克朗",
+          "shoName": "斯洛伐克克朗",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "428",
+          "name": "拉脱维亚拉特",
+          "shoName": "拉脱维亚拉特",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "704",
+          "name": "越南盾",
+          "shoName": "越南盾",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "705",
+          "name": "托拉尔",
+          "shoName": "托拉尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "826",
+          "name": "英镑",
+          "shoName": "英镑",
+          "commonSign": "Y",
+          "compare": 1,
+          "rmbRate": "8.5423",
+          "dolRate": "1.8090"
+        },
+        {
+          "code": "706",
+          "name": "索马里先令",
+          "shoName": "索马里先令",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "270",
+          "name": "达拉西",
+          "shoName": "达拉西",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "031",
+          "name": "阿塞拜疆马纳特",
+          "shoName": "阿塞拜疆马纳特",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "152",
+          "name": "智利比索",
+          "shoName": "智利比索",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "032",
+          "name": "阿根廷比索",
+          "shoName": "阿根廷比索",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "792",
+          "name": "土耳其里拉",
+          "shoName": "土耳其里拉",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "430",
+          "name": "利比里亚元",
+          "shoName": "利比里亚元",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "398",
+          "name": "坚戈",
+          "shoName": "坚戈",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "795",
+          "name": "马纳特",
+          "shoName": "马纳特",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "036",
+          "name": "澳大利亚元",
+          "shoName": "澳大利亚元",
+          "commonSign": "Y",
+          "compare": 1,
+          "rmbRate": "0.5826",
+          "dolRate": "0.1234"
+        },
+        {
+          "code": "950",
+          "name": "CFA法郎BEAC",
+          "shoName": "CFA法郎BEAC ",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "554",
+          "name": "新西兰元",
+          "shoName": "新西兰元",
+          "commonSign": "Y",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "951",
+          "name": "东加勒比元",
+          "shoName": "东加勒比元",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "434",
+          "name": "利比亚第纳尔",
+          "shoName": "利比亚第纳尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "952",
+          "name": "CFA法郎BCEAO",
+          "shoName": "CFA法郎BCEAO",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "710",
+          "name": "兰特",
+          "shoName": "兰特",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "678",
+          "name": "多布拉",
+          "shoName": "多布拉",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "953",
+          "name": "CFP法郎",
+          "shoName": "CFP法郎 ",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "954",
+          "name": "欧元",
+          "shoName": "欧元",
+          "commonSign": "Y",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.1334"
+        },
+        {
+          "code": "558",
+          "name": "金科多巴",
+          "shoName": "金科多巴",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "834",
+          "name": "坦桑尼亚先令",
+          "shoName": "坦桑尼亚先令",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "716",
+          "name": "津巴布韦元",
+          "shoName": "津巴布韦元",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "280",
+          "name": "德国马克",
+          "shoName": "德国马克",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "2.8762",
+          "dolRate": "0.6091"
+        },
+        {
+          "code": "040",
+          "name": "奥地利先令",
+          "shoName": "奥地利先令",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "682",
+          "name": "沙特里亚尔",
+          "shoName": "沙特里亚尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "044",
+          "name": "巴哈马元",
+          "shoName": "巴哈马元",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "440",
+          "name": "立陶宛",
+          "shoName": "立陶宛",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "320",
+          "name": "格查尔",
+          "shoName": "格查尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "288",
+          "name": "塞地",
+          "shoName": "塞地",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "442",
+          "name": "卢森堡法郎",
+          "shoName": "卢森堡法郎",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "960",
+          "name": "特别提款权",
+          "shoName": "特别提款权",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "048",
+          "name": "巴林第纳尔",
+          "shoName": "巴林第纳尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "203",
+          "name": "捷克克朗",
+          "shoName": "捷克克朗",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "324",
+          "name": "几内亚法郎",
+          "shoName": "几内亚法郎",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "566",
+          "name": "奈拉",
+          "shoName": "奈拉",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "446",
+          "name": "澳门元",
+          "shoName": "澳门元",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "600",
+          "name": "瓜拉尼",
+          "shoName": "瓜拉尼",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "724",
+          "name": "西班牙比塞塔",
+          "shoName": "西班牙比塞塔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "328",
+          "name": "圭亚那元",
+          "shoName": "圭亚那元",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "604",
+          "name": "秘鲁币",
+          "shoName": "秘鲁币",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "208",
+          "name": "丹麦克朗",
+          "shoName": "丹麦克朗",
+          "commonSign": "Y",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "608",
+          "name": "菲律宾比索",
+          "shoName": "菲律宾比索",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "170",
+          "name": "哥伦比亚比索",
+          "shoName": "哥伦比亚比索",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "050",
+          "name": "塔卡",
+          "shoName": "塔卡",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "292",
+          "name": "直布罗陀镑",
+          "shoName": "直布罗陀镑",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "051",
+          "name": "亚美尼亚达姆",
+          "shoName": "亚美尼亚达姆",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "690",
+          "name": "塞舌尔卢比",
+          "shoName": "塞舌尔卢比",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "052",
+          "name": "巴巴多斯元",
+          "shoName": "巴巴多斯元",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "174",
+          "name": "科摩罗法郎",
+          "shoName": "科摩罗法郎",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "450",
+          "name": "马尔加什法郎",
+          "shoName": "马尔加什法郎",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "056",
+          "name": "比利时法郎",
+          "shoName": "比利时法郎",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "694",
+          "name": "利昂",
+          "shoName": "利昂",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "332",
+          "name": "古德",
+          "shoName": "古德",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "454",
+          "name": "克瓦查",
+          "shoName": "克瓦查",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "214",
+          "name": "多米尼加比索",
+          "shoName": "多米尼加比索",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "578",
+          "name": "挪威克郎",
+          "shoName": "挪威克郎",
+          "commonSign": "Y",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "458",
+          "name": "马来西亚林吉特",
+          "shoName": "马来西亚林吉特",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "218",
+          "name": "苏克雷",
+          "shoName": "苏克雷",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "736",
+          "name": "苏丹第纳尔",
+          "shoName": "苏丹第纳尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "858",
+          "name": "乌拉圭比索",
+          "shoName": "乌拉圭比索",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "616",
+          "name": "兹罗提",
+          "shoName": "兹罗提",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "180",
+          "name": "新扎伊尔",
+          "shoName": "新扎伊尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "060",
+          "name": "百慕大元",
+          "shoName": "百慕大元",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "064",
+          "name": "努尔特鲁姆",
+          "shoName": "努尔特鲁姆",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "340",
+          "name": "伦皮拉",
+          "shoName": "伦皮拉",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "462",
+          "name": "卢菲亚",
+          "shoName": "卢菲亚",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "100",
+          "name": "列弗",
+          "shoName": "列弗",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "188",
+          "name": "哥斯达黎加科郎",
+          "shoName": "哥斯达黎加科郎",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "860",
+          "name": "乌兹别克斯坦苏姆",
+          "shoName": "乌兹别克斯坦苏姆",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "068",
+          "name": "玻利维亚比索",
+          "shoName": "玻利维亚比索",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "222",
+          "name": "萨尔瓦多科郎",
+          "shoName": "萨尔瓦多科郎",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "740",
+          "name": "苏里南盾",
+          "shoName": "苏里南盾",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "586",
+          "name": "巴基斯坦卢比",
+          "shoName": "巴基斯坦卢比",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "983",
+          "name": "UVC",
+          "shoName": "UVC ",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "620",
+          "name": "葡萄牙埃斯库多",
+          "shoName": "葡萄牙埃斯库多",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "862",
+          "name": "博利瓦",
+          "shoName": "博利瓦",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "984",
+          "name": "Mvdol",
+          "shoName": "Mvdol ",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "104",
+          "name": "缅元",
+          "shoName": "缅元",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "985",
+          "name": "兹罗提",
+          "shoName": "兹罗提",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "986",
+          "name": "巴西瑞尔",
+          "shoName": "巴西瑞尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "348",
+          "name": "福林",
+          "shoName": "福林",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "624",
+          "name": "几内亚比绍比索",
+          "shoName": "几内亚比绍比索",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "108",
+          "name": "布隆迪法郎",
+          "shoName": "布隆迪法郎",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "504",
+          "name": "摩洛哥迪拉姆",
+          "shoName": "摩洛哥迪拉姆",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "626",
+          "name": "东帝汶埃斯库多",
+          "shoName": "东帝汶埃斯库多",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "748",
+          "name": "里兰吉尼",
+          "shoName": "里兰吉尼",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "508",
+          "name": "麦梯卡尔",
+          "shoName": "麦梯卡尔",
+          "commonSign": "N",
+          "compare": 1,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "702",
+          "name": "新加坡元",
+          "shoName": "新加坡元",
+          "commonSign": "Y",
+          "compare": 2,
+          "rmbRate": "2.5932",
+          "dolRate": "0.5492"
+        },
+        {
+          "code": "392",
+          "name": "日元",
+          "shoName": "日元",
+          "commonSign": "Y",
+          "compare": 2,
+          "rmbRate": "0.0319",
+          "dolRate": "0.0067"
+        },
+        {
+          "code": "156",
+          "name": "人民币",
+          "shoName": "人民币",
+          "commonSign": "Y",
+          "compare": 2,
+          "rmbRate": "1",
+          "dolRate": "0.1209"
+        },
+        {
+          "code": "344",
+          "name": "香港元",
+          "shoName": "香港元",
+          "commonSign": "Y",
+          "compare": 2,
+          "rmbRate": "1.0700",
+          "dolRate": "0.1290"
+        },
+        {
+          "code": "901",
+          "name": "新台币",
+          "shoName": "新台币",
+          "commonSign": "Y",
+          "compare": 2,
+          "rmbRate": "1.0000",
+          "dolRate": "1.0000"
+        },
+        {
+          "code": "840",
+          "name": "美元",
+          "shoName": "美元",
+          "commonSign": "Y",
+          "compare": 3,
+          "rmbRate": "6.8",
+          "dolRate": "1"
+        }
+      ]
+    },
+    "_schema_BasicInfo": {
+      "label": "BasicInfo UI 字段 schema (含 compType/formKeys)",
+      "source": "schemas/basic_info_schema_v2.json",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:52:27",
+      "options": [
+        {
+          "code": "f01",
+          "name": "企业住所",
+          "section": "residence",
+          "comp_type": "tne-data-picker",
+          "form_model": "residenceForm",
+          "form_keys": [
+            "distCode",
+            "distCodeName",
+            "provinceCode",
+            "provinceName",
+            "cityCode",
+            "cityName",
+            "isSelectDistCode",
+            "fisDistCode"
+          ]
+        },
+        {
+          "code": "f02",
+          "name": "详细地址",
+          "section": "residence",
+          "comp_type": "el-input",
+          "form_model": "residenceForm",
+          "form_keys": [
+            "detAddress"
+          ]
+        },
+        {
+          "code": "f03",
+          "name": "生产经营地址",
+          "section": "residence",
+          "comp_type": "tne-data-picker",
+          "form_model": "residenceForm",
+          "form_keys": [
+            "fisDistCode",
+            "detBusinessAddress"
+          ]
+        },
+        {
+          "code": "f04",
+          "name": "生产经营地详细地址",
+          "section": "residence",
+          "comp_type": "el-input",
+          "form_model": "residenceForm",
+          "form_keys": [
+            "detBusinessAddress"
+          ]
+        },
+        {
+          "code": "f05",
+          "name": "是否自贸区",
+          "section": "residence",
+          "comp_type": "el-radio-group",
+          "form_model": "residenceForm",
+          "form_keys": [
+            "zmqFlag"
+          ]
+        },
+        {
+          "code": "f06",
+          "name": "企业类型",
+          "section": "business",
+          "comp_type": "tne-select-tree",
+          "form_model": "businessDataInfo",
+          "form_keys": [
+            "entType",
+            "entTypeName"
+          ]
+        },
+        {
+          "code": "f07",
+          "name": "行业类型",
+          "section": "business",
+          "comp_type": "tne-select-tree",
+          "form_model": "busineseForm",
+          "form_keys": [
+            "itemIndustryTypeCode",
+            "industryTypeName"
+          ]
+        },
+        {
+          "code": "f08",
+          "name": "经营范围",
+          "section": "business",
+          "comp_type": "tni-business-range",
+          "form_model": "busineseForm",
+          "form_keys": [
+            "busiAreaData",
+            "genBusiArea",
+            "busiAreaCode",
+            "busiAreaName",
+            "areaCategory"
+          ]
+        },
+        {
+          "code": "f09",
+          "name": "企业名称",
+          "section": "basic",
+          "comp_type": "el-input",
+          "form_model": "businessDataInfo",
+          "form_keys": [
+            "name",
+            "entName"
+          ]
+        },
+        {
+          "code": "f10",
+          "name": "注册资本",
+          "section": "basic",
+          "comp_type": "el-input",
+          "form_model": "businessDataInfo",
+          "form_keys": [
+            "registerCapital",
+            "subCapital"
+          ]
+        },
+        {
+          "code": "f11",
+          "name": "设立方式",
+          "section": "basic",
+          "comp_type": "el-radio-group",
+          "form_model": "businessDataInfo",
+          "form_keys": [
+            "setWay"
+          ]
+        },
+        {
+          "code": "f12",
+          "name": "从业人数",
+          "section": "basic",
+          "comp_type": "el-input",
+          "form_model": "businessDataInfo",
+          "form_keys": [
+            "operatorNum"
+          ]
+        },
+        {
+          "code": "f13",
+          "name": "核算方式",
+          "section": "basic",
+          "comp_type": "el-radio-group",
+          "form_model": "businessDataInfo",
+          "form_keys": [
+            "accountType"
+          ]
+        },
+        {
+          "code": "f14",
+          "name": "经营期限",
+          "section": "basic",
+          "comp_type": "el-radio-group",
+          "form_model": "busineseForm",
+          "form_keys": [
+            "busiPeriod"
+          ]
+        },
+        {
+          "code": "f15",
+          "name": "是否需要纸质营业执照",
+          "section": "basic",
+          "comp_type": "el-radio-group",
+          "form_model": "businessDataInfo",
+          "form_keys": [
+            "licenseRadio"
+          ]
+        },
+        {
+          "code": "f16",
+          "name": "申请执照副本数量",
+          "section": "basic",
+          "comp_type": "el-input",
+          "form_model": "businessDataInfo",
+          "form_keys": [
+            "copyCerNum"
+          ]
+        },
+        {
+          "code": "f17",
+          "name": "联系电话",
+          "section": "basic",
+          "comp_type": "el-input",
+          "form_model": "businessDataInfo",
+          "form_keys": [
+            "entPhone"
+          ]
+        },
+        {
+          "code": "f18",
+          "name": "邮政编码",
+          "section": "basic",
+          "comp_type": "el-input",
+          "form_model": "businessDataInfo",
+          "form_keys": [
+            "postcode"
+          ]
+        },
+        {
+          "code": "f19",
+          "name": "其他经营地址",
+          "section": "other",
+          "comp_type": "button",
+          "form_model": null,
+          "form_keys": null
+        },
+        {
+          "code": "f20",
+          "name": "多证合一",
+          "section": "other",
+          "comp_type": "button",
+          "form_model": null,
+          "form_keys": null
+        },
+        {
+          "code": "f21",
+          "name": "登记机关/市场监管所",
+          "section": "other",
+          "comp_type": "el-select",
+          "form_model": "businessDataInfo",
+          "form_keys": [
+            "regOrg",
+            "regOrgName"
+          ]
         }
       ]
     }
