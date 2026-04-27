@@ -1,5 +1,762 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-04-27T14:52:29",
-  "fields": {}
+  "last_updated": "2026-04-27T15:06:51",
+  "fields": {
+    "materialVoList": {
+      "label": "materialVoList",
+      "source": "SlUploadMaterial.busiData.uploadMaterialVo[0].materialVoList",
+      "is_open": false,
+      "last_seen": "2026-04-27T15:06:51",
+      "options": [
+        {
+          "code": "",
+          "name": "人像面.jpg"
+        },
+        {
+          "code": "",
+          "name": "国徽面.jpg"
+        },
+        {
+          "code": "",
+          "name": "人像面.jpg"
+        },
+        {
+          "code": "",
+          "name": "国徽面.jpg"
+        }
+      ]
+    },
+    "taxBusinessTypeList": {
+      "label": "taxBusinessTypeList",
+      "source": "TaxInvoice.busiData.taxInvoiceGxVo.taxBusinessTypeList",
+      "is_open": false,
+      "last_seen": "2026-04-27T15:06:51",
+      "options": [
+        {
+          "code": "10",
+          "name": "工业"
+        },
+        {
+          "code": "20",
+          "name": "商业"
+        },
+        {
+          "code": "30",
+          "name": "服务业"
+        },
+        {
+          "code": "90",
+          "name": "其他"
+        }
+      ]
+    },
+    "_fieldList_BasicInfo": {
+      "label": "BasicInfo 表单字段元数据",
+      "source": "BasicInfo.busiData.fieldList",
+      "is_open": false,
+      "last_seen": "2026-04-27T15:06:51",
+      "options": [
+        {
+          "code": "name",
+          "name": "企业名称：",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "BasicInfo",
+          "readonly": "Y",
+          "sensitive": "",
+          "gjh_code": "register.establish.BasicInfo.name",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "shouldInvestWay",
+          "name": "出资方式：",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "BasicInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.BasicInfo.shouldInvestWay",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "isBusinessRegMode",
+          "name": "是否选择商事登记模式：",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "BasicInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.BasicInfo.isBusinessRegMode",
+          "limit_length": null,
+          "sort": 2
+        },
+        {
+          "code": "subCapital",
+          "name": "出资额：",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "BasicInfo",
+          "readonly": "Y",
+          "sensitive": "",
+          "gjh_code": "register.establish.BasicInfo.registerCapital_4540",
+          "limit_length": null,
+          "sort": 3
+        },
+        {
+          "code": "busiPeriod",
+          "name": "经营有效期：",
+          "must_flag": "0",
+          "ent_type": "4540",
+          "comp_url": "BasicInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.BasicInfo.busiPeriodGrdz",
+          "limit_length": null,
+          "sort": 4
+        },
+        {
+          "code": "busiDateEnd",
+          "name": "经营有效期：",
+          "must_flag": "0",
+          "ent_type": "4540",
+          "comp_url": "BasicInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.BasicInfo.busiPeriodGrdz",
+          "limit_length": null,
+          "sort": 4
+        },
+        {
+          "code": "accountType",
+          "name": "核算方式：",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "BasicInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.BasicInfo.accountType",
+          "limit_length": null,
+          "sort": 6
+        },
+        {
+          "code": "operatorNum",
+          "name": "从业人数：",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "BasicInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.BasicInfo.operatorNum",
+          "limit_length": null,
+          "sort": 7
+        },
+        {
+          "code": "postcode",
+          "name": "邮政编码：",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "BasicInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.BasicInfo.postcode",
+          "limit_length": null,
+          "sort": 8
+        },
+        {
+          "code": "entPhone",
+          "name": "联系电话：",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "BasicInfo",
+          "readonly": "",
+          "sensitive": "1",
+          "gjh_code": "register.establish.BasicInfo.entPhone",
+          "limit_length": null,
+          "sort": 9
+        },
+        {
+          "code": "copyCerNum",
+          "name": "申请执照副本数量：",
+          "must_flag": "0",
+          "ent_type": "4540",
+          "comp_url": "BasicInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.BasicInfo.copyCerNum",
+          "limit_length": null,
+          "sort": 10
+        },
+        {
+          "code": "licenseRadio",
+          "name": "是否需要纸质营业执照：",
+          "must_flag": "0",
+          "ent_type": "4540",
+          "comp_url": "BasicInfo",
+          "readonly": "Y",
+          "sensitive": "",
+          "gjh_code": "register.establish.BasicInfo.licenseRadio",
+          "limit_length": null,
+          "sort": 10
+        },
+        {
+          "code": "industryTypeName",
+          "name": "行业类型名称",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "BasicInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "",
+          "limit_length": null,
+          "sort": 12
+        },
+        {
+          "code": "itemIndustryTypeCode",
+          "name": "行业类型：",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "BasicInfo",
+          "readonly": "Y",
+          "sensitive": "",
+          "gjh_code": "register.establish.BasicInfo.itemIndustryTypeCode",
+          "limit_length": null,
+          "sort": 12
+        },
+        {
+          "code": "businessData",
+          "name": "经营范围字符串",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "BasicInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "",
+          "limit_length": null,
+          "sort": 13
+        },
+        {
+          "code": "busiAreaName",
+          "name": "经营范围名称",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "BasicInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "",
+          "limit_length": null,
+          "sort": 13
+        },
+        {
+          "code": "busiAreaCode",
+          "name": "经营范围代码",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "BasicInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "",
+          "limit_length": null,
+          "sort": 13
+        },
+        {
+          "code": "businessArea",
+          "name": "经营范围（许可经营项目）：",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "BasicInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.BasicInfo.businessArea",
+          "limit_length": null,
+          "sort": 13
+        },
+        {
+          "code": "regOrgName",
+          "name": "登记机关名称",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "BasicInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "",
+          "limit_length": null,
+          "sort": 16
+        },
+        {
+          "code": "regOrg",
+          "name": "登记机关/市场监管所：",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "BasicInfo",
+          "readonly": "Y",
+          "sensitive": "",
+          "gjh_code": "register.establish.BasicInfo.regOrg",
+          "limit_length": null,
+          "sort": 16
+        },
+        {
+          "code": "freTraDis",
+          "name": "自贸区片区：",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "basicinfo.entdomicile.residence.streetCode.freTraDis",
+          "limit_length": null,
+          "sort": 2
+        },
+        {
+          "code": "zmqFlag",
+          "name": "是否自贸区：",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "alt.altregister.AltBaseInfo.AltEntDomicile.zmqFlag",
+          "limit_length": null,
+          "sort": 2
+        },
+        {
+          "code": "normAddFlag",
+          "name": "录入方式：",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "alt.altregister.AltBaseInfo.AltEntDomicile.addressEntryMode",
+          "limit_length": null,
+          "sort": 2
+        },
+        {
+          "code": "searchResultAddress",
+          "name": "查询结果：",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "alt.altregister.AltBaseInfo.AltEntDomicile.searchResultAddress",
+          "limit_length": null,
+          "sort": 2
+        },
+        {
+          "code": "providerCerNo",
+          "name": "房屋提供者证件号码：",
+          "must_flag": "0",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "alt.altregister.AltBaseInfo.AltEntDomicile.providerCerNo",
+          "limit_length": null,
+          "sort": 3
+        },
+        {
+          "code": "providerPhoneNum",
+          "name": "房屋提供者联系电话：",
+          "must_flag": "0",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "alt.AltBaseInfo.AltEntDomicile.providerPhoneNum",
+          "limit_length": null,
+          "sort": 3
+        },
+        {
+          "code": "floorNum",
+          "name": "录入具体房号",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "BasicInfo.EntDomicile.ResidenceHouse.floorNum",
+          "limit_length": null,
+          "sort": 3
+        },
+        {
+          "code": "ownershipCertificate",
+          "name": "权属证明：",
+          "must_flag": "0",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "altBaseInfo.AltEntDomicile.ownershipCertificate",
+          "limit_length": null,
+          "sort": 3
+        },
+        {
+          "code": "provider",
+          "name": "房屋提供者：",
+          "must_flag": "0",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "alt.altregister.AltBaseInfo.AltEntDomicile.provider",
+          "limit_length": null,
+          "sort": 3
+        },
+        {
+          "code": "providerUse",
+          "name": "房屋性质：",
+          "must_flag": "0",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "alt.altregister.AltBaseInfo.AltEntDomicile.providerUse",
+          "limit_length": null,
+          "sort": 3
+        },
+        {
+          "code": "certificateNo",
+          "name": "房产证编号：",
+          "must_flag": "0",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "alt.altregister.AltBaseInfo.AltEntDomicile.certificateNo",
+          "limit_length": null,
+          "sort": 6
+        },
+        {
+          "code": "useMode",
+          "name": "使用方式：",
+          "must_flag": "0",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "alt.altregister.AltBaseInfo.AltEntDomicile.useMode",
+          "limit_length": null,
+          "sort": 7
+        },
+        {
+          "code": "certificateInfo",
+          "name": "情况简介：",
+          "must_flag": "0",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "alt.AltBaseInfo.AltEntDomicile.certificateInfo",
+          "limit_length": null,
+          "sort": 9
+        },
+        {
+          "code": "distCode",
+          "name": "住所行政区划：",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "basicinfo.entdomicile.residence.distCode",
+          "limit_length": null,
+          "sort": 10
+        },
+        {
+          "code": "streetCode",
+          "name": "街道：",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "basicinfo.entdomicile.residence.streetCode",
+          "limit_length": null,
+          "sort": 11
+        },
+        {
+          "code": "detAddress",
+          "name": "详细地址：",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "basicinfo.entdomicile.residence.detAddress",
+          "limit_length": null,
+          "sort": 12
+        },
+        {
+          "code": "address",
+          "name": "企业住所：",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "basicinfo.entdomicile.residence.address",
+          "limit_length": null,
+          "sort": 13
+        },
+        {
+          "code": "providerUseDetails",
+          "name": "详情说明：",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "basicinfo.entdomicile.residence.providerUseDetails",
+          "limit_length": null,
+          "sort": 35
+        },
+        {
+          "code": "useModeDetails",
+          "name": "详情说明：",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "basicinfo.entdomicile.residence.useModeDetails",
+          "limit_length": null,
+          "sort": 37
+        },
+        {
+          "code": "certificateDate",
+          "name": "开始日期：",
+          "must_flag": "0",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "basicinfo.entdomicile.residence.certificateDate",
+          "limit_length": null,
+          "sort": 41
+        },
+        {
+          "code": "useLimit",
+          "name": "结束日期：",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "basicinfo.entdomicile.residence.useLimit",
+          "limit_length": null,
+          "sort": 42
+        },
+        {
+          "code": "regionCode",
+          "name": "生产经营地址：",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "basicinfo.entdomicile.residence.regionCode",
+          "limit_length": null,
+          "sort": 43
+        },
+        {
+          "code": "regionStreetCode",
+          "name": "生产经营地街道代码",
+          "must_flag": "0",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "basicinfo.entdomicile.residence.regionStreetCode",
+          "limit_length": null,
+          "sort": 44
+        },
+        {
+          "code": "detBusinessAddress",
+          "name": "生产经营地详细地址：",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "basicinfo.entdomicile.residence.detBusinessAddress",
+          "limit_length": null,
+          "sort": 45
+        },
+        {
+          "code": "businessAddress",
+          "name": "完整生产经营地址",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "BasicInfo.EntDomicile.ResidenceHouse",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "basicinfo.entdomicile.residence.businessAddress",
+          "limit_length": null,
+          "sort": 46
+        }
+      ]
+    },
+    "_fieldList_BusinessLicenceWay": {
+      "label": "BusinessLicenceWay 表单字段元数据",
+      "source": "BusinessLicenceWay.busiData.fieldList",
+      "is_open": false,
+      "last_seen": "2026-04-27T15:06:51",
+      "options": [
+        {
+          "code": "mainSign",
+          "name": "领取方式",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "BusinessLicenceWay",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.BusinessLicenceWay.mainSign",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "expressReceiver",
+          "name": "收件人",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "BusinessLicenceWay",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.BusinessLicenceWay.expressReceiver",
+          "limit_length": null,
+          "sort": null
+        },
+        {
+          "code": "phone",
+          "name": "移动电话",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "BusinessLicenceWay",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.BusinessLicenceWay.phone",
+          "limit_length": null,
+          "sort": null
+        },
+        {
+          "code": "postCode",
+          "name": "邮政编码",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "BusinessLicenceWay",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.BusinessLicenceWay.postCode",
+          "limit_length": null,
+          "sort": null
+        },
+        {
+          "code": "wholeAddress",
+          "name": "邮寄地址",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "BusinessLicenceWay",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.BusinessLicenceWay.wholeAddress",
+          "limit_length": null,
+          "sort": null
+        }
+      ]
+    },
+    "_fieldList_ComplementInfo": {
+      "label": "ComplementInfo 表单字段元数据",
+      "source": "ComplementInfo.busiData.partyBuildDto.fieldList",
+      "is_open": false,
+      "last_seen": "2026-04-27T15:06:51",
+      "options": [
+        {
+          "code": "estParSign",
+          "name": "是否建立党组织建制",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "ComplementInfo.partyBuild",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.ComplementInfo.partyBuild.estParSign",
+          "limit_length": null,
+          "sort": null
+        },
+        {
+          "code": "parOrgw",
+          "name": "党组织组建方式",
+          "must_flag": "0",
+          "ent_type": "",
+          "comp_url": "ComplementInfo.partyBuild",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.ComplementInfo.partyBuild.parOrgw",
+          "limit_length": null,
+          "sort": null
+        },
+        {
+          "code": "parIns",
+          "name": "党组织建制",
+          "must_flag": "0",
+          "ent_type": "",
+          "comp_url": "ComplementInfo.partyBuild",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.ComplementInfo.partyBuild.parIns",
+          "limit_length": null,
+          "sort": null
+        },
+        {
+          "code": "numParM",
+          "name": "党员人数",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "ComplementInfo.partyBuild",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.ComplementInfo.partyBuild.numParM",
+          "limit_length": null,
+          "sort": null
+        },
+        {
+          "code": "anOrgParSign",
+          "name": "本年检年度组建党组织标志",
+          "must_flag": "0",
+          "ent_type": "",
+          "comp_url": "ComplementInfo.partyBuild",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.ComplementInfo.partyBuild.anOrgParSign",
+          "limit_length": null,
+          "sort": null
+        },
+        {
+          "code": "resParMSign",
+          "name": "法定代表人党员标志",
+          "must_flag": "0",
+          "ent_type": "",
+          "comp_url": "ComplementInfo.partyBuild",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.ComplementInfo.partyBuild.resParMSign",
+          "limit_length": null,
+          "sort": null
+        },
+        {
+          "code": "resParSecSign",
+          "name": "法定代表人党组织书记标志",
+          "must_flag": "0",
+          "ent_type": "",
+          "comp_url": "ComplementInfo.partyBuild",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.ComplementInfo.partyBuild.resParSecSign",
+          "limit_length": null,
+          "sort": null
+        }
+      ]
+    }
+  }
 }

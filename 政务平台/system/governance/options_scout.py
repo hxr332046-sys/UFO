@@ -117,8 +117,13 @@ class OptionsScout:
         if isinstance(node, dict):
             for k, v in node.items():
                 path = f"{prefix}.{k}"
+                # 0. ★ 特殊：fieldList — 字段元数据（必填/描述/约束）
+                if k == "fieldList" and isinstance(v, list) and v and isinstance(v[0], dict):
+                    metas = self._extract_field_metadatas(v, component)
+                    if metas:
+                        out.append(self._record_field_metadata(component, path, metas))
                 # 1. List/Options 后缀 + 数组 → 候选枚举数组
-                if isinstance(v, list) and v and self._is_list_suffix(k):
+                elif isinstance(v, list) and v and self._is_list_suffix(k):
                     options = self._extract_options_from_list(v)
                     if options:
                         added = self.opt.upsert_options(
@@ -144,6 +149,52 @@ class OptionsScout:
                     # 这个可能不是枚举，但里面可能有嵌套枚举
                     out.extend(self._walk(v[0], component, path + "[0]", depth + 1))
         return out
+
+    @staticmethod
+    def _extract_field_metadatas(items: List[Dict[str, Any]],
+                                  component: str) -> List[Dict[str, Any]]:
+        """从 fieldList[i] 提取每字段的元数据。"""
+        out: List[Dict[str, Any]] = []
+        for it in items:
+            if not isinstance(it, dict):
+                continue
+            field = it.get("field")
+            if not field:
+                continue
+            out.append({
+                "code": str(field),                  # 字段名作为 code
+                "name": str(it.get("fieldDesc") or field),  # 中文描述作为 name
+                "must_flag": str(it.get("mustFlag", "")),
+                "ent_type": str(it.get("entType") or ""),
+                "comp_url": str(it.get("compUrl") or component),
+                "readonly": str(it.get("readonly") or ""),
+                "sensitive": str(it.get("sensitive") or ""),
+                "gjh_code": str(it.get("gjhCode") or ""),
+                "limit_length": it.get("limitLength"),
+                "sort": it.get("sort"),
+            })
+        return out
+
+    def _record_field_metadata(self, component: str, path: str,
+                                metas: List[Dict[str, Any]]) -> ScoutFinding:
+        """把字段元数据登记到一个特殊字段 _fieldList_<component>。"""
+        target_key = f"_fieldList_{component}"
+        added = self.opt.upsert_options(
+            field_name=target_key,
+            options=metas,
+            label=f"{component} 表单字段元数据",
+            source=f"{component}.{path}",
+        )
+        if self.log:
+            must_count = sum(1 for m in metas if m.get("must_flag") == "1")
+            print(f"[scout] {component}.{path}: +{added} field-metas "
+                  f"(必填 {must_count}/{len(metas)})")
+        return ScoutFinding(
+            component=component,
+            field_path=path,
+            options_count=len(metas),
+            sample=metas[:3],
+        )
 
     # ─── 启发式识别 ──────────────────────────────
 
