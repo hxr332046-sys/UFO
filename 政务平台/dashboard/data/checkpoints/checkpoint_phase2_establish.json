@@ -10,18 +10,20 @@
   "completed_step": 24,
   "resume_index": 25,
   "context_state": {
-    "phase1_busi_id": "2048623804703440896",
+    "phase1_busi_id": "2048624034216157186",
     "name_id": "2048622963047604225",
-    "establish_busi_id": "2048624034216157186",
+    "establish_busi_id": "2048666386683142145",
     "phase2_progress_contract_version": 8,
     "current_status": "10",
+    "resume_source": "active_matter",
     "server_status": "10",
     "server_busi_type": "02",
     "server_name_id": "2048622963047604225",
+    "server_busi_id": "2048624034216157186",
     "position_probe_code": "00000",
     "position_probe_result_type": "0",
     "phase2_driver_snapshot": {
-      "establish_busiId": "2048624034216157186",
+      "establish_busiId": "2048666386683142145",
       "basicinfo_signInfo": "-707167196",
       "last_sign_info": "-707167196",
       "basicinfo_busiData": {
@@ -1708,7 +1710,7 @@
         "busiCompUrlPaths": "%5B%5D"
       },
       "last_save_flowData": {
-        "busiId": "2048624034216157186",
+        "busiId": "2048666386683142145",
         "entType": "4540",
         "busiType": "02",
         "ywlbSign": "4",
@@ -1724,7 +1726,7 @@
       },
       "MemberBaseInfo_busiData": {
         "flowData": {
-          "busiId": "2048624034216157186",
+          "busiId": "2048666386683142145",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
@@ -2182,7 +2184,7 @@
       "MemberBaseInfo_signInfo": "-707167196",
       "MemberPost_busiData": {
         "flowData": {
-          "busiId": "2048624034216157186",
+          "busiId": "2048666386683142145",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
@@ -2362,7 +2364,7 @@
               "submitVo": null,
               "page": null,
               "list": null,
-              "itemId": "2048624060581150720",
+              "itemId": "2048666414600028160",
               "fieldList": null,
               "busiComp": null,
               "subBusiCompMap": null,
@@ -2424,7 +2426,7 @@
               "submitVo": null,
               "page": null,
               "list": null,
-              "itemId": "2048624060581150720",
+              "itemId": "2048666414600028160",
               "fieldList": null,
               "busiComp": null,
               "subBusiCompMap": null,
@@ -2486,7 +2488,7 @@
               "submitVo": null,
               "page": null,
               "list": null,
-              "itemId": "2048624060581150720",
+              "itemId": "2048666414600028160",
               "fieldList": null,
               "busiComp": null,
               "subBusiCompMap": null,
@@ -2548,7 +2550,7 @@
               "submitVo": null,
               "page": null,
               "list": null,
-              "itemId": "2048624060581150720",
+              "itemId": "2048666414600028160",
               "fieldList": null,
               "busiComp": null,
               "subBusiCompMap": null,
@@ -2672,7 +2674,7 @@
         "submitVo": null,
         "page": null,
         "list": null,
-        "itemId": "2048624060581150720",
+        "itemId": "2048666414600028160",
         "fieldList": null,
         "busiComp": null,
         "subBusiCompMap": null,
@@ -2710,7 +2712,7 @@
         "isLoginInfo": "1",
         "invType": null
       },
-      "memberpool_item_id": "2048624060581150720",
+      "memberpool_item_id": "2048666414600028160",
       "MemberInfo_signInfo": "-707167196",
       "MemberInfo_srv_linkData": {
         "token": "",
@@ -2773,7 +2775,7 @@
       },
       "MemberPool_busiData": {
         "flowData": {
-          "busiId": "2048624034216157186",
+          "busiId": "2048666386683142145",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
@@ -2990,7 +2992,7 @@
       "MemberPool_signInfo": "-707167196",
       "ComplementInfo_busiData": {
         "flowData": {
-          "busiId": "2048624034216157186",
+          "busiId": "2048666386683142145",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
@@ -3301,7 +3303,7 @@
       "ComplementInfo_signInfo": "-707167196",
       "TaxInvoice_busiData": {
         "flowData": {
-          "busiId": "2048624034216157186",
+          "busiId": "2048666386683142145",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
@@ -3593,7 +3595,7 @@
       "TaxInvoice_signInfo": "-707167196",
       "SlUploadMaterial_busiData": {
         "flowData": {
-          "busiId": "2048624034216157186",
+          "busiId": "2048666386683142145",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
@@ -3793,7 +3795,7 @@
             "maxCount": "10",
             "materialVoList": [
               {
-                "id": "2048624218228662274",
+                "id": "2048666551175356418",
                 "name": "住所证明.PDF",
                 "cerNo": null,
                 "content": null,
@@ -3826,7 +3828,7 @@
             "maxCount": "10",
             "materialVoList": [
               {
-                "id": "2048624222762704897",
+                "id": "2048666556430819329",
                 "name": "微信图片_20260411104217_91_17.jpg",
                 "cerNo": null,
                 "content": null,
@@ -3937,7 +3939,7 @@
       "SlUploadMaterial_signInfo": "-707167196",
       "BusinessLicenceWay_busiData": {
         "flowData": {
-          "busiId": "2048624034216157186",
+          "busiId": "2048666386683142145",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
@@ -4022,8 +4024,7 @@
           "loadbusinessList",
           "loadbusinessData",
           "operationBusinessData",
-          "loadCurrentLocation",
-          "producePdf"
+          "loadCurrentLocation"
         ],
         "currentLocationVo": {
           "busiType": "02",
@@ -4121,7 +4122,7 @@
           "userid": null,
           "orgid": null,
           "expressCom": null,
-          "mailSign": "0",
+          "mailSign": null,
           "regionCode": "450921",
           "regionName": null,
           "regionStreetCode": null,
@@ -4131,11 +4132,11 @@
           "isPayType": null,
           "wholeAddress": "容州镇车站西路富盛广场1幢3203号房",
           "mailBusinessId": null,
-          "cerNo": "",
+          "cerNo": null,
           "encryptedCerNo": null,
-          "cerType": "",
-          "email": "",
-          "tel": "",
+          "cerType": null,
+          "email": null,
+          "tel": null,
           "encryptedTel": null,
           "havePostage": false,
           "haveAddress": false,
@@ -4312,7 +4313,7 @@
       "BusinessLicenceWay_signInfo": "-707167196",
       "YbbSelect_busiData": {
         "flowData": {
-          "busiId": "2048624034216157186",
+          "busiId": "2048666386683142145",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
@@ -4512,7 +4513,27 @@
       },
       "YbbSelect_signInfo": "-707167196"
     },
-    "phase2_driver_busi_id": "2048623804703440896",
+    "pipeline_name": "phase2_establish",
+    "step_execution_counts": {
+      "12:[13] YbbSelect/loadBusinessDataInfo [D0021 optional]": 1,
+      "13:[14] establish/BasicInfo/loadBusinessDataInfo": 1,
+      "14:[15] establish/BasicInfo/operationBusinessDataInfo [save]": 1,
+      "15:[16] establish/MemberPost/operationBusinessDataInfo [save]": 1,
+      "16:[17] establish/MemberPool/loadBusinessInfoList": 1,
+      "17:[18] establish/MemberInfo/operationBusinessDataInfo [save]": 1,
+      "18:[19] establish/ComplementInfo/operationBusinessDataInfo [save]": 1,
+      "19:[20] establish/TaxInvoice/operationBusinessDataInfo [save]": 1,
+      "20:[21] establish/SlUploadMaterial [upload+bind+save]": 1,
+      "21:[22] establish/BusinessLicenceWay/operationBusinessDataInfo [save]": 1,
+      "22:[23] establish/YbbSelect/operationBusinessDataInfo [save]": 1,
+      "23:[24] establish/PreElectronicDoc/operationBusinessDataInfo [save]": 1,
+      "24:[25] establish/PreSubmitSuccess/loadBusinessDataInfo [终点]": 1,
+      "25:[26] establish/submit [最终提交]": 1
+    },
+    "last_attempted_step_index": 25,
+    "last_attempted_step_name": "[26] establish/submit [最终提交]",
+    "last_attempted_step_count": 1,
+    "phase2_driver_busi_id": "2048624034216157186",
     "phase2_driver_ent_type": "4540",
     "phase2_driver_busi_type": "01",
     "phase2_driver_name_id": "2048622963047604225",
@@ -4521,10 +4542,14 @@
     "last_step_ok": false,
     "last_response_code": "STEP_POSITION_GUARD",
     "last_response_result_type": "",
+    "server_curr_comp_url": "YbbSelect",
+    "current_comp_url": "YbbSelect",
     "last_ok_step_index": 24,
     "last_ok_step_name": "[25] establish/PreSubmitSuccess/loadBusinessDataInfo [终点]",
     "last_ok_code": "D0010",
     "last_ok_result_type": "",
+    "current_busi_type": "02",
+    "current_ent_type": "4540",
     "current_busi_comp_comb": {
       "id": null,
       "compUrl": null
@@ -4570,8 +4595,7 @@
       "retryable": false,
       "requires_human": false
     },
-    "current_busi_type": "02",
-    "current_ent_type": "4540",
+    "last_response_message": "establish/submit [最终提交] 被本地编排护栏拦截：当前感知位置为 YbbSelect，不应直接执行该步骤。",
     "last_problem": {
       "business_stage_name": "第二阶段：信息填报",
       "page_name": "未知页面",
@@ -4595,21 +4619,6 @@
     "problems": [
       {
         "business_stage_name": "第二阶段：信息填报",
-        "page_name": "云帮办入口探测",
-        "protocol_step": 13,
-        "step_name": "[13] YbbSelect/loadBusinessDataInfo [D0021 optional]",
-        "code": "D0021",
-        "result_type": "",
-        "message": "",
-        "category": "optional_component_unavailable",
-        "severity": "warning",
-        "meaning": "可选组件不可用或当前用户无该可选入口权限",
-        "suggested_action": "如果该 step 标记 optional，可跳过；否则查询当前位置确认是否应进入下一页面。",
-        "recovery_action": "skip_if_optional",
-        "current_status": "10"
-      },
-      {
-        "business_stage_name": "第二阶段：信息填报",
         "page_name": "未知页面",
         "protocol_step": 26,
         "step_name": "[26] establish/submit [最终提交]",
@@ -4628,26 +4637,7 @@
           "PreSubmitSuccess"
         ]
       }
-    ],
-    "server_curr_comp_url": "YbbSelect",
-    "current_comp_url": "YbbSelect",
-    "resume_source": "active_matter",
-    "server_busi_id": "2048624034216157186",
-    "resume_realigned_component": "BusinessLicenceWay",
-    "resume_realigned_from_step": 23,
-    "resume_realigned_to_step": 22,
-    "pipeline_name": "phase2_establish",
-    "step_execution_counts": {
-      "21:[22] establish/BusinessLicenceWay/operationBusinessDataInfo [save]": 1,
-      "22:[23] establish/YbbSelect/operationBusinessDataInfo [save]": 1,
-      "23:[24] establish/PreElectronicDoc/operationBusinessDataInfo [save]": 1,
-      "24:[25] establish/PreSubmitSuccess/loadBusinessDataInfo [终点]": 1,
-      "25:[26] establish/submit [最终提交]": 1
-    },
-    "last_attempted_step_index": 25,
-    "last_attempted_step_name": "[26] establish/submit [最终提交]",
-    "last_attempted_step_count": 1,
-    "last_response_message": "establish/submit [最终提交] 被本地编排护栏拦截：当前感知位置为 YbbSelect，不应直接执行该步骤。"
+    ]
   },
   "last_step": {
     "name": "establish/submit [最终提交]",
@@ -4757,5 +4747,5 @@
       "requires_human": false
     }
   },
-  "timestamp": "2026-04-27 12:43:56"
+  "timestamp": "2026-04-27 15:29:21"
 }

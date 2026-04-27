@@ -1,6 +1,6 @@
 {
   "schema": "ufo.node_asset.v1",
-  "generated_at": "2026-04-27 12:43:56",
+  "generated_at": "2026-04-27 15:29:21",
   "comp_url": "YbbSelect",
   "page_name": "云帮办流程模式选择",
   "business_stage_name": "第二阶段：信息填报",
@@ -64,13 +64,13 @@
             "stage": "connect",
             "error": "URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>"
           },
-          "busiId": "2048624034216157186",
+          "busiId": "2048666386683142145",
           "nameId": "2048622963047604225",
           "server_curr_comp_url": "YbbSelect",
           "server_status": "10",
           "server_busi_type": "02",
           "server_name_id": "2048622963047604225",
-          "server_busi_id": "2048624034216157186",
+          "server_busi_id": "2048666386683142145",
           "expected_components": [
             "PreElectronicDoc",
             "PreSubmitSuccess"
@@ -84,7 +84,7 @@
     ],
     "process_to_busi_comp": "nameshow|0,fill|1-26,confirm|27,preTrial|28,signature|29,audit|30,notification|31,busiLicense|32",
     "flow_data_sample": {
-      "busiId": "2048624034216157186",
+      "busiId": "2048666386683142145",
       "entType": "4540",
       "busiType": "02",
       "ywlbSign": "4",
@@ -296,7 +296,7 @@
       "第二阶段：信息填报"
     ],
     "latest_flow_data": {
-      "busiId": "2048624034216157186",
+      "busiId": "2048666386683142145",
       "entType": "4540",
       "busiType": "02",
       "ywlbSign": "4",
@@ -443,13 +443,13 @@
             "stage": "connect",
             "error": "URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>"
           },
-          "busiId": "2048624034216157186",
+          "busiId": "2048666386683142145",
           "nameId": "2048622963047604225",
           "server_curr_comp_url": "YbbSelect",
           "server_status": "10",
           "server_busi_type": "02",
           "server_name_id": "2048622963047604225",
-          "server_busi_id": "2048624034216157186",
+          "server_busi_id": "2048666386683142145",
           "expected_components": [
             "PreElectronicDoc",
             "PreSubmitSuccess"

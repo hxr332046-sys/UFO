@@ -1,6 +1,6 @@
 {
   "schema": "ufo.node_asset.v1",
-  "generated_at": "2026-04-27 12:43:56",
+  "generated_at": "2026-04-27 15:29:21",
   "comp_url": "BusinessLicenceWay",
   "page_name": "营业执照领取",
   "business_stage_name": "第二阶段：信息填报",
@@ -23,8 +23,7 @@
       "loadbusinessList",
       "loadbusinessData",
       "operationBusinessData",
-      "loadCurrentLocation",
-      "producePdf"
+      "loadCurrentLocation"
     ],
     "observed_actions": [
       "save"
@@ -53,13 +52,13 @@
         "followup_code": null,
         "followup_message": "",
         "protocol_extracted": {
-          "busiId": "2048624034216157186",
+          "busiId": "2048666386683142145",
           "nameId": "2048622963047604225",
           "server_curr_comp_url": "BusinessLicenceWay",
           "server_status": "10",
           "server_busi_type": "02",
           "server_name_id": "2048622963047604225",
-          "server_busi_id": "2048624034216157186",
+          "server_busi_id": "2048666386683142145",
           "expected_components": [
             "YbbSelect",
             "PreElectronicDoc",
@@ -75,7 +74,7 @@
     ],
     "process_to_busi_comp": "nameshow|0,fill|1-26,confirm|27,preTrial|28,signature|29,audit|30,notification|31,busiLicense|32",
     "flow_data_sample": {
-      "busiId": "2048624034216157186",
+      "busiId": "2048666386683142145",
       "entType": "4540",
       "busiType": "02",
       "ywlbSign": "4",
@@ -272,7 +271,7 @@
       "第二阶段：信息填报"
     ],
     "latest_flow_data": {
-      "busiId": "2048624034216157186",
+      "busiId": "2048666386683142145",
       "entType": "4540",
       "busiType": "02",
       "ywlbSign": "4",
@@ -409,13 +408,13 @@
         "followup_code": null,
         "followup_message": "",
         "protocol_extracted": {
-          "busiId": "2048624034216157186",
+          "busiId": "2048666386683142145",
           "nameId": "2048622963047604225",
           "server_curr_comp_url": "BusinessLicenceWay",
           "server_status": "10",
           "server_busi_type": "02",
           "server_name_id": "2048622963047604225",
-          "server_busi_id": "2048624034216157186",
+          "server_busi_id": "2048666386683142145",
           "expected_components": [
             "YbbSelect",
             "PreElectronicDoc",

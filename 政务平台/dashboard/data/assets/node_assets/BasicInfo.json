@@ -1,9 +1,9 @@
 {
   "schema": "ufo.node_asset.v1",
-  "generated_at": "2026-04-27 12:43:56",
+  "generated_at": "2026-04-27 15:29:21",
   "comp_url": "BasicInfo",
   "page_name": "基本信息",
-  "business_stage_name": "",
+  "business_stage_name": "第二阶段：信息填报",
   "asset_quality": {
     "ui_capture_valid": true,
     "flags": []
@@ -15,6 +15,7 @@
     "load_current_location",
     "form_fields",
     "radio_selection",
+    "save",
     "progression_transition"
   ],
   "protocol_contract": {
@@ -24,8 +25,64 @@
       "operationBusinessData",
       "loadCurrentLocation"
     ],
-    "observed_actions": [],
-    "observed_steps": [],
+    "observed_actions": [
+      "load_business_data",
+      "save"
+    ],
+    "observed_steps": [
+      {
+        "step_name": "establish/BasicInfo/loadBusinessDataInfo",
+        "protocol_step": 14,
+        "action": "load_business_data",
+        "action_semantics": "",
+        "action_label": "",
+        "ok": true,
+        "code": "00000",
+        "result_type": "0",
+        "message": "",
+        "category": "success",
+        "severity": "info",
+        "page_name": "基本信息",
+        "business_stage_name": "第二阶段：信息填报",
+        "expected_components": [],
+        "followup_component": null,
+        "followup_code": null,
+        "followup_message": "",
+        "protocol_extracted": {
+          "busiId": null,
+          "nameId": "2048622963047604225",
+          "server_curr_comp_url": "BasicInfo",
+          "server_status": "10",
+          "server_busi_type": "02"
+        }
+      },
+      {
+        "step_name": "establish/BasicInfo/operationBusinessDataInfo [save]",
+        "protocol_step": 15,
+        "action": "save",
+        "action_semantics": "",
+        "action_label": "",
+        "ok": true,
+        "code": "00000",
+        "result_type": "0",
+        "message": "",
+        "category": "success",
+        "severity": "info",
+        "page_name": "基本信息保存",
+        "business_stage_name": "第二阶段：信息填报",
+        "expected_components": [],
+        "followup_component": null,
+        "followup_code": null,
+        "followup_message": "",
+        "protocol_extracted": {
+          "busiId": "2048666386683142145",
+          "nameId": "2048622963047604225",
+          "server_curr_comp_url": "BasicInfo",
+          "server_status": "10",
+          "server_busi_type": "02"
+        }
+      }
+    ],
     "expected_components": [],
     "process_to_busi_comp": "nameshow|0,fill|1-26,confirm|27,preTrial|28,signature|29,audit|30,notification|31,busiLicense|32",
     "flow_data_sample": {
@@ -708,15 +765,24 @@
     "messages": []
   },
   "error_assets": {
-    "codes": [],
-    "categories": [],
+    "codes": [
+      "00000"
+    ],
+    "categories": [
+      "success"
+    ],
     "messages": [],
     "suggested_actions": [],
     "problems": []
   },
   "runtime_assets": {
-    "page_names": [],
-    "business_stage_names": [],
+    "page_names": [
+      "基本信息",
+      "基本信息保存"
+    ],
+    "business_stage_names": [
+      "第二阶段：信息填报"
+    ],
     "latest_flow_data": {
       "busiId": null,
       "entType": "4540",
@@ -831,7 +897,60 @@
       "retryable": false,
       "requires_human": false
     },
-    "recent_steps": []
+    "recent_steps": [
+      {
+        "step_name": "establish/BasicInfo/loadBusinessDataInfo",
+        "protocol_step": 14,
+        "action": "load_business_data",
+        "action_semantics": "",
+        "action_label": "",
+        "ok": true,
+        "code": "00000",
+        "result_type": "0",
+        "message": "",
+        "category": "success",
+        "severity": "info",
+        "page_name": "基本信息",
+        "business_stage_name": "第二阶段：信息填报",
+        "expected_components": [],
+        "followup_component": null,
+        "followup_code": null,
+        "followup_message": "",
+        "protocol_extracted": {
+          "busiId": null,
+          "nameId": "2048622963047604225",
+          "server_curr_comp_url": "BasicInfo",
+          "server_status": "10",
+          "server_busi_type": "02"
+        }
+      },
+      {
+        "step_name": "establish/BasicInfo/operationBusinessDataInfo [save]",
+        "protocol_step": 15,
+        "action": "save",
+        "action_semantics": "",
+        "action_label": "",
+        "ok": true,
+        "code": "00000",
+        "result_type": "0",
+        "message": "",
+        "category": "success",
+        "severity": "info",
+        "page_name": "基本信息保存",
+        "business_stage_name": "第二阶段：信息填报",
+        "expected_components": [],
+        "followup_component": null,
+        "followup_code": null,
+        "followup_message": "",
+        "protocol_extracted": {
+          "busiId": "2048666386683142145",
+          "nameId": "2048622963047604225",
+          "server_curr_comp_url": "BasicInfo",
+          "server_status": "10",
+          "server_busi_type": "02"
+        }
+      }
+    ]
   },
   "sources": {
     "survey_file": "D:\\UFO\\政务平台\\dashboard\\data\\records\\1151_establish_full_survey.json",

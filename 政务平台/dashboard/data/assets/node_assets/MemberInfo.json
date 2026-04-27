@@ -1,6 +1,6 @@
 {
   "schema": "ufo.node_asset.v1",
-  "generated_at": "2026-04-27 07:30:46",
+  "generated_at": "2026-04-27 15:29:21",
   "comp_url": "MemberInfo",
   "page_name": "成员信息",
   "business_stage_name": "第二阶段：信息填报",
@@ -36,8 +36,8 @@
         "followup_code": null,
         "followup_message": "",
         "protocol_extracted": {
-          "busiId": "2048544858885832706",
-          "nameId": "2048544825345122306",
+          "busiId": "2048666386683142145",
+          "nameId": "2048622963047604225",
           "server_curr_comp_url": "MemberPool",
           "server_status": "10",
           "server_busi_type": "02"
@@ -201,8 +201,8 @@
         "followup_code": null,
         "followup_message": "",
         "protocol_extracted": {
-          "busiId": "2048544858885832706",
-          "nameId": "2048544825345122306",
+          "busiId": "2048666386683142145",
+          "nameId": "2048622963047604225",
           "server_curr_comp_url": "MemberPool",
           "server_status": "10",
           "server_busi_type": "02"

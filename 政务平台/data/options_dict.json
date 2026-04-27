@@ -1,13 +1,61 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-04-27T15:06:51",
+  "last_updated": "2026-04-27T15:29:21",
   "fields": {
     "materialVoList": {
       "label": "materialVoList",
       "source": "SlUploadMaterial.busiData.uploadMaterialVo[0].materialVoList",
       "is_open": false,
-      "last_seen": "2026-04-27T15:06:51",
+      "last_seen": "2026-04-27T15:28:44",
       "options": [
+        {
+          "code": "",
+          "name": "人像面.jpg"
+        },
+        {
+          "code": "",
+          "name": "国徽面.jpg"
+        },
+        {
+          "code": "",
+          "name": "人像面.jpg"
+        },
+        {
+          "code": "",
+          "name": "国徽面.jpg"
+        },
+        {
+          "code": "",
+          "name": "人像面.jpg"
+        },
+        {
+          "code": "",
+          "name": "国徽面.jpg"
+        },
+        {
+          "code": "",
+          "name": "人像面.jpg"
+        },
+        {
+          "code": "",
+          "name": "国徽面.jpg"
+        },
+        {
+          "code": "",
+          "name": "人像面.jpg"
+        },
+        {
+          "code": "",
+          "name": "国徽面.jpg"
+        },
+        {
+          "code": "",
+          "name": "人像面.jpg"
+        },
+        {
+          "code": "",
+          "name": "国徽面.jpg"
+        },
         {
           "code": "",
           "name": "人像面.jpg"
@@ -30,7 +78,7 @@
       "label": "taxBusinessTypeList",
       "source": "TaxInvoice.busiData.taxInvoiceGxVo.taxBusinessTypeList",
       "is_open": false,
-      "last_seen": "2026-04-27T15:06:51",
+      "last_seen": "2026-04-27T15:28:28",
       "options": [
         {
           "code": "10",
@@ -54,7 +102,7 @@
       "label": "BasicInfo 表单字段元数据",
       "source": "BasicInfo.busiData.fieldList",
       "is_open": false,
-      "last_seen": "2026-04-27T15:06:51",
+      "last_seen": "2026-04-27T15:27:54",
       "options": [
         {
           "code": "name",
@@ -602,7 +650,7 @@
       "label": "BusinessLicenceWay 表单字段元数据",
       "source": "BusinessLicenceWay.busiData.fieldList",
       "is_open": false,
-      "last_seen": "2026-04-27T15:06:51",
+      "last_seen": "2026-04-27T15:28:49",
       "options": [
         {
           "code": "mainSign",
@@ -670,7 +718,7 @@
       "label": "ComplementInfo 表单字段元数据",
       "source": "ComplementInfo.busiData.partyBuildDto.fieldList",
       "is_open": false,
-      "last_seen": "2026-04-27T15:06:51",
+      "last_seen": "2026-04-27T15:28:23",
       "options": [
         {
           "code": "estParSign",
@@ -755,6 +803,230 @@
           "gjh_code": "register.establish.ComplementInfo.partyBuild.resParSecSign",
           "limit_length": null,
           "sort": null
+        }
+      ]
+    },
+    "_fieldList_MemberBaseInfo": {
+      "label": "MemberBaseInfo 表单字段元数据",
+      "source": "MemberBaseInfo.busiData.fieldList",
+      "is_open": false,
+      "last_seen": "2026-04-27T15:28:01",
+      "options": [
+        {
+          "code": "naturalFlag",
+          "name": "自然人标识（0- 非自然人 ，1-自然人）",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "MemberBaseInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.MemberBaseInfo.naturalFlag",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "name",
+          "name": "成员姓名",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "MemberBaseInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.MemberBaseInfo.name",
+          "limit_length": null,
+          "sort": 2
+        },
+        {
+          "code": "nationalityCode",
+          "name": "国籍",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "MemberBaseInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.MemberBaseInfo.nationalityCodeName",
+          "limit_length": null,
+          "sort": 3
+        },
+        {
+          "code": "invType",
+          "name": "投资人类型",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "MemberBaseInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.MemberInfo.InvestorNew.tzrlx",
+          "limit_length": null,
+          "sort": 3
+        },
+        {
+          "code": "cerType",
+          "name": "成员证件类型",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "MemberBaseInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.MemberBaseInfo.cerType",
+          "limit_length": null,
+          "sort": 4
+        },
+        {
+          "code": "cerNo",
+          "name": "成员证件号码",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "MemberBaseInfo",
+          "readonly": "",
+          "sensitive": "1",
+          "gjh_code": "register.establish.MemberBaseInfo.cerNo",
+          "limit_length": null,
+          "sort": 5
+        },
+        {
+          "code": "permitType",
+          "name": "成员证照类型",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "MemberBaseInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.MemberBaseInfo.permitType",
+          "limit_length": null,
+          "sort": 6
+        },
+        {
+          "code": "permitCode",
+          "name": "成员证照号码",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "MemberBaseInfo",
+          "readonly": "",
+          "sensitive": "1",
+          "gjh_code": "register.establish.MemberBaseInfo.permitCode",
+          "limit_length": null,
+          "sort": 7
+        },
+        {
+          "code": "postCode",
+          "name": "成员架构",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "MemberBaseInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.MemberBaseInfo.postCode",
+          "limit_length": null,
+          "sort": 8
+        },
+        {
+          "code": "imgInfo",
+          "name": "证件（照）上传:",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "MemberBaseInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.MemberBaseInfo.imgInfo",
+          "limit_length": null,
+          "sort": 9
+        },
+        {
+          "code": "sexCode",
+          "name": "成员性别",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "MemberBaseInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.MemberBaseInfo.sexCode",
+          "limit_length": null,
+          "sort": 10
+        },
+        {
+          "code": "nation",
+          "name": "成员民族",
+          "must_flag": "None",
+          "ent_type": "",
+          "comp_url": "MemberBaseInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.MemberBaseInfo.nation",
+          "limit_length": null,
+          "sort": 11
+        },
+        {
+          "code": "birthday",
+          "name": "出生日期",
+          "must_flag": "0",
+          "ent_type": "",
+          "comp_url": "MemberBaseInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.MemberBaseInfo.birthday",
+          "limit_length": null,
+          "sort": 12
+        },
+        {
+          "code": "certificateGrantor",
+          "name": "发证机关",
+          "must_flag": "0",
+          "ent_type": "",
+          "comp_url": "MemberBaseInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.MemberBaseInfo.certificateGrantor",
+          "limit_length": null,
+          "sort": 13
+        },
+        {
+          "code": "signDateStart",
+          "name": "证件有效期起：",
+          "must_flag": "0",
+          "ent_type": "",
+          "comp_url": "MemberBaseInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.MemberBaseInfo.signDateStart",
+          "limit_length": null,
+          "sort": 14
+        },
+        {
+          "code": "effectiveFlagTim",
+          "name": "长期：",
+          "must_flag": "0",
+          "ent_type": "",
+          "comp_url": "MemberBaseInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.MemberBaseInfo.effectiveFlagTim",
+          "limit_length": null,
+          "sort": 15
+        },
+        {
+          "code": "signDate",
+          "name": "证件有效期止：",
+          "must_flag": "0",
+          "ent_type": "",
+          "comp_url": "MemberBaseInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.MemberBaseInfo.signDate",
+          "limit_length": null,
+          "sort": 15
+        },
+        {
+          "code": "homeAddress",
+          "name": "住址：",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "MemberBaseInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.MemberBaseInfo.homeAddress",
+          "limit_length": null,
+          "sort": 16
         }
       ]
     }

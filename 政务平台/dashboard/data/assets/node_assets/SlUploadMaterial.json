@@ -1,6 +1,6 @@
 {
   "schema": "ufo.node_asset.v1",
-  "generated_at": "2026-04-27 12:43:56",
+  "generated_at": "2026-04-27 15:29:21",
   "comp_url": "SlUploadMaterial",
   "page_name": "材料补充",
   "business_stage_name": "",
@@ -29,7 +29,7 @@
     "expected_components": [],
     "process_to_busi_comp": "nameshow|0,fill|1-26,confirm|27,preTrial|28,signature|29,audit|30,notification|31,busiLicense|32",
     "flow_data_sample": {
-      "busiId": "2048624034216157186",
+      "busiId": "2048666386683142145",
       "entType": "4540",
       "busiType": "02",
       "ywlbSign": "4",
@@ -207,7 +207,7 @@
     "page_names": [],
     "business_stage_names": [],
     "latest_flow_data": {
-      "busiId": "2048624034216157186",
+      "busiId": "2048666386683142145",
       "entType": "4540",
       "busiType": "02",
       "ywlbSign": "4",

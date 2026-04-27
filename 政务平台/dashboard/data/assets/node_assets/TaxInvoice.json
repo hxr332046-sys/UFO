@@ -1,9 +1,9 @@
 {
   "schema": "ufo.node_asset.v1",
-  "generated_at": "2026-04-27 12:43:56",
+  "generated_at": "2026-04-27 15:29:21",
   "comp_url": "TaxInvoice",
   "page_name": "税务信息填报",
-  "business_stage_name": "",
+  "business_stage_name": "第二阶段：信息填报",
   "asset_quality": {
     "ui_capture_valid": false,
     "flags": [
@@ -15,6 +15,7 @@
     "load_business_data",
     "operation_business_data",
     "load_current_location",
+    "save",
     "progression_transition"
   ],
   "protocol_contract": {
@@ -24,12 +25,41 @@
       "operationBusinessData",
       "loadCurrentLocation"
     ],
-    "observed_actions": [],
-    "observed_steps": [],
+    "observed_actions": [
+      "save"
+    ],
+    "observed_steps": [
+      {
+        "step_name": "establish/TaxInvoice/operationBusinessDataInfo [save]",
+        "protocol_step": 20,
+        "action": "save",
+        "action_semantics": "",
+        "action_label": "",
+        "ok": true,
+        "code": "00000",
+        "result_type": "0",
+        "message": "",
+        "category": "success",
+        "severity": "info",
+        "page_name": "税务信息填报",
+        "business_stage_name": "第二阶段：信息填报",
+        "expected_components": [],
+        "followup_component": null,
+        "followup_code": null,
+        "followup_message": "",
+        "protocol_extracted": {
+          "busiId": "2048666386683142145",
+          "nameId": "2048622963047604225",
+          "server_curr_comp_url": "TaxInvoice",
+          "server_status": "10",
+          "server_busi_type": "02"
+        }
+      }
+    ],
     "expected_components": [],
     "process_to_busi_comp": "nameshow|0,fill|1-26,confirm|27,preTrial|28,signature|29,audit|30,notification|31,busiLicense|32",
     "flow_data_sample": {
-      "busiId": "2048624034216157186",
+      "busiId": "2048666386683142145",
       "entType": "4540",
       "busiType": "02",
       "ywlbSign": "4",
@@ -197,17 +227,25 @@
     "messages": []
   },
   "error_assets": {
-    "codes": [],
-    "categories": [],
+    "codes": [
+      "00000"
+    ],
+    "categories": [
+      "success"
+    ],
     "messages": [],
     "suggested_actions": [],
     "problems": []
   },
   "runtime_assets": {
-    "page_names": [],
-    "business_stage_names": [],
+    "page_names": [
+      "税务信息填报"
+    ],
+    "business_stage_names": [
+      "第二阶段：信息填报"
+    ],
     "latest_flow_data": {
-      "busiId": "2048624034216157186",
+      "busiId": "2048666386683142145",
       "entType": "4540",
       "busiType": "02",
       "ywlbSign": "4",
@@ -320,7 +358,34 @@
       "retryable": false,
       "requires_human": false
     },
-    "recent_steps": []
+    "recent_steps": [
+      {
+        "step_name": "establish/TaxInvoice/operationBusinessDataInfo [save]",
+        "protocol_step": 20,
+        "action": "save",
+        "action_semantics": "",
+        "action_label": "",
+        "ok": true,
+        "code": "00000",
+        "result_type": "0",
+        "message": "",
+        "category": "success",
+        "severity": "info",
+        "page_name": "税务信息填报",
+        "business_stage_name": "第二阶段：信息填报",
+        "expected_components": [],
+        "followup_component": null,
+        "followup_code": null,
+        "followup_message": "",
+        "protocol_extracted": {
+          "busiId": "2048666386683142145",
+          "nameId": "2048622963047604225",
+          "server_curr_comp_url": "TaxInvoice",
+          "server_status": "10",
+          "server_busi_type": "02"
+        }
+      }
+    ]
   },
   "sources": {
     "survey_file": "D:\\UFO\\政务平台\\dashboard\\data\\records\\1151_establish_full_survey.json",
