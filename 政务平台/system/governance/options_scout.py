@@ -115,14 +115,20 @@ class OptionsScout:
             return []
         out: List[ScoutFinding] = []
         if isinstance(node, dict):
+            # ★ 新增 A：xxxCode + xxxCodeName 配对反推（同一层级）
+            self._harvest_code_name_pairs(node, component, prefix, out)
+            # ★ 新增 B：角色字典识别（所有 key 都形如 FR05/CWFZR）
+            if self._is_role_dict(node):
+                self._record_role_dict(node, component, prefix, out)
+
             for k, v in node.items():
                 path = f"{prefix}.{k}"
-                # 0. ★ 特殊：fieldList — 字段元数据（必填/描述/约束）
+                # 0. fieldList — 字段元数据
                 if k == "fieldList" and isinstance(v, list) and v and isinstance(v[0], dict):
                     metas = self._extract_field_metadatas(v, component)
                     if metas:
                         out.append(self._record_field_metadata(component, path, metas))
-                # 1. List/Options 后缀 + 数组 → 候选枚举数组
+                # 1a. List/Options 后缀 + 数组 → 候选枚举数组
                 elif isinstance(v, list) and v and self._is_list_suffix(k):
                     options = self._extract_options_from_list(v)
                     if options:
@@ -133,22 +139,147 @@ class OptionsScout:
                             source=f"{component}.{path}",
                         )
                         out.append(ScoutFinding(
-                            component=component,
-                            field_path=path,
-                            options_count=len(options),
-                            sample=options[:3],
+                            component=component, field_path=path,
+                            options_count=len(options), sample=options[:3],
                         ))
                         if self.log:
                             print(f"[scout] {component}.{path}: +{added} options "
                                   f"(total candidates {len(options)})")
+                # 1b. ★ 数组元素含 code+name 双键且 ≥ 2 项 → 也视为枚举（无 List 后缀）
+                elif (isinstance(v, list) and len(v) >= 2 and
+                      all(isinstance(it, dict) for it in v) and
+                      self._all_have_code_name(v)):
+                    options = self._extract_options_from_list(v)
+                    if options and len(options) >= 2:
+                        added = self.opt.upsert_options(
+                            field_name=k,
+                            options=options,
+                            label=self._guess_label(k),
+                            source=f"{component}.{path}",
+                        )
+                        if added > 0:
+                            out.append(ScoutFinding(
+                                component=component, field_path=path,
+                                options_count=len(options), sample=options[:3],
+                            ))
+                            if self.log:
+                                print(f"[scout] {component}.{path}: +{added} hidden-options")
+                    # 仍然递归看子结构
+                    out.extend(self._walk(v[0], component, path + "[0]", depth + 1))
                 # 2. dict → 递归
                 elif isinstance(v, dict):
                     out.extend(self._walk(v, component, path, depth + 1))
-                # 3. 数组的 dict 元素 → 递归（可能是 group）
+                # 3. 数组的 dict 元素 → 递归
                 elif isinstance(v, list) and v and isinstance(v[0], dict):
-                    # 这个可能不是枚举，但里面可能有嵌套枚举
                     out.extend(self._walk(v[0], component, path + "[0]", depth + 1))
         return out
+
+    # ─── 新增识别能力 ───────────────────────────
+
+    @staticmethod
+    def _all_have_code_name(items: List[Dict[str, Any]]) -> bool:
+        """每个元素都含 code+name 双键。"""
+        for it in items:
+            if not isinstance(it, dict):
+                return False
+            keys = set(it.keys())
+            if not (keys & set(CODE_KEYS)):
+                return False
+            if not (keys & set(NAME_KEYS)):
+                return False
+        return True
+
+    @staticmethod
+    def _is_role_dict(node: Dict[str, Any]) -> bool:
+        """所有 key 都形如角色码（大写字母数字 2-8 字符），且 ≥ 2 个 key。"""
+        keys = list(node.keys())
+        if len(keys) < 2 or len(keys) > 20:
+            return False
+        for k in keys:
+            if not isinstance(k, str):
+                return False
+            if not (2 <= len(k) <= 8):
+                return False
+            if not k.isupper():
+                return False
+            if not all(c.isalnum() for c in k):
+                return False
+        return True
+
+    def _record_role_dict(self, node: Dict[str, Any], component: str,
+                          prefix: str, out: list) -> None:
+        """登记角色字典：把 keys 作为枚举码。"""
+        # 角色码 → 默认中文名（业务知识：FR05=法定代表人, CWFZR=财务负责人 等）
+        ROLE_NAMES = {
+            "FR05": "法定代表人/经营者",
+            "CWFZR": "财务负责人",
+            "LLY": "联络员",
+            "WTDLR": "委托代理人",
+            "JBR": "经办人",
+            "GD": "股东",
+            "JS": "监事",
+        }
+        keys = list(node.keys())
+        options = [{"code": k, "name": ROLE_NAMES.get(k, k)} for k in keys]
+        # 字段名：从 prefix 末段拿（pkAndMem）
+        field_name = prefix.rsplit(".", 1)[-1] if "." in prefix else prefix
+        if not field_name or field_name == "busiData":
+            return
+        added = self.opt.upsert_options(
+            field_name=field_name,
+            options=options,
+            label=f"{field_name} 角色枚举",
+            source=f"{component}.{prefix}",
+        )
+        if added > 0:
+            out.append(ScoutFinding(
+                component=component, field_path=prefix,
+                options_count=len(options), sample=options[:5],
+            ))
+            if self.log:
+                print(f"[scout] {component}.{prefix}: +{added} role-codes "
+                      f"({','.join(keys)})")
+
+    def _harvest_code_name_pairs(self, node: Dict[str, Any], component: str,
+                                 prefix: str, out: list) -> None:
+        """识别 xxxCode + xxxCodeName 配对，反推为单条枚举实例。
+
+        例如 nationalityCode=156, nationalityCodeName=中国 → 登记到 nationalityCode 字段。
+        """
+        for k, v in list(node.items()):
+            if not isinstance(k, str) or not k.endswith("Code"):
+                continue
+            name_key = k + "Name"
+            if name_key not in node:
+                # 也试 xxxCodeName 的另一种命名 xxxName
+                alt_name_key = k[:-4] + "Name"
+                if alt_name_key in node and alt_name_key != k:
+                    name_key = alt_name_key
+                else:
+                    continue
+            code_val = v
+            name_val = node.get(name_key)
+            if not code_val or not name_val:
+                continue
+            code_str = str(code_val).strip()
+            name_str = str(name_val).strip()
+            if not code_str or not name_str:
+                continue
+            added = self.opt.upsert_options(
+                field_name=k,
+                options=[{"code": code_str, "name": name_str}],
+                label=k,
+                source=f"{component}.{prefix}.{k}",
+            )
+            if added > 0:
+                out.append(ScoutFinding(
+                    component=component, field_path=f"{prefix}.{k}",
+                    options_count=1,
+                    sample=[{"code": code_str, "name": name_str}],
+                ))
+                if self.log:
+                    print(f"[scout] {component}.{prefix}.{k}: +1 instance "
+                          f"({code_str}={name_str})")
 
     @staticmethod
     def _extract_field_metadatas(items: List[Dict[str, Any]],

@@ -1,13 +1,29 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-04-27T15:29:21",
+  "last_updated": "2026-04-27T16:29:42",
   "fields": {
     "materialVoList": {
       "label": "materialVoList",
       "source": "SlUploadMaterial.busiData.uploadMaterialVo[0].materialVoList",
       "is_open": false,
-      "last_seen": "2026-04-27T15:28:44",
+      "last_seen": "2026-04-27T16:29:42",
       "options": [
+        {
+          "code": "",
+          "name": "人像面.jpg"
+        },
+        {
+          "code": "",
+          "name": "国徽面.jpg"
+        },
+        {
+          "code": "",
+          "name": "人像面.jpg"
+        },
+        {
+          "code": "",
+          "name": "国徽面.jpg"
+        },
         {
           "code": "",
           "name": "人像面.jpg"
@@ -78,7 +94,7 @@
       "label": "taxBusinessTypeList",
       "source": "TaxInvoice.busiData.taxInvoiceGxVo.taxBusinessTypeList",
       "is_open": false,
-      "last_seen": "2026-04-27T15:28:28",
+      "last_seen": "2026-04-27T16:29:42",
       "options": [
         {
           "code": "10",
@@ -102,7 +118,7 @@
       "label": "BasicInfo 表单字段元数据",
       "source": "BasicInfo.busiData.fieldList",
       "is_open": false,
-      "last_seen": "2026-04-27T15:27:54",
+      "last_seen": "2026-04-27T16:29:42",
       "options": [
         {
           "code": "name",
@@ -650,7 +666,7 @@
       "label": "BusinessLicenceWay 表单字段元数据",
       "source": "BusinessLicenceWay.busiData.fieldList",
       "is_open": false,
-      "last_seen": "2026-04-27T15:28:49",
+      "last_seen": "2026-04-27T16:29:42",
       "options": [
         {
           "code": "mainSign",
@@ -718,7 +734,7 @@
       "label": "ComplementInfo 表单字段元数据",
       "source": "ComplementInfo.busiData.partyBuildDto.fieldList",
       "is_open": false,
-      "last_seen": "2026-04-27T15:28:23",
+      "last_seen": "2026-04-27T16:29:42",
       "options": [
         {
           "code": "estParSign",
@@ -1027,6 +1043,206 @@
           "gjh_code": "register.establish.MemberBaseInfo.homeAddress",
           "limit_length": null,
           "sort": 16
+        }
+      ]
+    },
+    "_fieldList_NameInfoDisplay": {
+      "label": "NameInfoDisplay 表单字段元数据",
+      "source": "NameInfoDisplay.busiData.fieldList",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:29:42",
+      "options": [
+        {
+          "code": "entName",
+          "name": "企业名称：",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "NameInfoDisplay",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.NameInfoDisplay.entName",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "entTypeName",
+          "name": "企业类型（中类）：",
+          "must_flag": "0",
+          "ent_type": "",
+          "comp_url": "NameInfoDisplay",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.NameInfoDisplay.entTypeName",
+          "limit_length": null,
+          "sort": 2
+        },
+        {
+          "code": "entItemTypeName",
+          "name": "企业类型（小类）：",
+          "must_flag": "0",
+          "ent_type": "",
+          "comp_url": "NameInfoDisplay",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.NameInfoDisplay.entItemTypeName",
+          "limit_length": null,
+          "sort": 3
+        },
+        {
+          "code": "agentName",
+          "name": "经办人：",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "NameInfoDisplay",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.NameInfoDisplay.agentName",
+          "limit_length": null,
+          "sort": 4
+        },
+        {
+          "code": "regOrgName",
+          "name": "登记机关：",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "NameInfoDisplay",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.NameInfoDisplay.regOrgName",
+          "limit_length": null,
+          "sort": 5
+        },
+        {
+          "code": "savePerFrom",
+          "name": "名称保留期起：",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "NameInfoDisplay",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.NameInfoDisplay.savePerFrom",
+          "limit_length": null,
+          "sort": 6
+        },
+        {
+          "code": "savePerTo",
+          "name": "名称保留期止：",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "NameInfoDisplay",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.establish.NameInfoDisplay.savePerTo",
+          "limit_length": null,
+          "sort": 7
+        }
+      ]
+    },
+    "busiAreaCode": {
+      "label": "busiAreaCode",
+      "source": "BasicInfo.busiData.busiAreaCode",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:29:42",
+      "options": [
+        {
+          "code": "I3006",
+          "name": "软件开发"
+        }
+      ]
+    },
+    "namePreIndustryTypeCode": {
+      "label": "namePreIndustryTypeCode",
+      "source": "BasicInfo.busiData.namePreIndustryTypeCode",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:29:42",
+      "options": [
+        {
+          "code": "6513",
+          "name": "应用软件开发"
+        }
+      ]
+    },
+    "distCode": {
+      "label": "distCode",
+      "source": "BasicInfo.busiData.entDomicileDto.distCode",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:29:42",
+      "options": [
+        {
+          "code": "450921",
+          "name": "玉林市容县"
+        }
+      ]
+    },
+    "regionCode": {
+      "label": "regionCode",
+      "source": "BasicInfo.busiData.entDomicileDto.regionCode",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:29:42",
+      "options": [
+        {
+          "code": "450921",
+          "name": "玉林市容县"
+        }
+      ]
+    },
+    "pkAndMem": {
+      "label": "pkAndMem 角色枚举",
+      "source": "MemberPost.busiData.pkAndMem",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:29:42",
+      "options": [
+        {
+          "code": "FR05",
+          "name": "法定代表人/经营者"
+        },
+        {
+          "code": "CWFZR",
+          "name": "财务负责人"
+        },
+        {
+          "code": "LLY",
+          "name": "联络员"
+        },
+        {
+          "code": "WTDLR",
+          "name": "委托代理人"
+        }
+      ]
+    },
+    "nationalityCode": {
+      "label": "nationalityCode",
+      "source": "MemberPost.busiData.pkAndMem.FR05[0].nationalityCode",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:29:42",
+      "options": [
+        {
+          "code": "156",
+          "name": "中国"
+        }
+      ]
+    },
+    "uploadMaterialVo": {
+      "label": "uploadMaterialVo",
+      "source": "SlUploadMaterial.busiData.uploadMaterialVo",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:29:42",
+      "options": [
+        {
+          "code": "",
+          "name": "黄永裕身份证"
+        },
+        {
+          "code": "175",
+          "name": "住所证明材料（房产证或不动产证或购房合同）"
+        },
+        {
+          "code": "176",
+          "name": "租赁合同或其他使用证明"
+        },
+        {
+          "code": "212",
+          "name": "其它上传材料"
         }
       ]
     }
