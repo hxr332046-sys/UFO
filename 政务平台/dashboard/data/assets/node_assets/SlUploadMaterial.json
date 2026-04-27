@@ -1,6 +1,6 @@
 {
   "schema": "ufo.node_asset.v1",
-  "generated_at": "2026-04-26 13:50:42",
+  "generated_at": "2026-04-27 12:43:56",
   "comp_url": "SlUploadMaterial",
   "page_name": "材料补充",
   "business_stage_name": "",
@@ -29,12 +29,12 @@
     "expected_components": [],
     "process_to_busi_comp": "nameshow|0,fill|1-26,confirm|27,preTrial|28,signature|29,audit|30,notification|31,busiLicense|32",
     "flow_data_sample": {
-      "busiId": "2048274557564338178",
+      "busiId": "2048624034216157186",
       "entType": "4540",
       "busiType": "02",
       "ywlbSign": "4",
       "busiMode": null,
-      "nameId": "2048261875504324610",
+      "nameId": "2048622963047604225",
       "marPrId": null,
       "secondId": null,
       "vipChannel": null,
@@ -44,7 +44,7 @@
       "interruptControl": null
     },
     "link_data_sample": {
-      "token": "",
+      "token": "824032604",
       "continueFlag": null,
       "compUrl": "SlUploadMaterial",
       "compUrlPaths": [
@@ -112,7 +112,7 @@
     },
     "current_location_vo": {
       "busiType": "02",
-      "entName": "美裕盈（广西容县）科技中心（个人独资）",
+      "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
       "uniScId": null,
       "readOnlyStepList": [
         "confirm",
@@ -127,7 +127,7 @@
       ]
     },
     "item_id_sample": "",
-    "sign_info_sample": "-762750842",
+    "sign_info_sample": "-707167196",
     "sequence": {
       "index": 24,
       "previous_component": "YjsRegFoodOp",
@@ -207,12 +207,12 @@
     "page_names": [],
     "business_stage_names": [],
     "latest_flow_data": {
-      "busiId": "2048274557564338178",
+      "busiId": "2048624034216157186",
       "entType": "4540",
       "busiType": "02",
       "ywlbSign": "4",
       "busiMode": null,
-      "nameId": "2048261875504324610",
+      "nameId": "2048622963047604225",
       "marPrId": null,
       "secondId": null,
       "vipChannel": null,
@@ -222,7 +222,7 @@
       "interruptControl": null
     },
     "latest_link_data": {
-      "token": "",
+      "token": "824032604",
       "continueFlag": null,
       "compUrl": "SlUploadMaterial",
       "compUrlPaths": [
@@ -279,7 +279,47 @@
       "opeType": "load",
       "busiCompUrlPaths": "%5B%5D"
     },
-    "latest_diagnosis": {},
+    "latest_diagnosis": {
+      "schema": "smart_diagnosis.v1",
+      "pipeline": "phase2_establish",
+      "step_index": 25,
+      "step_number": 26,
+      "step_name": "[26] establish/submit [最终提交]",
+      "step_tag": "p2_step26",
+      "optional": true,
+      "ok": false,
+      "code": "STEP_POSITION_GUARD",
+      "result_type": "",
+      "message": "establish/submit [最终提交] 被本地编排护栏拦截：当前感知位置为 YbbSelect，不应直接执行该步骤。",
+      "business_stage_key": "stage2_info_filling",
+      "business_stage_name": "第二阶段：信息填报",
+      "page_key": "unknown",
+      "page_name": "未知页面",
+      "protocol_step": 26,
+      "ent_type": "4540",
+      "current_comp_url": "YbbSelect",
+      "current_status": "10",
+      "server_curr_comp_url": null,
+      "server_status": null,
+      "expected_components": null,
+      "expected_statuses": null,
+      "observed_current_comp_url": "YbbSelect",
+      "allowed_current_components": [
+        "PreSubmitSuccess"
+      ],
+      "upstream_code": null,
+      "attempted_count": null,
+      "max_executions": null,
+      "last_ok_step_index": 24,
+      "last_ok_step_name": "[25] establish/PreSubmitSuccess/loadBusinessDataInfo [终点]",
+      "category": "step_position_guard",
+      "severity": "recoverable",
+      "meaning": "本地编排护栏发现当前位置反馈缺失或与目标步骤不匹配，因此主动阻止了请求发送",
+      "suggested_action": "先读取当前位置反馈，再按服务端真实所在组件续跑；不要盲目直打后续页面。",
+      "recovery_action": "probe_current_position_then_resume",
+      "retryable": false,
+      "requires_human": false
+    },
     "recent_steps": []
   },
   "sources": {

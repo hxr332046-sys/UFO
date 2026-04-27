@@ -16,7 +16,7 @@
   ✅ 断点续跑 — Phase 2 中断后从断点恢复
   ✅ 核名交互纠错 — 禁限词暂停、改名原地恢复
   ✅ Phase 1 → Phase 2 自动衔接
-  ✅ 到 PreSubmitSuccess 即停（不真正提交）
+  ✅ 到 PreSubmitSuccess 停（可选 --submit 执行最终提交）
 """
 from __future__ import annotations
 
@@ -48,7 +48,7 @@ from node_asset_exporter import export_latest_node_assets
 RECORDS_DIR = ROOT / "dashboard" / "data" / "records"
 CHECKPOINT_DIR = ROOT / "dashboard" / "data" / "checkpoints"
 ASSETS_DIR = ROOT / "dashboard" / "data" / "assets"
-PHASE2_PROGRESS_CONTRACT_VERSION = 7
+PHASE2_PROGRESS_CONTRACT_VERSION = 8
 
 # ─── 颜色输出 ───
 def _c(text: str, color: str) -> str:
@@ -79,6 +79,7 @@ class SmartRegisterRunner:
         self.phase1_busi_id: Optional[str] = None
         self.phase1_name_id: Optional[str] = None
         self.establish_busi_id: Optional[str] = None
+        self.user_id: str = ""
         self.final_status: str = "not_started"
         self.started_at = datetime.now()
         self.resume_candidate: Optional[Dict[str, Any]] = None
@@ -312,8 +313,11 @@ class SmartRegisterRunner:
                 data = resp.get("data") or {}
                 bd = data.get("busiData") or {}
                 username = bd.get("realName") or bd.get("name") or ""
+                uid = str(bd.get("id") or "")
+                if uid:
+                    self.user_id = uid
                 if username:
-                    ok(f"认证有效 — 当前用户: {username}")
+                    ok(f"认证有效 — 当前用户: {username} (id={uid})")
                     return True
                 # 用户名为空说明 session cookies 失效（Authorization 还活但 9087 SESSION 过期）
                 warn("getUserInfo 返回 00000 但用户名为空，尝试刷新 session...")
@@ -437,7 +441,11 @@ class SmartRegisterRunner:
             return True
 
     def _cleanup_matters(self, matters: list) -> None:
-        """删除指定办件（btnCode=103 两步：before + operate）。"""
+        """删除指定办件（先撤回 btnCode=104，再删除 btnCode=103）。
+
+        ★ btnCode=104 撤回申请：仅对 state=101（进行中）办件有效，撤回后名称释放回可用。
+        ★ btnCode=103 删除办件：两步确认（before + operate），删除残留办件。
+        """
         import time as _t
         API = "/icpsp-api/v4/pc/manager/mattermanager/matters/operate"
         HDRS = {"Referer": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html"}
@@ -445,9 +453,28 @@ class SmartRegisterRunner:
         for d in matters:
             bid = str(d.get("busi_id") or "")
             nm = d.get("name", "")
+            state = str(d.get("state") or d.get("matterStateCode") or "")
             if not bid:
                 continue
             try:
+                # Step 1: 先尝试撤回（btnCode=104），释放名称占用
+                r_wd = self.client.post_json(API, {"busiId": bid, "btnCode": "104", "dealFlag": "before"},
+                                             extra_headers=HDRS)
+                wd_code = r_wd.get("code", "")
+                wd_rt = str((r_wd.get("data") or {}).get("resultType", ""))
+                if wd_code == "00000" and wd_rt == "2":
+                    # 撤回确认提示，执行第二步
+                    _t.sleep(0.3)
+                    r_wd2 = self.client.post_json(API, {"busiId": bid, "btnCode": "104", "dealFlag": "operate"},
+                                                  extra_headers=HDRS)
+                    wd2_code = r_wd2.get("code", "")
+                    if wd2_code == "00000":
+                        ok(f"已撤回 {bid} ({nm}) — 名称已释放")
+                    else:
+                        warn(f"撤回 {bid} ({nm}) 失败: code={wd2_code}")
+                _t.sleep(0.3)
+
+                # Step 2: 删除办件（btnCode=103）
                 r1 = self.client.post_json(API, {"busiId": bid, "btnCode": "103", "dealFlag": "before"}, extra_headers=HDRS)
                 _t.sleep(0.3)
                 r2 = self.client.post_json(API, {"busiId": bid, "btnCode": "103", "dealFlag": "operate"}, extra_headers=HDRS)
@@ -459,7 +486,7 @@ class SmartRegisterRunner:
                     warn(f"删除 {bid} ({nm}) 失败: code={code2} msg={msg2}")
                 _t.sleep(0.3)
             except Exception as e:
-                warn(f"删除 {bid} ({nm}) 异常: {e}")
+                warn(f"清理 {bid} ({nm}) 异常: {e}")
 
     def _estimate_phase2_start_from(self, comp_url: str, ent_type: str) -> int:
         from phase2_protocol_driver import get_steps_spec
@@ -685,7 +712,8 @@ class SmartRegisterRunner:
         print(_c("       Phase 1: 名称补充与提交（复用 Phase2 step1-9）", "m"))
         print(_c("═══════════════════════════════════════", "m"))
 
-        adapter = Phase2Adapter(self.case, self.phase1_busi_id, self.phase1_name_id)
+        adapter = Phase2Adapter(self.case, self.phase1_busi_id, self.phase1_name_id,
+                                user_id=self.user_id)
         steps = adapter.make_steps(ent_type)
         hooks = default_hooks(verbose=self.verbose, output_dir=RECORDS_DIR)
         ctx = PipelineContext(
@@ -732,9 +760,10 @@ class SmartRegisterRunner:
     # 4. Phase 2 设立登记（Pipeline + Checkpoint）
     # ════════════════════════════════════════════════
     def run_phase2(self) -> bool:
-        """运行 Phase 2 设立登记，到 PreSubmitSuccess 停止。
+        """运行 Phase 2 设立登记，默认到 PreSubmitSuccess 停止。
 
         使用 Pipeline 框架执行，支持断点续跑。
+        若 case.run_goal 含 "submit"，则继续执行 step26/29 最终提交。
         """
         if not self.phase1_busi_id:
             fail("没有 Phase 1 busiId，无法启动 Phase 2")
@@ -751,7 +780,8 @@ class SmartRegisterRunner:
 
         # 创建 adapter
         adapter = Phase2Adapter(self.case, self.phase1_busi_id, self.phase1_name_id,
-                                establish_busi_id=self.establish_busi_id)
+                                establish_busi_id=self.establish_busi_id,
+                                user_id=self.user_id)
         steps = adapter.make_steps(ent_type)
 
         info(f"busiId  : {self.phase1_busi_id}")
@@ -1046,7 +1076,10 @@ class SmartRegisterRunner:
             ok(f"状态: ★ 已达 PreSubmitSuccess 云提交停点 ★")
             ok(f"总耗时: {elapsed:.1f}s")
             print()
-            warn("注意: 未执行真正的云提交。如需提交，请在浏览器中操作。")
+            if self.case.get("run_goal") == "submit":
+                ok("run_goal=submit: 已执行最终提交")
+            else:
+                warn("注意: 未执行真正的云提交。如需提交，请在浏览器中操作，或在 case 中设置 run_goal=\"submit\"")
         else:
             fail(f"企业: {name}")
             fail(f"状态: {self.final_status}")

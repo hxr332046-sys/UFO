@@ -1,19 +1,19 @@
 {
   "schema": "smart_register.v2",
   "case_path": "docs\\case_兴裕为.json",
-  "case_id": "rongxian_xingyuwei_4540_2026",
-  "case_name": "钰启维（广西容县）软件开发中心（个人独资）",
-  "final_status": "step_22_p2_step23",
-  "started_at": "2026-04-26 07:43:12",
-  "finished_at": "2026-04-26 07:43:26",
-  "phase1_busi_id": "2048086397500768257",
-  "phase1_name_id": "2048086342795599873",
-  "establish_busi_id": "2048086397500768257",
+  "case_id": "rongxian_xingyuwei_4540_2026v2",
+  "case_name": "鸿启智（广西容县）软件开发中心（个人独资）",
+  "final_status": "phase2_failed",
+  "started_at": "2026-04-27 12:43:24",
+  "finished_at": "2026-04-27 12:43:56",
+  "phase1_busi_id": "2048624034216157186",
+  "phase1_name_id": "2048622963047604225",
+  "establish_busi_id": "2048624034216157186",
   "phase2_start_from_index": 22,
   "resume_source": "active_matter",
   "resume_candidate": {
-    "busi_id": "2048086397500768257",
-    "name_id": "2048086342795599873",
+    "busi_id": "2048624034216157186",
+    "name_id": "2048622963047604225",
     "ent_type": "4540",
     "busi_type": "02",
     "currCompUrl": "",
@@ -21,23 +21,20 @@
     "start_from_index": 0
   },
   "last_phase2_state": {
-    "phase1_busi_id": "2048086174425284608",
-    "name_id": "2048086342795599873",
-    "establish_busi_id": "2048086397500768257",
-    "phase2_progress_contract_version": 3,
-    "current_comp_url": "YbbSelect",
+    "phase1_busi_id": "2048623804703440896",
+    "name_id": "2048622963047604225",
+    "establish_busi_id": "2048624034216157186",
+    "phase2_progress_contract_version": 8,
     "current_status": "10",
-    "server_curr_comp_url": "YbbSelect",
     "server_status": "10",
     "server_busi_type": "02",
-    "server_name_id": "2048086342795599873",
-    "server_busi_id": "2048086397500768257",
+    "server_name_id": "2048622963047604225",
     "position_probe_code": "00000",
     "position_probe_result_type": "0",
     "phase2_driver_snapshot": {
-      "establish_busiId": "2048086397500768257",
-      "basicinfo_signInfo": "1439532101",
-      "last_sign_info": "1439532101",
+      "establish_busiId": "2048624034216157186",
+      "basicinfo_signInfo": "-707167196",
+      "last_sign_info": "-707167196",
       "basicinfo_busiData": {
         "flowData": {
           "busiId": null,
@@ -45,7 +42,7 @@
           "busiType": "02",
           "ywlbSign": "4",
           "busiMode": null,
-          "nameId": "2048086342795599873",
+          "nameId": "2048622963047604225",
           "marPrId": null,
           "secondId": null,
           "vipChannel": null,
@@ -55,7 +52,7 @@
           "interruptControl": null
         },
         "linkData": {
-          "token": "",
+          "token": "824032604",
           "continueFlag": null,
           "compUrl": "BasicInfo",
           "compUrlPaths": [
@@ -129,7 +126,7 @@
         ],
         "currentLocationVo": {
           "busiType": "02",
-          "entName": "钰启维（广西容县）软件开发中心（个人独资）",
+          "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
           "uniScId": null,
           "readOnlyStepList": [
             "confirm",
@@ -565,7 +562,7 @@
             "remark": "家庭成员控件"
           }
         },
-        "signInfo": "1439532101",
+        "signInfo": "-707167196",
         "operationResultVo": null,
         "signRandomCode": null,
         "extraDto": null,
@@ -1171,13 +1168,13 @@
           "useManyAddress": null,
           "id": null
         },
-        "name": "钰启维（广西容县）软件开发中心（个人独资）",
+        "name": "鸿启智（广西容县）软件开发中心（个人独资）",
         "businessPremises": null,
         "fisRegionCode": null,
         "grpName": null,
         "grpShForm": null,
         "telephone": null,
-        "nameMark": "钰启维",
+        "nameMark": "鸿启智",
         "shouldInvestWay": null,
         "email": null,
         "bpBusinessAddress": null,
@@ -1664,7 +1661,7 @@
         }
       },
       "last_save_linkData": {
-        "token": "",
+        "token": "824032604",
         "continueFlag": null,
         "compUrl": "YbbSelect",
         "compUrlPaths": [
@@ -1722,12 +1719,12 @@
         "busiCompUrlPaths": "%5B%5D"
       },
       "last_save_flowData": {
-        "busiId": "2048086397500768257",
+        "busiId": "2048624034216157186",
         "entType": "4540",
         "busiType": "02",
         "ywlbSign": "4",
         "busiMode": null,
-        "nameId": "2048086342795599873",
+        "nameId": "2048622963047604225",
         "marPrId": null,
         "secondId": null,
         "vipChannel": null,
@@ -1738,12 +1735,12 @@
       },
       "MemberBaseInfo_busiData": {
         "flowData": {
-          "busiId": "2048086397500768257",
+          "busiId": "2048624034216157186",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
           "busiMode": null,
-          "nameId": "2048086342795599873",
+          "nameId": "2048622963047604225",
           "marPrId": null,
           "secondId": null,
           "vipChannel": null,
@@ -1828,7 +1825,7 @@
         ],
         "currentLocationVo": {
           "busiType": "02",
-          "entName": "钰启维（广西容县）软件开发中心（个人独资）",
+          "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
           "uniScId": null,
           "readOnlyStepList": [
             "confirm",
@@ -2159,7 +2156,7 @@
           "remark": "成员基础信息控件"
         },
         "subBusiCompMap": null,
-        "signInfo": "1439532101",
+        "signInfo": "-707167196",
         "operationResultVo": null,
         "signRandomCode": null,
         "extraDto": null,
@@ -2193,15 +2190,15 @@
         "isLoginInfo": null,
         "invType": null
       },
-      "MemberBaseInfo_signInfo": "1439532101",
+      "MemberBaseInfo_signInfo": "-707167196",
       "MemberPost_busiData": {
         "flowData": {
-          "busiId": "2048086397500768257",
+          "busiId": "2048624034216157186",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
           "busiMode": null,
-          "nameId": "2048086342795599873",
+          "nameId": "2048622963047604225",
           "marPrId": null,
           "secondId": null,
           "vipChannel": null,
@@ -2211,7 +2208,7 @@
           "interruptControl": null
         },
         "linkData": {
-          "token": "",
+          "token": "824032604",
           "continueFlag": null,
           "compUrl": "MemberPost",
           "compUrlPaths": [
@@ -2285,7 +2282,7 @@
         ],
         "currentLocationVo": {
           "busiType": "02",
-          "entName": "钰启维（广西容县）软件开发中心（个人独资）",
+          "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
           "uniScId": null,
           "readOnlyStepList": [
             "confirm",
@@ -2346,7 +2343,7 @@
             "remark": "成员基础信息控件"
           }
         },
-        "signInfo": "1439532101",
+        "signInfo": "-707167196",
         "operationResultVo": null,
         "signRandomCode": null,
         "extraDto": null,
@@ -2376,7 +2373,7 @@
               "submitVo": null,
               "page": null,
               "list": null,
-              "itemId": "2048086424502272000",
+              "itemId": "2048624060581150720",
               "fieldList": null,
               "busiComp": null,
               "subBusiCompMap": null,
@@ -2438,7 +2435,7 @@
               "submitVo": null,
               "page": null,
               "list": null,
-              "itemId": "2048086424502272000",
+              "itemId": "2048624060581150720",
               "fieldList": null,
               "busiComp": null,
               "subBusiCompMap": null,
@@ -2500,7 +2497,7 @@
               "submitVo": null,
               "page": null,
               "list": null,
-              "itemId": "2048086424502272000",
+              "itemId": "2048624060581150720",
               "fieldList": null,
               "busiComp": null,
               "subBusiCompMap": null,
@@ -2562,7 +2559,7 @@
               "submitVo": null,
               "page": null,
               "list": null,
-              "itemId": "2048086424502272000",
+              "itemId": "2048624060581150720",
               "fieldList": null,
               "busiComp": null,
               "subBusiCompMap": null,
@@ -2602,11 +2599,11 @@
             }
           ]
         },
-        "entName": "钰启维（广西容县）软件开发中心（个人独资）",
+        "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
         "parentEntName": null
       },
       "MemberPost_srv_linkData": {
-        "token": "",
+        "token": "824032604",
         "continueFlag": null,
         "compUrl": "MemberPost",
         "compUrlPaths": [
@@ -2663,7 +2660,7 @@
         "opeType": "load",
         "busiCompUrlPaths": "%5B%7B%22compUrl%22%3A%22MemberPost%22%2C%22id%22%3A%22%22%7D%5D"
       },
-      "MemberPost_signInfo": "1439532101",
+      "MemberPost_signInfo": "-707167196",
       "memberpool_raw_member": {
         "flowData": null,
         "linkData": {
@@ -2686,7 +2683,7 @@
         "submitVo": null,
         "page": null,
         "list": null,
-        "itemId": "2048086424502272000",
+        "itemId": "2048624060581150720",
         "fieldList": null,
         "busiComp": null,
         "subBusiCompMap": null,
@@ -2724,8 +2721,8 @@
         "isLoginInfo": "1",
         "invType": null
       },
-      "memberpool_item_id": "2048086424502272000",
-      "MemberInfo_signInfo": "1439532101",
+      "memberpool_item_id": "2048624060581150720",
+      "MemberInfo_signInfo": "-707167196",
       "MemberInfo_srv_linkData": {
         "token": "",
         "continueFlag": null,
@@ -2787,12 +2784,12 @@
       },
       "MemberPool_busiData": {
         "flowData": {
-          "busiId": "2048086397500768257",
+          "busiId": "2048624034216157186",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
           "busiMode": null,
-          "nameId": "2048086342795599873",
+          "nameId": "2048622963047604225",
           "marPrId": null,
           "secondId": null,
           "vipChannel": null,
@@ -2802,7 +2799,7 @@
           "interruptControl": null
         },
         "linkData": {
-          "token": "",
+          "token": "824032604",
           "continueFlag": null,
           "compUrl": "MemberPool",
           "compUrlPaths": [
@@ -2876,7 +2873,7 @@
         ],
         "currentLocationVo": {
           "busiType": "02",
-          "entName": "钰启维（广西容县）软件开发中心（个人独资）",
+          "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
           "uniScId": null,
           "readOnlyStepList": [
             "confirm",
@@ -2937,14 +2934,14 @@
             "remark": "成员信息控件"
           }
         },
-        "signInfo": "1439532101",
+        "signInfo": "-707167196",
         "operationResultVo": null,
         "signRandomCode": null,
         "extraDto": null,
         "xzPushGsDto": null
       },
       "MemberPool_srv_linkData": {
-        "token": "",
+        "token": "824032604",
         "continueFlag": null,
         "compUrl": "MemberPool",
         "compUrlPaths": [
@@ -3001,15 +2998,15 @@
         "opeType": "load",
         "busiCompUrlPaths": "%5B%7B%22compUrl%22%3A%22MemberPool%22%2C%22id%22%3A%22%22%7D%5D"
       },
-      "MemberPool_signInfo": "1439532101",
+      "MemberPool_signInfo": "-707167196",
       "ComplementInfo_busiData": {
         "flowData": {
-          "busiId": "2048086397500768257",
+          "busiId": "2048624034216157186",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
           "busiMode": null,
-          "nameId": "2048086342795599873",
+          "nameId": "2048622963047604225",
           "marPrId": null,
           "secondId": null,
           "vipChannel": null,
@@ -3019,7 +3016,7 @@
           "interruptControl": null
         },
         "linkData": {
-          "token": "",
+          "token": "824032604",
           "continueFlag": null,
           "compUrl": "ComplementInfo",
           "compUrlPaths": [
@@ -3093,7 +3090,7 @@
         ],
         "currentLocationVo": {
           "busiType": "02",
-          "entName": "钰启维（广西容县）软件开发中心（个人独资）",
+          "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
           "uniScId": null,
           "readOnlyStepList": [
             "confirm",
@@ -3135,7 +3132,7 @@
           "remark": "补充信息"
         },
         "subBusiCompMap": null,
-        "signInfo": "1439532101",
+        "signInfo": "-707167196",
         "operationResultVo": null,
         "signRandomCode": null,
         "extraDto": null,
@@ -3255,7 +3252,7 @@
         "authorizedInfoDto": null
       },
       "ComplementInfo_srv_linkData": {
-        "token": "",
+        "token": "824032604",
         "continueFlag": null,
         "compUrl": "ComplementInfo",
         "compUrlPaths": [
@@ -3312,15 +3309,15 @@
         "opeType": "load",
         "busiCompUrlPaths": "%5B%5D"
       },
-      "ComplementInfo_signInfo": "1439532101",
+      "ComplementInfo_signInfo": "-707167196",
       "TaxInvoice_busiData": {
         "flowData": {
-          "busiId": "2048086397500768257",
+          "busiId": "2048624034216157186",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
           "busiMode": null,
-          "nameId": "2048086342795599873",
+          "nameId": "2048622963047604225",
           "marPrId": null,
           "secondId": null,
           "vipChannel": null,
@@ -3404,7 +3401,7 @@
         ],
         "currentLocationVo": {
           "busiType": "02",
-          "entName": "钰启维（广西容县）软件开发中心（个人独资）",
+          "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
           "uniScId": null,
           "readOnlyStepList": [
             "confirm",
@@ -3446,7 +3443,7 @@
           "remark": "税务登记"
         },
         "subBusiCompMap": null,
-        "signInfo": "1439532101",
+        "signInfo": "-707167196",
         "operationResultVo": null,
         "signRandomCode": null,
         "extraDto": null,
@@ -3604,15 +3601,15 @@
         "opeType": "load",
         "busiCompUrlPaths": "%5B%5D"
       },
-      "TaxInvoice_signInfo": "1439532101",
+      "TaxInvoice_signInfo": "-707167196",
       "SlUploadMaterial_busiData": {
         "flowData": {
-          "busiId": "2048086397500768257",
+          "busiId": "2048624034216157186",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
           "busiMode": null,
-          "nameId": "2048086342795599873",
+          "nameId": "2048622963047604225",
           "marPrId": null,
           "secondId": null,
           "vipChannel": null,
@@ -3622,7 +3619,7 @@
           "interruptControl": null
         },
         "linkData": {
-          "token": "",
+          "token": "824032604",
           "continueFlag": null,
           "compUrl": "SlUploadMaterial",
           "compUrlPaths": [
@@ -3696,7 +3693,7 @@
         ],
         "currentLocationVo": {
           "busiType": "02",
-          "entName": "钰启维（广西容县）软件开发中心（个人独资）",
+          "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
           "uniScId": null,
           "readOnlyStepList": [
             "confirm",
@@ -3738,7 +3735,7 @@
           "remark": "设立登记上传材料"
         },
         "subBusiCompMap": null,
-        "signInfo": "1439532101",
+        "signInfo": "-707167196",
         "operationResultVo": null,
         "signRandomCode": null,
         "extraDto": null,
@@ -3807,7 +3804,7 @@
             "maxCount": "10",
             "materialVoList": [
               {
-                "id": "2048086623531810817",
+                "id": "2048624218228662274",
                 "name": "住所证明.PDF",
                 "cerNo": null,
                 "content": null,
@@ -3840,7 +3837,7 @@
             "maxCount": "10",
             "materialVoList": [
               {
-                "id": "2048086628174905346",
+                "id": "2048624222762704897",
                 "name": "微信图片_20260411104217_91_17.jpg",
                 "cerNo": null,
                 "content": null,
@@ -3891,7 +3888,7 @@
         "sortId": null
       },
       "SlUploadMaterial_srv_linkData": {
-        "token": "",
+        "token": "824032604",
         "continueFlag": null,
         "compUrl": "SlUploadMaterial",
         "compUrlPaths": [
@@ -3948,15 +3945,15 @@
         "opeType": "load",
         "busiCompUrlPaths": "%5B%5D"
       },
-      "SlUploadMaterial_signInfo": "1439532101",
+      "SlUploadMaterial_signInfo": "-707167196",
       "BusinessLicenceWay_busiData": {
         "flowData": {
-          "busiId": "2048086397500768257",
+          "busiId": "2048624034216157186",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
           "busiMode": null,
-          "nameId": "2048086342795599873",
+          "nameId": "2048622963047604225",
           "marPrId": null,
           "secondId": null,
           "vipChannel": null,
@@ -3966,7 +3963,7 @@
           "interruptControl": null
         },
         "linkData": {
-          "token": "",
+          "token": "824032604",
           "continueFlag": null,
           "compUrl": "BusinessLicenceWay",
           "compUrlPaths": [
@@ -4036,11 +4033,12 @@
           "loadbusinessList",
           "loadbusinessData",
           "operationBusinessData",
-          "loadCurrentLocation"
+          "loadCurrentLocation",
+          "producePdf"
         ],
         "currentLocationVo": {
           "busiType": "02",
-          "entName": "钰启维（广西容县）软件开发中心（个人独资）",
+          "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
           "uniScId": null,
           "readOnlyStepList": [
             "confirm",
@@ -4099,7 +4097,7 @@
           "remark": "营业执照领取"
         },
         "subBusiCompMap": null,
-        "signInfo": "1439532101",
+        "signInfo": "-707167196",
         "operationResultVo": null,
         "signRandomCode": null,
         "extraDto": null,
@@ -4134,7 +4132,7 @@
           "userid": null,
           "orgid": null,
           "expressCom": null,
-          "mailSign": null,
+          "mailSign": "0",
           "regionCode": "450921",
           "regionName": null,
           "regionStreetCode": null,
@@ -4144,11 +4142,11 @@
           "isPayType": null,
           "wholeAddress": "容州镇车站西路富盛广场1幢3203号房",
           "mailBusinessId": null,
-          "cerNo": null,
+          "cerNo": "",
           "encryptedCerNo": null,
-          "cerType": null,
-          "email": null,
-          "tel": null,
+          "cerType": "",
+          "email": "",
+          "tel": "",
           "encryptedTel": null,
           "havePostage": false,
           "haveAddress": false,
@@ -4265,7 +4263,7 @@
         "copyCerNum": null
       },
       "BusinessLicenceWay_srv_linkData": {
-        "token": "",
+        "token": "824032604",
         "continueFlag": null,
         "compUrl": "BusinessLicenceWay",
         "compUrlPaths": [
@@ -4322,15 +4320,15 @@
         "opeType": "load",
         "busiCompUrlPaths": "%5B%5D"
       },
-      "BusinessLicenceWay_signInfo": "1439532101",
+      "BusinessLicenceWay_signInfo": "-707167196",
       "YbbSelect_busiData": {
         "flowData": {
-          "busiId": "2048086397500768257",
+          "busiId": "2048624034216157186",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
           "busiMode": null,
-          "nameId": "2048086342795599873",
+          "nameId": "2048622963047604225",
           "marPrId": null,
           "secondId": null,
           "vipChannel": null,
@@ -4340,7 +4338,7 @@
           "interruptControl": null
         },
         "linkData": {
-          "token": "",
+          "token": "824032604",
           "continueFlag": null,
           "compUrl": "YbbSelect",
           "compUrlPaths": [
@@ -4415,7 +4413,7 @@
         ],
         "currentLocationVo": {
           "busiType": "02",
-          "entName": "钰启维（广西容县）软件开发中心（个人独资）",
+          "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
           "uniScId": null,
           "readOnlyStepList": [
             "confirm",
@@ -4457,7 +4455,7 @@
           "remark": "设立登记云帮办流程模式选择"
         },
         "subBusiCompMap": null,
-        "signInfo": "1439532101",
+        "signInfo": "-707167196",
         "operationResultVo": null,
         "signRandomCode": null,
         "extraDto": null,
@@ -4466,7 +4464,7 @@
         "isSelectYbb": "0"
       },
       "YbbSelect_srv_linkData": {
-        "token": "",
+        "token": "824032604",
         "continueFlag": null,
         "compUrl": "YbbSelect",
         "compUrlPaths": [
@@ -4523,21 +4521,21 @@
         "opeType": "load",
         "busiCompUrlPaths": "%5B%5D"
       },
-      "YbbSelect_signInfo": "1439532101"
+      "YbbSelect_signInfo": "-707167196"
     },
-    "phase2_driver_busi_id": "2048086174425284608",
+    "phase2_driver_busi_id": "2048623804703440896",
     "phase2_driver_ent_type": "4540",
     "phase2_driver_busi_type": "01",
-    "phase2_driver_name_id": "2048086342795599873",
-    "last_step_index": 22,
-    "last_step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
+    "phase2_driver_name_id": "2048622963047604225",
+    "last_step_index": 25,
+    "last_step_name": "[26] establish/submit [最终提交]",
     "last_step_ok": false,
-    "last_response_code": "STEP_NOT_ADVANCED",
-    "last_response_result_type": "0",
-    "last_ok_step_index": 21,
-    "last_ok_step_name": "[22] establish/BusinessLicenceWay/operationBusinessDataInfo [save]",
-    "last_ok_code": "00000",
-    "last_ok_result_type": "0",
+    "last_response_code": "STEP_POSITION_GUARD",
+    "last_response_result_type": "",
+    "last_ok_step_index": 24,
+    "last_ok_step_name": "[25] establish/PreSubmitSuccess/loadBusinessDataInfo [终点]",
+    "last_ok_code": "D0010",
+    "last_ok_result_type": "",
     "current_busi_comp_comb": {
       "id": null,
       "compUrl": null
@@ -4545,42 +4543,41 @@
     "last_diagnosis": {
       "schema": "smart_diagnosis.v1",
       "pipeline": "phase2_establish",
-      "step_index": 22,
-      "step_number": 23,
-      "step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-      "step_tag": "p2_step23",
-      "optional": false,
+      "step_index": 25,
+      "step_number": 26,
+      "step_name": "[26] establish/submit [最终提交]",
+      "step_tag": "p2_step26",
+      "optional": true,
       "ok": false,
-      "code": "STEP_NOT_ADVANCED",
-      "result_type": "0",
-      "message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
+      "code": "STEP_POSITION_GUARD",
+      "result_type": "",
+      "message": "establish/submit [最终提交] 被本地编排护栏拦截：当前感知位置为 YbbSelect，不应直接执行该步骤。",
       "business_stage_key": "stage2_info_filling",
       "business_stage_name": "第二阶段：信息填报",
-      "page_key": "ybb_select",
-      "page_name": "云帮办流程模式选择",
-      "protocol_step": 23,
+      "page_key": "unknown",
+      "page_name": "未知页面",
+      "protocol_step": 26,
       "ent_type": "4540",
       "current_comp_url": "YbbSelect",
       "current_status": "10",
-      "server_curr_comp_url": "YbbSelect",
-      "server_status": "10",
-      "expected_components": [
-        "PreElectronicDoc",
+      "server_curr_comp_url": null,
+      "server_status": null,
+      "expected_components": null,
+      "expected_statuses": null,
+      "observed_current_comp_url": "YbbSelect",
+      "allowed_current_components": [
         "PreSubmitSuccess"
       ],
-      "expected_statuses": null,
-      "observed_current_comp_url": null,
-      "allowed_current_components": null,
-      "upstream_code": "00000",
+      "upstream_code": null,
       "attempted_count": null,
       "max_executions": null,
-      "last_ok_step_index": 21,
-      "last_ok_step_name": "[22] establish/BusinessLicenceWay/operationBusinessDataInfo [save]",
-      "category": "step_not_advanced",
+      "last_ok_step_index": 24,
+      "last_ok_step_name": "[25] establish/PreSubmitSuccess/loadBusinessDataInfo [终点]",
+      "category": "step_position_guard",
       "severity": "recoverable",
-      "meaning": "接口返回成功，但服务端状态没有推进到期望页面或状态",
-      "suggested_action": "不要直接进入下一协议步骤；先以服务端当前位置为准，检查该组件是否缺少 continueFlag、按钮语义或自动推进合同。",
-      "recovery_action": "inspect_progress_contract_then_resume",
+      "meaning": "本地编排护栏发现当前位置反馈缺失或与目标步骤不匹配，因此主动阻止了请求发送",
+      "suggested_action": "先读取当前位置反馈，再按服务端真实所在组件续跑；不要盲目直打后续页面。",
+      "recovery_action": "probe_current_position_then_resume",
       "retryable": false,
       "requires_human": false
     },
@@ -4588,26 +4585,23 @@
     "current_ent_type": "4540",
     "last_problem": {
       "business_stage_name": "第二阶段：信息填报",
-      "page_name": "云帮办流程模式选择",
-      "protocol_step": 23,
-      "step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-      "code": "STEP_NOT_ADVANCED",
-      "result_type": "0",
-      "message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
-      "category": "step_not_advanced",
+      "page_name": "未知页面",
+      "protocol_step": 26,
+      "step_name": "[26] establish/submit [最终提交]",
+      "code": "STEP_POSITION_GUARD",
+      "result_type": "",
+      "message": "establish/submit [最终提交] 被本地编排护栏拦截：当前感知位置为 YbbSelect，不应直接执行该步骤。",
+      "category": "step_position_guard",
       "severity": "recoverable",
-      "meaning": "接口返回成功，但服务端状态没有推进到期望页面或状态",
-      "suggested_action": "不要直接进入下一协议步骤；先以服务端当前位置为准，检查该组件是否缺少 continueFlag、按钮语义或自动推进合同。",
-      "recovery_action": "inspect_progress_contract_then_resume",
+      "meaning": "本地编排护栏发现当前位置反馈缺失或与目标步骤不匹配，因此主动阻止了请求发送",
+      "suggested_action": "先读取当前位置反馈，再按服务端真实所在组件续跑；不要盲目直打后续页面。",
+      "recovery_action": "probe_current_position_then_resume",
       "current_comp_url": "YbbSelect",
       "current_status": "10",
-      "server_curr_comp_url": "YbbSelect",
-      "server_status": "10",
-      "expected_components": [
-        "PreElectronicDoc",
+      "observed_current_comp_url": "YbbSelect",
+      "allowed_current_components": [
         "PreSubmitSuccess"
-      ],
-      "upstream_code": "00000"
+      ]
     },
     "problems": [
       {
@@ -4623,174 +4617,87 @@
         "meaning": "可选组件不可用或当前用户无该可选入口权限",
         "suggested_action": "如果该 step 标记 optional，可跳过；否则查询当前位置确认是否应进入下一页面。",
         "recovery_action": "skip_if_optional",
-        "current_comp_url": "NameSuccess",
-        "current_status": "51"
+        "current_status": "10"
       },
       {
         "business_stage_name": "第二阶段：信息填报",
-        "page_name": "云帮办流程模式选择",
-        "protocol_step": 23,
-        "step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-        "code": "STEP_NOT_ADVANCED",
-        "result_type": "0",
-        "message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
-        "category": "step_not_advanced",
+        "page_name": "未知页面",
+        "protocol_step": 26,
+        "step_name": "[26] establish/submit [最终提交]",
+        "code": "STEP_POSITION_GUARD",
+        "result_type": "",
+        "message": "establish/submit [最终提交] 被本地编排护栏拦截：当前感知位置为 YbbSelect，不应直接执行该步骤。",
+        "category": "step_position_guard",
         "severity": "recoverable",
-        "meaning": "接口返回成功，但服务端状态没有推进到期望页面或状态",
-        "suggested_action": "不要直接进入下一协议步骤；先以服务端当前位置为准，检查该组件是否缺少 continueFlag、按钮语义或自动推进合同。",
-        "recovery_action": "inspect_progress_contract_then_resume",
+        "meaning": "本地编排护栏发现当前位置反馈缺失或与目标步骤不匹配，因此主动阻止了请求发送",
+        "suggested_action": "先读取当前位置反馈，再按服务端真实所在组件续跑；不要盲目直打后续页面。",
+        "recovery_action": "probe_current_position_then_resume",
         "current_comp_url": "YbbSelect",
         "current_status": "10",
-        "server_curr_comp_url": "YbbSelect",
-        "server_status": "10",
-        "expected_components": [
-          "PreElectronicDoc",
+        "observed_current_comp_url": "YbbSelect",
+        "allowed_current_components": [
           "PreSubmitSuccess"
-        ],
-        "upstream_code": "00000"
-      },
-      {
-        "business_stage_name": "第二阶段：信息填报",
-        "page_name": "云帮办流程模式选择",
-        "protocol_step": 23,
-        "step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-        "code": "STEP_NOT_ADVANCED",
-        "result_type": "0",
-        "message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
-        "category": "step_not_advanced",
-        "severity": "recoverable",
-        "meaning": "接口返回成功，但服务端状态没有推进到期望页面或状态",
-        "suggested_action": "不要直接进入下一协议步骤；先以服务端当前位置为准，检查该组件是否缺少 continueFlag、按钮语义或自动推进合同。",
-        "recovery_action": "inspect_progress_contract_then_resume",
-        "current_comp_url": "YbbSelect",
-        "current_status": "10",
-        "server_curr_comp_url": "YbbSelect",
-        "server_status": "10",
-        "expected_components": [
-          "PreElectronicDoc",
-          "PreSubmitSuccess"
-        ],
-        "upstream_code": "00000"
-      },
-      {
-        "business_stage_name": "第二阶段：信息填报",
-        "page_name": "云帮办流程模式选择",
-        "protocol_step": 23,
-        "step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-        "code": "STEP_NOT_ADVANCED",
-        "result_type": "0",
-        "message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
-        "category": "step_not_advanced",
-        "severity": "recoverable",
-        "meaning": "接口返回成功，但服务端状态没有推进到期望页面或状态",
-        "suggested_action": "不要直接进入下一协议步骤；先以服务端当前位置为准，检查该组件是否缺少 continueFlag、按钮语义或自动推进合同。",
-        "recovery_action": "inspect_progress_contract_then_resume",
-        "current_comp_url": "YbbSelect",
-        "current_status": "10",
-        "server_curr_comp_url": "YbbSelect",
-        "server_status": "10",
-        "expected_components": [
-          "PreElectronicDoc",
-          "PreSubmitSuccess"
-        ],
-        "upstream_code": "00000"
-      },
-      {
-        "business_stage_name": "第二阶段：信息填报",
-        "page_name": "云帮办流程模式选择",
-        "protocol_step": 23,
-        "step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-        "code": "STEP_NOT_ADVANCED",
-        "result_type": "0",
-        "message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
-        "category": "step_not_advanced",
-        "severity": "recoverable",
-        "meaning": "接口返回成功，但服务端状态没有推进到期望页面或状态",
-        "suggested_action": "不要直接进入下一协议步骤；先以服务端当前位置为准，检查该组件是否缺少 continueFlag、按钮语义或自动推进合同。",
-        "recovery_action": "inspect_progress_contract_then_resume",
-        "current_comp_url": "YbbSelect",
-        "current_status": "10",
-        "server_curr_comp_url": "YbbSelect",
-        "server_status": "10",
-        "expected_components": [
-          "PreElectronicDoc",
-          "PreSubmitSuccess"
-        ],
-        "upstream_code": "00000"
-      },
-      {
-        "business_stage_name": "第二阶段：信息填报",
-        "page_name": "云帮办流程模式选择",
-        "protocol_step": 23,
-        "step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-        "code": "STEP_NOT_ADVANCED",
-        "result_type": "0",
-        "message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
-        "category": "step_not_advanced",
-        "severity": "recoverable",
-        "meaning": "接口返回成功，但服务端状态没有推进到期望页面或状态",
-        "suggested_action": "不要直接进入下一协议步骤；先以服务端当前位置为准，检查该组件是否缺少 continueFlag、按钮语义或自动推进合同。",
-        "recovery_action": "inspect_progress_contract_then_resume",
-        "current_comp_url": "YbbSelect",
-        "current_status": "10",
-        "server_curr_comp_url": "YbbSelect",
-        "server_status": "10",
-        "expected_components": [
-          "PreElectronicDoc",
-          "PreSubmitSuccess"
-        ],
-        "upstream_code": "00000"
+        ]
       }
     ],
-    "last_response_message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
+    "server_curr_comp_url": "YbbSelect",
+    "current_comp_url": "YbbSelect",
     "resume_source": "active_matter",
+    "server_busi_id": "2048624034216157186",
+    "resume_realigned_component": "BusinessLicenceWay",
+    "resume_realigned_from_step": 23,
+    "resume_realigned_to_step": 22,
     "pipeline_name": "phase2_establish",
     "step_execution_counts": {
-      "22:[23] establish/YbbSelect/operationBusinessDataInfo [save]": 1
+      "21:[22] establish/BusinessLicenceWay/operationBusinessDataInfo [save]": 1,
+      "22:[23] establish/YbbSelect/operationBusinessDataInfo [save]": 1,
+      "23:[24] establish/PreElectronicDoc/operationBusinessDataInfo [save]": 1,
+      "24:[25] establish/PreSubmitSuccess/loadBusinessDataInfo [终点]": 1,
+      "25:[26] establish/submit [最终提交]": 1
     },
-    "last_attempted_step_index": 22,
-    "last_attempted_step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-    "last_attempted_step_count": 1
+    "last_attempted_step_index": 25,
+    "last_attempted_step_name": "[26] establish/submit [最终提交]",
+    "last_attempted_step_count": 1,
+    "last_response_message": "establish/submit [最终提交] 被本地编排护栏拦截：当前感知位置为 YbbSelect，不应直接执行该步骤。"
   },
   "latest_diagnosis": {
     "schema": "smart_diagnosis.v1",
     "pipeline": "phase2_establish",
-    "step_index": 22,
-    "step_number": 23,
-    "step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-    "step_tag": "p2_step23",
-    "optional": false,
+    "step_index": 25,
+    "step_number": 26,
+    "step_name": "[26] establish/submit [最终提交]",
+    "step_tag": "p2_step26",
+    "optional": true,
     "ok": false,
-    "code": "STEP_NOT_ADVANCED",
-    "result_type": "0",
-    "message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
+    "code": "STEP_POSITION_GUARD",
+    "result_type": "",
+    "message": "establish/submit [最终提交] 被本地编排护栏拦截：当前感知位置为 YbbSelect，不应直接执行该步骤。",
     "business_stage_key": "stage2_info_filling",
     "business_stage_name": "第二阶段：信息填报",
-    "page_key": "ybb_select",
-    "page_name": "云帮办流程模式选择",
-    "protocol_step": 23,
+    "page_key": "unknown",
+    "page_name": "未知页面",
+    "protocol_step": 26,
     "ent_type": "4540",
     "current_comp_url": "YbbSelect",
     "current_status": "10",
-    "server_curr_comp_url": "YbbSelect",
-    "server_status": "10",
-    "expected_components": [
-      "PreElectronicDoc",
+    "server_curr_comp_url": null,
+    "server_status": null,
+    "expected_components": null,
+    "expected_statuses": null,
+    "observed_current_comp_url": "YbbSelect",
+    "allowed_current_components": [
       "PreSubmitSuccess"
     ],
-    "expected_statuses": null,
-    "observed_current_comp_url": null,
-    "allowed_current_components": null,
-    "upstream_code": "00000",
+    "upstream_code": null,
     "attempted_count": null,
     "max_executions": null,
-    "last_ok_step_index": 21,
-    "last_ok_step_name": "[22] establish/BusinessLicenceWay/operationBusinessDataInfo [save]",
-    "category": "step_not_advanced",
+    "last_ok_step_index": 24,
+    "last_ok_step_name": "[25] establish/PreSubmitSuccess/loadBusinessDataInfo [终点]",
+    "category": "step_position_guard",
     "severity": "recoverable",
-    "meaning": "接口返回成功，但服务端状态没有推进到期望页面或状态",
-    "suggested_action": "不要直接进入下一协议步骤；先以服务端当前位置为准，检查该组件是否缺少 continueFlag、按钮语义或自动推进合同。",
-    "recovery_action": "inspect_progress_contract_then_resume",
+    "meaning": "本地编排护栏发现当前位置反馈缺失或与目标步骤不匹配，因此主动阻止了请求发送",
+    "suggested_action": "先读取当前位置反馈，再按服务端真实所在组件续跑；不要盲目直打后续页面。",
+    "recovery_action": "probe_current_position_then_resume",
     "retryable": false,
     "requires_human": false
   },
@@ -4798,31 +4705,28 @@
     "schema": "orchestrator.checkpoint.v2",
     "pipeline": "phase2_establish",
     "status": "failed",
-    "case_key": "case_兴裕为_f53a931dd6",
+    "case_key": "case_兴裕为_5c061be943",
     "case_path": "docs\\case_兴裕为.json",
-    "case_id": "rongxian_xingyuwei_4540_2026",
-    "case_name": "钰启维（广西容县）软件开发中心（个人独资）",
+    "case_id": "rongxian_xingyuwei_4540_2026v2",
+    "case_name": "鸿启智（广西容县）软件开发中心（个人独资）",
     "ent_type": "4540",
-    "completed_step": 21,
-    "resume_index": 22,
+    "completed_step": 24,
+    "resume_index": 25,
     "context_state": {
-      "phase1_busi_id": "2048086174425284608",
-      "name_id": "2048086342795599873",
-      "establish_busi_id": "2048086397500768257",
-      "phase2_progress_contract_version": 3,
-      "current_comp_url": "YbbSelect",
+      "phase1_busi_id": "2048623804703440896",
+      "name_id": "2048622963047604225",
+      "establish_busi_id": "2048624034216157186",
+      "phase2_progress_contract_version": 8,
       "current_status": "10",
-      "server_curr_comp_url": "YbbSelect",
       "server_status": "10",
       "server_busi_type": "02",
-      "server_name_id": "2048086342795599873",
-      "server_busi_id": "2048086397500768257",
+      "server_name_id": "2048622963047604225",
       "position_probe_code": "00000",
       "position_probe_result_type": "0",
       "phase2_driver_snapshot": {
-        "establish_busiId": "2048086397500768257",
-        "basicinfo_signInfo": "1439532101",
-        "last_sign_info": "1439532101",
+        "establish_busiId": "2048624034216157186",
+        "basicinfo_signInfo": "-707167196",
+        "last_sign_info": "-707167196",
         "basicinfo_busiData": {
           "flowData": {
             "busiId": null,
@@ -4830,7 +4734,7 @@
             "busiType": "02",
             "ywlbSign": "4",
             "busiMode": null,
-            "nameId": "2048086342795599873",
+            "nameId": "2048622963047604225",
             "marPrId": null,
             "secondId": null,
             "vipChannel": null,
@@ -4840,7 +4744,7 @@
             "interruptControl": null
           },
           "linkData": {
-            "token": "",
+            "token": "824032604",
             "continueFlag": null,
             "compUrl": "BasicInfo",
             "compUrlPaths": [
@@ -4914,7 +4818,7 @@
           ],
           "currentLocationVo": {
             "busiType": "02",
-            "entName": "钰启维（广西容县）软件开发中心（个人独资）",
+            "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
             "uniScId": null,
             "readOnlyStepList": [
               "confirm",
@@ -5350,7 +5254,7 @@
               "remark": "家庭成员控件"
             }
           },
-          "signInfo": "1439532101",
+          "signInfo": "-707167196",
           "operationResultVo": null,
           "signRandomCode": null,
           "extraDto": null,
@@ -5956,13 +5860,13 @@
             "useManyAddress": null,
             "id": null
           },
-          "name": "钰启维（广西容县）软件开发中心（个人独资）",
+          "name": "鸿启智（广西容县）软件开发中心（个人独资）",
           "businessPremises": null,
           "fisRegionCode": null,
           "grpName": null,
           "grpShForm": null,
           "telephone": null,
-          "nameMark": "钰启维",
+          "nameMark": "鸿启智",
           "shouldInvestWay": null,
           "email": null,
           "bpBusinessAddress": null,
@@ -6449,7 +6353,7 @@
           }
         },
         "last_save_linkData": {
-          "token": "",
+          "token": "824032604",
           "continueFlag": null,
           "compUrl": "YbbSelect",
           "compUrlPaths": [
@@ -6507,12 +6411,12 @@
           "busiCompUrlPaths": "%5B%5D"
         },
         "last_save_flowData": {
-          "busiId": "2048086397500768257",
+          "busiId": "2048624034216157186",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
           "busiMode": null,
-          "nameId": "2048086342795599873",
+          "nameId": "2048622963047604225",
           "marPrId": null,
           "secondId": null,
           "vipChannel": null,
@@ -6523,12 +6427,12 @@
         },
         "MemberBaseInfo_busiData": {
           "flowData": {
-            "busiId": "2048086397500768257",
+            "busiId": "2048624034216157186",
             "entType": "4540",
             "busiType": "02",
             "ywlbSign": "4",
             "busiMode": null,
-            "nameId": "2048086342795599873",
+            "nameId": "2048622963047604225",
             "marPrId": null,
             "secondId": null,
             "vipChannel": null,
@@ -6613,7 +6517,7 @@
           ],
           "currentLocationVo": {
             "busiType": "02",
-            "entName": "钰启维（广西容县）软件开发中心（个人独资）",
+            "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
             "uniScId": null,
             "readOnlyStepList": [
               "confirm",
@@ -6944,7 +6848,7 @@
             "remark": "成员基础信息控件"
           },
           "subBusiCompMap": null,
-          "signInfo": "1439532101",
+          "signInfo": "-707167196",
           "operationResultVo": null,
           "signRandomCode": null,
           "extraDto": null,
@@ -6978,15 +6882,15 @@
           "isLoginInfo": null,
           "invType": null
         },
-        "MemberBaseInfo_signInfo": "1439532101",
+        "MemberBaseInfo_signInfo": "-707167196",
         "MemberPost_busiData": {
           "flowData": {
-            "busiId": "2048086397500768257",
+            "busiId": "2048624034216157186",
             "entType": "4540",
             "busiType": "02",
             "ywlbSign": "4",
             "busiMode": null,
-            "nameId": "2048086342795599873",
+            "nameId": "2048622963047604225",
             "marPrId": null,
             "secondId": null,
             "vipChannel": null,
@@ -6996,7 +6900,7 @@
             "interruptControl": null
           },
           "linkData": {
-            "token": "",
+            "token": "824032604",
             "continueFlag": null,
             "compUrl": "MemberPost",
             "compUrlPaths": [
@@ -7070,7 +6974,7 @@
           ],
           "currentLocationVo": {
             "busiType": "02",
-            "entName": "钰启维（广西容县）软件开发中心（个人独资）",
+            "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
             "uniScId": null,
             "readOnlyStepList": [
               "confirm",
@@ -7131,7 +7035,7 @@
               "remark": "成员基础信息控件"
             }
           },
-          "signInfo": "1439532101",
+          "signInfo": "-707167196",
           "operationResultVo": null,
           "signRandomCode": null,
           "extraDto": null,
@@ -7161,7 +7065,7 @@
                 "submitVo": null,
                 "page": null,
                 "list": null,
-                "itemId": "2048086424502272000",
+                "itemId": "2048624060581150720",
                 "fieldList": null,
                 "busiComp": null,
                 "subBusiCompMap": null,
@@ -7223,7 +7127,7 @@
                 "submitVo": null,
                 "page": null,
                 "list": null,
-                "itemId": "2048086424502272000",
+                "itemId": "2048624060581150720",
                 "fieldList": null,
                 "busiComp": null,
                 "subBusiCompMap": null,
@@ -7285,7 +7189,7 @@
                 "submitVo": null,
                 "page": null,
                 "list": null,
-                "itemId": "2048086424502272000",
+                "itemId": "2048624060581150720",
                 "fieldList": null,
                 "busiComp": null,
                 "subBusiCompMap": null,
@@ -7347,7 +7251,7 @@
                 "submitVo": null,
                 "page": null,
                 "list": null,
-                "itemId": "2048086424502272000",
+                "itemId": "2048624060581150720",
                 "fieldList": null,
                 "busiComp": null,
                 "subBusiCompMap": null,
@@ -7387,11 +7291,11 @@
               }
             ]
           },
-          "entName": "钰启维（广西容县）软件开发中心（个人独资）",
+          "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
           "parentEntName": null
         },
         "MemberPost_srv_linkData": {
-          "token": "",
+          "token": "824032604",
           "continueFlag": null,
           "compUrl": "MemberPost",
           "compUrlPaths": [
@@ -7448,7 +7352,7 @@
           "opeType": "load",
           "busiCompUrlPaths": "%5B%7B%22compUrl%22%3A%22MemberPost%22%2C%22id%22%3A%22%22%7D%5D"
         },
-        "MemberPost_signInfo": "1439532101",
+        "MemberPost_signInfo": "-707167196",
         "memberpool_raw_member": {
           "flowData": null,
           "linkData": {
@@ -7471,7 +7375,7 @@
           "submitVo": null,
           "page": null,
           "list": null,
-          "itemId": "2048086424502272000",
+          "itemId": "2048624060581150720",
           "fieldList": null,
           "busiComp": null,
           "subBusiCompMap": null,
@@ -7509,8 +7413,8 @@
           "isLoginInfo": "1",
           "invType": null
         },
-        "memberpool_item_id": "2048086424502272000",
-        "MemberInfo_signInfo": "1439532101",
+        "memberpool_item_id": "2048624060581150720",
+        "MemberInfo_signInfo": "-707167196",
         "MemberInfo_srv_linkData": {
           "token": "",
           "continueFlag": null,
@@ -7572,12 +7476,12 @@
         },
         "MemberPool_busiData": {
           "flowData": {
-            "busiId": "2048086397500768257",
+            "busiId": "2048624034216157186",
             "entType": "4540",
             "busiType": "02",
             "ywlbSign": "4",
             "busiMode": null,
-            "nameId": "2048086342795599873",
+            "nameId": "2048622963047604225",
             "marPrId": null,
             "secondId": null,
             "vipChannel": null,
@@ -7587,7 +7491,7 @@
             "interruptControl": null
           },
           "linkData": {
-            "token": "",
+            "token": "824032604",
             "continueFlag": null,
             "compUrl": "MemberPool",
             "compUrlPaths": [
@@ -7661,7 +7565,7 @@
           ],
           "currentLocationVo": {
             "busiType": "02",
-            "entName": "钰启维（广西容县）软件开发中心（个人独资）",
+            "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
             "uniScId": null,
             "readOnlyStepList": [
               "confirm",
@@ -7722,14 +7626,14 @@
               "remark": "成员信息控件"
             }
           },
-          "signInfo": "1439532101",
+          "signInfo": "-707167196",
           "operationResultVo": null,
           "signRandomCode": null,
           "extraDto": null,
           "xzPushGsDto": null
         },
         "MemberPool_srv_linkData": {
-          "token": "",
+          "token": "824032604",
           "continueFlag": null,
           "compUrl": "MemberPool",
           "compUrlPaths": [
@@ -7786,15 +7690,15 @@
           "opeType": "load",
           "busiCompUrlPaths": "%5B%7B%22compUrl%22%3A%22MemberPool%22%2C%22id%22%3A%22%22%7D%5D"
         },
-        "MemberPool_signInfo": "1439532101",
+        "MemberPool_signInfo": "-707167196",
         "ComplementInfo_busiData": {
           "flowData": {
-            "busiId": "2048086397500768257",
+            "busiId": "2048624034216157186",
             "entType": "4540",
             "busiType": "02",
             "ywlbSign": "4",
             "busiMode": null,
-            "nameId": "2048086342795599873",
+            "nameId": "2048622963047604225",
             "marPrId": null,
             "secondId": null,
             "vipChannel": null,
@@ -7804,7 +7708,7 @@
             "interruptControl": null
           },
           "linkData": {
-            "token": "",
+            "token": "824032604",
             "continueFlag": null,
             "compUrl": "ComplementInfo",
             "compUrlPaths": [
@@ -7878,7 +7782,7 @@
           ],
           "currentLocationVo": {
             "busiType": "02",
-            "entName": "钰启维（广西容县）软件开发中心（个人独资）",
+            "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
             "uniScId": null,
             "readOnlyStepList": [
               "confirm",
@@ -7920,7 +7824,7 @@
             "remark": "补充信息"
           },
           "subBusiCompMap": null,
-          "signInfo": "1439532101",
+          "signInfo": "-707167196",
           "operationResultVo": null,
           "signRandomCode": null,
           "extraDto": null,
@@ -8040,7 +7944,7 @@
           "authorizedInfoDto": null
         },
         "ComplementInfo_srv_linkData": {
-          "token": "",
+          "token": "824032604",
           "continueFlag": null,
           "compUrl": "ComplementInfo",
           "compUrlPaths": [
@@ -8097,15 +8001,15 @@
           "opeType": "load",
           "busiCompUrlPaths": "%5B%5D"
         },
-        "ComplementInfo_signInfo": "1439532101",
+        "ComplementInfo_signInfo": "-707167196",
         "TaxInvoice_busiData": {
           "flowData": {
-            "busiId": "2048086397500768257",
+            "busiId": "2048624034216157186",
             "entType": "4540",
             "busiType": "02",
             "ywlbSign": "4",
             "busiMode": null,
-            "nameId": "2048086342795599873",
+            "nameId": "2048622963047604225",
             "marPrId": null,
             "secondId": null,
             "vipChannel": null,
@@ -8189,7 +8093,7 @@
           ],
           "currentLocationVo": {
             "busiType": "02",
-            "entName": "钰启维（广西容县）软件开发中心（个人独资）",
+            "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
             "uniScId": null,
             "readOnlyStepList": [
               "confirm",
@@ -8231,7 +8135,7 @@
             "remark": "税务登记"
           },
           "subBusiCompMap": null,
-          "signInfo": "1439532101",
+          "signInfo": "-707167196",
           "operationResultVo": null,
           "signRandomCode": null,
           "extraDto": null,
@@ -8389,15 +8293,15 @@
           "opeType": "load",
           "busiCompUrlPaths": "%5B%5D"
         },
-        "TaxInvoice_signInfo": "1439532101",
+        "TaxInvoice_signInfo": "-707167196",
         "SlUploadMaterial_busiData": {
           "flowData": {
-            "busiId": "2048086397500768257",
+            "busiId": "2048624034216157186",
             "entType": "4540",
             "busiType": "02",
             "ywlbSign": "4",
             "busiMode": null,
-            "nameId": "2048086342795599873",
+            "nameId": "2048622963047604225",
             "marPrId": null,
             "secondId": null,
             "vipChannel": null,
@@ -8407,7 +8311,7 @@
             "interruptControl": null
           },
           "linkData": {
-            "token": "",
+            "token": "824032604",
             "continueFlag": null,
             "compUrl": "SlUploadMaterial",
             "compUrlPaths": [
@@ -8481,7 +8385,7 @@
           ],
           "currentLocationVo": {
             "busiType": "02",
-            "entName": "钰启维（广西容县）软件开发中心（个人独资）",
+            "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
             "uniScId": null,
             "readOnlyStepList": [
               "confirm",
@@ -8523,7 +8427,7 @@
             "remark": "设立登记上传材料"
           },
           "subBusiCompMap": null,
-          "signInfo": "1439532101",
+          "signInfo": "-707167196",
           "operationResultVo": null,
           "signRandomCode": null,
           "extraDto": null,
@@ -8592,7 +8496,7 @@
               "maxCount": "10",
               "materialVoList": [
                 {
-                  "id": "2048086623531810817",
+                  "id": "2048624218228662274",
                   "name": "住所证明.PDF",
                   "cerNo": null,
                   "content": null,
@@ -8625,7 +8529,7 @@
               "maxCount": "10",
               "materialVoList": [
                 {
-                  "id": "2048086628174905346",
+                  "id": "2048624222762704897",
                   "name": "微信图片_20260411104217_91_17.jpg",
                   "cerNo": null,
                   "content": null,
@@ -8676,7 +8580,7 @@
           "sortId": null
         },
         "SlUploadMaterial_srv_linkData": {
-          "token": "",
+          "token": "824032604",
           "continueFlag": null,
           "compUrl": "SlUploadMaterial",
           "compUrlPaths": [
@@ -8733,15 +8637,15 @@
           "opeType": "load",
           "busiCompUrlPaths": "%5B%5D"
         },
-        "SlUploadMaterial_signInfo": "1439532101",
+        "SlUploadMaterial_signInfo": "-707167196",
         "BusinessLicenceWay_busiData": {
           "flowData": {
-            "busiId": "2048086397500768257",
+            "busiId": "2048624034216157186",
             "entType": "4540",
             "busiType": "02",
             "ywlbSign": "4",
             "busiMode": null,
-            "nameId": "2048086342795599873",
+            "nameId": "2048622963047604225",
             "marPrId": null,
             "secondId": null,
             "vipChannel": null,
@@ -8751,7 +8655,7 @@
             "interruptControl": null
           },
           "linkData": {
-            "token": "",
+            "token": "824032604",
             "continueFlag": null,
             "compUrl": "BusinessLicenceWay",
             "compUrlPaths": [
@@ -8821,11 +8725,12 @@
             "loadbusinessList",
             "loadbusinessData",
             "operationBusinessData",
-            "loadCurrentLocation"
+            "loadCurrentLocation",
+            "producePdf"
           ],
           "currentLocationVo": {
             "busiType": "02",
-            "entName": "钰启维（广西容县）软件开发中心（个人独资）",
+            "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
             "uniScId": null,
             "readOnlyStepList": [
               "confirm",
@@ -8884,7 +8789,7 @@
             "remark": "营业执照领取"
           },
           "subBusiCompMap": null,
-          "signInfo": "1439532101",
+          "signInfo": "-707167196",
           "operationResultVo": null,
           "signRandomCode": null,
           "extraDto": null,
@@ -8919,7 +8824,7 @@
             "userid": null,
             "orgid": null,
             "expressCom": null,
-            "mailSign": null,
+            "mailSign": "0",
             "regionCode": "450921",
             "regionName": null,
             "regionStreetCode": null,
@@ -8929,11 +8834,11 @@
             "isPayType": null,
             "wholeAddress": "容州镇车站西路富盛广场1幢3203号房",
             "mailBusinessId": null,
-            "cerNo": null,
+            "cerNo": "",
             "encryptedCerNo": null,
-            "cerType": null,
-            "email": null,
-            "tel": null,
+            "cerType": "",
+            "email": "",
+            "tel": "",
             "encryptedTel": null,
             "havePostage": false,
             "haveAddress": false,
@@ -9050,7 +8955,7 @@
           "copyCerNum": null
         },
         "BusinessLicenceWay_srv_linkData": {
-          "token": "",
+          "token": "824032604",
           "continueFlag": null,
           "compUrl": "BusinessLicenceWay",
           "compUrlPaths": [
@@ -9107,15 +9012,15 @@
           "opeType": "load",
           "busiCompUrlPaths": "%5B%5D"
         },
-        "BusinessLicenceWay_signInfo": "1439532101",
+        "BusinessLicenceWay_signInfo": "-707167196",
         "YbbSelect_busiData": {
           "flowData": {
-            "busiId": "2048086397500768257",
+            "busiId": "2048624034216157186",
             "entType": "4540",
             "busiType": "02",
             "ywlbSign": "4",
             "busiMode": null,
-            "nameId": "2048086342795599873",
+            "nameId": "2048622963047604225",
             "marPrId": null,
             "secondId": null,
             "vipChannel": null,
@@ -9125,7 +9030,7 @@
             "interruptControl": null
           },
           "linkData": {
-            "token": "",
+            "token": "824032604",
             "continueFlag": null,
             "compUrl": "YbbSelect",
             "compUrlPaths": [
@@ -9200,7 +9105,7 @@
           ],
           "currentLocationVo": {
             "busiType": "02",
-            "entName": "钰启维（广西容县）软件开发中心（个人独资）",
+            "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
             "uniScId": null,
             "readOnlyStepList": [
               "confirm",
@@ -9242,7 +9147,7 @@
             "remark": "设立登记云帮办流程模式选择"
           },
           "subBusiCompMap": null,
-          "signInfo": "1439532101",
+          "signInfo": "-707167196",
           "operationResultVo": null,
           "signRandomCode": null,
           "extraDto": null,
@@ -9251,7 +9156,7 @@
           "isSelectYbb": "0"
         },
         "YbbSelect_srv_linkData": {
-          "token": "",
+          "token": "824032604",
           "continueFlag": null,
           "compUrl": "YbbSelect",
           "compUrlPaths": [
@@ -9308,21 +9213,21 @@
           "opeType": "load",
           "busiCompUrlPaths": "%5B%5D"
         },
-        "YbbSelect_signInfo": "1439532101"
+        "YbbSelect_signInfo": "-707167196"
       },
-      "phase2_driver_busi_id": "2048086174425284608",
+      "phase2_driver_busi_id": "2048623804703440896",
       "phase2_driver_ent_type": "4540",
       "phase2_driver_busi_type": "01",
-      "phase2_driver_name_id": "2048086342795599873",
-      "last_step_index": 22,
-      "last_step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
+      "phase2_driver_name_id": "2048622963047604225",
+      "last_step_index": 25,
+      "last_step_name": "[26] establish/submit [最终提交]",
       "last_step_ok": false,
-      "last_response_code": "STEP_NOT_ADVANCED",
-      "last_response_result_type": "0",
-      "last_ok_step_index": 21,
-      "last_ok_step_name": "[22] establish/BusinessLicenceWay/operationBusinessDataInfo [save]",
-      "last_ok_code": "00000",
-      "last_ok_result_type": "0",
+      "last_response_code": "STEP_POSITION_GUARD",
+      "last_response_result_type": "",
+      "last_ok_step_index": 24,
+      "last_ok_step_name": "[25] establish/PreSubmitSuccess/loadBusinessDataInfo [终点]",
+      "last_ok_code": "D0010",
+      "last_ok_result_type": "",
       "current_busi_comp_comb": {
         "id": null,
         "compUrl": null
@@ -9330,42 +9235,41 @@
       "last_diagnosis": {
         "schema": "smart_diagnosis.v1",
         "pipeline": "phase2_establish",
-        "step_index": 22,
-        "step_number": 23,
-        "step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-        "step_tag": "p2_step23",
-        "optional": false,
+        "step_index": 25,
+        "step_number": 26,
+        "step_name": "[26] establish/submit [最终提交]",
+        "step_tag": "p2_step26",
+        "optional": true,
         "ok": false,
-        "code": "STEP_NOT_ADVANCED",
-        "result_type": "0",
-        "message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
+        "code": "STEP_POSITION_GUARD",
+        "result_type": "",
+        "message": "establish/submit [最终提交] 被本地编排护栏拦截：当前感知位置为 YbbSelect，不应直接执行该步骤。",
         "business_stage_key": "stage2_info_filling",
         "business_stage_name": "第二阶段：信息填报",
-        "page_key": "ybb_select",
-        "page_name": "云帮办流程模式选择",
-        "protocol_step": 23,
+        "page_key": "unknown",
+        "page_name": "未知页面",
+        "protocol_step": 26,
         "ent_type": "4540",
         "current_comp_url": "YbbSelect",
         "current_status": "10",
-        "server_curr_comp_url": "YbbSelect",
-        "server_status": "10",
-        "expected_components": [
-          "PreElectronicDoc",
+        "server_curr_comp_url": null,
+        "server_status": null,
+        "expected_components": null,
+        "expected_statuses": null,
+        "observed_current_comp_url": "YbbSelect",
+        "allowed_current_components": [
           "PreSubmitSuccess"
         ],
-        "expected_statuses": null,
-        "observed_current_comp_url": null,
-        "allowed_current_components": null,
-        "upstream_code": "00000",
+        "upstream_code": null,
         "attempted_count": null,
         "max_executions": null,
-        "last_ok_step_index": 21,
-        "last_ok_step_name": "[22] establish/BusinessLicenceWay/operationBusinessDataInfo [save]",
-        "category": "step_not_advanced",
+        "last_ok_step_index": 24,
+        "last_ok_step_name": "[25] establish/PreSubmitSuccess/loadBusinessDataInfo [终点]",
+        "category": "step_position_guard",
         "severity": "recoverable",
-        "meaning": "接口返回成功，但服务端状态没有推进到期望页面或状态",
-        "suggested_action": "不要直接进入下一协议步骤；先以服务端当前位置为准，检查该组件是否缺少 continueFlag、按钮语义或自动推进合同。",
-        "recovery_action": "inspect_progress_contract_then_resume",
+        "meaning": "本地编排护栏发现当前位置反馈缺失或与目标步骤不匹配，因此主动阻止了请求发送",
+        "suggested_action": "先读取当前位置反馈，再按服务端真实所在组件续跑；不要盲目直打后续页面。",
+        "recovery_action": "probe_current_position_then_resume",
         "retryable": false,
         "requires_human": false
       },
@@ -9373,26 +9277,23 @@
       "current_ent_type": "4540",
       "last_problem": {
         "business_stage_name": "第二阶段：信息填报",
-        "page_name": "云帮办流程模式选择",
-        "protocol_step": 23,
-        "step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-        "code": "STEP_NOT_ADVANCED",
-        "result_type": "0",
-        "message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
-        "category": "step_not_advanced",
+        "page_name": "未知页面",
+        "protocol_step": 26,
+        "step_name": "[26] establish/submit [最终提交]",
+        "code": "STEP_POSITION_GUARD",
+        "result_type": "",
+        "message": "establish/submit [最终提交] 被本地编排护栏拦截：当前感知位置为 YbbSelect，不应直接执行该步骤。",
+        "category": "step_position_guard",
         "severity": "recoverable",
-        "meaning": "接口返回成功，但服务端状态没有推进到期望页面或状态",
-        "suggested_action": "不要直接进入下一协议步骤；先以服务端当前位置为准，检查该组件是否缺少 continueFlag、按钮语义或自动推进合同。",
-        "recovery_action": "inspect_progress_contract_then_resume",
+        "meaning": "本地编排护栏发现当前位置反馈缺失或与目标步骤不匹配，因此主动阻止了请求发送",
+        "suggested_action": "先读取当前位置反馈，再按服务端真实所在组件续跑；不要盲目直打后续页面。",
+        "recovery_action": "probe_current_position_then_resume",
         "current_comp_url": "YbbSelect",
         "current_status": "10",
-        "server_curr_comp_url": "YbbSelect",
-        "server_status": "10",
-        "expected_components": [
-          "PreElectronicDoc",
+        "observed_current_comp_url": "YbbSelect",
+        "allowed_current_components": [
           "PreSubmitSuccess"
-        ],
-        "upstream_code": "00000"
+        ]
       },
       "problems": [
         {
@@ -9408,381 +9309,238 @@
           "meaning": "可选组件不可用或当前用户无该可选入口权限",
           "suggested_action": "如果该 step 标记 optional，可跳过；否则查询当前位置确认是否应进入下一页面。",
           "recovery_action": "skip_if_optional",
-          "current_comp_url": "NameSuccess",
-          "current_status": "51"
+          "current_status": "10"
         },
         {
           "business_stage_name": "第二阶段：信息填报",
-          "page_name": "云帮办流程模式选择",
-          "protocol_step": 23,
-          "step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-          "code": "STEP_NOT_ADVANCED",
-          "result_type": "0",
-          "message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
-          "category": "step_not_advanced",
+          "page_name": "未知页面",
+          "protocol_step": 26,
+          "step_name": "[26] establish/submit [最终提交]",
+          "code": "STEP_POSITION_GUARD",
+          "result_type": "",
+          "message": "establish/submit [最终提交] 被本地编排护栏拦截：当前感知位置为 YbbSelect，不应直接执行该步骤。",
+          "category": "step_position_guard",
           "severity": "recoverable",
-          "meaning": "接口返回成功，但服务端状态没有推进到期望页面或状态",
-          "suggested_action": "不要直接进入下一协议步骤；先以服务端当前位置为准，检查该组件是否缺少 continueFlag、按钮语义或自动推进合同。",
-          "recovery_action": "inspect_progress_contract_then_resume",
+          "meaning": "本地编排护栏发现当前位置反馈缺失或与目标步骤不匹配，因此主动阻止了请求发送",
+          "suggested_action": "先读取当前位置反馈，再按服务端真实所在组件续跑；不要盲目直打后续页面。",
+          "recovery_action": "probe_current_position_then_resume",
           "current_comp_url": "YbbSelect",
           "current_status": "10",
-          "server_curr_comp_url": "YbbSelect",
-          "server_status": "10",
-          "expected_components": [
-            "PreElectronicDoc",
+          "observed_current_comp_url": "YbbSelect",
+          "allowed_current_components": [
             "PreSubmitSuccess"
-          ],
-          "upstream_code": "00000"
-        },
-        {
-          "business_stage_name": "第二阶段：信息填报",
-          "page_name": "云帮办流程模式选择",
-          "protocol_step": 23,
-          "step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-          "code": "STEP_NOT_ADVANCED",
-          "result_type": "0",
-          "message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
-          "category": "step_not_advanced",
-          "severity": "recoverable",
-          "meaning": "接口返回成功，但服务端状态没有推进到期望页面或状态",
-          "suggested_action": "不要直接进入下一协议步骤；先以服务端当前位置为准，检查该组件是否缺少 continueFlag、按钮语义或自动推进合同。",
-          "recovery_action": "inspect_progress_contract_then_resume",
-          "current_comp_url": "YbbSelect",
-          "current_status": "10",
-          "server_curr_comp_url": "YbbSelect",
-          "server_status": "10",
-          "expected_components": [
-            "PreElectronicDoc",
-            "PreSubmitSuccess"
-          ],
-          "upstream_code": "00000"
-        },
-        {
-          "business_stage_name": "第二阶段：信息填报",
-          "page_name": "云帮办流程模式选择",
-          "protocol_step": 23,
-          "step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-          "code": "STEP_NOT_ADVANCED",
-          "result_type": "0",
-          "message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
-          "category": "step_not_advanced",
-          "severity": "recoverable",
-          "meaning": "接口返回成功，但服务端状态没有推进到期望页面或状态",
-          "suggested_action": "不要直接进入下一协议步骤；先以服务端当前位置为准，检查该组件是否缺少 continueFlag、按钮语义或自动推进合同。",
-          "recovery_action": "inspect_progress_contract_then_resume",
-          "current_comp_url": "YbbSelect",
-          "current_status": "10",
-          "server_curr_comp_url": "YbbSelect",
-          "server_status": "10",
-          "expected_components": [
-            "PreElectronicDoc",
-            "PreSubmitSuccess"
-          ],
-          "upstream_code": "00000"
-        },
-        {
-          "business_stage_name": "第二阶段：信息填报",
-          "page_name": "云帮办流程模式选择",
-          "protocol_step": 23,
-          "step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-          "code": "STEP_NOT_ADVANCED",
-          "result_type": "0",
-          "message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
-          "category": "step_not_advanced",
-          "severity": "recoverable",
-          "meaning": "接口返回成功，但服务端状态没有推进到期望页面或状态",
-          "suggested_action": "不要直接进入下一协议步骤；先以服务端当前位置为准，检查该组件是否缺少 continueFlag、按钮语义或自动推进合同。",
-          "recovery_action": "inspect_progress_contract_then_resume",
-          "current_comp_url": "YbbSelect",
-          "current_status": "10",
-          "server_curr_comp_url": "YbbSelect",
-          "server_status": "10",
-          "expected_components": [
-            "PreElectronicDoc",
-            "PreSubmitSuccess"
-          ],
-          "upstream_code": "00000"
-        },
-        {
-          "business_stage_name": "第二阶段：信息填报",
-          "page_name": "云帮办流程模式选择",
-          "protocol_step": 23,
-          "step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-          "code": "STEP_NOT_ADVANCED",
-          "result_type": "0",
-          "message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
-          "category": "step_not_advanced",
-          "severity": "recoverable",
-          "meaning": "接口返回成功，但服务端状态没有推进到期望页面或状态",
-          "suggested_action": "不要直接进入下一协议步骤；先以服务端当前位置为准，检查该组件是否缺少 continueFlag、按钮语义或自动推进合同。",
-          "recovery_action": "inspect_progress_contract_then_resume",
-          "current_comp_url": "YbbSelect",
-          "current_status": "10",
-          "server_curr_comp_url": "YbbSelect",
-          "server_status": "10",
-          "expected_components": [
-            "PreElectronicDoc",
-            "PreSubmitSuccess"
-          ],
-          "upstream_code": "00000"
+          ]
         }
       ],
-      "last_response_message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
+      "server_curr_comp_url": "YbbSelect",
+      "current_comp_url": "YbbSelect",
       "resume_source": "active_matter",
+      "server_busi_id": "2048624034216157186",
+      "resume_realigned_component": "BusinessLicenceWay",
+      "resume_realigned_from_step": 23,
+      "resume_realigned_to_step": 22,
       "pipeline_name": "phase2_establish",
       "step_execution_counts": {
-        "22:[23] establish/YbbSelect/operationBusinessDataInfo [save]": 1
+        "21:[22] establish/BusinessLicenceWay/operationBusinessDataInfo [save]": 1,
+        "22:[23] establish/YbbSelect/operationBusinessDataInfo [save]": 1,
+        "23:[24] establish/PreElectronicDoc/operationBusinessDataInfo [save]": 1,
+        "24:[25] establish/PreSubmitSuccess/loadBusinessDataInfo [终点]": 1,
+        "25:[26] establish/submit [最终提交]": 1
       },
-      "last_attempted_step_index": 22,
-      "last_attempted_step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-      "last_attempted_step_count": 1
+      "last_attempted_step_index": 25,
+      "last_attempted_step_name": "[26] establish/submit [最终提交]",
+      "last_attempted_step_count": 1,
+      "last_response_message": "establish/submit [最终提交] 被本地编排护栏拦截：当前感知位置为 YbbSelect，不应直接执行该步骤。"
     },
     "last_step": {
-      "name": "establish/YbbSelect/operationBusinessDataInfo [save]",
+      "name": "establish/submit [最终提交]",
       "ok": false,
-      "code": "STEP_NOT_ADVANCED",
-      "resultType": "0",
-      "message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
+      "code": "STEP_POSITION_GUARD",
+      "resultType": "",
+      "message": "establish/submit [最终提交] 被本地编排护栏拦截：当前感知位置为 YbbSelect，不应直接执行该步骤。",
       "extracted": {
-        "ybb_transition_mode": "save_then_load",
-        "ybb_followup_component": "PreElectronicDoc",
-        "ybb_followup_code": "D0010",
-        "ybb_followup_result_type": "",
-        "ybb_followup_message": "当前表单无需填写",
-        "ybb_followup_accessible": false,
-        "ybb_cdp_fallback": {
-          "success": true,
-          "stage": "clicked",
-          "url": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/ybb-select?fromProject=portal&busiId=2048086397500768257&busiType=02_4&entType=4540&nameId=2048086342795599873",
-          "result": {
-            "ok": true,
-            "before": {
-              "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/ybb-select?fromProject=portal&busiId=2048086397500768257&busiType=02_4&entType=4540&nameId=2048086342795599873",
-              "hash": "#/flow/base/ybb-select?fromProject=portal&busiId=2048086397500768257&busiType=02_4&entType=4540&nameId=2048086342795599873",
-              "text": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 钰启维（广西容县）软件开发中心（个人独资） 1 名称信息 2 信息填报 3 信息确认 4 信息预审 5 电子签章 6 信息审核 7 告知书 8 营业执照 1. 基本信息 2. 成员架构 3. 成员信息 4. 补充信息 5. 税务信息填报 6. 材料补充 7. 营业执照领取 8. 云帮办流程模式选择 云帮办流程模式选择 选择一般流程办理 先签名后确认 企业 申请人填写电子材料 企业 进行电子签名并提交 市监 工作人员对材料进行确认 市监 反馈确认结果"
-            },
-            "general": {
-              "ok": true,
-              "key": "选择一般流程办理",
-              "text": "选择一般流程办理"
-            },
-            "save": {
-              "ok": true,
-              "key": "保存",
-              "text": "保存"
-            },
-            "confirm": {
-              "ok": false,
-              "keys": [
-                "确定"
-              ]
-            },
-            "after": {
-              "href": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html#/flow/base/ybb-select?fromProject=portal&busiId=2048086397500768257&busiType=02_4&entType=4540&nameId=2048086342795599873",
-              "hash": "#/flow/base/ybb-select?fromProject=portal&busiId=2048086397500768257&busiType=02_4&entType=4540&nameId=2048086342795599873",
-              "text": "广西数字政务一体化平台 首页 全部服务 **裕 办件中心 长辈模式 钰启维（广西容县）软件开发中心（个人独资） 1 名称信息 2 信息填报 3 信息确认 4 信息预审 5 电子签章 6 信息审核 7 告知书 8 营业执照 1. 基本信息 2. 成员架构 3. 成员信息 4. 补充信息 5. 税务信息填报 6. 材料补充 7. 营业执照领取 8. 云帮办流程模式选择 云帮办流程模式选择 选择一般流程办理 先签名后确认 企业 申请人填写电子材料 企业 进行电子签名并提交 市监 工作人员对材料进行确认 市监 反馈确认结果，需补正材料的补正材料后再次签名提交 功能特点 1. 通过互联网在线完成，无需现场办理 2. 需要至少一名参与企业登记的"
-            }
-          }
-        },
-        "busiId": "2048086397500768257",
-        "nameId": "2048086342795599873",
-        "server_curr_comp_url": "YbbSelect",
-        "server_status": "10",
-        "server_busi_type": "02",
-        "server_name_id": "2048086342795599873",
-        "server_busi_id": "2048086397500768257",
-        "position_probe_code": "00000",
-        "position_probe_result_type": "0",
-        "expected_components": [
-          "PreElectronicDoc",
+        "observed_current_comp_url": "YbbSelect",
+        "allowed_current_components": [
           "PreSubmitSuccess"
         ],
-        "upstream_code": "00000",
-        "upstream_result_type": "0",
-        "expected_progress_mode": "must_leave_component",
-        "expected_from_component": "YbbSelect"
+        "last_response_code": "D0010",
+        "last_step_name": "[25] establish/PreSubmitSuccess/loadBusinessDataInfo [终点]"
       },
-      "duration_s": 4.64,
+      "duration_s": 0.0,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
         "pipeline": "phase2_establish",
-        "step_index": 22,
-        "step_number": 23,
-        "step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-        "step_tag": "p2_step23",
-        "optional": false,
+        "step_index": 25,
+        "step_number": 26,
+        "step_name": "[26] establish/submit [最终提交]",
+        "step_tag": "p2_step26",
+        "optional": true,
         "ok": false,
-        "code": "STEP_NOT_ADVANCED",
-        "result_type": "0",
-        "message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
+        "code": "STEP_POSITION_GUARD",
+        "result_type": "",
+        "message": "establish/submit [最终提交] 被本地编排护栏拦截：当前感知位置为 YbbSelect，不应直接执行该步骤。",
         "business_stage_key": "stage2_info_filling",
         "business_stage_name": "第二阶段：信息填报",
-        "page_key": "ybb_select",
-        "page_name": "云帮办流程模式选择",
-        "protocol_step": 23,
+        "page_key": "unknown",
+        "page_name": "未知页面",
+        "protocol_step": 26,
         "ent_type": "4540",
         "current_comp_url": "YbbSelect",
         "current_status": "10",
-        "server_curr_comp_url": "YbbSelect",
-        "server_status": "10",
-        "expected_components": [
-          "PreElectronicDoc",
+        "server_curr_comp_url": null,
+        "server_status": null,
+        "expected_components": null,
+        "expected_statuses": null,
+        "observed_current_comp_url": "YbbSelect",
+        "allowed_current_components": [
           "PreSubmitSuccess"
         ],
-        "expected_statuses": null,
-        "observed_current_comp_url": null,
-        "allowed_current_components": null,
-        "upstream_code": "00000",
+        "upstream_code": null,
         "attempted_count": null,
         "max_executions": null,
-        "last_ok_step_index": 21,
-        "last_ok_step_name": "[22] establish/BusinessLicenceWay/operationBusinessDataInfo [save]",
-        "category": "step_not_advanced",
+        "last_ok_step_index": 24,
+        "last_ok_step_name": "[25] establish/PreSubmitSuccess/loadBusinessDataInfo [终点]",
+        "category": "step_position_guard",
         "severity": "recoverable",
-        "meaning": "接口返回成功，但服务端状态没有推进到期望页面或状态",
-        "suggested_action": "不要直接进入下一协议步骤；先以服务端当前位置为准，检查该组件是否缺少 continueFlag、按钮语义或自动推进合同。",
-        "recovery_action": "inspect_progress_contract_then_resume",
+        "meaning": "本地编排护栏发现当前位置反馈缺失或与目标步骤不匹配，因此主动阻止了请求发送",
+        "suggested_action": "先读取当前位置反馈，再按服务端真实所在组件续跑；不要盲目直打后续页面。",
+        "recovery_action": "probe_current_position_then_resume",
         "retryable": false,
         "requires_human": false
       }
     },
     "failure": {
-      "exit_reason": "step_22_p2_step23",
-      "exit_detail": "[23] establish/YbbSelect/operationBusinessDataInfo [save]: STEP_NOT_ADVANCED establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
-      "failed_step_index": 22,
-      "failed_step_name": "establish/YbbSelect/operationBusinessDataInfo [save]",
-      "failed_step_code": "STEP_NOT_ADVANCED",
-      "failed_step_result_type": "0",
-      "failed_step_message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
+      "exit_reason": null,
+      "exit_detail": null,
+      "failed_step_index": 25,
+      "failed_step_name": "establish/submit [最终提交]",
+      "failed_step_code": "STEP_POSITION_GUARD",
+      "failed_step_result_type": "",
+      "failed_step_message": "establish/submit [最终提交] 被本地编排护栏拦截：当前感知位置为 YbbSelect，不应直接执行该步骤。",
       "diagnosis": {
         "schema": "smart_diagnosis.v1",
         "pipeline": "phase2_establish",
-        "step_index": 22,
-        "step_number": 23,
-        "step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-        "step_tag": "p2_step23",
-        "optional": false,
+        "step_index": 25,
+        "step_number": 26,
+        "step_name": "[26] establish/submit [最终提交]",
+        "step_tag": "p2_step26",
+        "optional": true,
         "ok": false,
-        "code": "STEP_NOT_ADVANCED",
-        "result_type": "0",
-        "message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
+        "code": "STEP_POSITION_GUARD",
+        "result_type": "",
+        "message": "establish/submit [最终提交] 被本地编排护栏拦截：当前感知位置为 YbbSelect，不应直接执行该步骤。",
         "business_stage_key": "stage2_info_filling",
         "business_stage_name": "第二阶段：信息填报",
-        "page_key": "ybb_select",
-        "page_name": "云帮办流程模式选择",
-        "protocol_step": 23,
+        "page_key": "unknown",
+        "page_name": "未知页面",
+        "protocol_step": 26,
         "ent_type": "4540",
         "current_comp_url": "YbbSelect",
         "current_status": "10",
-        "server_curr_comp_url": "YbbSelect",
-        "server_status": "10",
-        "expected_components": [
-          "PreElectronicDoc",
+        "server_curr_comp_url": null,
+        "server_status": null,
+        "expected_components": null,
+        "expected_statuses": null,
+        "observed_current_comp_url": "YbbSelect",
+        "allowed_current_components": [
           "PreSubmitSuccess"
         ],
-        "expected_statuses": null,
-        "observed_current_comp_url": null,
-        "allowed_current_components": null,
-        "upstream_code": "00000",
+        "upstream_code": null,
         "attempted_count": null,
         "max_executions": null,
-        "last_ok_step_index": 21,
-        "last_ok_step_name": "[22] establish/BusinessLicenceWay/operationBusinessDataInfo [save]",
-        "category": "step_not_advanced",
+        "last_ok_step_index": 24,
+        "last_ok_step_name": "[25] establish/PreSubmitSuccess/loadBusinessDataInfo [终点]",
+        "category": "step_position_guard",
         "severity": "recoverable",
-        "meaning": "接口返回成功，但服务端状态没有推进到期望页面或状态",
-        "suggested_action": "不要直接进入下一协议步骤；先以服务端当前位置为准，检查该组件是否缺少 continueFlag、按钮语义或自动推进合同。",
-        "recovery_action": "inspect_progress_contract_then_resume",
+        "meaning": "本地编排护栏发现当前位置反馈缺失或与目标步骤不匹配，因此主动阻止了请求发送",
+        "suggested_action": "先读取当前位置反馈，再按服务端真实所在组件续跑；不要盲目直打后续页面。",
+        "recovery_action": "probe_current_position_then_resume",
         "retryable": false,
         "requires_human": false
       }
     },
-    "timestamp": "2026-04-26 07:43:26"
+    "timestamp": "2026-04-27 12:43:56"
   },
   "log": [
     {
       "phase": "bootstrap",
       "event": "resume_candidate",
       "source": "active_matter",
-      "busi_id": "2048086397500768257",
-      "name_id": "2048086342795599873",
+      "busi_id": "2048624034216157186",
+      "name_id": "2048622963047604225",
       "currCompUrl": "",
       "start_from_index": 0
     },
     {
       "phase": "phase2",
       "success": false,
-      "exit_reason": "step_22_p2_step23",
-      "exit_detail": "[23] establish/YbbSelect/operationBusinessDataInfo [save]: STEP_NOT_ADVANCED establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
-      "stopped_at_step": 22,
-      "start_from_index": 22,
+      "exit_reason": null,
+      "exit_detail": null,
+      "stopped_at_step": 25,
+      "start_from_index": 21,
       "current_comp_url": "YbbSelect",
       "current_status": "10",
       "diagnosis": {
         "schema": "smart_diagnosis.v1",
         "pipeline": "phase2_establish",
-        "step_index": 22,
-        "step_number": 23,
-        "step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-        "step_tag": "p2_step23",
-        "optional": false,
+        "step_index": 25,
+        "step_number": 26,
+        "step_name": "[26] establish/submit [最终提交]",
+        "step_tag": "p2_step26",
+        "optional": true,
         "ok": false,
-        "code": "STEP_NOT_ADVANCED",
-        "result_type": "0",
-        "message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
+        "code": "STEP_POSITION_GUARD",
+        "result_type": "",
+        "message": "establish/submit [最终提交] 被本地编排护栏拦截：当前感知位置为 YbbSelect，不应直接执行该步骤。",
         "business_stage_key": "stage2_info_filling",
         "business_stage_name": "第二阶段：信息填报",
-        "page_key": "ybb_select",
-        "page_name": "云帮办流程模式选择",
-        "protocol_step": 23,
+        "page_key": "unknown",
+        "page_name": "未知页面",
+        "protocol_step": 26,
         "ent_type": "4540",
         "current_comp_url": "YbbSelect",
         "current_status": "10",
-        "server_curr_comp_url": "YbbSelect",
-        "server_status": "10",
-        "expected_components": [
-          "PreElectronicDoc",
+        "server_curr_comp_url": null,
+        "server_status": null,
+        "expected_components": null,
+        "expected_statuses": null,
+        "observed_current_comp_url": "YbbSelect",
+        "allowed_current_components": [
           "PreSubmitSuccess"
         ],
-        "expected_statuses": null,
-        "observed_current_comp_url": null,
-        "allowed_current_components": null,
-        "upstream_code": "00000",
+        "upstream_code": null,
         "attempted_count": null,
         "max_executions": null,
-        "last_ok_step_index": 21,
-        "last_ok_step_name": "[22] establish/BusinessLicenceWay/operationBusinessDataInfo [save]",
-        "category": "step_not_advanced",
+        "last_ok_step_index": 24,
+        "last_ok_step_name": "[25] establish/PreSubmitSuccess/loadBusinessDataInfo [终点]",
+        "category": "step_position_guard",
         "severity": "recoverable",
-        "meaning": "接口返回成功，但服务端状态没有推进到期望页面或状态",
-        "suggested_action": "不要直接进入下一协议步骤；先以服务端当前位置为准，检查该组件是否缺少 continueFlag、按钮语义或自动推进合同。",
-        "recovery_action": "inspect_progress_contract_then_resume",
+        "meaning": "本地编排护栏发现当前位置反馈缺失或与目标步骤不匹配，因此主动阻止了请求发送",
+        "suggested_action": "先读取当前位置反馈，再按服务端真实所在组件续跑；不要盲目直打后续页面。",
+        "recovery_action": "probe_current_position_then_resume",
         "retryable": false,
         "requires_human": false
       },
       "problem": {
         "business_stage_name": "第二阶段：信息填报",
-        "page_name": "云帮办流程模式选择",
-        "protocol_step": 23,
-        "step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-        "code": "STEP_NOT_ADVANCED",
-        "result_type": "0",
-        "message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
-        "category": "step_not_advanced",
+        "page_name": "未知页面",
+        "protocol_step": 26,
+        "step_name": "[26] establish/submit [最终提交]",
+        "code": "STEP_POSITION_GUARD",
+        "result_type": "",
+        "message": "establish/submit [最终提交] 被本地编排护栏拦截：当前感知位置为 YbbSelect，不应直接执行该步骤。",
+        "category": "step_position_guard",
         "severity": "recoverable",
-        "meaning": "接口返回成功，但服务端状态没有推进到期望页面或状态",
-        "suggested_action": "不要直接进入下一协议步骤；先以服务端当前位置为准，检查该组件是否缺少 continueFlag、按钮语义或自动推进合同。",
-        "recovery_action": "inspect_progress_contract_then_resume",
+        "meaning": "本地编排护栏发现当前位置反馈缺失或与目标步骤不匹配，因此主动阻止了请求发送",
+        "suggested_action": "先读取当前位置反馈，再按服务端真实所在组件续跑；不要盲目直打后续页面。",
+        "recovery_action": "probe_current_position_then_resume",
         "current_comp_url": "YbbSelect",
         "current_status": "10",
-        "server_curr_comp_url": "YbbSelect",
-        "server_status": "10",
-        "expected_components": [
-          "PreElectronicDoc",
+        "observed_current_comp_url": "YbbSelect",
+        "allowed_current_components": [
           "PreSubmitSuccess"
-        ],
-        "upstream_code": "00000"
+        ]
       }
     }
   ],
@@ -9790,76 +9548,72 @@
     {
       "phase": "phase2",
       "success": false,
-      "exit_reason": "step_22_p2_step23",
-      "exit_detail": "[23] establish/YbbSelect/operationBusinessDataInfo [save]: STEP_NOT_ADVANCED establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
-      "stopped_at_step": 22,
-      "start_from_index": 22,
+      "exit_reason": null,
+      "exit_detail": null,
+      "stopped_at_step": 25,
+      "start_from_index": 21,
       "current_comp_url": "YbbSelect",
       "current_status": "10",
       "diagnosis": {
         "schema": "smart_diagnosis.v1",
         "pipeline": "phase2_establish",
-        "step_index": 22,
-        "step_number": 23,
-        "step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-        "step_tag": "p2_step23",
-        "optional": false,
+        "step_index": 25,
+        "step_number": 26,
+        "step_name": "[26] establish/submit [最终提交]",
+        "step_tag": "p2_step26",
+        "optional": true,
         "ok": false,
-        "code": "STEP_NOT_ADVANCED",
-        "result_type": "0",
-        "message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
+        "code": "STEP_POSITION_GUARD",
+        "result_type": "",
+        "message": "establish/submit [最终提交] 被本地编排护栏拦截：当前感知位置为 YbbSelect，不应直接执行该步骤。",
         "business_stage_key": "stage2_info_filling",
         "business_stage_name": "第二阶段：信息填报",
-        "page_key": "ybb_select",
-        "page_name": "云帮办流程模式选择",
-        "protocol_step": 23,
+        "page_key": "unknown",
+        "page_name": "未知页面",
+        "protocol_step": 26,
         "ent_type": "4540",
         "current_comp_url": "YbbSelect",
         "current_status": "10",
-        "server_curr_comp_url": "YbbSelect",
-        "server_status": "10",
-        "expected_components": [
-          "PreElectronicDoc",
+        "server_curr_comp_url": null,
+        "server_status": null,
+        "expected_components": null,
+        "expected_statuses": null,
+        "observed_current_comp_url": "YbbSelect",
+        "allowed_current_components": [
           "PreSubmitSuccess"
         ],
-        "expected_statuses": null,
-        "observed_current_comp_url": null,
-        "allowed_current_components": null,
-        "upstream_code": "00000",
+        "upstream_code": null,
         "attempted_count": null,
         "max_executions": null,
-        "last_ok_step_index": 21,
-        "last_ok_step_name": "[22] establish/BusinessLicenceWay/operationBusinessDataInfo [save]",
-        "category": "step_not_advanced",
+        "last_ok_step_index": 24,
+        "last_ok_step_name": "[25] establish/PreSubmitSuccess/loadBusinessDataInfo [终点]",
+        "category": "step_position_guard",
         "severity": "recoverable",
-        "meaning": "接口返回成功，但服务端状态没有推进到期望页面或状态",
-        "suggested_action": "不要直接进入下一协议步骤；先以服务端当前位置为准，检查该组件是否缺少 continueFlag、按钮语义或自动推进合同。",
-        "recovery_action": "inspect_progress_contract_then_resume",
+        "meaning": "本地编排护栏发现当前位置反馈缺失或与目标步骤不匹配，因此主动阻止了请求发送",
+        "suggested_action": "先读取当前位置反馈，再按服务端真实所在组件续跑；不要盲目直打后续页面。",
+        "recovery_action": "probe_current_position_then_resume",
         "retryable": false,
         "requires_human": false
       },
       "problem": {
         "business_stage_name": "第二阶段：信息填报",
-        "page_name": "云帮办流程模式选择",
-        "protocol_step": 23,
-        "step_name": "[23] establish/YbbSelect/operationBusinessDataInfo [save]",
-        "code": "STEP_NOT_ADVANCED",
-        "result_type": "0",
-        "message": "establish/YbbSelect/operationBusinessDataInfo [save] 上游返回 00000/rt=0，但服务端仍停留在 YbbSelect，未推进到 PreElectronicDoc / PreSubmitSuccess。",
-        "category": "step_not_advanced",
+        "page_name": "未知页面",
+        "protocol_step": 26,
+        "step_name": "[26] establish/submit [最终提交]",
+        "code": "STEP_POSITION_GUARD",
+        "result_type": "",
+        "message": "establish/submit [最终提交] 被本地编排护栏拦截：当前感知位置为 YbbSelect，不应直接执行该步骤。",
+        "category": "step_position_guard",
         "severity": "recoverable",
-        "meaning": "接口返回成功，但服务端状态没有推进到期望页面或状态",
-        "suggested_action": "不要直接进入下一协议步骤；先以服务端当前位置为准，检查该组件是否缺少 continueFlag、按钮语义或自动推进合同。",
-        "recovery_action": "inspect_progress_contract_then_resume",
+        "meaning": "本地编排护栏发现当前位置反馈缺失或与目标步骤不匹配，因此主动阻止了请求发送",
+        "suggested_action": "先读取当前位置反馈，再按服务端真实所在组件续跑；不要盲目直打后续页面。",
+        "recovery_action": "probe_current_position_then_resume",
         "current_comp_url": "YbbSelect",
         "current_status": "10",
-        "server_curr_comp_url": "YbbSelect",
-        "server_status": "10",
-        "expected_components": [
-          "PreElectronicDoc",
+        "observed_current_comp_url": "YbbSelect",
+        "allowed_current_components": [
           "PreSubmitSuccess"
-        ],
-        "upstream_code": "00000"
+        ]
       }
     }
   ]

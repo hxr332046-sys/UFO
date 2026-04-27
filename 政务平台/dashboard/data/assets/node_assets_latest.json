@@ -1,9 +1,9 @@
 {
   "schema": "ufo.node_assets_manifest.v1",
-  "generated_at": "2026-04-26 13:50:42",
+  "generated_at": "2026-04-27 12:43:56",
   "records_dir": "D:\\UFO\\政务平台\\dashboard\\data\\records",
   "assets_dir": "D:\\UFO\\政务平台\\dashboard\\data\\assets",
-  "node_count": 35,
+  "node_count": 34,
   "nodes": [
     {
       "comp_url": "NameInfoDisplay",
@@ -20,7 +20,7 @@
     {
       "comp_url": "BasicInfo",
       "page_name": "基本信息",
-      "business_stage_name": "第二阶段：信息填报",
+      "business_stage_name": "",
       "functions": [
         "load_business_list",
         "load_business_data",
@@ -28,12 +28,9 @@
         "load_current_location",
         "form_fields",
         "radio_selection",
-        "save",
         "progression_transition"
       ],
-      "error_codes": [
-        "00000"
-      ],
+      "error_codes": [],
       "prompt_count": 0,
       "field_total": 20,
       "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\BasicInfo.json"
@@ -41,18 +38,15 @@
     {
       "comp_url": "MemberPost",
       "page_name": "成员架构",
-      "business_stage_name": "第二阶段：信息填报",
+      "business_stage_name": "",
       "functions": [
         "load_business_list",
         "load_business_data",
         "operation_business_data",
         "load_current_location",
-        "save",
         "progression_transition"
       ],
-      "error_codes": [
-        "00000"
-      ],
+      "error_codes": [],
       "prompt_count": 0,
       "field_total": 0,
       "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\MemberPost.json"
@@ -60,7 +54,7 @@
     {
       "comp_url": "MemberPool",
       "page_name": "成员信息",
-      "business_stage_name": "第二阶段：信息填报",
+      "business_stage_name": "",
       "functions": [
         "load_business_list",
         "load_business_data",
@@ -68,9 +62,7 @@
         "load_current_location",
         "progression_transition"
       ],
-      "error_codes": [
-        "00000"
-      ],
+      "error_codes": [],
       "prompt_count": 0,
       "field_total": 0,
       "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\MemberPool.json"
@@ -126,18 +118,15 @@
     {
       "comp_url": "ComplementInfo",
       "page_name": "补充信息",
-      "business_stage_name": "第二阶段：信息填报",
+      "business_stage_name": "",
       "functions": [
         "load_business_list",
         "load_business_data",
         "operation_business_data",
         "load_current_location",
-        "save",
         "progression_transition"
       ],
-      "error_codes": [
-        "00000"
-      ],
+      "error_codes": [],
       "prompt_count": 0,
       "field_total": 0,
       "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\ComplementInfo.json"
@@ -193,18 +182,15 @@
     {
       "comp_url": "TaxInvoice",
       "page_name": "税务信息填报",
-      "business_stage_name": "第二阶段：信息填报",
+      "business_stage_name": "",
       "functions": [
         "load_business_list",
         "load_business_data",
         "operation_business_data",
         "load_current_location",
-        "save",
         "progression_transition"
       ],
-      "error_codes": [
-        "00000"
-      ],
+      "error_codes": [],
       "prompt_count": 0,
       "field_total": 0,
       "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\TaxInvoice.json"
@@ -373,13 +359,15 @@
         "load_business_data",
         "operation_business_data",
         "load_current_location",
+        "validation_feedback",
         "save",
         "progression_transition"
       ],
       "error_codes": [
-        "00000"
+        "00000",
+        "STEP_POSITION_GUARD"
       ],
-      "prompt_count": 1,
+      "prompt_count": 3,
       "field_total": 0,
       "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\YbbSelect.json"
     },
@@ -474,20 +462,6 @@
       "prompt_count": 0,
       "field_total": 18,
       "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\MemberBaseInfo.json"
-    },
-    {
-      "comp_url": "MemberInfo",
-      "page_name": "成员信息",
-      "business_stage_name": "第二阶段：信息填报",
-      "functions": [
-        "save"
-      ],
-      "error_codes": [
-        "00000"
-      ],
-      "prompt_count": 0,
-      "field_total": 0,
-      "asset_file": "D:\\UFO\\政务平台\\dashboard\\data\\assets\\node_assets\\MemberInfo.json"
     }
   ]
 }

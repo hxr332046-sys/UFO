@@ -60,6 +60,11 @@ def _phase2_expected_progress(step_num: int, ent_type: str, component: str) -> D
             "expected_components": ["PreSubmitSuccess"],
             "expected_statuses": ["90"],
         },
+        26: {
+            "mode": "submit_final",
+            "expected_components": ["PreSubmitSuccess"],
+            "expected_statuses": ["90"],
+        },
     }
     company_tail = {
         25: {
@@ -85,6 +90,11 @@ def _phase2_expected_progress(step_num: int, ent_type: str, component: str) -> D
             "expected_components": ["PreSubmitSuccess"],
             "expected_statuses": ["90"],
         },
+        29: {
+            "mode": "submit_final",
+            "expected_components": ["PreSubmitSuccess"],
+            "expected_statuses": ["90"],
+        },
     }
     rules = company_tail if ent_type == "1151" else common_tail
     progress = dict(rules.get(step_num) or {})
@@ -98,11 +108,13 @@ def _phase2_expected_entry(step_num: int, ent_type: str) -> Dict[str, Any]:
         23: {"allowed_current_components": ["YbbSelect", "BusinessLicenceWay"], "require_known_position": True},
         24: {"allowed_current_components": ["PreElectronicDoc", "YbbSelect"], "require_known_position": True},
         25: {"allowed_current_components": ["PreSubmitSuccess", "YbbSelect", "PreElectronicDoc"], "require_known_position": True},
+        26: {"allowed_current_components": ["PreSubmitSuccess"], "require_known_position": True},
     }
     company_tail = {
         26: {"allowed_current_components": ["YbbSelect", "BusinessLicenceWay"], "require_known_position": True},
         27: {"allowed_current_components": ["PreElectronicDoc", "YbbSelect"], "require_known_position": True},
         28: {"allowed_current_components": ["PreSubmitSuccess", "YbbSelect", "PreElectronicDoc"], "require_known_position": True},
+        29: {"allowed_current_components": ["PreSubmitSuccess"], "require_known_position": True},
     }
     rules = company_tail if ent_type == "1151" else common_tail
     return dict(rules.get(step_num) or {})
@@ -345,13 +357,16 @@ class Phase2Adapter:
 
     def __init__(self, case: Dict[str, Any], busi_id: str,
                  name_id: Optional[str] = None,
-                 establish_busi_id: Optional[str] = None):
+                 establish_busi_id: Optional[str] = None,
+                 user_id: str = ""):
         from phase2_protocol_driver import Phase2Context
         self.p2_ctx = Phase2Context.from_case(case, busi_id)
         if name_id:
             self.p2_ctx.name_id = name_id
         if establish_busi_id:
             self.p2_ctx.snapshot["establish_busiId"] = establish_busi_id
+        if user_id:
+            self.p2_ctx.user_id = user_id
 
     def restore_from_pipeline_ctx(self, pipeline_ctx: PipelineContext) -> None:
         """把 checkpoint 恢复到 PipelineContext 的状态同步回内部 Phase2Context。"""

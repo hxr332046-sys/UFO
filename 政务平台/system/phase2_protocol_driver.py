@@ -123,6 +123,8 @@ class Phase2Context:
     person_email: str = ""
     # name/submit 成功后服务端分配的 nameId（step 12/13 进 establish 时需要）
     name_id: Optional[str] = None
+    # 当前登录用户ID（linkData.token 需要，producePdf 等接口校验）
+    user_id: str = ""
     # 运行时
     last_http_status: int = 0
     snapshot: Dict[str, Any] = field(default_factory=dict)
@@ -188,7 +190,7 @@ def step1_load_current_location(client: ICPSPClient, c: Phase2Context) -> Dict[s
             "busiType": "01_4",    # 首次入口用 01_4
             "entType": c.ent_type,
         },
-        "linkData": {"token": ""},
+        "linkData": {"token": c.user_id},
     }
     return client.post_json(API_NAME_LOAD_LOC, body)
 
@@ -199,7 +201,7 @@ def step2_load_name_supplement(client: ICPSPClient, c: Phase2Context) -> Dict[st
         "linkData": {
             "compUrl": "NameSupplement",
             "compUrlPaths": ["NameSupplement"],
-            "token": "",
+            "token": c.user_id,
         },
         "extraDto": _extra_dto(c),
         "itemId": "",
@@ -213,7 +215,7 @@ def step3_load_shareholder_list(client: ICPSPClient, c: Phase2Context) -> Dict[s
         "linkData": {
             "compUrl": "NameShareholder",
             "compUrlPaths": ["NameSupplement", "NameShareholder"],
-            "token": "",
+            "token": c.user_id,
         },
         "extraDto": _extra_dto(c),
         "itemId": "",
@@ -229,7 +231,7 @@ def step4_load_shareholder_form(client: ICPSPClient, c: Phase2Context) -> Dict[s
         "linkData": {
             "compUrl": "NameShareholder",
             "compUrlPaths": ["NameSupplement", "NameShareholder"],
-            "token": "",
+            "token": c.user_id,
         },
         "extraDto": _extra_dto(c),
         "itemId": "",
@@ -279,7 +281,7 @@ def step5_save_shareholder(client: ICPSPClient, c: Phase2Context) -> Dict[str, A
             "opeType": "save",
             "compUrlPaths": ["NameSupplement", "NameShareholder"],
             "busiCompUrlPaths": '%5B%7B%22compUrl%22%3A%22NameSupplement%22%2C%22id%22%3A%22%22%7D%5D',
-            "token": "",
+            "token": c.user_id,
         },
         "extraDto": _extra_dto(c),
         "signInfo": "-252238669",
@@ -369,7 +371,7 @@ def step8_name_submit(client: ICPSPClient, c: Phase2Context) -> Dict[str, Any]:
             "compUrl": "NameSupplement",
             "compUrlPaths": ["NameSupplement"],
             "continueFlag": "",
-            "token": "",
+            "token": c.user_id,
         },
         "extraDto": _extra_dto(c),
     }
@@ -384,7 +386,7 @@ def step9_load_name_success(client: ICPSPClient, c: Phase2Context) -> Dict[str, 
         "linkData": {
             "compUrl": "NameSuccess",
             "compUrlPaths": ["NameSuccess"],
-            "token": "",
+            "token": c.user_id,
         },
         "extraDto": _extra_dto(c),
         "itemId": "",
@@ -438,7 +440,7 @@ def step12_establish_location(client: ICPSPClient, c: Phase2Context) -> Dict[str
             "entType": c.ent_type,
             "nameId": c.name_id or "",
         },
-        "linkData": {"continueFlag": "continueFlag", "token": ""},
+        "linkData": {"continueFlag": "continueFlag", "token": c.user_id},
     }
     resp = client.post_json(API_EST_LOAD_LOC, body, extra_headers={
         "Referer": "https://zhjg.scjdglj.gxzf.gov.cn:9087/icpsp-web-pc/core.html",
@@ -486,7 +488,7 @@ def step14_basicinfo_load(client: ICPSPClient, c: Phase2Context) -> Dict[str, An
         "linkData": {
             "compUrl": "BasicInfo",
             "compUrlPaths": ["BasicInfo"],
-            "token": "",
+            "token": c.user_id,
         },
         "itemId": "",
     }
@@ -532,6 +534,7 @@ def step15_basicinfo_save(client: ICPSPClient, c: Phase2Context) -> Dict[str, An
     save_body = pb.build_basicinfo_save_body(
         c.case, base,
         ent_type=c.ent_type, name_id=c.name_id,
+        user_id=c.user_id,
     )
     # ★ 确保 continueFlag="continueFlag"（_base_link_data 已默认设置，此处防护性确认）
     if "linkData" in save_body:
@@ -768,6 +771,7 @@ def step16_memberpost_save(client: ICPSPClient, c: Phase2Context) -> Dict[str, A
         c.case, mbi_base,
         ent_type=c.ent_type, name_id=c.name_id,
         busi_id=busi_id,
+        user_id=c.user_id,
     )
     # 用动态 signInfo（MemberBaseInfo load 返回的）
     _apply_dynamic_sign_info(mbi_body, c)
@@ -825,6 +829,7 @@ def step16_memberpost_save(client: ICPSPClient, c: Phase2Context) -> Dict[str, A
         c.case, raw_member=raw_member,
         ent_type=c.ent_type, name_id=c.name_id,
         busi_id=busi_id,
+        user_id=c.user_id,
     )
     # 合并服务端 linkData + 动态 signInfo
     srv_ld = c.snapshot.get("MemberPost_srv_linkData") or {}
@@ -938,6 +943,7 @@ def step18_memberinfo_save(client: ICPSPClient, c: Phase2Context) -> Dict[str, A
         ent_type=c.ent_type, name_id=c.name_id,
         busi_id=busi_id,
         item_id=item_id,
+        user_id=c.user_id,
     )
 
     # ── Step 3: 合并服务端 linkData + 动态 signInfo + post ──
@@ -976,6 +982,7 @@ def step18_memberinfo_save(client: ICPSPClient, c: Phase2Context) -> Dict[str, A
         mp_body = pb.build_empty_advance_save_body(
             "MemberPool", ent_type=c.ent_type, name_id=c.name_id,
             busi_id=busi_id,
+            user_id=c.user_id,
         )
         _apply_dynamic_sign_info(mp_body, c)
         # 合并服务端 linkData
@@ -1118,6 +1125,7 @@ def step20_tax_invoice_advance(client: ICPSPClient, c: Phase2Context) -> Dict[st
         tax_bd,
         ent_type=c.ent_type, name_id=c.name_id,
         busi_id=_establish_busi_id(c),
+        user_id=c.user_id,
     )
     return _post_save_and_track_sign(
         client, establish_comp_op("TaxInvoice"), body, c,
@@ -1200,6 +1208,7 @@ def step21_sl_upload_material(client: ICPSPClient, c: Phase2Context) -> Dict[str
             sort_id=_sl_sort_id(),
             ent_type=c.ent_type, name_id=c.name_id,
             busi_id=_establish_busi_id(c),
+            user_id=c.user_id,
         )
         return _post_save_and_track_sign(
             client, establish_comp_op("SlUploadMaterial"), body, c,
@@ -1245,6 +1254,7 @@ def step21_sl_upload_material(client: ICPSPClient, c: Phase2Context) -> Dict[str
             id_card_fm_uuid=person.get("id_back_uuid") or None,
             ent_type=c.ent_type, name_id=c.name_id,
             busi_id=_establish_busi_id(c),
+            user_id=c.user_id,
         )
         _apply_dynamic_sign_info(sp_body, c)
         sp_resp = client.post_json(establish_comp_op("SlUploadMaterial"), sp_body,
@@ -1269,6 +1279,7 @@ def step21_sl_upload_material(client: ICPSPClient, c: Phase2Context) -> Dict[str
         sort_id=_sl_sort_id(),
         ent_type=c.ent_type, name_id=c.name_id,
         busi_id=_establish_busi_id(c),
+        user_id=c.user_id,
     )
     final = _post_save_and_track_sign(
         client, establish_comp_op("SlUploadMaterial"), body, c,
@@ -1295,6 +1306,7 @@ def step22_licence_way_advance(client: ICPSPClient, c: Phase2Context) -> Dict[st
         c.case, blw_bd,
         ent_type=c.ent_type, name_id=c.name_id,
         busi_id=_establish_busi_id(c),
+        user_id=c.user_id,
     )
     return _post_save_and_track_sign(
         client, establish_comp_op("BusinessLicenceWay"), body, c,
@@ -1315,6 +1327,7 @@ def step23_ybb_select_save(client: ICPSPClient, c: Phase2Context) -> Dict[str, A
             base=ybb_bd,
             ent_type=c.ent_type, name_id=c.name_id,
             busi_id=_establish_busi_id(c),
+            user_id=c.user_id,
         ),
         c,
         extra_headers=hdrs,
@@ -1328,19 +1341,62 @@ def step23_ybb_select_save(client: ICPSPClient, c: Phase2Context) -> Dict[str, A
         save_resp["_protocol_extracted"] = protocol_extracted
         return save_resp
 
+    # ★ 前端 JS: producePdf(t, n) { t.linkData.token = u(); ... }
+    #   t 是当前 flowData/linkData 的完整引用，前端在已有对象上设 token 后直接发
+    #   所以 producePdf 的请求体必须包含 save 响应的完整 flowData 和 linkData
+    #
+    #   ★★ 关键发现：producePdf 之前需要先 load YbbSelect 获取服务端最新状态
+    #   前端在 save 成功后，Vue 组件的 flowData 已被 save 响应更新，
+    #   然后 producePdf 直接用这个更新后的 flowData 发请求。
+    #   我们需要模拟这个行为：先 load YbbSelect 获取最新 flowData，再调 producePdf。
+
+    # Step 1: Load YbbSelect to get fresh flowData/linkData after save
+    import time as _time
+    _time.sleep(1.0)  # 等待服务端状态刷新
+    fresh_load_resp = _load_component_with_context(client, c, "YbbSelect", extra_headers=hdrs)
+    fresh_bd = (fresh_load_resp.get("data") or {}).get("busiData") or {}
+
+    # Step 2: 用 fresh load 的数据构建 producePdf body
+    pdf_flow_data = copy.deepcopy(
+        fresh_bd.get("flowData")
+        or c.snapshot.get("last_save_flowData")
+        or {}
+    )
+    # ★ 确保 flowData 有 busiId
+    if not pdf_flow_data.get("busiId"):
+        pdf_flow_data["busiId"] = _establish_busi_id(c)
+    if not pdf_flow_data.get("nameId"):
+        pdf_flow_data["nameId"] = c.name_id
+    if not pdf_flow_data.get("entType"):
+        pdf_flow_data["entType"] = c.ent_type
+    if not pdf_flow_data.get("busiType"):
+        pdf_flow_data["busiType"] = "02"
+    if not pdf_flow_data.get("currCompUrl"):
+        pdf_flow_data["currCompUrl"] = "YbbSelect"
+
+    # ★ linkData 用 fresh load 返回的完整对象
+    pdf_link_data = copy.deepcopy(
+        fresh_bd.get("linkData")
+        or c.snapshot.get("last_save_linkData")
+        or {}
+    )
+    pdf_link_data["token"] = c.user_id   # ★ 前端 JS: t.linkData.token = u() = userinfo.user.id
+    pdf_link_data["compUrl"] = "YbbSelect"
+    if not pdf_link_data.get("compUrlPaths"):
+        pdf_link_data["compUrlPaths"] = ["YbbSelect"]
+    # continueFlag 清空（producePdf 不需要 continueFlag）
+    pdf_link_data["continueFlag"] = ""
+
     produce_pdf_body = {
-        "flowData": copy.deepcopy(
-            (ybb_bd.get("flowData") if isinstance(ybb_bd, dict) else None)
-            or c.snapshot.get("last_save_flowData")
-            or {}
-        ),
-        "linkData": {
-            "compUrl": "YbbSelect",
-            "compUrlPaths": ["YbbSelect"],
-            "continueFlag": "",
-            "token": "",
-        },
+        "flowData": pdf_flow_data,
+        "linkData": pdf_link_data,
     }
+    print(f"    [DEBUG producePdf] flowData.busiId={pdf_flow_data.get('busiId')}")
+    print(f"    [DEBUG producePdf] flowData.currCompUrl={pdf_flow_data.get('currCompUrl')}")
+    print(f"    [DEBUG producePdf] flowData.status={pdf_flow_data.get('status')}")
+    print(f"    [DEBUG producePdf] linkData.token={c.user_id}")
+    print(f"    [DEBUG producePdf] linkData keys={list(pdf_link_data.keys())}")
+    print(f"    [DEBUG producePdf] fresh_load_code={fresh_load_resp.get('code')}")
     produce_pdf_resp = client.post_json(
         "/icpsp-api/v4/pc/register/establish/producePdf",
         produce_pdf_body,
@@ -1387,6 +1443,7 @@ def step24_pre_electronic_doc_advance(client: ICPSPClient, c: Phase2Context) -> 
             ent_type=c.ent_type,
             name_id=c.name_id,
             busi_id=_establish_busi_id(c),
+            user_id=c.user_id,
         ),
         c,
         extra_headers=hdrs,
@@ -1443,11 +1500,39 @@ def step25_pre_submit_success_load(client: ICPSPClient, c: Phase2Context) -> Dic
     body = {
         "flowData": pb._base_flow_data(c.ent_type, c.name_id, "PreSubmitSuccess",
                                            busi_id=_establish_busi_id(c)),
-        "linkData": {"compUrl": "PreSubmitSuccess", "compUrlPaths": ["PreSubmitSuccess"], "token": ""},
+        "linkData": {"compUrl": "PreSubmitSuccess", "compUrlPaths": ["PreSubmitSuccess"], "token": c.user_id},
         "itemId": "",
     }
     return client.post_json(establish_comp_load("PreSubmitSuccess"), body,
                              extra_headers={"Referer": REFERER_CORE})
+
+
+def step26_establish_submit(client: ICPSPClient, c: Phase2Context) -> Dict[str, Any]:
+    """establish/submit — 最终提交（从预提交到正式提交审核）。
+
+    前端 JS: $api.flow.submit(body) → POST /{busiType}/submit
+    body 结构与 load 相同，linkData.token = userinfo.user.id。
+    提交后办件状态变为"待受理"，不可再修改。
+
+    ★ 此步骤默认不执行 — 需在 case 中设置 run_goal 含 "submit" 才会激活。
+    """
+    hdrs = {"Referer": REFERER_CORE}
+    submit_body = {
+        "flowData": pb._base_flow_data(c.ent_type, c.name_id, "PreSubmitSuccess",
+                                           busi_id=_establish_busi_id(c)),
+        "linkData": {
+            "compUrl": "PreSubmitSuccess",
+            "compUrlPaths": ["PreSubmitSuccess"],
+            "token": c.user_id,
+        },
+        "itemId": "",
+    }
+    submit_resp = client.post_json(
+        "/icpsp-api/v4/pc/register/establish/submit",
+        submit_body,
+        extra_headers=hdrs,
+    )
+    return submit_resp
 
 
 def step13_ybb_select(client: ICPSPClient, c: Phase2Context) -> Dict[str, Any]:
@@ -1479,7 +1564,7 @@ def step13_ybb_select(client: ICPSPClient, c: Phase2Context) -> Dict[str, Any]:
         "linkData": {
             "compUrl": "YbbSelect",
             "compUrlPaths": ["YbbSelect"],
-            "token": "",
+            "token": c.user_id,
         },
         "itemId": "",
     }
@@ -1573,7 +1658,7 @@ def step7_save_name_supplement(client: ICPSPClient, c: Phase2Context) -> Dict[st
             "opeType": "save",
             "compUrlPaths": ["NameSupplement"],
             "busiCompUrlPaths": "%5B%5D",
-            "token": "",
+            "token": c.user_id,
         },
         "extraDto": _extra_dto(c),
         "signInfo": "-252238669",
@@ -1668,6 +1753,7 @@ def step16_1151_memberpost_save(client: ICPSPClient, c: Phase2Context) -> Dict[s
         c.case, mbi_base,
         ent_type=c.ent_type, name_id=c.name_id,
         busi_id=busi_id,
+        user_id=c.user_id,
     )
     _apply_dynamic_sign_info(mbi_body, c)
     print(f"    [step16] MBI save signInfo={mbi_body.get('signInfo')}, postCode={mbi_body.get('postCode')}")
@@ -1718,6 +1804,7 @@ def step16_1151_memberpost_save(client: ICPSPClient, c: Phase2Context) -> Dict[s
         c.case, raw_member=raw_member,
         ent_type=c.ent_type, name_id=c.name_id,
         busi_id=busi_id,
+        user_id=c.user_id,
         item_id=c.snapshot.get("memberpool_item_id") or "",
     )
     srv_ld = c.snapshot.get("MemberPost_srv_linkData") or {}
@@ -1765,6 +1852,7 @@ def step18_1151_memberinfo_save(client: ICPSPClient, c: Phase2Context) -> Dict[s
         ent_type=c.ent_type, name_id=c.name_id,
         busi_id=_establish_busi_id(c),
         item_id=c.snapshot.get("memberpool_item_id") or "",
+        user_id=c.user_id,
     )
     return _post_save_and_track_sign(
         client, establish_comp_op("MemberInfo"), body, c,
@@ -1793,6 +1881,7 @@ def step19_1151_complement_info_advance(client: ICPSPClient, c: Phase2Context) -
         body = pb.build_complement_info_save_body_1151(
             c.case, ent_type=c.ent_type, name_id=c.name_id,
             busi_id=busi_id, preloaded_data=preloaded,
+            user_id=c.user_id,
         )
         body["flowData"]["currCompUrl"] = "ComplementInfo"
         _apply_dynamic_sign_info(body, c)
@@ -1864,6 +1953,7 @@ def step20_1151_rules_save(client: ICPSPClient, c: Phase2Context) -> Dict[str, A
     body = pb.build_rules_save_body_1151(
         c.case, ent_type=c.ent_type, name_id=c.name_id,
         busi_id=_establish_busi_id(c),
+        user_id=c.user_id,
     )
     return _post_save_and_track_sign(
         client, establish_comp_op("Rules"), body, c,
@@ -1876,7 +1966,8 @@ def step21_1151_medical_advance(client: ICPSPClient, c: Phase2Context) -> Dict[s
     """1151 MedicalInsured save — 空体推进（医保信息，无需用户输入）。"""
     body = pb.build_empty_advance_save_body("MedicalInsured",
                                                  ent_type=c.ent_type, name_id=c.name_id,
-                                                 busi_id=_establish_busi_id(c))
+                                                 busi_id=_establish_busi_id(c),
+                                                 user_id=c.user_id)
     return _post_save_and_track_sign(
         client, establish_comp_op("MedicalInsured"), body, c,
         extra_headers={"Referer": REFERER_CORE},
@@ -1888,7 +1979,8 @@ def step22_1151_tax_invoice_advance(client: ICPSPClient, c: Phase2Context) -> Di
     """1151 TaxInvoice save — 空体推进。"""
     body = pb.build_empty_advance_save_body("TaxInvoice",
                                                  ent_type=c.ent_type, name_id=c.name_id,
-                                                 busi_id=_establish_busi_id(c))
+                                                 busi_id=_establish_busi_id(c),
+                                                 user_id=c.user_id)
     return _post_save_and_track_sign(
         client, establish_comp_op("TaxInvoice"), body, c,
         extra_headers={"Referer": REFERER_CORE},
@@ -1900,7 +1992,8 @@ def step23_1151_yjs_prepack_advance(client: ICPSPClient, c: Phase2Context) -> Di
     """1151 YjsRegPrePack save — 空体推进（仅销售预包装食品备案）。"""
     body = pb.build_empty_advance_save_body("YjsRegPrePack",
                                                  ent_type=c.ent_type, name_id=c.name_id,
-                                                 busi_id=_establish_busi_id(c))
+                                                 busi_id=_establish_busi_id(c),
+                                                 user_id=c.user_id)
     return _post_save_and_track_sign(
         client, establish_comp_op("YjsRegPrePack"), body, c,
         extra_headers={"Referer": REFERER_CORE},
@@ -1974,11 +2067,12 @@ STEPS_SPEC: List[Tuple[int, str, Any, bool]] = [
     (23, "establish/YbbSelect/operationBusinessDataInfo [save]", step23_ybb_select_save, False),
     (24, "establish/PreElectronicDoc/operationBusinessDataInfo [save]", step24_pre_electronic_doc_advance, False),
     (25, "establish/PreSubmitSuccess/loadBusinessDataInfo [终点]", step25_pre_submit_success_load, False),
+    (26, "establish/submit [最终提交]", step26_establish_submit, True),
 ]
 
 
 # ════════════════════════════════════════════════════════════════════
-# ★ 1151 有限责任公司 28 步协议链 ★
+# ★ 1151 有限责任公司 29 步协议链 ★
 #
 # Steps 1-15 与 4540 完全相同（Phase 1 核名 + establish 入口 + BasicInfo）。
 # Steps 16-28 是 1151 专用（MemberPost 7 角色 / MemberInfo 复杂 DTOs /
@@ -2015,6 +2109,7 @@ STEPS_SPEC_1151: List[Tuple[int, str, Any, bool]] = [
     (26, "establish/YbbSelect/operationBusinessDataInfo [save]", step26_1151_ybb_select, False),
     (27, "establish/PreElectronicDoc/operationBusinessDataInfo [save]", step27_1151_pre_doc, False),
     (28, "establish/PreSubmitSuccess/loadBusinessDataInfo [终点]", step28_1151_pre_submit, False),
+    (29, "establish/submit [最终提交,1151]", step26_establish_submit, True),
 ]
 
 
@@ -2022,8 +2117,8 @@ def get_steps_spec(ent_type: Optional[str] = None) -> List[Tuple[int, str, Any, 
     """返回指定 entType 的 STEPS_SPEC 浅拷贝。
 
     Args:
-        ent_type: "1151" 返回 STEPS_SPEC_1151（28 步）；
-                  其他或 None 返回 STEPS_SPEC（4540 默认 25 步）。
+        ent_type: "1151" 返回 STEPS_SPEC_1151（29 步）；
+                  其他或 None 返回 STEPS_SPEC（4540 默认 26 步）。
 
     消费方应该调这个函数，而不是直接引用常量，避免耦合到常量的可变性。
     """

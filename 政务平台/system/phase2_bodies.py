@@ -80,10 +80,12 @@ def _base_flow_data(ent_type: str, name_id: str, curr_comp: str, *,
 def _base_link_data(comp_url: str, *,
                      ope_type: str = "save",
                      parents: Optional[List[str]] = None,
-                     continue_flag: Optional[str] = None) -> Dict[str, Any]:
+                     continue_flag: Optional[str] = None,
+                     user_id: str = "") -> Dict[str, Any]:
     """通用 linkData 骨架。parents 是父组件路径（如 MemberInfo 的父是 ["MemberPool"]）。
     ★ continueFlag 默认 None（不发送）— 真实捕获体证明大多数组件 linkData 不含此字段。
       只有 BasicInfo 第二次 save 时显式传 continue_flag="continueFlag"。
+    ★ token 默认空串 — 前端 JS 用 userinfo.user.id 填充，producePdf 等接口需要校验。
     """
     paths = (parents or []) + [comp_url] if parents else [comp_url]
     ld: Dict[str, Any] = {
@@ -91,7 +93,7 @@ def _base_link_data(comp_url: str, *,
         "opeType": ope_type,
         "compUrlPaths": paths,
         "busiCompUrlPaths": busi_comp_url_paths(parents),
-        "token": "",
+        "token": user_id,
     }
     if continue_flag is not None:
         ld["continueFlag"] = continue_flag
@@ -101,7 +103,8 @@ def _base_link_data(comp_url: str, *,
 # ==== BasicInfo ====
 
 def build_basicinfo_save_body(case: Dict[str, Any], base: Dict[str, Any],
-                                ent_type: str, name_id: str) -> Dict[str, Any]:
+                                ent_type: str, name_id: str,
+                                user_id: str = "") -> Dict[str, Any]:
     """基于 step14 load 返回的 busiData 基础 + case 覆盖，生成 BasicInfo save body。
 
     关键字段：
@@ -230,7 +233,7 @@ def build_basicinfo_save_body(case: Dict[str, Any], base: Dict[str, Any],
     # 注：mitm 真实样本是 OpManyAddress，但那是因为用户在 UI 里进入了"一址多照"子模块
     # 之后切回 BasicInfo 主表保存；协议化下我们没 load OpManyAddress 子组件，所以保持 BasicInfo
     body["flowData"] = _base_flow_data(ent_type, name_id, "BasicInfo")
-    body["linkData"] = _base_link_data("BasicInfo", continue_flag="continueFlag")
+    body["linkData"] = _base_link_data("BasicInfo", continue_flag="continueFlag", user_id=user_id)
     # ★ signInfo 是**动态签名**，每个办件状态唯一。必须回传 step 14 load 返回的值。
     # 硬编码 SIGN_INFO_ESTABLISH 只是 fallback（不同案例 load 签名会不同，D0022 越权的根因）
     # 2026-04-24 修复：之前跑通的 case_有为风 是因为 load 返回值恰巧一致
@@ -269,7 +272,8 @@ def _infer_sex_from_id(id_no: str) -> Optional[str]:
 def build_memberbaseinfo_save_body(case: Dict[str, Any],
                                      base: Dict[str, Any],
                                      *, ent_type: str, name_id: str,
-                                     busi_id: Optional[str] = None) -> Dict[str, Any]:
+                                     busi_id: Optional[str] = None,
+                                     user_id: str = "") -> Dict[str, Any]:
     """MemberBaseInfo save body — 基于 load 响应 base 模板（49 keys）+ case 数据填充。
 
     mitm 实录：dashboard/data/records/establish_save_samples/MemberBaseInfo__save.json
@@ -306,7 +310,7 @@ def build_memberbaseinfo_save_body(case: Dict[str, Any],
         "opeType": "save",
         "compUrlPaths": ["MemberPost", "MemberBaseInfo"],
         "busiCompUrlPaths": urllib.parse.quote('[{"compUrl":"MemberPost","id":""}]'),
-        "token": "",
+        "token": user_id,
     }
 
     # 业务字段填充（覆盖 load 返回的 null）
@@ -444,7 +448,8 @@ def build_memberpost_save_body(case: Dict[str, Any],
                                   raw_member: Optional[Dict[str, Any]] = None,
                                   *,
                                   ent_type: str, name_id: str,
-                                  busi_id: Optional[str] = None) -> Dict[str, Any]:
+                                  busi_id: Optional[str] = None,
+                                  user_id: str = "") -> Dict[str, Any]:
     """MemberPost save：设定组织架构（是否董事会/监事会 + 成员角色）。
 
     个人独资：board=0 / boardSup=0，pkAndMem 里 FR05（法定代表人，即投资人）, WTDLR（委托代理人）,
@@ -476,7 +481,7 @@ def build_memberpost_save_body(case: Dict[str, Any],
         "boardSup": "0",
         "pkAndMem": pk_and_mem,
         "flowData": _base_flow_data(ent_type, name_id, "MemberPost", busi_id=busi_id),
-        "linkData": _base_link_data("MemberPost"),
+        "linkData": _base_link_data("MemberPost", user_id=user_id),
         "signInfo": str(SIGN_INFO_ESTABLISH),
         "itemId": "",
     }
@@ -488,7 +493,8 @@ def build_memberpost_save_body(case: Dict[str, Any],
 def build_memberinfo_save_body(case: Dict[str, Any], raw_member: Dict[str, Any], *,
                                   ent_type: str, name_id: str,
                                   busi_id: Optional[str] = None,
-                                  item_id: str = "") -> Dict[str, Any]:
+                                  item_id: str = "",
+                                  user_id: str = "") -> Dict[str, Any]:
     """MemberInfo save：成员详情（池内）。
 
     输入：raw_member 是 MemberInfo/loadBusinessInfoList 返回的 list[0]（成员数据+meta）。
@@ -561,7 +567,7 @@ def build_memberinfo_save_body(case: Dict[str, Any], raw_member: Dict[str, Any],
     body = {
         **member,
         "flowData": _base_flow_data(ent_type, name_id, "MemberInfo", busi_id=busi_id),
-        "linkData": _base_link_data("MemberInfo", parents=["MemberPool"]),
+        "linkData": _base_link_data("MemberInfo", parents=["MemberPool"], user_id=user_id),
         "signInfo": str(SIGN_INFO_ESTABLISH),
         "itemId": item_id or raw_member.get("itemId") or "",
     }
@@ -574,13 +580,14 @@ def build_memberinfo_save_body(case: Dict[str, Any], raw_member: Dict[str, Any],
 def build_empty_advance_save_body(comp_url: str, *,
                                      ent_type: str, name_id: str,
                                      busi_id: Optional[str] = None,
-                                     parents: Optional[List[str]] = None) -> Dict[str, Any]:
+                                     parents: Optional[List[str]] = None,
+                                     user_id: str = "") -> Dict[str, Any]:
     """空 body 推进：BusinessLicenceWay / PreElectronicDoc 等
     "不需要额外填写，点'保存并下一步'即可"的组件。
     """
     return {
         "flowData": _base_flow_data(ent_type, name_id, comp_url, busi_id=busi_id),
-        "linkData": _base_link_data(comp_url, parents=parents),
+        "linkData": _base_link_data(comp_url, parents=parents, user_id=user_id),
         "signInfo": str(SIGN_INFO_ESTABLISH),
         "itemId": "",
     }
@@ -589,7 +596,8 @@ def build_empty_advance_save_body(comp_url: str, *,
 def build_pre_electronic_doc_save_body(*,
                                           base: Optional[Dict[str, Any]] = None,
                                           ent_type: str, name_id: str,
-                                          busi_id: Optional[str] = None) -> Dict[str, Any]:
+                                          busi_id: Optional[str] = None,
+                                          user_id: str = "") -> Dict[str, Any]:
     base = base or {}
     flow_data = copy.deepcopy(base.get("flowData") or {})
     if not flow_data:
@@ -604,14 +612,14 @@ def build_pre_electronic_doc_save_body(*,
 
     link_data = copy.deepcopy(base.get("linkData") or {})
     if not link_data:
-        link_data = _base_link_data("PreElectronicDoc")
+        link_data = _base_link_data("PreElectronicDoc", user_id=user_id)
     link_data["compUrl"] = "PreElectronicDoc"
     link_data["opeType"] = "save"
     link_data["compUrlPaths"] = ["PreElectronicDoc"]
     if link_data.get("busiCompUrlPaths") in (None, ""):
         link_data["busiCompUrlPaths"] = BUSI_COMP_URL_PATHS_EMPTY
-    if link_data.get("token") is None:
-        link_data["token"] = ""
+    if link_data.get("token") is None or link_data.get("token") == "":
+        link_data["token"] = user_id
 
     return {
         "flowData": flow_data,
@@ -625,7 +633,8 @@ def build_pre_electronic_doc_save_body(*,
 
 def build_taxinvoice_save_body(base: Dict[str, Any], *,
                                   ent_type: str, name_id: str,
-                                  busi_id: Optional[str] = None) -> Dict[str, Any]:
+                                  busi_id: Optional[str] = None,
+                                  user_id: str = "") -> Dict[str, Any]:
     """TaxInvoice save（4540 广西个人独资）最小成功合同。
 
     2026-04-25 实网验证：TaxInvoice 不是空体推进。
@@ -645,7 +654,7 @@ def build_taxinvoice_save_body(base: Dict[str, Any], *,
             "isSetUp": gx.get("isSetUp") or "N",
         },
         "flowData": _base_flow_data(ent_type, name_id, "TaxInvoice", busi_id=busi_id),
-        "linkData": _base_link_data("TaxInvoice"),
+        "linkData": _base_link_data("TaxInvoice", user_id=user_id),
         "signInfo": str(SIGN_INFO_ESTABLISH),
         "itemId": (base.get("itemId") if isinstance(base, dict) else None) or "",
     }
@@ -656,7 +665,8 @@ def build_taxinvoice_save_body(base: Dict[str, Any], *,
 def build_ybb_select_save_body(case: Dict[str, Any], *,
                                   base: Optional[Dict[str, Any]] = None,
                                   ent_type: str, name_id: str,
-                                  busi_id: Optional[str] = None) -> Dict[str, Any]:
+                                  busi_id: Optional[str] = None,
+                                  user_id: str = "") -> Dict[str, Any]:
     """YbbSelect save：云帮办流程模式。
 
     2026-04-25 实测：仅传 isSelectYbb='0' 仍会报“请选择业务流程模式”。
@@ -680,7 +690,7 @@ def build_ybb_select_save_body(case: Dict[str, Any], *,
         "opeType": "save",
         "compUrlPaths": copy.deepcopy(server_link_data.get("compUrlPaths") or ["YbbSelect"]),
         "busiCompUrlPaths": server_link_data.get("busiCompUrlPaths") or BUSI_COMP_URL_PATHS_EMPTY,
-        "token": server_link_data.get("token") if server_link_data.get("token") is not None else "",
+        "token": user_id or (server_link_data.get("token") if server_link_data.get("token") is not None else ""),
     }
 
     pre_audit_sign = base.get("preAuditSign")
@@ -708,7 +718,8 @@ def build_sl_upload_special_body(*,
                                     id_card_zm_uuid: Optional[str] = None,
                                     id_card_fm_uuid: Optional[str] = None,
                                     ent_type: str, name_id: str,
-                                    busi_id: Optional[str] = None) -> Dict[str, Any]:
+                                    busi_id: Optional[str] = None,
+                                    user_id: str = "") -> Dict[str, Any]:
     """SlUploadMaterial special API body（绑定 fileId 到材料条目）。
 
     ★ 关键：cerno 必须小写（docs/Phase2完整协议化通达_PreElectronicDoc_20260423.md cerno 教训）。
@@ -728,7 +739,7 @@ def build_sl_upload_special_body(*,
             "compUrlPaths": ["SlUploadMaterial"],
             "continueFlag": "",
             "busiCompUrlPaths": BUSI_COMP_URL_PATHS_SLUPLOAD,
-            "token": "",
+            "token": user_id,
         },
         "signInfo": str(SIGN_INFO_ESTABLISH),
         "itemId": mat_code,             # itemId = code
@@ -743,11 +754,12 @@ def build_sl_upload_special_body(*,
 def build_sl_upload_save_body(*,
                                  sort_id: str,
                                  ent_type: str, name_id: str,
-                                 busi_id: Optional[str] = None) -> Dict[str, Any]:
+                                 busi_id: Optional[str] = None,
+                                 user_id: str = "") -> Dict[str, Any]:
     return {
         "sortId": sort_id,
         "flowData": _base_flow_data(ent_type, name_id, "SlUploadMaterial", busi_id=busi_id),
-        "linkData": _base_link_data("SlUploadMaterial"),
+        "linkData": _base_link_data("SlUploadMaterial", user_id=user_id),
         "signInfo": str(SIGN_INFO_ESTABLISH),
         "itemId": "",
     }
@@ -764,7 +776,8 @@ def _split_region_parts(full_address: str) -> Dict[str, str]:
 
 def build_business_licence_way_save_body(case: Dict[str, Any], base: Dict[str, Any], *,
                                             ent_type: str, name_id: str,
-                                            busi_id: Optional[str] = None) -> Dict[str, Any]:
+                                            busi_id: Optional[str] = None,
+                                            user_id: str = "") -> Dict[str, Any]:
     person = case.get("person") or {}
     mobile = str(person.get("mobile") or "")
     full_address = str(case.get("address_full") or "")
@@ -866,7 +879,7 @@ def build_business_licence_way_save_body(case: Dict[str, Any], base: Dict[str, A
         "expressInfoDto": express,
         "cabinetDto": cabinet,
         "flowData": _base_flow_data(ent_type, name_id, "BusinessLicenceWay", busi_id=busi_id),
-        "linkData": _base_link_data("BusinessLicenceWay"),
+        "linkData": _base_link_data("BusinessLicenceWay", user_id=user_id),
         "signInfo": str(SIGN_INFO_ESTABLISH),
         "itemId": (base.get("itemId") if isinstance(base, dict) else None) or "",
     }
@@ -947,7 +960,8 @@ def build_memberpost_save_body_1151(case: Dict[str, Any],
                                       ent_type: str = "1151",
                                       name_id: str,
                                       busi_id: Optional[str] = None,
-                                      item_id: str = "") -> Dict[str, Any]:
+                                      item_id: str = "",
+                                      user_id: str = "") -> Dict[str, Any]:
     """1151 MemberPost save：7 角色（GD01/DS01/JS01/CWFZR/FR01/LLY/WTDLR），同一自然人。
 
     基于 dashboard/data/records/1151_monitor_op_MemberPost.json 真实成功 body。
@@ -980,7 +994,7 @@ def build_memberpost_save_body_1151(case: Dict[str, Any],
             "compUrlPaths": ["MemberPost", "MemberBaseInfo"],
             "continueFlag": "continueFlag",
             "busiCompUrlPaths": BUSI_COMP_URL_PATHS_MEMBERPOST,
-            "token": "",
+            "token": user_id,
         },
         "signInfo": str(SIGN_INFO_ESTABLISH),
         "itemId": item_id,
@@ -993,7 +1007,8 @@ def build_memberinfo_save_body_1151(case: Dict[str, Any],
                                       ent_type: str = "1151",
                                       name_id: str,
                                       busi_id: Optional[str] = None,
-                                      item_id: str = "") -> Dict[str, Any]:
+                                      item_id: str = "",
+                                      user_id: str = "") -> Dict[str, Any]:
     """1151 MemberInfo save：成员详情（池内），含多个 role-specific DTOs。
 
     基于 dashboard/data/records/1151_memberinfo_full_req.json 真实成功 body。
@@ -1103,7 +1118,7 @@ def build_memberinfo_save_body_1151(case: Dict[str, Any],
     body = {
         **member,
         "flowData": _base_flow_data(ent_type, name_id, "MemberInfo", busi_id=busi_id),
-        "linkData": _base_link_data("MemberInfo", parents=["MemberPool"]),
+        "linkData": _base_link_data("MemberInfo", parents=["MemberPool"], user_id=user_id),
         "signInfo": str(SIGN_INFO_ESTABLISH),
         "itemId": item_id or raw_member.get("itemId") or "",
     }
@@ -1114,6 +1129,7 @@ def build_complement_info_save_body_1151(case: Dict[str, Any], *,
                                            ent_type: str = "1151",
                                            name_id: str,
                                            busi_id: Optional[str] = None,
+                                           user_id: str = "",
                                            preloaded_data: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
     """1151 ComplementInfo save：非公党建 + 受益所有人已处理后的推进 body。
 
@@ -1128,7 +1144,7 @@ def build_complement_info_save_body_1151(case: Dict[str, Any], *,
     """
     body = {
         "flowData": _base_flow_data(ent_type, name_id, "ComplementInfo", busi_id=busi_id),
-        "linkData": _base_link_data("ComplementInfo"),
+        "linkData": _base_link_data("ComplementInfo", user_id=user_id),
         "signInfo": str(SIGN_INFO_ESTABLISH),
         "itemId": "",
     }
@@ -1144,6 +1160,7 @@ def build_rules_save_body_1151(case: Dict[str, Any], *,
                                  ent_type: str = "1151",
                                  name_id: str,
                                  busi_id: Optional[str] = None,
+                                 user_id: str = "",
                                  preloaded_data: Optional[Dict[str, Any]] = None,
                                  today_str: Optional[str] = None) -> Dict[str, Any]:
     """1151 Rules save：决议及章程（自动生成模式）。
@@ -1183,7 +1200,7 @@ def build_rules_save_body_1151(case: Dict[str, Any], *,
     body = {
         "ruleList": [rule_item],
         "flowData": _base_flow_data(ent_type, name_id, "Rules", busi_id=busi_id),
-        "linkData": _base_link_data("Rules"),
+        "linkData": _base_link_data("Rules", user_id=user_id),
         "signInfo": str(SIGN_INFO_ESTABLISH),
         "itemId": "",
     }
