@@ -117,21 +117,65 @@ class ValidationReport:
 CASE_FIELD_TO_OPTION_KEY: Dict[str, str] = {
     # 主表
     "entType_default": "entType",
+    "entType": "entType",
     "areaCategory": "areaCategory",
     "busiAreaCode": "busiAreaCode",
-    "itemIndustryTypeCode": "itemIndustryTypeCode",
+    "itemIndustryTypeCode": "namePreIndustryTypeCode",
+    "phase1_industry_code": "namePreIndustryTypeCode",
+    "industryCode": "namePreIndustryTypeCode",
     "domDistCode": "distCode",
-    # 投资人/法定代表人
+    "regionCode": "distCode",
+    "districtCode": "distCode",
+    # 投资人/法定代表人 - 政治面貌
     "person.politicsVisage": "politicalStatus",
+    "person.politicalStatus": "politicalStatus",
+    "person.party": "politicalStatus",
+    # 学历
     "person.eduDegree": "eduDegree",
+    "person.education": "eduDegree",
+    "person.degree": "eduDegree",
+    # 证件类型
     "person.cerType": "cerType",
-    "person.sex": "sex",
-    "person.country": "country",
+    "person.idType": "cerType",
+    "person.certType": "cerType",
+    # 性别
+    "person.sex": "sexCode",
+    "person.sexCode": "sexCode",
+    "person.gender": "sexCode",
+    # 国籍
+    "person.country": "nationalityCode",
+    "person.nationality": "nationalityCode",
+    "person.nationalityCode": "nationalityCode",
+    # 婚姻
+    "person.marriage": "marriage",
+    "person.maritalStatus": "marriage",
+    # 自然人/法人标识
+    "person.naturalFlag": "naturalFlag",
+    "naturalFlag": "naturalFlag",
     # ComplementInfo
-    "property_use_mode": "propertyUseMode",
-    "house_to_bus": "houseToBus",
-    "tax_invoice_is_setup": "yesOrNo",
-    "tax_registration": "yesOrNo",
+    "property_use_mode": "houseUseMode",
+    "house_use_mode": "houseUseMode",
+    "houseUseMode": "houseUseMode",
+    "house_to_bus": "yesNo",
+    # tax_invoice_is_setup / tax_registration 是业务三态(暂不办理/办理/已办理),
+    # 不是 Y/N，等实际服务端字典发现后再映射
+    # "tax_invoice_is_setup": "yesOrNoList",  # WRONG mapping, removed
+    # "tax_registration": "yesOrNoList",      # WRONG mapping, removed
+    # 出资方式
+    "invest_way": "investWay",
+    "investWay": "investWay",
+    # 角色
+    "role": "pkAndMem_full",
+    "person.role": "pkAndMem_full",
+    "postCode": "pkAndMem_full",
+    # 营业执照领取方式
+    "businessLicenceWay": "businessLicenceWay",
+    "license_pickup": "businessLicenceWay",
+    # 税务行业类型
+    "tax_business_type": "taxBusinessTypeList",
+    # 货币
+    "currency": "currencyCode",
+    "currencyCode": "currencyCode",
 }
 
 # case 必填字段（缺失即 fail）

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-04-27T16:52:27",
+  "last_updated": "2026-04-27T16:57:57",
   "fields": {
     "materialVoList": {
       "label": "materialVoList",
@@ -3495,324 +3495,6 @@
         }
       ]
     },
-    "entType": {
-      "label": "企业类型代码",
-      "source": "data/ent_type_codes.json",
-      "is_open": false,
-      "last_seen": "2026-04-27T16:43:47",
-      "options": [
-        {
-          "code": "1000",
-          "name": "内资公司",
-          "parent": null
-        },
-        {
-          "code": "1100",
-          "name": "有限责任公司",
-          "parent": null
-        },
-        {
-          "code": "1110",
-          "name": "有限责任公司（国有独资）",
-          "parent": null
-        },
-        {
-          "code": "1120",
-          "name": "有限责任公司（外商投资企业投资）",
-          "parent": null
-        },
-        {
-          "code": "1121",
-          "name": "有限责任公司（外商投资企业合资）",
-          "parent": null
-        },
-        {
-          "code": "1122",
-          "name": "有限责任公司（外商投资企业合作）",
-          "parent": null
-        },
-        {
-          "code": "1123",
-          "name": "有限责任公司（外商投资企业独资）",
-          "parent": null
-        },
-        {
-          "code": "1124",
-          "name": "有限责任公司（外商投资企业股份制）",
-          "parent": null
-        },
-        {
-          "code": "1130",
-          "name": "有限责任公司（自然人投资或控股）",
-          "parent": null
-        },
-        {
-          "code": "1140",
-          "name": "有限责任公司（国有控股）",
-          "parent": null
-        },
-        {
-          "code": "1150",
-          "name": "一人有限责任公司",
-          "parent": null
-        },
-        {
-          "code": "1151",
-          "name": "有限责任公司（自然人独资）",
-          "parent": null
-        },
-        {
-          "code": "1152",
-          "name": "有限责任公司（自然人投资或控股的法人独资）",
-          "parent": null
-        },
-        {
-          "code": "1153",
-          "name": "有限责任公司（非自然人投资或控股的法人独资）",
-          "parent": null
-        },
-        {
-          "code": "1160",
-          "name": "有限责任公司（法人独资）",
-          "parent": null
-        },
-        {
-          "code": "1170",
-          "name": "有限责任公司（外商投资）",
-          "parent": null
-        },
-        {
-          "code": "1190",
-          "name": "其他有限责任公司",
-          "parent": null
-        },
-        {
-          "code": "1200",
-          "name": "股份有限公司",
-          "parent": null
-        },
-        {
-          "code": "1210",
-          "name": "股份有限公司（上市）",
-          "parent": null
-        },
-        {
-          "code": "1211",
-          "name": "股份有限公司（上市、自然人投资或控股）",
-          "parent": null
-        },
-        {
-          "code": "1212",
-          "name": "股份有限公司（上市、国有控股）",
-          "parent": null
-        },
-        {
-          "code": "1213",
-          "name": "股份有限公司（上市、外商投资企业投资）",
-          "parent": null
-        },
-        {
-          "code": "1220",
-          "name": "股份有限公司（未上市）",
-          "parent": null
-        },
-        {
-          "code": "1221",
-          "name": "股份有限公司（未上市、自然人投资或控股）",
-          "parent": null
-        },
-        {
-          "code": "1222",
-          "name": "股份有限公司（未上市、国有控股）",
-          "parent": null
-        },
-        {
-          "code": "1223",
-          "name": "股份有限公司（未上市、外商投资企业投资）",
-          "parent": null
-        },
-        {
-          "code": "1230",
-          "name": "股份有限公司（外商投资企业投资）",
-          "parent": null
-        },
-        {
-          "code": "1290",
-          "name": "其他股份有限公司",
-          "parent": null
-        },
-        {
-          "code": "2000",
-          "name": "内资公司分公司",
-          "parent": null
-        },
-        {
-          "code": "2100",
-          "name": "有限责任公司分公司",
-          "parent": null
-        },
-        {
-          "code": "2150",
-          "name": "一人有限责任公司分公司",
-          "parent": null
-        },
-        {
-          "code": "2200",
-          "name": "股份有限公司分公司",
-          "parent": null
-        },
-        {
-          "code": "2250",
-          "name": "股份有限公司（上市）分公司",
-          "parent": null
-        },
-        {
-          "code": "2260",
-          "name": "股份有限公司（未上市）分公司",
-          "parent": null
-        },
-        {
-          "code": "3000",
-          "name": "内资非公司企业",
-          "parent": null
-        },
-        {
-          "code": "3100",
-          "name": "全民所有制企业（国有企业）",
-          "parent": null
-        },
-        {
-          "code": "3200",
-          "name": "集体所有制企业（集体企业）",
-          "parent": null
-        },
-        {
-          "code": "3300",
-          "name": "股份合作企业",
-          "parent": null
-        },
-        {
-          "code": "3400",
-          "name": "联营企业",
-          "parent": null
-        },
-        {
-          "code": "3500",
-          "name": "其他内资企业",
-          "parent": null
-        },
-        {
-          "code": "4000",
-          "name": "内资非公司企业分支机构",
-          "parent": null
-        },
-        {
-          "code": "4100",
-          "name": "全民所有制分支机构",
-          "parent": null
-        },
-        {
-          "code": "4200",
-          "name": "集体所有制分支机构",
-          "parent": null
-        },
-        {
-          "code": "4300",
-          "name": "股份合作企业分支机构",
-          "parent": null
-        },
-        {
-          "code": "4400",
-          "name": "联营企业分支机构",
-          "parent": null
-        },
-        {
-          "code": "4500",
-          "name": "其他内资企业分支机构",
-          "parent": null
-        },
-        {
-          "code": "5000",
-          "name": "外商投资企业",
-          "parent": null
-        },
-        {
-          "code": "5100",
-          "name": "外商投资有限责任公司",
-          "parent": null
-        },
-        {
-          "code": "5200",
-          "name": "外商投资股份有限公司",
-          "parent": null
-        },
-        {
-          "code": "5300",
-          "name": "外商投资合伙企业",
-          "parent": null
-        },
-        {
-          "code": "5400",
-          "name": "外商投资企业分支机构",
-          "parent": null
-        },
-        {
-          "code": "6000",
-          "name": "港、澳、台投资企业",
-          "parent": null
-        },
-        {
-          "code": "6100",
-          "name": "港、澳、台投资有限责任公司",
-          "parent": null
-        },
-        {
-          "code": "6200",
-          "name": "港、澳、台投资股份有限公司",
-          "parent": null
-        },
-        {
-          "code": "6300",
-          "name": "港、澳、台投资合伙企业",
-          "parent": null
-        },
-        {
-          "code": "6400",
-          "name": "港、澳、台投资企业分支机构",
-          "parent": null
-        },
-        {
-          "code": "7000",
-          "name": "农民专业合作社",
-          "parent": null
-        },
-        {
-          "code": "7100",
-          "name": "农民专业合作社",
-          "parent": null
-        },
-        {
-          "code": "7200",
-          "name": "农民专业合作社分支机构",
-          "parent": null
-        },
-        {
-          "code": "8000",
-          "name": "个体工商户",
-          "parent": null
-        },
-        {
-          "code": "8100",
-          "name": "个体工商户",
-          "parent": null
-        },
-        {
-          "code": "8200",
-          "name": "个体工商户分支机构",
-          "parent": null
-        }
-      ]
-    },
     "currencyCode": {
       "label": "币种代码（含汇率）",
       "source": "phase1_service:MOKINDCODE.json",
@@ -5687,6 +5369,854 @@
             "regOrg",
             "regOrgName"
           ]
+        }
+      ]
+    },
+    "entType": {
+      "label": "企业类型代码（服务端实际体系，含个人独资 4540 等）",
+      "source": "phase1_service:ent_types_type1.json:enttypes",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:57:57",
+      "options": [
+        {
+          "code": "1000",
+          "name": "内资企业",
+          "parent": "0",
+          "depth": 0,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "1100",
+          "name": "有限责任公司",
+          "parent": "1000",
+          "depth": 1,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "1110",
+          "name": "有限责任公司（国有独资）",
+          "parent": "1100",
+          "depth": 2,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "1120",
+          "name": "有限责任公司（外商投资企业投资）",
+          "parent": "1100",
+          "depth": 2,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "1130",
+          "name": "有限责任公司（自然人投资或控股）",
+          "parent": "1100",
+          "depth": 2,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "1140",
+          "name": "有限责任公司（国有控股）",
+          "parent": "1100",
+          "depth": 2,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "1150",
+          "name": "一人有限责任公司",
+          "parent": "1100",
+          "depth": 2,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "1190",
+          "name": "其他有限责任公司",
+          "parent": "1100",
+          "depth": 2,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "1200",
+          "name": "股份有限公司",
+          "parent": "1000",
+          "depth": 1,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "1210",
+          "name": "股份有限公司（上市）",
+          "parent": "1200",
+          "depth": 2,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "1220",
+          "name": "股份有限公司（非上市）",
+          "parent": "1200",
+          "depth": 2,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "3000",
+          "name": "内资企业法人",
+          "parent": "1000",
+          "depth": 1,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "3100",
+          "name": "全民所有制",
+          "parent": "3000",
+          "depth": 2,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "3200",
+          "name": "集体所有制",
+          "parent": "3000",
+          "depth": 2,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "3300",
+          "name": "股份制",
+          "parent": "3000",
+          "depth": 2,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "3400",
+          "name": "股份合作制",
+          "parent": "3000",
+          "depth": 2,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "3500",
+          "name": "联营",
+          "parent": "3000",
+          "depth": 2,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "4530",
+          "name": "合伙企业",
+          "parent": "1000",
+          "depth": 1,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "4531",
+          "name": "普通合伙企业",
+          "parent": "4530",
+          "depth": 2,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "4532",
+          "name": "特殊普通合伙企业",
+          "parent": "4530",
+          "depth": 2,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "4533",
+          "name": "有限合伙企业",
+          "parent": "4530",
+          "depth": 2,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "4540",
+          "name": "个人独资企业",
+          "parent": "1000",
+          "depth": 1,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "5000",
+          "name": "外商投资企业",
+          "parent": "0",
+          "depth": 0,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "5100",
+          "name": "有限责任公司",
+          "parent": "5000",
+          "depth": 1,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "5140",
+          "name": "有限责任公司（外国自然人独资）",
+          "parent": "5100",
+          "depth": 2,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "5150",
+          "name": "有限责任公司（外国法人独资）",
+          "parent": "5100",
+          "depth": 2,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "5180",
+          "name": "有限责任公司（外商投资、非独资）",
+          "parent": "5100",
+          "depth": 2,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "5190",
+          "name": "其他",
+          "parent": "5100",
+          "depth": 2,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "5200",
+          "name": "股份有限公司",
+          "parent": "5000",
+          "depth": 1,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "5250",
+          "name": "股份有限公司（外商投资、未上市）",
+          "parent": "5200",
+          "depth": 2,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "5260",
+          "name": "股份有限公司（外商投资、上市）",
+          "parent": "5200",
+          "depth": 2,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "5290",
+          "name": "其他",
+          "parent": "5200",
+          "depth": 2,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "5400",
+          "name": "外商投资合伙企业",
+          "parent": "5000",
+          "depth": 1,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "5410",
+          "name": "普通合伙企业",
+          "parent": "5400",
+          "depth": 2,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "5420",
+          "name": "特殊普通合伙企业",
+          "parent": "5400",
+          "depth": 2,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "5430",
+          "name": "有限合伙企业",
+          "parent": "5400",
+          "depth": 2,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "6000",
+          "name": "港、澳、台投资企业",
+          "parent": "0",
+          "depth": 0,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "6100",
+          "name": "港澳台--有限责任公司",
+          "parent": "6000",
+          "depth": 1,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "6140",
+          "name": "有限责任公司（港澳台自然人独资）",
+          "parent": "6100",
+          "depth": 2,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "6150",
+          "name": "有限责任公司（港澳台法人独资）",
+          "parent": "6100",
+          "depth": 2,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "6180",
+          "name": "有限责任公司（港澳台投资、非独资）",
+          "parent": "6100",
+          "depth": 2,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "6190",
+          "name": "其他",
+          "parent": "6100",
+          "depth": 2,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "6200",
+          "name": "港澳台--股份有限公司",
+          "parent": "6000",
+          "depth": 1,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "6270",
+          "name": "股份有限公司（港澳台投资、未上市）",
+          "parent": "6200",
+          "depth": 2,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "6280",
+          "name": "股份有限公司（港澳台投资、上市）",
+          "parent": "6200",
+          "depth": 2,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "6290",
+          "name": "其他",
+          "parent": "6200",
+          "depth": 2,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "6400",
+          "name": "外商投资合伙企业",
+          "parent": "6000",
+          "depth": 1,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "6410",
+          "name": "普通合伙企业",
+          "parent": "6400",
+          "depth": 2,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "6420",
+          "name": "特殊普通合伙企业",
+          "parent": "6400",
+          "depth": 2,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "6430",
+          "name": "有限合伙企业",
+          "parent": "6400",
+          "depth": 2,
+          "show_type": "wz",
+          "use_type": null
+        },
+        {
+          "code": "9100",
+          "name": "农民专业合作社",
+          "parent": "0",
+          "depth": 0,
+          "show_type": "gs",
+          "use_type": null
+        },
+        {
+          "code": "9600",
+          "name": "个体工商户",
+          "parent": "0",
+          "depth": 0,
+          "show_type": "gt",
+          "use_type": null
+        },
+        {
+          "code": "7200",
+          "name": "外国（地区）企业常驻代表机构",
+          "parent": "0",
+          "depth": 0,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "7300",
+          "name": "外国（地区）企业在中国境内从事经营活动",
+          "parent": "0",
+          "depth": 0,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "fzjg",
+          "name": "分支机构",
+          "parent": "2",
+          "depth": 0,
+          "show_type": "fzjg",
+          "use_type": null
+        },
+        {
+          "code": "2000",
+          "name": "内资分支机构",
+          "parent": "1",
+          "depth": 0,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "2100",
+          "name": "有限责任公司分公司",
+          "parent": "2000",
+          "depth": 1,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "2110",
+          "name": "有限责任公司分公司（国有独资）",
+          "parent": "2100",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "2120",
+          "name": "有限责任公司分公司（外商投资企业投资）",
+          "parent": "2100",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "2130",
+          "name": "有限责任公司分公司（自然人投资或控股）",
+          "parent": "2100",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "2140",
+          "name": "有限责任公司分公司（国有控股）",
+          "parent": "2100",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "2150",
+          "name": "一人有限责任公司分公司",
+          "parent": "2100",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "2190",
+          "name": "其他有限责任公司分公司",
+          "parent": "2100",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "2200",
+          "name": "股份有限公司分公司",
+          "parent": "2000",
+          "depth": 1,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "2210",
+          "name": "股份有限公司分公司（上市）",
+          "parent": "2200",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "2220",
+          "name": "股份有限公司分公司（非上市）",
+          "parent": "2200",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "4100",
+          "name": "事业单位营业",
+          "parent": "2000",
+          "depth": 1,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "4110",
+          "name": "国有事业单位营业",
+          "parent": "4100",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "4120",
+          "name": "集体事业单位营业",
+          "parent": "4100",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "4200",
+          "name": "社团法人营业",
+          "parent": "2000",
+          "depth": 1,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "4210",
+          "name": "国有社团法人营业",
+          "parent": "4200",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "4220",
+          "name": "集体社团法人营业",
+          "parent": "4200",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "4300",
+          "name": "内资企业法人分支机构（非法人）",
+          "parent": "2000",
+          "depth": 1,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "4310",
+          "name": "全民所有制分支机构（非法人）",
+          "parent": "4300",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "4320",
+          "name": "集体分支机构（非法人）",
+          "parent": "4300",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "4330",
+          "name": "股份制分支机构",
+          "parent": "4300",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "4340",
+          "name": "股份合作制分支机构",
+          "parent": "4300",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "4400",
+          "name": "经营单位（非法人）",
+          "parent": "2000",
+          "depth": 1,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "4410",
+          "name": "国有经营单位（非法人）",
+          "parent": "4400",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "4420",
+          "name": "集体经营单位（非法人）",
+          "parent": "4400",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "4550",
+          "name": "合伙企业分支机构",
+          "parent": "2000",
+          "depth": 1,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "4551",
+          "name": "普通合伙企业分支机构",
+          "parent": "4550",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "4552",
+          "name": "特殊普通合伙企业分支机构",
+          "parent": "4550",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "4553",
+          "name": "有限合伙企业分支机构",
+          "parent": "4550",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "4560",
+          "name": "个人独资企业分支机构",
+          "parent": "2000",
+          "depth": 1,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "4600",
+          "name": "联营",
+          "parent": "2000",
+          "depth": 1,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "4700",
+          "name": "股份制企业（非法人）",
+          "parent": "2000",
+          "depth": 1,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "6800",
+          "name": "台、港、澳分支机构",
+          "parent": "1",
+          "depth": 0,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "6810",
+          "name": "分公司",
+          "parent": "6800",
+          "depth": 1,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "6820",
+          "name": "非公司台、港、澳投资企业分支机构",
+          "parent": "6800",
+          "depth": 1,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "6830",
+          "name": "办事处",
+          "parent": "6800",
+          "depth": 1,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "6890",
+          "name": "其他",
+          "parent": "6800",
+          "depth": 1,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "7000",
+          "name": "外资分支机构",
+          "parent": "1",
+          "depth": 0,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "5800",
+          "name": "外商投资企业分支机构",
+          "parent": "7000",
+          "depth": 1,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "5810",
+          "name": "分公司",
+          "parent": "5800",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "5820",
+          "name": "非公司外商投资企业分支机构",
+          "parent": "5800",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "5830",
+          "name": "办事处",
+          "parent": "5800",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "5840",
+          "name": "外商投资合伙企业分支机构",
+          "parent": "5800",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "5890",
+          "name": "其他",
+          "parent": "5800",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "7100",
+          "name": "外国（地区）公司分支机构",
+          "parent": "7000",
+          "depth": 1,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "7110",
+          "name": "外国（地区）无限责任公司分支机构",
+          "parent": "7100",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "7120",
+          "name": "外国（地区）有限责任公司分支机构",
+          "parent": "7100",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "7130",
+          "name": "外国（地区）股份有限责任公司分支机构",
+          "parent": "7100",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "7190",
+          "name": "外国（地区）其他形式公司分支机构",
+          "parent": "7100",
+          "depth": 2,
+          "show_type": "fz",
+          "use_type": null
+        },
+        {
+          "code": "9200",
+          "name": "农民专业合作社分支机构",
+          "parent": "1",
+          "depth": 0,
+          "show_type": "fz",
+          "use_type": null
         }
       ]
     }
