@@ -1,6 +1,6 @@
 {
   "schema": "ufo.node_asset.v1",
-  "generated_at": "2026-04-27 15:29:21",
+  "generated_at": "2026-04-27 17:18:18",
   "comp_url": "MemberPost",
   "page_name": "成员架构",
   "business_stage_name": "第二阶段：信息填报",
@@ -48,8 +48,8 @@
         "followup_code": null,
         "followup_message": "",
         "protocol_extracted": {
-          "busiId": "2048666386683142145",
-          "nameId": "2048622963047604225",
+          "busiId": "2048692727282384898",
+          "nameId": "2048692703464071169",
           "server_curr_comp_url": "MemberPost",
           "server_status": "10",
           "server_busi_type": "02"
@@ -59,12 +59,12 @@
     "expected_components": [],
     "process_to_busi_comp": "nameshow|0,fill|1-26,confirm|27,preTrial|28,signature|29,audit|30,notification|31,busiLicense|32",
     "flow_data_sample": {
-      "busiId": "2048666386683142145",
+      "busiId": "2048692727282384898",
       "entType": "4540",
       "busiType": "02",
       "ywlbSign": "4",
       "busiMode": null,
-      "nameId": "2048622963047604225",
+      "nameId": "2048692703464071169",
       "marPrId": null,
       "secondId": null,
       "vipChannel": null,
@@ -142,7 +142,7 @@
     },
     "current_location_vo": {
       "busiType": "02",
-      "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
+      "entName": "嘉惠诚（广西容县）软件开发中心（个人独资）",
       "uniScId": null,
       "readOnlyStepList": [
         "confirm",
@@ -157,7 +157,7 @@
       ]
     },
     "item_id_sample": "",
-    "sign_info_sample": "-707167196",
+    "sign_info_sample": "-861621593",
     "sequence": {
       "index": 2,
       "previous_component": "BasicInfo",
@@ -245,12 +245,12 @@
       "第二阶段：信息填报"
     ],
     "latest_flow_data": {
-      "busiId": "2048666386683142145",
+      "busiId": "2048692727282384898",
       "entType": "4540",
       "busiType": "02",
       "ywlbSign": "4",
       "busiMode": null,
-      "nameId": "2048622963047604225",
+      "nameId": "2048692703464071169",
       "marPrId": null,
       "secondId": null,
       "vipChannel": null,
@@ -378,8 +378,8 @@
         "followup_code": null,
         "followup_message": "",
         "protocol_extracted": {
-          "busiId": "2048666386683142145",
-          "nameId": "2048622963047604225",
+          "busiId": "2048692727282384898",
+          "nameId": "2048692703464071169",
           "server_curr_comp_url": "MemberPost",
           "server_status": "10",
           "server_busi_type": "02"

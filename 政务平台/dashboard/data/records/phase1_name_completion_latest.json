@@ -6,9 +6,9 @@
   "exit_detail": null,
   "stopped_at_step": 8,
   "total_steps": 26,
-  "total_time_s": 36.3,
+  "total_time_s": 35.0,
   "context_state": {
-    "phase1_busi_id": "2048623804703440896",
+    "phase1_busi_id": "2048692507050639360",
     "pipeline_name": "phase1_name_completion",
     "step_execution_counts": {
       "0:[1] name/loadCurrentLocationInfo": 1,
@@ -25,7 +25,7 @@
     "last_attempted_step_name": "[9] NameSuccess/loadBusinessDataInfo",
     "last_attempted_step_count": 1,
     "phase2_driver_snapshot": {},
-    "phase2_driver_busi_id": "2048623804703440896",
+    "phase2_driver_busi_id": "2048692507050639360",
     "phase2_driver_ent_type": "4540",
     "phase2_driver_busi_type": "01",
     "last_step_index": 8,
@@ -39,7 +39,7 @@
     "last_ok_step_name": "[9] NameSuccess/loadBusinessDataInfo",
     "last_ok_code": "00000",
     "last_ok_result_type": "0",
-    "establish_busi_id": "2048623804703440896",
+    "establish_busi_id": "2048692507050639360",
     "current_busi_type": "01",
     "current_ent_type": "4540",
     "current_busi_comp_comb": {
@@ -87,8 +87,8 @@
     },
     "server_curr_comp_url": "NameSuccess",
     "current_comp_url": "NameSuccess",
-    "phase2_driver_name_id": "2048622963047604225",
-    "name_id": "2048622963047604225"
+    "phase2_driver_name_id": "2048692703464071169",
+    "name_id": "2048692703464071169"
   },
   "steps": [
     {
@@ -98,13 +98,13 @@
       "resultType": "0",
       "message": "",
       "extracted": {
-        "busiId": "2048623804703440896",
+        "busiId": "2048692507050639360",
         "nameId": null,
         "server_curr_comp_url": null,
         "server_status": "10",
         "server_busi_type": "01"
       },
-      "duration_s": 0.19,
+      "duration_s": 0.18,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
@@ -153,13 +153,13 @@
       "resultType": "0",
       "message": "",
       "extracted": {
-        "busiId": "2048623804703440896",
+        "busiId": "2048692507050639360",
         "nameId": null,
         "server_curr_comp_url": "NameSupplement",
         "server_status": "10",
         "server_busi_type": "01"
       },
-      "duration_s": 0.53,
+      "duration_s": 7.74,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
@@ -208,13 +208,13 @@
       "resultType": "0",
       "message": "",
       "extracted": {
-        "busiId": "2048623804703440896",
+        "busiId": "2048692507050639360",
         "nameId": null,
         "server_curr_comp_url": "NameShareholder",
         "server_status": "10",
         "server_busi_type": "01"
       },
-      "duration_s": 0.54,
+      "duration_s": 0.18,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
@@ -263,13 +263,13 @@
       "resultType": "0",
       "message": "",
       "extracted": {
-        "busiId": "2048623804703440896",
+        "busiId": "2048692507050639360",
         "nameId": null,
         "server_curr_comp_url": "NameShareholder",
         "server_status": "10",
         "server_busi_type": "01"
       },
-      "duration_s": 0.27,
+      "duration_s": 0.2,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
@@ -318,13 +318,13 @@
       "resultType": "0",
       "message": "",
       "extracted": {
-        "busiId": "2048623804703440896",
+        "busiId": "2048692507050639360",
         "nameId": null,
         "server_curr_comp_url": "NameShareholder",
         "server_status": "10",
         "server_busi_type": "01"
       },
-      "duration_s": 8.03,
+      "duration_s": 0.62,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
@@ -373,13 +373,13 @@
       "resultType": "0",
       "message": "",
       "extracted": {
-        "busiId": "2048623804703440896",
+        "busiId": "2048692507050639360",
         "nameId": null,
         "server_curr_comp_url": "NameShareholder",
         "server_status": "10",
         "server_busi_type": "01"
       },
-      "duration_s": 0.35,
+      "duration_s": 0.41,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
@@ -428,13 +428,13 @@
       "resultType": "0",
       "message": "",
       "extracted": {
-        "busiId": "2048623804703440896",
+        "busiId": "2048692507050639360",
         "nameId": null,
         "server_curr_comp_url": "NameSupplement",
         "server_status": "10",
         "server_busi_type": "01"
       },
-      "duration_s": 0.39,
+      "duration_s": 0.4,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
@@ -483,13 +483,13 @@
       "resultType": "0",
       "message": "",
       "extracted": {
-        "busiId": "2048623804703440896",
+        "busiId": "2048692507050639360",
         "nameId": null,
         "server_curr_comp_url": "NameShareholder",
         "server_status": "20",
         "server_busi_type": "01"
       },
-      "duration_s": 3.37,
+      "duration_s": 2.54,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
@@ -538,13 +538,13 @@
       "resultType": "0",
       "message": "",
       "extracted": {
-        "busiId": "2048623804703440896",
-        "nameId": "2048622963047604225",
+        "busiId": "2048692507050639360",
+        "nameId": "2048692703464071169",
         "server_curr_comp_url": "NameSuccess",
         "server_status": "51",
         "server_busi_type": "01"
       },
-      "duration_s": 0.16,
+      "duration_s": 0.2,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
@@ -587,5 +587,5 @@
       }
     }
   ],
-  "timestamp": "2026-04-27 12:39:17"
+  "timestamp": "2026-04-27 17:16:23"
 }

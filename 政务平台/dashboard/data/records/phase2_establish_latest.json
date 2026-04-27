@@ -6,24 +6,21 @@
   "exit_detail": null,
   "stopped_at_step": 25,
   "total_steps": 26,
-  "total_time_s": 90.1,
+  "total_time_s": 114.0,
   "context_state": {
-    "phase1_busi_id": "2048624034216157186",
-    "name_id": "2048622963047604225",
-    "establish_busi_id": "2048666386683142145",
+    "phase1_busi_id": "2048692507050639360",
+    "name_id": "2048692703464071169",
     "phase2_progress_contract_version": 8,
     "current_status": "10",
-    "resume_source": "active_matter",
     "server_status": "10",
     "server_busi_type": "02",
-    "server_name_id": "2048622963047604225",
-    "server_busi_id": "2048624034216157186",
+    "server_name_id": "2048692703464071169",
     "position_probe_code": "00000",
     "position_probe_result_type": "0",
     "phase2_driver_snapshot": {
-      "establish_busiId": "2048666386683142145",
-      "basicinfo_signInfo": "-707167196",
-      "last_sign_info": "-707167196",
+      "establish_busiId": "2048692727282384898",
+      "basicinfo_signInfo": "-861621593",
+      "last_sign_info": "-861621593",
       "basicinfo_busiData": {
         "flowData": {
           "busiId": null,
@@ -31,7 +28,7 @@
           "busiType": "02",
           "ywlbSign": "4",
           "busiMode": null,
-          "nameId": "2048622963047604225",
+          "nameId": "2048692703464071169",
           "marPrId": null,
           "secondId": null,
           "vipChannel": null,
@@ -115,7 +112,7 @@
         ],
         "currentLocationVo": {
           "busiType": "02",
-          "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
+          "entName": "嘉惠诚（广西容县）软件开发中心（个人独资）",
           "uniScId": null,
           "readOnlyStepList": [
             "confirm",
@@ -551,7 +548,7 @@
             "remark": "家庭成员控件"
           }
         },
-        "signInfo": "-707167196",
+        "signInfo": "-861621593",
         "operationResultVo": null,
         "signRandomCode": null,
         "extraDto": null,
@@ -1157,13 +1154,13 @@
           "useManyAddress": null,
           "id": null
         },
-        "name": "鸿启智（广西容县）软件开发中心（个人独资）",
+        "name": "嘉惠诚（广西容县）软件开发中心（个人独资）",
         "businessPremises": null,
         "fisRegionCode": null,
         "grpName": null,
         "grpShForm": null,
         "telephone": null,
-        "nameMark": "鸿启智",
+        "nameMark": "嘉惠诚",
         "shouldInvestWay": null,
         "email": null,
         "bpBusinessAddress": null,
@@ -1708,12 +1705,12 @@
         "busiCompUrlPaths": "%5B%5D"
       },
       "last_save_flowData": {
-        "busiId": "2048666386683142145",
+        "busiId": "2048692727282384898",
         "entType": "4540",
         "busiType": "02",
         "ywlbSign": "4",
         "busiMode": null,
-        "nameId": "2048622963047604225",
+        "nameId": "2048692703464071169",
         "marPrId": null,
         "secondId": null,
         "vipChannel": null,
@@ -1724,12 +1721,12 @@
       },
       "MemberBaseInfo_busiData": {
         "flowData": {
-          "busiId": "2048666386683142145",
+          "busiId": "2048692727282384898",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
           "busiMode": null,
-          "nameId": "2048622963047604225",
+          "nameId": "2048692703464071169",
           "marPrId": null,
           "secondId": null,
           "vipChannel": null,
@@ -1814,7 +1811,7 @@
         ],
         "currentLocationVo": {
           "busiType": "02",
-          "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
+          "entName": "嘉惠诚（广西容县）软件开发中心（个人独资）",
           "uniScId": null,
           "readOnlyStepList": [
             "confirm",
@@ -2145,7 +2142,7 @@
           "remark": "成员基础信息控件"
         },
         "subBusiCompMap": null,
-        "signInfo": "-707167196",
+        "signInfo": "-861621593",
         "operationResultVo": null,
         "signRandomCode": null,
         "extraDto": null,
@@ -2179,15 +2176,15 @@
         "isLoginInfo": null,
         "invType": null
       },
-      "MemberBaseInfo_signInfo": "-707167196",
+      "MemberBaseInfo_signInfo": "-861621593",
       "MemberPost_busiData": {
         "flowData": {
-          "busiId": "2048666386683142145",
+          "busiId": "2048692727282384898",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
           "busiMode": null,
-          "nameId": "2048622963047604225",
+          "nameId": "2048692703464071169",
           "marPrId": null,
           "secondId": null,
           "vipChannel": null,
@@ -2271,7 +2268,7 @@
         ],
         "currentLocationVo": {
           "busiType": "02",
-          "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
+          "entName": "嘉惠诚（广西容县）软件开发中心（个人独资）",
           "uniScId": null,
           "readOnlyStepList": [
             "confirm",
@@ -2332,7 +2329,7 @@
             "remark": "成员基础信息控件"
           }
         },
-        "signInfo": "-707167196",
+        "signInfo": "-861621593",
         "operationResultVo": null,
         "signRandomCode": null,
         "extraDto": null,
@@ -2362,7 +2359,7 @@
               "submitVo": null,
               "page": null,
               "list": null,
-              "itemId": "2048666414600028160",
+              "itemId": "2048692754086756352",
               "fieldList": null,
               "busiComp": null,
               "subBusiCompMap": null,
@@ -2424,7 +2421,7 @@
               "submitVo": null,
               "page": null,
               "list": null,
-              "itemId": "2048666414600028160",
+              "itemId": "2048692754086756352",
               "fieldList": null,
               "busiComp": null,
               "subBusiCompMap": null,
@@ -2486,7 +2483,7 @@
               "submitVo": null,
               "page": null,
               "list": null,
-              "itemId": "2048666414600028160",
+              "itemId": "2048692754086756352",
               "fieldList": null,
               "busiComp": null,
               "subBusiCompMap": null,
@@ -2548,7 +2545,7 @@
               "submitVo": null,
               "page": null,
               "list": null,
-              "itemId": "2048666414600028160",
+              "itemId": "2048692754086756352",
               "fieldList": null,
               "busiComp": null,
               "subBusiCompMap": null,
@@ -2588,7 +2585,7 @@
             }
           ]
         },
-        "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
+        "entName": "嘉惠诚（广西容县）软件开发中心（个人独资）",
         "parentEntName": null
       },
       "MemberPost_srv_linkData": {
@@ -2649,7 +2646,7 @@
         "opeType": "load",
         "busiCompUrlPaths": "%5B%7B%22compUrl%22%3A%22MemberPost%22%2C%22id%22%3A%22%22%7D%5D"
       },
-      "MemberPost_signInfo": "-707167196",
+      "MemberPost_signInfo": "-861621593",
       "memberpool_raw_member": {
         "flowData": null,
         "linkData": {
@@ -2672,7 +2669,7 @@
         "submitVo": null,
         "page": null,
         "list": null,
-        "itemId": "2048666414600028160",
+        "itemId": "2048692754086756352",
         "fieldList": null,
         "busiComp": null,
         "subBusiCompMap": null,
@@ -2710,8 +2707,8 @@
         "isLoginInfo": "1",
         "invType": null
       },
-      "memberpool_item_id": "2048666414600028160",
-      "MemberInfo_signInfo": "-707167196",
+      "memberpool_item_id": "2048692754086756352",
+      "MemberInfo_signInfo": "-861621593",
       "MemberInfo_srv_linkData": {
         "token": "",
         "continueFlag": null,
@@ -2773,12 +2770,12 @@
       },
       "MemberPool_busiData": {
         "flowData": {
-          "busiId": "2048666386683142145",
+          "busiId": "2048692727282384898",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
           "busiMode": null,
-          "nameId": "2048622963047604225",
+          "nameId": "2048692703464071169",
           "marPrId": null,
           "secondId": null,
           "vipChannel": null,
@@ -2862,7 +2859,7 @@
         ],
         "currentLocationVo": {
           "busiType": "02",
-          "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
+          "entName": "嘉惠诚（广西容县）软件开发中心（个人独资）",
           "uniScId": null,
           "readOnlyStepList": [
             "confirm",
@@ -2923,7 +2920,7 @@
             "remark": "成员信息控件"
           }
         },
-        "signInfo": "-707167196",
+        "signInfo": "-861621593",
         "operationResultVo": null,
         "signRandomCode": null,
         "extraDto": null,
@@ -2987,15 +2984,15 @@
         "opeType": "load",
         "busiCompUrlPaths": "%5B%7B%22compUrl%22%3A%22MemberPool%22%2C%22id%22%3A%22%22%7D%5D"
       },
-      "MemberPool_signInfo": "-707167196",
+      "MemberPool_signInfo": "-861621593",
       "ComplementInfo_busiData": {
         "flowData": {
-          "busiId": "2048666386683142145",
+          "busiId": "2048692727282384898",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
           "busiMode": null,
-          "nameId": "2048622963047604225",
+          "nameId": "2048692703464071169",
           "marPrId": null,
           "secondId": null,
           "vipChannel": null,
@@ -3079,7 +3076,7 @@
         ],
         "currentLocationVo": {
           "busiType": "02",
-          "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
+          "entName": "嘉惠诚（广西容县）软件开发中心（个人独资）",
           "uniScId": null,
           "readOnlyStepList": [
             "confirm",
@@ -3121,7 +3118,7 @@
           "remark": "补充信息"
         },
         "subBusiCompMap": null,
-        "signInfo": "-707167196",
+        "signInfo": "-861621593",
         "operationResultVo": null,
         "signRandomCode": null,
         "extraDto": null,
@@ -3298,15 +3295,15 @@
         "opeType": "load",
         "busiCompUrlPaths": "%5B%5D"
       },
-      "ComplementInfo_signInfo": "-707167196",
+      "ComplementInfo_signInfo": "-861621593",
       "TaxInvoice_busiData": {
         "flowData": {
-          "busiId": "2048666386683142145",
+          "busiId": "2048692727282384898",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
           "busiMode": null,
-          "nameId": "2048622963047604225",
+          "nameId": "2048692703464071169",
           "marPrId": null,
           "secondId": null,
           "vipChannel": null,
@@ -3390,7 +3387,7 @@
         ],
         "currentLocationVo": {
           "busiType": "02",
-          "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
+          "entName": "嘉惠诚（广西容县）软件开发中心（个人独资）",
           "uniScId": null,
           "readOnlyStepList": [
             "confirm",
@@ -3432,7 +3429,7 @@
           "remark": "税务登记"
         },
         "subBusiCompMap": null,
-        "signInfo": "-707167196",
+        "signInfo": "-861621593",
         "operationResultVo": null,
         "signRandomCode": null,
         "extraDto": null,
@@ -3590,15 +3587,15 @@
         "opeType": "load",
         "busiCompUrlPaths": "%5B%5D"
       },
-      "TaxInvoice_signInfo": "-707167196",
+      "TaxInvoice_signInfo": "-861621593",
       "SlUploadMaterial_busiData": {
         "flowData": {
-          "busiId": "2048666386683142145",
+          "busiId": "2048692727282384898",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
           "busiMode": null,
-          "nameId": "2048622963047604225",
+          "nameId": "2048692703464071169",
           "marPrId": null,
           "secondId": null,
           "vipChannel": null,
@@ -3682,7 +3679,7 @@
         ],
         "currentLocationVo": {
           "busiType": "02",
-          "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
+          "entName": "嘉惠诚（广西容县）软件开发中心（个人独资）",
           "uniScId": null,
           "readOnlyStepList": [
             "confirm",
@@ -3724,7 +3721,7 @@
           "remark": "设立登记上传材料"
         },
         "subBusiCompMap": null,
-        "signInfo": "-707167196",
+        "signInfo": "-861621593",
         "operationResultVo": null,
         "signRandomCode": null,
         "extraDto": null,
@@ -3793,7 +3790,7 @@
             "maxCount": "10",
             "materialVoList": [
               {
-                "id": "2048666551175356418",
+                "id": "2048692954122928129",
                 "name": "住所证明.PDF",
                 "cerNo": null,
                 "content": null,
@@ -3826,7 +3823,7 @@
             "maxCount": "10",
             "materialVoList": [
               {
-                "id": "2048666556430819329",
+                "id": "2048692959583911937",
                 "name": "微信图片_20260411104217_91_17.jpg",
                 "cerNo": null,
                 "content": null,
@@ -3934,15 +3931,15 @@
         "opeType": "load",
         "busiCompUrlPaths": "%5B%5D"
       },
-      "SlUploadMaterial_signInfo": "-707167196",
+      "SlUploadMaterial_signInfo": "-861621593",
       "BusinessLicenceWay_busiData": {
         "flowData": {
-          "busiId": "2048666386683142145",
+          "busiId": "2048692727282384898",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
           "busiMode": null,
-          "nameId": "2048622963047604225",
+          "nameId": "2048692703464071169",
           "marPrId": null,
           "secondId": null,
           "vipChannel": null,
@@ -4026,7 +4023,7 @@
         ],
         "currentLocationVo": {
           "busiType": "02",
-          "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
+          "entName": "嘉惠诚（广西容县）软件开发中心（个人独资）",
           "uniScId": null,
           "readOnlyStepList": [
             "confirm",
@@ -4085,7 +4082,7 @@
           "remark": "营业执照领取"
         },
         "subBusiCompMap": null,
-        "signInfo": "-707167196",
+        "signInfo": "-861621593",
         "operationResultVo": null,
         "signRandomCode": null,
         "extraDto": null,
@@ -4308,15 +4305,15 @@
         "opeType": "load",
         "busiCompUrlPaths": "%5B%5D"
       },
-      "BusinessLicenceWay_signInfo": "-707167196",
+      "BusinessLicenceWay_signInfo": "-861621593",
       "YbbSelect_busiData": {
         "flowData": {
-          "busiId": "2048666386683142145",
+          "busiId": "2048692727282384898",
           "entType": "4540",
           "busiType": "02",
           "ywlbSign": "4",
           "busiMode": null,
-          "nameId": "2048622963047604225",
+          "nameId": "2048692703464071169",
           "marPrId": null,
           "secondId": null,
           "vipChannel": null,
@@ -4401,7 +4398,7 @@
         ],
         "currentLocationVo": {
           "busiType": "02",
-          "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
+          "entName": "嘉惠诚（广西容县）软件开发中心（个人独资）",
           "uniScId": null,
           "readOnlyStepList": [
             "confirm",
@@ -4443,7 +4440,7 @@
           "remark": "设立登记云帮办流程模式选择"
         },
         "subBusiCompMap": null,
-        "signInfo": "-707167196",
+        "signInfo": "-861621593",
         "operationResultVo": null,
         "signRandomCode": null,
         "extraDto": null,
@@ -4509,10 +4506,13 @@
         "opeType": "load",
         "busiCompUrlPaths": "%5B%5D"
       },
-      "YbbSelect_signInfo": "-707167196"
+      "YbbSelect_signInfo": "-861621593"
     },
     "pipeline_name": "phase2_establish",
     "step_execution_counts": {
+      "9:[10] matters/operate [108,before]": 1,
+      "10:[11] matters/operate [108,operate]": 1,
+      "11:[12] establish/loadCurrentLocationInfo": 1,
       "12:[13] YbbSelect/loadBusinessDataInfo [D0021 optional]": 1,
       "13:[14] establish/BasicInfo/loadBusinessDataInfo": 1,
       "14:[15] establish/BasicInfo/operationBusinessDataInfo [save]": 1,
@@ -4531,23 +4531,19 @@
     "last_attempted_step_index": 25,
     "last_attempted_step_name": "[26] establish/submit [最终提交]",
     "last_attempted_step_count": 1,
-    "phase2_driver_busi_id": "2048624034216157186",
+    "phase2_driver_busi_id": "2048692507050639360",
     "phase2_driver_ent_type": "4540",
     "phase2_driver_busi_type": "01",
-    "phase2_driver_name_id": "2048622963047604225",
+    "phase2_driver_name_id": "2048692703464071169",
     "last_step_index": 25,
     "last_step_name": "[26] establish/submit [最终提交]",
     "last_step_ok": false,
     "last_response_code": "STEP_POSITION_GUARD",
     "last_response_result_type": "",
-    "server_curr_comp_url": "YbbSelect",
-    "current_comp_url": "YbbSelect",
     "last_ok_step_index": 24,
     "last_ok_step_name": "[25] establish/PreSubmitSuccess/loadBusinessDataInfo [终点]",
     "last_ok_code": "D0010",
     "last_ok_result_type": "",
-    "current_busi_type": "02",
-    "current_ent_type": "4540",
     "current_busi_comp_comb": {
       "id": null,
       "compUrl": null
@@ -4593,7 +4589,8 @@
       "retryable": false,
       "requires_human": false
     },
-    "last_response_message": "establish/submit [最终提交] 被本地编排护栏拦截：当前感知位置为 YbbSelect，不应直接执行该步骤。",
+    "current_busi_type": "02",
+    "current_ent_type": "4540",
     "last_problem": {
       "business_stage_name": "第二阶段：信息填报",
       "page_name": "未知页面",
@@ -4617,6 +4614,21 @@
     "problems": [
       {
         "business_stage_name": "第二阶段：信息填报",
+        "page_name": "云帮办入口探测",
+        "protocol_step": 13,
+        "step_name": "[13] YbbSelect/loadBusinessDataInfo [D0021 optional]",
+        "code": "D0021",
+        "result_type": "",
+        "message": "",
+        "category": "optional_component_unavailable",
+        "severity": "warning",
+        "meaning": "可选组件不可用或当前用户无该可选入口权限",
+        "suggested_action": "如果该 step 标记 optional，可跳过；否则查询当前位置确认是否应进入下一页面。",
+        "recovery_action": "skip_if_optional",
+        "current_status": "10"
+      },
+      {
+        "business_stage_name": "第二阶段：信息填报",
         "page_name": "未知页面",
         "protocol_step": 26,
         "step_name": "[26] establish/submit [最终提交]",
@@ -4635,23 +4647,192 @@
           "PreSubmitSuccess"
         ]
       }
-    ]
+    ],
+    "server_curr_comp_url": "YbbSelect",
+    "current_comp_url": "YbbSelect",
+    "establish_busi_id": "2048692727282384898",
+    "last_response_message": "establish/submit [最终提交] 被本地编排护栏拦截：当前感知位置为 YbbSelect，不应直接执行该步骤。"
   },
   "steps": [
     {
-      "name": "YbbSelect/loadBusinessDataInfo [D0021 optional]",
+      "name": "matters/operate [108,before]",
       "ok": true,
       "code": "00000",
       "resultType": "0",
       "message": "",
       "extracted": {
-        "busiId": "2048624034216157186",
-        "nameId": "2048622963047604225",
-        "server_curr_comp_url": "YbbSelect",
+        "busiId": null,
+        "nameId": null,
+        "server_curr_comp_url": null,
+        "server_status": null,
+        "server_busi_type": null
+      },
+      "duration_s": 0.11,
+      "sent_body_keys": [],
+      "diagnostics": {
+        "schema": "smart_diagnosis.v1",
+        "pipeline": "phase2_establish",
+        "step_index": 9,
+        "step_number": 10,
+        "step_name": "[10] matters/operate [108,before]",
+        "step_tag": "p2_step10",
+        "optional": false,
+        "ok": true,
+        "code": "00000",
+        "result_type": "0",
+        "message": "",
+        "business_stage_key": "stage2_info_filling",
+        "business_stage_name": "第二阶段：信息填报",
+        "page_key": "matter_entry",
+        "page_name": "办件入口预处理",
+        "protocol_step": 10,
+        "ent_type": "4540",
+        "current_comp_url": null,
+        "current_status": "10",
+        "server_curr_comp_url": null,
+        "server_status": null,
+        "expected_components": null,
+        "expected_statuses": null,
+        "observed_current_comp_url": null,
+        "allowed_current_components": null,
+        "upstream_code": null,
+        "attempted_count": null,
+        "max_executions": null,
+        "last_ok_step_index": 9,
+        "last_ok_step_name": "[10] matters/operate [108,before]",
+        "category": "success",
+        "severity": "info",
+        "meaning": "步骤执行成功",
+        "suggested_action": "继续下一步。",
+        "recovery_action": "continue",
+        "retryable": false,
+        "requires_human": false
+      }
+    },
+    {
+      "name": "matters/operate [108,operate]",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "message": "",
+      "extracted": {
+        "busiId": null,
+        "nameId": null,
+        "server_curr_comp_url": null,
+        "server_status": null,
+        "server_busi_type": null
+      },
+      "duration_s": 0.12,
+      "sent_body_keys": [],
+      "diagnostics": {
+        "schema": "smart_diagnosis.v1",
+        "pipeline": "phase2_establish",
+        "step_index": 10,
+        "step_number": 11,
+        "step_name": "[11] matters/operate [108,operate]",
+        "step_tag": "p2_step11",
+        "optional": false,
+        "ok": true,
+        "code": "00000",
+        "result_type": "0",
+        "message": "",
+        "business_stage_key": "stage2_info_filling",
+        "business_stage_name": "第二阶段：信息填报",
+        "page_key": "matter_entry",
+        "page_name": "进入设立办件",
+        "protocol_step": 11,
+        "ent_type": "4540",
+        "current_comp_url": null,
+        "current_status": "10",
+        "server_curr_comp_url": null,
+        "server_status": null,
+        "expected_components": null,
+        "expected_statuses": null,
+        "observed_current_comp_url": null,
+        "allowed_current_components": null,
+        "upstream_code": null,
+        "attempted_count": null,
+        "max_executions": null,
+        "last_ok_step_index": 10,
+        "last_ok_step_name": "[11] matters/operate [108,operate]",
+        "category": "success",
+        "severity": "info",
+        "meaning": "步骤执行成功",
+        "suggested_action": "继续下一步。",
+        "recovery_action": "continue",
+        "retryable": false,
+        "requires_human": false
+      }
+    },
+    {
+      "name": "establish/loadCurrentLocationInfo",
+      "ok": true,
+      "code": "00000",
+      "resultType": "0",
+      "message": "",
+      "extracted": {
+        "busiId": null,
+        "nameId": "2048692703464071169",
+        "server_curr_comp_url": null,
         "server_status": "10",
         "server_busi_type": "02"
       },
-      "duration_s": 0.19,
+      "duration_s": 0.2,
+      "sent_body_keys": [],
+      "diagnostics": {
+        "schema": "smart_diagnosis.v1",
+        "pipeline": "phase2_establish",
+        "step_index": 11,
+        "step_number": 12,
+        "step_name": "[12] establish/loadCurrentLocationInfo",
+        "step_tag": "p2_step12",
+        "optional": false,
+        "ok": true,
+        "code": "00000",
+        "result_type": "0",
+        "message": "",
+        "business_stage_key": "stage2_info_filling",
+        "business_stage_name": "第二阶段：信息填报",
+        "page_key": "establish_location",
+        "page_name": "设立流程定位",
+        "protocol_step": 12,
+        "ent_type": "4540",
+        "current_comp_url": null,
+        "current_status": "10",
+        "server_curr_comp_url": null,
+        "server_status": "10",
+        "expected_components": null,
+        "expected_statuses": null,
+        "observed_current_comp_url": null,
+        "allowed_current_components": null,
+        "upstream_code": null,
+        "attempted_count": null,
+        "max_executions": null,
+        "last_ok_step_index": 11,
+        "last_ok_step_name": "[12] establish/loadCurrentLocationInfo",
+        "category": "success",
+        "severity": "info",
+        "meaning": "步骤执行成功",
+        "suggested_action": "继续下一步。",
+        "recovery_action": "continue",
+        "retryable": false,
+        "requires_human": false
+      }
+    },
+    {
+      "name": "YbbSelect/loadBusinessDataInfo [D0021 optional]",
+      "ok": false,
+      "code": "D0021",
+      "resultType": "",
+      "message": "",
+      "extracted": {
+        "busiId": null,
+        "nameId": null,
+        "server_curr_comp_url": null,
+        "server_status": null,
+        "server_busi_type": null
+      },
+      "duration_s": 0.13,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
@@ -4661,9 +4842,9 @@
         "step_name": "[13] YbbSelect/loadBusinessDataInfo [D0021 optional]",
         "step_tag": "p2_step13",
         "optional": true,
-        "ok": true,
-        "code": "00000",
-        "result_type": "0",
+        "ok": false,
+        "code": "D0021",
+        "result_type": "",
         "message": "",
         "business_stage_key": "stage2_info_filling",
         "business_stage_name": "第二阶段：信息填报",
@@ -4671,10 +4852,10 @@
         "page_name": "云帮办入口探测",
         "protocol_step": 13,
         "ent_type": "4540",
-        "current_comp_url": "YbbSelect",
+        "current_comp_url": null,
         "current_status": "10",
-        "server_curr_comp_url": "YbbSelect",
-        "server_status": "10",
+        "server_curr_comp_url": null,
+        "server_status": null,
         "expected_components": null,
         "expected_statuses": null,
         "observed_current_comp_url": null,
@@ -4682,13 +4863,13 @@
         "upstream_code": null,
         "attempted_count": null,
         "max_executions": null,
-        "last_ok_step_index": 12,
-        "last_ok_step_name": "[13] YbbSelect/loadBusinessDataInfo [D0021 optional]",
-        "category": "success",
-        "severity": "info",
-        "meaning": "步骤执行成功",
-        "suggested_action": "继续下一步。",
-        "recovery_action": "continue",
+        "last_ok_step_index": 11,
+        "last_ok_step_name": "[12] establish/loadCurrentLocationInfo",
+        "category": "optional_component_unavailable",
+        "severity": "warning",
+        "meaning": "可选组件不可用或当前用户无该可选入口权限",
+        "suggested_action": "如果该 step 标记 optional，可跳过；否则查询当前位置确认是否应进入下一页面。",
+        "recovery_action": "skip_if_optional",
         "retryable": false,
         "requires_human": false
       }
@@ -4701,12 +4882,12 @@
       "message": "",
       "extracted": {
         "busiId": null,
-        "nameId": "2048622963047604225",
+        "nameId": "2048692703464071169",
         "server_curr_comp_url": "BasicInfo",
         "server_status": "10",
         "server_busi_type": "02"
       },
-      "duration_s": 0.46,
+      "duration_s": 0.45,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
@@ -4755,13 +4936,13 @@
       "resultType": "0",
       "message": "",
       "extracted": {
-        "busiId": "2048666386683142145",
-        "nameId": "2048622963047604225",
+        "busiId": "2048692727282384898",
+        "nameId": "2048692703464071169",
         "server_curr_comp_url": "BasicInfo",
         "server_status": "10",
         "server_busi_type": "02"
       },
-      "duration_s": 0.67,
+      "duration_s": 0.52,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
@@ -4810,13 +4991,13 @@
       "resultType": "0",
       "message": "",
       "extracted": {
-        "busiId": "2048666386683142145",
-        "nameId": "2048622963047604225",
+        "busiId": "2048692727282384898",
+        "nameId": "2048692703464071169",
         "server_curr_comp_url": "MemberPost",
         "server_status": "10",
         "server_busi_type": "02"
       },
-      "duration_s": 6.19,
+      "duration_s": 6.08,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
@@ -4865,13 +5046,13 @@
       "resultType": "0",
       "message": "",
       "extracted": {
-        "busiId": "2048666386683142145",
-        "nameId": "2048622963047604225",
+        "busiId": "2048692727282384898",
+        "nameId": "2048692703464071169",
         "server_curr_comp_url": "MemberPool",
         "server_status": "10",
         "server_busi_type": "02"
       },
-      "duration_s": 0.16,
+      "duration_s": 0.65,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
@@ -4920,13 +5101,13 @@
       "resultType": "0",
       "message": "",
       "extracted": {
-        "busiId": "2048666386683142145",
-        "nameId": "2048622963047604225",
+        "busiId": "2048692727282384898",
+        "nameId": "2048692703464071169",
         "server_curr_comp_url": "MemberPool",
         "server_status": "10",
         "server_busi_type": "02"
       },
-      "duration_s": 5.31,
+      "duration_s": 19.99,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
@@ -4975,13 +5156,13 @@
       "resultType": "0",
       "message": "",
       "extracted": {
-        "busiId": "2048666386683142145",
-        "nameId": "2048622963047604225",
+        "busiId": "2048692727282384898",
+        "nameId": "2048692703464071169",
         "server_curr_comp_url": "ComplementInfo",
         "server_status": "10",
         "server_busi_type": "02"
       },
-      "duration_s": 0.63,
+      "duration_s": 0.61,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
@@ -5030,13 +5211,13 @@
       "resultType": "0",
       "message": "",
       "extracted": {
-        "busiId": "2048666386683142145",
-        "nameId": "2048622963047604225",
+        "busiId": "2048692727282384898",
+        "nameId": "2048692703464071169",
         "server_curr_comp_url": "TaxInvoice",
         "server_status": "10",
         "server_busi_type": "02"
       },
-      "duration_s": 0.51,
+      "duration_s": 0.49,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
@@ -5085,13 +5266,13 @@
       "resultType": "0",
       "message": "",
       "extracted": {
-        "busiId": "2048666386683142145",
-        "nameId": "2048622963047604225",
+        "busiId": "2048692727282384898",
+        "nameId": "2048692703464071169",
         "server_curr_comp_url": "SlUploadMaterial",
         "server_status": "10",
         "server_busi_type": "02"
       },
-      "duration_s": 11.47,
+      "duration_s": 7.9,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
@@ -5140,20 +5321,20 @@
       "resultType": "0",
       "message": "",
       "extracted": {
-        "busiId": "2048666386683142145",
-        "nameId": "2048622963047604225",
+        "busiId": "2048692727282384898",
+        "nameId": "2048692703464071169",
         "server_curr_comp_url": "BusinessLicenceWay",
         "server_status": "10",
         "server_busi_type": "02",
-        "server_name_id": "2048622963047604225",
-        "server_busi_id": "2048666386683142145",
+        "server_name_id": "2048692703464071169",
+        "server_busi_id": "2048692727282384898",
         "expected_components": [
           "YbbSelect",
           "PreElectronicDoc",
           "PreSubmitSuccess"
         ]
       },
-      "duration_s": 0.72,
+      "duration_s": 0.68,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
@@ -5217,19 +5398,19 @@
           "stage": "connect",
           "error": "URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>"
         },
-        "busiId": "2048666386683142145",
-        "nameId": "2048622963047604225",
+        "busiId": "2048692727282384898",
+        "nameId": "2048692703464071169",
         "server_curr_comp_url": "YbbSelect",
         "server_status": "10",
         "server_busi_type": "02",
-        "server_name_id": "2048622963047604225",
-        "server_busi_id": "2048666386683142145",
+        "server_name_id": "2048692703464071169",
+        "server_busi_id": "2048692727282384898",
         "expected_components": [
           "PreElectronicDoc",
           "PreSubmitSuccess"
         ]
       },
-      "duration_s": 15.4,
+      "duration_s": 16.84,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
@@ -5311,7 +5492,7 @@
         "progress_validation_skipped": true,
         "progress_validation_skip_reason": "code=D0018"
       },
-      "duration_s": 0.45,
+      "duration_s": 0.46,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
@@ -5380,7 +5561,7 @@
         "progress_validation_skipped": true,
         "progress_validation_skip_reason": "code=D0010"
       },
-      "duration_s": 0.17,
+      "duration_s": 0.14,
       "sent_body_keys": [],
       "diagnostics": {
         "schema": "smart_diagnosis.v1",
@@ -5485,5 +5666,5 @@
       }
     }
   ],
-  "timestamp": "2026-04-27 15:29:21"
+  "timestamp": "2026-04-27 17:18:17"
 }

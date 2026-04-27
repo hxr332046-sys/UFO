@@ -1,13 +1,61 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-04-27T16:57:57",
+  "last_updated": "2026-04-27T17:18:18",
   "fields": {
     "materialVoList": {
       "label": "materialVoList",
       "source": "SlUploadMaterial.busiData.uploadMaterialVo[0].materialVoList",
       "is_open": false,
-      "last_seen": "2026-04-27T16:29:42",
+      "last_seen": "2026-04-27T17:17:39",
       "options": [
+        {
+          "code": "",
+          "name": "人像面.jpg"
+        },
+        {
+          "code": "",
+          "name": "国徽面.jpg"
+        },
+        {
+          "code": "",
+          "name": "人像面.jpg"
+        },
+        {
+          "code": "",
+          "name": "国徽面.jpg"
+        },
+        {
+          "code": "",
+          "name": "人像面.jpg"
+        },
+        {
+          "code": "",
+          "name": "国徽面.jpg"
+        },
+        {
+          "code": "",
+          "name": "人像面.jpg"
+        },
+        {
+          "code": "",
+          "name": "国徽面.jpg"
+        },
+        {
+          "code": "",
+          "name": "人像面.jpg"
+        },
+        {
+          "code": "",
+          "name": "国徽面.jpg"
+        },
+        {
+          "code": "",
+          "name": "人像面.jpg"
+        },
+        {
+          "code": "",
+          "name": "国徽面.jpg"
+        },
         {
           "code": "",
           "name": "人像面.jpg"
@@ -94,7 +142,7 @@
       "label": "taxBusinessTypeList",
       "source": "TaxInvoice.busiData.taxInvoiceGxVo.taxBusinessTypeList",
       "is_open": false,
-      "last_seen": "2026-04-27T16:29:42",
+      "last_seen": "2026-04-27T17:17:27",
       "options": [
         {
           "code": "10",
@@ -118,7 +166,7 @@
       "label": "BasicInfo 表单字段元数据",
       "source": "BasicInfo.busiData.fieldList",
       "is_open": false,
-      "last_seen": "2026-04-27T16:29:42",
+      "last_seen": "2026-04-27T17:16:37",
       "options": [
         {
           "code": "name",
@@ -666,7 +714,7 @@
       "label": "BusinessLicenceWay 表单字段元数据",
       "source": "BusinessLicenceWay.busiData.fieldList",
       "is_open": false,
-      "last_seen": "2026-04-27T16:29:42",
+      "last_seen": "2026-04-27T17:17:44",
       "options": [
         {
           "code": "mainSign",
@@ -734,7 +782,7 @@
       "label": "ComplementInfo 表单字段元数据",
       "source": "ComplementInfo.busiData.partyBuildDto.fieldList",
       "is_open": false,
-      "last_seen": "2026-04-27T16:29:42",
+      "last_seen": "2026-04-27T17:17:22",
       "options": [
         {
           "code": "estParSign",
@@ -826,7 +874,7 @@
       "label": "MemberBaseInfo 表单字段元数据",
       "source": "MemberBaseInfo.busiData.fieldList",
       "is_open": false,
-      "last_seen": "2026-04-27T15:28:01",
+      "last_seen": "2026-04-27T17:16:44",
       "options": [
         {
           "code": "naturalFlag",
@@ -1142,7 +1190,7 @@
       "label": "busiAreaCode",
       "source": "BasicInfo.busiData.busiAreaCode",
       "is_open": false,
-      "last_seen": "2026-04-27T16:29:42",
+      "last_seen": "2026-04-27T17:16:37",
       "options": [
         {
           "code": "I3006",
@@ -1154,7 +1202,7 @@
       "label": "namePreIndustryTypeCode",
       "source": "BasicInfo.busiData.namePreIndustryTypeCode",
       "is_open": false,
-      "last_seen": "2026-04-27T16:29:42",
+      "last_seen": "2026-04-27T17:16:37",
       "options": [
         {
           "code": "6513",
@@ -1166,7 +1214,7 @@
       "label": "行政区域代码（树形展平）",
       "source": "BasicInfo.busiData.entDomicileDto.distCode",
       "is_open": false,
-      "last_seen": "2026-04-27T16:52:27",
+      "last_seen": "2026-04-27T17:16:37",
       "options": [
         {
           "code": "450921",
@@ -2137,7 +2185,7 @@
       "label": "regionCode",
       "source": "BasicInfo.busiData.entDomicileDto.regionCode",
       "is_open": false,
-      "last_seen": "2026-04-27T16:29:42",
+      "last_seen": "2026-04-27T17:16:37",
       "options": [
         {
           "code": "450921",
@@ -2149,7 +2197,7 @@
       "label": "pkAndMem 角色枚举",
       "source": "MemberPost.busiData.pkAndMem",
       "is_open": false,
-      "last_seen": "2026-04-27T16:29:42",
+      "last_seen": "2026-04-27T17:16:48",
       "options": [
         {
           "code": "FR05",
@@ -2173,7 +2221,7 @@
       "label": "国籍",
       "source": "MemberPost.busiData.pkAndMem.FR05[0].nationalityCode",
       "is_open": false,
-      "last_seen": "2026-04-27T16:32:24",
+      "last_seen": "2026-04-27T17:16:57",
       "options": [
         {
           "code": "156",
@@ -2249,7 +2297,7 @@
       "label": "uploadMaterialVo",
       "source": "SlUploadMaterial.busiData.uploadMaterialVo",
       "is_open": false,
-      "last_seen": "2026-04-27T16:29:42",
+      "last_seen": "2026-04-27T17:17:39",
       "options": [
         {
           "code": "",
@@ -2266,6 +2314,30 @@
         {
           "code": "212",
           "name": "其它上传材料"
+        },
+        {
+          "code": "",
+          "name": "黄永裕身份证"
+        },
+        {
+          "code": "",
+          "name": "黄永裕身份证"
+        },
+        {
+          "code": "",
+          "name": "黄永裕身份证"
+        },
+        {
+          "code": "",
+          "name": "黄永裕身份证"
+        },
+        {
+          "code": "",
+          "name": "黄永裕身份证"
+        },
+        {
+          "code": "",
+          "name": "黄永裕身份证"
         }
       ]
     },
@@ -6217,6 +6289,438 @@
           "depth": 0,
           "show_type": "fz",
           "use_type": null
+        }
+      ]
+    },
+    "_fieldList_NameCheckInfo": {
+      "label": "NameCheckInfo 表单字段元数据",
+      "source": "NameCheckInfo.busiData.fieldList",
+      "is_open": false,
+      "last_seen": "2026-04-27T17:15:41",
+      "options": [
+        {
+          "code": "namePre",
+          "name": "行政区划",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "NameCheckInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.name.NameCheckInfo.areaCode",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "nameMark",
+          "name": "字号",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "NameCheckInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.name.NameCheckInfo.nameMark",
+          "limit_length": null,
+          "sort": 2
+        },
+        {
+          "code": "industrySpecial",
+          "name": "行业/经营特点",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "NameCheckInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.name.NameCheckInfo.industrySpecial",
+          "limit_length": null,
+          "sort": 3
+        },
+        {
+          "code": "organize",
+          "name": "组织形式",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "NameCheckInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.name.NameCheckInfo.organize",
+          "limit_length": null,
+          "sort": 4
+        },
+        {
+          "code": "isCheckGroupName",
+          "name": "冠集团母公司名称",
+          "must_flag": "0",
+          "ent_type": "4540",
+          "comp_url": "NameCheckInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.name.NameCheckInfo.isCheckGroupName",
+          "limit_length": null,
+          "sort": 5
+        },
+        {
+          "code": "jtEntName",
+          "name": "集团母公司名称",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "NameCheckInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.name.NameCheckInfo.jtEntName",
+          "limit_length": null,
+          "sort": 6
+        },
+        {
+          "code": "jtUniscId",
+          "name": "统一社会信用代码",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "NameCheckInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.name.NameCheckInfo.jtUniscId",
+          "limit_length": null,
+          "sort": 7
+        },
+        {
+          "code": "noIndSign",
+          "name": "无行业表述",
+          "must_flag": "0",
+          "ent_type": "4540",
+          "comp_url": "NameCheckInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.name.NameCheckInfo.noMultiIndustry",
+          "limit_length": null,
+          "sort": 8
+        },
+        {
+          "code": "name",
+          "name": "请确定您的企业名称",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "NameCheckInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.name.NameCheckInfo.chooseBusinessName",
+          "limit_length": null,
+          "sort": 9
+        },
+        {
+          "code": "isPCom",
+          "name": "是否作为集团母公司",
+          "must_flag": "0",
+          "ent_type": "4540",
+          "comp_url": "NameCheckInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.name.NameCheckInfo.isPCom",
+          "limit_length": null,
+          "sort": 10
+        },
+        {
+          "code": "grpName",
+          "name": "集团名称",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "NameCheckInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.name.NameCheckInfo.grpName",
+          "limit_length": null,
+          "sort": 11
+        },
+        {
+          "code": "authorizeInfo",
+          "name": "授权信息",
+          "must_flag": "0",
+          "ent_type": "4540",
+          "comp_url": "NameCheckInfo",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.name.NameCheckInfo.authorizeInfo",
+          "limit_length": null,
+          "sort": 13
+        }
+      ]
+    },
+    "_fieldList_NameSupplement": {
+      "label": "NameSupplement 表单字段元数据",
+      "source": "NameSupplement.busiData.fieldList",
+      "is_open": false,
+      "last_seen": "2026-04-27T17:15:58",
+      "options": [
+        {
+          "code": "distCodeArr",
+          "name": "所在地区",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "NameSupplement",
+          "readonly": "",
+          "sensitive": "0",
+          "gjh_code": "register.name.NameSupplement.distCodeArr",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "agentName",
+          "name": "经办人姓名",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "NameSupplement",
+          "readonly": "",
+          "sensitive": "0",
+          "gjh_code": "register.name.NameSupplement.agentName",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "nameBaseInfo",
+          "name": "基本信息",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "NameSupplement",
+          "readonly": "",
+          "sensitive": "0",
+          "gjh_code": "register.name.NameSupplement.nameBaseInfo",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "agentInfo",
+          "name": "经办人信息",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "NameSupplement",
+          "readonly": "",
+          "sensitive": "0",
+          "gjh_code": "register.name.NameSupplement.agentInfo",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "freTraDisFlag",
+          "name": "是否是自贸区企业",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "NameSupplement",
+          "readonly": "",
+          "sensitive": "0",
+          "gjh_code": "register.name.NameSupplement.freTraDisFlag",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "busiteCodes",
+          "name": "事项审批代码",
+          "must_flag": "0",
+          "ent_type": "4540",
+          "comp_url": "NameSupplement",
+          "readonly": "",
+          "sensitive": "0",
+          "gjh_code": "register.name.NameSupplement.busiteCodes",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "address",
+          "name": "完整地址",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "NameSupplement",
+          "readonly": "",
+          "sensitive": "0",
+          "gjh_code": "register.name.NameSupplement.address",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "registerCapital",
+          "name": "注册资本",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "NameSupplement",
+          "readonly": "",
+          "sensitive": "",
+          "gjh_code": "register.name.NameSupplement.registerCapitalCze",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "investorInfo",
+          "name": "投资人信息",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "NameSupplement",
+          "readonly": "",
+          "sensitive": "0",
+          "gjh_code": "register.name.NameSupplement.investorInfo",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "orgNameUnit",
+          "name": "登记机关",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "NameSupplement",
+          "readonly": "",
+          "sensitive": "0",
+          "gjh_code": "register.name.NameSupplement.orgNameUnit",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "agentCerType",
+          "name": "经办人证件类型",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "NameSupplement",
+          "readonly": "",
+          "sensitive": "0",
+          "gjh_code": "register.name.NameSupplement.agentCerType",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "businessAreaUnit",
+          "name": "经营范围",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "NameSupplement",
+          "readonly": "",
+          "sensitive": "0",
+          "gjh_code": "register.name.NameSupplement.businessAreaUnit",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "agent.certificateNo",
+          "name": "经办人证件号码",
+          "must_flag": "1",
+          "ent_type": "4540",
+          "comp_url": "NameSupplement",
+          "readonly": "",
+          "sensitive": "0",
+          "gjh_code": "register.name.NameSupplement.agent.certificateNo",
+          "limit_length": null,
+          "sort": 1
+        }
+      ]
+    },
+    "_fieldList_NameShareholder": {
+      "label": "NameShareholder 表单字段元数据",
+      "source": "NameShareholder.busiData.fieldList",
+      "is_open": false,
+      "last_seen": "2026-04-27T17:16:02",
+      "options": [
+        {
+          "code": "cerType",
+          "name": "证件类型",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "NameShareholder",
+          "readonly": "",
+          "sensitive": "0",
+          "gjh_code": "register.name.NameShareholder.cerType",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "certificateNo",
+          "name": "证件号码",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "NameShareholder",
+          "readonly": "",
+          "sensitive": "1",
+          "gjh_code": "register.name.NameShareholder.certificateNo",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "bLicType",
+          "name": "证照类型",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "NameShareholder",
+          "readonly": "",
+          "sensitive": "0",
+          "gjh_code": "register.name.NameShareholder.bLicType",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "invType",
+          "name": "投资人类型",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "NameShareholder",
+          "readonly": "",
+          "sensitive": "0",
+          "gjh_code": "register.name.NameShareholder.invType",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "bLicNO",
+          "name": "证照号码",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "NameShareholder",
+          "readonly": "",
+          "sensitive": "1",
+          "gjh_code": "register.name.NameShareholder.bLicNO",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "name",
+          "name": "投资人姓名",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "NameShareholder",
+          "readonly": "",
+          "sensitive": "0",
+          "gjh_code": "register.name.NameShareholder.name",
+          "limit_length": null,
+          "sort": 1
+        },
+        {
+          "code": "nation",
+          "name": "国籍",
+          "must_flag": "1",
+          "ent_type": "",
+          "comp_url": "NameShareholder",
+          "readonly": "",
+          "sensitive": "0",
+          "gjh_code": "register.name.NameShareholder.nation",
+          "limit_length": null,
+          "sort": 1
+        }
+      ]
+    },
+    "responsWayCodes": {
+      "label": "responsWayCodes",
+      "source": "MemberInfo.busiData.responsWayCodes",
+      "is_open": false,
+      "last_seen": "2026-04-27T17:16:57",
+      "options": [
+        {
+          "code": "1",
+          "name": "无限责任"
+        },
+        {
+          "code": "2",
+          "name": "有限责任"
+        },
+        {
+          "code": "3",
+          "name": "特殊普通合伙责任"
+        },
+        {
+          "code": "9",
+          "name": "其他"
         }
       ]
     }

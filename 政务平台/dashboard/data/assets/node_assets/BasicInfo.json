@@ -1,6 +1,6 @@
 {
   "schema": "ufo.node_asset.v1",
-  "generated_at": "2026-04-27 15:29:21",
+  "generated_at": "2026-04-27 17:18:18",
   "comp_url": "BasicInfo",
   "page_name": "基本信息",
   "business_stage_name": "第二阶段：信息填报",
@@ -50,7 +50,7 @@
         "followup_message": "",
         "protocol_extracted": {
           "busiId": null,
-          "nameId": "2048622963047604225",
+          "nameId": "2048692703464071169",
           "server_curr_comp_url": "BasicInfo",
           "server_status": "10",
           "server_busi_type": "02"
@@ -75,8 +75,8 @@
         "followup_code": null,
         "followup_message": "",
         "protocol_extracted": {
-          "busiId": "2048666386683142145",
-          "nameId": "2048622963047604225",
+          "busiId": "2048692727282384898",
+          "nameId": "2048692703464071169",
           "server_curr_comp_url": "BasicInfo",
           "server_status": "10",
           "server_busi_type": "02"
@@ -91,7 +91,7 @@
       "busiType": "02",
       "ywlbSign": "4",
       "busiMode": null,
-      "nameId": "2048622963047604225",
+      "nameId": "2048692703464071169",
       "marPrId": null,
       "secondId": null,
       "vipChannel": null,
@@ -169,7 +169,7 @@
     },
     "current_location_vo": {
       "busiType": "02",
-      "entName": "鸿启智（广西容县）软件开发中心（个人独资）",
+      "entName": "嘉惠诚（广西容县）软件开发中心（个人独资）",
       "uniScId": null,
       "readOnlyStepList": [
         "confirm",
@@ -184,7 +184,7 @@
       ]
     },
     "item_id_sample": "",
-    "sign_info_sample": "-707167196",
+    "sign_info_sample": "-861621593",
     "sequence": {
       "index": 1,
       "previous_component": "NameInfoDisplay",
@@ -789,7 +789,7 @@
       "busiType": "02",
       "ywlbSign": "4",
       "busiMode": null,
-      "nameId": "2048622963047604225",
+      "nameId": "2048692703464071169",
       "marPrId": null,
       "secondId": null,
       "vipChannel": null,
@@ -918,7 +918,7 @@
         "followup_message": "",
         "protocol_extracted": {
           "busiId": null,
-          "nameId": "2048622963047604225",
+          "nameId": "2048692703464071169",
           "server_curr_comp_url": "BasicInfo",
           "server_status": "10",
           "server_busi_type": "02"
@@ -943,8 +943,8 @@
         "followup_code": null,
         "followup_message": "",
         "protocol_extracted": {
-          "busiId": "2048666386683142145",
-          "nameId": "2048622963047604225",
+          "busiId": "2048692727282384898",
+          "nameId": "2048692703464071169",
           "server_curr_comp_url": "BasicInfo",
           "server_status": "10",
           "server_busi_type": "02"
