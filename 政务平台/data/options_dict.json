@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-04-27T16:29:42",
+  "last_updated": "2026-04-27T16:32:24",
   "fields": {
     "materialVoList": {
       "label": "materialVoList",
@@ -1211,14 +1211,78 @@
       ]
     },
     "nationalityCode": {
-      "label": "nationalityCode",
+      "label": "国籍",
       "source": "MemberPost.busiData.pkAndMem.FR05[0].nationalityCode",
       "is_open": false,
-      "last_seen": "2026-04-27T16:29:42",
+      "last_seen": "2026-04-27T16:32:24",
       "options": [
         {
           "code": "156",
           "name": "中国"
+        },
+        {
+          "code": "344",
+          "name": "中国香港"
+        },
+        {
+          "code": "446",
+          "name": "中国澳门"
+        },
+        {
+          "code": "158",
+          "name": "中国台湾"
+        },
+        {
+          "code": "840",
+          "name": "美国"
+        },
+        {
+          "code": "826",
+          "name": "英国"
+        },
+        {
+          "code": "276",
+          "name": "德国"
+        },
+        {
+          "code": "250",
+          "name": "法国"
+        },
+        {
+          "code": "392",
+          "name": "日本"
+        },
+        {
+          "code": "410",
+          "name": "韩国"
+        },
+        {
+          "code": "036",
+          "name": "澳大利亚"
+        },
+        {
+          "code": "124",
+          "name": "加拿大"
+        },
+        {
+          "code": "643",
+          "name": "俄罗斯"
+        },
+        {
+          "code": "356",
+          "name": "印度"
+        },
+        {
+          "code": "702",
+          "name": "新加坡"
+        },
+        {
+          "code": "458",
+          "name": "马来西亚"
+        },
+        {
+          "code": "764",
+          "name": "泰国"
         }
       ]
     },
@@ -1243,6 +1307,458 @@
         {
           "code": "212",
           "name": "其它上传材料"
+        }
+      ]
+    },
+    "politicalStatus": {
+      "label": "政治面貌",
+      "source": "national_standard:GB/T 4762-1984",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:32:24",
+      "options": [
+        {
+          "code": "01",
+          "name": "中共党员"
+        },
+        {
+          "code": "02",
+          "name": "中共预备党员"
+        },
+        {
+          "code": "03",
+          "name": "共青团员"
+        },
+        {
+          "code": "04",
+          "name": "民革会员"
+        },
+        {
+          "code": "05",
+          "name": "民盟盟员"
+        },
+        {
+          "code": "06",
+          "name": "民建会员"
+        },
+        {
+          "code": "07",
+          "name": "民进会员"
+        },
+        {
+          "code": "08",
+          "name": "农工党党员"
+        },
+        {
+          "code": "09",
+          "name": "致公党党员"
+        },
+        {
+          "code": "10",
+          "name": "九三学社社员"
+        },
+        {
+          "code": "11",
+          "name": "台盟盟员"
+        },
+        {
+          "code": "12",
+          "name": "无党派人士"
+        },
+        {
+          "code": "13",
+          "name": "群众"
+        }
+      ]
+    },
+    "eduDegree": {
+      "label": "学历",
+      "source": "national_standard:GB/T 4658-2006",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:32:24",
+      "options": [
+        {
+          "code": "10",
+          "name": "研究生教育"
+        },
+        {
+          "code": "11",
+          "name": "博士研究生毕业"
+        },
+        {
+          "code": "14",
+          "name": "硕士研究生毕业"
+        },
+        {
+          "code": "17",
+          "name": "研究生班毕业"
+        },
+        {
+          "code": "20",
+          "name": "大学本科"
+        },
+        {
+          "code": "21",
+          "name": "大学本科毕业"
+        },
+        {
+          "code": "30",
+          "name": "大学专科"
+        },
+        {
+          "code": "31",
+          "name": "大学专科毕业"
+        },
+        {
+          "code": "40",
+          "name": "中等职业教育"
+        },
+        {
+          "code": "41",
+          "name": "中等专科毕业"
+        },
+        {
+          "code": "60",
+          "name": "普通高级中学"
+        },
+        {
+          "code": "61",
+          "name": "普通高中毕业"
+        },
+        {
+          "code": "70",
+          "name": "初级中学"
+        },
+        {
+          "code": "80",
+          "name": "小学"
+        },
+        {
+          "code": "90",
+          "name": "其他"
+        }
+      ]
+    },
+    "sexCode": {
+      "label": "性别",
+      "source": "national_standard:GB/T 2261.1-2003",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:32:24",
+      "options": [
+        {
+          "code": "0",
+          "name": "未知"
+        },
+        {
+          "code": "1",
+          "name": "男"
+        },
+        {
+          "code": "2",
+          "name": "女"
+        },
+        {
+          "code": "9",
+          "name": "未说明"
+        }
+      ]
+    },
+    "cerType": {
+      "label": "证件类型",
+      "source": "national_standard:政务平台通用",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:32:24",
+      "options": [
+        {
+          "code": "10",
+          "name": "中华人民共和国居民身份证"
+        },
+        {
+          "code": "11",
+          "name": "中华人民共和国临时居民身份证"
+        },
+        {
+          "code": "12",
+          "name": "中华人民共和国户口簿"
+        },
+        {
+          "code": "20",
+          "name": "军官证"
+        },
+        {
+          "code": "21",
+          "name": "士兵证"
+        },
+        {
+          "code": "22",
+          "name": "武装警察身份证件"
+        },
+        {
+          "code": "30",
+          "name": "中华人民共和国护照"
+        },
+        {
+          "code": "40",
+          "name": "港澳居民来往内地通行证"
+        },
+        {
+          "code": "41",
+          "name": "中华人民共和国港澳居民居住证"
+        },
+        {
+          "code": "50",
+          "name": "台湾居民来往大陆通行证"
+        },
+        {
+          "code": "51",
+          "name": "中华人民共和国台湾居民居住证"
+        },
+        {
+          "code": "60",
+          "name": "外国人永久居留身份证"
+        },
+        {
+          "code": "61",
+          "name": "外国人居留许可"
+        },
+        {
+          "code": "62",
+          "name": "外国护照"
+        },
+        {
+          "code": "63",
+          "name": "外国人入境居留许可"
+        },
+        {
+          "code": "70",
+          "name": "中华人民共和国海员证"
+        },
+        {
+          "code": "90",
+          "name": "其他证件"
+        }
+      ]
+    },
+    "naturalFlag": {
+      "label": "自然人/法人标识",
+      "source": "national_standard:政务平台通用",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:32:24",
+      "options": [
+        {
+          "code": "0",
+          "name": "非自然人(法人/组织)"
+        },
+        {
+          "code": "1",
+          "name": "自然人"
+        }
+      ]
+    },
+    "marriage": {
+      "label": "婚姻状况",
+      "source": "national_standard:GB/T 2261.2-2003",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:32:24",
+      "options": [
+        {
+          "code": "10",
+          "name": "未婚"
+        },
+        {
+          "code": "20",
+          "name": "已婚"
+        },
+        {
+          "code": "21",
+          "name": "初婚"
+        },
+        {
+          "code": "22",
+          "name": "再婚"
+        },
+        {
+          "code": "23",
+          "name": "复婚"
+        },
+        {
+          "code": "30",
+          "name": "丧偶"
+        },
+        {
+          "code": "40",
+          "name": "离婚"
+        },
+        {
+          "code": "90",
+          "name": "未说明"
+        }
+      ]
+    },
+    "yesNo": {
+      "label": "是否",
+      "source": "national_standard:政务平台通用",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:32:24",
+      "options": [
+        {
+          "code": "0",
+          "name": "否"
+        },
+        {
+          "code": "1",
+          "name": "是"
+        }
+      ]
+    },
+    "yesOrNoList": {
+      "label": "是/否（列表形式）",
+      "source": "national_standard:",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:32:24",
+      "options": [
+        {
+          "code": "Y",
+          "name": "是"
+        },
+        {
+          "code": "N",
+          "name": "否"
+        }
+      ]
+    },
+    "investWay": {
+      "label": "出资方式",
+      "source": "national_standard:公司法",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:32:24",
+      "options": [
+        {
+          "code": "1",
+          "name": "货币"
+        },
+        {
+          "code": "2",
+          "name": "实物"
+        },
+        {
+          "code": "3",
+          "name": "知识产权"
+        },
+        {
+          "code": "4",
+          "name": "土地使用权"
+        },
+        {
+          "code": "5",
+          "name": "股权"
+        },
+        {
+          "code": "6",
+          "name": "债权"
+        },
+        {
+          "code": "9",
+          "name": "其他"
+        }
+      ]
+    },
+    "houseUseMode": {
+      "label": "房产使用方式",
+      "source": "national_standard:市场监管总局",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:32:24",
+      "options": [
+        {
+          "code": "1",
+          "name": "自有"
+        },
+        {
+          "code": "2",
+          "name": "租赁"
+        },
+        {
+          "code": "3",
+          "name": "无偿使用"
+        },
+        {
+          "code": "9",
+          "name": "其他"
+        }
+      ]
+    },
+    "businessLicenceWay": {
+      "label": "营业执照领取方式",
+      "source": "national_standard:",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:32:24",
+      "options": [
+        {
+          "code": "1",
+          "name": "自取"
+        },
+        {
+          "code": "2",
+          "name": "邮寄"
+        }
+      ]
+    },
+    "pkAndMem_full": {
+      "label": "成员角色码（全集）",
+      "source": "national_standard:",
+      "is_open": false,
+      "last_seen": "2026-04-27T16:32:24",
+      "options": [
+        {
+          "code": "FR05",
+          "name": "法定代表人/经营者"
+        },
+        {
+          "code": "FR",
+          "name": "法定代表人"
+        },
+        {
+          "code": "FR01",
+          "name": "执行董事"
+        },
+        {
+          "code": "FR02",
+          "name": "总经理"
+        },
+        {
+          "code": "FR03",
+          "name": "董事长"
+        },
+        {
+          "code": "CWFZR",
+          "name": "财务负责人"
+        },
+        {
+          "code": "LLY",
+          "name": "联络员"
+        },
+        {
+          "code": "WTDLR",
+          "name": "委托代理人"
+        },
+        {
+          "code": "JBR",
+          "name": "经办人"
+        },
+        {
+          "code": "GD",
+          "name": "股东"
+        },
+        {
+          "code": "JS",
+          "name": "监事"
+        },
+        {
+          "code": "JL",
+          "name": "经理"
+        },
+        {
+          "code": "DSH",
+          "name": "董事会成员"
         }
       ]
     }
